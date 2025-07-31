@@ -1,0 +1,376 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /home/szenei/ENZYMES/HALOGENATION/NON_HEME_HALOGENASES/variant_A_unactivated_sp3/crossval_profile/crossval_out_WP_158075676.1|dAMP_extraction.fasta.hmm
+# target sequence database:        /home/szenei/ENZYMES/HALOGENATION/NON_HEME_HALOGENASES/known_nhfehal.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       crossval_out_WP_158075676.1|dAMP_extraction.fasta_aligned  [M=234]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence               Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------               -----------
+    9.6e-99  320.4   0.1    1.1e-98  320.2   0.1    1.0  1  PkHalD|A                
+    8.7e-93  300.9   0.0    9.7e-93  300.8   0.0    1.0  1  SwHalB|A                
+    5.7e-84  272.1   0.0    6.3e-84  271.9   0.0    1.0  1  BesD|A                  
+    1.7e-78  254.1   0.0    1.9e-78  254.0   0.0    1.0  1  WelO5|A                 
+    2.8e-77  250.2   0.0    3.2e-77  250.0   0.0    1.0  1  AmbO5|A                 
+    1.2e-37  120.5   0.0    1.9e-37  119.8   0.0    1.3  1  VaNTH|WP_204007738.1|A  
+    1.2e-37  120.5   0.0    1.9e-37  119.8   0.0    1.3  1  WP_182876399.1|dAMP     
+    3.4e-37  119.0   0.0    5.4e-37  118.3   0.0    1.3  1  AdaV|AKQ99303.1|A       
+    9.6e-37  117.5   0.1    1.5e-36  116.8   0.1    1.3  1  CtNTH|WP_217394979.1|A  
+    2.2e-36  116.3   0.0    3.6e-36  115.6   0.0    1.3  1  WP_030883106.1|dAMP     
+    8.8e-29   91.4   0.0    2.8e-28   89.8   0.0    1.7  1  WP_158075676.1|dAMP     
+
+
+Domain annotation for each sequence (and alignments):
+>> PkHalD|A  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  320.2   0.1   4.9e-99   1.1e-98       8     234 .]       1     255 [.       1     255 [. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 320.2 bits;  conditional E-value: 4.9e-99
+  crossval_out_WP_158075676.1|dAMP_extraction.fasta_aligned   8 mdenrrevlahehegiiikgvqlpleddgglkyilndfrrfG.......tlv 52 
+                                                                m+e++++++++ +e++++k++q++l+d++++k+i+n+frr+G       +++
+                                                   PkHalD|A   1 MSEQTSSLVIEVMEQQLAKHFQAILQDENRMKQIRNEFRRDGyfnfknfSFL 52 
+                                                                789************************************************* PP
+
+  crossval_out_WP_158075676.1|dAMP_extraction.fasta_aligned  53 epviaeavvaeshdLlD..akrsdvvlknig...Rmlssvseeeiasggrli 99 
+                                                                +++i+e+v+ae+h+LlD  ++r+dv+++++g   R++++v+++eia+gg++i
+                                                   PkHalD|A  53 PKRILENVHAEVHALLDeySVRRDVTVPSTGntyRKMYNVNQPEIAEGGTFI 104
+                                                                ******************99******************************** PP
+
+  crossval_out_WP_158075676.1|dAMP_extraction.fasta_aligned 100 patyrvtelreileaiagdellsckehekylitkqeq.............ls 138
+                                                                pa+y++++lr++l++iagd+l+sc+e+e+yl+tk ++             ++
+                                                   PkHalD|A 105 PALYQSESLRKFLGNIAGDDLASCWEQEQYLVTKLSHpgdthgwhwgdypYT 156
+                                                                **************************************************** PP
+
+  crossval_out_WP_158075676.1|dAMP_extraction.fasta_aligned 139 sillleapekievggelq.vlhteWdkqepqieeYlvenpiksyqsekGDli 189
+                                                                +i+++eape++++gg+lq v+h+eWdkq+pqi++Y+++npiksy++ kGD++
+                                                   PkHalD|A 157 MIWIIEAPEDPAIGGVLQcVPHSEWDKQNPQIWQYILNNPIKSYHHLKGDVY 208
+                                                                **************************************************** PP
+
+  crossval_out_WP_158075676.1|dAMP_extraction.fasta_aligned 190 llrsdttlHrvvplredstrriLntcwAsskdrskkvahe..eaiwd 234
+                                                                +l+sdttlH+vvp+++++tr+iLntcwAs++dr+++vahe  e+iwd
+                                                   PkHalD|A 209 FLKSDTTLHHVVPIQQETTRIILNTCWASAHDRRTDVAHEsiEVIWD 255
+                                                                ****************************************9999**8 PP
+
+>> SwHalB|A  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  300.8   0.0   4.4e-93   9.7e-93      12     234 .]       3     251 .]       1     251 [] 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 300.8 bits;  conditional E-value: 4.4e-93
+  crossval_out_WP_158075676.1|dAMP_extraction.fasta_aligned  12 rrevlahehegiiikgvqlpleddgglkyilndfrrfG.....tlvepviae 58 
+                                                                +++++a+++e++i+k+++++++dd+++  ++++frr+G     +lv+p++++
+                                                   SwHalB|A   3 ENSITAANVEELIAKNIAERFADDHEVLGLSQHFRREGyvklpGLVSPEVFD 54 
+                                                                589************************************************* PP
+
+  crossval_out_WP_158075676.1|dAMP_extraction.fasta_aligned  59 avvaeshdLlD..akrsdvvlknig...Rmlssvseeeiasggrlipatyrv 105
+                                                                av+ae+h+L+D  +kr+d++lk++g   R++s+v++++ia++g+lipa+y++
+                                                   SwHalB|A  55 AVAAETHQLIDthQKRIDIRLKETGdspRYMSTVGQKAIATDGSLIPAVYES 106
+                                                                **************************************************** PP
+
+  crossval_out_WP_158075676.1|dAMP_extraction.fasta_aligned 106 telreileaiagdellsc.kehekylitkqeq.............lssilll 143
+                                                                t+l+++l+++a++e+++c +++eky+it+q+q             +++i+l+
+                                                   SwHalB|A 107 TALKGFLSRLAKEEVMGCpWDEEKYIITRQHQkgdthgwhwgdfsFTVIWLI 158
+                                                                **************************************************** PP
+
+  crossval_out_WP_158075676.1|dAMP_extraction.fasta_aligned 144 eapekievggelq.vlhteWdkqepqieeYlvenpiksyqsekGDlillrsd 194
+                                                                eap+ +e+gg+lq ++ht+W+k++p++e+Yl+++pi+sy+++kGDl+llrsd
+                                                   SwHalB|A 159 EAPS-LEYGGMLQcIPHTDWNKDDPRVEDYLQKHPIRSYGHAKGDLYLLRSD 209
+                                                                ****.9********************************************** PP
+
+  crossval_out_WP_158075676.1|dAMP_extraction.fasta_aligned 195 ttlHrvvplredstrriLntcwAsskdrskkvahe..eaiwd 234
+                                                                ttlHr+vpl++d+tr+iLntcwAs++d++k+++he  +a++d
+                                                   SwHalB|A 210 TTLHRTVPLNADRTRIILNTCWASRADQQKATTHEtmNAMFD 251
+                                                                ***********************************9999997 PP
+
+>> BesD|A  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  271.9   0.0   2.9e-84   6.3e-84      23     234 .]       9     243 ..       1     243 [. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 271.9 bits;  conditional E-value: 2.9e-84
+  crossval_out_WP_158075676.1|dAMP_extraction.fasta_aligned  23 iiikgvqlpleddgglkyilndfrrfG.....tlvepviaeavvaeshdLlD 69 
+                                                                + +k+v++ple+d+ +++++++f+rfG     +l+ep+++++v+ae+++LlD
+                                                     BesD|A   9 QELKDVCAPLEKDD-IRRLSQAFHRFGivtvtELIEPHTRKLVRAEADRLLD 59 
+                                                                456**********9.************************************* PP
+
+  crossval_out_WP_158075676.1|dAMP_extraction.fasta_aligned  70 ..akrsdvvlknig...Rmlssvseeeiasggrlipatyrvtelreileaia 116
+                                                                  a+r+d++l++++   R++s v++e+ia++++l++++y+++el ++leaia
+                                                     BesD|A  60 qyAERRDLRLATTDytrRSMSVVPSETIAANSELVTGLYAHRELLAPLEAIA 111
+                                                                999************************************************* PP
+
+  crossval_out_WP_158075676.1|dAMP_extraction.fasta_aligned 117 gdellsc.kehekylitkqeq.............lssillleapekievgge 154
+                                                                g++l++c k++e++lit+qeq             +++i++l+ap+ i+vgg 
+                                                     BesD|A 112 GERLHPCpKADEEFLITRQEQrgdthgwhwgdfsFALIWVLQAPP-IDVGGL 162
+                                                                *********************************************.9***** PP
+
+  crossval_out_WP_158075676.1|dAMP_extraction.fasta_aligned 155 lq.vlhteWdkqepqieeYlvenpiksyqsekGDlillrsdttlHrvvplre 205
+                                                                lq v+ht+Wdk++pqi++Ylvenpi++y++e+GD+++lr+dttlHr++plre
+                                                     BesD|A 163 LQcVPHTTWDKASPQINRYLVENPIDTYHFESGDVYFLRTDTTLHRTIPLRE 214
+                                                                **************************************************** PP
+
+  crossval_out_WP_158075676.1|dAMP_extraction.fasta_aligned 206 dstrriLntcwAsskdrskkvaheeaiwd 234
+                                                                d+tr+iLn++wA+++d s+k+a+++++wd
+                                                     BesD|A 215 DTTRIILNMTWAGERDLSRKLAADDRWWD 243
+                                                                ****************************8 PP
+
+>> WelO5|A  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  254.0   0.0   8.8e-79   1.9e-78       2     234 .]      10     291 .]       9     291 .] 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 254.0 bits;  conditional E-value: 8.8e-79
+  crossval_out_WP_158075676.1|dAMP_extraction.fasta_aligned   2 lrvihymdenrrev...........lahehegiiikgvqlpl.......... 32 
+                                                                ++++h++d+n++ev           ++++++g+ii+gv +p+          
+                                                    WelO5|A  10 KPALHFLDINATEVkkyptaiqdiiINRSFDGMIIRGV-FPRdtmeqvarcl 60 
+                                                                789***********************************.9999********* PP
+
+  crossval_out_WP_158075676.1|dAMP_extraction.fasta_aligned  33 ..eddgglkyilndfrrfGtlvepviaeavvaeshdLlDakrsdvvlknigR 82 
+                                                                   +dgg+k+iln++++fGt+v++++++a+v++s+dL+D+++s++++++++R
+                                                    WelO5|A  61 eeGNDGGMKSILNKNEEFGTKVAQIYGHAIVGQSPDLKDYFASSAIFRQACR 112
+                                                                **9************************************************* PP
+
+  crossval_out_WP_158075676.1|dAMP_extraction.fasta_aligned  83 mlssvs...eeeias.................ggrlipatyrv.telreile 113
+                                                                +++++s   ee+++s                 g++++pat+r+  e+rei++
+                                                    WelO5|A 113 TMFQGSpdfEEQVESifhslsglpveiptgpeGQTYTPATIRLlLEGREIAV 164
+                                                                ******99999***9****************************9******** PP
+
+  crossval_out_WP_158075676.1|dAMP_extraction.fasta_aligned 114 aiagdellsc.kehekylitkqeqlssillleapekievggelqvlhteWdk 164
+                                                                ++++d+ll++ ++h k+l++ ++qls++++l++pe+   ggel+v+++eW++
+                                                    WelO5|A 165 HVGNDFLLMPaANHLKTLLDLSDQLSYFIPLTVPEA---GGELVVYSLEWNP 213
+                                                                ***********************************7...************* PP
+
+  crossval_out_WP_158075676.1|dAMP_extraction.fasta_aligned 165 qep....qieeYl..venpiksyqsek.......GDlillrsdttlHrvvpl 203
+                                                                qe+    q++eY+  ve++iks+qs++       GD++l+++++++Hrv+++
+                                                    WelO5|A 214 QEAskyaQMQEYMddVEFKIKSNQSQSvayapgpGDMLLFNGGRYYHRVSEV 265
+                                                                **999*********************************************** PP
+
+  crossval_out_WP_158075676.1|dAMP_extraction.fasta_aligned 204 redstrriLntcwAsskdrskkvaheeaiwd 234
+                                                                +++s+rr++++++A+sk+r+k     +++w+
+                                                    WelO5|A 266 IGNSPRRTIGGFLAFSKQRDK-----IYYWS 291
+                                                                *********************.....88886 PP
+
+>> AmbO5|A  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  250.0   0.0   1.4e-77   3.2e-77       2     234 .]       9     290 .]       8     290 .] 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 250.0 bits;  conditional E-value: 1.4e-77
+  crossval_out_WP_158075676.1|dAMP_extraction.fasta_aligned   2 lrvihymdenrrev...........lahehegiiikgvqlpl.......... 32 
+                                                                +++++++d+n +ev           ++++++g+ii+gv lpl          
+                                                    AmbO5|A   9 KSALNFLDINVTEVnnyptaiqdiiIDRRFDGMIIRGV-LPLdsiervirrl 59 
+                                                                799***********************************.************* PP
+
+  crossval_out_WP_158075676.1|dAMP_extraction.fasta_aligned  33 ..eddgglkyilndfrrfGtlvepviaeavvaeshdLlDakrsdvvlknigR 82 
+                                                                  ed+gg+k i+n++++fGt+v++++++++v++s+dL+D+++s++++++++R
+                                                    AmbO5|A  60 edEDEGGMKLIFNKNEEFGTKVAQIYGHVIVGQSPDLKDYFASSAIFRQACR 111
+                                                                **************************************************** PP
+
+  crossval_out_WP_158075676.1|dAMP_extraction.fasta_aligned  83 mlssvs...eeeias.................ggrlipatyrv.telreile 113
+                                                                +l++++   ee+++s                 g++++pat+r+ te+rei++
+                                                    AmbO5|A 112 ALFQGNpdfEERVESvfhslcglpveiptgpeGQSYTPATLRLlTEGREITV 163
+                                                                ******999999999****************************9******** PP
+
+  crossval_out_WP_158075676.1|dAMP_extraction.fasta_aligned 114 aiagdellsc.kehekylitkqeqlssillleapekievggelqvlhteWdk 164
+                                                                ++++d+ll++ +eh k+l++ ++qls++++l++p++   ggel+v+++eW++
+                                                    AmbO5|A 164 HVGNDFLLMPaSEHLKTLLDFSDQLSYFIPLSVPQA---GGELVVYNLEWNP 212
+                                                                ***********************************7...************* PP
+
+  crossval_out_WP_158075676.1|dAMP_extraction.fasta_aligned 165 qep....qieeYl..venpiksyqsek.......GDlillrsdttlHrvvpl 203
+                                                                +++    ++++Y+  ++++++s+qs++       GD+il+++++++Hrv+++
+                                                    AmbO5|A 213 EQAeqsgDLHKYMndADSRFQSQQSQSvafapgpGDMILFNGGRYYHRVNQV 264
+                                                                ***9999******9999*********************************** PP
+
+  crossval_out_WP_158075676.1|dAMP_extraction.fasta_aligned 204 redstrriLntcwAsskdrskkvaheeaiwd 234
+                                                                +++s+rr++++++A+sk+r+k     +++w+
+                                                    AmbO5|A 265 IGNSPRRTIGGFLAFSKERNK-----IYYWS 290
+                                                                *********************.....88886 PP
+
+>> VaNTH|WP_204007738.1|A  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  119.8   0.0   8.8e-38   1.9e-37       2     162 ..     177     297 ..     176     304 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 119.8 bits;  conditional E-value: 8.8e-38
+  crossval_out_WP_158075676.1|dAMP_extraction.fasta_aligned   2 lrvihymdenrrevlahehegiiikgvqlpleddgglkyilndfrrfGtlve 53 
+                                                                lrvihy+d +rrevlaheh+gi++ gvqlp +++ggl+y+lnd    Gt+ve
+                                     VaNTH|WP_204007738.1|A 177 LRVIHYRDPDRREVLAHEHSGIQMVGVQLP-PSEGGLQYVLND----GTWVE 223
+                                                                89****************************.************....***** PP
+
+  crossval_out_WP_158075676.1|dAMP_extraction.fasta_aligned  54 pviaeavvaeshdLlDakrsdvvlknigRmlssvseeeiasggrlipatyrv 105
+                                                                pvi+              ++dv+l nigRmls++s      ggr++p+t+rv
+                                     VaNTH|WP_204007738.1|A 224 PVIQ--------------GTDVLLFNIGRMLSTAS------GGRVRPSTHRV 255
+                                                                ****..............*****************......*********** PP
+
+  crossval_out_WP_158075676.1|dAMP_extraction.fasta_aligned 106 telreileaiagdellsckehekylitkqeqlssillleapek.....ievg 152
+                                                                                    h+++l+t+ e++ss+l+++++++     ++ +
+                                     VaNTH|WP_204007738.1|A 256 --------------------HRSPLATSVERWSSVLFVHPNHEdpqwwMDGD 287
+                                                                ....................******************************** PP
+
+  crossval_out_WP_158075676.1|dAMP_extraction.fasta_aligned 153 gelqvlhteW 162
+                                                                g+++v++++W
+                                     VaNTH|WP_204007738.1|A 288 GNTVVSDATW 297
+                                                                ********** PP
+
+>> WP_182876399.1|dAMP  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  119.8   0.0   8.7e-38   1.9e-37       1     162 [.     175     295 ..     175     304 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 119.8 bits;  conditional E-value: 8.7e-38
+  crossval_out_WP_158075676.1|dAMP_extraction.fasta_aligned   1 tlrvihymdenrrevlahehegiiikgvqlpleddgglkyilndfrrfGtlv 52 
+                                                                +lrvihy+d+++revlaheh+gi+++g+qlp ++d+gl+y+l+d    Gt+v
+                                        WP_182876399.1|dAMP 175 NLRVIHYRDVGDREVLAHEHSGIQMLGLQLP-PSDQGLQYVLHD----GTWV 221
+                                                                68*****************************.************....**** PP
+
+  crossval_out_WP_158075676.1|dAMP_extraction.fasta_aligned  53 epviaeavvaeshdLlDakrsdvvlknigRmlssvseeeiasggrlipatyr 104
+                                                                epvia              +sdvvl+nigRml+s+s      +gr++p+t+r
+                                        WP_182876399.1|dAMP 222 EPVIA--------------KSDVVLCNIGRMLTSAS------DGRFRPSTHR 253
+                                                                *****..............*****************......********** PP
+
+  crossval_out_WP_158075676.1|dAMP_extraction.fasta_aligned 105 vtelreileaiagdellsckehekylitkqeqlssillleapek.....iev 151
+                                                                v                    h+k+++  +++lss+l++++p+k     + v
+                                        WP_182876399.1|dAMP 254 V--------------------HTKPMPPGYKRLSSVLFAYPPHKarqwkM-V 284
+                                                                *....................***********************999955.5 PP
+
+  crossval_out_WP_158075676.1|dAMP_extraction.fasta_aligned 152 ggelqvlhteW 162
+                                                                +ge+++l+++W
+                                        WP_182876399.1|dAMP 285 DGEMTTLNATW 295
+                                                                *********** PP
+
+>> AdaV|AKQ99303.1|A  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  118.3   0.0   2.5e-37   5.4e-37       1     162 [.     175     295 ..     175     302 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 118.3 bits;  conditional E-value: 2.5e-37
+  crossval_out_WP_158075676.1|dAMP_extraction.fasta_aligned   1 tlrvihymdenrrevlahehegiiikgvqlpleddgglkyilndfrrfGtlv 52 
+                                                                +lrvihy+d+++revlaheh+gi+++g+qlp ++d+gl+y+l+d    Gt+v
+                                          AdaV|AKQ99303.1|A 175 NLRVIHYRDVGDREVLAHEHSGIQMLGLQLP-PSDQGLQYVLHD----GTWV 221
+                                                                68*****************************.************....**** PP
+
+  crossval_out_WP_158075676.1|dAMP_extraction.fasta_aligned  53 epviaeavvaeshdLlDakrsdvvlknigRmlssvseeeiasggrlipatyr 104
+                                                                epvia              ++dvvl+nigRml+s+s      +gr++p+t+r
+                                          AdaV|AKQ99303.1|A 222 EPVIA--------------GTDVVLCNIGRMLTSAS------DGRFRPSTHR 253
+                                                                *****..............*****************......********** PP
+
+  crossval_out_WP_158075676.1|dAMP_extraction.fasta_aligned 105 vtelreileaiagdellsckehekylitkqeqlssillleapek.....iev 151
+                                                                v                    h+k++++ +e+lss+l++++++k     + v
+                                          AdaV|AKQ99303.1|A 254 V--------------------HTKPMPAGYERLSSVLFAYPQHKarqwkM-V 284
+                                                                *....................***********************999955.5 PP
+
+  crossval_out_WP_158075676.1|dAMP_extraction.fasta_aligned 152 ggelqvlhteW 162
+                                                                +gel+ l+++W
+                                          AdaV|AKQ99303.1|A 285 DGELMSLNATW 295
+                                                                *********** PP
+
+>> CtNTH|WP_217394979.1|A  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  116.8   0.1   7.1e-37   1.5e-36       2     162 ..     177     297 ..     176     307 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 116.8 bits;  conditional E-value: 7.1e-37
+  crossval_out_WP_158075676.1|dAMP_extraction.fasta_aligned   2 lrvihymdenrrevlahehegiiikgvqlpleddgglkyilndfrrfGtlve 53 
+                                                                lrvihy+d++rre+laheh+gi+++gvq+p +++ggl+yilnd    Gt+ve
+                                     CtNTH|WP_217394979.1|A 177 LRVIHYQDSQRREILAHEHSGIQMLGVQFP-ASEGGLQYILND----GTWVE 223
+                                                                89****************************.************....***** PP
+
+  crossval_out_WP_158075676.1|dAMP_extraction.fasta_aligned  54 pviaeavvaeshdLlDakrsdvvlknigRmlssvseeeiasggrlipatyrv 105
+                                                                p+i+              ++dv+l+nigRmls++s      g+r++p+t+rv
+                                     CtNTH|WP_217394979.1|A 224 PIIW--------------GTDVLLCNIGRMLSEAS------GRRVRPSTHRV 255
+                                                                ****..............*****************......*********** PP
+
+  crossval_out_WP_158075676.1|dAMP_extraction.fasta_aligned 106 telreileaiagdellsckehekylitkqeqlssillleapek.....ievg 152
+                                                                                    h+++++++++++ss+++++++++     i+++
+                                     CtNTH|WP_217394979.1|A 256 --------------------HRSPMAMSERRWSSVVFVHPDHSgeqwtITEE 287
+                                                                ....................****************************9999 PP
+
+  crossval_out_WP_158075676.1|dAMP_extraction.fasta_aligned 153 gelqvlhteW 162
+                                                                +++++l + W
+                                     CtNTH|WP_217394979.1|A 288 EQVRMLGEPW 297
+                                                                ********** PP
+
+>> WP_030883106.1|dAMP  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  115.6   0.0   1.6e-36   3.6e-36       1     162 [.     152     272 ..     152     279 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 115.6 bits;  conditional E-value: 1.6e-36
+  crossval_out_WP_158075676.1|dAMP_extraction.fasta_aligned   1 tlrvihymdenrrevlahehegiiikgvqlpleddgglkyilndfrrfGtlv 52 
+                                                                +lrvihy+d + revlaheh+gi+++g+qlp ++d+gl+yil+d    Gt+v
+                                        WP_030883106.1|dAMP 152 NLRVIHYRDLDGREVLAHEHSGIQLLGLQLP-PSDQGLQYILHD----GTWV 198
+                                                                68*****************************.************....**** PP
+
+  crossval_out_WP_158075676.1|dAMP_extraction.fasta_aligned  53 epviaeavvaeshdLlDakrsdvvlknigRmlssvseeeiasggrlipatyr 104
+                                                                epvia              +sd+vl+nigRmlss+s      +gr++p+t+r
+                                        WP_030883106.1|dAMP 199 EPVIA--------------KSDLVLCNIGRMLSSAS------CGRFRPSTHR 230
+                                                                *****..............*****************......********** PP
+
+  crossval_out_WP_158075676.1|dAMP_extraction.fasta_aligned 105 vtelreileaiagdellsckehekylitkqeqlssillleapek.....iev 151
+                                                                v                    h++y  t++e+lss+l++++p++     i+ 
+                                        WP_030883106.1|dAMP 231 V--------------------HCTYSDTDYERLSSVLFAYPPHQarqwqIS- 261
+                                                                *....................***********************9999777. PP
+
+  crossval_out_WP_158075676.1|dAMP_extraction.fasta_aligned 152 ggelqvlhteW 162
+                                                                ++ l+vl+++W
+                                        WP_030883106.1|dAMP 262 DEGLTVLDETW 272
+                                                                9********** PP
+
+>> WP_158075676.1|dAMP  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   89.8   0.0   1.3e-28   2.8e-28       1     162 [.     182     309 ..     182     315 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 89.8 bits;  conditional E-value: 1.3e-28
+  crossval_out_WP_158075676.1|dAMP_extraction.fasta_aligned   1 tlrvihymdenrrevlahehegiiikgvqlpleddgglkyilndfrrfGtlv 52 
+                                                                +lrvihy++ ++revlaheh+gi+++g+qlp ++dggl+y+l+d    Gt+v
+                                        WP_158075676.1|dAMP 182 NLRVIHYRGTGDREVLAHEHSGIQMLGLQLP-PSDGGLQYVLHD----GTWV 228
+                                                                68*****************************.************....**** PP
+
+  crossval_out_WP_158075676.1|dAMP_extraction.fasta_aligned  53 epviaeavvaeshdLlDakrsdvvlknigRmlssvseeeiasggrlipatyr 104
+                                                                ep+ia              ++dv+l+n+gRml+++s      ++r++p+t+r
+                                        WP_158075676.1|dAMP 229 EPIIA--------------GTDVLLCNVGRMLTHAS------ENRFRPSTHR 260
+                                                                *****..............*****************......9********* PP
+
+  crossval_out_WP_158075676.1|dAMP_extraction.fasta_aligned 105 vtelreileaiagdellsckehekylitkqeqlssillleapek.....iev 151
+                                                                v   r  l              + +   ++ + ss++++++p++     i  
+                                        WP_158075676.1|dAMP 261 V--HRSTL--------Q---TPQPFGDGEYVRMSSVMFAYPPHAakqwqIG- 298
+                                                                *..22222........1...2233334455567888888888876664332. PP
+
+  crossval_out_WP_158075676.1|dAMP_extraction.fasta_aligned 152 ggelqvlhteW 162
+                                                                 + l++l+ +W
+                                        WP_158075676.1|dAMP 299 PDGLKTLDPTW 309
+                                                                23455666666 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (234 nodes)
+Target sequences:                         24  (7510 residues searched)
+Passed MSV filter:                        12  (0.5); expected 0.5 (0.02)
+Passed bias filter:                       12  (0.5); expected 0.5 (0.02)
+Passed Vit filter:                        11  (0.458333); expected 0.0 (0.001)
+Passed Fwd filter:                        11  (0.458333); expected 0.0 (1e-05)
+Initial search space (Z):                 24  [actual number of targets]
+Domain search space  (domZ):              11  [number of targets reported over threshold]
+# CPU time: 0.02u 0.00s 00:00:00.02 Elapsed: 00:00:00.02
+# Mc/sec: 62.64
+//
+[ok]

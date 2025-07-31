@@ -1,0 +1,1 @@
+uniprotkb_ec_1_14_14_13_OR_ec_1_NOT_tax_2025_07_24.fasta

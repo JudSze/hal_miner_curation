@@ -1,0 +1,89 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  HALOGENATION/NON_HEME_HALOGENASES/variant_A_unactivated_sp3/indole_alkaloid/indole_alkaloid_halogenases_2.hmm
+# target sequence database:        HALOGENATION/NON_HEME_HALOGENASES/variant_A_unactivated_sp3/indole_alkaloid/indole_alkaloid_halogenases.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       indole_alkaloid_halogenases  [M=291]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence         Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------         -----------
+   5.8e-203  659.1   0.0   6.5e-203  658.9   0.0    1.0  1  WelO5|5TRQ_1      A, B|WelO5|Hapalosiphon welwitschii UTEX B 
+   3.6e-202  656.5   0.0   4.1e-202  656.3   0.0    1.0  1  AmbO5|AKP23998.1  ambiguine alkaloid
+
+
+Domain annotation for each sequence (and alignments):
+>> WelO5|5TRQ_1  A, B|WelO5|Hapalosiphon welwitschii UTEX B 1830 (1433842)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  658.9   0.0  6.5e-203  6.5e-203       1     291 []       1     291 []       1     291 [] 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 658.9 bits;  conditional E-value: 6.5e-203
+  indole_alkaloid_halogenases   1 smsnnavstksalnfldinvtevkkyptaiqdiiidrrfdgmiirgvlpldsiervirrleeedeggmklilnkneefgtkv 82 
+                                  smsnn+vstk+al+fldin+tevkkyptaiqdiii+r+fdgmiirgv+p+d++e+v+r+lee+++ggmk+ilnkneefgtkv
+                 WelO5|5TRQ_1   1 SMSNNTVSTKPALHFLDINATEVKKYPTAIQDIIINRSFDGMIIRGVFPRDTMEQVARCLEEGNDGGMKSILNKNEEFGTKV 82 
+                                  7********************************************************************************* PP
+
+  indole_alkaloid_halogenases  83 aqiyghvivgqspdlkdyfassaifrqacralfqgspdfeervesvfhslsglpveiptgpegqsytpatlrlllegreiav 164
+                                  aqiygh+ivgqspdlkdyfassaifrqacr++fqgspdfee+ves+fhslsglpveiptgpegq+ytpat+rlllegreiav
+                 WelO5|5TRQ_1  83 AQIYGHAIVGQSPDLKDYFASSAIFRQACRTMFQGSPDFEEQVESIFHSLSGLPVEIPTGPEGQTYTPATIRLLLEGREIAV 164
+                                  ********************************************************************************** PP
+
+  indole_alkaloid_halogenases 165 hvgndfllmpaaehlktlldlsdqlsyfiplsvpeaggelvvyslewnpeeaeksadlqkymddveskiksqqsqsvayapg 246
+                                  hvgndfllmpaa+hlktlldlsdqlsyfipl+vpeaggelvvyslewnp+ea+k+a++q+ymddve+kiks+qsqsvayapg
+                 WelO5|5TRQ_1 165 HVGNDFLLMPAANHLKTLLDLSDQLSYFIPLTVPEAGGELVVYSLEWNPQEASKYAQMQEYMDDVEFKIKSNQSQSVAYAPG 246
+                                  ********************************************************************************** PP
+
+  indole_alkaloid_halogenases 247 pgdmllfnggryyhrvsevignsprrtiggflafskerdkiyyws 291
+                                  pgdmllfnggryyhrvsevignsprrtiggflafsk+rdkiyyws
+                 WelO5|5TRQ_1 247 PGDMLLFNGGRYYHRVSEVIGNSPRRTIGGFLAFSKQRDKIYYWS 291
+                                  ********************************************8 PP
+
+>> AmbO5|AKP23998.1  ambiguine alkaloid
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  656.3   0.0  4.1e-202  4.1e-202       2     291 .]       1     290 []       1     290 [] 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 656.3 bits;  conditional E-value: 4.1e-202
+  indole_alkaloid_halogenases   2 msnnavstksalnfldinvtevkkyptaiqdiiidrrfdgmiirgvlpldsiervirrleeedeggmklilnkneefgtkva 83 
+                                  msnnavstksalnfldinvtev++yptaiqdiiidrrfdgmiirgvlpldsiervirrle+edeggmkli+nkneefgtkva
+             AmbO5|AKP23998.1   1 MSNNAVSTKSALNFLDINVTEVNNYPTAIQDIIIDRRFDGMIIRGVLPLDSIERVIRRLEDEDEGGMKLIFNKNEEFGTKVA 82 
+                                  9********************************************************************************* PP
+
+  indole_alkaloid_halogenases  84 qiyghvivgqspdlkdyfassaifrqacralfqgspdfeervesvfhslsglpveiptgpegqsytpatlrlllegreiavh 165
+                                  qiyghvivgqspdlkdyfassaifrqacralfqg+pdfeervesvfhsl+glpveiptgpegqsytpatlrll+egrei+vh
+             AmbO5|AKP23998.1  83 QIYGHVIVGQSPDLKDYFASSAIFRQACRALFQGNPDFEERVESVFHSLCGLPVEIPTGPEGQSYTPATLRLLTEGREITVH 164
+                                  ********************************************************************************** PP
+
+  indole_alkaloid_halogenases 166 vgndfllmpaaehlktlldlsdqlsyfiplsvpeaggelvvyslewnpeeaeksadlqkymddveskiksqqsqsvayapgp 247
+                                  vgndfllmpa+ehlktlld+sdqlsyfiplsvp+aggelvvy+lewnpe+ae+s+dl+kym+d++s+++sqqsqsva+apgp
+             AmbO5|AKP23998.1 165 VGNDFLLMPASEHLKTLLDFSDQLSYFIPLSVPQAGGELVVYNLEWNPEQAEQSGDLHKYMNDADSRFQSQQSQSVAFAPGP 246
+                                  ********************************************************************************** PP
+
+  indole_alkaloid_halogenases 248 gdmllfnggryyhrvsevignsprrtiggflafskerdkiyyws 291
+                                  gdm+lfnggryyhrv++vignsprrtiggflafsker+kiyyws
+             AmbO5|AKP23998.1 247 GDMILFNGGRYYHRVNQVIGNSPRRTIGGFLAFSKERNKIYYWS 290
+                                  *******************************************8 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (291 nodes)
+Target sequences:                          2  (581 residues searched)
+Passed MSV filter:                         2  (1); expected 0.0 (0.02)
+Passed bias filter:                        2  (1); expected 0.0 (0.02)
+Passed Vit filter:                         2  (1); expected 0.0 (0.001)
+Passed Fwd filter:                         2  (1); expected 0.0 (1e-05)
+Initial search space (Z):                  2  [actual number of targets]
+Domain search space  (domZ):               2  [number of targets reported over threshold]
+# CPU time: 0.00u 0.01s 00:00:00.01 Elapsed: 00:00:00.00
+# Mc/sec: 31.37
+//
+[ok]

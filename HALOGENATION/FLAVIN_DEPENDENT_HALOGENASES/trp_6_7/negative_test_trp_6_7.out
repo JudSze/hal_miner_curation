@@ -1,0 +1,155 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /home/szenei/ENZYMES/FLAVIN_DEPENDENT_HALOGENASES/trp_6_7/trp_6_7_v2.hmm
+# target sequence database:        /home/szenei/ENZYMES/FLAVIN_DEPENDENT_HALOGENASES/test/negative_test.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       trp_6_7  [M=520]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                       Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                       -----------
+    3.4e-12   38.4   0.9    2.8e-08   25.5   0.0    2.6  3  tr|F2S201|F2S201_TRIT1          Non-heme halogenase OS=Trichophy
+    5.7e-12   37.7   0.2    7.3e-08   24.1   0.0    2.7  2  tr|A0A178EZB9|A0A178EZB9_TRIRU  Non-heme halogenase OS=Trichophy
+    1.5e-11   36.3   0.0    7.6e-08   24.1   0.0    2.2  2  tr|A0A6A6U6R3|A0A6A6U6R3_9PEZI  Non-heme halogenase OS=Microthyr
+      8e-09   27.3   0.0    7.4e-07   20.8   0.0    2.3  2  tr|A0A192WN89|A0A192WN89_CLAUC  Putative non-heme halogenase OS=
+      8e-09   27.3   0.0    7.4e-07   20.8   0.0    2.3  2  tr|A0A1Z1C496|A0A1Z1C496_CLAUC  Putative non-heme halogenase OS=
+
+
+Domain annotation for each sequence (and alignments):
+>> tr|F2S201|F2S201_TRIT1  Non-heme halogenase OS=Trichophyton tonsurans (strain CBS 112818) OX=647933 GN=TESG_05005 PE=
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   25.5   0.0   1.5e-09   2.8e-08       8      81 ..       9      82 ..       5     119 .. 0.82
+   2 !   10.6   0.1   4.8e-05    0.0009     260     294 ..     222     257 ..     156     278 .. 0.74
+   3 ?   -2.3   0.0      0.39       7.3     337     356 ..     316     335 ..     312     342 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 25.5 bits;  conditional E-value: 1.5e-09
+                 trp_6_7  8 vvivGGGtaGWmtasylkkalgdrveitllesaaigrigvGeatipdlqkvffdflglkee....eWmpecnasykla 81
+                             ++vGGG aG  +as l++   + v+++lle+   +r  +Ge+ +p++++ f+ f++l  +     ++++  a++kl 
+  tr|F2S201|F2S201_TRIT1  9 ALVVGGGPAGSYAASALVR---EGVDVVLLEADVFPRYHIGESMLPSIRH-FLRFIDLDSKfdsyGFVQKNGAAFKLN 82
+                            589*******999998865...89**************************.*****9976422224566666777766 PP
+
+  == domain 2  score: 10.6 bits;  conditional E-value: 4.8e-05
+                 trp_6_7 260 ePytsaiameaGWtWkiPll.grvGtGyvysskfts 294
+                              Py  aia  +GW+W iPl  g    G v  +  ++
+  tr|F2S201|F2S201_TRIT1 222 DPYFEAIADGSGWVWLIPLHdGTTSIGVVMNQAMAT 257
+                             79*****************73455557777666554 PP
+
+  == domain 3  score: -2.3 bits;  conditional E-value: 0.39
+                 trp_6_7 337 GlsscfvePlestGiyfiya 356
+                             G + cf++P+ s+G+++ +a
+  tr|F2S201|F2S201_TRIT1 316 GDAGCFIDPFFSSGVHLAFA 335
+                             6789***********98776 PP
+
+>> tr|A0A178EZB9|A0A178EZB9_TRIRU  Non-heme halogenase OS=Trichophyton rubrum OX=5551 GN=A7C99_4147 PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   24.1   0.0   3.9e-09   7.3e-08       8      81 ..     544     617 ..     540     651 .. 0.83
+   2 !   10.3   0.2     6e-05    0.0011     260     296 ..     757     794 ..     695     877 .. 0.66
+
+  Alignments for each domain:
+  == domain 1  score: 24.1 bits;  conditional E-value: 3.9e-09
+                         trp_6_7   8 vvivGGGtaGWmtasylkkalgdrveitllesaaigrigvGeatipdlqkvffdflglkee....eWmpecnasykla 81 
+                                      ++vGGG aG  +as l++   + v+++lle+   +r  +Ge+ +p++++ f+ f++l  +     ++++  a++kl 
+  tr|A0A178EZB9|A0A178EZB9_TRIRU 544 ALVVGGGPAGSYAASALVR---EGVDVVLLEADVFPRYHIGESMLPSIRH-FLRFIDLDSKfdsyGFVQKNGAAFKLN 617
+                                     589*******999998865...89**************************.*****9976422224566666667765 PP
+
+  == domain 2  score: 10.3 bits;  conditional E-value: 6e-05
+                         trp_6_7 260 ePytsaiameaGWtWkiPll.grvGtGyvysskftskd 296
+                                      Py  aia  +GW+W iPl  g    G v  +  ++ +
+  tr|A0A178EZB9|A0A178EZB9_TRIRU 757 DPYFEAIADGSGWVWLIPLHdGTTSIGVVMNQAMATTK 794
+                                     79*****************8355566888777665543 PP
+
+>> tr|A0A6A6U6R3|A0A6A6U6R3_9PEZI  Non-heme halogenase OS=Microthyrium microscopicum OX=703497 GN=BT63DRAFT_472047 PE=3 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   24.1   0.0   4.1e-09   7.6e-08       7      66 ..       8      63 ..       4      84 .. 0.86
+   2 !    9.8   0.0   8.8e-05    0.0016     212     304 ..     172     267 ..     158     292 .. 0.70
+
+  Alignments for each domain:
+  == domain 1  score: 24.1 bits;  conditional E-value: 4.1e-09
+                         trp_6_7  7 kvvivGGGtaGWmtasylkkalgdrveitllesaaigrigvGeatipdlqkvffdflglk 66
+                                    +v++vGGG aG  +a+ l++   + ++ +lle+ + +r  +Ge+ +p++++ ff+ ++l 
+  tr|A0A6A6U6R3|A0A6A6U6R3_9PEZI  8 SVLVVGGGPAGSYAATLLAR---EGIDTVLLEADKFPRYHIGESMLPSIRH-FFKLIDLD 63
+                                    799*************9986...799999**********************.**999885 PP
+
+  == domain 2  score: 9.8 bits;  conditional E-value: 8.8e-05
+                         trp_6_7 212 dlfvdcsGfrglllnkaleePfidmsdtllnds...avalavplddekegvePytsaiameaGWtWkiPll.grvGtGy 286
+                                     + ++d sG  gl+  k l++   +   + +++      a +   d ++eg  P+  a+   +GW+W iPl  g    G 
+  tr|A0A6A6U6R3|A0A6A6U6R3_9PEZI 172 EYLIDASGRAGLISTKYLKNRHYNQGLKSVANWgywKNAGTWGIDTHQEG-APFFEALEDGSGWAWFIPLHnGTTSVGV 249
+                                     55666666666666666666554443333333211123455566777777.6999***************736777899 PP
+
+                         trp_6_7 287 vysskftskdeaerelre 304
+                                     v  ++ +++++a++e+  
+  tr|A0A6A6U6R3|A0A6A6U6R3_9PEZI 250 VMKQSILAQKKAQKEYAT 267
+                                     9999999*9999998764 PP
+
+>> tr|A0A192WN89|A0A192WN89_CLAUC  Putative non-heme halogenase OS=Cladonia uncialis OX=174080 PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   20.8   0.0     4e-08   7.4e-07       6      79 ..       7      80 ..       4     101 .. 0.83
+   2 !    4.0   0.1     0.005     0.093     267     355 ..     236     320 ..     169     324 .. 0.69
+
+  Alignments for each domain:
+  == domain 1  score: 20.8 bits;  conditional E-value: 4e-08
+                         trp_6_7  6 kkvvivGGGtaGWmtasylkkalgdrveitllesaaigrigvGeatipdlqkvffdflglkee....eWmpecnasyk 79
+                                     +v+++GGG aG  +a+ l++   + v+ ++le+   +r  +Ge+ +++++  f+ f++l e      + ++  a++k
+  tr|A0A192WN89|A0A192WN89_CLAUC  7 TSVLVIGGGPAGSYSACTLAR---EGVNTVVLEADVFPRYHIGESMLASMRP-FLRFIDLDETfkahGFQKKTGAAFK 80
+                                    579**************9986...89999*********************99.*******995211134455555555 PP
+
+  == domain 2  score: 4.0 bits;  conditional E-value: 0.005
+                         trp_6_7 267 ameaGWtWkiPll.grvGtGyvysskftskdeaerelrelvgldaedvelnkirfrvGrsrraWvkncvsiGl.sscfv 343
+                                     ++ +GW+W iPl  g +  G v  ++  s+ +       l  + + +   + +++       a+    + i + + cf+
+  tr|A0A192WN89|A0A192WN89_CLAUC 236 THASGWAWFIPLHnGTMSVGVVTRQDLSSQRKK-----ALGSPSPVEFYKESLKLA-PTGATAYSSPYIRIAIdAGCFI 308
+                                     5789*******9636777777766666655432.....233333333333333332.1233455555555555234666 PP
+
+                         trp_6_7 344 ePlestGiyfiy 355
+                                     +P  s+G+++ y
+  tr|A0A192WN89|A0A192WN89_CLAUC 309 DPYFSSGVHLAY 320
+                                     666666666655 PP
+
+>> tr|A0A1Z1C496|A0A1Z1C496_CLAUC  Putative non-heme halogenase OS=Cladonia uncialis subsp. uncialis OX=180999 PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   20.8   0.0     4e-08   7.4e-07       6      79 ..       7      80 ..       4     101 .. 0.83
+   2 !    4.0   0.1     0.005     0.093     267     355 ..     236     320 ..     169     324 .. 0.69
+
+  Alignments for each domain:
+  == domain 1  score: 20.8 bits;  conditional E-value: 4e-08
+                         trp_6_7  6 kkvvivGGGtaGWmtasylkkalgdrveitllesaaigrigvGeatipdlqkvffdflglkee....eWmpecnasyk 79
+                                     +v+++GGG aG  +a+ l++   + v+ ++le+   +r  +Ge+ +++++  f+ f++l e      + ++  a++k
+  tr|A0A1Z1C496|A0A1Z1C496_CLAUC  7 TSVLVIGGGPAGSYSACTLAR---EGVNTVVLEADVFPRYHIGESMLASMRP-FLRFIDLDETfkahGFQKKTGAAFK 80
+                                    579**************9986...89999*********************99.*******995211134455555555 PP
+
+  == domain 2  score: 4.0 bits;  conditional E-value: 0.005
+                         trp_6_7 267 ameaGWtWkiPll.grvGtGyvysskftskdeaerelrelvgldaedvelnkirfrvGrsrraWvkncvsiGl.sscfv 343
+                                     ++ +GW+W iPl  g +  G v  ++  s+ +       l  + + +   + +++       a+    + i + + cf+
+  tr|A0A1Z1C496|A0A1Z1C496_CLAUC 236 THASGWAWFIPLHnGTMSVGVVTRQDLSSQRKK-----ALGSPSPVEFYKESLKLA-PTGATAYSSPYIRIAIdAGCFI 308
+                                     5789*******9636777777766666655432.....233333333333333332.1233455555555555234666 PP
+
+                         trp_6_7 344 ePlestGiyfiy 355
+                                     +P  s+G+++ y
+  tr|A0A1Z1C496|A0A1Z1C496_CLAUC 309 DPYFSSGVHLAY 320
+                                     666666666655 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (520 nodes)
+Target sequences:                         93  (54940 residues searched)
+Passed MSV filter:                        12  (0.129032); expected 1.9 (0.02)
+Passed bias filter:                       12  (0.129032); expected 1.9 (0.02)
+Passed Vit filter:                         7  (0.0752688); expected 0.1 (0.001)
+Passed Fwd filter:                         5  (0.0537634); expected 0.0 (1e-05)
+Initial search space (Z):                 93  [actual number of targets]
+Domain search space  (domZ):               5  [number of targets reported over threshold]
+# CPU time: 0.02u 0.00s 00:00:00.02 Elapsed: 00:00:00.03
+# Mc/sec: 922.71
+//
+[ok]

@@ -1,0 +1,242 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  HALOPEROXIDASES/final_VCPO/specific/cut/specific_cut_vcpos.hmm
+# target sequence database:        HALOPEROXIDASES/final_VCPO/unspecific_cdhit/non_vcpo_specific_vcpos.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       specific_cut_vcpos  [M=395]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence         Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------         -----------
+   8.2e-236  772.0   1.7     1e-235  771.7   1.7    1.1  1  V-CPO_A7KH27      NapH1 OS=Streptomyces sp. CNQ-525 OX=418855
+   2.3e-232  760.7   0.4   2.5e-232  760.5   0.4    1.0  1  V-CPO_A7KH33      NapH4 OS=Streptomyces sp. CNQ-525 OX=418855
+   5.1e-179  585.0   1.1   5.9e-179  584.8   1.1    1.0  1  V-CPO_A7KH32      NapH3 OS=Streptomyces sp. CNQ-525 OX=418855
+    4.4e-13   38.7   0.2    4.3e-10   28.8   0.2    3.4  1  V-IPO_A0A0P7YMS9  Vanadium-dependent iodoperoxidase OS=Algori
+    3.8e-09   25.7   0.4    1.6e-05   13.8   0.0    3.2  2  V-IPO_G0LBK6      Vanadium-dependent iodoperoxidase OS=Zobell
+    4.5e-09   25.5   2.4    8.5e-06   14.7   0.0    3.8  3  V-IPO_G0LAH5      Vanadium-dependent iodooperoxidase OS=Zobel
+    2.6e-07   19.7   2.0    1.8e-05   13.7   0.0    3.0  2  V-IPO_A0A0P7XDT3  Vanadium-dependent iodoperoxidase OS=Algori
+
+
+Domain annotation for each sequence (and alignments):
+>> V-CPO_A7KH27  NapH1 OS=Streptomyces sp. CNQ-525 OX=418855 GN=napH1 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  771.7   1.7  5.4e-236    1e-235       2     395 .]     135     527 .]     134     527 .] 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 771.7 bits;  conditional E-value: 5.4e-236
+  specific_cut_vcpos   2 niaalyaqlkvlkrvlpervkalrelltalGldpddesedltspvGiGnvaakavlkalkndGmnvlGdeGrkynprpyadytGyepvnta 92 
+                         niaal+aq+ v+krvlp++v++lrel+talGldp+de+e+l+spvGiGnvaak++++alkndGmn+lG+eGrkynprp+adytGyepvnta
+        V-CPO_A7KH27 135 NIAALHAQHGVWKRVLPQQVDQLRELMTALGLDPSDETENLSSPVGIGNVAAKNAFNALKNDGMNFLGYEGRKYNPRPWADYTGYEPVNTA 225
+                         9****************************************************************************************** PP
+
+  specific_cut_vcpos  93 fklvnpsrwqpqlqahngrraggGpGdkGiyvvqhfvtpqlalvkphifkdpsqfplaapdhvdhtrpraykrsvdeileasaaldderkv 183
+                         fk++npsrwqpqlqahn+rraggGpGd+Giyv+qhfvtpq+a +k+hif+dps+f++++p+++dht++raykrsvdei++asa+l+derk+
+        V-CPO_A7KH27 226 FKVNNPSRWQPQLQAHNARRAGGGPGDLGIYVTQHFVTPQTARTKAHIFRDPSRFRIPRPEFSDHTNTRAYKRSVDEIIDASANLNDERKA 316
+                         ******************************************************************************************* PP
+
+  specific_cut_vcpos 184 laelldnkllGiglsskviaekkdqnneldvdgwvhlllahvlatfdaliaawkyktkydavrpvtavrhvyGkkkvsawGGvGmGtvddi 274
+                         lae+++nkl+Gig+ss+via+k+dqnne++v+gw+h++lahvlatf++liaaw++kt++davrpvta+rhvyG++k++awGGvGmGtv di
+        V-CPO_A7KH27 317 LAEIMENKLWGIGHSSIVIANKYDQNNEMGVHGWCHWMLAHVLATFEPLIAAWHHKTRFDAVRPVTAIRHVYGNRKIRAWGGVGMGTV-DI 406
+                         ****************************************************************************************.9* PP
+
+  specific_cut_vcpos 275 panewssylpvGdhpeypsGsttlcsaeaqaarryldddeldwtlefpaGssvvepgitpakdvelhfetwtdftkdcaesrvwgGvhfrk 365
+                         +a+ewssylpvGdhpeypsGst+lcsa++qaarry+d+deldwt+++paGs+vvepgitp+kd+++h++twtdft++ca+srvwgGvhf++
+        V-CPO_A7KH27 407 RASEWSSYLPVGDHPEYPSGSTSLCSATSQAARRYFDSDELDWTINYPAGSTVVEPGITPGKDLSIHIPTWTDFTRTCATSRVWGGVHFQT 497
+                         ******************************************************************************************* PP
+
+  specific_cut_vcpos 366 tversiefGeqfGdlahefvqrhikGeved 395
+                         tv+r+i+fGeqfGdlahefvqrh+kG+v+d
+        V-CPO_A7KH27 498 TVDRTIDFGEQFGDLAHEFVQRHVKGDVKD 527
+                         ****************************97 PP
+
+>> V-CPO_A7KH33  NapH4 OS=Streptomyces sp. CNQ-525 OX=418855 GN=napH4 PE=4 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  760.5   0.4  1.4e-232  2.5e-232       1     394 [.       1     395 [.       1     396 [] 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 760.5 bits;  conditional E-value: 1.4e-232
+  specific_cut_vcpos   1 kniaalyaqlkvlkrvlpervkalrelltalGldpddesedltspvGiGnvaakavlkalkndGmnvlGde.GrkynprpyadytGyepvn 90 
+                         +nia+++aq+++++r+lp +v+ lrel++alGldpdd+sed+t+pvGiGnvaakav+++lkndGmnvlG+e Grkynprp+adytGy p+n
+        V-CPO_A7KH33   1 MNIACIHAQNAIWSRLLPPIVAGLRELMVALGLDPDDKSEDVTTPVGIGNVAAKAVWNVLKNDGMNVLGHEgGRKYNPRPWADYTGYVPTN 91 
+                         7**********************************************************************99****************** PP
+
+  specific_cut_vcpos  91 tafklvnpsrwqpqlqahngrraggGpGdkGiyvvqhfvtpqlalvkphifkdpsqfplaapdhvdhtrpraykrsvdeileasaaldder 181
+                         tafkl+npsrwqpqlqahngrraggGpGd+Giyv+qhfvtpq+a++ phifkdp++fpl++pd++dht++raykrsvdei+easaaldder
+        V-CPO_A7KH33  92 TAFKLNNPSRWQPQLQAHNGRRAGGGPGDLGIYVTQHFVTPQIAVTLPHIFKDPTAFPLPRPDFTDHTDRRAYKRSVDEIIEASAALDDER 182
+                         ******************************************************************************************* PP
+
+  specific_cut_vcpos 182 kvlaelldnkllGiglsskviaekkdqnneldvdgwvhlllahvlatfdaliaawkyktkydavrpvtavrhvyGkkkvsawGGvGmGtvd 272
+                         k+lae+++nkl+Gig+ss++i+ k+dqnnel+v+gw++++l+h+latfd+liaaw yk+ky+avrp+tavrhvyG++k++awGGvGmGtvd
+        V-CPO_A7KH33 183 KALAEIMENKLWGIGHSSIEIGLKNDQNNELGVHGWAQWMLQHILATFDTLIAAWGYKRKYEAVRPITAVRHVYGNRKIRAWGGVGMGTVD 273
+                         ******************************************************************************************* PP
+
+  specific_cut_vcpos 273 dipanewssylpvGdhpeypsGsttlcsaeaqaarryldddeldwtlefpaGssvvepgitpakdvelhfetwtdftkdcaesrvwgGvhf 363
+                         dipanew++ylpvGdhpeypsGstt++sa++qaarr++d+d+l+w+++f++G+s+vepgitp+++v+++f+twtdf+k+ca+sr++gGvhf
+        V-CPO_A7KH33 274 DIPANEWAGYLPVGDHPEYPSGSTTVGSAASQAARRFFDSDDLNWEFDFEVGKSIVEPGITPVENVRVSFPTWTDFNKRCAYSRLDGGVHF 364
+                         ******************************************************************************************* PP
+
+  specific_cut_vcpos 364 rktversiefGeqfGdlahefvqrhikGeve 394
+                         +ktvers++fGeqfGdlah+f+qrh+kGe +
+        V-CPO_A7KH33 365 KKTVERSMAFGEQFGDLAHDFIQRHVKGEGD 395
+                         ****************************975 PP
+
+>> V-CPO_A7KH32  NapH3 OS=Streptomyces sp. CNQ-525 OX=418855 GN=napH3 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  584.8   1.1  3.2e-179  5.9e-179       1     395 []      52     441 .]      52     441 .] 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 584.8 bits;  conditional E-value: 3.2e-179
+  specific_cut_vcpos   1 kniaalyaqlkvlkrvlpervkalrelltalGldpddesedltspvGiGnvaakavlkalkndGmnvlGdeGrkynprpyadytGyepvnt 91 
+                         knia lya ++v+k  + erv++lr+ l alGldpddes+dl++ vGiGn a+kav +a+  dGmn lG + r +n++py+dytGy+pvnt
+        V-CPO_A7KH32  52 KNIAGLYAMFQVVKAAFTERVPVLRQALGALGLDPDDESQDLSTAVGIGNTAGKAVAAARMGDGMNALGGKDRTHNGQPYEDYTGYRPVNT 142
+                         7****************************************************************************************** PP
+
+  specific_cut_vcpos  92 afklvnpsrwqpqlqahngrraggGpGdkGiyvvqhfvtpqlalvkphifkdpsqfplaapdhvdhtrpraykrsvdeileasaaldderk 182
+                         a +lv+psrwqp++++h+ rr+ gGpGdkGi+++q+f tpql lv p++++dp++f+laapdh+dh ++ ay+++vde+l asa l+de+k
+        V-CPO_A7KH32 143 ADELVDPSRWQPAVEPHR-RRTDGGPGDKGIFTAQRFATPQLGLVAPQTYRDPARFKLAAPDHLDHNDAGAYRQAVDEVLAASAGLTDEQK 232
+                         *****************9.99********************************************************************** PP
+
+  specific_cut_vcpos 183 vlaelldnkllGiglsskviaekkdqnneldvdgwvhlllahvlatfdaliaawkyktkydavrpvtavrhvyGkkkvsawGGvGmGtvdd 273
+                         v+ae+++   l ++ls++++a+++d    ld+dgw++l+l  + a+fd+liaaw++k+ yd+vrp++avrhvyG+k v+awGG+G+Gtv+ 
+        V-CPO_A7KH32 233 VKAEFFEHTPLSVTLSPRAAAMAHD----LDLDGWAQLFLVCSTARFDSLIAAWHHKRAYDTVRPFSAVRHVYGSKPVTAWGGPGKGTVES 319
+                         *************************....************************************************************** PP
+
+  specific_cut_vcpos 274 ipanewssylpvGdhpeypsGsttlcsaeaqaarryldddeldwtlefpaGssvvepgitpakdvelhfetwtdftkdcaesrvwgGvhfr 364
+                         ipa+ew++ylpvG+hpeypsG ttl +a+aqaar +l+dd l+wt  fpaGs+  epg +pa d+el + twtdf++dca+srvw+G hf+
+        V-CPO_A7KH32 320 IPADEWTGYLPVGNHPEYPSGFTTLIAAQAQAARSFLGDDVLNWTHAFPAGSGQREPGAVPASDLELTWATWTDFENDCATSRVWAGAHFT 410
+                         ******************************************************************************************* PP
+
+  specific_cut_vcpos 365 ktversiefGeqfGdlahefvqrhikGeved 395
+                         kt e+s++fG+qfGdlah fvqrhi+G+v+d
+        V-CPO_A7KH32 411 KTAETSLAFGTQFGDLAHTFVQRHINGDVKD 441
+                         *****************************97 PP
+
+>> V-IPO_A0A0P7YMS9  Vanadium-dependent iodoperoxidase OS=Algoriphagus marincola HL-49 OX=1305737 GN=HLUCCX10_00495 PE=4
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   28.8   0.2   2.3e-10   4.3e-10     162     385 ..     230     437 ..     220     441 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 28.8 bits;  conditional E-value: 2.3e-10
+  specific_cut_vcpos 162 aykrsvdeileasaaldderkvlaelldnkllGiglssk.viaekkdq..nneldvdgwvhlllahvlatfdaliaawkyktkydavrpvt 249
+                         ++++ + e+ e++ +ld+e+k++a++ d   + +  s++ +i+ kk       ++++g ++  ++  la+    i a    t +da   ++
+    V-IPO_A0A0P7YMS9 230 SFHQQMIEVYETTKSLDEEQKLIANFWDCNPFMVEFSGHmAIGVKKISpgGHWMGITGIAAEKAELNLAETA-YIHALVGMTLHDAF--IS 317
+                         577888899*******************88888877764156666543115679999999999999999865.56666667778885..78 PP
+
+  specific_cut_vcpos 250 avrhvyGkkkvsawGGvGmGtvddipanewssylpvGdhpeypsGsttlcsaeaqaarryldddeldwtlefpaGssvvepgitpakdvel 340
+                         + +  y + +++         ++    + w + l +   pey+sG + ++ a+a +   y++d+ + +  +     s +  g+ p    e 
+    V-IPO_A0A0P7YMS9 318 CWKTKYETDRIRPET-----IINKTIDQRWRPLLQTPPFPEYTSGHSVISRAAAIVLTGYFGDN-FSYIDD-----SETYFGL-P----ER 392
+                         889999999998743.....445555689********************************985.333333.....3333333.3....34 PP
+
+  specific_cut_vcpos 341 hfetwtdftkdcaesrvwgGvhfrktversiefGeqfGdlahefv 385
+                          f+++ + +++ a sr++gG+hfr ++e+ +  Ge+ G + ++ +
+    V-IPO_A0A0P7YMS9 393 AFDSFLQASEEAAISRLYGGIHFRDAIEEGVRQGEKIGKMIWQAI 437
+                         69999999******************************9988765 PP
+
+>> V-IPO_G0LBK6  Vanadium-dependent iodoperoxidase OS=Zobellia galactanivorans (strain DSM 12802 / CCUG 47099 / CIP 1066
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !    8.2   0.1   0.00043    0.0008     129     252 ..     197     335 ..     193     340 .. 0.66
+   2 !   13.8   0.0   8.7e-06   1.6e-05     277     384 ..     340     436 ..     334     440 .. 0.78
+
+  Alignments for each domain:
+  == domain 1  score: 8.2 bits;  conditional E-value: 0.00043
+  specific_cut_vcpos 129 vtpqlalvkphifkdpsqfplaapdhvdhtrpraykrsvdeileasaaldderkvlaelldnk.....llG........iglss..kviae 204
+                         + p  +  +p + +  +qf    p+  d ++   + + + e+ e+  +ldd++  +a++ d         G        i+  +  + ia 
+        V-IPO_G0LBK6 197 IEPHWNTLRPFVLDSAAQFDPGLPTPFDSAEDSPFYKEAMEVYETVENLDDDKLEVAKFWDCNpnishTKGhvmyfqqqISPGGhwMHIAA 287
+                         5677788899999999999999999999999999999999999999999999999999988431111111111111111111111112222 PP
+
+  specific_cut_vcpos 205 kkdqnneldvdg..wvhlllahvlatfdaliaawkyktkydavrpvtavr 252
+                         +    +e +vdg   ++ +    +a  da+i++w++k k   +rp t ++
+        V-IPO_G0LBK6 288 QI--LEEQKVDGvkAAETMSMLGVALADAFISCWDQKYKSSLTRPETYIN 335
+                         33..3344455411456667777899999999999999999999988775 PP
+
+  == domain 2  score: 13.8 bits;  conditional E-value: 8.7e-06
+  specific_cut_vcpos 277 newssylpvGdhpeypsGsttlcsaeaqaarryldddeldwtlefpaGssvvepgitpakdvelhfetwtdftkdcaesrvwgGvhfrktv 367
+                         ++w + l +   pe++sG +  +sa+a +    ++dd       f +  + v  g+ p +     f+++ + +++ a sr++gG+h+r ++
+        V-IPO_G0LBK6 340 QDWEPILQTPAFPEHTSGHSVASSAAATVLTGVFGDDY-----AF-VDATEVPYGL-PPRS----FQSFWQAAEEAAISRLYGGIHYRPAI 419
+                         78999999999999999999999999999999999974.....22.3344554555.5554....55555668899*************** PP
+
+  specific_cut_vcpos 368 ersiefGeqfGdlahef 384
+                         e  ++ G   G l  e 
+        V-IPO_G0LBK6 420 ELGVKQGRAVGRLVLER 436
+                         *******9999887765 PP
+
+>> V-IPO_G0LAH5  Vanadium-dependent iodooperoxidase OS=Zobellia galactanivorans (strain DSM 12802 / CCUG 47099 / CIP 106
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -2.4   0.0      0.72       1.3      93     104 ..     175     186 ..     147     195 .. 0.71
+   2 !    7.6   0.2   0.00066    0.0012     214     252 ..     299     337 ..     189     342 .. 0.83
+   3 !   14.7   0.0   4.6e-06   8.5e-06     277     380 ..     342     434 ..     336     442 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: -2.4 bits;  conditional E-value: 0.72
+  specific_cut_vcpos  93 fklvnpsrwqpq 104
+                          +  +p rwqp 
+        V-IPO_G0LAH5 175 VDADDPGRWQPT 186
+                         355689999986 PP
+
+  == domain 2  score: 7.6 bits;  conditional E-value: 0.00066
+  specific_cut_vcpos 214 vdgwvhlllahvlatfdaliaawkyktkydavrpvtavr 252
+                                + + ++a+ da+i++w++k + + +rp t+++
+        V-IPO_G0LAH5 299 FAKTLFAYTKASVAMADAFISCWDEKYRSNLIRPETVIN 337
+                         4444455678899**********************9996 PP
+
+  == domain 3  score: 14.7 bits;  conditional E-value: 4.6e-06
+  specific_cut_vcpos 277 newssylpvGdhpeypsGsttlcsaeaqaarrylddd.eldwtlefpaGssvvepgitpakdvelhfetwtdftkdcaesrvwgGvhfrkt 366
+                         + w++ l +   pey+sG + ++ a++ +    ++d+ ++d  +e+        p   p +    +f+++ + + + a sr++gG+h+r +
+        V-IPO_G0LAH5 342 DSWKPVLQTPPFPEYTSGHSVVSGAASVVLTEVFGDNfSFDDDTEV--------PYGLPIR----SFKSFKQAADEAAISRMYGGIHYRAA 420
+                         67999999999********999999999999999875233333333........4445666....5788899999**************** PP
+
+  specific_cut_vcpos 367 versiefGeqfGdl 380
+                         +e  ++ G  +G  
+        V-IPO_G0LAH5 421 IEVGVKQGRDLGTF 434
+                         ********999865 PP
+
+>> V-IPO_A0A0P7XDT3  Vanadium-dependent iodoperoxidase OS=Algoriphagus marincola HL-49 OX=1305737 GN=HLUCCX10_12145 PE=4
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !    4.4   0.6    0.0061     0.011     188     252 ..     270     333 ..     193     338 .. 0.70
+   2 !   13.7   0.0   9.5e-06   1.8e-05     276     383 ..     337     433 ..     331     439 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 4.4 bits;  conditional E-value: 0.0061
+  specific_cut_vcpos 188 ldnkllGiglsskviaekkdqnneldvdgwvhlllahvlatfdaliaawkyktkydavrpvtavr 252
+                          + k+   g+  +++a +    +++d +  ++ l+ + ++  da++a+w++k +   +rp t ++
+    V-IPO_A0A0P7XDT3 270 AEKKITPGGHWMSIAAIAAK-TANVDWKKTAEALAMTGVSLHDAFVACWDEKYRSVLTRPETYIN 333
+                         34555555555555554444.6788999999999999999************9999999988875 PP
+
+  == domain 2  score: 13.7 bits;  conditional E-value: 9.5e-06
+  specific_cut_vcpos 276 anewssylpvGdhpeypsGsttlcsaeaqaarryldddeldwtlefpaGssvvepgitpakdvelhfetwtdftkdcaesrvwgGvhfrkt 366
+                          +ew + l +   pe++sG +  ++a+a +  + +++d     ++f + ss v+ g+ p+++    ++++ + + + a sr++gG+h+  +
+    V-IPO_A0A0P7XDT3 337 DEEWLPILQTPPFPEHTSGHSVASTAAAYTLTQIFGED-----FHF-VDSSEVNYGL-PVRE----YDSFLEASSEAAISRLYGGIHYMPA 416
+                         589****************9999999999999999987.....333.5677788775.7775....889999999**************** PP
+
+  specific_cut_vcpos 367 versiefGeqfGdlahe 383
+                         +++    G q G+l ++
+    V-IPO_A0A0P7XDT3 417 IKEGAWQGRQVGELIWK 433
+                         ************99876 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (395 nodes)
+Target sequences:                         13  (6804 residues searched)
+Passed MSV filter:                        11  (0.846154); expected 0.3 (0.02)
+Passed bias filter:                       11  (0.846154); expected 0.3 (0.02)
+Passed Vit filter:                         7  (0.538462); expected 0.0 (0.001)
+Passed Fwd filter:                         7  (0.538462); expected 0.0 (1e-05)
+Initial search space (Z):                 13  [actual number of targets]
+Domain search space  (domZ):               7  [number of targets reported over threshold]
+# CPU time: 0.05u 0.00s 00:00:00.05 Elapsed: 00:00:00.06
+# Mc/sec: 43.74
+//
+[ok]

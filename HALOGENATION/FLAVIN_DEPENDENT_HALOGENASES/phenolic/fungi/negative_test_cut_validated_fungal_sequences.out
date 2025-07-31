@@ -1,0 +1,295 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /home/szenei/ENZYMES/FLAVIN_DEPENDENT_HALOGENASES/phenolic/fungi/cut_validated_fungal_sequences_v2.hmm
+# target sequence database:        /home/szenei/ENZYMES/FLAVIN_DEPENDENT_HALOGENASES/test/negative_test.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       cut_validated_fungal_sequences  [M=519]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                       Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                       -----------
+   3.2e-254  837.1   0.5   3.8e-254  836.8   0.5    1.0  1  tr|F2S201|F2S201_TRIT1          Non-heme halogenase OS=Trichophy
+   6.9e-253  832.7   0.3   9.4e-253  832.2   0.3    1.1  1  tr|A0A178EZB9|A0A178EZB9_TRIRU  Non-heme halogenase OS=Trichophy
+     1e-219  723.2   0.1   1.2e-219  722.9   0.1    1.0  1  tr|A0A1W5CYU3|A0A1W5CYU3_9LECA  Non-heme halogenase OS=Lasallia 
+     3e-217  715.1   0.3   1.8e-138  455.2   0.3    2.0  2  tr|A0A192WN89|A0A192WN89_CLAUC  Putative non-heme halogenase OS=
+     3e-217  715.1   0.3   1.8e-138  455.2   0.3    2.0  2  tr|A0A1Z1C496|A0A1Z1C496_CLAUC  Putative non-heme halogenase OS=
+   5.4e-214  704.3   0.4   6.8e-214  704.0   0.4    1.0  1  tr|A0A6A6U6R3|A0A6A6U6R3_9PEZI  Non-heme halogenase OS=Microthyr
+
+
+Domain annotation for each sequence (and alignments):
+>> tr|F2S201|F2S201_TRIT1  Non-heme halogenase OS=Trichophyton tonsurans (strain CBS 112818) OX=647933 GN=TESG_05005 PE=
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  836.8   0.5  2.4e-255  3.8e-254       1     516 [.      13     533 ..      13     536 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 836.8 bits;  conditional E-value: 2.4e-255
+  cut_validated_fungal_sequences   1 GGGPaGsyaaaalaregvdvvlleadkfPryhiGesllasirfllrfidleekfdkyGfqkklGaafklnskkeaytdf 79 
+                                     GGGPaGsyaa+al regvdvvllead+fPryhiGes+l+sir++lrfidl++kfd+yGf++k+Gaafklnsk eaytdf
+          tr|F2S201|F2S201_TRIT1  13 GGGPAGSYAASALVREGVDVVLLEADVFPRYHIGESMLPSIRHFLRFIDLDSKFDSYGFVQKNGAAFKLNSKPEAYTDF 91 
+                                     9****************************************************************************** PP
+
+  cut_validated_fungal_sequences  80 iaaaGpegysWnvvrsesdellfkhaaksGaktfdgvkvesiefepydedkftsdeklanpgrPvsakWsak.dGssGs 157
+                                     +aa Gp++y+Wnv+rse+d+l+fkha+++Gaktfdgvkv++i+fep  ed  +sd   ++ grPvsa+W +k d +sG 
+          tr|F2S201|F2S201_TRIT1  92 VAAGGPGSYAWNVIRSEADHLIFKHAGENGAKTFDGVKVNAINFEPLTED--NSDPVSTDLGRPVSATWTRKaDKTSGV 168
+                                     **************************************************..899999**************999**** PP
+
+  cut_validated_fungal_sequences 158 ikfdylvdatGraGiistkylknrkfneglkniasWgyykgakpyaeGtdrenqPffealkdGsGWvWliPlhngtvsv 236
+                                     ikf+ylvdatGraG++stky+knr++n+glkn+a+Wgy+kga +y+ Gt+re++P+fea+ dGsGWvWliPlh+gt+s+
+          tr|F2S201|F2S201_TRIT1 169 IKFEYLVDATGRAGLVSTKYMKNRTYNQGLKNVATWGYWKGASSYGIGTPREGDPYFEAIADGSGWVWLIPLHDGTTSI 247
+                                     ******************************************************************************* PP
+
+  cut_validated_fungal_sequences 237 GvvlrqdlffekkkelgettsealylellklaptiselledaelvsdikqasdysysasayagPylrivGdaGcfidPf 315
+                                     Gvv++q +++ kk+e+g++++ ++y++ +k++p+i++ll++aelvsd+k+asd+sysas+ya+Pylri+GdaGcfidPf
+          tr|F2S201|F2S201_TRIT1 248 GVVMNQAMATTKKREAGSSSQ-QFYIDNVKQIPGIWQLLDNAELVSDLKSASDWSYSASSYASPYLRIAGDAGCFIDPF 325
+                                     *****************9988.9******************************************************** PP
+
+  cut_validated_fungal_sequences 316 fssGvhlalasalsaavsirasirGdcdeleaakWhakkvaegytrfllvvlaalkqirkqekpvlsdvdeegfdrafk 394
+                                     fssGvhla+as+lsaa+sira++rGdcde++aa+Wh+kkvaegytrfllvv++alkqi+++++pvl+d dee+f+raf+
+          tr|F2S201|F2S201_TRIT1 326 FSSGVHLAFASGLSAALSIRAAQRGDCDEKAAAEWHSKKVAEGYTRFLLVVMSALKQISDRDEPVLTDWDEESFNRAFD 404
+                                     ******************************************************************************* PP
+
+  cut_validated_fungal_sequences 395 llrPviqgaadtetvkeltkeevaeaidfslealeeaseekqkavlskv.......eaektaeeaellekltadeekvl 466
+                                     l+rP+iqg+ d++  k lt++e+a++i+f+++a+++a  e+q+a+++k+       + ++t+  ++l e+l+ade+++l
+          tr|F2S201|F2S201_TRIT1 405 LFRPIIQGTVDVD--KTLTQAEIAQTINFCVNAFQNAGREEQDALMNKIksvsetkNGKETDVVKKLEESLSADERRTL 481
+                                     **********997..99******************************99888877555566667788899********* PP
+
+  cut_validated_fungal_sequences 467 sni..ralkkakdeanledfegdvidGlaarlekgklGlkrveakianaead 516
+                                     ++i  r++ +++d++n+++f+ dvidG++++l++g+lGl r + k++ ++++
+          tr|F2S201|F2S201_TRIT1 482 NTIqaRQIIRSEDTMNIDNFTVDVIDGMVPNLKRGSLGLLRYVPKVKAGQQE 533
+                                     ******************************************9999887765 PP
+
+>> tr|A0A178EZB9|A0A178EZB9_TRIRU  Non-heme halogenase OS=Trichophyton rubrum OX=5551 GN=A7C99_4147 PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  832.2   0.3  6.1e-254  9.4e-253       1     516 [.     548    1068 ..     548    1071 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 832.2 bits;  conditional E-value: 6.1e-254
+  cut_validated_fungal_sequences    1 GGGPaGsyaaaalaregvdvvlleadkfPryhiGesllasirfllrfidleekfdkyGfqkklGaafklnskkeayt 77  
+                                      GGGPaGsyaa+al regvdvvllead+fPryhiGes+l+sir++lrfidl++kfd+yGf++k+Gaafklnsk eayt
+  tr|A0A178EZB9|A0A178EZB9_TRIRU  548 GGGPAGSYAASALVREGVDVVLLEADVFPRYHIGESMLPSIRHFLRFIDLDSKFDSYGFVQKNGAAFKLNSKPEAYT 624 
+                                      9**************************************************************************** PP
+
+  cut_validated_fungal_sequences   78 dfiaaaGpegysWnvvrsesdellfkhaaksGaktfdgvkvesiefepydedkftsdeklanpgrPvsakWsak.dG 153 
+                                      df+aa Gp++y+Wnv+rse+d+l+fkha+++Gaktfdgvkv++i+fep  e+  +sd   ++ grPvsa+W +k d 
+  tr|A0A178EZB9|A0A178EZB9_TRIRU  625 DFVAAGGPGSYAWNVIRSEADHLIFKHAGENGAKTFDGVKVNAINFEPLSEE--NSDPVSTDLGRPVSATWTRKaDK 699 
+                                      *************************************************999..899999**************999 PP
+
+  cut_validated_fungal_sequences  154 ssGsikfdylvdatGraGiistkylknrkfneglkniasWgyykgakpyaeGtdrenqPffealkdGsGWvWliPlh 230 
+                                      ssG ikf+ylvdatGraG++stky+knr++n+glkn+a+Wgy+kga +y+ Gt+re++P+fea+ dGsGWvWliPlh
+  tr|A0A178EZB9|A0A178EZB9_TRIRU  700 SSGVIKFEYLVDATGRAGLVSTKYMKNRTYNQGLKNVATWGYWKGASSYGIGTPREGDPYFEAIADGSGWVWLIPLH 776 
+                                      ***************************************************************************** PP
+
+  cut_validated_fungal_sequences  231 ngtvsvGvvlrqdlffekkkelgettsealylellklaptiselledaelvsdikqasdysysasayagPylrivGd 307 
+                                      +gt+s+Gvv++q +++ kk+e+g++++ ++yl+ +k++p+i++ll++aelvsd+k+asd+sysas+ya+P lri+Gd
+  tr|A0A178EZB9|A0A178EZB9_TRIRU  777 DGTTSIGVVMNQAMATTKKREAGSSSQ-QFYLDNVKQIPGIWQLLDNAELVSDLKSASDWSYSASSYASPCLRIAGD 852 
+                                      ***********************9988.9************************************************ PP
+
+  cut_validated_fungal_sequences  308 aGcfidPffssGvhlalasalsaavsirasirGdcdeleaakWhakkvaegytrfllvvlaalkqirkqekpvlsdv 384 
+                                      aGcfidPffssGvhla+as+lsaa+sira++rGdcde++aa+Wh+kkvaegytrfllvv++alkqi+++++pvl+d 
+  tr|A0A178EZB9|A0A178EZB9_TRIRU  853 AGCFIDPFFSSGVHLAFASGLSAALSIRAAQRGDCDEMAAAEWHSKKVAEGYTRFLLVVMSALKQISDRDEPVLTDW 929 
+                                      ***************************************************************************** PP
+
+  cut_validated_fungal_sequences  385 deegfdrafkllrPviqgaadtetvkeltkeevaeaidfslealeeaseekqkavlskv.......eaektaeeael 454 
+                                      dee+f+raf+l+rP+iqg+ d++  k lt++e+a++i+f+++a+++a  e+q+a+++k+       + e+t+  ++l
+  tr|A0A178EZB9|A0A178EZB9_TRIRU  930 DEESFNRAFDLFRPIIQGTVDVD--KTLTQAEIAQTINFCVNAFQNAGREEQDALMNKIksvsetkNGEETDVVKKL 1004
+                                      ********************997..99******************************99888876555666677889 PP
+
+  cut_validated_fungal_sequences  455 lekltadeekvlsni..ralkkakdeanledfegdvidGlaarlekgklGlkrveakianaead 516 
+                                       e+l+ade+++l++i  r++ +++d++n+++f+ dvidG++++l++g+lGl r + k++ ++++
+  tr|A0A178EZB9|A0A178EZB9_TRIRU 1005 KESLSADERRTLNTIqaRQIIRSEDTMNIDNFTVDVIDGMVPNLKRGSLGLLRYVPKVKAGQQE 1068
+                                      99****************************************************9999987765 PP
+
+>> tr|A0A1W5CYU3|A0A1W5CYU3_9LECA  Non-heme halogenase OS=Lasallia pustulata OX=136370 PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  722.9   0.1    8e-221  1.2e-219      37     505 ..       1     479 [.       1     488 [. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 722.9 bits;  conditional E-value: 8e-221
+  cut_validated_fungal_sequences  37 llasirfllrfidleekfdkyGfqkklGaafklnskkeaytdfiaaaGpegysWnvvrsesdellfkhaaksGaktfdg 115
+                                     +lasir++lrfidl+++fd+yGf+kk Gaafkln+k ea+tdf+aaaGp+ y+Wnvvrse+d+l+f+ha+ksGak+fdg
+  tr|A0A1W5CYU3|A0A1W5CYU3_9LECA   1 MLASIRHFLRFIDLDSTFDNYGFRKKTGAAFKLNAKPEAFTDFVAAAGPNNYAWNVVRSEADNLIFQHAGKSGAKIFDG 79 
+                                     8****************************************************************************** PP
+
+  cut_validated_fungal_sequences 116 vkvesiefepydedkftsdeklanpgrPvsakWsakdGssGsikfdylvdatGraGiistkylknrkfneglkniasWg 194
+                                     +kv si+fep d+++ t d+++ + grPvsa+Ws+kdG+sG++kf+y+vda+GraG++stkylknr++n+glkn+a+Wg
+  tr|A0A1W5CYU3|A0A1W5CYU3_9LECA  80 TKVVSIDFEPLDSANGTMDSEMPDLGRPVSATWSRKDGTSGKVKFEYIVDASGRAGLVSTKYLKNRRYNQGLKNVANWG 158
+                                     ******************************************************************************* PP
+
+  cut_validated_fungal_sequences 195 yykgakpyaeGtdrenqPffealkdGsGWvWliPlhngtvsvGvvlrqdlffekkkelgettsealylellklaptise 273
+                                     y++g  +y++Gt+  +qP+feal+d sGWvW iPlhngt+s+G+v++q l+++kkk++g+ t +++y ++lkl+p+i++
+  tr|A0A1W5CYU3|A0A1W5CYU3_9LECA 159 YWEGVGEYGTGTKAAGQPYFEALQDASGWVWCIPLHNGTTSIGIVMNQGLSVSKKKAMGSPTGQEFYRDSLKLVPGIEK 237
+                                     ******************************************************************************* PP
+
+  cut_validated_fungal_sequences 274 lledaelvsdikqasdysysasayagPylrivGdaGcfidPffssGvhlalasalsaavsirasirGdcdeleaakWha 352
+                                     ll++a+ vs+ik asd+sysas+ya+Py+ri+GdaGcfidPffssGvhla+as+lsaa++i a++rGdc e +aa+Wh+
+  tr|A0A1W5CYU3|A0A1W5CYU3_9LECA 238 LLSEAKQVSEIKAASDWSYSASTYASPYVRIAGDAGCFIDPFFSSGVHLAMASGLSAALTICAARRGDCGERDAAEWHS 316
+                                     ******************************************************************************* PP
+
+  cut_validated_fungal_sequences 353 kkvaegytrfllvvlaalkqirkqekpvlsdvdeegfdrafkllrPviqgaadtetvkeltkeevaeaidfslealeea 431
+                                     kkvaegytrfllvvl+alkqir q++pvl+d de gfdraf l+rP+iqg+adt+   +lt+ee+++++df+++a+e a
+  tr|A0A1W5CYU3|A0A1W5CYU3_9LECA 317 KKVAEGYTRFLLVVLSALKQIRRQDEPVLADWDESGFDRAFALFRPIIQGTADTN--VKLTQEEISKTVDFCFHAFEPA 393
+                                     *****************************************************97..7899****************** PP
+
+  cut_validated_fungal_sequences 432 seekqkavlskv..........eaektaeeaellekltadeekvlsni..ralkkakdeanledfegdvidGlaarlek 498
+                                     + e+ +avl+kv          + +k+++ + l ++l++de+++l++i  r++ +++d   +e+f+ d+idG++++l +
+  tr|A0A1W5CYU3|A0A1W5CYU3_9LECA 394 KPEERDAVLKKVeqitkkengaSHAKKEDVEALEASLSPDEMRILKTIraRQMVRTEDIVSIENFQADTIDGMSPNLVR 472
+                                     **99999999998888885542222223333445689***********9999*************************** PP
+
+  cut_validated_fungal_sequences 499 gklGlkr 505
+                                     g+lGl +
+  tr|A0A1W5CYU3|A0A1W5CYU3_9LECA 473 GSLGLVK 479
+                                     ****987 PP
+
+>> tr|A0A192WN89|A0A192WN89_CLAUC  Putative non-heme halogenase OS=Cladonia uncialis OX=174080 PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  455.2   0.3  1.1e-139  1.8e-138       1     270 [.      13     288 ..      13     289 .. 0.97
+   2 !  258.4   0.0   5.2e-80     8e-79     294     506 ..     290     509 ..     288     519 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 455.2 bits;  conditional E-value: 1.1e-139
+  cut_validated_fungal_sequences   1 GGGPaGsyaaaalaregvdvvlleadkfPryhiGesllasirfllrfidleekfdkyGfqkklGaafkln.skkeaytd 78 
+                                     GGGPaGsy+a++laregv++v+lead+fPryhiGes+las+r++lrfidl+e+f+++Gfqkk Gaafkln +k+e+ytd
+  tr|A0A192WN89|A0A192WN89_CLAUC  13 GGGPAGSYSACTLAREGVNTVVLEADVFPRYHIGESMLASMRPFLRFIDLDETFKAHGFQKKTGAAFKLNqNKREGYTD 91 
+                                     9********************************************************************94589***** PP
+
+  cut_validated_fungal_sequences  79 fiaaaGpegysWnvvrsesdellfkhaaksGaktfdgvkvesiefepydedkftsdeklanpgrPvsakWsakdGssGs 157
+                                     f aa Gpe+y+Wnvvrse+d+l f+ha k+Gak+fdgv+vesief+     + ++d+k+a  grP+sa+W++kdG++Gs
+  tr|A0A192WN89|A0A192WN89_CLAUC  92 FQAAGGPESYAWNVVRSEADDLTFRHAEKCGAKIFDGVRVESIEFNESSGIEVPEDSKVAALGRPISATWKRKDGTTGS 170
+                                     **********************************************999889*************************** PP
+
+  cut_validated_fungal_sequences 158 ikfdylvdatGraGiistkylknrkfneglkniasWgyykgakpyaeGtdrenqPffeal.....kdGsGWvWliPlhn 231
+                                     ikfdylvd+ GraGi+stky+knrkfn+glkn+asWgy+k++ +yaeGt r+n+Pffeal     +  sGW W+iPlhn
+  tr|A0A192WN89|A0A192WN89_CLAUC 171 IKFDYLVDGIGRAGIVSTKYMKNRKFNQGLKNVASWGYWKATGQYAEGTRRQNEPFFEALtgiplTHASGWAWFIPLHN 249
+                                     ***********************************************************722222579*********** PP
+
+  cut_validated_fungal_sequences 232 gtvsvGvvlrqdlffekkkelgettsealylellklapt 270
+                                     gt+svGvv rqdl+ ++kk+lg+ +  ++y+e+lklapt
+  tr|A0A192WN89|A0A192WN89_CLAUC 250 GTMSVGVVTRQDLSSQRKKALGSPSPVEFYKESLKLAPT 288
+                                     ************************************997 PP
+
+  == domain 2  score: 258.4 bits;  conditional E-value: 5.2e-80
+  cut_validated_fungal_sequences 294 asayagPylrivGdaGcfidPffssGvhlalasalsaavsirasirGdcdeleaakWhakkvaegytrfllvvlaalkq 372
+                                     a+ay++Py+ri+ daGcfidP+fssGvhla as+lsa ++i as++G+ +eleaakWh++kvaegytrfllvv++a+kq
+  tr|A0A192WN89|A0A192WN89_CLAUC 290 ATAYSSPYIRIAIDAGCFIDPYFSSGVHLAYASGLSAPLTICASMKGEYNELEAAKWHSTKVAEGYTRFLLVVMSATKQ 368
+                                     89***************************************************************************** PP
+
+  cut_validated_fungal_sequences 373 irkqekpvlsdvdeegfdrafkllrPviqgaadtetvkeltkeevaeaidfslealeeaseekqkavlskv.....eae 446
+                                     ir  e+ +lsd d++gfd af+ +rP+iqg+ad+++ ++lt++ev++++df++ a++e+s e+ ++vl+kv      + 
+  tr|A0A192WN89|A0A192WN89_CLAUC 369 IRGGEEHILSDWDDDGFDVAFDAFRPIIQGTADADVGGKLTHDEVVKTVDFCMLAFKETSPEERQKVLDKVasingASL 447
+                                     *************************************************************999999999987764444 PP
+
+  cut_validated_fungal_sequences 447 ktaeeaellekltadeekvlsni..ralkkakdeanledfegdvidGlaarlekgklGlkrv 506
+                                       ++++ +leklt de k+l++i  +++ + +d+ nl++f +d+idGla++l++g+lGl  +
+  tr|A0A192WN89|A0A192WN89_CLAUC 448 AISDDKANLEKLTEDELKILNHIraKQMLRFEDTLNLNHFGSDAIDGLAPNLKRGSLGLVPQ 509
+                                     56788999***************66689999***************************9755 PP
+
+>> tr|A0A1Z1C496|A0A1Z1C496_CLAUC  Putative non-heme halogenase OS=Cladonia uncialis subsp. uncialis OX=180999 PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  455.2   0.3  1.1e-139  1.8e-138       1     270 [.      13     288 ..      13     289 .. 0.97
+   2 !  258.4   0.0   5.2e-80     8e-79     294     506 ..     290     509 ..     288     519 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 455.2 bits;  conditional E-value: 1.1e-139
+  cut_validated_fungal_sequences   1 GGGPaGsyaaaalaregvdvvlleadkfPryhiGesllasirfllrfidleekfdkyGfqkklGaafkln.skkeaytd 78 
+                                     GGGPaGsy+a++laregv++v+lead+fPryhiGes+las+r++lrfidl+e+f+++Gfqkk Gaafkln +k+e+ytd
+  tr|A0A1Z1C496|A0A1Z1C496_CLAUC  13 GGGPAGSYSACTLAREGVNTVVLEADVFPRYHIGESMLASMRPFLRFIDLDETFKAHGFQKKTGAAFKLNqNKREGYTD 91 
+                                     9********************************************************************94589***** PP
+
+  cut_validated_fungal_sequences  79 fiaaaGpegysWnvvrsesdellfkhaaksGaktfdgvkvesiefepydedkftsdeklanpgrPvsakWsakdGssGs 157
+                                     f aa Gpe+y+Wnvvrse+d+l f+ha k+Gak+fdgv+vesief+     + ++d+k+a  grP+sa+W++kdG++Gs
+  tr|A0A1Z1C496|A0A1Z1C496_CLAUC  92 FQAAGGPESYAWNVVRSEADDLTFRHAEKCGAKIFDGVRVESIEFNESSGIEVPEDSKVAALGRPISATWKRKDGTTGS 170
+                                     **********************************************999889*************************** PP
+
+  cut_validated_fungal_sequences 158 ikfdylvdatGraGiistkylknrkfneglkniasWgyykgakpyaeGtdrenqPffeal.....kdGsGWvWliPlhn 231
+                                     ikfdylvd+ GraGi+stky+knrkfn+glkn+asWgy+k++ +yaeGt r+n+Pffeal     +  sGW W+iPlhn
+  tr|A0A1Z1C496|A0A1Z1C496_CLAUC 171 IKFDYLVDGIGRAGIVSTKYMKNRKFNQGLKNVASWGYWKATGQYAEGTRRQNEPFFEALtgiplTHASGWAWFIPLHN 249
+                                     ***********************************************************722222579*********** PP
+
+  cut_validated_fungal_sequences 232 gtvsvGvvlrqdlffekkkelgettsealylellklapt 270
+                                     gt+svGvv rqdl+ ++kk+lg+ +  ++y+e+lklapt
+  tr|A0A1Z1C496|A0A1Z1C496_CLAUC 250 GTMSVGVVTRQDLSSQRKKALGSPSPVEFYKESLKLAPT 288
+                                     ************************************997 PP
+
+  == domain 2  score: 258.4 bits;  conditional E-value: 5.2e-80
+  cut_validated_fungal_sequences 294 asayagPylrivGdaGcfidPffssGvhlalasalsaavsirasirGdcdeleaakWhakkvaegytrfllvvlaalkq 372
+                                     a+ay++Py+ri+ daGcfidP+fssGvhla as+lsa ++i as++G+ +eleaakWh++kvaegytrfllvv++a+kq
+  tr|A0A1Z1C496|A0A1Z1C496_CLAUC 290 ATAYSSPYIRIAIDAGCFIDPYFSSGVHLAYASGLSAPLTICASMKGEYNELEAAKWHSTKVAEGYTRFLLVVMSATKQ 368
+                                     89***************************************************************************** PP
+
+  cut_validated_fungal_sequences 373 irkqekpvlsdvdeegfdrafkllrPviqgaadtetvkeltkeevaeaidfslealeeaseekqkavlskv.....eae 446
+                                     ir  e+ +lsd d++gfd af+ +rP+iqg+ad+++ ++lt++ev++++df++ a++e+s e+ ++vl+kv      + 
+  tr|A0A1Z1C496|A0A1Z1C496_CLAUC 369 IRGGEEHILSDWDDDGFDVAFDAFRPIIQGTADADVGGKLTHDEVVKTVDFCMLAFKETSPEERQKVLDKVasingASL 447
+                                     *************************************************************999999999987764444 PP
+
+  cut_validated_fungal_sequences 447 ktaeeaellekltadeekvlsni..ralkkakdeanledfegdvidGlaarlekgklGlkrv 506
+                                       ++++ +leklt de k+l++i  +++ + +d+ nl++f +d+idGla++l++g+lGl  +
+  tr|A0A1Z1C496|A0A1Z1C496_CLAUC 448 AISDDKANLEKLTEDELKILNHIraKQMLRFEDTLNLNHFGSDAIDGLAPNLKRGSLGLVPQ 509
+                                     56788999***************66689999***************************9755 PP
+
+>> tr|A0A6A6U6R3|A0A6A6U6R3_9PEZI  Non-heme halogenase OS=Microthyrium microscopicum OX=703497 GN=BT63DRAFT_472047 PE=3 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  704.0   0.4  4.4e-215  6.8e-214       1     508 [.      13     532 ..      13     540 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 704.0 bits;  conditional E-value: 4.4e-215
+  cut_validated_fungal_sequences   1 GGGPaGsyaaaalaregvdvvlleadkfPryhiGesllasirfllrfidleekfdkyGfqkklGaafklnsk.keaytd 78 
+                                     GGGPaGsyaa+ lareg+d+vlleadkfPryhiGes+l+sir+++++idl++ fd++Gf++k+Gaafkln+    +ytd
+  tr|A0A6A6U6R3|A0A6A6U6R3_9PEZI  13 GGGPAGSYAATLLAREGIDTVLLEADKFPRYHIGESMLPSIRHFFKLIDLDSIFDSHGFRRKKGAAFKLNHSlPPSYTD 91 
+                                     9********************************************************************9763789*** PP
+
+  cut_validated_fungal_sequences  79 fiaaaGpegysWnvvrsesdellfkhaaksGaktfdgvkvesiefepydedkftsdeklanpgrPvsakWsak.dGssG 156
+                                     f+aa G++gy++nvvrse+d++lfkha+++Gak+fdgvkv++++f p++      +  +an+grPvsa+W +k +G++G
+  tr|A0A6A6U6R3|A0A6A6U6R3_9PEZI  92 FVAAGGSDGYAYNVVRSEADDILFKHARNEGAKVFDGVKVDDVQFAPFNAP---RNVPVANAGRPVSASWTRKdNGTRG 167
+                                     ***********************************************9877...8999***************669*** PP
+
+  cut_validated_fungal_sequences 157 sikfdylvdatGraGiistkylknrkfneglkniasWgyykgakpyaeGtdrenqPffealkdGsGWvWliPlhngtvs 235
+                                      +kf+yl+da+GraG+istkylknr++n+glk +a+Wgy+k+a +++  t++e+ Pffeal+dGsGW W+iPlhngt+s
+  tr|A0A6A6U6R3|A0A6A6U6R3_9PEZI 168 MLKFEYLIDASGRAGLISTKYLKNRHYNQGLKSVANWGYWKNAGTWGIDTHQEGAPFFEALEDGSGWAWFIPLHNGTTS 246
+                                     ******************************************************************************* PP
+
+  cut_validated_fungal_sequences 236 vGvvlrqdlffekkkelgettsealylellklaptiselled..aelvsdikqasdysysasayagPylrivGdaGcfi 312
+                                     vGvv++q +  +kk +    t++ +y+e+lkl+p+i +l++   +elv++ik+asd+sy+as y+ Py ri+GdaGcfi
+  tr|A0A6A6U6R3|A0A6A6U6R3_9PEZI 247 VGVVMKQSILAQKKAQKEYATTKYFYQEALKLCPNIIQLISGteSELVTEIKSASDWSYNASVYSCPYTRIAGDAGCFI 325
+                                     ***************************************9754489********************************* PP
+
+  cut_validated_fungal_sequences 313 dPffssGvhlalasalsaavsirasirGdcdeleaakWhakkvaegytrfllvvlaalkqirkqekpvlsdvdeegfdr 391
+                                     dPffssG h+al+++lsaa ++ asi+ + +e +aa+Wh+k+v   y+rfllv+++ +kqi+  ++++l+d dee+fdr
+  tr|A0A6A6U6R3|A0A6A6U6R3_9PEZI 326 DPFFSSGYHIALTTGLSAAATVCASIKKELNEISAASWHSKNVIGTYSRFLLVIMSSMKQIHSSKDAILNDWDEESFDR 404
+                                     ******************************************************************************* PP
+
+  cut_validated_fungal_sequences 392 afkllrPviqgaadtetvkeltkeevaeaidfslealeeaseekqkavlskv........eaektaeeae.llekltad 461
+                                     af ++rP+iqg+ d++t +++tkee++++++f+ +a+e++    +++vl+k+         ++kt +e +   ++l   
+  tr|A0A6A6U6R3|A0A6A6U6R3_9PEZI 405 AFAFFRPIIQGTVDADTRGKVTKEEISNTVSFCSHAFEKVYAADKESVLQKIkginlagpTTSKTRDEIKaIEAQLNDG 483
+                                     ***************************************9997777788888888999885555555555055688899 PP
+
+  cut_validated_fungal_sequences 462 eekvlsni..ralkkakdeanledfegdvidGlaarlekgklGlkrvea 508
+                                     e+++l+ +  r + + ++++n++ f+  vidGl+  l++g+lGl ++ a
+  tr|A0A6A6U6R3|A0A6A6U6R3_9PEZI 484 EKQALDALraRPVLRFEHSMNIDSFNFIVIDGLKLSLQRGSLGLVKAAA 532
+                                     9******9777899******************************99865 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (519 nodes)
+Target sequences:                         93  (54940 residues searched)
+Passed MSV filter:                         9  (0.0967742); expected 1.9 (0.02)
+Passed bias filter:                        9  (0.0967742); expected 1.9 (0.02)
+Passed Vit filter:                         8  (0.0860215); expected 0.1 (0.001)
+Passed Fwd filter:                         6  (0.0645161); expected 0.0 (1e-05)
+Initial search space (Z):                 93  [actual number of targets]
+Domain search space  (domZ):               6  [number of targets reported over threshold]
+# CPU time: 0.05u 0.00s 00:00:00.05 Elapsed: 00:00:00.05
+# Mc/sec: 477.71
+//
+[ok]

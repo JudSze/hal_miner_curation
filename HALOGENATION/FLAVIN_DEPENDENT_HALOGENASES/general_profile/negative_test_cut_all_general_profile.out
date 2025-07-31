@@ -1,0 +1,251 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /home/szenei/ENZYMES/FLAVIN_DEPENDENT_HALOGENASES/general_profile/cut_all_general_profile.hmm
+# target sequence database:        /home/szenei/ENZYMES/FLAVIN_DEPENDENT_HALOGENASES/test/negative_test.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       cut_all_general_profile  [M=473]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                       Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                       -----------
+    9.7e-80  261.7   0.2    1.2e-79  261.4   0.2    1.1  1  tr|F2S201|F2S201_TRIT1          Non-heme halogenase OS=Trichophy
+    1.6e-78  257.7   0.2    2.2e-78  257.2   0.2    1.1  1  tr|A0A178EZB9|A0A178EZB9_TRIRU  Non-heme halogenase OS=Trichophy
+    7.2e-71  232.4   0.1      9e-71  232.1   0.1    1.1  1  tr|A0A6A6U6R3|A0A6A6U6R3_9PEZI  Non-heme halogenase OS=Microthyr
+    3.6e-64  210.3   0.0    4.4e-64  210.1   0.0    1.0  1  tr|A0A1W5CYU3|A0A1W5CYU3_9LECA  Non-heme halogenase OS=Lasallia 
+    1.5e-56  185.2   0.9    1.8e-55  181.7   0.8    2.0  1  tr|A0A192WN89|A0A192WN89_CLAUC  Putative non-heme halogenase OS=
+    1.5e-56  185.2   0.9    1.8e-55  181.7   0.8    2.0  1  tr|A0A1Z1C496|A0A1Z1C496_CLAUC  Putative non-heme halogenase OS=
+
+
+Domain annotation for each sequence (and alignments):
+>> tr|F2S201|F2S201_TRIT1  Non-heme halogenase OS=Trichophyton tonsurans (strain CBS 112818) OX=647933 GN=TESG_05005 PE=
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  261.4   0.2   7.7e-81   1.2e-79       2     418 ..      20     452 ..      19     497 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 261.4 bits;  conditional E-value: 7.7e-81
+  cut_all_general_profile   2 ttAsyLakaglsVtllEseefpryhVGEstvpstvrtifdylglrekleaagfpyKlGlrfnWesvdgapleewefdfaelkqpgg 87 
+                               +As L ++g++V+llE++ fpryh+GEs++ps+ r+++++++l++k+++ gf  K G++f+     + ++e     ++ +++ gg
+   tr|F2S201|F2S201_TRIT1  20 YAASALVREGVDVVLLEADVFPRYHIGESMLPSI-RHFLRFIDLDSKFDSYGFVQKNGAAFKL----NSKPE----AYTDFVAAGG 96 
+                              69********************************.**************************43....44444....4566666667 PP
+
+  cut_all_general_profile  88 qtpyayhvdrakfdkfLlrlAverGvevvegtvvkdveldg..................rgviealttkegre...iradlvvDAs 152
+                              + +ya+ v r++ d++++++A e+G++ ++g++v+ ++++                   +    + t k +++   i+++++vDA+
+   tr|F2S201|F2S201_TRIT1  97 PGSYAWNVIRSEADHLIFKHAGENGAKTFDGVKVNAINFEPltednsdpvstdlgrpvsA----TWTRKADKTsgvIKFEYLVDAT 178
+                              88*************************************989999********9955544....444444444555********** PP
+
+  cut_all_general_profile 153 GrrglllnkalgereeysevllnnvAvwtrvendderddlepsttik....alafedgWvWvIPlsdgrtsvGvVyrkdkykesk. 233
+                              Gr+gl+++k++++r  y++ l +nvA+w+++++ ++ +++    + +    a+a  +gWvW IPl+dg+ts+GvV+++++++ +k 
+   tr|F2S201|F2S201_TRIT1 179 GRAGLVSTKYMKNR-TYNQGL-KNVATWGYWKG-ASSYGIGTPREGDpyfeAIADGSGWVWLIPLHDGTTSIGVVMNQAMATTKKr 261
+                              **************.****99.***********.8888877666655688899999************************877777 PP
+
+  cut_all_general_profile 234 ...kspeeafaelvkefpglaealkeaervrefrvgrdysYsskqfwgdnwvlvGdAacFvDPLfStGvsliaysiellaksipaa 316
+                                 +s ++++ + vk+ pg+ + l +ae v ++++  d+sYs++++  +   + GdA+cF+DP+fS+Gv+l+++s++ +a si aa
+   tr|F2S201|F2S201_TRIT1 262 eagSSSQQFYIDNVKQIPGIWQLLDNAELVSDLKSASDWSYSASSYASPYLRIAGDAGCFIDPFFSSGVHLAFASGLSAALSIRAA 347
+                              8*99********************************************************************************99 PP
+
+  cut_all_general_profile 317 lrgddfekelfdeynrlyrravdrvrefisahYrlnarkdtyfwqaqklrkladglaekllellaglpdaatargetrf.....pv 397
+                               rgd +ek + +   +++++ + r++  + +  ++ ++ d ++ ++  + + + ++ + ++++++g  d ++  +++++      +
+   tr|F2S201|F2S201_TRIT1 348 QRGDCDEKAAAEWHSKKVAEGYTRFLLVVMSALKQISDRDEPVLTDWDEESFNRAF-DLFRPIIQGTVDVDKTLTQAEIaqtinFC 432
+                              9999999999999999**************************99998888777777.56999999998833333333332222222 PP
+
+  cut_all_general_profile 398 yeeleaylkef...syyaillglg 418
+                              ++++++        +++a++++ +
+   tr|F2S201|F2S201_TRIT1 433 VNAFQN----AgreEQDALMNKIK 452
+                              222222....23335555555555 PP
+
+>> tr|A0A178EZB9|A0A178EZB9_TRIRU  Non-heme halogenase OS=Trichophyton rubrum OX=5551 GN=A7C99_4147 PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  257.2   0.2   1.4e-79   2.2e-78       2     418 ..     555     987 ..     554    1032 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 257.2 bits;  conditional E-value: 1.4e-79
+         cut_all_general_profile   2 ttAsyLakaglsVtllEseefpryhVGEstvpstvrtifdylglrekleaagfpyKlGlrfnWesvdgapleewefdfa 80 
+                                      +As L ++g++V+llE++ fpryh+GEs++ps+ r+++++++l++k+++ gf  K G++f+     + ++e     ++
+  tr|A0A178EZB9|A0A178EZB9_TRIRU 555 YAASALVREGVDVVLLEADVFPRYHIGESMLPSI-RHFLRFIDLDSKFDSYGFVQKNGAAFKL----NSKPE----AYT 624
+                                     69********************************.**************************43....44444....456 PP
+
+         cut_all_general_profile  81 elkqpggqtpyayhvdrakfdkfLlrlAverGvevvegtvvkdveldg..................rgviealttkegr 141
+                                      +++ gg+ +ya+ v r++ d++++++A e+G++ ++g++v+ ++++                   + ++ + ++++g 
+  tr|A0A178EZB9|A0A178EZB9_TRIRU 625 DFVAAGGPGSYAWNVIRSEADHLIFKHAGENGAKTFDGVKVNAINFEPlseensdpvstdlgrpvsATWTRKADKSSG- 702
+                                     666666788*************************************999*999*999999996665555444444444. PP
+
+         cut_all_general_profile 142 eiradlvvDAsGrrglllnkalgereeysevllnnvAvwtrvendderddlepsttik....alafedgWvWvIPlsdg 216
+                                      i+++++vDA+Gr+gl+++k++++r  y++ l +nvA+w+++++ ++ +++    + +    a+a  +gWvW IPl+dg
+  tr|A0A178EZB9|A0A178EZB9_TRIRU 703 VIKFEYLVDATGRAGLVSTKYMKNR-TYNQGL-KNVATWGYWKG-ASSYGIGTPREGDpyfeAIADGSGWVWLIPLHDG 778
+                                     49***********************.****99.***********.8888877666655688899999************ PP
+
+         cut_all_general_profile 217 rtsvGvVyrkdkykesk....kspeeafaelvkefpglaealkeaervrefrvgrdysYsskqfwgdnwvlvGdAacFv 291
+                                     +ts+GvV+++++++ +k    +s ++++ + vk+ pg+ + l +ae v ++++  d+sYs++++  +   + GdA+cF+
+  tr|A0A178EZB9|A0A178EZB9_TRIRU 779 TTSIGVVMNQAMATTKKreagSSSQQFYLDNVKQIPGIWQLLDNAELVSDLKSASDWSYSASSYASPCLRIAGDAGCFI 857
+                                     ************8777778*99********************************************************* PP
+
+         cut_all_general_profile 292 DPLfStGvsliaysiellaksipaalrgddfekelfdeynrlyrravdrvrefisahYrlnarkdtyfwqaqklrklad 370
+                                     DP+fS+Gv+l+++s++ +a si aa rgd +e  + +   +++++ + r++  + +  ++ ++ d ++ ++  + + + 
+  tr|A0A178EZB9|A0A178EZB9_TRIRU 858 DPFFSSGVHLAFASGLSAALSIRAAQRGDCDEMAAAEWHSKKVAEGYTRFLLVVMSALKQISDRDEPVLTDWDEESFNR 936
+                                     **********************988888877777788889999999999999999999999999999999988886666 PP
+
+         cut_all_general_profile 371 glaekllellaglpdaatargetrf.....pvyeeleaylkef...syyaillglg 418
+                                     ++ + ++++++g  d ++  +++++      +++++++        +++a++++ +
+  tr|A0A178EZB9|A0A178EZB9_TRIRU 937 AF-DLFRPIIQGTVDVDKTLTQAEIaqtinFCVNAFQN----AgreEQDALMNKIK 987
+                                     66.56899999988833333333332222222222222....23334444444444 PP
+
+>> tr|A0A6A6U6R3|A0A6A6U6R3_9PEZI  Non-heme halogenase OS=Microthyrium microscopicum OX=703497 GN=BT63DRAFT_472047 PE=3 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  232.1   0.1   5.8e-72     9e-71       2     385 ..      20     418 ..      19     499 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 232.1 bits;  conditional E-value: 5.8e-72
+         cut_all_general_profile   2 ttAsyLakaglsVtllEseefpryhVGEstvpstvrtifdylglrekleaagfpyKlGlrfnWesvdgapleewefdfa 80 
+                                      +A++La++g++ +llE+++fpryh+GEs++ps+ r++f++++l++ ++++gf +K G++f+     + +l +    ++
+  tr|A0A6A6U6R3|A0A6A6U6R3_9PEZI  20 YAATLLAREGIDTVLLEADKFPRYHIGESMLPSI-RHFFKLIDLDSIFDSHGFRRKKGAAFKL----NHSLPPS---YT 90 
+                                     69********************************.**************************43....4444444...78 PP
+
+         cut_all_general_profile  81 elkqpggqtpyayhvdrakfdkfLlrlAverGvevvegtvvkdveldg.................rgviealttkegre 142
+                                      +++ gg++ yay v r++ d++L+++A + G++v++g++v dv++                   + ++ ++++ +g  
+  tr|A0A6A6U6R3|A0A6A6U6R3_9PEZI  91 DFVAAGGSDGYAYNVVRSEADDILFKHARNEGAKVFDGVKVDDVQFAPfnaprnvpvanagrpvsASWTRKDNGTRG-M 168
+                                     888888****************************************7779***********8887777777777776.5 PP
+
+         cut_all_general_profile 143 iradlvvDAsGrrglllnkalgereeysevllnnvAvwtrvendderddlepsttik....alafedgWvWvIPlsdgr 217
+                                     +++++++DAsGr+gl+++k+l++r  y++ l ++vA w++++n +   +++ +++ +    al+  +gW W IPl++g+
+  tr|A0A6A6U6R3|A0A6A6U6R3_9PEZI 169 LKFEYLIDASGRAGLISTKYLKNR-HYNQGL-KSVANWGYWKN-AGTWGIDTHQEGApffeALEDGSGWAWFIPLHNGT 244
+                                     9***********************.*****9.***********.77788888888778877777999************ PP
+
+         cut_all_general_profile 218 tsvGvVyrkdkykesk.....kspeeafaelvkefpglae..alkeaervrefrvgrdysYsskqfwgdnwvlvGdAac 289
+                                     tsvGvV+++ +  ++k     ++   +++e +k +p++ +    +e+e v+e+++  d+sY ++ ++ +   + GdA+c
+  tr|A0A6A6U6R3|A0A6A6U6R3_9PEZI 245 TSVGVVMKQSILAQKKaqkeyATTKYFYQEALKLCPNIIQliSGTESELVTEIKSASDWSYNASVYSCPYTRIAGDAGC 323
+                                     ***********6666646677777778*************44446788999**************************** PP
+
+         cut_all_general_profile 290 FvDPLfStGvsliaysiellaksipaalrgddfekelfdeynrlyrravdrvrefisahYrlnarkdtyfwqaqklrkl 368
+                                     F+DP+fS+G++ ++++++ +a+ + a ++++  e ++ +   + +   ++r++  i ++ ++ ++++  + ++  + + 
+  tr|A0A6A6U6R3|A0A6A6U6R3_9PEZI 324 FIDPFFSSGYHIALTTGLSAAATVCASIKKELNEISAASWHSKNVIGTYSRFLLVIMSSMKQIHSSKDAILNDWDEESF 402
+                                     ************************9999888888777777777777777777777766665544444446666666645 PP
+
+         cut_all_general_profile 369 adglaekllellaglpd 385
+                                       ++a  ++++++g  d
+  tr|A0A6A6U6R3|A0A6A6U6R3_9PEZI 403 DRAFAF-FRPIIQGTVD 418
+                                     555533.6777777666 PP
+
+>> tr|A0A1W5CYU3|A0A1W5CYU3_9LECA  Non-heme halogenase OS=Lasallia pustulata OX=136370 PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  210.1   0.0   2.8e-65   4.4e-64      34     443 ..       4     432 ..       1     453 [. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 210.1 bits;  conditional E-value: 2.8e-65
+         cut_all_general_profile  34 stvrtifdylglrekleaagfpyKlGlrfnWesvdgapleewefdfaelkqpggqtpyayhvdrakfdkfLlrlAverG 112
+                                     s+ r+++++++l++ +++ gf +K+G++f+     +a++e     f+ +++ +g+ +ya+ v r++ d++++++A ++G
+  tr|A0A1W5CYU3|A0A1W5CYU3_9LECA   4 SI-RHFLRFIDLDSTFDNYGFRKKTGAAFKL----NAKPE----AFTDFVAAAGPNNYAWNVVRSEADNLIFQHAGKSG 73 
+                                     66.9*************************43....44444....6788888889************************* PP
+
+         cut_all_general_profile 113 vevvegtvvkdveldg................rgviealttkegre..iradlvvDAsGrrglllnkalgereeysevl 173
+                                     ++ ++gt+v +++++                 r v  + + k+g+   ++++++vDAsGr+gl+++k+l++r +y++ l
+  tr|A0A1W5CYU3|A0A1W5CYU3_9LECA  74 AKIFDGTKVVSIDFEPldsangtmdsempdlgRPVSATWSRKDGTSgkVKFEYIVDASGRAGLVSTKYLKNR-RYNQGL 151
+                                     **************8889**************5555554444444444************************.****** PP
+
+         cut_all_general_profile 174 lnnvAvwtrvendderddlepsttik...alafedgWvWvIPlsdgrtsvGvVyrkdk.ykesk....kspeeafaelv 244
+                                      +nvA w+++e+++e     +  ++    al+  +gWvW IPl++g+ts+G+V+++     ++k     + +e++++ +
+  tr|A0A1W5CYU3|A0A1W5CYU3_9LECA 152 -KNVANWGYWEGVGEYGTGTKAAGQPyfeALQDASGWVWCIPLHNGTTSIGIVMNQGLsVSKKKamgsPTGQEFYRDSL 229
+                                     .***********9996666666665565566699**********************996555558965566999***** PP
+
+         cut_all_general_profile 245 kefpglaealkeaervrefrvgrdysYsskqfwgdnwvlvGdAacFvDPLfStGvsliaysiellaksipaalrgddfe 323
+                                     k  pg+++ l+ea++v e++   d+sYs++++  + + + GdA+cF+DP+fS+Gv+l+++s++ +a  i aa rgd  e
+  tr|A0A1W5CYU3|A0A1W5CYU3_9LECA 230 KLVPGIEKLLSEAKQVSEIKAASDWSYSASTYASPYVRIAGDAGCFIDPFFSSGVHLAMASGLSAALTICAARRGDCGE 308
+                                     **********************************************************************999999999 PP
+
+         cut_all_general_profile 324 kelfdeynrlyrravdrvrefisahYrlnarkdtyfwqaqklrkladglaekllellaglpd...aatargetrf.... 395
+                                     + + +   +++++ + r++  + +  ++ +r+d ++  +  ++    ++   ++++++g +d   +    +++++    
+  tr|A0A1W5CYU3|A0A1W5CYU3_9LECA 309 RDAAEWHSKKVAEGYTRFLLVVLSALKQIRRQDEPVLADWDESGFDRAF-ALFRPIIQGTADtnvK---LTQEEIsktv 383
+                                     999********************************99998888555555.46999****9996442...2222223446 PP
+
+         cut_all_general_profile 396 .pvyeeleaylkefsyyaillglgkllpdnkkpa..laamdeaaaaaeevf 443
+                                       +++++e+  k ++ +a+l + + ++ +++  a   +++d  a +a+  +
+  tr|A0A1W5CYU3|A0A1W5CYU3_9LECA 384 dFCFHAFEPA-KPEERDAVLKKVE-QITKKENGAshAKKEDVEALEASLSP 432
+                                     5688888888.6667777777777.44444443311344444444444444 PP
+
+>> tr|A0A192WN89|A0A192WN89_CLAUC  Putative non-heme halogenase OS=Cladonia uncialis OX=174080 PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  181.7   0.8   1.1e-56   1.8e-55       3     341 ..      21     358 ..      19     401 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 181.7 bits;  conditional E-value: 1.1e-56
+         cut_all_general_profile   3 tAsyLakaglsVtllEseefpryhVGEstvpstvrtifdylglrekleaagfpyKlGlrfnWesvdgapleewefdfae 81 
+                                      A  La++g++ ++lE++ fpryh+GEs++ s+ r+++++++l+e ++a+gf++K+G++f   + ++++ e + +df+ 
+  tr|A0A192WN89|A0A192WN89_CLAUC  21 SACTLAREGVNTVVLEADVFPRYHIGESMLASM-RPFLRFIDLDETFKAHGFQKKTGAAF---KLNQNKREGY-TDFQA 94 
+                                     6999*****************************.**************************...4566666666.66666 PP
+
+         cut_all_general_profile  82 lkqpggqtpyayhvdrakfdkfLlrlAverGvevvegtvvkdveldg................rgviealttkegre.. 142
+                                         gg+ +ya+ v r++ d++ +r+A++ G++ ++g++v+++e+++                r +  + + k+g++  
+  tr|A0A192WN89|A0A192WN89_CLAUC  95 A---GGPESYAWNVVRSEADDLTFRHAEKCGAKIFDGVRVESIEFNEssgievpedskvaalgRPISATWKRKDGTTgs 170
+                                     5...5788*************************************777**************96666666666655566 PP
+
+         cut_all_general_profile 143 iradlvvDAsGrrglllnkalgereeysevllnnvAvwtrvendderddlepsttikala........fedgWvWvIPl 213
+                                     i++d++vD  Gr+g++++k++++r ++++ l +nvA+w++++ +++  +    +++ +++        + +gW W IPl
+  tr|A0A192WN89|A0A192WN89_CLAUC 171 IKFDYLVDGIGRAGIVSTKYMKNR-KFNQGL-KNVASWGYWKATGQYAEGTRRQNEPFFEaltgipltHASGWAWFIPL 247
+                                     ************************.**9999.***********8886666666665544445577777*********** PP
+
+         cut_all_general_profile 214 sdgrtsvGvVyrkdkykeskkspeeafaelvkefpglaealkeaervrefrvgrdysYsskqfwgdnwvlvGdAacFvD 292
+                                     ++g++svGvV+r+d      +s+++    l   +p++ e+ ke+     +  +  ++     ++ +   +  dA+cF+D
+  tr|A0A192WN89|A0A192WN89_CLAUC 248 HNGTMSVGVVTRQDL-----SSQRKK--AL--GSPSPVEFYKESLK---LAPTGATA-----YSSPYIRIAIDAGCFID 309
+                                     ***************.....666665..34..66888887775544...44666666.....6678888999******* PP
+
+         cut_all_general_profile 293 PLfStGvsliaysiellaksipaalrgddfekelfdeynrlyrravdrv 341
+                                     P fS+Gv+l+++s++ +   i a ++g+  e e+ +   +++++ + r+
+  tr|A0A192WN89|A0A192WN89_CLAUC 310 PYFSSGVHLAYASGLSAPLTICASMKGEYNELEAAKWHSTKVAEGYTRF 358
+                                     *************999888888888887777777777666666666665 PP
+
+>> tr|A0A1Z1C496|A0A1Z1C496_CLAUC  Putative non-heme halogenase OS=Cladonia uncialis subsp. uncialis OX=180999 PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  181.7   0.8   1.1e-56   1.8e-55       3     341 ..      21     358 ..      19     401 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 181.7 bits;  conditional E-value: 1.1e-56
+         cut_all_general_profile   3 tAsyLakaglsVtllEseefpryhVGEstvpstvrtifdylglrekleaagfpyKlGlrfnWesvdgapleewefdfae 81 
+                                      A  La++g++ ++lE++ fpryh+GEs++ s+ r+++++++l+e ++a+gf++K+G++f   + ++++ e + +df+ 
+  tr|A0A1Z1C496|A0A1Z1C496_CLAUC  21 SACTLAREGVNTVVLEADVFPRYHIGESMLASM-RPFLRFIDLDETFKAHGFQKKTGAAF---KLNQNKREGY-TDFQA 94 
+                                     6999*****************************.**************************...4566666666.66666 PP
+
+         cut_all_general_profile  82 lkqpggqtpyayhvdrakfdkfLlrlAverGvevvegtvvkdveldg................rgviealttkegre.. 142
+                                         gg+ +ya+ v r++ d++ +r+A++ G++ ++g++v+++e+++                r +  + + k+g++  
+  tr|A0A1Z1C496|A0A1Z1C496_CLAUC  95 A---GGPESYAWNVVRSEADDLTFRHAEKCGAKIFDGVRVESIEFNEssgievpedskvaalgRPISATWKRKDGTTgs 170
+                                     5...5788*************************************777**************96666666666655566 PP
+
+         cut_all_general_profile 143 iradlvvDAsGrrglllnkalgereeysevllnnvAvwtrvendderddlepsttikala........fedgWvWvIPl 213
+                                     i++d++vD  Gr+g++++k++++r ++++ l +nvA+w++++ +++  +    +++ +++        + +gW W IPl
+  tr|A0A1Z1C496|A0A1Z1C496_CLAUC 171 IKFDYLVDGIGRAGIVSTKYMKNR-KFNQGL-KNVASWGYWKATGQYAEGTRRQNEPFFEaltgipltHASGWAWFIPL 247
+                                     ************************.**9999.***********8886666666665544445577777*********** PP
+
+         cut_all_general_profile 214 sdgrtsvGvVyrkdkykeskkspeeafaelvkefpglaealkeaervrefrvgrdysYsskqfwgdnwvlvGdAacFvD 292
+                                     ++g++svGvV+r+d      +s+++    l   +p++ e+ ke+     +  +  ++     ++ +   +  dA+cF+D
+  tr|A0A1Z1C496|A0A1Z1C496_CLAUC 248 HNGTMSVGVVTRQDL-----SSQRKK--AL--GSPSPVEFYKESLK---LAPTGATA-----YSSPYIRIAIDAGCFID 309
+                                     ***************.....666665..34..66888887775544...44666666.....6678888999******* PP
+
+         cut_all_general_profile 293 PLfStGvsliaysiellaksipaalrgddfekelfdeynrlyrravdrv 341
+                                     P fS+Gv+l+++s++ +   i a ++g+  e e+ +   +++++ + r+
+  tr|A0A1Z1C496|A0A1Z1C496_CLAUC 310 PYFSSGVHLAYASGLSAPLTICASMKGEYNELEAAKWHSTKVAEGYTRF 358
+                                     *************999888888888887777777777666666666665 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (473 nodes)
+Target sequences:                         93  (54940 residues searched)
+Passed MSV filter:                        12  (0.129032); expected 1.9 (0.02)
+Passed bias filter:                       12  (0.129032); expected 1.9 (0.02)
+Passed Vit filter:                         6  (0.0645161); expected 0.1 (0.001)
+Passed Fwd filter:                         6  (0.0645161); expected 0.0 (1e-05)
+Initial search space (Z):                 93  [actual number of targets]
+Domain search space  (domZ):               6  [number of targets reported over threshold]
+# CPU time: 0.04u 0.00s 00:00:00.04 Elapsed: 00:00:00.04
+# Mc/sec: 569.91
+//
+[ok]

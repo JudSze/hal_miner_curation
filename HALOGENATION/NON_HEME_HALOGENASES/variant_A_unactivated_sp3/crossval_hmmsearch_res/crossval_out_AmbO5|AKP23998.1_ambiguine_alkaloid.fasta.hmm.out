@@ -1,0 +1,454 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /home/szenei/ENZYMES/HALOGENATION/NON_HEME_HALOGENASES/variant_A_unactivated_sp3/crossval_profile/crossval_out_AmbO5|AKP23998.1_ambiguine_alkaloid.fasta.hmm
+# target sequence database:        /home/szenei/ENZYMES/HALOGENATION/NON_HEME_HALOGENASES/known_nhfehal.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       crossval_out_AmbO5|AKP23998.1_ambiguine_alkaloid.fasta_aligned  [M=252]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence               Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------               -----------
+   1.7e-105  342.6   0.6   1.9e-105  342.4   0.6    1.0  1  PkHalD|A                
+   7.4e-100  324.1   0.1   8.3e-100  324.0   0.1    1.0  1  SwHalB|A                
+      4e-95  308.6   0.0    4.6e-95  308.4   0.0    1.0  1  BesD|A                  
+    7.6e-72  232.3   0.0    8.5e-72  232.2   0.0    1.0  1  WelO5|A                 
+    9.6e-51  163.2   0.0    1.1e-50  163.1   0.0    1.0  1  AmbO5|A                 
+    1.3e-37  120.2   0.0      2e-37  119.6   0.0    1.3  1  AdaV|AKQ99303.1|A       
+    2.3e-37  119.4   0.0    3.6e-37  118.7   0.0    1.3  1  WP_182876399.1|dAMP     
+      3e-36  115.7   0.1      5e-36  115.0   0.1    1.3  1  VaNTH|WP_204007738.1|A  
+      5e-36  115.0   0.0    7.4e-36  114.4   0.0    1.2  1  WP_030883106.1|dAMP     
+    1.1e-34  110.6   0.1    1.9e-34  109.8   0.1    1.3  1  CtNTH|WP_217394979.1|A  
+    1.4e-34  110.2   0.0    2.1e-34  109.7   0.0    1.2  1  WP_158075676.1|dAMP     
+    3.3e-05   14.0   2.5    5.3e-05   13.4   0.8    2.0  2  CurA|B                  
+    8.6e-05   12.7   0.0    0.00026   11.1   0.0    1.9  1  JamE|B                  
+
+
+Domain annotation for each sequence (and alignments):
+>> PkHalD|A  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  342.4   0.6    1e-105  1.9e-105       2     249 ..       1     263 [.       1     264 [] 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 342.4 bits;  conditional E-value: 1e-105
+  crossval_out_AmbO5|AKP23998.1_ambiguine_alkaloid.fasta_aligned   2 msentsslkaadveellakkvaaalqddd.vkrlsqefrrdGlvklk 47 
+                                                                     mse+tssl+++++e++lak+++a+lqd++ +k++++efrrdG++++k
+                                                        PkHalD|A   1 MSEQTSSLVIEVMEQQLAKHFQAILQDENrMKQIRNEFRRDGYFNFK 47 
+                                                                     9********************************************** PP
+
+  crossval_out_AmbO5|AKP23998.1_ambiguine_alkaloid.fasta_aligned  48 ..gllekeilrvvh................rlketgntrrkmsvvnk 76 
+                                                                       ++l+k+il++vh                ++++tgnt+rkm++vn+
+                                                        PkHalD|A  48 nfSFLPKRILENVHaevhalldeysvrrdvTVPSTGNTYRKMYNVNQ 94 
+                                                                     8889******************************************* PP
+
+  crossval_out_AmbO5|AKP23998.1_ambiguine_alkaloid.fasta_aligned  77 ee..edgtlvaalYrdedlrevLasiakeelagckeeeqyHelitrl 121
+                                                                     +e  e+gt+++alY++e+lr++L++ia+++la+c+e+eqy  l+t+l
+                                                        PkHalD|A  95 PEiaEGGTFIPALYQSESLRKFLGNIAGDDLASCWEQEQY--LVTKL 139
+                                                                     ***9************************************..***** PP
+
+  crossval_out_AmbO5|AKP23998.1_ambiguine_alkaloid.fasta_aligned 122 eqkGdthgwHsGiqllgDfsftliwllqlpe.psegGllyvlpdgtW 167
+                                                                     +++GdthgwH+G     D+++t+iw++++pe p+ gG+l+++p+++W
+                                                        PkHalD|A 140 SHPGDTHGWHWG-----DYPYTMIWIIEAPEdPAIGGVLQCVPHSEW 181
+                                                                     ************.....**************9*************** PP
+
+  crossval_out_AmbO5|AKP23998.1_ambiguine_alkaloid.fasta_aligned 168 dkqepqieeYlvepvIksYahekgDvlLlnigrmlHrvsplaedstr 214
+                                                                     dkq+pqi++Y+++++IksY+h kgDv++l+++++lH+v+p+++++tr
+                                                        PkHalD|A 182 DKQNPQIWQYILNNPIKSYHHLKGDVYFLKSDTTLHHVVPIQQETTR 228
+                                                                     *********************************************** PP
+
+  crossval_out_AmbO5|AKP23998.1_ambiguine_alkaloid.fasta_aligned 215 rilsvlfaspkdkakqlaiesldatwddfiakrlr 249
+                                                                     +il++++as++d+++++a+es++++wd++++++++
+                                                        PkHalD|A 229 IILNTCWASAHDRRTDVAHESIEVIWDTKARTTEE 263
+                                                                     ****************************9999876 PP
+
+>> SwHalB|A  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  324.0   0.1  4.5e-100  8.3e-100       2     241 ..       1     251 []       1     251 [] 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 324.0 bits;  conditional E-value: 4.5e-100
+  crossval_out_AmbO5|AKP23998.1_ambiguine_alkaloid.fasta_aligned   2 msentsslkaadveellakkvaaalqddd.vkrlsqefrrdGlvklk 47 
+                                                                     m+e  +s++aa+veel+ak++a++++dd+ v +lsq+frr+G+vkl+
+                                                        SwHalB|A   1 MTE--NSITAANVEELIAKNIAERFADDHeVLGLSQHFRREGYVKLP 45 
+                                                                     555..89**************************************** PP
+
+  crossval_out_AmbO5|AKP23998.1_ambiguine_alkaloid.fasta_aligned  48 gllekeilrvvh................rlketgntrrkmsvvnkee 78 
+                                                                     gl+++e++++v+                rlketg+++r+ms+v++++
+                                                        SwHalB|A  46 GLVSPEVFDAVAaethqlidthqkridiRLKETGDSPRYMSTVGQKA 92 
+                                                                     *********************************************** PP
+
+  crossval_out_AmbO5|AKP23998.1_ambiguine_alkaloid.fasta_aligned  79 ..edgtlvaalYrdedlrevLasiakeelagc.keeeqyHelitrle 122
+                                                                       +dg+l++a+Y++++l+ +L+++akee++gc ++ee+y  +itr++
+                                                        SwHalB|A  93 iaTDGSLIPAVYESTALKGFLSRLAKEEVMGCpWDEEKY--IITRQH 137
+                                                                     99*************************************..****** PP
+
+  crossval_out_AmbO5|AKP23998.1_ambiguine_alkaloid.fasta_aligned 123 qkGdthgwHsGiqllgDfsftliwllqlpepsegGllyvlpdgtWdk 169
+                                                                     qkGdthgwH+G     Dfsft+iwl+++p++++gG+l+++p+++W+k
+                                                        SwHalB|A 138 QKGDTHGWHWG-----DFSFTVIWLIEAPSLEYGGMLQCIPHTDWNK 179
+                                                                     ***********.....******************************* PP
+
+  crossval_out_AmbO5|AKP23998.1_ambiguine_alkaloid.fasta_aligned 170 qepqieeYlvepvIksYahekgDvlLlnigrmlHrvsplaedstrri 216
+                                                                     ++p++e+Yl++++I+sY+h+kgD++Ll+++++lHr++pl++d+tr+i
+                                                        SwHalB|A 180 DDPRVEDYLQKHPIRSYGHAKGDLYLLRSDTTLHRTVPLNADRTRII 226
+                                                                     *********************************************** PP
+
+  crossval_out_AmbO5|AKP23998.1_ambiguine_alkaloid.fasta_aligned 217 lsvlfaspkdkakqlaiesldatwd 241
+                                                                     l++++as++d++k++++e+++a++d
+                                                        SwHalB|A 227 LNTCWASRADQQKATTHETMNAMFD 251
+                                                                     ***********************98 PP
+
+>> BesD|A  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  308.4   0.0   2.5e-95   4.6e-95      15     252 .]       7     254 ..       3     254 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 308.4 bits;  conditional E-value: 2.5e-95
+  crossval_out_AmbO5|AKP23998.1_ambiguine_alkaloid.fasta_aligned  15 eellakkvaaalqdddvkrlsqefrrdGlvklkgllekeilrvvh.. 59 
+                                                                     ++++ k+v+a+l++dd++rlsq+f+r+G+v++++l+e+++++ v+  
+                                                          BesD|A   7 NRQELKDVCAPLEKDDIRRLSQAFHRFGIVTVTELIEPHTRKLVRae 53 
+                                                                     67899****************************************** PP
+
+  crossval_out_AmbO5|AKP23998.1_ambiguine_alkaloid.fasta_aligned  60 ..............rlketgntrrkmsvvnkee..edgtlvaalYrd 90 
+                                                                                   rl++t++trr+msvv++e+  ++++lv++lY++
+                                                          BesD|A  54 adrlldqyaerrdlRLATTDYTRRSMSVVPSETiaANSELVTGLYAH 100
+                                                                     *********************************99************ PP
+
+  crossval_out_AmbO5|AKP23998.1_ambiguine_alkaloid.fasta_aligned  91 edlrevLasiakeelagc.keeeqyHelitrleqkGdthgwHsGiql 136
+                                                                     ++l + L++ia+e+l++c k++e++  litr+eq+GdthgwH+G   
+                                                          BesD|A 101 RELLAPLEAIAGERLHPCpKADEEF--LITRQEQRGDTHGWHWG--- 142
+                                                                     *************************..*****************... PP
+
+  crossval_out_AmbO5|AKP23998.1_ambiguine_alkaloid.fasta_aligned 137 lgDfsftliwllqlpepsegGllyvlpdgtWdkqepqieeYlvepvI 183
+                                                                       Dfsf+liw+lq+p++++gGll+++p++tWdk++pqi++Ylve++I
+                                                          BesD|A 143 --DFSFALIWVLQAPPIDVGGLLQCVPHTTWDKASPQINRYLVENPI 187
+                                                                     ..********************************************* PP
+
+  crossval_out_AmbO5|AKP23998.1_ambiguine_alkaloid.fasta_aligned 184 ksYahekgDvlLlnigrmlHrvsplaedstrrilsvlfaspkdkakq 230
+                                                                     ++Y++e+gDv++l+++++lHr++pl+ed+tr+il++++a ++d +++
+                                                          BesD|A 188 DTYHFESGDVYFLRTDTTLHRTIPLREDTTRIILNMTWAGERDLSRK 234
+                                                                     *********************************************** PP
+
+  crossval_out_AmbO5|AKP23998.1_ambiguine_alkaloid.fasta_aligned 231 laiesldatwddfiakrlralk 252
+                                                                     la++  d++wd+++ +++ra+k
+                                                          BesD|A 235 LAAD--DRWWDNAEVSAARAIK 254
+                                                                     ***9..************9987 PP
+
+>> WelO5|A  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  232.2   0.0   4.6e-72   8.5e-72       1     229 [.       1     286 [.       1     291 [] 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 232.2 bits;  conditional E-value: 4.6e-72
+  crossval_out_AmbO5|AKP23998.1_ambiguine_alkaloid.fasta_aligned   1 smsentsslkaa....dveellakkvaaalqdddvkrlsqefrrdGl 43 
+                                                                     sms+nt+s+k+a    d++++++kk+++a+qd++   ++++f  dG+
+                                                         WelO5|A   1 SMSNNTVSTKPAlhflDINATEVKKYPTAIQDII---INRSF--DGM 42 
+                                                                     6*********************************...*****..*** PP
+
+  crossval_out_AmbO5|AKP23998.1_ambiguine_alkaloid.fasta_aligned  44 vklkgllekeilrvvhrlketgntrrkmsvvnkeeedgtlvaalY.. 88 
+                                                                     + ++g+++++++++v+r++e+gn+++++s++nk+ee+gt+va++Y  
+                                                         WelO5|A  43 I-IRGVFPRDTMEQVARCLEEGNDGGMKSILNKNEEFGTKVAQIYgh 88 
+                                                                     *.********************************************* PP
+
+  crossval_out_AmbO5|AKP23998.1_ambiguine_alkaloid.fasta_aligned  89 ....rdedlrevLasia......keelagc.keeeqy....He.... 116
+                                                                         +++dl++++as+a      +++++g+ ++eeq+    H+    
+                                                         WelO5|A  89 aivgQSPDLKDYFASSAifrqacRTMFQGSpDFEEQVesifHSlsgl 135
+                                                                     *************************************555455**** PP
+
+  crossval_out_AmbO5|AKP23998.1_ambiguine_alkaloid.fasta_aligned 117 ...............litrleqkGdthgwHsGiqllg.......... 138
+                                                                                    +++rl ++G+++++H+G+++l+          
+                                                         WelO5|A 136 pveiptgpegqtytpATIRLLLEGREIAVHVGNDFLLmpaanhlktl 182
+                                                                     *********************************************** PP
+
+  crossval_out_AmbO5|AKP23998.1_ambiguine_alkaloid.fasta_aligned 139 .DfsftliwllqlpepsegGllyvlpdgtWdkqe....pqieeYl.. 178
+                                                                      D+s++l+++++l++p++gG+l v+++ +W++qe    +q++eY+  
+                                                         WelO5|A 183 lDLSDQLSYFIPLTVPEAGGEL-VVYSLEWNPQEaskyAQMQEYMdd 228
+                                                                     **********************.***********99999******** PP
+
+  crossval_out_AmbO5|AKP23998.1_ambiguine_alkaloid.fasta_aligned 179 vepvIks.......YahekgDvlLlnigrmlHrvsplaedstrrils 218
+                                                                     ve++Iks       Ya+++gD+lL+n gr++Hrvs++  +s+rr+++
+                                                         WelO5|A 229 VEFKIKSnqsqsvaYAPGPGDMLLFNGGRYYHRVSEVIGNSPRRTIG 275
+                                                                     *********************************************** PP
+
+  crossval_out_AmbO5|AKP23998.1_ambiguine_alkaloid.fasta_aligned 219 vlfaspkdkak 229
+                                                                      ++a++k+++k
+                                                         WelO5|A 276 GFLAFSKQRDK 286
+                                                                     *********98 PP
+
+>> AmbO5|A  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  163.1   0.0   5.8e-51   1.1e-50       2     229 ..       1     285 [.       1     290 [] 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 163.1 bits;  conditional E-value: 5.8e-51
+  crossval_out_AmbO5|AKP23998.1_ambiguine_alkaloid.fasta_aligned   2 msentsslkaa....dveellakkvaaalqdddvkrlsqefrrdGlv 44 
+                                                                     ms+n +s+k a    d++ +++ ++++a+qd++   + + f  dG++
+                                                         AmbO5|A   1 MSNNAVSTKSAlnflDINVTEVNNYPTAIQDII---IDRRF--DGMI 42 
+                                                                     99******9999999******************...9****..**** PP
+
+  crossval_out_AmbO5|AKP23998.1_ambiguine_alkaloid.fasta_aligned  45 klkgllekeilrvvhrlketgntrrkmsvvnkeeedgtlvaalY... 88 
+                                                                      ++g+l+ + ++ v r +e++++++++ + nk+ee+gt+va++Y   
+                                                         AmbO5|A  43 -IRGVLPLDSIERVIRRLEDEDEGGMKLIFNKNEEFGTKVAQIYghv 88 
+                                                                     .*******99999999999999************************* PP
+
+  crossval_out_AmbO5|AKP23998.1_ambiguine_alkaloid.fasta_aligned  89 ...rdedlrevLasia......keelagc.keeeqy....He..... 116
+                                                                        +++dl++++as+a      +  ++g  ++ee++    H+     
+                                                         AmbO5|A  89 ivgQSPDLKDYFASSAifrqacRALFQGNpDFEERVesvfHSlcglp 135
+                                                                     *******************999999**********9444455***** PP
+
+  crossval_out_AmbO5|AKP23998.1_ambiguine_alkaloid.fasta_aligned 117 ..............litrleqkGdthgwHsGiqllg........... 138
+                                                                                   ++ rl  +G+++++H+G+++l+           
+                                                         AmbO5|A 136 veiptgpegqsytpATLRLLTEGREITVHVGNDFLLmpasehlktll 182
+                                                                     *********************************************** PP
+
+  crossval_out_AmbO5|AKP23998.1_ambiguine_alkaloid.fasta_aligned 139 DfsftliwllqlpepsegGllyvlpdgtWdkqe....pqieeYl..v 179
+                                                                     Dfs++l+++++l +p++gG+l v+++ +W++++      +++Y+   
+                                                         AmbO5|A 183 DFSDQLSYFIPLSVPQAGGEL-VVYNLEWNPEQaeqsGDLHKYMndA 228
+                                                                     *********************.********98855556799999775 PP
+
+  crossval_out_AmbO5|AKP23998.1_ambiguine_alkaloid.fasta_aligned 180 epvIks.......YahekgDvlLlnigrmlHrvsplaedstrrilsv 219
+                                                                     +   +s       +a+++gD++L+n gr++Hrv ++  +s+rr+++ 
+                                                         AmbO5|A 229 DSRFQSqqsqsvaFAPGPGDMILFNGGRYYHRVNQVIGNSPRRTIGG 275
+                                                                     5566668889999********************************** PP
+
+  crossval_out_AmbO5|AKP23998.1_ambiguine_alkaloid.fasta_aligned 220 lfaspkdkak 229
+                                                                     ++a++k+++k
+                                                         AmbO5|A 276 FLAFSKERNK 285
+                                                                     ******9987 PP
+
+>> AdaV|AKQ99303.1|A  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  119.6   0.0   1.1e-37     2e-37      88     251 ..     181     306 ..     164     307 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 119.6 bits;  conditional E-value: 1.1e-37
+  crossval_out_AmbO5|AKP23998.1_ambiguine_alkaloid.fasta_aligned  88 YrdedlrevLasiakeelagckeeeqyHelitrleqkGdthgwHsGi 134
+                                                                     Yrd+++revLa                He              HsGi
+                                               AdaV|AKQ99303.1|A 181 YRDVGDREVLA----------------HE--------------HSGI 197
+                                                                     56666666666................66..............**** PP
+
+  crossval_out_AmbO5|AKP23998.1_ambiguine_alkaloid.fasta_aligned 135 qllgDfsftliwllqlpepsegGllyvlpdgtWdkqepqieeYlvep 181
+                                                                     q+lg         lqlp ps++Gl+yvl+dgtW           vep
+                                               AdaV|AKQ99303.1|A 198 QMLG---------LQLP-PSDQGLQYVLHDGTW-----------VEP 223
+                                                                     ****.........****.***************...........*** PP
+
+  crossval_out_AmbO5|AKP23998.1_ambiguine_alkaloid.fasta_aligned 182 vIksYahekgDvlLlnigrml............Hrv..splaedstr 214
+                                                                     vI++     +Dv+L+nigrml            Hrv  +p+ +  ++
+                                               AdaV|AKQ99303.1|A 224 VIAG-----TDVVLCNIGRMLtsasdgrfrpstHRVhtKPMPA-GYE 264
+                                                                     ****.....***************************999***9.*** PP
+
+  crossval_out_AmbO5|AKP23998.1_ambiguine_alkaloid.fasta_aligned 215 rilsvlfaspkdkakqlaies.....ldatwddfiakrlral 251
+                                                                     r++svlfa+p++ka+q+++       l+atw+dfi++r+++l
+                                               AdaV|AKQ99303.1|A 265 RLSSVLFAYPQHKARQWKMVDgelmsLNATWGDFIDSRFQGL 306
+                                                                     *******************55899****************98 PP
+
+>> WP_182876399.1|dAMP  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  118.7   0.0     2e-37   3.6e-37      88     251 ..     181     306 ..     166     307 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 118.7 bits;  conditional E-value: 2e-37
+  crossval_out_AmbO5|AKP23998.1_ambiguine_alkaloid.fasta_aligned  88 YrdedlrevLasiakeelagckeeeqyHelitrleqkGdthgwHsGi 134
+                                                                     Yrd+++revLa                He              HsGi
+                                             WP_182876399.1|dAMP 181 YRDVGDREVLA----------------HE--------------HSGI 197
+                                                                     56666666666................66..............**** PP
+
+  crossval_out_AmbO5|AKP23998.1_ambiguine_alkaloid.fasta_aligned 135 qllgDfsftliwllqlpepsegGllyvlpdgtWdkqepqieeYlvep 181
+                                                                     q+lg         lqlp ps++Gl+yvl+dgtW           vep
+                                             WP_182876399.1|dAMP 198 QMLG---------LQLP-PSDQGLQYVLHDGTW-----------VEP 223
+                                                                     ****.........****.***************...........*** PP
+
+  crossval_out_AmbO5|AKP23998.1_ambiguine_alkaloid.fasta_aligned 182 vIksYahekgDvlLlnigrml............Hrv..splaedstr 214
+                                                                     vI++     +Dv+L+nigrml            Hrv  +p+    ++
+                                             WP_182876399.1|dAMP 224 VIAK-----SDVVLCNIGRMLtsasdgrfrpstHRVhtKPMPP-GYK 264
+                                                                     ****.....***************************9999*99.*** PP
+
+  crossval_out_AmbO5|AKP23998.1_ambiguine_alkaloid.fasta_aligned 215 rilsvlfaspkdkakqlaies.....ldatwddfiakrlral 251
+                                                                     r++svlfa+p++ka+q+++       l+atw+dfi++r+++l
+                                             WP_182876399.1|dAMP 265 RLSSVLFAYPPHKARQWKMVDgemttLNATWGDFINNRFQGL 306
+                                                                     ******************95589999**************98 PP
+
+>> VaNTH|WP_204007738.1|A  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  115.0   0.1   2.7e-36     5e-36      88     251 ..     182     308 ..     171     309 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 115.0 bits;  conditional E-value: 2.7e-36
+  crossval_out_AmbO5|AKP23998.1_ambiguine_alkaloid.fasta_aligned  88 YrdedlrevLasiakeelagckeeeqyHelitrleqkGdthgwHsGi 134
+                                                                     Yrd+d+revLa                He              HsGi
+                                          VaNTH|WP_204007738.1|A 182 YRDPDRREVLA----------------HE--------------HSGI 198
+                                                                     78888888888................88..............**** PP
+
+  crossval_out_AmbO5|AKP23998.1_ambiguine_alkaloid.fasta_aligned 135 qllgDfsftliwllqlpepsegGllyvlpdgtWdkqepqieeYlvep 181
+                                                                     q++g         +qlp psegGl+yvl+dgtW           vep
+                                          VaNTH|WP_204007738.1|A 199 QMVG---------VQLP-PSEGGLQYVLNDGTW-----------VEP 224
+                                                                     ****.........****.***************...........*** PP
+
+  crossval_out_AmbO5|AKP23998.1_ambiguine_alkaloid.fasta_aligned 182 vIksYahekgDvlLlnigrml............Hrv..splaedstr 214
+                                                                     vI++     +DvlL+nigrml            Hrv  spla+ s++
+                                          VaNTH|WP_204007738.1|A 225 VIQG-----TDVLLFNIGRMLstasggrvrpstHRVhrSPLAT-SVE 265
+                                                                     ****.....**********************************.*** PP
+
+  crossval_out_AmbO5|AKP23998.1_ambiguine_alkaloid.fasta_aligned 215 rilsvlfaspkdkakqlaies......ldatwddfiakrlral 251
+                                                                     r++svlf++p++++ q+++++       datw+df++k+l++l
+                                          VaNTH|WP_204007738.1|A 266 RWSSVLFVHPNHEDPQWWMDGdgntvvSDATWGDFVHKGLNEL 308
+                                                                     ********************9******************9997 PP
+
+>> WP_030883106.1|dAMP  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  114.4   0.0     4e-36   7.4e-36      95     251 ..     165     283 ..     143     284 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 114.4 bits;  conditional E-value: 4e-36
+  crossval_out_AmbO5|AKP23998.1_ambiguine_alkaloid.fasta_aligned  95 evLasiakeelagckeeeqyHelitrleqkGdthgwHsGiqllgDfs 141
+                                                                     evLa                H               HsGiqllg   
+                                             WP_030883106.1|dAMP 165 EVLA----------------H--------------EHSGIQLLG--- 178
+                                                                     3333................3..............39*******... PP
+
+  crossval_out_AmbO5|AKP23998.1_ambiguine_alkaloid.fasta_aligned 142 ftliwllqlpepsegGllyvlpdgtWdkqepqieeYlvepvIksYah 188
+                                                                           lqlp ps++Gl+y+l+dgtW           vepvI++   
+                                             WP_030883106.1|dAMP 179 ------LQLP-PSDQGLQYILHDGTW-----------VEPVIAK--- 204
+                                                                     ......****.***************...........*******... PP
+
+  crossval_out_AmbO5|AKP23998.1_ambiguine_alkaloid.fasta_aligned 189 ekgDvlLlnigrml............Hrv.splaedstrrilsvlfa 222
+                                                                       +D++L+nigrml            Hrv  + +  +++r++svlfa
+                                             WP_030883106.1|dAMP 205 --SDLVLCNIGRMLssascgrfrpstHRVhCTYSDTDYERLSSVLFA 249
+                                                                     ..***************************95555559********** PP
+
+  crossval_out_AmbO5|AKP23998.1_ambiguine_alkaloid.fasta_aligned 223 spkdkakqlaies.....ldatwddfiakrlral 251
+                                                                     +p+++a+q++i       ld+tw+dfia+r+r+l
+                                             WP_030883106.1|dAMP 250 YPPHQARQWQISDegltvLDETWGDFIANRFRGL 283
+                                                                     ***********6699*****************98 PP
+
+>> CtNTH|WP_217394979.1|A  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  109.8   0.1     1e-34   1.9e-34      88     251 ..     182     308 ..     165     309 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 109.8 bits;  conditional E-value: 1e-34
+  crossval_out_AmbO5|AKP23998.1_ambiguine_alkaloid.fasta_aligned  88 YrdedlrevLasiakeelagckeeeqyHelitrleqkGdthgwHsGi 134
+                                                                     Y+d+++re+La                He              HsGi
+                                          CtNTH|WP_217394979.1|A 182 YQDSQRREILA----------------HE--------------HSGI 198
+                                                                     66666666666................66..............**** PP
+
+  crossval_out_AmbO5|AKP23998.1_ambiguine_alkaloid.fasta_aligned 135 qllgDfsftliwllqlpepsegGllyvlpdgtWdkqepqieeYlvep 181
+                                                                     q+lg         +q+p +segGl+y+l+dgtW           vep
+                                          CtNTH|WP_217394979.1|A 199 QMLG---------VQFP-ASEGGLQYILNDGTW-----------VEP 224
+                                                                     ****.........****.***************...........*** PP
+
+  crossval_out_AmbO5|AKP23998.1_ambiguine_alkaloid.fasta_aligned 182 vIksYahekgDvlLlnigrml............Hrv..splaedstr 214
+                                                                     +I++     +DvlL+nigrml            Hrv  sp+a+ s+r
+                                          CtNTH|WP_217394979.1|A 225 IIWG-----TDVLLCNIGRMLseasgrrvrpstHRVhrSPMAM-SER 265
+                                                                     ****.....**********************************.*** PP
+
+  crossval_out_AmbO5|AKP23998.1_ambiguine_alkaloid.fasta_aligned 215 rilsvlfaspkdkakqlaies......ldatwddfiakrlral 251
+                                                                     r++sv+f++p+++ +q++i++      l + w++f++k+lr+l
+                                          CtNTH|WP_217394979.1|A 266 RWSSVVFVHPDHSGEQWTITEeeqvrmLGEPWGAFVNKGLREL 308
+                                                                     *******************889******************997 PP
+
+>> WP_158075676.1|dAMP  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  109.7   0.0   1.1e-34   2.1e-34     115     251 ..     199     320 ..     178     321 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 109.7 bits;  conditional E-value: 1.1e-34
+  crossval_out_AmbO5|AKP23998.1_ambiguine_alkaloid.fasta_aligned 115 HelitrleqkGdthgwHsGiqllgDfsftliwllqlpepsegGllyv 161
+                                                                     He              HsGiq+lg         lqlp ps+gGl+yv
+                                             WP_158075676.1|dAMP 199 HE--------------HSGIQMLG---------LQLP-PSDGGLQYV 221
+                                                                     33..............********.........****.********* PP
+
+  crossval_out_AmbO5|AKP23998.1_ambiguine_alkaloid.fasta_aligned 162 lpdgtWdkqepqieeYlvepvIksYahekgDvlLlnigrml...... 202
+                                                                     l+dgtW           vep+I++     +DvlL+n+grml      
+                                             WP_158075676.1|dAMP 222 LHDGTW-----------VEPIIAG-----TDVLLCNVGRMLthasen 252
+                                                                     ******...........*******.....****************** PP
+
+  crossval_out_AmbO5|AKP23998.1_ambiguine_alkaloid.fasta_aligned 203 ......Hrv..splae......dstrrilsvlfaspkdkakqlaies 235
+                                                                           Hrv  s+l++      +++ r++sv+fa+p+++akq++i  
+                                             WP_158075676.1|dAMP 253 rfrpstHRVhrSTLQTpqpfgdGEYVRMSSVMFAYPPHAAKQWQIGP 299
+                                                                     ******999997888788888799*********************55 PP
+
+  crossval_out_AmbO5|AKP23998.1_ambiguine_alkaloid.fasta_aligned 236 .....ldatwddfiakrlral 251
+                                                                          ld tw+dfia+r+++l
+                                             WP_158075676.1|dAMP 300 dglktLDPTWGDFIANRFAGL 320
+                                                                     89999*************997 PP
+
+>> CurA|B  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   13.4   0.8   2.8e-05   5.3e-05      24     161 ..      23     175 ..      16     179 .. 0.66
+   2 ?   -1.0   0.0      0.68       1.3     166     189 ..     198     220 ..     191     268 .. 0.52
+
+  Alignments for each domain:
+  == domain 1  score: 13.4 bits;  conditional E-value: 2.8e-05
+  crossval_out_AmbO5|AKP23998.1_ambiguine_alkaloid.fasta_aligned  24 aalqdddvkrlsqefrrdGlvklkgllekeilrvvhrlketgntrrk 70 
+                                                                     +a++ ++v +l+qe++ +G+ ++k++++ + ++ ++   +t ++ ++
+                                                          CurA|B  23 NAMNREQVEQLKQEYEEKGYCQIKKIFDFSAIKTIQ---KTLDQAKQ 66 
+                                                                     5678899*********************99999988...77777777 PP
+
+  crossval_out_AmbO5|AKP23998.1_ambiguine_alkaloid.fasta_aligned  71 msvvnkeeedgtlvaalYrdedlrevLasiakeelagckeeeqy... 114
+                                                                      s ++ke+  + ++ ++  d d  +    + k ++ ++  +e++   
+                                                          CurA|B  67 ESQISKEKV-TLKLGGI-DDIDTNDHAYDLVKYDFVSSFIQEKLall 111
+                                                                     788877652.2333333.44444444444566777777777777666 PP
+
+  crossval_out_AmbO5|AKP23998.1_ambiguine_alkaloid.fasta_aligned 115 ...........HelitrleqkGdthgwHsGiqllg........Dfsf 142
+                                                                                H+++   e + +   wH+G   +g        Df  
+                                                          CurA|B 112 nyitgknlmimHNALFSVEPNHKGLPWHVG---VGsfsftkteDFGA 155
+                                                                     666666666667777777777788889999...67222444444433 PP
+
+  crossval_out_AmbO5|AKP23998.1_ambiguine_alkaloid.fasta_aligned 143 tliwl.l.qlpepsegGllyv 161
+                                                                     + iw+ l ++++   gG++yv
+                                                          CurA|B 156 S-IWIpLdKITKEHRGGMQYV 175
+                                                                     3.3432214555677777776 PP
+
+  == domain 2  score: -1.0 bits;  conditional E-value: 0.68
+  crossval_out_AmbO5|AKP23998.1_ambiguine_alkaloid.fasta_aligned 166 tWdkqepqieeYl.vepvIksYahe 189
+                                                                     +Wd+ +  ++eY+   + I +  + 
+                                                          CurA|B 198 KWDESQGDLNEYVaNANTIYN--KI 220
+                                                                     677777777777742233322..22 PP
+
+>> JamE|B  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   11.1   0.0   0.00014   0.00026      36     108 ..      22     103 ..      17     278 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 11.1 bits;  conditional E-value: 0.00014
+  crossval_out_AmbO5|AKP23998.1_ambiguine_alkaloid.fasta_aligned  36 qefrrdGlvklkgllekeilrvvh.........rlketgntrrkmsv 73 
+                                                                     ++frr+G++klk++l+++ ++  +           +++   + + s 
+                                                          JamE|B  22 EAFRRQGFIKLKDFLSEHAIQSLKqaarskvisARESQSAYGDSFSR 68 
+                                                                     58****************99999977777655322222222334555 PP
+
+  crossval_out_AmbO5|AKP23998.1_ambiguine_alkaloid.fasta_aligned  74 vnkeeedgtlvaalYrdedlrevLasiakeelagc 108
+                                                                     +  +  +++ v ++Y + + r  L ++ ++ l  +
+                                                          JamE|B  69 LTYDLGTTDAVKNIYSSIAFRTALVTLIGHPLIMT 103
+                                                                     66666777788888888888888887666655443 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (252 nodes)
+Target sequences:                         24  (7510 residues searched)
+Passed MSV filter:                        13  (0.541667); expected 0.5 (0.02)
+Passed bias filter:                       13  (0.541667); expected 0.5 (0.02)
+Passed Vit filter:                        13  (0.541667); expected 0.0 (0.001)
+Passed Fwd filter:                        13  (0.541667); expected 0.0 (1e-05)
+Initial search space (Z):                 24  [actual number of targets]
+Domain search space  (domZ):              13  [number of targets reported over threshold]
+# CPU time: 0.03u 0.00s 00:00:00.03 Elapsed: 00:00:00.04
+# Mc/sec: 41.66
+//
+[ok]

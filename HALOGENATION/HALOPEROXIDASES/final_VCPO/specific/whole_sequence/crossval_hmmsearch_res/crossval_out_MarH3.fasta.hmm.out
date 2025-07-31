@@ -1,0 +1,329 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /home/szenei/ENZYMES/HALOPEROXIDASES/final_VCPO/crossval_profile/crossval_out_MarH3.fasta.hmm
+# target sequence database:        /home/szenei/ENZYMES/HALOPEROXIDASES/final_VCPO/specific_vcpos.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       crossval_out_MarH3.fasta_aligned  [M=523]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+          0 1019.2   0.2          0 1019.0   0.2    1.0  1  MarH1     
+          0 1018.7   2.8          0 1018.6   2.8    1.0  1  NapH1     
+   2.5e-301  988.7   0.2   2.8e-301  988.5   0.2    1.0  1  Mcl40     
+   6.7e-290  950.9   0.5   7.5e-290  950.8   0.5    1.0  1  LvcH      
+   1.8e-289  949.5   1.3     2e-289  949.4   1.3    1.0  1  Mcl24     
+   1.4e-244  801.4   0.7   1.5e-244  801.3   0.7    1.0  1  MarH3     
+   9.8e-243  795.3   1.0   1.1e-242  795.2   1.0    1.0  1  NapH4     
+
+
+Domain annotation for each sequence (and alignments):
+>> MarH1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ! 1019.0   0.2         0         0       2     523 .]       1     523 []       1     523 [] 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 1019.0 bits;  conditional E-value: 0
+  crossval_out_MarH3.fasta_aligned   2 ttsgessvsdlsprrrslllggasaaallalgsaaaaaaasaseeaatvdfdldkdnyikevk.tdeqagqspeeei 77 
+                                       +t+g+s+vs++sprrrsll+ggasaaall+lg +a +aaa+++ +aa+++fdldkdnyi++++ +d+ ag+sp++ei
+                             MarH1   1 MTTGHSPVSGFSPRRRSLLIGGASAAALLPLG-HAGTAAAAEGGKAAQAEFDLDKDNYIEWFQpEDDGAGISPSSEI 76 
+                                       589*****************************.88999999**********************99************ PP
+
+  crossval_out_MarH3.fasta_aligned  78 vgpmdvtvflwisrlvklavfdavapyhetavgvysriarrpssesatnrnkniaalyaqlkvlkrvlpervkllre 154
+                                       +gpmdvtvflwi++l+ l++fdavapyhetavgv+sri+rrpssesatnrn+nia++y+q++++k+v+p+rvk +r+
+                             MarH1  77 FGPMDVTVFLWINHLTGLGWFDAVAPYHETAVGVHSRIPRRPSSESATNRNMNIACIYSQYQLVKQVIPSRVKPMRD 153
+                                       ***************************************************************************** PP
+
+  crossval_out_MarH3.fasta_aligned 155 lltalGldpddesedlttpvGiGnvaakavlnalkndGmnvlGee.GrkynprpyadytGyepvntafklvnpsrwq 230
+                                       llt++Gldpdd+s+d+++pvG+Gn+a+k+v++alkndGmn+lG++ Grkynprp+adytGy+pvntaf++vnpsrwq
+                             MarH1 154 LLTSIGLDPDDDSMDPADPVGVGNIAGKSVFEALKNDGMNFLGHDgGRKYNPRPWADYTGYRPVNTAFDVVNPSRWQ 230
+                                       *********************************************9******************************* PP
+
+  crossval_out_MarH3.fasta_aligned 231 pqlqahngrraggGpGdlGiyvvqhfvtpqlaltkphifkdparftlaapkhsdhtrpraykrsvdeileasaaltd 307
+                                       pqlqahngrr+ggGpGdlGi+v+qhfvtpq++++kphi++dp++ft+++pkh+dhtrpr++krs+de+leasaaltd
+                             MarH1 231 PQLQAHNGRRVGGGPGDLGIWVAQHFVTPQMRMVKPHIYADPREFTVPPPKHVDHTRPRDFKRSADEVLEASAALTD 307
+                                       ***************************************************************************** PP
+
+  crossval_out_MarH3.fasta_aligned 308 erkalaevldnkllGiglsslviarkkdqnnelgvdGwahlllahvlatfdaliaawkektkydavrpvtavrhvyG 384
+                                       e+ka+aev+dnk++Gig+s+lviark+dqn+elgv+Gwah++l+h+latfd+lia+w+ektkyda+rpvt+++hvyG
+                             MarH1 308 EQKAIAEVMDNKIWGIGHSALVIARKHDQNGELGVQGWAHFILEHLLATFDPLIAVWNEKTKYDAARPVTVIQHVYG 384
+                                       ***************************************************************************** PP
+
+  crossval_out_MarH3.fasta_aligned 385 kkkvsawGGvGmGtvddipanewssylpvGdhpeypsGsttlcsaeaqaarryfdsdeldwklefpaGssvvepgit 461
+                                       kkkv++wGG+GmGtvdd+pa+ewssylpvGdhpeypsGsttlcsa++q+arryf+sdeldwk++fpaGs+++epg++
+                             MarH1 385 KKKVTSWGGPGMGTVDDMPAGEWSSYLPVGDHPEYPSGSTTLCSAASQCARRYFGSDELDWKFTFPAGSTRTEPGVV 461
+                                       ***************************************************************************** PP
+
+  crossval_out_MarH3.fasta_aligned 462 pakdvelhfptwtdftrkcaesrvwGGvhfrktversiafGeqfGdlahefvqrhvkGeved 523
+                                       pakd+elhfptwtdft+kc++srvwGGvhfrktve+siafGeqfGd+ahefvq+h+kGeved
+                             MarH1 462 PAKDIELHFPTWTDFTQKCGASRVWGGVHFRKTVETSIAFGEQFGDMAHEFVQKHIKGEVED 523
+                                       ************************************************************96 PP
+
+>> NapH1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ! 1018.6   2.8         0         0       1     523 []       1     527 []       1     527 [] 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 1018.6 bits;  conditional E-value: 0
+  crossval_out_MarH3.fasta_aligned   1 mttsgessvsdlsprrrslllggasaaallalg....saaaaaaasaseeaatvdfdldkdnyikevk.tdeqagqs 72 
+                                       mttsg++s+sd+sprrrs+llgg+++aa+l+++    +a+a++++sa+++aa+++fdldkdnyik+++ tde+agqs
+                             NapH1   1 MTTSGHTSFSDYSPRRRSMLLGGLGGAAALSAAgftgMASASPRGSAGSKAAAIEFDLDKDNYIKWAQpTDENAGQS 77 
+                                       89***********************9999988778889999************************************ PP
+
+  crossval_out_MarH3.fasta_aligned  73 peeeivgpmdvtvflwisrlvklavfdavapyhetavgvysriarrpssesatnrnkniaalyaqlkvlkrvlperv 149
+                                       p+ +i+gpmdvtvflwi+r+v+la+fda+apyhetavgvys+i+rrpssesatnrn+niaal+aq+ v+krvlp++v
+                             NapH1  78 PTLAILGPMDVTVFLWINRVVWLAAFDALAPYHETAVGVYSQIPRRPSSESATNRNLNIAALHAQHGVWKRVLPQQV 154
+                                       ***************************************************************************** PP
+
+  crossval_out_MarH3.fasta_aligned 150 kllrelltalGldpddesedlttpvGiGnvaakavlnalkndGmnvlGeeGrkynprpyadytGyepvntafklvnp 226
+                                       ++lrel+talGldp+de+e+l++pvGiGnvaak+++nalkndGmn+lG+eGrkynprp+adytGyepvntafk++np
+                             NapH1 155 DQLRELMTALGLDPSDETENLSSPVGIGNVAAKNAFNALKNDGMNFLGYEGRKYNPRPWADYTGYEPVNTAFKVNNP 231
+                                       ***************************************************************************** PP
+
+  crossval_out_MarH3.fasta_aligned 227 srwqpqlqahngrraggGpGdlGiyvvqhfvtpqlaltkphifkdparftlaapkhsdhtrpraykrsvdeileasa 303
+                                       srwqpqlqahn+rraggGpGdlGiyv+qhfvtpq+a+tk+hif+dp+rf++++p++sdht++raykrsvdei++asa
+                             NapH1 232 SRWQPQLQAHNARRAGGGPGDLGIYVTQHFVTPQTARTKAHIFRDPSRFRIPRPEFSDHTNTRAYKRSVDEIIDASA 308
+                                       ***************************************************************************** PP
+
+  crossval_out_MarH3.fasta_aligned 304 altderkalaevldnkllGiglsslviarkkdqnnelgvdGwahlllahvlatfdaliaawkektkydavrpvtavr 380
+                                       +l+derkalae+++nkl+Gig+ss+via+k+dqnne+gv+Gw+h++lahvlatf++liaaw++kt++davrpvta+r
+                             NapH1 309 NLNDERKALAEIMENKLWGIGHSSIVIANKYDQNNEMGVHGWCHWMLAHVLATFEPLIAAWHHKTRFDAVRPVTAIR 385
+                                       ***************************************************************************** PP
+
+  crossval_out_MarH3.fasta_aligned 381 hvyGkkkvsawGGvGmGtvddipanewssylpvGdhpeypsGsttlcsaeaqaarryfdsdeldwklefpaGssvve 457
+                                       hvyG++k++awGGvGmGtv di+a+ewssylpvGdhpeypsGst+lcsa++qaarryfdsdeldw++++paGs+vve
+                             NapH1 386 HVYGNRKIRAWGGVGMGTV-DIRASEWSSYLPVGDHPEYPSGSTSLCSATSQAARRYFDSDELDWTINYPAGSTVVE 461
+                                       *******************.9******************************************************** PP
+
+  crossval_out_MarH3.fasta_aligned 458 pgitpakdvelhfptwtdftrkcaesrvwGGvhfrktversiafGeqfGdlahefvqrhvkGeved 523
+                                       pgitp+kd+++h+ptwtdftr+ca+srvwGGvhf++tv+r+i+fGeqfGdlahefvqrhvkG+v+d
+                             NapH1 462 PGITPGKDLSIHIPTWTDFTRTCATSRVWGGVHFQTTVDRTIDFGEQFGDLAHEFVQRHVKGDVKD 527
+                                       ****************************************************************96 PP
+
+>> Mcl40  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  988.5   0.2  2.8e-301  2.8e-301       1     522 [.       1     526 [.       1     527 [. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 988.5 bits;  conditional E-value: 2.8e-301
+  crossval_out_MarH3.fasta_aligned   1 mttsgessvsdlsprrrslllggasaaallalgsaaaaaaasaseeaatvdfdldkdnyikevk..tdeqagqspee 75 
+                                       m+tsg++s+sdls +rrslllgg+saa++lal+   ++a+a++see++t+dfdld+dnyik+vk  tdeqa+qsp +
+                             Mcl40   1 MKTSGHTSASDLSLGRRSLLLGGSSAALMLALP---HPANAGTSEEPPTFDFDLDTDNYIKWVKpaTDEQASQSPLW 74 
+                                       89*******************************...9***************************999********** PP
+
+  crossval_out_MarH3.fasta_aligned  76 eivgpmdvtvflwisrlvklavfdavapyhetavgvysriarrpssesatnrnkniaalyaqlkvlkrvlpervkl. 151
+                                       e+vg+mdvtv+lw+sr+ +lavfdavapyhetavgvysri+rrpssesatnrn+nia+ly+ql++++r+lp  ++  
+                             Mcl40  75 ESVGSMDVTVILWMSRVGNLAVFDAVAPYHETAVGVYSRIPRRPSSESATNRNMNIAILYTQLHTFERLLPLGLRGp 151
+                                       ************************************************************************99877 PP
+
+  crossval_out_MarH3.fasta_aligned 152 ...lrelltalGldpddesedlttpvGiGnvaakavlnalkndGmnvlGee.GrkynprpyadytGyepvntafklv 224
+                                          lr+++++lGldpd++sedlttpvGiGnva+k+v+nalkndGmnvlG+e Grkynp p+adytGyepvnt+f+l+
+                             Mcl40 152 agsLRAMMVGLGLDPDNKSEDLTTPVGIGNVAFKSVWNALKNDGMNVLGYEgGRKYNPLPWADYTGYEPVNTPFRLN 228
+                                       788************************************************9************************* PP
+
+  crossval_out_MarH3.fasta_aligned 225 npsrwqpqlqahngrraggGpGdlGiyvvqhfvtpqlaltkphifkdparftlaapkhsdhtrpraykrsvdeilea 301
+                                       npsrwqpql+ahngrr+ggGpGdlGiyv+qhfvtpq+altkphif+dpa+f+laapkhsdhtrpr+ykrsvdeilea
+                             Mcl40 229 NPSRWQPQLHAHNGRRPGGGPGDLGIYVSQHFVTPQIALTKPHIFTDPAQFPLAAPKHSDHTRPRDYKRSVDEILEA 305
+                                       ***************************************************************************** PP
+
+  crossval_out_MarH3.fasta_aligned 302 saaltderkalaevldnkllGiglsslviarkkdqnnelgvdGwahlllahvlatfdaliaawkektkydavrpvta 378
+                                       sa+l+derkalaev+dnkl+Gig++s+vi+rk+d+nne+gv Gwa+++l+h+latfdalia+w++k+kyd+vrpv+a
+                             Mcl40 306 SASLNDERKALAEVMDNKLWGIGYTSTVIGRKYDENNEMGVFGWAAWSLQHFLATFDALIAVWRNKRKYDTVRPVSA 382
+                                       ***************************************************************************** PP
+
+  crossval_out_MarH3.fasta_aligned 379 vrhvyGkkkvsawGGvGmGtvddipanewssylpvGdhpeypsGsttlcsaeaqaarryfdsdeldwklefpaGssv 455
+                                       vrhvyG++kv+awGG+GmGtv+di+a+ew++ylp+GdhpeypsGst+lc+a aq+arryf+s+eldw+lef+aG+s+
+                             Mcl40 383 VRHVYGHSKVTAWGGAGMGTVNDIRATEWMPYLPTGDHPEYPSGSTSLCAAGAQTARRYFNSEELDWTLEFNAGTSA 459
+                                       ***************************************************************************** PP
+
+  crossval_out_MarH3.fasta_aligned 456 vepgitpakdvelhfptwtdftrkcaesrvwGGvhfrktversiafGeqfGdlahefvqrhvkGeve 522
+                                       vep++tpak+++lhf+tw++f+++caesrvwGGvhfrktv++s+++GeqfGdlahefv+rhvkG+++
+                             Mcl40 460 VEPETTPAKNLQLHFHTWAEFNKACAESRVWGGVHFRKTVQQSLIYGEQFGDLAHEFVNRHVKGNIK 526
+                                       *****************************************************************98 PP
+
+>> LvcH  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  950.8   0.5  7.5e-290  7.5e-290       1     523 []       1     523 []       1     523 [] 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 950.8 bits;  conditional E-value: 7.5e-290
+  crossval_out_MarH3.fasta_aligned   1 mttsgessvsdlsprrrslllggasaaallalg....saaaaaaasaseeaatvdfdldkdnyikevktdeqagqsp 73 
+                                       m++ g+s+vs+l++rrrs+llgg+++aa++alg    s++aa+++s+s++++++dfd+d++n+i+ev+++ q+++++
+                              LvcH   1 MSRLGDSPVSGLLTRRRSFLLGGVGGAATAALGalghSGTAAGRSSRSAAESVADFDMDTGNFIREVISRFQTSHPL 77 
+                                       7899****************************98888889999********************************** PP
+
+  crossval_out_MarH3.fasta_aligned  74 eeeivgpmdvtvflwisrlvklavfdavapyhetavgvysriarrpssesatnrnkniaalyaqlkvlkrvlpervk 150
+                                       +e+ivgpmdvt+++++++l+++++fdavapyh+tavgvysr++rrps+esatnrnkniaal+a+++v+k+v p++++
+                              LvcH  78 YEDIVGPMDVTISQRYIHLSMISWFDAVAPYHPTAVGVYSRLGRRPSGESATNRNKNIAALHANYHVTKGVEPAWEP 154
+                                       ***************************************************************************** PP
+
+  crossval_out_MarH3.fasta_aligned 151 llrelltalGldpddesedlttpvGiGnvaakavlnalkndGmnvlGeeGrkynprpyadytGyepvntafklvnps 227
+                                       l+rel+ta+Gldpddesed+t+pvGiGn+a+kav++a+++dGmn+lG+eGrky+p+pyadytGy+pvnta++l++ps
+                              LvcH 155 LFRELMTAVGLDPDDESEDRTSPVGIGNLAGKAVIAATERDGMNQLGDEGRKYHPQPYADYTGYRPVNTAYDLTDPS 231
+                                       ***************************************************************************** PP
+
+  crossval_out_MarH3.fasta_aligned 228 rwqpqlqahngrraggGpGdlGiyvvqhfvtpqlaltkphifkdparftlaapkhsdhtrpraykrsvdeileasaa 304
+                                       rwqp+l +h++r a++G+Gd+Gi++vq+fvtpq++lt++h+f+dp+rf+la+p+h+dhtrpray+rsvdeileasa+
+                              LvcH 232 RWQPRLGTHQRRLASPGRGDKGIFTVQQFVTPQMRLTRAHTFDDPGRFPLAPPTHIDHTRPRAYRRSVDEILEASAT 308
+                                       ***************************************************************************** PP
+
+  crossval_out_MarH3.fasta_aligned 305 ltderkalaevldnkllGiglsslviarkkdqnnelgvdGwahlllahvlatfdaliaawkektkydavrpvtavrh 381
+                                       ltderk++ae++dnkllG+gl+++v+a+++d    l++dGw+hll+a+++a++daliaaw++k+kyda+rp++av +
+                              LvcH 309 LTDERKVTAEFFDNKLLGVGLAGQVAAETRD----LDLDGWIHLLAAISVAIYDALIAAWHYKAKYDAPRPFSAVPY 381
+                                       *******************************....****************************************** PP
+
+  crossval_out_MarH3.fasta_aligned 382 vyGkkkvsawGGvGmGtvddipanewssylpvGdhpeypsGsttlcsaeaqaarryfdsdeldwklefpaGssvvep 458
+                                       vyG+++vsawGG+GmGtvdd+panew++yl+vGdhpeypsGstt+c+a+aqaarryfd+d+ldw++ +paGssvvep
+                              LvcH 382 VYGDSRVSAWGGPGMGTVDDMPANEWTAYLSVGDHPEYPSGSTTICAAQAQAARRYFDDDTLDWRQPIPAGSSVVEP 458
+                                       ***************************************************************************** PP
+
+  crossval_out_MarH3.fasta_aligned 459 gitpakdvelhfptwtdftrkcaesrvwGGvhfrktversiafGeqfGdlahefvqrhvkGeved 523
+                                       gitpa+dve+h+ptwtd++r+c+ sr+wGGvhfrkt+ersi+fGeqfGdlah++vqrh++G+ved
+                              LvcH 459 GITPAEDVEFHWPTWTDYNRDCGISRLWGGVHFRKTTERSIVFGEQFGDLAHAYVQRHINGDVED 523
+                                       ***************************************************************96 PP
+
+>> Mcl24  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  949.4   1.3    2e-289    2e-289       1     522 [.       1     517 []       1     517 [] 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 949.4 bits;  conditional E-value: 2e-289
+  crossval_out_MarH3.fasta_aligned   1 mttsgessvsdlsprrrslllggasaaallalgsaaaaaaasaseeaatvdfdldkdnyikevktdeqagqspeeei 77 
+                                       mtts++ssvsd+sprrrsll+g+asaaal++lgs+++aaaa+a++e++tvdfd+d++n+i+++++++++g++pee +
+                             Mcl24   1 MTTSERSSVSDFSPRRRSLLIGSASAAALATLGSTGTAAAAGAADEPPTVDFDFDNGNFIRDLIITRAGGVFPEEGV 77 
+                                       89*************************************************************************** PP
+
+  crossval_out_MarH3.fasta_aligned  78 vgpmdvtvflwisrlvklavfdavapyhetavgvysriarrpssesatnrnkniaalyaqlkvlkrvlpervkllre 154
+                                       +gpmd++v++wi++l++l++fda+apyh+tavg++sriarrp++e+atnrnknia lya+l+vl++v++erv+++r+
+                             Mcl24  78 IGPMDASVYIWITSLFQLSWFDALAPYHPTAVGIHSRIARRPAGEAATNRNKNIAGLYAALRVLEGVFEERVPVMRA 154
+                                       ***************************************************************************** PP
+
+  crossval_out_MarH3.fasta_aligned 155 lltalGldpddesedlttpvGiGnvaakavlnalkndGmnvlGeeGrkynprpyadytGyepvntafklvnpsrwqp 231
+                                        +ta+Gldpdd+sed+ttp+GiGn+a+kav++a++ndGmn+lG+ Grky+++py+dytGy+pvn+++klvnps+wqp
+                             Mcl24 155 GFTAAGLDPDDRSEDPTTPIGIGNIAGKAVVRARANDGMNHLGNVGRKYHGKPYEDYTGYQPVNSPYKLVNPSKWQP 231
+                                       ***************************************************************************** PP
+
+  crossval_out_MarH3.fasta_aligned 232 qlqahngrraggGpGdlGiyvvqhfvtpqlaltkphifkdparftlaapkhsdhtrpraykrsvdeileasaaltde 308
+                                       +l++h+ rr+ggGpGd+Gi+v+q+fvtpqlal+kp+++++p++ft+++p+hs+ht++r+yk+svd+ileasa+ltde
+                             Mcl24 232 ALHPHQ-RRVGGGPGDKGIWVIQAFVTPQLALVKPYTYRNPGQFTVPVPDHSTHTNVRKYKQSVDQILEASATLTDE 307
+                                       ******.9********************************************************************* PP
+
+  crossval_out_MarH3.fasta_aligned 309 rkalaevldnkllGiglsslviarkkdqnnelgvdGwahlllahvlatfdaliaawkektkydavrpvtavrhvyGk 385
+                                       +k++ae++dnkl+Gi+l+++++a ++d    l++dGw+hl+++++la++d+liaaw++ktk+++vrp+tav+hvyG+
+                             Mcl24 308 KKLMAEWFDNKLAGIALAPSAAALSHD----LDLDGWCHLYAVTALARLDDLIAAWHWKTKFNSVRPFTAVHHVYGR 380
+                                       ***************************....********************************************** PP
+
+  crossval_out_MarH3.fasta_aligned 386 kkvsawGGvGmGtvddipanewssylpvGdhpeypsGsttlcsaeaqaarryfdsdeldwklefpaGssvvepgitp 462
+                                       kk+sawGGvG+Gtv+d+panewssylpvGdhpey+sGsttlcsaeaqaarr++++d ldw+++fpaGs+++epg++p
+                             Mcl24 381 KKISAWGGVGKGTVHDMPANEWSSYLPVGDHPEYISGSTTLCSAEAQAARRFLGDDVLDWTYSFPAGSGLTEPGLVP 457
+                                       ***************************************************************************** PP
+
+  crossval_out_MarH3.fasta_aligned 463 akdvelhfptwtdftrkcaesrvwGGvhfrktversiafGeqfGdlahefvqrhvkGeve 522
+                                       akd+elh++twt+ftr+ca+srvwGGvhf++tv+rsi++G+qfGd+ah+f+qrh+kGev+
+                             Mcl24 458 AKDTELHWDTWTRFTRDCADSRVWGGVHFQTTVDRSIEWGAQFGDRAHQFLQRHIKGEVS 517
+                                       **********************************************************95 PP
+
+>> MarH3  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  801.3   0.7  1.5e-244  1.5e-244      19     523 .]       1     501 []       1     501 [] 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 801.3 bits;  conditional E-value: 1.5e-244
+  crossval_out_MarH3.fasta_aligned  19 lllggasaaallalgsaaaaaaas....aseeaatvdfdldkdnyikevktdeqagqspeeeivgpmdvtvflwisr 91 
+                                       +llggas+aal++lg+++aaaa+     a++ aa+++fd+d++n+ +++ +   ++ +p+ee +gpmd+tv++++++
+                             MarH3   1 MLLGGASTAALATLGTGTAAAAGQgtgpAAKPAAAAEFDFDTGNFHRDLLS---TAANPSEEPLGPMDATVLVYLTH 74 
+                                       79*************555544432111145556789************986...4568999**************** PP
+
+  crossval_out_MarH3.fasta_aligned  92 lvklavfdavapyhetavgvysriarrpssesatnrnkniaalyaqlkvlkrvlpervkllrelltalGldpddese 168
+                                       l++ a+fda+apyh+tavg +sri+rrp+ses tnrnkn+aa++a++ v++ v++erv+++r+l+t+lGldpdd+s 
+                             MarH3  75 LTMTAWFDALAPYHPTAVGRHSRIPRRPASESNTNRNKNVAAFHAANVVFQSVFKERVAAFRQLMTTLGLDPDDQST 151
+                                       ***************************************************************************** PP
+
+  crossval_out_MarH3.fasta_aligned 169 dlttpvGiGnvaakavlnalkndGmnvlGeeGrkynprpyadytGyepvntafklvnpsrwqpqlqahngrraggGp 245
+                                       d+t+pvGiGn+aa+ vl+a+++dGmn +G+eGrky+++py+dytG+epvnta+klvnps+wqp+ ++h+ rr+ggGp
+                             MarH3 152 DPTSPVGIGNLAARGVLKAKARDGMNLFGDEGRKYHGQPYEDYTGFEPVNTAYKLVNPSKWQPARHPHR-RRVGGGP 227
+                                       ********************************************************************9.9****** PP
+
+  crossval_out_MarH3.fasta_aligned 246 GdlGiyvvqhfvtpqlaltkphifkdparftlaapkhsdhtrpraykrsvdeileasaaltderkalaevldnkllG 322
+                                       Gd+Gi+vvqh+vtpq+al+kp +++ p++f+la+p+h dht+pr ykrsvdeileasa+l+de+k+ ae++dnk+lG
+                             MarH3 228 GDKGIFVVQHMVTPQMALVKPDTYRHPSQFPLAPPDHLDHTDPRRYKRSVDEILEASATLDDEQKVKAEFFDNKFLG 304
+                                       ***************************************************************************** PP
+
+  crossval_out_MarH3.fasta_aligned 323 iglsslviarkkdqnnelgvdGwahlllahvlatfdaliaawkektkydavrpvtavrhvyGkkkvsawGGvGmGtv 399
+                                       ig+s+++++  +d    l++d w+hl+ + +la+ ++liaaw++k ky+a+rp++a+rhvyGkkkvsawGG+G+Gtv
+                             MarH3 305 IGQSTKAAGIAHD----LELDDWVHLIYTSSLAQVEDLIAAWHYKVKYQAPRPFSAIRHVYGKKKVSAWGGPGIGTV 377
+                                       *************....************************************************************ PP
+
+  crossval_out_MarH3.fasta_aligned 400 ddipanewssylpvGdhpeypsGsttlcsaeaqaarryfdsdeldwklefpaGssvvepgitpakdvelhfptwtdf 476
+                                       +d+pa+ew+s+lpvGdhp+ypsGsttlc+aeaqaarr++++d ldw+  +paG +++epgitpa+d+elh+ twt+f
+                             MarH3 378 HDMPADEWASFLPVGDHPDYPSGSTTLCAAEAQAARRFLGDDRLDWTWPIPAGWTLTEPGITPARDMELHYGTWTEF 454
+                                       ***************************************************************************** PP
+
+  crossval_out_MarH3.fasta_aligned 477 trkcaesrvwGGvhfrktversiafGeqfGdlahefvqrhvkGeved 523
+                                        ++c++sr+w Gvhf +tvers++fG qfGdla+ef q+++kG+ved
+                             MarH3 455 VKDCGYSRLWAGVHFTTTVERSMEFGTQFGDLAYEFAQKYIKGDVED 501
+                                       *********************************************96 PP
+
+>> NapH4  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  795.2   1.0  1.1e-242  1.1e-242     129     522 ..       1     395 [.       1     396 [] 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 795.2 bits;  conditional E-value: 1.1e-242
+  crossval_out_MarH3.fasta_aligned 129 kniaalyaqlkvlkrvlpervkllrelltalGldpddesedlttpvGiGnvaakavlnalkndGmnvlGee.Grkyn 204
+                                       +nia+++aq+++++r+lp +v+ lrel++alGldpdd+sed+ttpvGiGnvaakav+n+lkndGmnvlG+e Grkyn
+                             NapH4   1 MNIACIHAQNAIWSRLLPPIVAGLRELMVALGLDPDDKSEDVTTPVGIGNVAAKAVWNVLKNDGMNVLGHEgGRKYN 77 
+                                       8**********************************************************************9***** PP
+
+  crossval_out_MarH3.fasta_aligned 205 prpyadytGyepvntafklvnpsrwqpqlqahngrraggGpGdlGiyvvqhfvtpqlaltkphifkdparftlaapk 281
+                                       prp+adytGy p+ntafkl+npsrwqpqlqahngrraggGpGdlGiyv+qhfvtpq+a+t phifkdp++f+l++p+
+                             NapH4  78 PRPWADYTGYVPTNTAFKLNNPSRWQPQLQAHNGRRAGGGPGDLGIYVTQHFVTPQIAVTLPHIFKDPTAFPLPRPD 154
+                                       ***************************************************************************** PP
+
+  crossval_out_MarH3.fasta_aligned 282 hsdhtrpraykrsvdeileasaaltderkalaevldnkllGiglsslviarkkdqnnelgvdGwahlllahvlatfd 358
+                                       ++dht++raykrsvdei+easaal+derkalae+++nkl+Gig+ss++i+ k+dqnnelgv+Gwa+++l+h+latfd
+                             NapH4 155 FTDHTDRRAYKRSVDEIIEASAALDDERKALAEIMENKLWGIGHSSIEIGLKNDQNNELGVHGWAQWMLQHILATFD 231
+                                       ***************************************************************************** PP
+
+  crossval_out_MarH3.fasta_aligned 359 aliaawkektkydavrpvtavrhvyGkkkvsawGGvGmGtvddipanewssylpvGdhpeypsGsttlcsaeaqaar 435
+                                       +liaaw +k+ky+avrp+tavrhvyG++k++awGGvGmGtvddipanew++ylpvGdhpeypsGstt++sa++qaar
+                             NapH4 232 TLIAAWGYKRKYEAVRPITAVRHVYGNRKIRAWGGVGMGTVDDIPANEWAGYLPVGDHPEYPSGSTTVGSAASQAAR 308
+                                       ***************************************************************************** PP
+
+  crossval_out_MarH3.fasta_aligned 436 ryfdsdeldwklefpaGssvvepgitpakdvelhfptwtdftrkcaesrvwGGvhfrktversiafGeqfGdlahef 512
+                                       r+fdsd+l+w+++f++G+s+vepgitp+++v+++fptwtdf+++ca+sr++GGvhf+ktvers+afGeqfGdlah+f
+                             NapH4 309 RFFDSDDLNWEFDFEVGKSIVEPGITPVENVRVSFPTWTDFNKRCAYSRLDGGVHFKKTVERSMAFGEQFGDLAHDF 385
+                                       ***************************************************************************** PP
+
+  crossval_out_MarH3.fasta_aligned 513 vqrhvkGeve 522
+                                       +qrhvkGe +
+                             NapH4 386 IQRHVKGEGD 395
+                                       *******976 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (523 nodes)
+Target sequences:                          7  (3518 residues searched)
+Passed MSV filter:                         7  (1); expected 0.1 (0.02)
+Passed bias filter:                        7  (1); expected 0.1 (0.02)
+Passed Vit filter:                         7  (1); expected 0.0 (0.001)
+Passed Fwd filter:                         7  (1); expected 0.0 (1e-05)
+Initial search space (Z):                  7  [actual number of targets]
+Domain search space  (domZ):               7  [number of targets reported over threshold]
+# CPU time: 0.02u 0.01s 00:00:00.03 Elapsed: 00:00:00.04
+# Mc/sec: 40.27
+//
+[ok]

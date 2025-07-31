@@ -1,0 +1,162 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  HALOPEROXIDASES/final_VCPO/unspecific_cdhit/cdhit_chosen/cdhit_chosen_extraction.hmm
+# target sequence database:        HALOPEROXIDASES/final_VCPO/specific_vcpos.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       cdhit_chosen_extraction  [M=421]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+    2.6e-08   22.0   0.0    1.9e-06   15.9   0.1    2.1  2  MarH3     
+    3.7e-08   21.5   0.0    4.3e-06   14.7   0.2    2.2  2  Mcl24     
+    8.1e-08   20.4   0.1    1.2e-07   19.9   0.1    1.3  1  NapH4     
+    3.2e-06   15.1   0.1    2.7e-05   12.1   0.2    2.1  2  LvcH      
+    3.6e-06   15.0   0.1    6.2e-06   14.2   0.1    1.3  1  MarH1     
+      1e-05   13.5   0.1    1.8e-05   12.7   0.1    1.3  1  Mcl40     
+
+
+Domain annotation for each sequence (and alignments):
+>> MarH3  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !    3.8   0.0    0.0075    0.0088      60     134 ..     106     181 ..     101     199 .. 0.83
+   2 !   15.9   0.1   1.6e-06   1.9e-06     244     400 ..     319     470 ..     307     484 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 3.8 bits;  conditional E-value: 0.0075
+  cdhit_chosen_extraction  60 ssddlsaevaasqaaytvlsslypdqqetldafles.slaalesdeetsdslalgeeigneilalraddgsdvvae 134
+                              s+++ + +vaa +aa  v+ s++ ++ +++ +++ +  l   +++++ ++ + +g+  +  +l  +a dg++  ++
+                    MarH3 106 SNTNRNKNVAAFHAANVVFQSVFKERVAAFRQLMTTlGLDPDDQSTDPTSPVGIGNLAARGVLKAKARDGMNLFGD 181
+                              56667789*******************9999887652566677777777889999*9*************998765 PP
+
+  == domain 2  score: 15.9 bits;  conditional E-value: 1.6e-06
+  cdhit_chosen_extraction 244 tleenaalfaqasvamadaaivawdtkfseefwrpvtaiqsgdldgneltegdadwtal.gapdggddiigftp..qfptyisgha 326
+                               l++ + l+  +s+a  +  i aw+ k   +  rp +ai++        + g +   ++   p   d+   f p  + p y sg +
+                    MarH3 319 ELDDWVHLIYTSSLAQVEDLIAAWHYKVKYQAPRPFSAIRHVYGKKKVSAWGGPGIGTVhDMPA--DEWASFLPvgDHPDYPSGST 402
+                              577888899999****************************977666666666665544404555..899999995569******** PP
+
+  cdhit_chosen_extraction 327 tfggalfgtlqefygtddisfeltseeleilledpelqeaygldlddatrsfssfseamaengrsrvylgihfd 400
+                              t+ +a   + + f g d + ++         l +p +  a  ++l      + +++e +++ g sr++ g+hf 
+                    MarH3 403 TLCAAEAQAARRFLGDDRLDWTWPIP-AGWTLTEPGITPARDMELH-----YGTWTEFVKDCGYSRLWAGVHFT 470
+                              *****************999987655.5677899*****9988886.....777899***************96 PP
+
+>> Mcl24  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !    4.3   0.0    0.0053    0.0062      64     134 ..     127     198 ..     119     220 .. 0.84
+   2 !   14.7   0.2   3.7e-06   4.3e-06     244     400 ..     336     487 ..     321     499 .. 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 4.3 bits;  conditional E-value: 0.0053
+  cdhit_chosen_extraction  64 lsaevaasqaaytvlsslypdqqetlda.flesslaalesdeetsdslalgeeigneilalraddgsdvvae 134
+                               + ++a   aa  vl +++ ++   + a f++  l   +++e+ ++ + +g+  g+ ++  ra+dg++ +++
+                    Mcl24 127 RNKNIAGLYAALRVLEGVFEERVPVMRAgFTAAGLDPDDRSEDPTTPIGIGNIAGKAVVRARANDGMNHLGN 198
+                              5667888899999999999999988876377788999999999999********************998875 PP
+
+  == domain 2  score: 14.7 bits;  conditional E-value: 3.7e-06
+  cdhit_chosen_extraction 244 tleenaalfaqasvamadaaivawdtkfseefwrpvtaiqsgdldgn.eltegdadwtalgapdggddiigftp..qfptyisgha 326
+                               l+  + l+a +++a  d  i aw+ k   +  rp ta+++       +   g ++ t    p   ++   + p  + p yisg +
+                    Mcl24 336 DLDGWCHLYAVTALARLDDLIAAWHWKTKFNSVRPFTAVHHVYGRKKiSAWGGVGKGTVHDMPA--NEWSSYLPvgDHPEYISGST 419
+                              566677899**************999998899*******9864433314445666777777777..566666664479******** PP
+
+  cdhit_chosen_extraction 327 tfggalfgtlqefygtddisfeltseeleilledpelqeaygldlddatrsfssfseamaengrsrvylgihfd 400
+                              t+ +a   + + f g d + ++ +       l +p l  a   +l      +++++    +   srv+ g+hf+
+                    Mcl24 420 TLCSAEAQAARRFLGDDVLDWTYS-FPAGSGLTEPGLVPAKDTEL-----HWDTWTRFTRDCADSRVWGGVHFQ 487
+                              ***************998877654.45566678899988865555.....456666666677789999999996 PP
+
+>> NapH4  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   19.9   0.1     1e-07   1.2e-07     249     352 ..     219     323 ..     153     368 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 19.9 bits;  conditional E-value: 1e-07
+  cdhit_chosen_extraction 249 aalfaqasvamadaaivawdtkfseefwrpvtaiqsgdldgneltegdadwtalgapdg..gddiigftp..qfptyisghatfgg 330
+                              a  + q  +a  d+ i aw  k   e  rp+ta+++  + gn      +  + +g+ d    ++  g+ p  + p y sg +t g+
+                    NapH4 219 AQWMLQHILATFDTLIAAWGYKRKYEAVRPITAVRH--VYGNRKIRAWG-GVGMGTVDDipANEWAGYLPvgDHPEYPSGSTTVGS 301
+                              455667888999**********************97..56777655322.2444444432257889**995569************ PP
+
+  cdhit_chosen_extraction 331 alfgtlqefygtddisfeltse 352
+                              a   + + f+ +dd+ +e   e
+                    NapH4 302 AASQAARRFFDSDDLNWEFDFE 323
+                              ***************9998765 PP
+
+>> LvcH  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    0.4   0.0     0.082     0.096      61     134 ..     128     202 ..     103     220 .. 0.82
+   2 !   12.1   0.2   2.3e-05   2.7e-05     239     343 ..     336     441 ..     297     493 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 0.4 bits;  conditional E-value: 0.082
+  cdhit_chosen_extraction  61 sddlsaevaasqaaytvlsslypdqqetldafles.slaalesdeetsdslalgeeigneilalraddgsdvvae 134
+                              +++ + ++aa +a y v  ++ p  +  + +++    l   +++e+ ++ + +g+  g+ ++a    dg++++++
+                     LvcH 128 ATNRNKNIAALHANYHVTKGVEPAWEPLFRELMTAvGLDPDDESEDRTSPVGIGNLAGKAVIAATERDGMNQLGD 202
+                              4566778999999999999999999888877665415777777788888899*****************998875 PP
+
+  == domain 2  score: 12.1 bits;  conditional E-value: 2.3e-05
+  cdhit_chosen_extraction 239 vqegntleenaalfaqasvamadaaivawdtkfseefwrpvtaiqsgdldgneltegdadwtalg.apdggddiigf..tpqfpty 321
+                              + ++  l+  + l+a  sva+ da i aw+ k   +  rp +a+     d    + g +   ++   p   ++ + +    + p y
+                     LvcH 336 ETRDLDLDGWIHLLAAISVAIYDALIAAWHYKAKYDAPRPFSAVPYVYGDSRVSAWGGPGMGTVDdMPA--NEWTAYlsVGDHPEY 419
+                              445667888899*******************************98776666666666555544431333..233333114567777 PP
+
+  cdhit_chosen_extraction 322 isghatfggalfgtlqefygtd 343
+                               sg +t+ +a   + + ++  d
+                     LvcH 420 PSGSTTICAAQAQAARRYFDDD 441
+                              7888888888777777777666 PP
+
+>> MarH1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   14.2   0.1   5.3e-06   6.2e-06     257     400 ..     354     492 ..     330     507 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 14.2 bits;  conditional E-value: 5.3e-06
+  cdhit_chosen_extraction 257 vamadaaivawdtkfseefwrpvtaiqsgdldgneltegdadwtalg.apdggddiigftpqfptyisghatfggalfgtlqefyg 341
+                              +a  d  i  w+ k   +  rpvt iq+        + g +   ++   p g         + p y sg +t+ +a   + + ++g
+                    MarH1 354 LATFDPLIAVWNEKTKYDAARPVTVIQHVYGKKKVTSWGGPGMGTVDdMPAGEWSSYLPVGDHPEYPSGSTTLCSAASQCARRYFG 439
+                              5667888999*****************977666666667766655551555443444445689*********************** PP
+
+  cdhit_chosen_extraction 342 tddisfeltseeleilledpelqeaygldlddatrsfssfseamaengrsrvylgihfd 400
+                              +d++ ++ t     +   +p +  a  ++l      f ++++  ++ g srv+ g+hf 
+                    MarH1 440 SDELDWKFTFPAGST-RTEPGVVPAKDIEL-----HFPTWTDFTQKCGASRVWGGVHFR 492
+                              *****9999876554.56788888887777.....588888999999**********95 PP
+
+>> Mcl40  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   12.7   0.1   1.5e-05   1.8e-05     250     400 ..     351     496 ..     333     507 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 12.7 bits;  conditional E-value: 1.5e-05
+  cdhit_chosen_extraction 250 alfaqasvamadaaivawdtkfseefwrpvtaiqsgdldgneltegdadwtalgapdggddiigf..tpqfptyisghatfggalf 333
+                              a   q  +a  da i  w  k   +  rpv+a+++        + g a   ++       + + +  t + p y sg +++ +a  
+                    Mcl40 351 AWSLQHFLATFDALIAVWRNKRKYDTVRPVSAVRHVYGHSKVTAWGGAGMGTVNDIRA-TEWMPYlpTGDHPEYPSGSTSLCAAGA 435
+                              55567788999***********************988777777777777766666653.44455513457899************* PP
+
+  cdhit_chosen_extraction 334 gtlqefygtddisfeltseeleilledpelqeaygldlddatrsfssfseamaengrsrvylgihfd 400
+                               t + ++ ++++ ++l+ +     + +pe   a  l+l     ++  f +a ae   srv+ g+hf 
+                    Mcl40 436 QTARRYFNSEELDWTLEFNAGTSAV-EPETTPAKNLQLHF--HTWAEFNKACAE---SRVWGGVHFR 496
+                              ****************998776665.6******9999974..566777777776...9*******95 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (421 nodes)
+Target sequences:                          7  (3518 residues searched)
+Passed MSV filter:                         7  (1); expected 0.1 (0.02)
+Passed bias filter:                        7  (1); expected 0.1 (0.02)
+Passed Vit filter:                         7  (1); expected 0.0 (0.001)
+Passed Fwd filter:                         6  (0.857143); expected 0.0 (1e-05)
+Initial search space (Z):                  7  [actual number of targets]
+Domain search space  (domZ):               6  [number of targets reported over threshold]
+# CPU time: 0.01u 0.00s 00:00:00.01 Elapsed: 00:00:00.01
+# Mc/sec: 106.07
+//
+[ok]

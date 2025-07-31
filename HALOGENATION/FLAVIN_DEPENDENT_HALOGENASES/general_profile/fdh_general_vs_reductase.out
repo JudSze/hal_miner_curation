@@ -1,0 +1,411 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  FLAVIN_DEPENDENT_HALOGENASES/general_profile/cut_all_general_profile_v2.hmm
+# target sequence database:        uniprotkb_diphosphate_reductase_AND_tax_2024_05_29.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       cut_all_general_profile  [M=473]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence             Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------             -----------
+    4.4e-15   51.1   0.0      8e-15   50.2   0.0    1.3  1  sp|P9WNY8|MENJ_MYCTO  Menaquinone reductase OS=Mycobacterium 
+    4.4e-15   51.1   0.0      8e-15   50.2   0.0    1.3  1  sp|P9WNY9|MENJ_MYCTU  Menaquinone reductase OS=Mycobacterium 
+    6.3e-15   50.6   0.0    2.1e-14   48.8   0.0    1.7  1  sp|A0QRI8|MENJ_MYCS2  Menaquinone reductase OS=Mycolicibacter
+    3.2e-07   25.1   2.3    1.9e-06   22.6   1.1    2.4  2  sp|P26172|BCHP_RHOCB  Geranylgeranyl diphosphate reductase OS
+      6e-07   24.3   0.1    1.7e-06   22.7   0.1    1.4  1  sp|Q55087|CHLP_SYNY3  Geranylgeranyl diphosphate reductase OS
+     0.0057   11.1   0.8      0.011   10.1   0.8    1.4  1  sp|Q83IZ5|CBRA_SHIFL  Protein CbrA OS=Shigella flexneri OX=62
+     0.0057   11.1   0.8      0.011   10.1   0.8    1.4  1  sp|Q0SYN3|CBRA_SHIF8  Protein CbrA OS=Shigella flexneri serot
+  ------ inclusion threshold ------
+      0.011   10.2   0.7      0.023    9.1   0.7    1.4  1  sp|A1AHM5|CBRA_ECOK1  Protein CbrA OS=Escherichia coli O1:K1 
+      0.011   10.2   0.7      0.023    9.1   0.7    1.4  1  sp|Q1R4P6|CBRA_ECOUT  Protein CbrA OS=Escherichia coli (strai
+      0.011   10.2   0.9      0.024    9.1   0.9    1.4  1  sp|Q8CVK0|CBRA_ECOL6  Protein CbrA OS=Escherichia coli O6:H1 
+      0.013   10.0   0.8      0.028    8.9   0.8    1.4  1  sp|Q3YWC2|CBRA_SHISS  Protein CbrA OS=Shigella sonnei (strain
+      0.014    9.8   0.7      0.035    8.5   0.6    1.5  1  sp|A8A6F0|CBRA_ECOHS  Protein CbrA OS=Escherichia coli O9:H4 
+      0.015    9.7   0.7       0.03    8.8   0.7    1.4  1  sp|A7ZTP5|CBRA_ECO24  Protein CbrA OS=Escherichia coli O139:H
+      0.015    9.7   0.8      0.044    8.2   0.8    1.5  1  sp|Q0TB17|CBRA_ECOL5  Protein CbrA OS=Escherichia coli O6:K15
+      0.016    9.7   0.6      0.031    8.7   0.6    1.4  1  sp|Q8XBZ8|CBRA_ECO57  Protein CbrA OS=Escherichia coli O157:H
+
+
+Domain annotation for each sequence (and alignments):
+>> sp|P9WNY8|MENJ_MYCTO  Menaquinone reductase OS=Mycobacterium tuberculosis (strain CDC 1551 / Oshkosh) OX=83331 GN=men
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   50.2   0.0   2.2e-16     8e-15       1     330 [.      19     334 ..      19     340 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 50.2 bits;  conditional E-value: 2.2e-16
+  cut_all_general_profile   1 sttAsyLakaglsVtllEseefpryh.VGEstvpstvrtifdylglrekleaagfpyKlGlrfnWesvdgapleewefdfaelkqp 85 
+                              s++A+  a+ag +V++++ ++fpr +  G  ++p      +++lgl   l+   + +++Glr+    ++g+ + +w    +    p
+     sp|P9WNY8|MENJ_MYCTO  19 SAAAAWAARAGRDVLVIDTATFPRDKpCGDGLTPRA-VAELHQLGLGKWLAD--HIRHRGLRM--SGFGGEVEVDW----PGPSFP 95 
+                              579999*****************65549********.***********9887..99*******..55566666666....443323 PP
+
+  cut_all_general_profile  86 ggqtpyayhvdrakfdkfLlrlAverGvevvegtvvkdveldgrgviealttkegreiradlvvDAsGrrglllnkalgereeyse 171
+                                  +y   v r ++d+ ++++A++ G++   g++   v  d    + +lt ++g+e+ ++ ++ A G r++l +++lg r  +++
+     sp|P9WNY8|MENJ_MYCTO  96 ----SYGSAVARLELDDRIRKVAEDTGARMLLGAKAVAVHHDSSRRVVSLTLADGTEVGCRQLIVADGARSPL-GRKLGRR--WHR 174
+                              ....36688***************************9999999999***************************.*******..666 PP
+
+  cut_all_general_profile 172 vllnnvAvwtrvendderddlepsttik.alafedgWv.....WvIPlsdgrtsvGvVyrkdkykeskkspeeafaelvkefpgla 251
+                                   vAv +++    +    +p+ t +  l  +dg v     W  Pl +g +++Gv + +      +   + a++ l++ + +l+
+     sp|P9WNY8|MENJ_MYCTO 175 ETVYGVAVRGYLSTAYS---DDPWLTSHlELRSPDGAVlpgygWIFPLGNGEVNIGVGALSTS----RRPADLALRPLISYYTDLR 253
+                              66689*******99333...44443333334455555555555999**999999999877776....3677888999999999999 PP
+
+  cut_all_general_profile 252 ealkeaervrefrvgrdysYsskq..fwgdnwvlvGdAacFvDPLfStGvsliaysiellaksipaalrgddfekelfdey 330
+                              +   +++ ++  ++   +        + g nw+l+GdAa+ v+PL   G++  +++++l+a+ + +   ++ +   l d+y
+     sp|P9WNY8|MENJ_MYCTO 254 RDEWGFTGQPRAVSSALLPMGGAVsgVAGSNWMLIGDAAACVNPLNGEGIDYGLETGRLAAELLDSRDLARLWPSLLADRY 334
+                              9999999999777777777555444699**********************************9986655555555555555 PP
+
+>> sp|P9WNY9|MENJ_MYCTU  Menaquinone reductase OS=Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv) OX=83332 GN=men
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   50.2   0.0   2.2e-16     8e-15       1     330 [.      19     334 ..      19     340 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 50.2 bits;  conditional E-value: 2.2e-16
+  cut_all_general_profile   1 sttAsyLakaglsVtllEseefpryh.VGEstvpstvrtifdylglrekleaagfpyKlGlrfnWesvdgapleewefdfaelkqp 85 
+                              s++A+  a+ag +V++++ ++fpr +  G  ++p      +++lgl   l+   + +++Glr+    ++g+ + +w    +    p
+     sp|P9WNY9|MENJ_MYCTU  19 SAAAAWAARAGRDVLVIDTATFPRDKpCGDGLTPRA-VAELHQLGLGKWLAD--HIRHRGLRM--SGFGGEVEVDW----PGPSFP 95 
+                              579999*****************65549********.***********9887..99*******..55566666666....443323 PP
+
+  cut_all_general_profile  86 ggqtpyayhvdrakfdkfLlrlAverGvevvegtvvkdveldgrgviealttkegreiradlvvDAsGrrglllnkalgereeyse 171
+                                  +y   v r ++d+ ++++A++ G++   g++   v  d    + +lt ++g+e+ ++ ++ A G r++l +++lg r  +++
+     sp|P9WNY9|MENJ_MYCTU  96 ----SYGSAVARLELDDRIRKVAEDTGARMLLGAKAVAVHHDSSRRVVSLTLADGTEVGCRQLIVADGARSPL-GRKLGRR--WHR 174
+                              ....36688***************************9999999999***************************.*******..666 PP
+
+  cut_all_general_profile 172 vllnnvAvwtrvendderddlepsttik.alafedgWv.....WvIPlsdgrtsvGvVyrkdkykeskkspeeafaelvkefpgla 251
+                                   vAv +++    +    +p+ t +  l  +dg v     W  Pl +g +++Gv + +      +   + a++ l++ + +l+
+     sp|P9WNY9|MENJ_MYCTU 175 ETVYGVAVRGYLSTAYS---DDPWLTSHlELRSPDGAVlpgygWIFPLGNGEVNIGVGALSTS----RRPADLALRPLISYYTDLR 253
+                              66689*******99333...44443333334455555555555999**999999999877776....3677888999999999999 PP
+
+  cut_all_general_profile 252 ealkeaervrefrvgrdysYsskq..fwgdnwvlvGdAacFvDPLfStGvsliaysiellaksipaalrgddfekelfdey 330
+                              +   +++ ++  ++   +        + g nw+l+GdAa+ v+PL   G++  +++++l+a+ + +   ++ +   l d+y
+     sp|P9WNY9|MENJ_MYCTU 254 RDEWGFTGQPRAVSSALLPMGGAVsgVAGSNWMLIGDAAACVNPLNGEGIDYGLETGRLAAELLDSRDLARLWPSLLADRY 334
+                              9999999999777777777555444699**********************************9986655555555555555 PP
+
+>> sp|A0QRI8|MENJ_MYCS2  Menaquinone reductase OS=Mycolicibacterium smegmatis (strain ATCC 700084 / mc(2)155) OX=246196 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   48.8   0.0   5.7e-16   2.1e-14       1     314 [.      17     316 ..      17     339 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 48.8 bits;  conditional E-value: 5.7e-16
+  cut_all_general_profile   1 sttAsyLakaglsVtllEseefp.ryhVGEstvpstvrtifdylglrekleaagfpyKlGlrfnWesvdgapleewefdfaelkqp 85 
+                              s++A+  a+ag +V+++++++fp     G  ++p      +++lg+ + l++    +++Glr+    ++   + +w    +++++ 
+     sp|A0QRI8|MENJ_MYCS2  17 SAAAAWAARAGRDVVVVDAAQFPrDKACGDGLTPRA-VAELQRLGMASWLDT--RIRHHGLRM--SGFGADVEIPW--PGPSFPA- 94 
+                              579999*****************44557********.**************9..7899*****..45555555556..4444443. PP
+
+  cut_all_general_profile  86 ggqtpyayhvdrakfdkfLlrlAverGvevvegtvvkdveldgrgviealttkegreiradlvvDAsGrrglllnkalgereeyse 171
+                                    +  v r+++d+ ++ +A++ G++ + gt+v dv  d  g + a++ ++g ++ +  ++ A G r+ l ++ lg    +++
+     sp|A0QRI8|MENJ_MYCS2  95 -----TSSAVPRTELDDRIRSVAADDGAKMMLGTKVVDVTHDSSGRVDAVVLDDGNTVGCAQLIVADGARSTL-GRVLGRT--WHR 172
+                              .....35789***************************************************************.***9999..776 PP
+
+  cut_all_general_profile 172 vllnnvAvwtrvendderddlepsttik.ala.....fedgWvWvIPlsdgrtsvGvVyrkdk.ykesk..kspeeafaelvkefp 248
+                                   vA+ +++    + ++ ep+ t +  l      +  g  W+ Pl +g +++Gv +      +++     +   +a+l +e++
+     sp|A0QRI8|MENJ_MYCS2 173 ETVYGVAIRGYIAS--P-RASEPWITSHlELRspegkVLPGYGWMFPLGNGEVNIGVGALATAkRPADAalRPLMSYYADLRREEW 255
+                              66689******999..3.35555555444333233335555559****99999988854444412333332555566888888888 PP
+
+  cut_all_general_profile 249 glaealkeaervrefrvgrdysYsskqfwgdnwvlvGdAacFvDPLfStGvsliaysiellaksip 314
+                              gl  +         +  g   s     + g+nw+l+GdAa+ v+PL   G++  +++++l+a+ ++
+     sp|A0QRI8|MENJ_MYCS2 256 GLVGEPRAGLSAL-LPMGGAVS----GVAGPNWMLIGDAAACVNPLNGEGIDYGLETGRLAAELMT 316
+                              8877655555555.66677777....7***********************************9997 PP
+
+>> sp|P26172|BCHP_RHOCB  Geranylgeranyl diphosphate reductase OS=Rhodobacter capsulatus (strain ATCC BAA-309 / NBRC 1658
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -1.4   0.0      0.99        37       1      20 [.      15      34 ..      15      38 .. 0.87
+   2 !   22.6   1.1     5e-08   1.9e-06      95     353 ..      88     350 ..      87     373 .. 0.71
+
+  Alignments for each domain:
+  == domain 1  score: -1.4 bits;  conditional E-value: 0.99
+  cut_all_general_profile  1 sttAsyLakaglsVtllEse 20
+                             st+A   a+agl+V+ll+++
+     sp|P26172|BCHP_RHOCB 15 STAAWDMARAGLKVALLDRA 34
+                             6889999***********75 PP
+
+  == domain 2  score: 22.6 bits;  conditional E-value: 5e-08
+  cut_all_general_profile  95 vdrakfdkfLlrlAverGvevvegtvvkdveldg...rgviealttkegreiradlvvDAsGrrglllnkalgereeysevllnnv 177
+                              vdr++ d+ L++ A ++G+e   gt + ++e d      v   ++t+e+ + +++ v+ A G ++ + n+  + +  +  v+    
+     sp|P26172|BCHP_RHOCB  88 VDREDYDEWLRERAGKAGAERLTGTWL-RIERDSgktVVVWRDKVTGEEMKAETRVVIGADGANSQVRNEVPATK--IPLVF---- 166
+                              8**************************.****66688555556666677779*************9977777777..33344.... PP
+
+  cut_all_general_profile 178 Avwtrvendderddlepsttik...ala...fedgWvWvIPlsdgrtsvGvVyrkdkykeskkspeeafaelvkefpglae...al 254
+                              A++  ++     + ++++++++   ++     +d   Wv P+  ++ s+G+ +          s+ + +  l +++ gl++     
+     sp|P26172|BCHP_RHOCB 167 AYHEIIKA---PTTVANYDPTRcdvYYDgriSPDFYGWVFPH-GKTASIGMGTELPD-----VSLKDCTTLL-RQMSGLDKeetIR 242
+                              66666666...456666666666645558888999999****.99999999999888.....4555553333.4444444411123 PP
+
+  cut_all_general_profile 255 keaervrefrvgrdysYsskqfwgdnwvlvGdAacFvDPLfStGvsliaysiellaksipaalrgddfekelfdey.......... 330
+                              ke  +++ ++  + +        g+ +vl GdAa+ v P    G++ ++++++ +a+  +a l++++ ++  +++           
+     sp|P26172|BCHP_RHOCB 243 KEGAPIP-LQPLDVWD------NGKDVVLSGDAAGVVAPSSGEGIYYAHAGGRYAAEAAMAFLKSGKPADLKLARAgfmkehgtvf 321
+                              4555666.77777777......7889**********************************99998877666654444445555555 PP
+
+  cut_all_general_profile 331 ......nrlyrravdrvrefisahYrlna 353
+                                    + +y +  dr  +f+s++++  +
+     sp|P26172|BCHP_RHOCB 322 kvlrmmQDKYYHSDDRRERFVSLCHDVDV 350
+                              55444444444444444445555444444 PP
+
+>> sp|Q55087|CHLP_SYNY3  Geranylgeranyl diphosphate reductase OS=Synechocystis sp. (strain PCC 6803 / Kazusa) OX=1111708
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   22.7   0.1   4.6e-08   1.7e-06      96     366 ..      93     365 ..      84     381 .. 0.75
+
+  Alignments for each domain:
+  == domain 1  score: 22.7 bits;  conditional E-value: 4.6e-08
+  cut_all_general_profile  96 drakfdkfLlrlAverGvevvegtvvkdveldg..........rgviealttkegreiradlvvDAsGrrglllnkalgereeyse 171
+                              +r+ +d fL++ A++ G +v+ gtv  +++++           + +    tt+e + +++d v+ A G ++++ +ka     +y  
+     sp|Q55087|CHLP_SYNY3  93 RREVLDGFLRERAEKLGTKVINGTVY-KLDIPSkdsdpytlhyADHSVGGTTGEMKILKVDVVIGADGANSRI-AKAIDAG-DY-- 173
+                              68889*********************.8888555799*9977666666666767766****************.8887777.55.. PP
+
+  cut_all_general_profile 172 vllnnvAvwtrvendderddlepsttikala.......fedgWvWvIPlsdgrtsvGvVyrkdkykeskkspeeafaelvkefpgl 250
+                                  n+A++++   + ++d+++ +++ +  +        +d   Wv P   +++ vG  + k + k++ k++++  ++        
+     sp|Q55087|CHLP_SYNY3 174 ----NYAIAFQERIRLPEDKMAYYDELA--EmyvgddvSPDFYAWVFPK-YDHVAVGTGTMKVN-KARIKDLQAGIRTR------A 245
+                              ....79999999999999*******944..3445689999*********.99******999999.33335555544444......4 PP
+
+  cut_all_general_profile 251 aealkeaervrefrvgrdysYsskqfwgdnwvlvGdAacFvDPLfStGvsliaysiellaksipaalrgddfekel..fdeynrly 334
+                              a++l++ e ++ +   +  ++   + ++ +++lvGdAa+ v      G++++a+s+++ a+ i a+ ++++  ++   +++y ++ 
+     sp|Q55087|CHLP_SYNY3 246 AKKLEGGEIIK-VEAHPIPEHPRPRRVVGRVALVGDAAGTVTKSSGEGIYFAAKSARMCAETIVATSNNGQRVPTEadLKQYIKQW 330
+                              55566666666.555555555555699**************999999****************98877655444332655555555 PP
+
+  cut_all_general_profile 335 rravdrvrefisahYrlnarkdty...fwqaqklr 366
+                               + ++ ++  + +  r + r+d+    f+++++ +
+     sp|Q55087|CHLP_SYNY3 331 DKRYGATYLVLDILQRVFYRTDATreaFVEMCSDI 365
+                              55555555444444444433333333388877655 PP
+
+>> sp|Q83IZ5|CBRA_SHIFL  Protein CbrA OS=Shigella flexneri OX=623 GN=cbrA PE=3 SV=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   10.1   0.8   0.00031     0.011     112     313 ..     114     300 ..      84     315 .. 0.75
+
+  Alignments for each domain:
+  == domain 1  score: 10.1 bits;  conditional E-value: 0.00031
+  cut_all_general_profile 112 Gvevvegtvvkdvel.dgrgviealttkegreiradlvvDAsGrrglllnkalgereeysevllnnvAvwtrvendderddlepst 196
+                               vev+++   +++   d++ ++  + ++ +++i+a+++v A G ++++ +++l      +++  + vA+  ++     +++++ ++
+     sp|Q83IZ5|CBRA_SHIFL 114 SVEVYHDSLCRKIWReDDKWHVIFRADGWEQHITARYLVGADGANSMV-RRHLYPD---HQIR-KYVAIQQWFAE---KHPVPFYS 191
+                              58999999998998856677788899999999****************.7776555...5555.999******99...56888899 PP
+
+  cut_all_general_profile 197 tikalafedgWvWvIPlsdgrtsvGvVyrkdkykeskkspeeafaelvkefpglaealkeaervrefrvgrdysYsskqfwgdnwv 282
+                               i   a++d   W I   dg +  G  y  +         +  f +l++++ +++ ++ +a   ++  v    +++   + +dn +
+     sp|Q83IZ5|CBRA_SHIFL 192 CIFDNAITDCYSWSISK-DGYFIFGGAYPMKD-------GQTRFTTLKEKMSAFQFQFGKAVKSEKCTVLFPSRWQDFVCGKDNAF 269
+                              9777789999999**99.99999999999888.......34445555555555555555555555444444444334448899*** PP
+
+  cut_all_general_profile 283 lvGdAacFvDPLfStGvsliaysiellaksi 313
+                              l+G+Aa+F+      G+s ++ s+e+l + +
+     sp|Q83IZ5|CBRA_SHIFL 270 LIGEAAGFISASSLEGISYALDSAEILRAVF 300
+                              *******997666667777777776666655 PP
+
+>> sp|Q0SYN3|CBRA_SHIF8  Protein CbrA OS=Shigella flexneri serotype 5b (strain 8401) OX=373384 GN=cbrA PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   10.1   0.8   0.00031     0.011     112     313 ..     114     300 ..      84     315 .. 0.75
+
+  Alignments for each domain:
+  == domain 1  score: 10.1 bits;  conditional E-value: 0.00031
+  cut_all_general_profile 112 Gvevvegtvvkdvel.dgrgviealttkegreiradlvvDAsGrrglllnkalgereeysevllnnvAvwtrvendderddlepst 196
+                               vev+++   +++   d++ ++  + ++ +++i+a+++v A G ++++ +++l      +++  + vA+  ++     +++++ ++
+     sp|Q0SYN3|CBRA_SHIF8 114 SVEVYHDSLCRKIWReDDKWHVIFRADGWEQHITARYLVGADGANSMV-RRHLYPD---HQIR-KYVAIQQWFAE---KHPVPFYS 191
+                              58999999998998856677788899999999****************.7776555...5555.999******99...56888899 PP
+
+  cut_all_general_profile 197 tikalafedgWvWvIPlsdgrtsvGvVyrkdkykeskkspeeafaelvkefpglaealkeaervrefrvgrdysYsskqfwgdnwv 282
+                               i   a++d   W I   dg +  G  y  +         +  f +l++++ +++ ++ +a   ++  v    +++   + +dn +
+     sp|Q0SYN3|CBRA_SHIF8 192 CIFDNAITDCYSWSISK-DGYFIFGGAYPMKD-------GQTRFTTLKEKMSAFQFQFGKAVKSEKCTVLFPSRWQDFVCGKDNAF 269
+                              9777789999999**99.99999999999888.......34445555555555555555555555444444444334448899*** PP
+
+  cut_all_general_profile 283 lvGdAacFvDPLfStGvsliaysiellaksi 313
+                              l+G+Aa+F+      G+s ++ s+e+l + +
+     sp|Q0SYN3|CBRA_SHIF8 270 LIGEAAGFISASSLEGISYALDSAEILRAVF 300
+                              *******997666667777777776666655 PP
+
+>> sp|A1AHM5|CBRA_ECOK1  Protein CbrA OS=Escherichia coli O1:K1 / APEC OX=405955 GN=cbrA PE=3 SV=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    9.1   0.7   0.00062     0.023     112     291 ..     114     278 ..      90     306 .. 0.74
+
+  Alignments for each domain:
+  == domain 1  score: 9.1 bits;  conditional E-value: 0.00062
+  cut_all_general_profile 112 Gvevvegtvvkdvel.dgrgviealttkegreiradlvvDAsGrrglllnkalgereeysevllnnvAvwtrvendderddlepst 196
+                               vev+++   +++   d++ ++  + ++ +++i+a+++v A G ++++ +++l      +++  + vA+  ++     +++++ ++
+     sp|A1AHM5|CBRA_ECOK1 114 SVEVYHDSLCRKIWReDDKWHVIFRADGWEQHITARYLVGADGANSMV-RRHLYPD---HQIR-KYVAIQQWFAE---KHPVPFYS 191
+                              58999999998888856677788899999999****************.7776555...5555.999**999999...56888888 PP
+
+  cut_all_general_profile 197 tikalafedgWvWvIPlsdgrtsvGvVyrkdkykeskkspeeafaelvkefpglaealkeaervrefrvgrdysYsskqfwgdnwv 282
+                               i   a++d   W I   dg +  G  y  +         +  f +l++++ +++ ++ +a   ++  v    +++   + +dn +
+     sp|A1AHM5|CBRA_ECOK1 192 CIFDNAITDCYSWSISK-DGYFIFGGAYPMKD-------GQTRFTTLKEKMSAFQFQFGKAVKSEKCTVLFPSRWQDFVCGKDNAF 269
+                              87777799999999999.99999999998877.......34444555555555555555555555444444444334448889999 PP
+
+  cut_all_general_profile 283 lvGdAacFv 291
+                              l+G+Aa+F+
+     sp|A1AHM5|CBRA_ECOK1 270 LIGEAAGFI 278
+                              999999997 PP
+
+>> sp|Q1R4P6|CBRA_ECOUT  Protein CbrA OS=Escherichia coli (strain UTI89 / UPEC) OX=364106 GN=cbrA PE=3 SV=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    9.1   0.7   0.00062     0.023     112     291 ..     114     278 ..      90     306 .. 0.74
+
+  Alignments for each domain:
+  == domain 1  score: 9.1 bits;  conditional E-value: 0.00062
+  cut_all_general_profile 112 Gvevvegtvvkdvel.dgrgviealttkegreiradlvvDAsGrrglllnkalgereeysevllnnvAvwtrvendderddlepst 196
+                               vev+++   +++   d++ ++  + ++ +++i+a+++v A G ++++ +++l      +++  + vA+  ++     +++++ ++
+     sp|Q1R4P6|CBRA_ECOUT 114 SVEVYHDSLCRKIWReDDKWHVIFRADGWEQHITARYLVGADGANSMV-RRHLYPD---HQIR-KYVAIQQWFAE---KHPVPFYS 191
+                              58999999998888856677788899999999****************.7776555...5555.999**999999...56888888 PP
+
+  cut_all_general_profile 197 tikalafedgWvWvIPlsdgrtsvGvVyrkdkykeskkspeeafaelvkefpglaealkeaervrefrvgrdysYsskqfwgdnwv 282
+                               i   a++d   W I   dg +  G  y  +         +  f +l++++ +++ ++ +a   ++  v    +++   + +dn +
+     sp|Q1R4P6|CBRA_ECOUT 192 CIFDNAITDCYSWSISK-DGYFIFGGAYPMKD-------GQTRFTTLKEKMSAFQFQFGKAVKSEKCTVLFPSRWQDFVCGKDNAF 269
+                              87777799999999999.99999999998877.......34444555555555555555555555444444444334448889999 PP
+
+  cut_all_general_profile 283 lvGdAacFv 291
+                              l+G+Aa+F+
+     sp|Q1R4P6|CBRA_ECOUT 270 LIGEAAGFI 278
+                              999999997 PP
+
+>> sp|Q8CVK0|CBRA_ECOL6  Protein CbrA OS=Escherichia coli O6:H1 (strain CFT073 / ATCC 700928 / UPEC) OX=199310 GN=cbrA P
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    9.1   0.9   0.00065     0.024     112     291 ..     114     278 ..      80     302 .. 0.74
+
+  Alignments for each domain:
+  == domain 1  score: 9.1 bits;  conditional E-value: 0.00065
+  cut_all_general_profile 112 Gvevvegtvvkdvel.dgrgviealttkegreiradlvvDAsGrrglllnkalgereeysevllnnvAvwtrvendderddlepst 196
+                               vev+++   +++   d++ ++  + ++ +++i+a+++v A G ++++ +++l      +++  + vA+  ++     +++++ ++
+     sp|Q8CVK0|CBRA_ECOL6 114 SVEVYHDSLCRKIWReDDKWHVIFRADGWEQHITARYLVGADGANSMV-RRHLYPD---HQIR-KYVAIQQWFAE---KHPVPFYS 191
+                              58999999999998856677788899999999****************.7776555...5555.999**999999...56888888 PP
+
+  cut_all_general_profile 197 tikalafedgWvWvIPlsdgrtsvGvVyrkdkykeskkspeeafaelvkefpglaealkeaervrefrvgrdysYsskqfwgdnwv 282
+                               i   a++d   W I   dg +  G  y  +         +  f +l++++ +++ ++ +a   ++  v    +++   + +dn +
+     sp|Q8CVK0|CBRA_ECOL6 192 CIFDNAITDCYSWSISK-DGYFIFGGAYPMKD-------GQTRFTTLKEKMSAFQFQFGKAVKSEKCTVLFPSRWQDFVCGKDNAF 269
+                              87777799999999999.99999999998877.......34444555555555555555555555444444444334448889999 PP
+
+  cut_all_general_profile 283 lvGdAacFv 291
+                              l+G+Aa+F+
+     sp|Q8CVK0|CBRA_ECOL6 270 LIGEAAGFI 278
+                              999999997 PP
+
+>> sp|Q3YWC2|CBRA_SHISS  Protein CbrA OS=Shigella sonnei (strain Ss046) OX=300269 GN=cbrA PE=3 SV=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    8.9   0.8   0.00075     0.028     112     291 ..     114     278 ..      91     301 .. 0.74
+
+  Alignments for each domain:
+  == domain 1  score: 8.9 bits;  conditional E-value: 0.00075
+  cut_all_general_profile 112 Gvevvegtvvkdvel.dgrgviealttkegreiradlvvDAsGrrglllnkalgereeysevllnnvAvwtrvendderddlepst 196
+                               vev+++   +++   d++ ++  + ++ +++i+a+++v A G ++++ +++l      +++  + vA+  ++     +++++ ++
+     sp|Q3YWC2|CBRA_SHISS 114 SVEVYHDSLCRKIWReDDKWHVIFRADGWEQHITARYLVGADGANSMV-RRHLYPD---HQIR-KYVAIQQWFAE---KHPVPFYS 191
+                              58999999998888856677788899999999****************.7776555...5555.999*9999999...56788888 PP
+
+  cut_all_general_profile 197 tikalafedgWvWvIPlsdgrtsvGvVyrkdkykeskkspeeafaelvkefpglaealkeaervrefrvgrdysYsskqfwgdnwv 282
+                               i   a++d   W I   dg +  G  y  +         +  f +l++++ +++ ++ +a   ++  v    +++   + +dn +
+     sp|Q3YWC2|CBRA_SHISS 192 CIFDNAITDCYSWSISK-DGYFIFGGAYPMKD-------GQTRFTTLKEKMSAFQFQFGKAVKSEKCTVLFPSRWQDFVCGKDNAF 269
+                              87777799999999998.99999999998877.......33444455555555555555555544444444344333348889999 PP
+
+  cut_all_general_profile 283 lvGdAacFv 291
+                              l+G+Aa+F+
+     sp|Q3YWC2|CBRA_SHISS 270 LIGEAAGFI 278
+                              999999997 PP
+
+>> sp|A8A6F0|CBRA_ECOHS  Protein CbrA OS=Escherichia coli O9:H4 (strain HS) OX=331112 GN=cbrA PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    8.5   0.6   0.00094     0.035     112     293 ..     114     280 ..      96     313 .. 0.72
+
+  Alignments for each domain:
+  == domain 1  score: 8.5 bits;  conditional E-value: 0.00094
+  cut_all_general_profile 112 Gvevvegtvvkdvel.dgrgviealttkegreiradlvvDAsGrrglllnkalgereeysevllnnvAvwtrvendderddlepst 196
+                               vev+++   +++   d++ ++  + ++ +++i+a+++v A G ++++ +++l      +++  + vA+  ++     +++++ ++
+     sp|A8A6F0|CBRA_ECOHS 114 SVEVYHDSLCRKIWReDDKWHVIFRADGWEQHISARYLVGADGANSMV-RRHLYPD---HQIR-KYVAIQQWFAE---KHPVPFYS 191
+                              58999999998888856677788899999999****************.7776555...5555.99999999998...56888888 PP
+
+  cut_all_general_profile 197 tikalafedgWvWvIPlsdgrtsvGvVyrkdkykeskkspeeafaelvkefpglaealkeaervrefrvgrdysYsskqfwgdnwv 282
+                               i   +++d   W I   dg +  G  y  +         +  f +l++++ +++ ++ +a   ++  v    +++   + +dn +
+     sp|A8A6F0|CBRA_ECOHS 192 CIFDNEITDCYSWSISK-DGYFIFGGAYPMKD-------GQTRFTTLKEKMSAFQFQFGKAVKSEKCTVLFPSRWQDFVCGKDNAF 269
+                              86666699999999998.99999999998877.......33444555555555555555555554444444444333448889999 PP
+
+  cut_all_general_profile 283 lvGdAacFvDP 293
+                              l+G+Aa+F+  
+     sp|A8A6F0|CBRA_ECOHS 270 LIGEAAGFISA 280
+                              99999999865 PP
+
+>> sp|A7ZTP5|CBRA_ECO24  Protein CbrA OS=Escherichia coli O139:H28 (strain E24377A / ETEC) OX=331111 GN=cbrA PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    8.8   0.7   0.00079      0.03     113     291 ..     115     278 ..      83     300 .. 0.75
+
+  Alignments for each domain:
+  == domain 1  score: 8.8 bits;  conditional E-value: 0.00079
+  cut_all_general_profile 113 vevvegtvvkdvel.dgrgviealttkegreiradlvvDAsGrrglllnkalgereeysevllnnvAvwtrvendderddlepstt 197
+                              vev+++   +++   d++ ++  + ++ +++i+a+++v A G ++++ +++l      +++  + vA+  ++     +++++ ++ 
+     sp|A7ZTP5|CBRA_ECO24 115 VEVYHDSLCRKIWReDDKWHVIFRADGWEQHITARYLVGADGANSMV-RRHLYPD---HQIR-KYVAIQQWFAE---KHPVPFYSC 192
+                              8999999998888856677788899999999****************.7776555...5555.999*9999999...567888888 PP
+
+  cut_all_general_profile 198 ikalafedgWvWvIPlsdgrtsvGvVyrkdkykeskkspeeafaelvkefpglaealkeaervrefrvgrdysYsskqfwgdnwvl 283
+                              i   a++d   W I   dg +  G  y  +         +  f +l++++ +++ ++ +a   ++  v    +++   + +dn +l
+     sp|A7ZTP5|CBRA_ECO24 193 IFDNAITDCYSWSISK-DGYFIFGGAYPMKD-------GQTRFTTLKEKMSAFQFQFGKAVKSEKCTVLFPSRWQDFVCGKDNAFL 270
+                              7777799999999998.99999999998877.......334444555555555555555555444444433443333488899999 PP
+
+  cut_all_general_profile 284 vGdAacFv 291
+                              +G+Aa+F+
+     sp|A7ZTP5|CBRA_ECO24 271 IGEAAGFI 278
+                              99999997 PP
+
+>> sp|Q0TB17|CBRA_ECOL5  Protein CbrA OS=Escherichia coli O6:K15:H31 (strain 536 / UPEC) OX=362663 GN=cbrA PE=3 SV=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    8.2   0.8    0.0012     0.044     112     291 ..     114     278 ..      91     302 .. 0.74
+
+  Alignments for each domain:
+  == domain 1  score: 8.2 bits;  conditional E-value: 0.0012
+  cut_all_general_profile 112 Gvevvegtvvkdvel.dgrgviealttkegreiradlvvDAsGrrglllnkalgereeysevllnnvAvwtrvendderddlepst 196
+                               vev+++   +++   d++ ++  + ++ +++i+a+++v A G ++++ +++l      +++  + vA+  ++     +++++ ++
+     sp|Q0TB17|CBRA_ECOL5 114 SVEVYHDSLCRKIWReDDKWHVIFRADGWEQHITARYLVGADGANSMV-RRHLYPD---HQIR-KYVAIQQWFAE---KHPVPFYS 191
+                              58999999998888856677788899999999****************.7776555...5555.99999999998...56788888 PP
+
+  cut_all_general_profile 197 tikalafedgWvWvIPlsdgrtsvGvVyrkdkykeskkspeeafaelvkefpglaealkeaervrefrvgrdysYsskqfwgdnwv 282
+                               i   a++d   W I   dg +  G  y  +         +  f  l++++ +++ ++ +a   ++  v    +++   + +dn +
+     sp|Q0TB17|CBRA_ECOL5 192 CIFDNAITDCYSWSISK-DGYFIFGGAYPMKD-------GQTRFTALKEKMSAFQFQFGKAVKSEKCTVLFPSRWQDFVCGKDNAF 269
+                              86677788999999988.88888888888777.......34445556566666666666555555444444444444447788999 PP
+
+  cut_all_general_profile 283 lvGdAacFv 291
+                              l+G+Aa+F+
+     sp|Q0TB17|CBRA_ECOL5 270 LIGEAAGFI 278
+                              999999987 PP
+
+>> sp|Q8XBZ8|CBRA_ECO57  Protein CbrA OS=Escherichia coli O157:H7 OX=83334 GN=cbrA PE=3 SV=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    8.7   0.6   0.00083     0.031     112     291 ..     114     278 ..      80     303 .. 0.74
+
+  Alignments for each domain:
+  == domain 1  score: 8.7 bits;  conditional E-value: 0.00083
+  cut_all_general_profile 112 Gvevvegtvvkdvel.dgrgviealttkegreiradlvvDAsGrrglllnkalgereeysevllnnvAvwtrvendderddlepst 196
+                               vev+++   +++   d++ ++  + ++ +++i+a+++v A G ++++ +++l      +++  + vA+  ++     +++++ ++
+     sp|Q8XBZ8|CBRA_ECO57 114 SVEVYHDSLCRKIWReDDKWHVIFRADGWEQHITARYLVGADGANSMV-RRYLYPD---HQIR-KYVAIQQWFAE---KHPVPFYS 191
+                              58999999998998856677788899999999****************.5555444...4444.999**999999...56888888 PP
+
+  cut_all_general_profile 197 tikalafedgWvWvIPlsdgrtsvGvVyrkdkykeskkspeeafaelvkefpglaealkeaervrefrvgrdysYsskqfwgdnwv 282
+                               i   a++d   W I   dg +  G  y  +         +  f +l++++ +++ ++ +a   ++  v    +++   + +dn +
+     sp|Q8XBZ8|CBRA_ECO57 192 CIFDNAITDCYSWSISK-DGYFIFGGAYPMKD-------GQTRFTTLKEKMSAFQFQFGKAVKSEKCTVLFPSRWQDFVCGKDNAF 269
+                              87777799999999999.99999999998877.......34444555555555555555555555444444444334448889999 PP
+
+  cut_all_general_profile 283 lvGdAacFv 291
+                              l+G+Aa+F+
+     sp|Q8XBZ8|CBRA_ECO57 270 LIGEAAGFI 278
+                              999999997 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (473 nodes)
+Target sequences:                        560  (206053 residues searched)
+Passed MSV filter:                        27  (0.0482143); expected 11.2 (0.02)
+Passed bias filter:                       27  (0.0482143); expected 11.2 (0.02)
+Passed Vit filter:                        18  (0.0321429); expected 0.6 (0.001)
+Passed Fwd filter:                        15  (0.0267857); expected 0.0 (1e-05)
+Initial search space (Z):                560  [actual number of targets]
+Domain search space  (domZ):              15  [number of targets reported over threshold]
+# CPU time: 0.09u 0.00s 00:00:00.09 Elapsed: 00:00:00.10
+# Mc/sec: 908.82
+//
+[ok]

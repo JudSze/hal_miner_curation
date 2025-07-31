@@ -1,0 +1,327 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /home/szenei/ENZYMES/FLAVIN_DEPENDENT_HALOGENASES/phenolic/substrate_based/cycline_orsellinic_acid/cycline_orsellinic_FDH_v2.hmm
+# target sequence database:        /home/szenei/ENZYMES/FLAVIN_DEPENDENT_HALOGENASES/pyrrole/full_sequences.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       cycline_orsellinic_FDH  [M=482]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                            Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                            -----------
+   4.3e-132  430.3   2.5   2.1e-130  424.8   2.5    2.0  1  HrmQ|tr|C1IHU5|C1IHU5_9ACTN          HrmQ OS=Streptomyces griseoflavu
+   1.2e-129  422.3   3.0   5.7e-128  416.7   3.0    2.0  1  pyr29|tr|A3R4S0|A3R4S0_WENVI         Halogenase OS=Wenjunlia vitamino
+   3.3e-129  420.8   2.8   1.6e-127  415.2   2.8    2.0  1  mpy16|tr|J7H1A1|J7H1A1_9ACTN         FADH2-dependent halogenase OS=St
+   1.3e-126  412.3   2.1   6.8e-125  406.6   2.1    2.0  1  clz5|tr|U6A3L4|U6A3L4_9ACTN          Flavin-dependent halogenase OS=S
+   3.5e-122  397.7   0.2   4.3e-122  397.4   0.2    1.2  1  PltA|sp|Q4KCZ0|PLTA_PSEF5            1H-pyrrole-2-carbonyl-[peptidyl-
+    2.3e-93  302.6   0.0    2.7e-93  302.4   0.0    1.0  1  tr|Q71ME2|Q71ME2_9ACTN               Halogenase B OS=Actinoplanes sp.
+    3.6e-82  265.7   0.0    4.8e-82  265.3   0.0    1.0  1  Bmp2|tr|A0A139ZY81|A0A139ZY81_9GAMM  Bmp2 OS=Pseudoalteromonas sp. PS
+    1.2e-81  264.0   0.0    1.5e-81  263.7   0.0    1.1  1  sp|P95482|PRNC_PSEFL                 Monodechloroaminopyrrolnitrin ha
+
+
+Domain annotation for each sequence (and alignments):
+>> HrmQ|tr|C1IHU5|C1IHU5_9ACTN  HrmQ OS=Streptomyces griseoflavus OX=35619 PE=4 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  424.8   2.5  2.1e-130  2.1e-130       2     440 ..       2     423 ..       1     444 [. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 424.8 bits;  conditional E-value: 2.1e-130
+       cycline_orsellinic_FDH   2 adaetdviviGgGpaGstaaslLAkeGlsvllLereefPRyhiGESllpsvrvildrlGvlekveakgfksktGvllldgee 83 
+                                  +d ++d+ +iGgGpaGst+as+LAk+G+s ++Le++efPR+h+GESl+++++++l ++G+l kv+a+gf +k+G++++++++
+  HrmQ|tr|C1IHU5|C1IHU5_9ACTN   2 SDFDYDIGIIGGGPAGSTMASYLAKAGISAIVLESAEFPRPHVGESLVTATTPVLQEIGALAKVDAAGFPKKYGAAWTSAAK 83 
+                                  6789**************************************************************************9999 PP
+
+       cycline_orsellinic_FDH  84 edvp.agvfridf...........rkivgarvds.fqvdReefDevlldeAaeaGaevvegatVkevlfdgdravgveysea 152
+                                  e+vp  g++ +             r++ g +  + ++vdR ++D++ll++Aae+Ga+v+e+++V++v+f +d +v + + ++
+  HrmQ|tr|C1IHU5|C1IHU5_9ACTN  84 ETVPeMGFTGMTQgfrlasvefqeRDQPGVDQAYtYHVDRGKYDQLLLQHAAELGARVRERTRVQDVEFTDDGVVLTAVGDE 165
+                                  9999888888876779999*****************************************************6666666666 PP
+
+       cycline_orsellinic_FDH 153 geeteeeraryvvDAsGragvlakhlklrepheilrnvAifsyweglde.llplspegd....invissedgWlWaiPlsdd 229
+                                  g+e+   r r+vvDAsGr+++l+++ kl+ p+++++++Ai+++++gld+ +l+++pe +    i+++++ d+W+W+iP+s++
+  HrmQ|tr|C1IHU5|C1IHU5_9ACTN 166 GTERL--RVRMVVDASGRQTMLGRKKKLKVPDPVFNQYAIHAWFDGLDRkALADDPEQEdfifIHFLPVSDTWVWQIPISET 245
+                                  65555..9****************************************8799999998889********************* PP
+
+       cycline_orsellinic_FDH 230 ltsvGlvthkdrfkerrrelpeevfakhveespavkellagarrvrevkveqdysYaadqvcGpgyvLvgdAacFlDPllSt 311
+                                  +tsvG+vt+k + k + +e +ee+f++ +  +p+++++l++a+rvre+k+e dysY +++v+G+++ L+gdAa+F+DP++S+
+  HrmQ|tr|C1IHU5|C1IHU5_9ACTN 246 TTSVGVVTQKAKVKSSGQE-REEFFWECLGTRPELRAALEKAERVREFKTEGDYSYGMKEVVGDRWALIGDAARFVDPIFSS 326
+                                  *****************99.************************************************************** PP
+
+       cycline_orsellinic_FDH 312 GvslalesallaaesvlaalredekekealafyeelyrnayerllelisvfyeasagkdkyfllAetltsdeeeqasadnaf 393
+                                  Gvs+a++sa+l+a+++++a++ d++ k+++  ye ++r++++ ++e+is++y+ +++                         
+  HrmQ|tr|C1IHU5|C1IHU5_9ACTN 327 GVSVAMNSARLLAKDIVSAVERDDFSKKSFGDYERVLRRGVSSWYEFISIYYRLNIL------------------------- 383
+                                  *****************************************************8888......................... PP
+
+       cycline_orsellinic_FDH 394 gelvagladlkeaadeltrlveallegdatseenpvaqelraaeeak 440
+                                    ++a+++d ++++d+l     ++l+gd ++ee+p+a+  +++   +
+  HrmQ|tr|C1IHU5|C1IHU5_9ACTN 384 --FTAFVQDPRYRLDVL-----KMLQGDVYGEEEPKALTRMREIVRR 423
+                                  ..899999999999999.....9999999999999999888877766 PP
+
+>> pyr29|tr|A3R4S0|A3R4S0_WENVI  Halogenase OS=Wenjunlia vitaminophila OX=76728 GN=pyr29 PE=4 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  416.7   3.0  5.7e-128  5.7e-128       2     440 ..       1     422 [.       1     440 [. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 416.7 bits;  conditional E-value: 5.7e-128
+        cycline_orsellinic_FDH   2 adaetdviviGgGpaGstaaslLAkeGlsvllLereefPRyhiGESllpsvrvildrlGvlekveakgfksktGvllldge 82 
+                                   +dae+d+ +iGgGpaGstaas+LAk+Gl+v+++e e+fPR h+GESl+p+++++l + G+++kvea+ f +k+G++++++e
+  pyr29|tr|A3R4S0|A3R4S0_WENVI   1 MDAEFDIGIIGGGPAGSTAASYLAKAGLKVAVFEAETFPREHVGESLVPATTPVLIETGAMPKVEAANFPKKFGAAWTSAE 81 
+                                   6899***************************************************************************** PP
+
+        cycline_orsellinic_FDH  83 eedvp.agvfridf...........rkivgarvds.fqvdReefDevlldeAaeaGaevvegatVkevlfdgdravgveys 150
+                                   ++++  +g+  + +           r++ g ++d+ f+vdR +fD++ll++A+++Ga+v++g+++ +v+fdg+  + v  +
+  pyr29|tr|A3R4S0|A3R4S0_WENVI  82 DRNIDhNGFRGLTHdfraaeilfneRDQDGVDRDYtFHVDRGKFDQILLQHAESLGAKVFHGIRIGKVDFDGE--MPVLEA 160
+                                   ***9988988887777*********************************************************..889999 PP
+
+        cycline_orsellinic_FDH 151 eageeteeeraryvvDAsGragvlakhlklrepheilrnvAifsyweglde.llplspegd......invissedgWlWai 224
+                                   + g+++++   r+vvDAsGr++ l+++lk + p++i++++A++s++++ d+ +  l +++d      i+++++ d+W+W+i
+  pyr29|tr|A3R4S0|A3R4S0_WENVI 161 KIGSKSVDIPVRMVVDASGRQTRLGNQLKFKVPDPIFNQYAVHSWFDNFDRkA--LAVNKDqadyifIHFLPVTDTWVWQI 239
+                                   *******99*****************************************633..333333347899************** PP
+
+        cycline_orsellinic_FDH 225 PlsddltsvGlvthkdrfkerrrelpeevfakhveespavkellagarrvrevkveqdysYaadqvcGpgyvLvgdAacFl 305
+                                   P++d++ts+G+v++k+rf+e   + +e++f+++v+++p++ ++l+++ +vr++k+e dysY ++q+ G+ +vL+gdAa+F+
+  pyr29|tr|A3R4S0|A3R4S0_WENVI 240 PITDTITSIGVVSQKKRFQEFAGD-REKFFWDTVASRPELLDALKNSDQVRPFKTEGDYSYGMSQIAGDNFVLIGDAARFV 319
+                                   **********************99.******************************************************** PP
+
+        cycline_orsellinic_FDH 306 DPllStGvslalesallaaesvlaalredekekealafyeelyrnayerllelisvfyeasagkdkyfllAetltsdeeeq 386
+                                   DP++S+Gvs+al+sa+la ++++aa ++++++ke++ +ye ++r+++++++e+i+++y+ +++                  
+  pyr29|tr|A3R4S0|A3R4S0_WENVI 320 DPIFSSGVSVALNSARLACKDIIAAAEAGDFKKERFGTYERKLRKGVSNWYEFIQIYYRLNIL------------------ 382
+                                   ***********************************************************8887.................. PP
+
+        cycline_orsellinic_FDH 387 asadnafgelvagladlkeaadeltrlveallegdatseenpvaqelraaeeak 440
+                                            ++a+++d ++++d+l     ++l+gd +++e+p+a++++++  + 
+  pyr29|tr|A3R4S0|A3R4S0_WENVI 383 ---------FTAFVQDDRYRLDVL-----KMLQGDVYDDEEPKALAAMREIVKA 422
+                                   .........778888888888888.....8888888888888888877776665 PP
+
+>> mpy16|tr|J7H1A1|J7H1A1_9ACTN  FADH2-dependent halogenase OS=Streptomyces sp. CNQ-418 OX=467194 GN=mpy16 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  415.2   2.8  1.6e-127  1.6e-127       2     440 ..       1     422 [.       1     442 [. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 415.2 bits;  conditional E-value: 1.6e-127
+        cycline_orsellinic_FDH   2 adaetdviviGgGpaGstaaslLAkeGlsvllLereefPRyhiGESllpsvrvildrlGvlekveakgfksktGvllldge 82 
+                                   +++++dv +iGgGpaGst+as+LA++Gl+v+l+e+++fPR h+GESl+p+++++l  + + +kvea+gf +k+G+++++++
+  mpy16|tr|J7H1A1|J7H1A1_9ACTN   1 MEPQFDVGIIGGGPAGSTTASYLARAGLKVALFESDNFPREHVGESLVPATTPVLVDIDAFDKVEAAGFPKKFGAAWTSAD 81 
+                                   6899**************************************************************************888 PP
+
+        cycline_orsellinic_FDH  83 eedvp.agvfridf...........rkivgarvds.fqvdReefDevlldeAaeaGaevvegatVkevlfdgdravgveys 150
+                                   +      g++ +d+           r + g + d+ f+vdR +fD +ll++A+e+Ga+v++g++V++v+fdg    + e s
+  mpy16|tr|J7H1A1|J7H1A1_9ACTN  82 SGPSDkMGFTGLDHdfraaeimfneRTQSGVHKDYtFHVDRGQFDLLLLKHAEEQGAKVHQGVRVNRVNFDGA-FPVLETS 161
+                                   776666899***9999********************************************************9.4556677 PP
+
+        cycline_orsellinic_FDH 151 eageeteeeraryvvDAsGragvlakhlklrepheilrnvAifsyweglde.llplspegd....invissedgWlWaiPl 226
+                                    ag+++++   ++vvDAsGr++ l+ +lk++e++++++++Ai++++++ d+ +l+ +++      i+++++ d+W+W+iP+
+  mpy16|tr|J7H1A1|J7H1A1_9ACTN 162 VAGQRAKV-PVKMVVDASGRRTQLGSQLKVKEKDPVFNQYAIHTWFDNFDRkALAVDQSQSdfifIHFLPVIDTWVWQIPI 241
+                                   77777776.9****************************************744555544436899**************** PP
+
+        cycline_orsellinic_FDH 227 sddltsvGlvthkdrfkerrrelpeevfakhveespavkellagarrvrevkveqdysYaadqvcGpgyvLvgdAacFlDP 307
+                                   +d++tsvG+vt+k+r+k+++++  e++f++++ ++p+++++l+++++vr++k+e dysYa  +vcG+ +++vgdAa+F+DP
+  mpy16|tr|J7H1A1|J7H1A1_9ACTN 242 TDTITSVGVVTQKERLKASKDD-LEKFFWDTLGSRPELHKALKESEQVRPLKTEGDYSYALTKVCGDNFLMVGDAARFVDP 321
+                                   ********************99.********************************************************** PP
+
+        cycline_orsellinic_FDH 308 llStGvslalesallaaesvlaalredekekealafyeelyrnayerllelisvfyeasagkdkyfllAetltsdeeeqas 388
+                                   ++S+Gvs+al+sa+ a+++++aa+r+++  k+++++ye+++r+++++++e+is++y+ +++                    
+  mpy16|tr|J7H1A1|J7H1A1_9ACTN 322 IFSSGVSVALNSARIASADIIAAHRAGDYSKKRFDTYESMLRRGVNNWYEFISIYYRLNIL-------------------- 382
+                                   *********************************************************8888.................... PP
+
+        cycline_orsellinic_FDH 389 adnafgelvagladlkeaadeltrlveallegdatseenpvaqelraaeeak 440
+                                          ++a+++d ++++d+l     ++l+gd +++e+p+a++++++  + 
+  mpy16|tr|J7H1A1|J7H1A1_9ACTN 383 -------FTAFVQDPRYRIDVL-----KMLQGDVYDDEEPKALAAMREIVKA 422
+                                   .......899999999999999.....9999999999999999999887766 PP
+
+>> clz5|tr|U6A3L4|U6A3L4_9ACTN  Flavin-dependent halogenase OS=Streptomyces sp. CNH287 OX=1288082 GN=clz5 PE=4 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  406.6   2.1  6.8e-125  6.8e-125       2     444 ..       2     428 ..       1     438 [. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 406.6 bits;  conditional E-value: 6.8e-125
+       cycline_orsellinic_FDH   2 adaetdviviGgGpaGstaaslLAkeGlsvllLereefPRyhiGESllpsvrvildrlGvlekveakgfksktGvllldgee 83 
+                                  ++ ++d+ +iGgGpaGs++as+LAk+Gl+ +++e++ fPR h+GESl+p+++++ld +G l+++e++gf +k+G++++++++
+  clz5|tr|U6A3L4|U6A3L4_9ACTN   2 SEVDFDIGIIGGGPAGSAIASYLAKAGLNCVIFEGDIFPREHVGESLIPATTPVLDDIGFLPQMETAGFPKKYGAAWTSASD 83 
+                                  67789***************************************************************************** PP
+
+       cycline_orsellinic_FDH  84 edvp.agvfridf...........rkivgarvds.fqvdReefDevlldeAaeaGaevvegatVkevlfdgdravgveysea 152
+                                  +++p  g+  + +           r++ g   d+ ++vdR++fD +ll++Aa++Ga+v +g++V++v+f +     +     
+  clz5|tr|U6A3L4|U6A3L4_9ACTN  84 QNIPtMGFEGMSHgfraaeiefheREQLGVTQDYtYHVDRAKFDLMLLQHAASLGAKVYQGVRVRRVDFSETNPRIIFPI-- 163
+                                  ****77888888899******************************************************87744433333.. PP
+
+       cycline_orsellinic_FDH 153 geeteeeraryvvDAsGragvlakhlklrepheilrnvAifsywegldellplspegd......invissedgWlWaiPlsd 228
+                                  g+++ + r r+vvDAsGr++ l+++lkl+  +++++++A+++++++ld + +ls++++      i+++++ d+W+W+iP++d
+  clz5|tr|U6A3L4|U6A3L4_9ACTN 164 GKTETSVRVRMVVDASGRNTFLGRQLKLKVSDPVFNQYAVHTWFDNLD-RTALSVNKEqadyifIHFLPVTDTWVWQIPITD 244
+                                  33333339****************************************.555555444468999****************** PP
+
+       cycline_orsellinic_FDH 229 dltsvGlvthkdrfkerrrelpeevfakhveespavkellagarrvrevkveqdysYaadqvcGpgyvLvgdAacFlDPllS 310
+                                  ++ts+G+vt+k++fk+++++  + +f++ v ++p++ke+l+++ +vr++k+e dysYa++q++G+ +  +gdAa+F+DP++S
+  clz5|tr|U6A3L4|U6A3L4_9ACTN 245 TITSIGVVTQKEQFKASKED-LDGFFWECVGSRPELKEALEKSDQVRPFKTEGDYSYAMKQIVGDQWATIGDAARFVDPIFS 325
+                                  ******************88.************************************************************* PP
+
+       cycline_orsellinic_FDH 311 tGvslalesallaaesvlaalredekekealafyeelyrnayerllelisvfyeasagkdkyfllAetltsdeeeqasadna 392
+                                  +Gvs+al+sa+l + +++aa ++++++ke +  ye + r+a+++++e+is++y+ +++                        
+  clz5|tr|U6A3L4|U6A3L4_9ACTN 326 SGVSVALNSARLISGEIIAAAEQGDFRKEMFSNYEGKIRRAVSNWYEFISIYYRLNIL------------------------ 383
+                                  ******************************************************8888........................ PP
+
+       cycline_orsellinic_FDH 393 fgelvagladlkeaadeltrlveallegdatseenpvaqelraaeeak.efsp 444
+                                     ++a+++d ++++d+l     ++l+gd +++e+p+a++++++ +++ e +p
+  clz5|tr|U6A3L4|U6A3L4_9ACTN 384 ---FTAFVQDPRYRLDVL-----KMLQGDVYDDEEPKALAAMREITKQvEENP 428
+                                  ...8999*********99.....99************9999999888733333 PP
+
+>> PltA|sp|Q4KCZ0|PLTA_PSEF5  1H-pyrrole-2-carbonyl-[peptidyl-carrier protein] chlorinase OS=Pseudomonas fluorescens (st
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  397.4   0.2  4.3e-122  4.3e-122       1     368 [.       1     384 [.       1     431 [. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 397.4 bits;  conditional E-value: 4.3e-122
+     cycline_orsellinic_FDH   1 hadaetdviviGgGpaGstaaslLAkeGlsvllLereefPRyhiGESllpsvrvildrlGvlekveakgfksktGvllldgeee 84 
+                                ++d+++dv++iGgGpaGst+as+LAk+G++ +++e+e f R h+GESl+p+++++l ++Gv+ek+e++ f +k+G++++++++ 
+  PltA|sp|Q4KCZ0|PLTA_PSEF5   1 MSDHDYDVVIIGGGPAGSTMASYLAKAGVKCAVFEKELFEREHVGESLVPATTPVLLEIGVMEKIEKANFPKKFGAAWTSADSG 84 
+                                6799***************************************************************************76554 PP
+
+     cycline_orsellinic_FDH  85 dvp.agvfridf...........rkivgarvds.fqvdReefDevlldeAaeaGaevvegatVkevlfdgdravgveyseagee 155
+                                     g+  +d+           rk+ g ++d  f+vdR +fD++ll++A ++Ga+v++g+++ +v+f    +v + +++ g++
+  PltA|sp|Q4KCZ0|PLTA_PSEF5  85 PEDkMGFQGLDHdfrsaeilfneRKQEGVDRDFtFHVDRGKFDRILLEHAGSLGAKVFQGVEIADVEFLSPGNV-IVNAKLGKR 167
+                                33337888888888******************99**********************************887555.556889999 PP
+
+     cycline_orsellinic_FDH 156 teeeraryvvDAsGragvlakhlklrepheilrnvAifsyweglde.llplspegd....invissedgWlWaiPlsddltsvG 234
+                                ++e +a++vvDAsGr+ +l+++l+lre++++++++Ai+s++++ d+    +sp++     i+++++ ++W+W+iP+++++tsvG
+  PltA|sp|Q4KCZ0|PLTA_PSEF5 168 SVEIKAKMVVDASGRNVLLGRRLGLREKDPVFNQFAIHSWFDNFDRkSATQSPDKVdyifIHFLPMTNTWVWQIPITETITSVG 251
+                                9999*****************************************845667778778999************************ PP
+
+     cycline_orsellinic_FDH 235 lvthkdrfkerrrelpeevfakhveespavkellagarrvrevkveqdysYaadqvcGpgyvLvgdAacFlDPllStGvslale 318
+                                +vt+k++++++     ee+f+++v+ +++++++l+ +++vr++k e dysY +++vcG+ +vL+gdAa+F+DP++S+Gvs+al+
+  PltA|sp|Q4KCZ0|PLTA_PSEF5 252 VVTQKQNYTNSDLT-YEEFFWEAVKTRENLHDALKASEQVRPFKKEADYSYGMKEVCGDSFVLIGDAARFVDPIFSSGVSVALN 334
+                                *********99955.********************************************************************* PP
+
+     cycline_orsellinic_FDH 319 sallaaesvlaalredekekealafyeelyrnayerllelisvfyeasag 368
+                                sa+ a+ ++++a++++++ k +++ ye + rn++++++e+i  +y+ +++
+  PltA|sp|Q4KCZ0|PLTA_PSEF5 335 SARIASGDIIEAVKNNDFSKSSFTHYEGMIRNGIKNWYEFITLYYRLNIL 384
+                                **********************************************8876 PP
+
+>> tr|Q71ME2|Q71ME2_9ACTN  Halogenase B OS=Actinoplanes sp. ATCC 33002 OX=196196 GN=halB PE=4 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  302.4   0.0   2.7e-93   2.7e-93       4     457 ..      17     525 ..      14     551 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 302.4 bits;  conditional E-value: 2.7e-93
+  cycline_orsellinic_FDH   4 aetdviviGgGpaGstaaslLAkeGlsvllLereefPRyhiGESllpsvrvil....drlGvlekve.............akgfksk 73 
+                             + +dv+++G+G aGs+++++LA++G +vll +  ++P++++GES++p+++v l    +r+ v+e                + g k+ 
+  tr|Q71ME2|Q71ME2_9ACTN  17 RTFDVAILGSGIAGSMLGAILARNGARVLLVDASTHPKFAVGESTIPYTLVALrtiaERYDVPEIKTlatftnctkvigpQFGVKKH 103
+                             679**********************************************99997777888887776699****************** PP
+
+  cycline_orsellinic_FDH  74 tGvlll.dgeeedvpagvfridfrkivgarvdsfqvdReefDevlldeAaeaGaevvegatVkevlfdgdravgveyseageeteee 159
+                             +G+ll+ +ge +d p +v ++   ++ g  +++ ++ R+ +D++l+++A+++G+  +++ +V +v+fd+    gv+ s+ ++e+   
+  tr|Q71ME2|Q71ME2_9ACTN 104 FGFLLHrEGEPQD-PREVNQF---DTPGLLHEASHMYRQATDAYLFHAAVKYGCVPRQNFRVVDVDFDDA---GVTISGGDGEQY-- 181
+                             *****95666666.5566666...677777777***********************************98...*****9999998.. PP
+
+  cycline_orsellinic_FDH 160 raryvvDAsGragvlakhlklrepheilrnvA..ifsywegld..........ellplsp..egdinvissedgWlWaiPlsdd... 229
+                             raryvvDAsG++++la+++ lre++ ++++++   ++++ ++              p++p  eg+++++ +++gW+W+i + ++   
+  tr|Q71ME2|Q71ME2_9ACTN 182 RARYVVDASGFRSPLAEKFALRENPCRMKHHSrsLWNHMVNVPrtdalfdhsaADTPPVPwyEGTVHHM-FDRGWFWVIGFDNHpas 267
+                             9******************************999********99999999876577777799*******.***************** PP
+
+  cycline_orsellinic_FDH 230 ...ltsvGlvthkdrfkerrrelpeevfakhveespavkellagarrvrevkveqdysYaadqvcGpgyvLvgdAacFlDPllStGv 313
+                                l+svGl ++++++++ ++ +p+++f+++ ++ p++ ++ aga+ vre++ +++ +Y+++q++G++++L+++Aa+F+DPl+S+G+
+  tr|Q71ME2|Q71ME2_9ACTN 268 rnpLCSVGLTLDERKYPKDPSLTPQQEFESMAARYPDIARQFAGANPVREWVSTDRLQYSSKQTVGDRWCLLSHAAGFVDPLFSRGL 354
+                             *************************************************************************************** PP
+
+  cycline_orsellinic_FDH 314 slalesallaaesvlaalredekekealafyeelyr.................nayerllelisvfyeasagkdkyfllAetlt... 380
+                             s++ e +++++++++aa ++d++ +e++++++ l +                 n+y+ +  ++++++  s  +   +++A   t   
+  tr|Q71ME2|Q71ME2_9ACTN 355 SNTAEAINALSWRLIAAIKDDDFSQERFEYVDRLQQglfdyndalvnasfiafNHYDLWTAVFRIWAWGSNAGTFFLQEAL--Tkfl 439
+                             *******************************************************************98877555555555..4458 PP
+
+  cycline_orsellinic_FDH 381 ...sdeeeqasadnafgel.vagladlkeaadeltrlveallegdatseenpvaqelraaeeak.....efspaerveeaPeapel 457
+                                 de+  a++d+++ +l ++  + +k+ +de+ ++  a  +g  t+++++ a+     +++      +f++ +r +  P+ + l
+  tr|Q71ME2|Q71ME2_9ACTN 440 rdgRDEHFRAQEDVPHLGLyWPSHDGYKKLFDEMIAQTDAYEQGLVTGKQAADALYDILVHADFvpkhfGFADRNRRFLHPTPNVL 525
+                             88889999999999998883566677899999999999999999999999988876554444334556777777777766665544 PP
+
+>> Bmp2|tr|A0A139ZY81|A0A139ZY81_9GAMM  Bmp2 OS=Pseudoalteromonas sp. PS5 OX=1437473 GN=bmp2 PE=4 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  265.3   0.0   4.8e-82   4.8e-82       5     344 ..       6     334 ..       3     357 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 265.3 bits;  conditional E-value: 4.8e-82
+               cycline_orsellinic_FDH   5 etdviviGgGpaGstaaslLAkeGlsvllLereefPRyhiGESllpsvrvildrlGvlekveakgfksktGvll 78 
+                                          ++dv++iG+GpaGs+++    k+Glsvl +e+e+fPR+hiGESl+++   i+  lG+ e+++a+gf  k Gv +
+  Bmp2|tr|A0A139ZY81|A0A139ZY81_9GAMM   6 HYDVVIIGSGPAGSLCGIECRKKGLSVLCIEKEQFPRFHIGESLTGNAGQIIRDLGLAEDMDAAGFPDKPGVNV 79 
+                                          69************************************************************************ PP
+
+               cycline_orsellinic_FDH  79 ldgeeedvpagvfridfrkivgarvdsfqvdReefDevlldeAaeaGaevvegatVkevlfdgdravgveysea 152
+                                          + + +++     f   f  i       +qv+R++fD ++ ++A+e G+e   g+ V +v  dg+++vg+ y+++
+  Bmp2|tr|A0A139ZY81|A0A139ZY81_9GAMM  80 IGSLSKNE----F---FIPILAPT---WQVRRSDFDDMIKRKAVEHGVEYKLGM-VTDVIKDGEKVVGALYKAD 142
+                                          *9988852....3...44677777...**********************99886.9****************** PP
+
+               cycline_orsellinic_FDH 153 geeteeeraryvvDAsGragvla.khlklrepheil.rnvAifsywegldellplspegdinvissedgWlWai 224
+                                          g e+++ r++++vDAsG+++ l+ k    +++ e + +++A f++++g+++ lp+  + +    s +  W W+i
+  Bmp2|tr|A0A139ZY81|A0A139ZY81_9GAMM 143 GVEHQV-RSKVLVDASGQNTFLSrKGVAGKRQIEFFsQQIASFAHYKGVERDLPPFSTNTTILYSKQYHWSWII 215
+                                          ****98.****************666888999999945789**********99999999888899********* PP
+
+               cycline_orsellinic_FDH 225 PlsddltsvGlvthkdrfkerrrelpeevfakhveespavkellagarrvrevkveqdysYaadqvcGpgyvLv 298
+                                          P+s+d+ s G+v++kd + ++ ++  +++ + + + sp++k++ ++a+r+ + +   d+sY  + ++G+g++ +
+  Bmp2|tr|A0A139ZY81|A0A139ZY81_9GAMM 216 PISPDTDSLGVVIPKDLYYKECKNPDDAIAWGMDHISPELKRRFKNAERQGDSQSMADFSYRIEPFVGDGWMCI 289
+                                          ****************99888777688888999999************************************** PP
+
+               cycline_orsellinic_FDH 299 gdAacFlDPllStGvslalesallaaesvlaalredekekealafy 344
+                                          gdA +FlDP++S Gvs a++ + +aae++ +++++++ +   +  y
+  Bmp2|tr|A0A139ZY81|A0A139ZY81_9GAMM 290 GDAHRFLDPIFSYGVSFAMKEGIRAAEAIAQVVAGQDWKA-PFYAY 334
+                                          ********************************99877543.34445 PP
+
+>> sp|P95482|PRNC_PSEFL  Monodechloroaminopyrrolnitrin halogenase PrnC OS=Pseudomonas fluorescens OX=294 GN=prnC PE=4 SV
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  263.7   0.0   1.5e-81   1.5e-81       3     431 ..      12     488 ..      10     502 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 263.7 bits;  conditional E-value: 1.5e-81
+  cycline_orsellinic_FDH   3 daetdviviGgGpaGstaaslLAkeGlsvllLereefPRyhiGESllpsvrvil....drlGvlekve.............akgfks 72 
+                              +++dvi++G+G +G+ ++++LAk+ ++vl++e   +PR+ iGES +p++  +     dr+G++e  +             + g k 
+    sp|P95482|PRNC_PSEFL  12 SNHFDVIILGSGMSGTQMGAILAKQQFRVLIIEESSHPRFTIGESSIPETSLMNriiaDRYGIPELDHitsfystqryvasSTGIKR 98 
+                             6789*******************************************99754222236*****9865567***************** PP
+
+  cycline_orsellinic_FDH  73 ktGvlll.dgeeedvpagvfridfrkivgarvdsfqvdReefDevlldeAaeaGaevvegatVkevlfdgdravgveyseageetee 158
+                             ++G+ ++  g+e+d p+++++   +++  +   + +  R++ D++ll++A ++G++v++++tV e + d d   gv +++a++e+  
+    sp|P95482|PRNC_PSEFL  99 NFGFVFHkPGQEHD-PKEFTQCVIPELPWGP--ESHYYRQDVDAYLLQAAIKYGCKVHQKTTVTEYHADKD---GVAVTTAQGERF- 178
+                             *******5566666.6688888778887555..58999*********************************...999999998888. PP
+
+  cycline_orsellinic_FDH 159 eraryvvDAsGragvlakhlklrepheilrnvA..ifsywegld.........ellplspegdinvissedgWlWaiPlsdd..... 229
+                              + ry++D  G + +la ++klre++ +++ ++   ++++ g++          ++ + +eg+++++ +e gWlW+iP++++     
+    sp|P95482|PRNC_PSEFL 179 -TGRYMIDCGGPRAPLATKFKLREEPCRFKTHSrsLYTHMLGVKpfddifkvkGQRWRWHEGTLHHM-FEGGWLWVIPFNNHprstn 263
+                             .79****************************9988***********99998855888899*******.*************999999 PP
+
+  cycline_orsellinic_FDH 230 .ltsvGlvthkdrfkerrrelpeevfakhveespavkellagarrvrevkveqdysYaadqvcGpgyvLvgdAacFlDPllStGvsl 315
+                              l+svGl+++ ++++++  +  +++f++ ++++p++ ++ ++a  vr+++ +++ +++++  +G++y+L+ +A +F+DPl+S+G+ +
+    sp|P95482|PRNC_PSEFL 264 nLVSVGLQLDPRVYPKTDIS-AQQEFDEFLARFPSIGAQFRDAVPVRDWVKTDRLQFSSNACVGDRYCLMLHANGFIDPLFSRGLEN 349
+                             9**************99977.99**************************************************************** PP
+
+  cycline_orsellinic_FDH 316 alesallaaesvlaalredekekealafyeelyr.................nayerllelisvfyeasagkdkyfllAetlt..... 380
+                             +  ++ ++a+++++alr+d++  e++++ e l +                 + ++ +  + + ++  +++++ ++++A+++      
+    sp|P95482|PRNC_PSEFL 350 TAVTIHALAARLIKALRDDDFSPERFEYIERLQQklldhnddfvsccytafSDFRLWDAFHRLWAVGTILGQFRLVQAHARFrasrn 436
+                             **********************************89999999999999888777777777777777777777777777766544432 PP
+
+  cycline_orsellinic_FDH 381 sdeeeqasadnaf.gelvagladlkeaadeltrlveallegdatseenpvaq 431
+                             + + +++++d ++ g l+a ++++ + ++++++ vea+ +g   ++e++ + 
+    sp|P95482|PRNC_PSEFL 437 EGDLDHLDNDPPYlGYLCADMEEYYQLFNDAKAEVEAVSAGRKPADEAAARI 488
+                             2223344555566356777788888888888888888888887777776654 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (482 nodes)
+Target sequences:                          8  (3774 residues searched)
+Passed MSV filter:                         8  (1); expected 0.2 (0.02)
+Passed bias filter:                        8  (1); expected 0.2 (0.02)
+Passed Vit filter:                         8  (1); expected 0.0 (0.001)
+Passed Fwd filter:                         8  (1); expected 0.0 (1e-05)
+Initial search space (Z):                  8  [actual number of targets]
+Domain search space  (domZ):               8  [number of targets reported over threshold]
+# CPU time: 0.04u 0.00s 00:00:00.04 Elapsed: 00:00:00.04
+# Mc/sec: 37.30
+//
+[ok]

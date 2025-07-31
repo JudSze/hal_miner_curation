@@ -1,0 +1,382 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /home/szenei/ENZYMES/FLAVIN_DEPENDENT_HALOGENASES/unclear_class/crossval_profile/crossval_out_VatD|vatiamides_A-F.fasta.hmm
+# target sequence database:        /home/szenei/ENZYMES/FLAVIN_DEPENDENT_HALOGENASES/test/trp_pyrrole_phenolic_unknown.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       crossval_out_VatD|vatiamides_A-F.fasta_aligned  [M=652]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence            Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------            -----------
+          0 1313.3  12.5          0 1313.2  12.5    1.0  1  aetF-Trp             
+          0 1312.9  19.3          0 1312.7  19.3    1.0  1  JamD                 
+          0 1282.3  18.9          0 1282.2  18.9    1.0  1  VatD                 
+          0 1279.2  10.2          0 1278.9  10.2    1.1  1  phmJ                 
+    9.5e-09   27.3   0.2    5.2e-08   24.9   0.0    2.1  3  Bmp5_|PL2TA16_01239  
+     0.0016   10.1   0.0     0.0061    8.1   0.0    1.8  2  hs_bmp5-phenolic     
+
+
+Domain annotation for each sequence (and alignments):
+>> aetF-Trp  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ! 1313.2  12.5         0         0       1     652 []       1     654 [.       1     654 [. 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 1313.2 bits;  conditional E-value: 0
+  crossval_out_VatD|vatiamides_A-F.fasta_aligned   1 mlevviigfgfsaiplirelartgiefkiisadsnsvwdrlsksgrldfdlvssyltsfysfd 63 
+                                                     mlev+iigfgfsaipl+relart++ef+iisa+s+svwdrls+sgrldf+lvss++tsfysfd
+                                        aetF-Trp   1 MLEVCIIGFGFSAIPLVRELARTQTEFQIISAESGSVWDRLSESGRLDFSLVSSFQTSFYSFD 63 
+                                                     99************************************************************* PP
+
+  crossval_out_VatD|vatiamides_A-F.fasta_aligned  64 lvkdfekdyyptakqfyemhqrwrkvyeekiirdivtridnfkdysviytksgktlnakhvvl 126
+                                                     lv+d+ekdyyptakqfyemh+rwr+vyeekiird+vt+i+nfkdys+i+t+sgkt++akhvvl
+                                        aetF-Trp  64 LVRDYEKDYYPTAKQFYEMHERWRSVYEEKIIRDFVTKIENFKDYSLISTRSGKTYEAKHVVL 126
+                                                     *************************************************************** PP
+
+  crossval_out_VatD|vatiamides_A-F.fasta_aligned 127 atgfsraiftdlsqidysvsnktfvfdtmgdsanllisklipnnnkiiirtngftardkvvpa 189
+                                                     atgf+r+++t+ls++d++vsnktfvfdtmgdsanlli+klipnnnkii+rtngfta+d++v++
+                                        aetF-Trp 127 ATGFDRLMNTFLSNFDNHVSNKTFVFDTMGDSANLLIAKLIPNNNKIILRTNGFTALDQEVQV 189
+                                                     *************************************************************** PP
+
+  crossval_out_VatD|vatiamides_A-F.fasta_aligned 190 lgkiytldqlesqnfrylssehyadvvygavlgskv.piligdqfpvslrddsyvtsesrpas 251
+                                                     lgk++tldqles+nfry+sse+y+++++++v++++v p+++++qfp+++rd+s+v+s+s+p++
+                                        aetF-Trp 190 LGKPFTLDQLESPNFRYVSSELYDRLMMSPVYPRTVnPAVSYNQFPLIRRDFSWVDSKSSPPN 252
+                                                     ***********************************99************************** PP
+
+  crossval_out_VatD|vatiamides_A-F.fasta_aligned 252 gaiaikywpidqyaekfsdnleeaiskgyllndiamwlhtgkaivvpkdtainfekktityag 314
+                                                     g+iaikywpidqy+++f+d+le++iskgyllndiamwlhtgk+i+vp+dt+inf+kktityag
+                                        aetF-Trp 253 GLIAIKYWPIDQYYYHFNDDLENYISKGYLLNDIAMWLHTGKVILVPSDTPINFDKKTITYAG 315
+                                                     *************************************************************** PP
+
+  crossval_out_VatD|vatiamides_A-F.fasta_aligned 315 ierafdqyikgdaeqprlptilidgetpykyqyrdnfmgvipktlnniyllgytrpytgglan 377
+                                                     ier+f+qy+kgdaeqprlptili+getp++y+yrd+fmgvip++lnniy+lgytrp+tgglan
+                                        aetF-Trp 316 IERSFHQYVKGDAEQPRLPTILINGETPFEYLYRDTFMGVIPQRLNNIYFLGYTRPFTGGLAN 378
+                                                     *************************************************************** PP
+
+  crossval_out_VatD|vatiamides_A-F.fasta_aligned 378 iiemqglfihklitqpefhqkihrnldkrivaynkhyygaakprrhdhlvyfgfytddvarli 440
+                                                     i+emq+lfihklitqp+fhqkih+nl+kri+ayn+hyygaakpr+hdh+v+fgfyt+d+arli
+                                        aetF-Trp 379 ITEMQSLFIHKLITQPQFHQKIHQNLSKRITAYNQHYYGAAKPRKHDHTVPFGFYTEDIARLI 441
+                                                     *************************************************************** PP
+
+  crossval_out_VatD|vatiamides_A-F.fasta_aligned 441 gidykpselksikdllfyyafpnnalkyrlkgeyavdgvdeliekvnekyknfivvfayllsi 503
+                                                     gi+y+p+e++s++dllfyyafpnna+kyrlkgeyavdgvdeli+kvn+k++++++vf+++lsi
+                                        aetF-Trp 442 GIHYQPNECRSVRDLLFYYAFPNNAFKYRLKGEYAVDGVDELIQKVNDKHDHYAQVFVQALSI 504
+                                                     *************************************************************** PP
+
+  crossval_out_VatD|vatiamides_A-F.fasta_aligned 504 skkesdeaaewlesvkrqffndmrhkepyrkfleeyikvyrqlknvrvddi.edeewnllvke 565
+                                                     ++++sdeaaew++s++r++fndmrhke+yr+fl++y+k+yrq++n++vdd+ +deewn++vke
+                                        aetF-Trp 505 RNMNSDEAAEWDHSARRFSFNDMRHKEGYRAFLDTYLKAYRQVENISVDDTvVDEEWNFMVKE 567
+                                                     **************************************************989********** PP
+
+  crossval_out_VatD|vatiamides_A-F.fasta_aligned 566 acqtrdkvlseieekldykldedvnkeieliqslldsdieslkdsvgekisgnlkeldrlakl 628
+                                                     acq+rdkv+++ieek++y++dedvnk+i+li+s+ldsdi+sl+ds+g+++sgnlke+drl+k+
+                                        aetF-Trp 568 ACQVRDKVAPNIEEKTHYSKDEDVNKGIRLILSILDSDISSLPDSNGSRGSGNLKEGDRLCKF 630
+                                                     *************************************************************** PP
+
+  crossval_out_VatD|vatiamides_A-F.fasta_aligned 629 eaqsleilaslvkpkeyellflke 652
+                                                     eaqs+e++++l++pk+yellf++e
+                                        aetF-Trp 631 EAQSIEFIRRLLQPKNYELLFIRE 654
+                                                     *********************985 PP
+
+>> JamD  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ! 1312.7  19.3         0         0       1     651 [.       1     682 [.       1     683 [] 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 1312.7 bits;  conditional E-value: 0
+  crossval_out_VatD|vatiamides_A-F.fasta_aligned   1 mlevviigfgfsaiplirelartgiefkiisadsnsvwdrlsksgrldfdlvssyltsfysfd 63 
+                                                     m+ev+iigfgfsa+plirel+rtg+efkiis+dsnsvwd+ls+s+rldfdlvssyltsfysfd
+                                            JamD   1 MFEVCIIGFGFSAVPLIRELQRTGTEFKIISDDSNSVWDALSQSNRLDFDLVSSYLTSFYSFD 63 
+                                                     99************************************************************* PP
+
+  crossval_out_VatD|vatiamides_A-F.fasta_aligned  64 lvkdfekdyyptakqfyemhqrwrkvyeekiirdivtridnfkdysviytksgktlnakhvvl 126
+                                                     lvkdf++dyypt+kqfyemhqrwrkvye++iird+vtridnfkd+svi+tksgktlnakhv++
+                                            JamD  64 LVKDFVEDYYPTSKQFYEMHQRWRKVYENEIIRDRVTRIDNFKDHSVIFTKSGKTLNAKHVIC 126
+                                                     *************************************************************** PP
+
+  crossval_out_VatD|vatiamides_A-F.fasta_aligned 127 atgfsraiftdlsqidysvsnktfvfdtmgdsanllisklipnnnkiiirtngftardkvvpa 189
+                                                     +tgfsrai+td++qidysvsnktfvfdtmgdsanl+isklipnnnkiiirtngf+ardkvvp+
+                                            JamD 127 STGFSRAIHTDINQIDYSVSNKTFVFDTMGDSANLIISKLIPNNNKIIIRTNGFNARDKVVPG 189
+                                                     *************************************************************** PP
+
+  crossval_out_VatD|vatiamides_A-F.fasta_aligned 190 lgkiytldqlesqnfrylssehyadvvygavlgskvpiligdqfpvslrddsyvtsesrpasg 252
+                                                     +g+iytldqle++nfry+s+ehya+v+yg++lgsk+pil+gdqfpv++rddsy+ts+srpasg
+                                            JamD 190 AGAIYTLDQLEGHNFRYMSHEHYASVIYGLPLGSKKPILMGDQFPVTVRDDSYITSNSRPASG 252
+                                                     *************************************************************** PP
+
+  crossval_out_VatD|vatiamides_A-F.fasta_aligned 253 aiaikywpidqyaekfsdnleeaiskgyllndiamwlhtgkaivvpkdtainfekktityagi 315
+                                                     +iaikywpidqyaekf++nlee+i++gyllndiamwlhtgkaivvpkdtainfekktityagi
+                                            JamD 253 TIAIKYWPIDQYAEKFGNNLEESIYQGYLLNDIAMWLHTGKAIVVPKDTAINFEKKTITYAGI 315
+                                                     *************************************************************** PP
+
+  crossval_out_VatD|vatiamides_A-F.fasta_aligned 316 erafdqyikgdaeqprlptilidgetpykyqyrdnfmgvipktlnniyllgytrpytgglani 378
+                                                     eraf+qyikgdaeqprlp+i+idg+tpykyqyrdnfmgvip+tlnn+y++gytrpytgglani
+                                            JamD 316 ERAFHQYIKGDAEQPRLPKIMIDGNTPYKYQYRDNFMGVIPRTLNNVYFIGYTRPYTGGLANI 378
+                                                     *************************************************************** PP
+
+  crossval_out_VatD|vatiamides_A-F.fasta_aligned 379 iemqglfihklitqpefhqkihrnldkrivaynkhyygaakprrhdhlvyfgfytddvarlig 441
+                                                     iemqglf+hk+itq+efhqkih+nld+rivayn+hyyg++kprr+dhlvyfgfytdd+arlig
+                                            JamD 379 IEMQGLFVHKMITQSEFHQKIHHNLDERIVAYNNHYYGTTKPRRADHLVYFGFYTDDLARLIG 441
+                                                     *************************************************************** PP
+
+  crossval_out_VatD|vatiamides_A-F.fasta_aligned 442 idykpselksikdllfyyafpnnalkyrlkgeyavdgvdeliekvnekyknfivvfayllsis 504
+                                                     +dykpsel+sikdl+fyyafpnnalkyrlkgeyavdgv++liek+neky++fi+vfayl+++s
+                                            JamD 442 VDYKPSELTSIKDLVFYYAFPNNALKYRLKGEYAVDGVEHLIEKINEKYYYFIGVFAYLWGTS 504
+                                                     *************************************************************** PP
+
+  crossval_out_VatD|vatiamides_A-F.fasta_aligned 505 kkesdeaaewlesvkrqffndmrhkepyrkfleeyikvyrqlknvrvddiedeewnllvkeac 567
+                                                     k++s+e++e+le+++rq+fndmrhkepy+kfle+yi+vyr+lkn+rvd+++d+ew+l+vk+a+
+                                            JamD 505 KMDSVELNEELEQFIRQYFNDMRHKEPYTKFLENYIQVYRRLKNTRVDQTDDYEWSLMVKKAS 567
+                                                     *************************************************************** PP
+
+  crossval_out_VatD|vatiamides_A-F.fasta_aligned 568 qtrdkvlseieekldykldedvnk....eieliqslldsdieslkds....vgekisgn.... 618
+                                                     +trd+vl+e++e++dykl++d+n+    eieliq+l++++ies+kd+    v+eki+g+    
+                                            JamD 568 ETRDRVLQEFKESGDYKLEKDLNNfiydEIELIQFLMNYKIESIKDGqlkiVPEKIGGHpile 630
+                                                     ***********************99999*******************99999*********** PP
+
+  crossval_out_VatD|vatiamides_A-F.fasta_aligned 619 ...................lkeldrlakleaqsleilaslvkpkeyellflk 651
+                                                                        l+++++l+k+eaq+l++l+sl+kpkeyell+lk
+                                            JamD 631 nilckitrmlgfqgiiesvLGKNEMLPKIEAQDLQSLLSLTKPKEYELLYLK 682
+                                                     **************************************************98 PP
+
+>> VatD  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ! 1282.2  18.9         0         0       1     651 [.       1     682 [.       1     683 [] 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 1282.2 bits;  conditional E-value: 0
+  crossval_out_VatD|vatiamides_A-F.fasta_aligned   1 mlevviigfgfsaiplirelartgiefkiisadsnsvwdrlsksgrldfdlvssyltsfysfd 63 
+                                                     m+ev+iigfgfsa+plirel+rtg+efkiis++snsvwd+ls+s+rldfdlvssyltsfysfd
+                                            VatD   1 MIEVCIIGFGFSAVPLIRELQRTGTEFKIISEESNSVWDALSQSNRLDFDLVSSYLTSFYSFD 63 
+                                                     89************************************************************* PP
+
+  crossval_out_VatD|vatiamides_A-F.fasta_aligned  64 lvkdfekdyyptakqfyemhqrwrkvyeekiirdivtridnfkdysviytksgktlnakhvvl 126
+                                                     lvkdf++dyypt+kqfyemhqrwrkvye++iird+vtridnfk++svi+tksgktlnakhv++
+                                            VatD  64 LVKDFVEDYYPTSKQFYEMHQRWRKVYENEIIRDRVTRIDNFKEHSVIFTKSGKTLNAKHVIC 126
+                                                     *************************************************************** PP
+
+  crossval_out_VatD|vatiamides_A-F.fasta_aligned 127 atgfsraiftdlsqidysvsnktfvfdtmgdsanllisklipnnnkiiirtngftardkvvpa 189
+                                                     +tgfsrai+t++++idysvsnktfvfdtmgdsanl+isklipnnnkiiirtngf+ardkvvp+
+                                            VatD 127 STGFSRAIHTHINDIDYSVSNKTFVFDTMGDSANLIISKLIPNNNKIIIRTNGFNARDKVVPG 189
+                                                     *************************************************************** PP
+
+  crossval_out_VatD|vatiamides_A-F.fasta_aligned 190 lgkiytldqlesqnfrylssehyadvvygavlgskvpiligdqfpvslrddsyvtsesrpasg 252
+                                                     +g+iytldqle++nfry+s+ehy +v+yg+++gsk+pil+gdqfpv++rdd y+ts+srpasg
+                                            VatD 190 AGAIYTLDQLEGHNFRYMSHEHYGSVIYGLPIGSKKPILMGDQFPVTVRDDNYITSKSRPASG 252
+                                                     *************************************************************** PP
+
+  crossval_out_VatD|vatiamides_A-F.fasta_aligned 253 aiaikywpidqyaekfsdnleeaiskgyllndiamwlhtgkaivvpkdtainfekktityagi 315
+                                                     +iaikywpidqya kf++nlee+is+gyllndiamwlhtgkaivvpkdtainfekktityagi
+                                            VatD 253 TIAIKYWPIDQYADKFGNNLEESISQGYLLNDIAMWLHTGKAIVVPKDTAINFEKKTITYAGI 315
+                                                     *************************************************************** PP
+
+  crossval_out_VatD|vatiamides_A-F.fasta_aligned 316 erafdqyikgdaeqprlptilidgetpykyqyrdnfmgvipktlnniyllgytrpytgglani 378
+                                                     eraf+qyikgd eqprlp+i+idg+tpy+yqyrdnfmgvip+tlnn+y++gytrpytgglani
+                                            VatD 316 ERAFHQYIKGDPEQPRLPKIMIDGNTPYEYQYRDNFMGVIPRTLNNVYFIGYTRPYTGGLANI 378
+                                                     *************************************************************** PP
+
+  crossval_out_VatD|vatiamides_A-F.fasta_aligned 379 iemqglfihklitqpefhqkihrnldkrivaynkhyygaakprrhdhlvyfgfytddvarlig 441
+                                                     iemqglf+hk+itq+efhqkih+nld+rivayn+hyyg++kpr +dhlvyfgfytdd+arlig
+                                            VatD 379 IEMQGLFVHKMITQSEFHQKIHHNLDERIVAYNNHYYGTTKPRSADHLVYFGFYTDDLARLIG 441
+                                                     *************************************************************** PP
+
+  crossval_out_VatD|vatiamides_A-F.fasta_aligned 442 idykpselksikdllfyyafpnnalkyrlkgeyavdgvdeliekvnekyknfivvfayllsis 504
+                                                     idykpse++sikd++fyyafpnnalkyrlkgeyavdgv++li+k+neky+ fi vfayl+++s
+                                            VatD 442 IDYKPSEINSIKDMVFYYAFPNNALKYRLKGEYAVDGVEDLIKKINEKYYDFIDVFAYLWGTS 504
+                                                     *************************************************************** PP
+
+  crossval_out_VatD|vatiamides_A-F.fasta_aligned 505 kkesdeaaewlesvkrqffndmrhkepyrkfleeyikvyrqlknvrvddiedeewnllvkeac 567
+                                                     k++s+e++e+le+++rq+fndmrhkepy+kfle+yi+vyr++kn+rvd+++d+ew+l+vk+a+
+                                            VatD 505 KMDSVELTEELEQFIRQYFNDMRHKEPYTKFLENYIQVYRRVKNTRVDETDDYEWSLMVKKAS 567
+                                                     *************************************************************** PP
+
+  crossval_out_VatD|vatiamides_A-F.fasta_aligned 568 qtrdkvlseieekldykldedvnk....eieliqslldsdieslkds....vgekisgn.... 618
+                                                     +trd+vl+e++e++dy+l+e+  +    eieliqsl++++i s+kd+    v+eki+g+    
+                                            VatD 568 ETRDRVLQEFKESGDYQLEENFRNfisnEIELIQSLMNYKILSVKDGqlkiVPEKIGGHsile 630
+                                                     ********************97666666*******************99999*********** PP
+
+  crossval_out_VatD|vatiamides_A-F.fasta_aligned 619 ...................lkeldrlakleaqsleilaslvkpkeyellflk 651
+                                                                        l+++++l+k+eaq+l++l+sl+kpkeyell+lk
+                                            VatD 631 nilckitkilgfqgiiesvLGKNEMLPKIEAQDLQSLLSLTKPKEYELLYLK 682
+                                                     **************************************************98 PP
+
+>> phmJ  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ! 1278.9  10.2         0         0       1     651 [.       1     634 []       1     634 [] 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 1278.9 bits;  conditional E-value: 0
+  crossval_out_VatD|vatiamides_A-F.fasta_aligned   1 mlevviigfgfsaiplirelartgiefkiisadsnsvwdrlsksgrldfdlvssyltsfysfd 63 
+                                                     m++vv++gfgfsaiplirel++tgi+f+iisad+nsvwdrl+ksgrldfdlvssyltsfysfd
+                                            phmJ   1 MADVVVVGFGFSAIPLIRELISTGIDFRIISADGNSVWDRLNKSGRLDFDLVSSYLTSFYSFD 63 
+                                                     89************************************************************* PP
+
+  crossval_out_VatD|vatiamides_A-F.fasta_aligned  64 lvkdfekdyyptakqfyemhqrwrkvyeekiirdivtridnfkdysviytksgktlnakhvvl 126
+                                                     lv++f++d+yp+a+q+yemhq+w+k+y+e++irdivtr+dnf+d+sv+yt+sg+t+na+hvv+
+                                            phmJ  64 LVDEFQRDHYPCATQYYEMHQKWQKHYGERVIRDIVTRVDNFADHSVVYTQSGTTINARHVVF 126
+                                                     *************************************************************** PP
+
+  crossval_out_VatD|vatiamides_A-F.fasta_aligned 127 atgfsraiftdlsqidysvsnktfvfdtmgdsanllisklipnnnkiiirtngftardkvvpa 189
+                                                     atgfsraif++l+++dy+++nktfvfdtmgdsanl+is+lip+++k+iirtngf++rdkvvpa
+                                            phmJ 127 ATGFSRAIFSHLTTTDYNAPNKTFVFDTMGDSANLMISHLIPHDAKVIIRTNGFHPRDKVVPA 189
+                                                     *************************************************************** PP
+
+  crossval_out_VatD|vatiamides_A-F.fasta_aligned 190 lgkiytldqlesqnfrylssehyadvvygavlgskvpiligdqfpvslrddsyvtsesrpasg 252
+                                                     +++++tldqle+qnfry+s++hyad+vyga++g+++piligdqfpvslrdds++tsesrpasg
+                                            phmJ 190 FETTHTLDQLEFQNFRYFSNRHYADIVYGATAGTGIPILIGDQFPVSLRDDSWNTSESRPASG 252
+                                                     *************************************************************** PP
+
+  crossval_out_VatD|vatiamides_A-F.fasta_aligned 253 aiaikywpidqyaekfsdnleeaiskgyllndiamwlhtgkaivvpkdtainfekktityagi 315
+                                                     a+aikywpid+y+++fsdnl++a+skgy+lndi+mwlhtg+aivvpkdt+i+fekktityagi
+                                            phmJ 253 AVAIKYWPIDEYCRNFSDNLPDAFSKGYFLNDICMWLHTGRAIVVPKDTPIDFEKKTITYAGI 315
+                                                     *************************************************************** PP
+
+  crossval_out_VatD|vatiamides_A-F.fasta_aligned 316 erafdqyikgdaeqprlptilidgetpykyqyrdnfmgvipktlnniyllgytrpytgglani 378
+                                                     erafd+yikgd+e+prlpti++dg++py+yqyrdnfmgvipktlnniy+lgytrpy+gglani
+                                            phmJ 316 ERAFDHYIKGDTEAPRLPTIMVDGADPYQYQYRDNFMGVIPKTLNNIYMLGYTRPYSGGLANI 378
+                                                     *************************************************************** PP
+
+  crossval_out_VatD|vatiamides_A-F.fasta_aligned 379 iemqglfihklitqpefhqkihrnldkrivaynkhyygaakprrhdhlvyfgfytddvarlig 441
+                                                     iemqglfihkl+tqp+fh++ihrnld+ri++ynkhy+g+++prrhdhlvy+gfy+ddvarl+g
+                                            phmJ 379 IEMQGLFIHKLVTQPGFHYHIHRNLDARIASYNKHYFGDSEPRRHDHLVYYGFYNDDVARLLG 441
+                                                     *************************************************************** PP
+
+  crossval_out_VatD|vatiamides_A-F.fasta_aligned 442 idykpselksikdllfyyafpnnalkyrlkgeyavdgvdeliekvnekyknfivvfayllsis 504
+                                                     idykp+++ksi+dl+fyyafpnna+kyrl+geyav+gvd+li+kvn+++knfiv+fayll++s
+                                            phmJ 442 IDYKPQDCKSIQDLMFYYAFPNNAFKYRLRGEYAVTGVDRLIGKVNRQFKNFIVSFAYLLQCS 504
+                                                     *************************************************************** PP
+
+  crossval_out_VatD|vatiamides_A-F.fasta_aligned 505 kkesdeaaewlesvkrqffndmrhkepyrkfleeyikvyrqlknvrvddiedeewnllvkeac 567
+                                                     +ke+d++++wl++vkr+ffndmrhkepyr+fleeyi+vyrq+k+v++++ied++wn+lv++ac
+                                            phmJ 505 IKEPDKRPAWLHTVKRHFFNDMRHKEPYRPFLEEYIQVYRQFKQVHIEPIEDPQWNALVANAC 567
+                                                     *************************************************************** PP
+
+  crossval_out_VatD|vatiamides_A-F.fasta_aligned 568 qtrdkvlseieekldykldedvnkeieliqslldsdieslkdsvgekisgnlkeldrlaklea 630
+                                                     qtrd+++s+i+++l++++ded+++ei+liqs+ld++                +eld+l ++++
+                                            phmJ 568 QTRDEAMSQISSPLNHQMDEDIASEIQLIQSWLDDN----------------QELDQL-RFDP 613
+                                                     ************************************................99****.**** PP
+
+  crossval_out_VatD|vatiamides_A-F.fasta_aligned 631 qsleilaslvkpkeyellflk 651
+                                                     ++++i+as+v+p++ye++fl+
+                                            phmJ 614 TRASIFASMVEPPDYEMSFLD 634
+                                                     *******************96 PP
+
+>> Bmp5_|PL2TA16_01239  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -1.4   0.0      0.19       4.7      74     550 ..      74      97 ..       4     145 .. 0.55
+   2 ?   -1.6   0.0      0.23       5.6      99     132 ..     294     326 ..     263     353 .. 0.78
+   3 !   24.9   0.0   2.1e-09   5.2e-08     354     473 ..     346     466 ..     334     477 .. 0.73
+
+  Alignments for each domain:
+  == domain 1  score: -1.4 bits;  conditional E-value: 0.19
+  crossval_out_VatD|vatiamides_A-F.fasta_aligned  74 ptakqfyemhqrwrkvyeekiirdivtridnfkdysviytksgktlnakhvvlatgfsraift 136
+                                                      +                                                             
+                             Bmp5_|PL2TA16_01239  74 WS------------------------------------------------------------- 75 
+                                                     33............................................................. PP
+
+  crossval_out_VatD|vatiamides_A-F.fasta_aligned 137 dlsqidysvsnktfvfdtmgdsanllisklipnnnkiiirtngftardkvvpalgkiytldql 199
+                                                                                                                    
+                             Bmp5_|PL2TA16_01239   - ---------------------------------------------------------------   -
+                                                     ............................................................... PP
+
+  crossval_out_VatD|vatiamides_A-F.fasta_aligned 200 esqnfrylssehyadvvygavlgskvpiligdqfpvslrddsyvtsesrpasgaiaikywpid 262
+                                                                                                                    
+                             Bmp5_|PL2TA16_01239   - ---------------------------------------------------------------   -
+                                                     ............................................................... PP
+
+  crossval_out_VatD|vatiamides_A-F.fasta_aligned 263 qyaekfsdnleeaiskgyllndiamwlhtgkaivvpkdtainfekktityagierafdqyikg 325
+                                                                                                                    
+                             Bmp5_|PL2TA16_01239   - ---------------------------------------------------------------   -
+                                                     ............................................................... PP
+
+  crossval_out_VatD|vatiamides_A-F.fasta_aligned 326 daeqprlptilidgetpykyqyrdnfmgvipktlnniyllgytrpytgglaniiemqglfihk 388
+                                                                                                                    
+                             Bmp5_|PL2TA16_01239   - ---------------------------------------------------------------   -
+                                                     ............................................................... PP
+
+  crossval_out_VatD|vatiamides_A-F.fasta_aligned 389 litqpefhqkihrnldkrivaynkhyygaakprrhdhlvyfgfytddvarligidykpselks 451
+                                                                                                                    
+                             Bmp5_|PL2TA16_01239   - ---------------------------------------------------------------   -
+                                                     ............................................................... PP
+
+  crossval_out_VatD|vatiamides_A-F.fasta_aligned 452 ikdllfyyafpnnalkyrlkgeyavdgvdeliekvnekyknfivvfayllsiskkesdeaaew 514
+                                                                                                                    
+                             Bmp5_|PL2TA16_01239   - ---------------------------------------------------------------   -
+                                                     ............................................................... PP
+
+  crossval_out_VatD|vatiamides_A-F.fasta_aligned 515 lesvkrqffndmrhkepyrkfleeyikvyrqlknvr 550
+                                                                   k+ y ++l eyi+ +   k+++
+                             Bmp5_|PL2TA16_01239  76 --------------KKEYINYLGEYIERFDIAKHIH 97 
+                                                     ..............3444444444444444444444 PP
+
+  == domain 2  score: -1.6 bits;  conditional E-value: 0.23
+  crossval_out_VatD|vatiamides_A-F.fasta_aligned  99 vtridnfkdysviytksgktlnakhvvlatgfsr 132
+                                                     +  i+ f+  +v++ k g+  +   vv++tg++ 
+                             Bmp5_|PL2TA16_01239 294 IGGIERFEKNAVVF-KDGTREEIDAVVFCTGYQL 326
+                                                     55689999999888.7899999999******975 PP
+
+  == domain 3  score: 24.9 bits;  conditional E-value: 2.1e-09
+  crossval_out_VatD|vatiamides_A-F.fasta_aligned 354 vipktlnniyllgytrpytgglaniiemqglfihklitqpefhqkihrnldkrivaynkhyyg 416
+                                                      ip+    + ++g+ rp  gg+  i emq  ++ kl +          ++++ i    kh+  
+                             Bmp5_|PL2TA16_01239 346 FIPEMGHSLSFIGFVRPQQGGIPVIAEMQCRYLSKLASGEA-QLPTLSEMHDVIKYDTKHWQT 407
+                                                     4899999999*************************987544.444556677777777788888 PP
+
+  crossval_out_VatD|vatiamides_A-F.fasta_aligned 417 aakprrh.dhlvyfgfytddvarligidykpselksikdllf...yyafpnnalkyrlkge 473
+                                                     + k   h   lv +  y d va+l+g    p+     kd ++       p+ a +yrl g 
+                             Bmp5_|PL2TA16_01239 408 EYKITPHvASLVNYCHYMDSVAKLVGCM--PQIPSLFKDPMLrvkLLHNPQFAAQYRLDGP 466
+                                                     87766552679***************85..4444444555441113455777888888875 PP
+
+>> hs_bmp5-phenolic  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -1.0   0.0      0.15       3.6       1      91 [.       1      90 [.       1     137 [. 0.63
+   2 !    8.1   0.0   0.00025    0.0061     356     443 ..     345     433 ..     333     439 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: -1.0 bits;  conditional E-value: 0.15
+  crossval_out_VatD|vatiamides_A-F.fasta_aligned  1 mlevviigfgfsaiplirelartgiefkiisadsnsvwdrlsksgrldfdlvssyltsfysfdlv 65
+                                                    ml+ ++ig g   +  i+el + g+   +  ++++ v   ++++    + l ss   s++s   +
+                                hs_bmp5-phenolic  1 MLDCIVIGAGSGGLVTIKELLEQGVGEVVCLEQAEDVGGVFANTY-DSLVLTSSATISMFSDFWI 64
+                                                    899999****999999***99999987777777777766555432.3456677777777776666 PP
+
+  crossval_out_VatD|vatiamides_A-F.fasta_aligned 66 kdfekdyyptakqfyemhqrwrkvye 91
+                                                     d ++  + t  +  +  +++ ++++
+                                hs_bmp5-phenolic 65 GDGNQHKFWTKDEVVDYWKKYAEQFG 90
+                                                    66666666666666666555555554 PP
+
+  == domain 2  score: 8.1 bits;  conditional E-value: 0.00025
+  crossval_out_VatD|vatiamides_A-F.fasta_aligned 356 pktlnniyllgytrpytgglaniiemqglfihklitqpefhqkihrnldkrivaynkhyygaa 418
+                                                     pk  + +  +g++rp  g    i+emq+ +   li + e+      +++k  +     y  + 
+                                hs_bmp5-phenolic 345 PKYQDKLVWIGWARPNFGSQFPIMEMQARL-FALICKGELALPAPVEMEKVTCIDRATYLEQF 406
+                                                     777888999******************964.579******99999998876666666777766 PP
+
+  crossval_out_VatD|vatiamides_A-F.fasta_aligned 419 kprrh..dhlvyfgfytddvarligid 443
+                                                     +   h    lv +  y dd+a lig +
+                                hs_bmp5-phenolic 407 ENNAHqvRSLVDYHRYIDDMASLIGCE 433
+                                                     5554411579**************975 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (652 nodes)
+Target sequences:                        148  (76090 residues searched)
+Passed MSV filter:                        16  (0.108108); expected 3.0 (0.02)
+Passed bias filter:                       15  (0.101351); expected 3.0 (0.02)
+Passed Vit filter:                         6  (0.0405405); expected 0.1 (0.001)
+Passed Fwd filter:                         6  (0.0405405); expected 0.0 (1e-05)
+Initial search space (Z):                148  [actual number of targets]
+Domain search space  (domZ):               6  [number of targets reported over threshold]
+# CPU time: 0.01u 0.00s 00:00:00.01 Elapsed: 00:00:00.05
+# Mc/sec: 949.89
+//
+[ok]

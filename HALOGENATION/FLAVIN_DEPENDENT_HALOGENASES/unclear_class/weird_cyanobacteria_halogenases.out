@@ -1,0 +1,337 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /home/szenei/ENZYMES/FLAVIN_DEPENDENT_HALOGENASES/unclear_class/weird_cyanobacteria_halogenases.hmm
+# target sequence database:        /home/szenei/ENZYMES/FLAVIN_DEPENDENT_HALOGENASES/test/trp_pyrrole_phenolic_unknown.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       weird_cyanobacteria_halogenases  [M=652]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence            Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------            -----------
+          0 1348.6  19.5          0 1348.4  19.5    1.0  1  VatD                 
+          0 1347.8  19.8          0 1347.6  19.8    1.0  1  JamD                 
+          0 1284.6  12.3          0 1284.4  12.3    1.0  1  aetF-Trp             
+          0 1250.6   9.6          0 1250.4   9.6    1.0  1  phmJ                 
+      9e-09   27.4   0.1    5.3e-08   24.8   0.0    2.2  3  Bmp5_|PL2TA16_01239  
+    0.00093   10.8   0.0     0.0051    8.4   0.0    1.9  2  hs_bmp5-phenolic     
+
+
+Domain annotation for each sequence (and alignments):
+>> VatD  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ! 1348.4  19.5         0         0       1     652 []       1     683 []       1     683 [] 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 1348.4 bits;  conditional E-value: 0
+  weird_cyanobacteria_halogenases   1 mlevviigfgfsavplirelartgtefkiisaesnsvwdrlsksgrldfdlvssyltsfysfdlvkdfekdyyptakq 78 
+                                      m+ev+iigfgfsavplirel+rtgtefkiis+esnsvwd+ls+s+rldfdlvssyltsfysfdlvkdf++dyypt+kq
+                             VatD   1 MIEVCIIGFGFSAVPLIRELQRTGTEFKIISEESNSVWDALSQSNRLDFDLVSSYLTSFYSFDLVKDFVEDYYPTSKQ 78 
+                                      9***************************************************************************** PP
+
+  weird_cyanobacteria_halogenases  79 fyemhqrwrkvyeekiirdlvtridnfkdhsviftksgktlnakhvvlatgfsraifthlseidysvsnktfvfdtmg 156
+                                      fyemhqrwrkvye++iird+vtridnfk+hsviftksgktlnakhv+++tgfsrai+th+++idysvsnktfvfdtmg
+                             VatD  79 FYEMHQRWRKVYENEIIRDRVTRIDNFKEHSVIFTKSGKTLNAKHVICSTGFSRAIHTHINDIDYSVSNKTFVFDTMG 156
+                                      ****************************************************************************** PP
+
+  weird_cyanobacteria_halogenases 157 dsanllisklipnnnkiiirtngfnardkvvpalgaiytldqlesknfrylssehyasviyglvlgskvpiligdqfp 234
+                                      dsanl+isklipnnnkiiirtngfnardkvvp++gaiytldqle++nfry+s+ehy+sviygl++gsk+pil+gdqfp
+                             VatD 157 DSANLIISKLIPNNNKIIIRTNGFNARDKVVPGAGAIYTLDQLEGHNFRYMSHEHYGSVIYGLPIGSKKPILMGDQFP 234
+                                      ****************************************************************************** PP
+
+  weird_cyanobacteria_halogenases 235 vtvrddsyvtsksrpasgaiaikywpidqyaekfsdnleesiskgyllndiamwlhtgkaivvpkdtainfekktity 312
+                                      vtvrdd+y+tsksrpasg+iaikywpidqya+kf++nleesis+gyllndiamwlhtgkaivvpkdtainfekktity
+                             VatD 235 VTVRDDNYITSKSRPASGTIAIKYWPIDQYADKFGNNLEESISQGYLLNDIAMWLHTGKAIVVPKDTAINFEKKTITY 312
+                                      ****************************************************************************** PP
+
+  weird_cyanobacteria_halogenases 313 agierafhqyikgdaeqprlpkilidgetpyeyqyrdnfmgvipktlnnvyllgytrpytgglaniiemqglfvhkli 390
+                                      agierafhqyikgd+eqprlpki+idg+tpyeyqyrdnfmgvip+tlnnvy++gytrpytgglaniiemqglfvhk+i
+                             VatD 313 AGIERAFHQYIKGDPEQPRLPKIMIDGNTPYEYQYRDNFMGVIPRTLNNVYFIGYTRPYTGGLANIIEMQGLFVHKMI 390
+                                      ****************************************************************************** PP
+
+  weird_cyanobacteria_halogenases 391 tqsefhqkihrnlderivaynkhyygaakprkadhlvyfgfytddlarligidykpselksikdllfyyafpnnalky 468
+                                      tqsefhqkih+nlderivayn+hyyg++kpr+adhlvyfgfytddlarligidykpse++sikd++fyyafpnnalky
+                             VatD 391 TQSEFHQKIHHNLDERIVAYNNHYYGTTKPRSADHLVYFGFYTDDLARLIGIDYKPSEINSIKDMVFYYAFPNNALKY 468
+                                      ****************************************************************************** PP
+
+  weird_cyanobacteria_halogenases 469 rlkgeyavdgvdeliekvnekykefievfayllsiskmdsdelaeelesvkrqyfndmrhkepyrkfleeyiqvyrrl 546
+                                      rlkgeyavdgv++li+k+neky++fi+vfayl+++skmds+el+eele+++rqyfndmrhkepy+kfle+yiqvyrr+
+                             VatD 469 RLKGEYAVDGVEDLIKKINEKYYDFIDVFAYLWGTSKMDSVELTEELEQFIRQYFNDMRHKEPYTKFLENYIQVYRRV 546
+                                      ****************************************************************************** PP
+
+  weird_cyanobacteria_halogenases 547 knvrvdetedeewsllvkkasetrdkvlqeikestdyklded....iakeieliqslldykieslkdsq......... 611
+                                      kn+rvdet+d+ewsl+vkkasetrd+vlqe+kes+dy+l+e+    i++eieliqsl++yki s+kd+q         
+                             VatD 547 KNTRVDETDDYEWSLMVKKASETRDRVLQEFKESGDYQLEENfrnfISNEIELIQSLMNYKILSVKDGQlkivpekig 624
+                                      ****************************************************************************** PP
+
+  weird_cyanobacteria_halogenases 612 ................gfrg..esvlkendrlpkieaqdleillslvkpkeyellflke 652
+                                                      gf+g  esvl++n++lpkieaqdl++llsl+kpkeyell+lk+
+                             VatD 625 ghsilenilckitkilGFQGiiESVLGKNEMLPKIEAQDLQSLLSLTKPKEYELLYLKP 683
+                                      *********************************************************85 PP
+
+>> JamD  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ! 1347.6  19.8         0         0       1     652 []       1     683 []       1     683 [] 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 1347.6 bits;  conditional E-value: 0
+  weird_cyanobacteria_halogenases   1 mlevviigfgfsavplirelartgtefkiisaesnsvwdrlsksgrldfdlvssyltsfysfdlvkdfekdyyptakq 78 
+                                      m+ev+iigfgfsavplirel+rtgtefkiis++snsvwd+ls+s+rldfdlvssyltsfysfdlvkdf++dyypt+kq
+                             JamD   1 MFEVCIIGFGFSAVPLIRELQRTGTEFKIISDDSNSVWDALSQSNRLDFDLVSSYLTSFYSFDLVKDFVEDYYPTSKQ 78 
+                                      99**************************************************************************** PP
+
+  weird_cyanobacteria_halogenases  79 fyemhqrwrkvyeekiirdlvtridnfkdhsviftksgktlnakhvvlatgfsraifthlseidysvsnktfvfdtmg 156
+                                      fyemhqrwrkvye++iird+vtridnfkdhsviftksgktlnakhv+++tgfsrai+t++++idysvsnktfvfdtmg
+                             JamD  79 FYEMHQRWRKVYENEIIRDRVTRIDNFKDHSVIFTKSGKTLNAKHVICSTGFSRAIHTDINQIDYSVSNKTFVFDTMG 156
+                                      ****************************************************************************** PP
+
+  weird_cyanobacteria_halogenases 157 dsanllisklipnnnkiiirtngfnardkvvpalgaiytldqlesknfrylssehyasviyglvlgskvpiligdqfp 234
+                                      dsanl+isklipnnnkiiirtngfnardkvvp++gaiytldqle++nfry+s+ehyasviygl+lgsk+pil+gdqfp
+                             JamD 157 DSANLIISKLIPNNNKIIIRTNGFNARDKVVPGAGAIYTLDQLEGHNFRYMSHEHYASVIYGLPLGSKKPILMGDQFP 234
+                                      ****************************************************************************** PP
+
+  weird_cyanobacteria_halogenases 235 vtvrddsyvtsksrpasgaiaikywpidqyaekfsdnleesiskgyllndiamwlhtgkaivvpkdtainfekktity 312
+                                      vtvrddsy+ts+srpasg+iaikywpidqyaekf++nleesi++gyllndiamwlhtgkaivvpkdtainfekktity
+                             JamD 235 VTVRDDSYITSNSRPASGTIAIKYWPIDQYAEKFGNNLEESIYQGYLLNDIAMWLHTGKAIVVPKDTAINFEKKTITY 312
+                                      ****************************************************************************** PP
+
+  weird_cyanobacteria_halogenases 313 agierafhqyikgdaeqprlpkilidgetpyeyqyrdnfmgvipktlnnvyllgytrpytgglaniiemqglfvhkli 390
+                                      agierafhqyikgdaeqprlpki+idg+tpy+yqyrdnfmgvip+tlnnvy++gytrpytgglaniiemqglfvhk+i
+                             JamD 313 AGIERAFHQYIKGDAEQPRLPKIMIDGNTPYKYQYRDNFMGVIPRTLNNVYFIGYTRPYTGGLANIIEMQGLFVHKMI 390
+                                      ****************************************************************************** PP
+
+  weird_cyanobacteria_halogenases 391 tqsefhqkihrnlderivaynkhyygaakprkadhlvyfgfytddlarligidykpselksikdllfyyafpnnalky 468
+                                      tqsefhqkih+nlderivayn+hyyg++kpr+adhlvyfgfytddlarlig+dykpsel+sikdl+fyyafpnnalky
+                             JamD 391 TQSEFHQKIHHNLDERIVAYNNHYYGTTKPRRADHLVYFGFYTDDLARLIGVDYKPSELTSIKDLVFYYAFPNNALKY 468
+                                      ****************************************************************************** PP
+
+  weird_cyanobacteria_halogenases 469 rlkgeyavdgvdeliekvnekykefievfayllsiskmdsdelaeelesvkrqyfndmrhkepyrkfleeyiqvyrrl 546
+                                      rlkgeyavdgv++liek+neky++fi vfayl+++skmds+el+eele+++rqyfndmrhkepy+kfle+yiqvyrrl
+                             JamD 469 RLKGEYAVDGVEHLIEKINEKYYYFIGVFAYLWGTSKMDSVELNEELEQFIRQYFNDMRHKEPYTKFLENYIQVYRRL 546
+                                      ****************************************************************************** PP
+
+  weird_cyanobacteria_halogenases 547 knvrvdetedeewsllvkkasetrdkvlqeikestdyklded....iakeieliqslldykieslkdsq......... 611
+                                      kn+rvd+t+d+ewsl+vkkasetrd+vlqe+kes+dykl++d    i++eieliq+l++ykies+kd+q         
+                             JamD 547 KNTRVDQTDDYEWSLMVKKASETRDRVLQEFKESGDYKLEKDlnnfIYDEIELIQFLMNYKIESIKDGQlkivpekig 624
+                                      ******************************************99999******************************* PP
+
+  weird_cyanobacteria_halogenases 612 ................gfrg..esvlkendrlpkieaqdleillslvkpkeyellflke 652
+                                                      gf+g  esvl++n++lpkieaqdl++llsl+kpkeyell+lk+
+                             JamD 625 ghpilenilckitrmlGFQGiiESVLGKNEMLPKIEAQDLQSLLSLTKPKEYELLYLKP 683
+                                      *********************************************************85 PP
+
+>> aetF-Trp  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ! 1284.4  12.3         0         0       1     652 []       1     654 [.       1     654 [. 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 1284.4 bits;  conditional E-value: 0
+  weird_cyanobacteria_halogenases   1 mlevviigfgfsavplirelartgtefkiisaesnsvwdrlsksgrldfdlvssyltsfysfdlvkdfekdyyptakq 78 
+                                      mlev+iigfgfsa+pl+relart+tef+iisaes+svwdrls+sgrldf+lvss++tsfysfdlv+d+ekdyyptakq
+                         aetF-Trp   1 MLEVCIIGFGFSAIPLVRELARTQTEFQIISAESGSVWDRLSESGRLDFSLVSSFQTSFYSFDLVRDYEKDYYPTAKQ 78 
+                                      99**************************************************************************** PP
+
+  weird_cyanobacteria_halogenases  79 fyemhqrwrkvyeekiirdlvtridnfkdhsviftksgktlnakhvvlatgfsraifthlseidysvsnktfvfdtmg 156
+                                      fyemh+rwr+vyeekiird+vt+i+nfkd+s+i+t+sgkt++akhvvlatgf+r+++t+ls++d++vsnktfvfdtmg
+                         aetF-Trp  79 FYEMHERWRSVYEEKIIRDFVTKIENFKDYSLISTRSGKTYEAKHVVLATGFDRLMNTFLSNFDNHVSNKTFVFDTMG 156
+                                      ****************************************************************************** PP
+
+  weird_cyanobacteria_halogenases 157 dsanllisklipnnnkiiirtngfnardkvvpalgaiytldqlesknfrylssehyasviyglvlgskv.piligdqf 233
+                                      dsanlli+klipnnnkii+rtngf+a+d++v++lg+++tldqles+nfry+sse+y+++++++v++++v p+++++qf
+                         aetF-Trp 157 DSANLLIAKLIPNNNKIILRTNGFTALDQEVQVLGKPFTLDQLESPNFRYVSSELYDRLMMSPVYPRTVnPAVSYNQF 234
+                                      ********************************************************************99******** PP
+
+  weird_cyanobacteria_halogenases 234 pvtvrddsyvtsksrpasgaiaikywpidqyaekfsdnleesiskgyllndiamwlhtgkaivvpkdtainfekktit 311
+                                      p+++rd+s+v+sks+p++g+iaikywpidqy+++f+d+le++iskgyllndiamwlhtgk+i+vp+dt+inf+kktit
+                         aetF-Trp 235 PLIRRDFSWVDSKSSPPNGLIAIKYWPIDQYYYHFNDDLENYISKGYLLNDIAMWLHTGKVILVPSDTPINFDKKTIT 312
+                                      ****************************************************************************** PP
+
+  weird_cyanobacteria_halogenases 312 yagierafhqyikgdaeqprlpkilidgetpyeyqyrdnfmgvipktlnnvyllgytrpytgglaniiemqglfvhkl 389
+                                      yagier+fhqy+kgdaeqprlp+ili+getp+ey+yrd+fmgvip++lnn+y+lgytrp+tgglani+emq+lf+hkl
+                         aetF-Trp 313 YAGIERSFHQYVKGDAEQPRLPTILINGETPFEYLYRDTFMGVIPQRLNNIYFLGYTRPFTGGLANITEMQSLFIHKL 390
+                                      ****************************************************************************** PP
+
+  weird_cyanobacteria_halogenases 390 itqsefhqkihrnlderivaynkhyygaakprkadhlvyfgfytddlarligidykpselksikdllfyyafpnnalk 467
+                                      itq++fhqkih+nl++ri+ayn+hyygaakprk+dh+v+fgfyt+d+arligi+y+p+e++s++dllfyyafpnna+k
+                         aetF-Trp 391 ITQPQFHQKIHQNLSKRITAYNQHYYGAAKPRKHDHTVPFGFYTEDIARLIGIHYQPNECRSVRDLLFYYAFPNNAFK 468
+                                      ****************************************************************************** PP
+
+  weird_cyanobacteria_halogenases 468 yrlkgeyavdgvdeliekvnekykefievfayllsiskmdsdelaeelesvkrqyfndmrhkepyrkfleeyiqvyrr 545
+                                      yrlkgeyavdgvdeli+kvn+k++++++vf+++lsi++m+sde+ae+++s++r++fndmrhke+yr+fl++y+++yr+
+                         aetF-Trp 469 YRLKGEYAVDGVDELIQKVNDKHDHYAQVFVQALSIRNMNSDEAAEWDHSARRFSFNDMRHKEGYRAFLDTYLKAYRQ 546
+                                      ****************************************************************************** PP
+
+  weird_cyanobacteria_halogenases 546 lknvrvdet.edeewsllvkkasetrdkvlqeikestdykldediakeieliqslldykieslkdsqgfrgesvlken 622
+                                      ++n++vd+t +deew+++vk+a+++rdkv+++i+e+t+y++ded++k+i+li+s+ld++i+sl+ds+g+rg+++lke+
+                         aetF-Trp 547 VENISVDDTvVDEEWNFMVKEACQVRDKVAPNIEEKTHYSKDEDVNKGIRLILSILDSDISSLPDSNGSRGSGNLKEG 624
+                                      ********989******************************************************************* PP
+
+  weird_cyanobacteria_halogenases 623 drlpkieaqdleillslvkpkeyellflke 652
+                                      drl+k+eaq++e++++l++pk+yellf++e
+                         aetF-Trp 625 DRLCKFEAQSIEFIRRLLQPKNYELLFIRE 654
+                                      ***************************985 PP
+
+>> phmJ  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ! 1250.4   9.6         0         0       1     651 [.       1     634 []       1     634 [] 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 1250.4 bits;  conditional E-value: 0
+  weird_cyanobacteria_halogenases   1 mlevviigfgfsavplirelartgtefkiisaesnsvwdrlsksgrldfdlvssyltsfysfdlvkdfekdyyptakq 78 
+                                      m++vv++gfgfsa+plirel++tg++f+iisa++nsvwdrl+ksgrldfdlvssyltsfysfdlv++f++d+yp+a+q
+                             phmJ   1 MADVVVVGFGFSAIPLIRELISTGIDFRIISADGNSVWDRLNKSGRLDFDLVSSYLTSFYSFDLVDEFQRDHYPCATQ 78 
+                                      89**************************************************************************** PP
+
+  weird_cyanobacteria_halogenases  79 fyemhqrwrkvyeekiirdlvtridnfkdhsviftksgktlnakhvvlatgfsraifthlseidysvsnktfvfdtmg 156
+                                      +yemhq+w+k+y+e++ird+vtr+dnf+dhsv++t+sg+t+na+hvv+atgfsraif+hl+++dy+++nktfvfdtmg
+                             phmJ  79 YYEMHQKWQKHYGERVIRDIVTRVDNFADHSVVYTQSGTTINARHVVFATGFSRAIFSHLTTTDYNAPNKTFVFDTMG 156
+                                      ****************************************************************************** PP
+
+  weird_cyanobacteria_halogenases 157 dsanllisklipnnnkiiirtngfnardkvvpalgaiytldqlesknfrylssehyasviyglvlgskvpiligdqfp 234
+                                      dsanl+is+lip+++k+iirtngf++rdkvvpa+++++tldqle++nfry+s++hya+++yg+++g+++piligdqfp
+                             phmJ 157 DSANLMISHLIPHDAKVIIRTNGFHPRDKVVPAFETTHTLDQLEFQNFRYFSNRHYADIVYGATAGTGIPILIGDQFP 234
+                                      ****************************************************************************** PP
+
+  weird_cyanobacteria_halogenases 235 vtvrddsyvtsksrpasgaiaikywpidqyaekfsdnleesiskgyllndiamwlhtgkaivvpkdtainfekktity 312
+                                      v++rdds++ts+srpasga+aikywpid+y+++fsdnl++++skgy+lndi+mwlhtg+aivvpkdt+i+fekktity
+                             phmJ 235 VSLRDDSWNTSESRPASGAVAIKYWPIDEYCRNFSDNLPDAFSKGYFLNDICMWLHTGRAIVVPKDTPIDFEKKTITY 312
+                                      ****************************************************************************** PP
+
+  weird_cyanobacteria_halogenases 313 agierafhqyikgdaeqprlpkilidgetpyeyqyrdnfmgvipktlnnvyllgytrpytgglaniiemqglfvhkli 390
+                                      agieraf++yikgd+e+prlp+i++dg++py+yqyrdnfmgvipktlnn+y+lgytrpy+gglaniiemqglf+hkl+
+                             phmJ 313 AGIERAFDHYIKGDTEAPRLPTIMVDGADPYQYQYRDNFMGVIPKTLNNIYMLGYTRPYSGGLANIIEMQGLFIHKLV 390
+                                      ****************************************************************************** PP
+
+  weird_cyanobacteria_halogenases 391 tqsefhqkihrnlderivaynkhyygaakprkadhlvyfgfytddlarligidykpselksikdllfyyafpnnalky 468
+                                      tq++fh++ihrnld+ri++ynkhy+g+++pr++dhlvy+gfy+dd+arl+gidykp+++ksi+dl+fyyafpnna+ky
+                             phmJ 391 TQPGFHYHIHRNLDARIASYNKHYFGDSEPRRHDHLVYYGFYNDDVARLLGIDYKPQDCKSIQDLMFYYAFPNNAFKY 468
+                                      ****************************************************************************** PP
+
+  weird_cyanobacteria_halogenases 469 rlkgeyavdgvdeliekvnekykefievfayllsiskmdsdelaeelesvkrqyfndmrhkepyrkfleeyiqvyrrl 546
+                                      rl+geyav+gvd+li kvn+++k+fi++fayll++s++++d+++++l++vkr++fndmrhkepyr+fleeyiqvyr++
+                             phmJ 469 RLRGEYAVTGVDRLIGKVNRQFKNFIVSFAYLLQCSIKEPDKRPAWLHTVKRHFFNDMRHKEPYRPFLEEYIQVYRQF 546
+                                      ****************************************************************************** PP
+
+  weird_cyanobacteria_halogenases 547 knvrvdetedeewsllvkkasetrdkvlqeikestdykldediakeieliqslldykieslkdsqgfrgesvlkendr 624
+                                      k+v+++++ed++w++lv++a++trd+++++i++++++++dedia+ei+liqs+ld       d+q         e d+
+                             phmJ 547 KQVHIEPIEDPQWNALVANACQTRDEAMSQISSPLNHQMDEDIASEIQLIQSWLD-------DNQ---------ELDQ 608
+                                      *******************************************************.......999.........99** PP
+
+  weird_cyanobacteria_halogenases 625 lpkieaqdleillslvkpkeyellflk 651
+                                      l ++++++++i++s+v+p++ye++fl+
+                             phmJ 609 L-RFDPTRASIFASMVEPPDYEMSFLD 634
+                                      *.***********************96 PP
+
+>> Bmp5_|PL2TA16_01239  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -1.4   0.0      0.19       4.7      74     549 ..      74      96 ..       4     153 .. 0.57
+   2 ?   -1.7   0.0      0.23       5.7      99     131 ..     294     325 ..     261     345 .. 0.81
+   3 !   24.8   0.0   2.2e-09   5.3e-08     354     472 ..     346     465 ..     334     476 .. 0.72
+
+  Alignments for each domain:
+  == domain 1  score: -1.4 bits;  conditional E-value: 0.19
+  weird_cyanobacteria_halogenases  74 ptakqfyemhqrwrkvyeekiirdlvtridnfkdhsviftksgktlnakhvvlatgfsraifthlseidysvsnktfv 151
+                                       +                                                                            
+              Bmp5_|PL2TA16_01239  74 WS---------------------------------------------------------------------------- 75 
+                                      33............................................................................ PP
+
+  weird_cyanobacteria_halogenases 152 fdtmgdsanllisklipnnnkiiirtngfnardkvvpalgaiytldqlesknfrylssehyasviyglvlgskvpili 229
+                                                                                                                    
+              Bmp5_|PL2TA16_01239   - ------------------------------------------------------------------------------   -
+                                      .............................................................................. PP
+
+  weird_cyanobacteria_halogenases 230 gdqfpvtvrddsyvtsksrpasgaiaikywpidqyaekfsdnleesiskgyllndiamwlhtgkaivvpkdtainfek 307
+                                                                                                                    
+              Bmp5_|PL2TA16_01239   - ------------------------------------------------------------------------------   -
+                                      .............................................................................. PP
+
+  weird_cyanobacteria_halogenases 308 ktityagierafhqyikgdaeqprlpkilidgetpyeyqyrdnfmgvipktlnnvyllgytrpytgglaniiemqglf 385
+                                                                                                                    
+              Bmp5_|PL2TA16_01239   - ------------------------------------------------------------------------------   -
+                                      .............................................................................. PP
+
+  weird_cyanobacteria_halogenases 386 vhklitqsefhqkihrnlderivaynkhyygaakprkadhlvyfgfytddlarligidykpselksikdllfyyafpn 463
+                                                                                                                    
+              Bmp5_|PL2TA16_01239   - ------------------------------------------------------------------------------   -
+                                      .............................................................................. PP
+
+  weird_cyanobacteria_halogenases 464 nalkyrlkgeyavdgvdeliekvnekykefievfayllsiskmdsdelaeelesvkrqyfndmrhkepyrkfleeyiq 541
+                                                                                                       k+ y ++l eyi+
+              Bmp5_|PL2TA16_01239  76 -----------------------------------------------------------------KKEYINYLGEYIE 88 
+                                      .................................................................3344444444444 PP
+
+  weird_cyanobacteria_halogenases 542 vyrrlknv 549
+                                       +   k++
+              Bmp5_|PL2TA16_01239  89 RFDIAKHI 96 
+                                      44444444 PP
+
+  == domain 2  score: -1.7 bits;  conditional E-value: 0.23
+  weird_cyanobacteria_halogenases  99 vtridnfkdhsviftksgktlnakhvvlatgfs 131
+                                      +  i+ f++ +v+f k g+  +   vv++tg++
+              Bmp5_|PL2TA16_01239 294 IGGIERFEKNAVVF-KDGTREEIDAVVFCTGYQ 325
+                                      56799999999998.7899999999******97 PP
+
+  == domain 3  score: 24.8 bits;  conditional E-value: 2.2e-09
+  weird_cyanobacteria_halogenases 354 vipktlnnvyllgytrpytgglaniiemqglfvhklitqsefhqkihrnlderivaynkhyygaakprka.dhlvyfg 430
+                                       ip+    + ++g+ rp  gg+  i emq  ++ kl +          ++++ i    kh+  + k   +   lv + 
+              Bmp5_|PL2TA16_01239 346 FIPEMGHSLSFIGFVRPQQGGIPVIAEMQCRYLSKLASGEA-QLPTLSEMHDVIKYDTKHWQTEYKITPHvASLVNYC 422
+                                      4899999999*************************987544.44455667777776678888777765442679**** PP
+
+  weird_cyanobacteria_halogenases 431 fytddlarligidykpselksikdllf...yyafpnnalkyrlkg 472
+                                       y d +a+l+g   +       kd ++       p+ a +yrl g
+              Bmp5_|PL2TA16_01239 423 HYMDSVAKLVGCMPQ--IPSLFKDPMLrvkLLHNPQFAAQYRLDG 465
+                                      ***********7543..3333455444111445577788888877 PP
+
+>> hs_bmp5-phenolic  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -0.3   0.0     0.087       2.1       1     129 [.       1     132 [.       1     150 [. 0.70
+   2 !    8.4   0.0   0.00021    0.0051     356     443 ..     345     433 ..     336     438 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: -0.3 bits;  conditional E-value: 0.087
+  weird_cyanobacteria_halogenases   1 mlevviigfgfsavplirelartgtefkiisaesnsvwdrlsksgrldfdlvssyltsfysfdlvkdfekdyyptakq 78 
+                                      ml+ ++ig g   +  i+el + g+   +  ++++ v   ++++    + l ss   s++s   + d ++  + t  +
+                 hs_bmp5-phenolic   1 MLDCIVIGAGSGGLVTIKELLEQGVGEVVCLEQAEDVGGVFANTY-DSLVLTSSATISMFSDFWIGDGNQHKFWTKDE 77 
+                                      89999****************999998888888888877665443.34567788888888877777777777777777 PP
+
+  weird_cyanobacteria_halogenases  79 fyemhqrwrkvyee.kiir...dlvtridnfkdhsviftksgktlnakhvvlatg 129
+                                        +  +++ ++++  + ir    +v+ +++  +   +   sg+ l +k v la g
+                 hs_bmp5-phenolic  78 VVDYWKKYAEQFGVlEHIRfgsKVVAVVEQGGEGWQVQLASGENLLTKRVALAIG 132
+                                      7666666666654223333222455566666666666666666666666666665 PP
+
+  == domain 2  score: 8.4 bits;  conditional E-value: 0.00021
+  weird_cyanobacteria_halogenases 356 pktlnnvyllgytrpytgglaniiemqglfvhklitqsefhqkihrnlderivaynkhyygaakprka..dhlvyfgf 431
+                                      pk  + +  +g++rp  g    i+emq+ +   li + e+      ++++  +     y  + +   +    lv +  
+                 hs_bmp5-phenolic 345 PKYQDKLVWIGWARPNFGSQFPIMEMQARL-FALICKGELALPAPVEMEKVTCIDRATYLEQFENNAHqvRSLVDYHR 421
+                                      777788999******************964.579******999999988776666667777665554411579***** PP
+
+  weird_cyanobacteria_halogenases 432 ytddlarligid 443
+                                      y dd+a lig +
+                 hs_bmp5-phenolic 422 YIDDMASLIGCE 433
+                                      *********975 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (652 nodes)
+Target sequences:                        148  (76090 residues searched)
+Passed MSV filter:                        13  (0.0878378); expected 3.0 (0.02)
+Passed bias filter:                       12  (0.0810811); expected 3.0 (0.02)
+Passed Vit filter:                         6  (0.0405405); expected 0.1 (0.001)
+Passed Fwd filter:                         6  (0.0405405); expected 0.0 (1e-05)
+Initial search space (Z):                148  [actual number of targets]
+Domain search space  (domZ):               6  [number of targets reported over threshold]
+# CPU time: 0.04u 0.00s 00:00:00.04 Elapsed: 00:00:00.05
+# Mc/sec: 923.91
+//
+[ok]
