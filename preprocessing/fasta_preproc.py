@@ -76,10 +76,8 @@ def cut_sequence(file_name: str, motif: str, output_filename: str):
         proteins[protein] = re.split(pattern, proteins[protein], maxsplit=1)[1]
     write_fasta(proteins.keys(), proteins.values(), output_filename)
 
-crossval_preproc("HALOGENATION/DIMETAL-CARBOXYLATE/dimetal-carboxylate.fasta")
-
 # FDHs
-crossval_preproc("HALOGENATION/FLAVIN_DEPENDENT_HALOGENASES/general_profile/cut_all_general_profile.afa")
+crossval_preproc("HALOGENATION/FLAVIN_DEPENDENT_HALOGENASES/MAFFT/trp_6_7/trp_6_7.afa")
 get_left_out_seq_results("HALOGENATION/FLAVIN_DEPENDENT_HALOGENASES/general_profile/cut/crossval_hmmsearch_res/crossval_out_*.out",
                          "HALOGENATION/FLAVIN_DEPENDENT_HALOGENASES/general_profile/cut/samples.txt")
 

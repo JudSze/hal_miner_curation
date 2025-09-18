@@ -1,0 +1,354 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /home/szenei/hal_miner_curation/HALOGENATION/FLAVIN_DEPENDENT_HALOGENASES/MAFFT/pyrrole/crossval_profile/crossval_out_tr|A0A139ZY81|bmp2.fasta.hmm
+# target sequence database:        /home/szenei/hal_miner_curation/HALOGENATION/FLAVIN_DEPENDENT_HALOGENASES/MAFFT/pyrrole/full_sequences.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       crossval_out_tr|A0A139ZY81|bmp2.fasta_aligned  [M=356]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                            Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                            -----------
+   7.2e-154  501.1   0.0   1.1e-153  500.5   0.0    1.3  1  tr|Q71ME2|Q71ME2_9ACTN               Halogenase B OS=Actinoplanes sp.
+   5.7e-152  494.9   0.2   6.6e-152  494.7   0.2    1.0  1  HrmQ|tr|C1IHU5|C1IHU5_9ACTN          HrmQ OS=Streptomyces griseoflavu
+   3.3e-151  492.4   0.2   3.8e-151  492.2   0.2    1.0  1  mpy16|tr|J7H1A1|J7H1A1_9ACTN         FADH2-dependent halogenase OS=St
+     1e-150  490.8   0.1   1.2e-150  490.6   0.1    1.0  1  clz5|tr|U6A3L4|U6A3L4_9ACTN          Flavin-dependent halogenase OS=S
+   1.1e-149  487.4   0.2   1.3e-149  487.1   0.2    1.0  1  pyr29|tr|A3R4S0|A3R4S0_WENVI         Halogenase OS=Wenjunlia vitamino
+   2.1e-149  486.4   0.2   2.5e-149  486.2   0.2    1.0  1  PltA|sp|Q4KCZ0|PLTA_PSEF5            1H-pyrrole-2-carbonyl-[peptidyl-
+   7.1e-139  451.8   0.0   2.2e-138  450.2   0.0    1.6  2  sp|P95482|PRNC_PSEFL                 Monodechloroaminopyrrolnitrin ha
+     2e-135  440.5   0.0   2.3e-135  440.3   0.0    1.0  1  Bmp2|tr|A0A139ZY81|A0A139ZY81_9GAMM  Bmp2 OS=Pseudoalteromonas sp. PS
+
+
+Domain annotation for each sequence (and alignments):
+>> tr|Q71ME2|Q71ME2_9ACTN  Halogenase B OS=Actinoplanes sp. ATCC 33002 OX=196196 GN=halB PE=4 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  500.5   0.0  1.1e-153  1.1e-153       1     356 []      25     405 ..      25     405 .. 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 500.5 bits;  conditional E-value: 1.1e-153
+  crossval_out_tr|A0A139ZY81|bmp2.fasta_aligned   1 GsGpaGstlgailakaglkvlviekdefprfhiGESlipattvvlreiglldkveragfPe... 61 
+                                                    GsG+aGs+lgaila++g++vl+++++++p+f++GES+ip+t+v+lr+i+     er+++Pe   
+                         tr|Q71ME2|Q71ME2_9ACTN  25 GSGIAGSMLGAILARNGARVLLVDASTHPKFAVGESTIPYTLVALRTIA-----ERYDVPEikt 83 
+                                                    9************************************************.....********** PP
+
+  crossval_out_tr|A0A139ZY81|bmp2.fasta_aligned  62 .............kfGvkkkiGfllkkegfraaekefnerdqpglldetfhvdRsdfDalLlek 112
+                                                                 +fGvkk++Gfll++eg++++++e+n++d+pgll+e++h++R+ +Da+L+++
+                         tr|Q71ME2|Q71ME2_9ACTN  84 latftnctkvigpQFGVKKHFGFLLHREGEPQDPREVNQFDTPGLLHEASHMYRQATDAYLFHA 147
+                                                    **************************************************************** PP
+
+  crossval_out_tr|A0A139ZY81|bmp2.fasta_aligned 113 AveyGakvrqgvrvkdvefdedkvvvkaakgeeqvrarmvvDasGrrtfLaeklklreedavfk 176
+                                                    Av+yG+ +rq++rv dv+fd+++v+++  +g eq+rar+vvDasG+r++Laek+ lre+++++k
+                         tr|Q71ME2|Q71ME2_9ACTN 148 AVKYGCVPRQNFRVVDVDFDDAGVTISGGDG-EQYRARYVVDASGFRSPLAEKFALRENPCRMK 210
+                                                    ******************************9.******************************** PP
+
+  crossval_out_tr|A0A139ZY81|bmp2.fasta_aligned 177 qiarslw........fddldrkaledtkelpvsettvlyskergWvWvIpi......sntltSv 226
+                                                    +++rslw        +d l++++++dt+++p++e+tv+++++rgW+WvI++      +n+l+Sv
+                         tr|Q71ME2|Q71ME2_9ACTN 211 HHSRSLWnhmvnvprTDALFDHSAADTPPVPWYEGTVHHMFDRGWFWVIGFdnhpasRNPLCSV 274
+                                                    **************************************************************** PP
+
+  crossval_out_tr|A0A139ZY81|bmp2.fasta_aligned 227 Gvvldkekykke.kespeeefwelaarrpelkrqfkkaervrefkseddysYsikqvvGdrwll 289
+                                                    G++ld++ky+k+ + +p++ef+++aar+p+++rqf++a++vre++s+d+++Ys+kq+vGdrw+l
+                         tr|Q71ME2|Q71ME2_9ACTN 275 GLTLDERKYPKDpSLTPQQEFESMAARYPDIARQFAGANPVREWVSTDRLQYSSKQTVGDRWCL 338
+                                                    ************99************************************************** PP
+
+  crossval_out_tr|A0A139ZY81|bmp2.fasta_aligned 290 lgdaarFvDPiFSrGvsvalesaralakrliaaikddDfskerfeeyerlsqkgldiadelisi 353
+                                                    l++aa+FvDP+FSrG+s+++e+++al++rliaaikddDfs+erfe+++rl+q+++d++d+l+++
+                         tr|Q71ME2|Q71ME2_9ACTN 339 LSHAAGFVDPLFSRGLSNTAEAINALSWRLIAAIKDDDFSQERFEYVDRLQQGLFDYNDALVNA 402
+                                                    ***************************************************************9 PP
+
+  crossval_out_tr|A0A139ZY81|bmp2.fasta_aligned 354 ayi 356
+                                                     +i
+                         tr|Q71ME2|Q71ME2_9ACTN 403 SFI 405
+                                                    986 PP
+
+>> HrmQ|tr|C1IHU5|C1IHU5_9ACTN  HrmQ OS=Streptomyces griseoflavus OX=35619 PE=4 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  494.7   0.2  6.6e-152  6.6e-152       1     356 []      12     379 ..      12     379 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 494.7 bits;  conditional E-value: 6.6e-152
+  crossval_out_tr|A0A139ZY81|bmp2.fasta_aligned   1 GsGpaGstlgailakaglkvlviekdefprfhiGESlipattvvlreiglldkveragfPekfG 64 
+                                                    G+GpaGst++++lakag++++v+e+ efpr h+GESl++att+vl+eig+l+kv++agfP+k+G
+                    HrmQ|tr|C1IHU5|C1IHU5_9ACTN  12 GGGPAGSTMASYLAKAGISAIVLESAEFPRPHVGESLVTATTPVLQEIGALAKVDAAGFPKKYG 75 
+                                                    9*************************************************************** PP
+
+  crossval_out_tr|A0A139ZY81|bmp2.fasta_aligned  65 v.........kkkiGfllkkegfraaekefnerdqpgl.ldetfhvdRsdfDalLlekAveyGa 118
+                                                    +         + ++Gf+++++gfr a++ef+erdqpg+ +++t+hvdR+++D+lLl++A+e+Ga
+                    HrmQ|tr|C1IHU5|C1IHU5_9ACTN  76 AawtsaaketVPEMGFTGMTQGFRLASVEFQERDQPGVdQAYTYHVDRGKYDQLLLQHAAELGA 139
+                                                    **************************************************************** PP
+
+  crossval_out_tr|A0A139ZY81|bmp2.fasta_aligned 119 kvrqgvrvkdvefdedkvvvkaakg..eeqvrarmvvDasGrrtfLaeklklreedavfkqiar 180
+                                                    +vr+++rv+dvef++d+vv++a ++  +e++r+rmvvDasGr+t+L++k kl++ d+vf+q+a+
+                    HrmQ|tr|C1IHU5|C1IHU5_9ACTN 140 RVRERTRVQDVEFTDDGVVLTAVGDegTERLRVRMVVDASGRQTMLGRKKKLKVPDPVFNQYAI 203
+                                                    *******************998776669************************************ PP
+
+  crossval_out_tr|A0A139ZY81|bmp2.fasta_aligned 181 slwfddldrkaledtke.........lpvsettvlyskergWvWvIpisntltSvGvvldkeky 235
+                                                    ++wfd+ldrkal+d++e         lpvs+t         WvW+Ipis+t+tSvGvv++k k+
+                    HrmQ|tr|C1IHU5|C1IHU5_9ACTN 204 HAWFDGLDRKALADDPEqedfifihfLPVSDT---------WVWQIPISETTTSVGVVTQKAKV 258
+                                                    ***************98777777777777777.........*********************** PP
+
+  crossval_out_tr|A0A139ZY81|bmp2.fasta_aligned 236 kkekespeeefwelaarrpelkrqfkkaervrefkseddysYsikqvvGdrwlllgdaarFvDP 299
+                                                    k++ +++ee+fwe++ +rpel+++++kaervrefk+e+dysY++k+vvGdrw+l+gdaarFvDP
+                    HrmQ|tr|C1IHU5|C1IHU5_9ACTN 259 KSSGQEREEFFWECLGTRPELRAALEKAERVREFKTEGDYSYGMKEVVGDRWALIGDAARFVDP 322
+                                                    **************************************************************** PP
+
+  crossval_out_tr|A0A139ZY81|bmp2.fasta_aligned 300 iFSrGvsvalesaralakrliaaikddDfskerfeeyerlsqkgldiadelisiayi 356
+                                                    iFS+Gvsva++sar+lak++++a+++dDfsk++f +yer++++g+++++e+isi+y+
+                    HrmQ|tr|C1IHU5|C1IHU5_9ACTN 323 IFSSGVSVAMNSARLLAKDIVSAVERDDFSKKSFGDYERVLRRGVSSWYEFISIYYR 379
+                                                    ********************************************************7 PP
+
+>> mpy16|tr|J7H1A1|J7H1A1_9ACTN  FADH2-dependent halogenase OS=Streptomyces sp. CNQ-418 OX=467194 GN=mpy16 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  492.2   0.2  3.8e-151  3.8e-151       1     356 []      11     378 ..      11     378 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 492.2 bits;  conditional E-value: 3.8e-151
+  crossval_out_tr|A0A139ZY81|bmp2.fasta_aligned   1 GsGpaGstlgailakaglkvlviekdefprfhiGESlipattvvlreiglldkveragfPekfG 64 
+                                                    G+GpaGst++++la+aglkv+++e+d+fpr+h+GESl+patt+vl +i+++dkve+agfP+kfG
+                   mpy16|tr|J7H1A1|J7H1A1_9ACTN  11 GGGPAGSTTASYLARAGLKVALFESDNFPREHVGESLVPATTPVLVDIDAFDKVEAAGFPKKFG 74 
+                                                    9*************************************************************** PP
+
+  crossval_out_tr|A0A139ZY81|bmp2.fasta_aligned  65 v.........kkkiGfllkkegfraaekefnerdqpgl.ldetfhvdRsdfDalLlekAveyGa 118
+                                                    +         ++k+Gf++ +++fraae++fner+q+g+ +d+tfhvdR++fD lLl++A+e+Ga
+                   mpy16|tr|J7H1A1|J7H1A1_9ACTN  75 AawtsadsgpSDKMGFTGLDHDFRAAEIMFNERTQSGVhKDYTFHVDRGQFDLLLLKHAEEQGA 138
+                                                    **************************************************************** PP
+
+  crossval_out_tr|A0A139ZY81|bmp2.fasta_aligned 119 kvrqgvrvkdvefdedkvvvkaakg..eeqvrarmvvDasGrrtfLaeklklreedavfkqiar 180
+                                                    kv+qgvrv++v+fd++ +v++++ +  +++v ++mvvDasGrrt+L+++lk++e+d+vf+q+a+
+                   mpy16|tr|J7H1A1|J7H1A1_9ACTN 139 KVHQGVRVNRVNFDGAFPVLETSVAgqRAKVPVKMVVDASGRRTQLGSQLKVKEKDPVFNQYAI 202
+                                                    *******************9998877799*********************************** PP
+
+  crossval_out_tr|A0A139ZY81|bmp2.fasta_aligned 181 slwfddldrkaledtke.........lpvsettvlyskergWvWvIpisntltSvGvvldkeky 235
+                                                    ++wfd++drkal+++++         lpv++t         WvW+Ipi++t+tSvGvv++ke++
+                   mpy16|tr|J7H1A1|J7H1A1_9ACTN 203 HTWFDNFDRKALAVDQSqsdfifihfLPVIDT---------WVWQIPITDTITSVGVVTQKERL 257
+                                                    ************99988788888888888888.........*********************** PP
+
+  crossval_out_tr|A0A139ZY81|bmp2.fasta_aligned 236 kkekespeeefwelaarrpelkrqfkkaervrefkseddysYsikqvvGdrwlllgdaarFvDP 299
+                                                    k++k++ e++fw+++ +rpel++++k++e+vr++k+e+dysY++++v+Gd++l++gdaarFvDP
+                   mpy16|tr|J7H1A1|J7H1A1_9ACTN 258 KASKDDLEKFFWDTLGSRPELHKALKESEQVRPLKTEGDYSYALTKVCGDNFLMVGDAARFVDP 321
+                                                    **************************************************************** PP
+
+  crossval_out_tr|A0A139ZY81|bmp2.fasta_aligned 300 iFSrGvsvalesaralakrliaaikddDfskerfeeyerlsqkgldiadelisiayi 356
+                                                    iFS+Gvsval+sar++++++iaa++++D+sk+rf++ye+++++g+++++e+isi+y+
+                   mpy16|tr|J7H1A1|J7H1A1_9ACTN 322 IFSSGVSVALNSARIASADIIAAHRAGDYSKKRFDTYESMLRRGVNNWYEFISIYYR 378
+                                                    ********************************************************7 PP
+
+>> clz5|tr|U6A3L4|U6A3L4_9ACTN  Flavin-dependent halogenase OS=Streptomyces sp. CNH287 OX=1288082 GN=clz5 PE=4 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  490.6   0.1  1.2e-150  1.2e-150       1     356 []      12     379 ..      12     379 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 490.6 bits;  conditional E-value: 1.2e-150
+  crossval_out_tr|A0A139ZY81|bmp2.fasta_aligned   1 GsGpaGstlgailakaglkvlviekdefprfhiGESlipattvvlreiglldkveragfPekfG 64 
+                                                    G+GpaGs+++++lakagl+++++e d fpr+h+GESlipatt+vl++ig+l+++e+agfP+k+G
+                    clz5|tr|U6A3L4|U6A3L4_9ACTN  12 GGGPAGSAIASYLAKAGLNCVIFEGDIFPREHVGESLIPATTPVLDDIGFLPQMETAGFPKKYG 75 
+                                                    9*************************************************************** PP
+
+  crossval_out_tr|A0A139ZY81|bmp2.fasta_aligned  65 v.........kkkiGfllkkegfraaekefnerdqpgl.ldetfhvdRsdfDalLlekAveyGa 118
+                                                    +         + ++Gf+++++gfraae+ef+er+q g+ +d+t+hvdR++fD +Ll++A+++Ga
+                    clz5|tr|U6A3L4|U6A3L4_9ACTN  76 AawtsasdqnIPTMGFEGMSHGFRAAEIEFHEREQLGVtQDYTYHVDRAKFDLMLLQHAASLGA 139
+                                                    *********99***************************************************** PP
+
+  crossval_out_tr|A0A139ZY81|bmp2.fasta_aligned 119 kvrqgvrvkdvefdedkvvvkaakg..eeqvrarmvvDasGrrtfLaeklklreedavfkqiar 180
+                                                    kv+qgvrv++v+f+e+++ +    g  e++vr+rmvvDasGr+tfL+++lkl+++d+vf+q+a+
+                    clz5|tr|U6A3L4|U6A3L4_9ACTN 140 KVYQGVRVRRVDFSETNPRIIFPIGktETSVRVRMVVDASGRNTFLGRQLKLKVSDPVFNQYAV 203
+                                                    *******************9999888899*********************************** PP
+
+  crossval_out_tr|A0A139ZY81|bmp2.fasta_aligned 181 slwfddldrkaledtke.........lpvsettvlyskergWvWvIpisntltSvGvvldkeky 235
+                                                    ++wfd+ldr+al+++ke         lpv++t         WvW+Ipi++t+tS+Gvv++ke++
+                    clz5|tr|U6A3L4|U6A3L4_9ACTN 204 HTWFDNLDRTALSVNKEqadyifihfLPVTDT---------WVWQIPITDTITSIGVVTQKEQF 258
+                                                    **************999777777777777777.........*********************** PP
+
+  crossval_out_tr|A0A139ZY81|bmp2.fasta_aligned 236 kkekespeeefwelaarrpelkrqfkkaervrefkseddysYsikqvvGdrwlllgdaarFvDP 299
+                                                    k++ke+ + +fwe++ +rpelk++++k+++vr+fk+e+dysY++kq+vGd+w+++gdaarFvDP
+                    clz5|tr|U6A3L4|U6A3L4_9ACTN 259 KASKEDLDGFFWECVGSRPELKEALEKSDQVRPFKTEGDYSYAMKQIVGDQWATIGDAARFVDP 322
+                                                    **************************************************************** PP
+
+  crossval_out_tr|A0A139ZY81|bmp2.fasta_aligned 300 iFSrGvsvalesaralakrliaaikddDfskerfeeyerlsqkgldiadelisiayi 356
+                                                    iFS+Gvsval+sar+++ ++iaa++++Df+ke+f++ye ++++++++++e+isi+y+
+                    clz5|tr|U6A3L4|U6A3L4_9ACTN 323 IFSSGVSVALNSARLISGEIIAAAEQGDFRKEMFSNYEGKIRRAVSNWYEFISIYYR 379
+                                                    ********************************************************7 PP
+
+>> pyr29|tr|A3R4S0|A3R4S0_WENVI  Halogenase OS=Wenjunlia vitaminophila OX=76728 GN=pyr29 PE=4 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  487.1   0.2  1.3e-149  1.3e-149       1     356 []      11     378 ..      11     378 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 487.1 bits;  conditional E-value: 1.3e-149
+  crossval_out_tr|A0A139ZY81|bmp2.fasta_aligned   1 GsGpaGstlgailakaglkvlviekdefprfhiGESlipattvvlreiglldkveragfPekfG 64 
+                                                    G+GpaGst++++lakaglkv+v+e+++fpr+h+GESl+patt+vl e g+++kve+a+fP+kfG
+                   pyr29|tr|A3R4S0|A3R4S0_WENVI  11 GGGPAGSTAASYLAKAGLKVAVFEAETFPREHVGESLVPATTPVLIETGAMPKVEAANFPKKFG 74 
+                                                    9*************************************************************** PP
+
+  crossval_out_tr|A0A139ZY81|bmp2.fasta_aligned  65 v.........kkkiGfllkkegfraaekefnerdqpgl.ldetfhvdRsdfDalLlekAveyGa 118
+                                                    +         +++ Gf++ +++fraae++fnerdq+g+ +d+tfhvdR++fD++Ll++A+++Ga
+                   pyr29|tr|A3R4S0|A3R4S0_WENVI  75 AawtsaedrnIDHNGFRGLTHDFRAAEILFNERDQDGVdRDYTFHVDRGKFDQILLQHAESLGA 138
+                                                    **************************************************************** PP
+
+  crossval_out_tr|A0A139ZY81|bmp2.fasta_aligned 119 kvrqgvrvkdvefdedkvvvkaakg..eeqvrarmvvDasGrrtfLaeklklreedavfkqiar 180
+                                                    kv++g+r+ +v+fd++++v++a+ g  + ++ +rmvvDasGr+t L+++lk+++ d++f+q+a+
+                   pyr29|tr|A3R4S0|A3R4S0_WENVI 139 KVFHGIRIGKVDFDGEMPVLEAKIGskSVDIPVRMVVDASGRQTRLGNQLKFKVPDPIFNQYAV 202
+                                                    ************************98788999******************************** PP
+
+  crossval_out_tr|A0A139ZY81|bmp2.fasta_aligned 181 slwfddldrkaledtke.........lpvsettvlyskergWvWvIpisntltSvGvvldkeky 235
+                                                    ++wfd++drkal+++k+         lpv++t         WvW+Ipi++t+tS+Gvv +k+++
+                   pyr29|tr|A3R4S0|A3R4S0_WENVI 203 HSWFDNFDRKALAVNKDqadyifihfLPVTDT---------WVWQIPITDTITSIGVVSQKKRF 257
+                                                    ***************99777777777777777.........*********************** PP
+
+  crossval_out_tr|A0A139ZY81|bmp2.fasta_aligned 236 kkekespeeefwelaarrpelkrqfkkaervrefkseddysYsikqvvGdrwlllgdaarFvDP 299
+                                                    ++ + ++e++fw+++a+rpel +++k++++vr+fk+e+dysY+++q++Gd+++l+gdaarFvDP
+                   pyr29|tr|A3R4S0|A3R4S0_WENVI 258 QEFAGDREKFFWDTVASRPELLDALKNSDQVRPFKTEGDYSYGMSQIAGDNFVLIGDAARFVDP 321
+                                                    **************************************************************** PP
+
+  crossval_out_tr|A0A139ZY81|bmp2.fasta_aligned 300 iFSrGvsvalesaralakrliaaikddDfskerfeeyerlsqkgldiadelisiayi 356
+                                                    iFS+Gvsval+sar+++k++iaa++++Df+kerf +yer+++kg+++++e+i+i+y+
+                   pyr29|tr|A3R4S0|A3R4S0_WENVI 322 IFSSGVSVALNSARLACKDIIAAAEAGDFKKERFGTYERKLRKGVSNWYEFIQIYYR 378
+                                                    ********************************************************7 PP
+
+>> PltA|sp|Q4KCZ0|PLTA_PSEF5  1H-pyrrole-2-carbonyl-[peptidyl-carrier protein] chlorinase OS=Pseudomonas fluorescens (st
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  486.2   0.2  2.5e-149  2.5e-149       1     356 []      12     380 ..      12     380 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 486.2 bits;  conditional E-value: 2.5e-149
+  crossval_out_tr|A0A139ZY81|bmp2.fasta_aligned   1 GsGpaGstlgailakaglkvlviekdefprfhiGESlipattvvlreiglldkveragfPekfG 64 
+                                                    G+GpaGst++++lakag+k++v+ek+ f+r+h+GESl+patt+vl eig+++k+e+a+fP+kfG
+                      PltA|sp|Q4KCZ0|PLTA_PSEF5  12 GGGPAGSTMASYLAKAGVKCAVFEKELFEREHVGESLVPATTPVLLEIGVMEKIEKANFPKKFG 75 
+                                                    9*************************************************************** PP
+
+  crossval_out_tr|A0A139ZY81|bmp2.fasta_aligned  65 v.........kkkiGfllkkegfraaekefnerdqpgl.ldetfhvdRsdfDalLlekAveyGa 118
+                                                    +         ++k+Gf++ +++fr+ae++fner+q+g+ +d tfhvdR++fD++Lle+A ++Ga
+                      PltA|sp|Q4KCZ0|PLTA_PSEF5  76 AawtsadsgpEDKMGFQGLDHDFRSAEILFNERKQEGVdRDFTFHVDRGKFDRILLEHAGSLGA 139
+                                                    **************************************************************** PP
+
+  crossval_out_tr|A0A139ZY81|bmp2.fasta_aligned 119 kvrqgvrvkdvef.dedkvvvkaakg..eeqvrarmvvDasGrrtfLaeklklreedavfkqia 179
+                                                    kv+qgv+++dvef +  +v+v+a+ g  + +++a+mvvDasGr++ L+++l+lre+d+vf+q+a
+                      PltA|sp|Q4KCZ0|PLTA_PSEF5 140 KVFQGVEIADVEFlSPGNVIVNAKLGkrSVEIKAKMVVDASGRNVLLGRRLGLREKDPVFNQFA 203
+                                                    *************89999******9988899********************************* PP
+
+  crossval_out_tr|A0A139ZY81|bmp2.fasta_aligned 180 rslwfddldrkaledtke.........lpvsettvlyskergWvWvIpisntltSvGvvldkek 234
+                                                    +++wfd++drk+++++++         lp+++t         WvW+Ipi++t+tSvGvv++k++
+                      PltA|sp|Q4KCZ0|PLTA_PSEF5 204 IHSWFDNFDRKSATQSPDkvdyifihfLPMTNT---------WVWQIPITETITSVGVVTQKQN 258
+                                                    *************99998666655555555555.........********************** PP
+
+  crossval_out_tr|A0A139ZY81|bmp2.fasta_aligned 235 ykkekespeeefwelaarrpelkrqfkkaervrefkseddysYsikqvvGdrwlllgdaarFvD 298
+                                                    y++++ ++ee+fwe++++r++l++++k++e+vr+fk+e+dysY++k+v+Gd+++l+gdaarFvD
+                      PltA|sp|Q4KCZ0|PLTA_PSEF5 259 YTNSDLTYEEFFWEAVKTRENLHDALKASEQVRPFKKEADYSYGMKEVCGDSFVLIGDAARFVD 322
+                                                    **************************************************************** PP
+
+  crossval_out_tr|A0A139ZY81|bmp2.fasta_aligned 299 PiFSrGvsvalesaralakrliaaikddDfskerfeeyerlsqkgldiadelisiayi 356
+                                                    PiFS+Gvsval+sar+++ ++i+a+k++Dfsk++f++ye ++++g+++++e+i+++y+
+                      PltA|sp|Q4KCZ0|PLTA_PSEF5 323 PIFSSGVSVALNSARIASGDIIEAVKNNDFSKSSFTHYEGMIRNGIKNWYEFITLYYR 380
+                                                    *********************************************************7 PP
+
+>> sp|P95482|PRNC_PSEFL  Monodechloroaminopyrrolnitrin halogenase PrnC OS=Pseudomonas fluorescens OX=294 GN=prnC PE=4 SV
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  450.2   0.0  2.2e-138  2.2e-138       1     356 []      21     398 ..      21     398 .. 0.99
+   2 ?   -1.2   0.0      0.38      0.38     305     333 ..     474     502 ..     472     508 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 450.2 bits;  conditional E-value: 2.2e-138
+  crossval_out_tr|A0A139ZY81|bmp2.fasta_aligned   1 GsGpaGstlgailakaglkvlviekdefprfhiGESlipattvvlreiglldkveragfPe... 61 
+                                                    GsG++G+++gailak++++vl+ie++++prf+iGES+ip+t++++r i+     +r+g+Pe   
+                           sp|P95482|PRNC_PSEFL  21 GSGMSGTQMGAILAKQQFRVLIIEESSHPRFTIGESSIPETSLMNRIIA-----DRYGIPEldh 79 
+                                                    9************************************************.....********** PP
+
+  crossval_out_tr|A0A139ZY81|bmp2.fasta_aligned  62 .............kfGvkkkiGfllkkegfraaekefnerdqpgl.ldetfhvdRsdfDalLle 111
+                                                                 ++G+k+++Gf+++k g+++++kef+++ +p+l + +++h++R+d+Da+Ll+
+                           sp|P95482|PRNC_PSEFL  80 itsfystqryvasSTGIKRNFGFVFHKPGQEHDPKEFTQCVIPELpWGPESHYYRQDVDAYLLQ 143
+                                                    **************************************************************** PP
+
+  crossval_out_tr|A0A139ZY81|bmp2.fasta_aligned 112 kAveyGakvrqgvrvkdvefdedkvvvkaakgeeqvrarmvvDasGrrtfLaeklklreedavf 175
+                                                    +A++yG+kv+q+++v+++++d+d+v+v++a+g e+++ r+++D++G r++La+k+klree+++f
+                           sp|P95482|PRNC_PSEFL 144 AAIKYGCKVHQKTTVTEYHADKDGVAVTTAQG-ERFTGRYMIDCGGPRAPLATKFKLREEPCRF 206
+                                                    ********************************.******************************* PP
+
+  crossval_out_tr|A0A139ZY81|bmp2.fasta_aligned 176 kqiarslw........fddldrkaledtkelpvsettvlyskergWvWvIpi......sntltS 225
+                                                    k+++rsl+        fdd+++ +++++   +++e+t+++++e gW+WvIp+      +n+l+S
+                           sp|P95482|PRNC_PSEFL 207 KTHSRSLYthmlgvkpFDDIFKVKGQRW---RWHEGTLHHMFEGGWLWVIPFnnhprsTNNLVS 267
+                                                    *************************888...********************************* PP
+
+  crossval_out_tr|A0A139ZY81|bmp2.fasta_aligned 226 vGvvldkekykkekespeeefwelaarrpelkrqfkkaervrefkseddysYsikqvvGdrwll 289
+                                                    vG++ld++ y+k++ s+++ef+e++ar+p++ +qf++a +vr+++++d++++s++++vGdr++l
+                           sp|P95482|PRNC_PSEFL 268 VGLQLDPRVYPKTDISAQQEFDEFLARFPSIGAQFRDAVPVRDWVKTDRLQFSSNACVGDRYCL 331
+                                                    **************************************************************** PP
+
+  crossval_out_tr|A0A139ZY81|bmp2.fasta_aligned 290 lgdaarFvDPiFSrGvsvalesaralakrliaaikddDfskerfeeyerlsqkgldiadelisi 353
+                                                    + +a++F+DP+FSrG+++++ +++ala+rli+a++ddDfs erfe++erl+qk+ld++d+++s+
+                           sp|P95482|PRNC_PSEFL 332 MLHANGFIDPLFSRGLENTAVTIHALAARLIKALRDDDFSPERFEYIERLQQKLLDHNDDFVSC 395
+                                                    **************************************************************** PP
+
+  crossval_out_tr|A0A139ZY81|bmp2.fasta_aligned 354 ayi 356
+                                                    +y+
+                           sp|P95482|PRNC_PSEFL 396 CYT 398
+                                                    *95 PP
+
+  == domain 2  score: -1.2 bits;  conditional E-value: 0.38
+  crossval_out_tr|A0A139ZY81|bmp2.fasta_aligned 305 vsvalesaralakrliaaikddDfskerf 333
+                                                    vs + + a  +a+r+ a i++ Df k +f
+                           sp|P95482|PRNC_PSEFL 474 VSAGRKPADEAAARIHALIDERDFAKPMF 502
+                                                    7777888999**************99888 PP
+
+>> Bmp2|tr|A0A139ZY81|A0A139ZY81_9GAMM  Bmp2 OS=Pseudoalteromonas sp. PS5 OX=1437473 GN=bmp2 PE=4 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  440.3   0.0  2.3e-135  2.3e-135       1     356 []      13     354 ..      13     354 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 440.3 bits;  conditional E-value: 2.3e-135
+  crossval_out_tr|A0A139ZY81|bmp2.fasta_aligned   1 GsGpaGstlgailakaglkvlviekdefprfhiGESlipattvvlreiglldkveragfPekfG 64 
+                                                    GsGpaGs++g++++k+gl+vl+iek++fprfhiGESl++++++++r++gl++++++agfP+k+G
+            Bmp2|tr|A0A139ZY81|A0A139ZY81_9GAMM  13 GSGPAGSLCGIECRKKGLSVLCIEKEQFPRFHIGESLTGNAGQIIRDLGLAEDMDAAGFPDKPG 76 
+                                                    9*************************************************************** PP
+
+  crossval_out_tr|A0A139ZY81|bmp2.fasta_aligned  65 vkkkiGfllkkegfraaekefnerdqpglldetfhvdRsdfDalLlekAveyGakvrqgvrvkd 128
+                                                     +++iG+l+k+e+f+++            l++t++v+RsdfD ++++kAve+G++++ g +v+d
+            Bmp2|tr|A0A139ZY81|A0A139ZY81_9GAMM  77 -VNVIGSLSKNEFFIPI------------LAPTWQVRRSDFDDMIKRKAVEHGVEYKLG-MVTD 126
+                                                    .9***************............9*****************************.**** PP
+
+  crossval_out_tr|A0A139ZY81|bmp2.fasta_aligned 129 vefdedkvv...vkaakgeeqvrarmvvDasGrrtfLaek..lklreedavfkqiarslwfddl 187
+                                                    v +d++kvv   +ka++ e+qvr++++vDasG++tfL++k  +++r+ +++++qia++++++++
+            Bmp2|tr|A0A139ZY81|A0A139ZY81_9GAMM 127 VIKDGEKVVgalYKADGVEHQVRSKVLVDASGQNTFLSRKgvAGKRQIEFFSQQIASFAHYKGV 190
+                                                    *********998899999********************************************** PP
+
+  crossval_out_tr|A0A139ZY81|bmp2.fasta_aligned 188 drkaledtkelpvset.tvlyskergWvWvIpisntltSvGvvldkekykkekespeeef.wel 249
+                                                    +r+ +      p+s++ t+lysk+++W+W+Ipis++++S+Gvv++k+ y+ke+++p++++ w++
+            Bmp2|tr|A0A139ZY81|A0A139ZY81_9GAMM 191 ERDLP------PFSTNtTILYSKQYHWSWIIPISPDTDSLGVVIPKDLYYKECKNPDDAIaWGM 248
+                                                    *****......999988*********************************************** PP
+
+  crossval_out_tr|A0A139ZY81|bmp2.fasta_aligned 250 aarrpelkrqfkkaervrefkseddysYsikqvvGdrwlllgdaarFvDPiFSrGvsvalesar 313
+                                                     +++pelkr+fk+aer  +++s++d+sY+i+++vGd+w+++gda+rF+DPiFS+Gvs+a+++++
+            Bmp2|tr|A0A139ZY81|A0A139ZY81_9GAMM 249 DHISPELKRRFKNAERQGDSQSMADFSYRIEPFVGDGWMCIGDAHRFLDPIFSYGVSFAMKEGI 312
+                                                    **************************************************************** PP
+
+  crossval_out_tr|A0A139ZY81|bmp2.fasta_aligned 314 alakrliaaikddDfskerfeeyerlsqkgldiadelisiayi 356
+                                                    ++a+++++ +  +D+ k +f++y+++s++g++ia++li++++i
+            Bmp2|tr|A0A139ZY81|A0A139ZY81_9GAMM 313 RAAEAIAQVVAGQDW-KAPFYAYRDWSNGGQQIAADLIRYFWI 354
+                                                    ***************.**************************7 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (356 nodes)
+Target sequences:                          8  (3774 residues searched)
+Passed MSV filter:                         8  (1); expected 0.2 (0.02)
+Passed bias filter:                        8  (1); expected 0.2 (0.02)
+Passed Vit filter:                         8  (1); expected 0.0 (0.001)
+Passed Fwd filter:                         8  (1); expected 0.0 (1e-05)
+Initial search space (Z):                  8  [actual number of targets]
+Domain search space  (domZ):               8  [number of targets reported over threshold]
+# CPU time: 0.01u 0.00s 00:00:00.01 Elapsed: 00:00:00.02
+# Mc/sec: 65.71
+//
+[ok]

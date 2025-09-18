@@ -1,10 +1,8 @@
 #!/bin/bash
 
 enzyme=$1
-input_dir=$2
-test_file=$3
+test_file=$2
 
-cd $input_dir
 echo $PWD
 
 for FILE in $PWD/$enzyme/crossval_fasta/*.fasta
@@ -17,7 +15,7 @@ mv $PWD/${enzyme}/crossval_fasta/*.hmm $PWD/${enzyme}/crossval_profile
 
 for FILE in $PWD/${enzyme}/crossval_profile/*.hmm
 do
-    echo "hmmsearch running"
+    echo "hmmsearch is running"
     hmmsearch $FILE $test_file > $FILE.out
     echo "$FILE.out"
 done
