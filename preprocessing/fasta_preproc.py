@@ -53,6 +53,7 @@ def get_left_out_seq_results(folder, sequence_names):
 
     for sequence in sequences:
         result_file = [file for file in result_files if re.search(sequence, file)]
+        print(sequence)
         if result_file:
             with open(result_file[0]) as left_out_seq_file:
                 for line in left_out_seq_file:
@@ -77,9 +78,9 @@ def cut_sequence(file_name: str, motif: str, output_filename: str):
     write_fasta(proteins.keys(), proteins.values(), output_filename)
 
 # FDHs
-crossval_preproc("HALOGENATION/FLAVIN_DEPENDENT_HALOGENASES/MAFFT/trp_6_7/trp_6_7.afa")
-get_left_out_seq_results("HALOGENATION/FLAVIN_DEPENDENT_HALOGENASES/general_profile/cut/crossval_hmmsearch_res/crossval_out_*.out",
-                         "HALOGENATION/FLAVIN_DEPENDENT_HALOGENASES/general_profile/cut/samples.txt")
+# crossval_preproc("/home/szenei/hal_miner_curation/HALOGENATION/COPPER-DEPENDENT/apnu_2x_homologs_extraction.fasta")
+get_left_out_seq_results("/home/szenei/hal_miner_curation/HALOGENATION/COPPER-DEPENDENT/crossval_hmmsearch_res/crossval_out_*.out",
+                         "/home/szenei/hal_miner_curation/HALOGENATION/COPPER-DEPENDENT/samples.txt")
 
 # if __name__ == "__main__":
 #     fasta_file_path = sys.argv[1]
