@@ -1,0 +1,74 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  HALOGENATION/HALOPEROXIDASES/VBPOs/final/whole_sequences_VBPOs.hmm
+# target sequence database:        HALOGENATION/HALOPEROXIDASES/uniprotkb_Acid_phosphatase_AND_reviewed_2026_06_17.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       whole_sequences_VBPOs  [M=596]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence             Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------             -----------
+    0.00089   15.5   0.1       0.32    7.0   0.0    2.1  2  sp|P80143|UDDP_SULAC  Undecaprenyl-diphosphatase OS=Sulfolobu
+  ------ inclusion threshold ------
+      0.033   10.3   0.6       0.94    5.5   0.0    2.1  2  sp|A0R627|DPRP_MYCS2  Decaprenylphosphoryl-5-phosphoribose ph
+
+
+Domain annotation for each sequence (and alignments):
+>> sp|P80143|UDDP_SULAC  Undecaprenyl-diphosphatase OS=Sulfolobus acidocaldarius (strain ATCC 33909 / DSM 639 / JCM 8929
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !    7.0   0.0   0.00017      0.32     444     476 ..     108     141 ..     102     144 .. 0.76
+   2 !    6.4   0.0   0.00026       0.5     537     564 ..     158     185 ..     155     196 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 7.0 bits;  conditional E-value: 0.00017
+  whole_sequences_VBPOs 444 tflLPmAfaEGsPvHPsYgsGHA..vvaGAcvtvL 476
+                            +f+ P  + E  P+  sY+sGHA  v +GA vt+L
+   sp|P80143|UDDP_SULAC 108 NFVNPTYLLEPKPTDYSYPSGHAliVSTGA-VTLL 141
+                            577788899999***********5233455.5554 PP
+
+  == domain 2  score: 6.4 bits;  conditional E-value: 0.00026
+  whole_sequences_VBPOs 537 niaiGRnmaGvHyfsDgieslrlGEeia 564
+                             ++  R ++GvH+  D i + +lG  i+
+   sp|P80143|UDDP_SULAC 158 LVSYSRVYVGVHWPLDVIAGWLLGSWIS 185
+                            58999*******************8876 PP
+
+>> sp|A0R627|DPRP_MYCS2  Decaprenylphosphoryl-5-phosphoribose phosphatase OS=Mycolicibacterium smegmatis (strain ATCC 70
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.9   0.4     0.003       5.7     450     476 ..      92     118 ..      88     126 .. 0.87
+   2 ?    5.5   0.0   0.00049      0.94     538     561 ..     134     157 ..     129     166 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 2.9 bits;  conditional E-value: 0.003
+  whole_sequences_VBPOs 450 AfaEGsPvHPsYgsGHAvvaGAcvtvL 476
+                            A++ G P   s++s HA+ + A + +L
+   sp|A0R627|DPRP_MYCS2  92 AVNVGTPSRLSFPSAHATSTTAAAVLL 118
+                            8999***************99988776 PP
+
+  == domain 2  score: 5.5 bits;  conditional E-value: 0.00049
+  whole_sequences_VBPOs 538 iaiGRnmaGvHyfsDgieslrlGE 561
+                            +a+ R ++GvHy +D + ++ +G 
+   sp|A0R627|DPRP_MYCS2 134 MALSRLVLGVHYPTDVVTGVVVGA 157
+                            689999*************99996 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (596 nodes)
+Target sequences:                       3802  (2021015 residues searched)
+Passed MSV filter:                       168  (0.0441873); expected 76.0 (0.02)
+Passed bias filter:                      152  (0.039979); expected 76.0 (0.02)
+Passed Vit filter:                        18  (0.00473435); expected 3.8 (0.001)
+Passed Fwd filter:                         2  (0.000526039); expected 0.0 (1e-05)
+Initial search space (Z):               3802  [actual number of targets]
+Domain search space  (domZ):               2  [number of targets reported over threshold]
+# CPU time: 0.10u 0.00s 00:00:00.10 Elapsed: 00:00:00.05
+# Mc/sec: 22980.32
+//
+[ok]

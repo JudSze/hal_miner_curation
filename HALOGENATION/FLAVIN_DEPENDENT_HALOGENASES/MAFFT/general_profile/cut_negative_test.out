@@ -1,0 +1,84 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  HALOGENATION/FLAVIN_DEPENDENT_HALOGENASES/MAFFT/general_profile/cut_all_general_profile.hmm
+# target sequence database:        HALOGENATION/FLAVIN_DEPENDENT_HALOGENASES/MAFFT/negative_test.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       cut_all_general_profile  [M=456]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                 Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                 -----------
+    1.5e-05   16.3   0.3    5.2e-05   14.6   0.0    1.9  2  sp|A0A059WYP6|TET50_UNKP  Flavin-dependent monooxygenase OS=U
+    3.3e-05   15.3   0.0      6e-05   14.4   0.0    1.4  1  sp|A0A0H4TXY1|TET55_UNKP  Flavin-dependent monooxygenase OS=U
+    7.6e-05   14.1   0.0    0.00011   13.5   0.0    1.3  1  sp|D3HKY4|TET56_LEGLN     Flavin-dependent monooxygenase OS=L
+
+
+Domain annotation for each sequence (and alignments):
+>> sp|A0A059WYP6|TET50_UNKP  Flavin-dependent monooxygenase OS=Unknown prokaryotic organism OX=2725 GN=tet(50) PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -0.5   0.0     0.082         2      83     151 ..      97     157 ..      21     169 .. 0.73
+   2 !   14.6   0.0   2.2e-06   5.2e-05     278     364 ..     276     359 ..     217     381 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: -0.5 bits;  conditional E-value: 0.082
+   cut_all_general_profile  83 lpyayhvdrakfdeiLlqyAverGvevvegvrVkdveldgdravgveytsergeiereieadlvvDAsG 151
+                               ++ +  + r+++ eiL ++ ++  +e  +   V ++e ++d    v++t ++g       +dlv+ A G
+  sp|A0A059WYP6|TET50_UNKP  97 QDDEVEILRGDLVEILMKAIADIPCEFKQS--VIKIEQNED---SVTVTYKDGR---VENYDLVIAADG 157
+                               556666778889999999888889998888..888888876...5555555555...346777776665 PP
+
+  == domain 2  score: 14.6 bits;  conditional E-value: 2.2e-06
+   cut_all_general_profile 278 skqvagdgwllvGdAagFvDPLfStGvsliaasiellaksipsalegddtek...elfeeyerlirrlvdrvreflslfYrlnar 359
+                               +k+  + + +l+GdAa    PL   G +l+  ++++la ++++a           ++f +y++l+   v+ +++f + + +   +
+  sp|A0A059WYP6|TET50_UNKP 276 MKSWTKGRIALIGDAAYCPSPLSGQGNNLAFVGAYILAGELKKAD------GdyiQAFTRYNELLHPFVEANQQFGVWVSESFLL 354
+                               6666777889**********************************9......22359******************97766665555 PP
+
+   cut_all_general_profile 360 kdtyf 364
+                               kd ++
+  sp|A0A059WYP6|TET50_UNKP 355 KDDEV 359
+                               55555 PP
+
+>> sp|A0A0H4TXY1|TET55_UNKP  Flavin-dependent monooxygenase OS=Unknown prokaryotic organism OX=2725 GN=tet(55) PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   14.4   0.0   2.5e-06     6e-05     278     350 ..     276     344 ..     256     375 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 14.4 bits;  conditional E-value: 2.5e-06
+   cut_all_general_profile 278 skqvagdgwllvGdAagFvDPLfStGvsliaasiellaksipsalegddtekelfeeyerlirrlvdrvrefl 350
+                               +k   + + +lvGdA+    PL   G sl++ ++++la +++ a+    +   +f++y++l++  v+ ++ f 
+  sp|A0A0H4TXY1|TET55_UNKP 276 MKDWTKGRIALVGDAGYTPSPLSGQGTSLALVGAYILAGELKTAT----DHVAAFARYNELLKPYVEANQAFG 344
+                               4555667889***********************************....566***********9999999885 PP
+
+>> sp|D3HKY4|TET56_LEGLN  Flavin-dependent monooxygenase OS=Legionella longbeachae serogroup 1 (strain NSW150) OX=661367
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   13.5   0.0   4.6e-06   0.00011     279     349 ..     277     344 ..     229     374 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 13.5 bits;  conditional E-value: 4.6e-06
+  cut_all_general_profile 279 kqvagdgwllvGdAagFvDPLfStGvsliaasiellaksipsalegddtekelfeeyerlirrlvdrvref 349
+                              ++  + + +lvGdA+    PL   G +l+  ++++la +++ a       +++f +y+ l+r  vd +++f
+    sp|D3HKY4|TET56_LEGLN 277 NSWTKGRIALVGDAGYCPSPLSGQGNNLAFVGAYILAGELKVAN---GNYTRAFTRYNALLRSFVDANQKF 344
+                              445556778********************************999...33479*****************99 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (456 nodes)
+Target sequences:                         73  (30858 residues searched)
+Passed MSV filter:                         9  (0.123288); expected 1.5 (0.02)
+Passed bias filter:                        8  (0.109589); expected 1.5 (0.02)
+Passed Vit filter:                         3  (0.0410959); expected 0.1 (0.001)
+Passed Fwd filter:                         3  (0.0410959); expected 0.0 (1e-05)
+Initial search space (Z):                 73  [actual number of targets]
+Domain search space  (domZ):               3  [number of targets reported over threshold]
+# CPU time: 0.00u 0.00s 00:00:00.00 Elapsed: 00:00:00.01
+# Mc/sec: 1082.14
+//
+[ok]

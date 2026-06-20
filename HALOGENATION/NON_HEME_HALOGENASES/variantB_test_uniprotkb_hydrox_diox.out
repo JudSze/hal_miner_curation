@@ -1,0 +1,796 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  HALOGENATION/NON_HEME_HALOGENASES/variant_B_unactivated_sp3/NHFe_variant_B.hmm
+# target sequence database:        HALOGENATION/NON_HEME_HALOGENASES/uniprotkb_hydrox_diox.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       variant_B  [M=318]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                 Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                 -----------
+      2e-21   71.1   0.7    9.5e-20   65.6   0.3    2.0  2  sp|Q2TDY4|ECTD_VIRSA      Ectoine dioxygenase OS=Virgibacillu
+      2e-21   71.1   0.7    9.5e-20   65.6   0.3    2.0  2  sp|Q2TDY4|ECTD_VIRSA      Ectoine dioxygenase OS=Virgibacillu
+    4.5e-17   56.8   0.1    2.2e-14   47.9   0.1    2.6  1  sp|O14832|PAHX_HUMAN      Phytanoyl-CoA dioxygenase, peroxiso
+    4.5e-17   56.8   0.1    2.2e-14   47.9   0.1    2.6  1  sp|O14832|PAHX_HUMAN      Phytanoyl-CoA dioxygenase, peroxiso
+    7.3e-17   56.1   0.1    1.2e-13   45.5   0.1    2.6  1  sp|O18778|PAHX_BOVIN      Phytanoyl-CoA dioxygenase, peroxiso
+    1.8e-16   54.8   0.1    9.6e-12   39.3   0.0    2.5  2  sp|P57093|PAHX_RAT        Phytanoyl-CoA dioxygenase, peroxiso
+    1.8e-16   54.8   0.1    9.6e-12   39.3   0.0    2.5  2  sp|P57093|PAHX_RAT        Phytanoyl-CoA dioxygenase, peroxiso
+    4.1e-16   53.6   0.0    7.8e-14   46.2   0.0    2.2  1  sp|O62515|PAHX_CAEEL      Probable phytanoyl-CoA dioxygenase 
+    7.4e-16   52.8   0.0    3.5e-09   30.9   0.0    2.1  2  sp|Q82IZ1|PTLH_STRAW      1-deoxypentalenic acid 11-beta-hydr
+    4.9e-15   50.1   0.0    7.1e-10   33.2   0.0    2.3  2  sp|P0DX11|PHNY_GIMM8      Methylphosphonate hydroxylase OS=Gi
+    8.9e-15   49.3   0.0    4.3e-13   43.7   0.0    2.0  2  sp|Q7WHJ0|ECTD_BORBR      Ectoine dioxygenase OS=Bordetella b
+    9.1e-15   49.2   0.0    3.3e-12   40.8   0.0    2.6  1  sp|O35386|PAHX_MOUSE      Phytanoyl-CoA dioxygenase, peroxiso
+    1.2e-14   48.9   0.0    5.7e-13   43.3   0.0    2.0  2  sp|Q7W977|ECTD_BORPA      Ectoine dioxygenase OS=Bordetella p
+    1.4e-14   48.6   0.0    4.1e-12   40.5   0.0    2.1  2  sp|Q5YW75|ECTD_NOCFA      Ectoine dioxygenase OS=Nocardia far
+    1.9e-14   48.2   0.0    4.3e-14   47.0   0.0    1.5  2  sp|Q93RV9|ECTD_STRCO      Ectoine dioxygenase OS=Streptomyces
+    3.3e-13   44.1   0.0    5.1e-13   43.5   0.0    1.2  1  sp|Q6QUY7|ECTD_STRAQ      Ectoine dioxygenase OS=Streptomyces
+    6.6e-13   43.1   0.0    2.1e-11   38.2   0.0    2.0  1  sp|Q1GNW5|ECTD_SPHAL      Ectoine dioxygenase OS=Sphingopyxis
+    9.8e-13   42.6   0.0    1.5e-12   42.0   0.0    1.2  1  sp|Q829L6|ECTD_STRAW      Ectoine dioxygenase OS=Streptomyces
+    1.5e-11   38.7   0.0    4.7e-06   20.6   0.0    2.1  2  sp|E3VWK0|PENH_STREX      1-deoxypentalenic acid 11-beta-hydr
+    1.5e-11   38.7   0.2    1.7e-05   18.8   0.0    3.1  3  sp|Q9ZVF6|PAHX_ARATH      Phytanoyl-CoA dioxygenase OS=Arabid
+    1.8e-11   38.4   0.0    1.3e-09   32.3   0.0    2.1  2  sp|A4VFY4|ECTD_STUS1      Ectoine dioxygenase OS=Stutzerimona
+      1e-10   35.9   0.0    2.5e-05   18.2   0.0    2.2  2  sp|E3VWI4|PNTH_STRAE      1-deoxypentalenic acid 11-beta-hydr
+    1.4e-08   28.9   0.1    8.4e-05   16.5   0.2    3.1  2  sp|Q10E49|PAHX1_ORYSJ     Phytanoyl-CoA dioxygenase 1 OS=Oryz
+    5.1e-08   27.0   0.0    1.5e-07   25.5   0.0    1.6  2  sp|E1VA04|ECTD_HALED      Ectoine dioxygenase OS=Halomonas el
+    5.6e-08   26.9   0.0    8.7e-05   16.4   0.0    3.1  3  sp|Q65WW7|PAHX2_ORYSJ     Phytanoyl-CoA dioxygenase 2 OS=Oryz
+    8.9e-07   23.0   0.0    0.00088   13.1   0.0    2.2  2  sp|A0A3G9H185|CDMA_TALVE  Dioxygenase cdmA OS=Talaromyces ver
+      9e-07   22.9   0.0    8.2e-06   19.8   0.0    1.9  2  sp|R9UTQ8|PROHY_STRGD     L-proline trans-4-hydroxylase OS=St
+    1.6e-06   22.1   0.0    2.2e-05   18.4   0.0    2.1  2  sp|Q4WAZ3|FMAF_ASPFU      Dioxygenase af480 OS=Aspergillus fu
+     0.0016   12.3   0.0      0.069    6.9   0.0    2.2  2  sp|A0A3G9GR23|CDMD_TALVE  Dioxygenase cdmD OS=Talaromyces ver
+     0.0034   11.2   1.1      0.023    8.5   0.0    2.3  2  sp|P0DPA0|PAHX_DICDI      Putative phytanoyl-CoA dioxygenase 
+
+
+Domain annotation for each sequence (and alignments):
+>> sp|Q2TDY4|ECTD_VIRSA  Ectoine dioxygenase OS=Virgibacillus salexigens OX=61016 GN=ectD PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   65.6   0.3   7.6e-21   9.5e-20       6     173 ..      29     200 ..      24     218 .. 0.80
+   2 ?    4.0   0.0     0.042      0.53     227     246 ..     235     254 ..     230     269 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 65.6 bits;  conditional E-value: 7.6e-21
+             variant_B   6 kelsfalseeeieqfeekGyigpldifepeeikelkkai.raklldretakykeskklsgvtni.lnyDrhldidalaeiisepkivdr 92 
+                           k+ +  +++e+++++e++G+++++++f+++e+ +++kai + + + + +a+ k+ ++  + ++i + +  h d +  ++++++++i+d 
+  sp|Q2TDY4|ECTD_VIRSA  29 KDNQAPITKEQLDSYEKNGFLQIKNFFSEDEVIDMQKAIfELQDSIKDVASDKVIRE-PESNDIrSIFHVHQDDNYFQDVANDKRILDI 116
+                           6667789****************************9998455666677777776664.555899677********************** PP
+
+             variant_B  93 vnsllGknlllwrselFpkypg..degtdWHqa.dsfseasgkpqliwPeseefggtitvWialddateenGclqfipgthks...... 172
+                           v  llG+++ + +s +  k pg   +++dWH   +++    g p++      +    i+v ial+d+   nG l +ipg+h++      
+  sp|Q2TDY4|ECTD_VIRSA 117 VRHLLGSDVYVHQSRINYK-PGfkGKEFDWHSDfETWHVEDGMPRMR-----A----ISVSIALSDNYSFNGPLMLIPGSHNYfvscvg 195
+                           ***********99998655.44115679****888888777777666.....5....9************************9653333 PP
+
+             variant_B 173 ....i 173
+                                
+  sp|Q2TDY4|ECTD_VIRSA 196 etpdN 200
+                           33332 PP
+
+  == domain 2  score: 4.0 bits;  conditional E-value: 0.042
+             variant_B 227 kkGqavlFtstlmHaSePnk 246
+                           k+G + lF s++mH S+ n+
+  sp|Q2TDY4|ECTD_VIRSA 235 KAGSVTLFESNTMHGSTSNI 254
+                           689*************9876 PP
+
+>> sp|Q2TDY4|ECTD_VIRSA  Ectoine dioxygenase OS=Virgibacillus salexigens OX=61016 GN=ectD PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   65.6   0.3   7.6e-21   9.5e-20       6     173 ..      29     200 ..      24     218 .. 0.80
+   2 ?    4.0   0.0     0.042      0.53     227     246 ..     235     254 ..     230     269 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 65.6 bits;  conditional E-value: 7.6e-21
+             variant_B   6 kelsfalseeeieqfeekGyigpldifepeeikelkkai.raklldretakykeskklsgvtni.lnyDrhldidalaeiisepkivdr 92 
+                           k+ +  +++e+++++e++G+++++++f+++e+ +++kai + + + + +a+ k+ ++  + ++i + +  h d +  ++++++++i+d 
+  sp|Q2TDY4|ECTD_VIRSA  29 KDNQAPITKEQLDSYEKNGFLQIKNFFSEDEVIDMQKAIfELQDSIKDVASDKVIRE-PESNDIrSIFHVHQDDNYFQDVANDKRILDI 116
+                           6667789****************************9998455666677777776664.555899677********************** PP
+
+             variant_B  93 vnsllGknlllwrselFpkypg..degtdWHqa.dsfseasgkpqliwPeseefggtitvWialddateenGclqfipgthks...... 172
+                           v  llG+++ + +s +  k pg   +++dWH   +++    g p++      +    i+v ial+d+   nG l +ipg+h++      
+  sp|Q2TDY4|ECTD_VIRSA 117 VRHLLGSDVYVHQSRINYK-PGfkGKEFDWHSDfETWHVEDGMPRMR-----A----ISVSIALSDNYSFNGPLMLIPGSHNYfvscvg 195
+                           ***********99998655.44115679****888888777777666.....5....9************************9653333 PP
+
+             variant_B 173 ....i 173
+                                
+  sp|Q2TDY4|ECTD_VIRSA 196 etpdN 200
+                           33332 PP
+
+  == domain 2  score: 4.0 bits;  conditional E-value: 0.042
+             variant_B 227 kkGqavlFtstlmHaSePnk 246
+                           k+G + lF s++mH S+ n+
+  sp|Q2TDY4|ECTD_VIRSA 235 KAGSVTLFESNTMHGSTSNI 254
+                           689*************9876 PP
+
+>> sp|O14832|PAHX_HUMAN  Phytanoyl-CoA dioxygenase, peroxisomal OS=Homo sapiens OX=9606 GN=PHYH PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   47.9   0.1   1.8e-15   2.2e-14       9     266 ..      50     288 ..      42     308 .. 0.70
+
+  Alignments for each domain:
+  == domain 1  score: 47.9 bits;  conditional E-value: 1.8e-15
+             variant_B   9 sfalseeeieqfeekGyigpldifepeeikelkkaira....kl......ldretakykeskklsgvtniln.yDrhldidalaeiise 86 
+                           +++l+ e+ +++ee+G++ ++++ +  +i++  ++ ++    ++      + r +  +k + +    + i+   D   + + l  + + 
+  sp|O14832|PAHX_HUMAN  50 NNVLTLEQRKFYEENGFLVIKNLVPDADIQRFRNEFEKicrkEVkplgltVMRDVTISKSEYAP-SEKMITKvQDF-QEDKELFRYCTL 136
+                           799**************************98876654311112211111111222222222211.22333333565.445677889999 PP
+
+             variant_B  87 pkivdrvnsllGknlllwrselFpkypgd.egtdWHqadsfseasgkpqliwP.eseefggtitvWialddateenGclqfipgthksi 173
+                           p+i++ v+  +G+n++ +++ l +k p+  + t  H          + ++  P    ++   + +W+a+++ +++nGcl ++pgthk  
+  sp|O14832|PAHX_HUMAN 137 PEILKYVECFTGPNIMAMHTMLINKPPDSgKKTSRHPL------HQDLHYF-PfRPSDLI--VCAWTAMEHISRNNGCLVVLPGTHKGS 216
+                           ***********************999976234555652......2233443.76667766..9***********************973 PP
+
+             variant_B 174 nydeskgmeyepdkinkkvkdgvkrgffgy.dyrklqkdpnwkpDEsqavslemkkGqavlFtstlmHaSePnkpskqqlRlgfaaRyv 261
+                                k  +y       k + gv++ f g  dy+          + +  v+l+m+kG++v+F   l+H S  nk  +q  R +++  + 
+  sp|O14832|PAHX_HUMAN 217 L----KPHDY------PKWEGGVNKMFHGIqDYE----------ENKARVHLVMEKGDTVFFHPLLIHGSGQNK--TQGFRKAISCHFA 283
+                           2....22212......345677777777752455..........34678**********************999..8999***999998 PP
+
+             variant_B 262 ptdvr 266
+                           ++d +
+  sp|O14832|PAHX_HUMAN 284 SADCH 288
+                           88765 PP
+
+>> sp|O14832|PAHX_HUMAN  Phytanoyl-CoA dioxygenase, peroxisomal OS=Homo sapiens OX=9606 GN=PHYH PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   47.9   0.1   1.8e-15   2.2e-14       9     266 ..      50     288 ..      42     308 .. 0.70
+
+  Alignments for each domain:
+  == domain 1  score: 47.9 bits;  conditional E-value: 1.8e-15
+             variant_B   9 sfalseeeieqfeekGyigpldifepeeikelkkaira....kl......ldretakykeskklsgvtniln.yDrhldidalaeiise 86 
+                           +++l+ e+ +++ee+G++ ++++ +  +i++  ++ ++    ++      + r +  +k + +    + i+   D   + + l  + + 
+  sp|O14832|PAHX_HUMAN  50 NNVLTLEQRKFYEENGFLVIKNLVPDADIQRFRNEFEKicrkEVkplgltVMRDVTISKSEYAP-SEKMITKvQDF-QEDKELFRYCTL 136
+                           799**************************98876654311112211111111222222222211.22333333565.445677889999 PP
+
+             variant_B  87 pkivdrvnsllGknlllwrselFpkypgd.egtdWHqadsfseasgkpqliwP.eseefggtitvWialddateenGclqfipgthksi 173
+                           p+i++ v+  +G+n++ +++ l +k p+  + t  H          + ++  P    ++   + +W+a+++ +++nGcl ++pgthk  
+  sp|O14832|PAHX_HUMAN 137 PEILKYVECFTGPNIMAMHTMLINKPPDSgKKTSRHPL------HQDLHYF-PfRPSDLI--VCAWTAMEHISRNNGCLVVLPGTHKGS 216
+                           ***********************999976234555652......2233443.76667766..9***********************973 PP
+
+             variant_B 174 nydeskgmeyepdkinkkvkdgvkrgffgy.dyrklqkdpnwkpDEsqavslemkkGqavlFtstlmHaSePnkpskqqlRlgfaaRyv 261
+                                k  +y       k + gv++ f g  dy+          + +  v+l+m+kG++v+F   l+H S  nk  +q  R +++  + 
+  sp|O14832|PAHX_HUMAN 217 L----KPHDY------PKWEGGVNKMFHGIqDYE----------ENKARVHLVMEKGDTVFFHPLLIHGSGQNK--TQGFRKAISCHFA 283
+                           2....22212......345677777777752455..........34678**********************999..8999***999998 PP
+
+             variant_B 262 ptdvr 266
+                           ++d +
+  sp|O14832|PAHX_HUMAN 284 SADCH 288
+                           88765 PP
+
+>> sp|O18778|PAHX_BOVIN  Phytanoyl-CoA dioxygenase, peroxisomal OS=Bos taurus OX=9913 GN=PHYH PE=2 SV=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   45.5   0.1   9.7e-15   1.2e-13       8     266 ..      49     288 ..      42     321 .. 0.68
+
+  Alignments for each domain:
+  == domain 1  score: 45.5 bits;  conditional E-value: 9.7e-15
+             variant_B   8 lsfalseeeieqfeekGyigpldifepeeikelkkairaklldr....etakyke....skklsgvtniln..yDrhldidalaeiise 86 
+                            +++ls e+ +++ee+G++ ++++ +  +i++  ++ ++   ++      +   +    ++++   +++++   D   + + l  + + 
+  sp|O18778|PAHX_BOVIN  49 ENNVLSLEQRKFYEENGFLVIKNLVSDADIQRFRNEFERICRKEvkplGLSVMRDvtitKSEYVPSEKVVSkvQDF-QEDEELFRYCTL 136
+                           4899**************************9988776543222100001111111000011222223332234666.446678889999 PP
+
+             variant_B  87 pkivdrvnsllGknlllwrselFpkypgd.egtdWHqa.dsfseasgkpqliwPeseefggtitvWialddateenGclqfipgthks. 172
+                           p+i++ v+  +G+n++ +++ l +k p+  + t  H   + +          +P +      + +W+a+++  ++nGcl ++pgthk  
+  sp|O18778|PAHX_BOVIN 137 PEILKYVECFTGPNIMAMHTMLINKPPDSgKKTSRHPLhQDLHY-----FPFRPSNSI----VCAWTAMEHIDRNNGCLVVLPGTHKGp 216
+                           ***********************999976244666652122221.....123465553....89**********************984 PP
+
+             variant_B 173 ...inydeskgmeyepdkinkkvkdgvkrgffgy.dyrklqkdpnwkpDEsqavslemkkGqavlFtstlmHaSePnkpskqqlRlgfa 257
+                                y++               + gv+  f g  dy+     +      +  v+l+m+kG++v+F   l+H S  nk  +q  R +++
+  sp|O18778|PAHX_BOVIN 217 lqpHDYPQ--------------WEGGVNIMFHGIqDYD-----K-----NNARVHLVMEKGDTVFFHPLLIHGSGRNK--SQGFRKAIS 279
+                           33322222..............3344444444431333.....1.....3579*********************9999..889999999 PP
+
+             variant_B 258 aRyvptdvr 266
+                             + +++ +
+  sp|O18778|PAHX_BOVIN 280 CHFADANCH 288
+                           999988765 PP
+
+>> sp|P57093|PAHX_RAT  Phytanoyl-CoA dioxygenase, peroxisomal OS=Rattus norvegicus OX=10116 GN=Phyh PE=1 SV=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   39.3   0.0   7.7e-13   9.6e-12       9     172 ..      50     215 ..      42     237 .. 0.68
+   2 !   12.7   0.0   9.5e-05    0.0012     214     262 ..     239     284 ..     231     299 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 39.3 bits;  conditional E-value: 7.7e-13
+           variant_B   9 sfalseeeieqfeekGyigpldifepeeikelkkairaklldretakykeskklsgvtniln.............yDrhldidalaeiise 86 
+                         +++ls e+ +++ee+G++ ++++ + ++i++   + ++    r++ k + ++ ++    i+               D   + + l  +   
+  sp|P57093|PAHX_RAT  50 NNVLSLEQRKFYEENGFLVIKNLVSDDDIQRFRAEFERI--CRKEVKPPGMTVMKD-VAIAKqgyapservvtkiQDF-QQNEELFRYCAL 136
+                         789**************************9986655432..222222222222222.222111222222222223555.346677788889 PP
+
+           variant_B  87 pkivdrvnsllGknlllwrselFpkypgd.egtdWHqa.dsfseasgkpqliwP.eseefggtitvWialddateenGclqfipgthks 172
+                         p+iv+ v+  +G+n++ +++ l +k p+  + t  H   + +          +P    ++   + +W+a+++  ++nGcl ++pgthk 
+  sp|P57093|PAHX_RAT 137 PQIVKYVECFTGPNIMAMHTMLINKPPDSgKKTSRHPLhQDLH--------FFPfRPSNLI--VCAWTAMEHIDRNNGCLVVLPGTHKG 215
+                         9***********************9997624566666322333........2354344444..99**********************86 PP
+
+  == domain 2  score: 12.7 bits;  conditional E-value: 9.5e-05
+           variant_B 214 wkpDEsqavslemkkGqavlFtstlmHaSePnkpskqqlRlgfaaRyvp 262
+                         + pD s  v+l+m+kG++v+F   l+H S  n   +q  R +++  y +
+  sp|P57093|PAHX_RAT 239 YDPD-SPRVHLVMEKGDTVFFHPLLIHGSGRNR--TQGFRKAISCHYGS 284
+                         4444.778*********************9998..88899999888865 PP
+
+>> sp|P57093|PAHX_RAT  Phytanoyl-CoA dioxygenase, peroxisomal OS=Rattus norvegicus OX=10116 GN=Phyh PE=1 SV=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   39.3   0.0   7.7e-13   9.6e-12       9     172 ..      50     215 ..      42     237 .. 0.68
+   2 !   12.7   0.0   9.5e-05    0.0012     214     262 ..     239     284 ..     231     299 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 39.3 bits;  conditional E-value: 7.7e-13
+           variant_B   9 sfalseeeieqfeekGyigpldifepeeikelkkairaklldretakykeskklsgvtniln.............yDrhldidalaeiise 86 
+                         +++ls e+ +++ee+G++ ++++ + ++i++   + ++    r++ k + ++ ++    i+               D   + + l  +   
+  sp|P57093|PAHX_RAT  50 NNVLSLEQRKFYEENGFLVIKNLVSDDDIQRFRAEFERI--CRKEVKPPGMTVMKD-VAIAKqgyapservvtkiQDF-QQNEELFRYCAL 136
+                         789**************************9986655432..222222222222222.222111222222222223555.346677788889 PP
+
+           variant_B  87 pkivdrvnsllGknlllwrselFpkypgd.egtdWHqa.dsfseasgkpqliwP.eseefggtitvWialddateenGclqfipgthks 172
+                         p+iv+ v+  +G+n++ +++ l +k p+  + t  H   + +          +P    ++   + +W+a+++  ++nGcl ++pgthk 
+  sp|P57093|PAHX_RAT 137 PQIVKYVECFTGPNIMAMHTMLINKPPDSgKKTSRHPLhQDLH--------FFPfRPSNLI--VCAWTAMEHIDRNNGCLVVLPGTHKG 215
+                         9***********************9997624566666322333........2354344444..99**********************86 PP
+
+  == domain 2  score: 12.7 bits;  conditional E-value: 9.5e-05
+           variant_B 214 wkpDEsqavslemkkGqavlFtstlmHaSePnkpskqqlRlgfaaRyvp 262
+                         + pD s  v+l+m+kG++v+F   l+H S  n   +q  R +++  y +
+  sp|P57093|PAHX_RAT 239 YDPD-SPRVHLVMEKGDTVFFHPLLIHGSGRNR--TQGFRKAISCHYGS 284
+                         4444.778*********************9998..88899999888865 PP
+
+>> sp|O62515|PAHX_CAEEL  Probable phytanoyl-CoA dioxygenase OS=Caenorhabditis elegans OX=6239 GN=ZK550.6 PE=3 SV=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   46.2   0.0   6.2e-15   7.8e-14      11     265 ..      15     254 ..       8     285 .. 0.72
+
+  Alignments for each domain:
+  == domain 1  score: 46.2 bits;  conditional E-value: 6.2e-15
+             variant_B  11 alseeeieqfeekGyigpldifepeeikelkkairaklldretakykeskklsgvtniln.............yDrhldidalaeiise 86 
+                            ls+e+  ++e++Gy+ + +  ++ e+++  ++ +    ++ +a+++ ++ +++   i+               D   d  +l e+ + 
+  sp|O62515|PAHX_CAEEL  15 ILSAEQRRFYEKNGYLLIRNCVPQYELNRFRQRFQDICEKKVKAPEN-MT-VMKDISIAKsefkdgekaitkiQDF-ADDPVLFEYCKY 100
+                           69****************99999999888777665433333333332.22.2222222112333333333334555.77778999999* PP
+
+             variant_B  87 pkivdrvnsllGk...nlllwrselFpkypgdegtdWHqadsfseasgkpqliwP.eseefggtitvWialddateenGclqfipgthk 171
+                           p +vd+v+ l+G+   nl+ +++ l +k p++  +          +  + q+  P   ++f     +W+a+++ t++nGcl ++pgthk
+  sp|O62515|PAHX_CAEEL 101 PGVVDVVKDLIGNpksNLMAMHTMLINKPPDNGKLTS-----RHPMHQDLQYF-PfRPADFI--CCAWTAMEKITRANGCLVVVPGTHK 181
+                           ************64459***********999887643.....23455677887.88999999..9************************ PP
+
+             variant_B 172 sinydeskgmeyepdkinkkvkdgvkrgffgydyrklqkdpnwkpDEsqavslemkkGqavlFtstlmHaSePnkpskqqlRlgfaaRy 260
+                            +  + +    +e         ++  +g  +yd              +  +++em++G++v+F   l+H S  n   ++  R +++  y
+  sp|O62515|PAHX_CAEEL 182 GVLLPHEYPK-WEGG------VNKAYHGIQDYDTS------------TPRIHVEMEPGDTVFFHPILIHGSGANR--TEGFRKAISCHY 249
+                           *877765544.3322......22333445556666............567799******************9998..888999999988 PP
+
+             variant_B 261 vptdv 265
+                            + d 
+  sp|O62515|PAHX_CAEEL 250 ANDDL 254
+                           77664 PP
+
+>> sp|Q82IZ1|PTLH_STRAW  1-deoxypentalenic acid 11-beta-hydroxylase OS=Streptomyces avermitilis (strain ATCC 31267 / DSM
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   30.9   0.0   2.8e-10   3.5e-09      19     174 ..      24     177 ..      18     189 .. 0.82
+   2 !   19.9   0.1   6.2e-07   7.7e-06     221     263 ..     207     250 ..     196     257 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 30.9 bits;  conditional E-value: 2.8e-10
+             variant_B  19 qfeekGyigpldifepeeikelkkairaklldretakykeskklsgvtnilnyDrhldidala..eiisepkivdrvnsllGknlllwr 105
+                           ++ee+Gy+ + ++++++ +k++ +++r+ l+   +a+ + + +   ++   + D    +d ++   + ++p  +++ +++ G+++ ++ 
+  sp|Q82IZ1|PTLH_STRAW  24 FYEEHGYLFLRNVLDRDLVKTVAEQMREGLVALGAADPHATLEELTIDSFESVDEVAMHDYVKydAFWNNPSTIKVFEQVFGEPVFVFL 112
+                           69****************************99999988887777777777778887778877633578999999***********9998 PP
+
+             variant_B 106 selFpkyp...gdegtdWHqadsfseasgkpqliwPeseefggtitvWialddateenGclqfipgthksin 174
+                           s     yp   g e+   H+   f     +  +i P+++ f    t Wi+l  +t+e G+++++ g+h + +
+  sp|Q82IZ1|PTLH_STRAW 113 STTIRYYPsqaGSEEPSFHYLTPFH---QDGFYIGPNQD-FR---TFWIPLIRTTRESGGVALADGSHRRGK 177
+                           8876666622266777899955555...67889989776.77...**********************98755 PP
+
+  == domain 2  score: 19.9 bits;  conditional E-value: 6.2e-07
+             variant_B 221 avslemkkGqavlFtstlmHaSePnkps.kqqlRlgfaaRyvpt 263
+                            ++  m++G+++lF  ++ H+S Pn ++ ++ +R+++ +R  p+
+  sp|Q82IZ1|PTLH_STRAW 207 LLHSPMEPGDILLFHAHMCHKSIPNLSKdPRLMRMSMDTRVQPA 250
+                           46778********************97624679**999997665 PP
+
+>> sp|P0DX11|PHNY_GIMM8  Methylphosphonate hydroxylase OS=Gimesia maris (strain ATCC 29201 / DSM 8797 / 534-30) OX=34474
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   33.2   0.0   5.6e-11   7.1e-10       9     177 ..       2     162 ..       1     175 [. 0.81
+   2 !   15.3   0.0   1.6e-05   0.00019     222     253 ..     177     207 ..     158     225 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 33.2 bits;  conditional E-value: 5.6e-11
+             variant_B   9 sfalseeeieqfeekGyigpldifepeeikelkk...airaklldretakykeskklsgvtni.lnyDrhldidalaeiisepkivdrv 93 
+                           + +l++ +++++++ Gyi++ +++++ e ++l +   +i a   d e+  ++ +++ sgv    + y +  ++  + +++++ ki d  
+  sp|P0DX11|PHNY_GIMM8   2 NTTLTDSQLDRWNQTGYIKLPEFLSEAETQNLREwveEISAWPADDEKWMHHFEQTPSGVRPArTEYIL-AFHAGIRQLLTQGKIPDCA 89 
+                           679**********************99988776611145555567777777777778888888788999.55999************** PP
+
+             variant_B  94 nsllGknlllwrselFpkypgdegtdWHqadsfseasgkpqliwPeseefggtitvWialddateenGclqfipgthks..inyde 177
+                             l+G++ +l + ++  kypg  g + Hq d+ +      ++i          it  ia d at enGcl f p+ h++  ++ d+
+  sp|P0DX11|PHNY_GIMM8  90 GALMGEPAILYKEKINYKYPGGGGYAAHQ-DAPA-----YEFI--R-----NHITCSIAVDAATPENGCLFFTPELHQRglLHLDK 162
+                           *****************************.3322.....2233..3.....4599********************99875555554 PP
+
+  == domain 2  score: 15.3 bits;  conditional E-value: 1.6e-05
+             variant_B 222 vslemkkGqavlFtstlmHaSePnkpskqqlR 253
+                            ++ m++G+a++F s+  H+S Pn  ++q +R
+  sp|P0DX11|PHNY_GIMM8 177 EPVPMQPGDALFFSSYAPHKSPPNE-TQQPRR 207
+                           56789*******************9.444444 PP
+
+>> sp|Q7WHJ0|ECTD_BORBR  Ectoine dioxygenase OS=Bordetella bronchiseptica (strain ATCC BAA-588 / NCTC 13252 / RB50) OX=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   43.7   0.0   3.5e-14   4.3e-13      11     183 ..      36     204 ..      28     215 .. 0.82
+   2 ?    3.5   0.0     0.062      0.77     226     246 ..     235     255 ..     225     265 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 43.7 bits;  conditional E-value: 3.5e-14
+             variant_B  11 alseeeieqfeekGyigpldifepeeikelkkairaklldretakykeskklsgvtni.lnyDrhldidalaeiisepkivdrvnsllG 98 
+                           als+++++++e++G++ + ++f+ ee++ l  ++++ + d  + + +e  +  g + + + +  h+   +l  ++ +p+++++  ++lG
+  sp|Q7WHJ0|ECTD_BORBR  36 ALSADQVQSYERDGFLLLENLFSDEEVAALLAEVERMTRDPAIVRREEAITEPGSNAVrSIFMVHVLSPILGRLVRDPRLANAARQILG 124
+                           89********************************99999999888888887778788866699************************** PP
+
+             variant_B  99 knlllwrselFpkypg..degtdWHqa.dsfseasgkpqliwPeseefggtitvWialddateenGclqfipgthks..inydeskgme 182
+                           +++ + +s    k pg   +++ WH   +++    g p       ++    ++  + l+d++e nG l ++pg+h +    + e+ +++
+  sp|Q7WHJ0|ECTD_BORBR 125 SEVYVHQSRANMK-PGfkGKEFYWHSDfETWHVEDGMPS-----MRA----LSCSVLLTDNNETNGPLMLVPGSHRQfiSCVGETPRDH 203
+                           *****99987655.551145689**97677776655554.....445....888999******************99654455555555 PP
+
+             variant_B 183 y 183
+                           y
+  sp|Q7WHJ0|ECTD_BORBR 204 Y 204
+                           5 PP
+
+  == domain 2  score: 3.5 bits;  conditional E-value: 0.062
+             variant_B 226 mkkGqavlFtstlmHaSePnk 246
+                            k+G +v+F  ++mH S+ n+
+  sp|Q7WHJ0|ECTD_BORBR 235 GKAGSVVFFDCNTMHGSNSNI 255
+                           589**************9876 PP
+
+>> sp|O35386|PAHX_MOUSE  Phytanoyl-CoA dioxygenase, peroxisomal OS=Mus musculus OX=10090 GN=Phyh PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   40.8   0.0   2.6e-13   3.3e-12       9     269 ..      50     291 ..      42     321 .. 0.68
+
+  Alignments for each domain:
+  == domain 1  score: 40.8 bits;  conditional E-value: 2.6e-13
+             variant_B   9 sfalseeeieqfeekGyigpldifepeeikelkkairaklldretak..ykeskklsgvtnilnyDrhl.......didalaeiisepk 88 
+                           +++l+ e+ +++ee+G++ ++++ + ++i++   + ++   ++ + +    + +    +++ +  Dr +       + + l  +   p+
+  sp|O35386|PAHX_MOUSE  50 NNVLTLEQRKFYEENGFLVIKNLVSDDDIQRFRAEFERICREEVKPPgiVIMRDVALAKQDYMPSDRMVskiqdfqEDEELFRYCLLPE 138
+                           789***************************98776665443332221102222222333444445554421111112345666778899 PP
+
+             variant_B  89 ivdrvnsllGknlllwrselFpkypgd.egtdWHqadsfseasgkpqliwP.eseefggtitvWialddateenGclqfipgthks... 172
+                           i++ v+  +G+n++ ++  l +k p+  + t  H          + ++  P    ++   + +W+a+++  ++nGcl ++pgthk    
+  sp|O35386|PAHX_MOUSE 139 ILKYVECFTGPNIMALHGMLINKPPDVgKKTSRHPL------HQDLHYF-PfRPSNLI--VCAWTAMEHIDRNNGCLVVLPGTHKGtlk 218
+                           ********************9999974145666652......2233333.64444445..99**********************98332 PP
+
+             variant_B 173 .inydeskgmeyepdkinkkvkdgvkrgffgydyrklqkdpnwkpDEsqavslemkkGqavlFtstlmHaSePnkpskqqlRlgfaaRy 260
+                              y++ +g         +k+++g++      dy+     pn     s  v+l+m+kG++v+F   l+H S  nk  +q  R +++  +
+  sp|O35386|PAHX_MOUSE 219 pHDYPKWEGG-------VNKMYHGIQ------DYD-----PN-----SPRVHLVMEKGDTVFFHPLLIHGSGRNK--TQGFRKAISCHF 282
+                           2233332222.......233344433......333.....43.....689**********************999..899999999999 PP
+
+             variant_B 261 vptdvrvyp 269
+                            ++d +  +
+  sp|O35386|PAHX_MOUSE 283 GSSDCQCID 291
+                           887777655 PP
+
+>> sp|Q7W977|ECTD_BORPA  Ectoine dioxygenase OS=Bordetella parapertussis (strain 12822 / ATCC BAA-587 / NCTC 13253) OX=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   43.3   0.0   4.5e-14   5.7e-13      11     183 ..      36     204 ..      28     215 .. 0.82
+   2 ?    3.5   0.0     0.062      0.77     226     246 ..     235     255 ..     225     265 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 43.3 bits;  conditional E-value: 4.5e-14
+             variant_B  11 alseeeieqfeekGyigpldifepeeikelkkairaklldretakykeskklsgvtni.lnyDrhldidalaeiisepkivdrvnsllG 98 
+                           als+++++++e++G++ + ++f+ ee++ l  ++++ + d  + + +e  +  g + + + +  h+   +l  ++ +p+++++  ++lG
+  sp|Q7W977|ECTD_BORPA  36 ALSADQVQSYERDGFLLLENLFSDEEVAALLAEVERMTRDPAIVRREEAITEPGSNAVrSIFMVHVLSPILGRLVRDPRLANAARQILG 124
+                           89********************************99999999888888887778788866699************************** PP
+
+             variant_B  99 knlllwrselFpkypg..degtdWHqa.dsfseasgkpqliwPeseefggtitvWialddateenGclqfipgthks..inydeskgme 182
+                            ++ + +s    k pg   +++ WH   +++    g p       ++    ++  + l+d++e+nG l ++pg+h +    + e+ +++
+  sp|Q7W977|ECTD_BORPA 125 AEVYVHQSRANMK-PGfkGKEFYWHSDfETWHVEDGMPS-----MRA----LSCSVLLTDNNEANGPLMLVPGSHRQfiSCVGETPRDH 203
+                           *****99987655.551145689**97677776655554.....445....888999******************99654455555555 PP
+
+             variant_B 183 y 183
+                           y
+  sp|Q7W977|ECTD_BORPA 204 Y 204
+                           5 PP
+
+  == domain 2  score: 3.5 bits;  conditional E-value: 0.062
+             variant_B 226 mkkGqavlFtstlmHaSePnk 246
+                            k+G +v+F  ++mH S+ n+
+  sp|Q7W977|ECTD_BORPA 235 GKAGSVVFFDCNTMHGSNSNI 255
+                           589**************9876 PP
+
+>> sp|Q5YW75|ECTD_NOCFA  Ectoine dioxygenase OS=Nocardia farcinica (strain IFM 10152) OX=247156 GN=ectD PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   40.5   0.0   3.3e-13   4.1e-12      13     172 ..      40     193 ..      36     215 .. 0.84
+   2 ?    6.0   0.0      0.01      0.13     227     246 ..     238     257 ..     231     262 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 40.5 bits;  conditional E-value: 3.3e-13
+             variant_B  13 seeeieqfeekGyigpldifepeeikelkkairaklldretakykeskklsgvtni.lnyDrhldidalaeiisepkivdrvnsllGkn 100
+                            +e++ +f ++G+  + ++++pee+ e   ++++ + d++  + +     +  + + + +  h    a+a+++ + +iv    ++lG++
+  sp|Q5YW75|ECTD_NOCFA  40 HSEQLSTFDRDGFSIMENLLSPEEVSEFRAEVERLAADKSLLDDERVIREKTSNRVrSVFEVHKLSAAVADLVRQTRIVGLARQVLGSD 128
+                           579************************************99998888777777778677999999************************ PP
+
+             variant_B 101 lllwrselFpkypgde..gtdWHqa.dsfseasgkpqliwPeseefggtitvWialddateenGclqfipgthks 172
+                           + l ++ + + +pg    g+ WH   +++    g      P  ++    ++  ial+d+   nG+l ++pg+h +
+  sp|Q5YW75|ECTD_NOCFA 129 VYLHQTRI-NYMPGFRgtGFYWHSDfETWHAEDGM-----PAPRA----VSLSIALTDNYPFNGSLMVMPGSHRT 193
+                           *9998876.67888651156899965666644443.....44454....7888********************87 PP
+
+  == domain 2  score: 6.0 bits;  conditional E-value: 0.01
+             variant_B 227 kkGqavlFtstlmHaSePnk 246
+                           ++G a+lF s++mH S  n+
+  sp|Q5YW75|ECTD_NOCFA 238 RAGSALLFDSNVMHGSANNI 257
+                           68**************8765 PP
+
+>> sp|Q93RV9|ECTD_STRCO  Ectoine dioxygenase OS=Streptomyces coelicolor (strain ATCC BAA-471 / A3(2) / M145) OX=100226 G
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   47.0   0.0   3.4e-15   4.3e-14      14     178 ..      41     209 ..      38     235 .. 0.84
+   2 ?   -1.7   0.0       2.3        28     227     243 ..     238     254 ..     200     259 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 47.0 bits;  conditional E-value: 3.4e-15
+             variant_B  14 eeeieqfeekGyigpldifepeeikelkkairaklldretakykeskklsgvtni.lnyDrhldidalaeiisepkivdrvnsllGknl 101
+                           + ++++  ++G++ + ++ +p+e+ e ++++++ + d  + + + s    + ++i + +  h   ++ a+++ ++++v r  ++lG+++
+  sp|Q93RV9|ECTD_STRCO  41 AGDLQALDRDGFLAIDQLITPDEVGEYQRELERLTTDPAIRADERSIVEPQSKEIrSVFEVHKISEVFAKLVRDERVVGRARQILGSDV 129
+                           5678999******************************99999998888889999*788******************************* PP
+
+             variant_B 102 llwrselFpkyp.gdegtdWHqa.dsfseasgkpqliwPeseefggtitvWialddateenGclqfipgthks..........inydes 178
+                            + +s +  k   g  g+ WH   +++    g      P+ +    ti+v ial+++   nG+l ++pg+hk+           ny++s
+  sp|Q93RV9|ECTD_STRCO 130 YVHQSRINVKPGfGASGFYWHSDfETWHAEDGL-----PNMR----TISVSIALTENYDTNGGLMIMPGSHKTflgcagatpkDNYKKS 209
+                           **99998766423799******66666655444.....5555....5************************996665555555455544 PP
+
+  == domain 2  score: -1.7 bits;  conditional E-value: 2.3
+             variant_B 227 kkGqavlFtstlmHaSe 243
+                           k+G a  F  ++mH S 
+  sp|Q93RV9|ECTD_STRCO 238 KAGSATWFDCNCMHGSG 254
+                           6799999999****996 PP
+
+>> sp|Q6QUY7|ECTD_STRAQ  Ectoine dioxygenase OS=Streptomyces anulatus OX=1892 GN=ectD PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   43.5   0.0   4.1e-14   5.1e-13      15     177 ..      40     206 ..      37     228 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 43.5 bits;  conditional E-value: 4.1e-14
+             variant_B  15 eeieqfeekGyigpldifepeeikelkkairaklldretakykeskklsgvtni.lnyDrhldidalaeiisepkivdrvnsllGknll 102
+                           ++++ +e++G++ + ++  p+e++  + ++++ ++d  + + + s   ++ +n+ + +  h   ++ a ++ ++++v r  ++lG+++ 
+  sp|Q6QUY7|ECTD_STRAQ  40 KDLQGYEHDGFLTVDQLIAPDEVAVYQAELNRLISDPAVRADERSIVEKQSQNVrSVFEVHRISEVFAGLVRDERVVGRARQILGSDVY 128
+                           67899***************************9999999999988888899999778*****9************************** PP
+
+             variant_B 103 lwrselFpkyp.gdegtdWHqa.dsfseasgkpqliwPeseefggtitvWialddateenGclqfipgthks..........inyde 177
+                           + +s +  k   g  g+ WH   +++    g      P+ +    t++v ial+++   nG+l ++pg+hk+           ny++
+  sp|Q6QUY7|ECTD_STRAQ 129 VHQSRINVKPGfGATGFYWHSDfETWHAEDGL-----PNMR----TVSVSIALTENFDTNGGLMIMPGSHKTflgcagetpkDNYKK 206
+                           *99998666423789******66666655444.....5555....59***********************99665555544444444 PP
+
+>> sp|Q1GNW5|ECTD_SPHAL  Ectoine dioxygenase OS=Sphingopyxis alaskensis (strain DSM 13593 / LMG 18877 / RB2256) OX=31765
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   38.2   0.0   1.7e-12   2.1e-11      12     173 ..      33     190 ..      23     257 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 38.2 bits;  conditional E-value: 1.7e-12
+             variant_B  12 lseeeieqfeekGyigpldifepeeikelkkairaklldretakykeskklsgvtni.lnyDrhldidalaeiisepkivdrvnsllGk 99 
+                           +s+ + ++f ++Gyi + dif+ +e++ l+ka+ + l d  + + ++  +  + ++i + +  h +  ++a ++ + +++d+   llG+
+  sp|Q1GNW5|ECTD_SPHAL  33 ISARQAAAFDRDGYIVLEDIFSADEVAFLQKAAGNLLADPAALDADTIVTEPQSNEIrSIFEIHAQSPVMARLAADARLADVARFLLGD 121
+                           788999***************************999999998888888888888999777***************************** PP
+
+             variant_B 100 nlllwrselFpkypgdeg..tdWHqa.dsfseasgkpqliwPeseefggtitvWialddateenGclqfipgthks..i 173
+                           ++ + +s l  k pg +g  + WH   +++    g p++      +    +++ + l ++t +nG l +ipg+h +   
+  sp|Q1GNW5|ECTD_SPHAL 122 EVYIHQSRLNYK-PGFKGreFYWHSDfETWHVEDGMPRMR-----A----LSMSVLLAENTPHNGPLMVIPGSHRTylT 190
+                           ****99998554.665542288**9888888777777766.....5....77778999****************98543 PP
+
+>> sp|Q829L6|ECTD_STRAW  Ectoine dioxygenase OS=Streptomyces avermitilis (strain ATCC 31267 / DSM 46492 / JCM 5070 / NBR
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   42.0   0.0   1.2e-13   1.5e-12      13     175 ..      36     202 ..      31     222 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 42.0 bits;  conditional E-value: 1.2e-13
+             variant_B  13 seeeieqfeekGyigpldifepeeikelkkairaklldretakykeskklsgvtni.lnyDrhldidalaeiisepkivdrvnsllGkn 100
+                           ++ +++++e++G++ + ++   +e++    ++++ + d  + + + s    + ++i + +  h   ++ a+++ ++++v r  ++lG++
+  sp|Q829L6|ECTD_STRAW  36 TAADLQSYEHDGFLAVPQLIGDDEVALYHAELERLIHDPAVRADERSIVEPQSQEIrSVFEVHKISEIFAQLVRDERVVGRARQILGSD 124
+                           78899****************************9999999999888888888999*788****************************** PP
+
+             variant_B 101 lllwrselFpkyp.gdegtdWHqa.dsfseasgkpqliwPeseefggtitvWialddateenGclqfipgthks..........iny 175
+                           + + +s +  k   g  g+ WH   +++    g      P+ +    t++v ial+++   nG+l ++pg+hk+           ny
+  sp|Q829L6|ECTD_STRAW 125 VYVHQSRINVKPGfGASGFYWHSDfETWHAEDGL-----PNMR----TVSVSIALTENYDTNGGLMIMPGSHKTflgcagatpkDNY 202
+                           ***99998766423799******66666655444.....5555....59***********************996655555444444 PP
+
+>> sp|E3VWK0|PENH_STREX  1-deoxypentalenic acid 11-beta-hydroxylase OS=Streptomyces exfoliatus OX=1905 GN=penH PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   16.0   0.0   9.2e-06   0.00011      19     172 ..      24     173 ..      15     184 .. 0.81
+   2 !   20.6   0.0   3.8e-07   4.7e-06     212     263 ..     197     248 ..     179     252 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 16.0 bits;  conditional E-value: 9.2e-06
+             variant_B  19 qfeekGyigpldifepeeikelkkairaklldretakykeskklsgvtnilnyDrhldidala..eiisepkivdrvnsllGknlllwr 105
+                           ++ e+Gy+ +   +++e +++  +++ + l+   +a+ +++  +  ++     D    +d ++  ++ ++p  +++ +++lG+++ +++
+  sp|E3VWK0|PENH_STREX  24 FYDEHGYVYLRGALDRELVRTAAEQMLEGLIALGHADPATTLDTLTIDSFEAVDEVAMHDYVKydDLWNHPSTLKVWEKVLGEPVFVFK 112
+                           47899999999999999999999999999999888888887777777777777777777777544678888888999999********* PP
+
+             variant_B 106 selFpkypgdegtdWHqadsf.seasgkpqliwPeseefggtitvWialddateenGclqfipgthks 172
+                           s     yp   g +     sf      +  +i P+++ f    t+Wi+l  +++  G+++++ g+hk+
+  sp|E3VWK0|PENH_STREX 113 STTIRYYPSAAGSAE---PSFlTPLHQDGFYIGPNKD-FR---TAWIPLLPTSHGIGGVAVADGSHKK 173
+                           ************863...4451555666778888766.77...**********************987 PP
+
+  == domain 2  score: 20.6 bits;  conditional E-value: 3.8e-07
+             variant_B 212 pnwkpDEsqavslemkkGqavlFtstlmHaSePnkp.skqqlRlgfaaRyvpt 263
+                           +++ +DE+  +s  m++G++++F   + H+S Pn + ++  +R+++ +R  p+
+  sp|E3VWK0|PENH_STREX 197 EEFGTDEQLLFSP-MEPGDVLIFHAFMCHKSIPNVSaNPAGMRMSMDTRIQPA 248
+                           5778899888887.********************8625678******998776 PP
+
+>> sp|Q9ZVF6|PAHX_ARATH  Phytanoyl-CoA dioxygenase OS=Arabidopsis thaliana OX=3702 GN=PAHX PE=1 SV=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   10.2   0.0   0.00056    0.0071      11      50 ..       6      45 ..       3      83 .. 0.81
+   2 !   18.8   0.0   1.4e-06   1.7e-05      93     173 ..     124     205 ..      90     218 .. 0.68
+   3 !    7.5   0.0    0.0036     0.045     211     263 ..     211     259 ..     192     274 .. 0.78
+
+  Alignments for each domain:
+  == domain 1  score: 10.2 bits;  conditional E-value: 0.00056
+             variant_B 11 alseeeieqfeekGyigpldifepeeikelkkairaklld 50
+                          +l+++++++f+ +Gy+ +  + +++ei+ l k++++ l +
+  sp|Q9ZVF6|PAHX_ARATH  6 SLTPDQLDFFHSQGYLVIESFASEDEIRGLRKRMDELLNQ 45
+                          69****************************9999875544 PP
+
+  == domain 2  score: 18.8 bits;  conditional E-value: 1.4e-06
+             variant_B  93 vnsllGknlllwrselFpkypgdeg.tdWHqadsfseasgkpqliwPeseefggtitvWialddateenGclqfipgthks........ 172
+                            +sl  +  ++++s +  k+pg  g +  Hq +sf+       +  P+s         Wial+d+t  nGcl  ipg+hk+        
+  sp|Q9ZVF6|PAHX_ARATH 124 ASSLGYRRPVVMQSMYIFKQPGIGGeVVPHQDNSFV-------YTDPQSCT-----GLWIALEDSTLVNGCLWAIPGSHKNglvrrfir 200
+                           555544555555666656666654425667777777.......44566665.....59*********************9866655544 PP
+
+             variant_B 173 ....i 173
+                               i
+  sp|Q9ZVF6|PAHX_ARATH 201 gdngI 205
+                           44444 PP
+
+  == domain 3  score: 7.5 bits;  conditional E-value: 0.0036
+             variant_B 211 dpnwkpDEsqavslemkkGqavlFtstlmHaSePnkpskqqlRlgfaaRyvpt 263
+                            p++  + ++ vs+emk+G  +     l+H+S  n   +++ R +++   v++
+  sp|Q9ZVF6|PAHX_ARATH 211 SPSY--EQKDFVSIEMKAGSLIAIHGDLIHQSFENL--SSKSRHAYSLHVVES 259
+                           4444..4567799**********************9..667788888777765 PP
+
+>> sp|A4VFY4|ECTD_STUS1  Ectoine dioxygenase OS=Stutzerimonas stutzeri (strain A1501) OX=379731 GN=ectD PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   32.3   0.0   1.1e-10   1.3e-09      12     172 ..      34     188 ..      24     211 .. 0.87
+   2 ?    4.0   0.0     0.041      0.52     228     266 ..     234     272 ..     230     275 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 32.3 bits;  conditional E-value: 1.1e-10
+             variant_B  12 lseeeieqfeekGyigpldifepeeikelkkairaklldretakykeskklsgvtni.lnyDrhldidalaeiisepkivdrvnsllGk 99 
+                           + +e +e+fe++Gy+ + ++f+ +e++    ++++  +d  +a + ++ k      i + +  h d ++ a ++ +++ +     +lG 
+  sp|A4VFY4|ECTD_STUS1  34 IAAELVERFERDGYLVIPNLFSADEVALFRAELERMRQDPAVAGSGKTIKEPDSGAIrSVFAIHKDNELFARVAADERTAGIARFILGG 122
+                           677889***************************************999999999999778***************************** PP
+
+             variant_B 100 nlllwrsel.FpkypgdegtdWHqa.dsfseasgkpqliwPeseefggtitvWialddateenGclqfipgthks 172
+                           +l + +s + F+     +++ WH   +++    g p++           ++  i l+d++ +nG l ++pg+hk+
+  sp|A4VFY4|ECTD_STUS1 123 DLYVHQSRMnFKPGFTGKEFYWHSDfETWHIEDGMPRMR---------CLSCSILLTDNEPHNGPLMLMPGSHKH 188
+                           *****999846556667899****888888887777776.........388999*******************97 PP
+
+  == domain 2  score: 4.0 bits;  conditional E-value: 0.041
+             variant_B 228 kGqavlFtstlmHaSePnkpskqqlRlgfaaRyvptdvr 266
+                           +G +v+F  ++mH S+ n++ +    l ++  +v+ +v+
+  sp|A4VFY4|ECTD_STUS1 234 AGSVVFFDCNTMHGSNGNITPSARSNLFYVYNHVDNAVQ 272
+                           699**************9977777777777777777765 PP
+
+>> sp|E3VWI4|PNTH_STRAE  1-deoxypentalenic acid 11-beta-hydroxylase OS=Streptomyces arenae OX=29301 GN=pntH PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   15.5   0.0   1.3e-05   0.00016      19     172 ..      24     173 ..      14     190 .. 0.74
+   2 !   18.2   0.0     2e-06   2.5e-05     216     263 ..     201     248 ..     195     252 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 15.5 bits;  conditional E-value: 1.3e-05
+             variant_B  19 qfeekGyigpldifepeeikelkkairaklldretakykeskklsgvtnilnyDrhldidal..aeiisepkivdrvnsllGknlllwr 105
+                           ++ e+Gy+ +  ++++e ++++ +++ + l+   +a+  ++  +  ++     D    +d +   ++ ++p  +++ +++ G+++ +++
+  sp|E3VWI4|PNTH_STRAE  24 FYDEHGYVYLRGVLDRELVRTTAEQMLQGLIALGHAAPGTTLDTLTIESYEAVDEVAMHDHVryDDLWNHPSTLKVWEKVFGEPVFVFK 112
+                           48999****************99999999999888877665543333333333333333333112445566667778889********* PP
+
+             variant_B 106 selFpkypgdegtdWHqadsf.seasgkpqliwPeseefggtitvWialddateenGclqfipgthks 172
+                           s     yp   + +     sf      +  +i P+++ f    t+Wi+l  +t+ +G+++++ g+hk+
+  sp|E3VWI4|PNTH_STRAE 113 STTIRYYPSAPDSAE---PSFlTPLHQDGFYIGPNKD-FR---TAWIPLLPTTRGTGGVAIADGSHKK 173
+                           **9999998876542...3441455556777888766.77...***********************97 PP
+
+  == domain 2  score: 18.2 bits;  conditional E-value: 2e-06
+             variant_B 216 pDEsqavslemkkGqavlFtstlmHaSePnkp.skqqlRlgfaaRyvpt 263
+                           +DE+  +s  m++G+++lF   + H+S+Pn + ++  +R+++ +R  p+
+  sp|E3VWI4|PNTH_STRAE 201 ADEELLFSP-MEPGDVLLFHAFMCHKSLPNVSvDPAGMRMSMDTRIQPA 248
+                           566666665.9*******************97356789****9998776 PP
+
+>> sp|Q10E49|PAHX1_ORYSJ  Phytanoyl-CoA dioxygenase 1 OS=Oryza sativa subsp. japonica OX=39947 GN=Os03g0708100 PE=2 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    4.7   0.0     0.026      0.33      11      41 ..       6      36 ..       3      44 .. 0.87
+   2 !   16.5   0.2   6.7e-06   8.4e-05     149     173 ..     168     197 ..     149     261 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 4.7 bits;  conditional E-value: 0.026
+              variant_B 11 alseeeieqfeekGyigpldifepeeikelk 41
+                           +l++e++ +f  +Gy+ +  + + ee++ + 
+  sp|Q10E49|PAHX1_ORYSJ  6 SLTDEQLRFFDANGYLVLGSFSSAEEVRAMR 36
+                           69***************99999999998765 PP
+
+  == domain 2  score: 16.5 bits;  conditional E-value: 6.7e-06
+              variant_B 149 vWialddateenGclqfipgthks.....i 173
+                             W al+dat+ nGcl  ipg+hk+     +
+  sp|Q10E49|PAHX1_ORYSJ 168 LWLALEDATKTNGCLWAIPGSHKNglkrrM 197
+                            7*********************98655552 PP
+
+>> sp|E1VA04|ECTD_HALED  Ectoine dioxygenase OS=Halomonas elongata (strain ATCC 33173 / DSM 2581 / NBRC 15536 / NCIMB 21
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   25.5   0.0   1.2e-08   1.5e-07       8     171 ..      65     222 ..      60     241 .. 0.85
+   2 ?   -1.8   0.0       2.5        31     228     246 ..     269     287 ..     266     297 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 25.5 bits;  conditional E-value: 1.2e-08
+             variant_B   8 lsfalseeeieqfeekGyigpldifepeeikelkkairaklldretakykeskklsgvtni.lnyDrhldidalaeiisepkivdrvns 95 
+                           ++  ls+ ++++fe++G+i   d+++ ee++ l ++++a l        +   +  + ++i + +  h    + + ++++++++ r  +
+  sp|E1VA04|ECTD_HALED  65 ADGPLSAAQLDTFERQGFIFEPDFLKGEELEALRHELNALLARDDFRGRDFAITEPQGNEIrSLFAVHYLSRVFSRLANDERLMGRARQ 153
+                           566799*******************************99998888777777766677789966799***9******************* PP
+
+             variant_B  96 llGknlllwrselFpkyp.gdegtdWHqa.dsfseasgkpqliwPeseefggtitvWialddateenGclqfipgthk 171
+                           +lG +  + +s +  k   + +g++WH   +++    g      P  ++    +++ i l+d+   nG l ++pg+h 
+  sp|E1VA04|ECTD_HALED 154 ILGGEPYVHQSRINYKPGfEGKGFNWHSDfETWHAEDGM-----PAMHA----VSASIVLTDNHTFNGPLMLVPGSHR 222
+                           *****999999885553214579*****77777766555.....55555....8999*******************96 PP
+
+  == domain 2  score: -1.8 bits;  conditional E-value: 2.5
+             variant_B 228 kGqavlFtstlmHaSePnk 246
+                           +G  +lF  +++H S+ n+
+  sp|E1VA04|ECTD_HALED 269 AGGLLLFDCNTLHGSNANM 287
+                           6899***********9887 PP
+
+>> sp|Q65WW7|PAHX2_ORYSJ  Phytanoyl-CoA dioxygenase 2 OS=Oryza sativa subsp. japonica OX=39947 GN=Os05g0473900 PE=2 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    3.6   0.0     0.056       0.7      11      41 ..       6      36 ..       3      44 .. 0.89
+   2 !   16.4   0.0     7e-06   8.7e-05     148     174 ..     167     198 ..     149     210 .. 0.80
+   3 ?    4.6   0.0     0.028      0.35     197     249 ..     194     244 ..     190     270 .. 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 3.6 bits;  conditional E-value: 0.056
+              variant_B 11 alseeeieqfeekGyigpldifepeeikelk 41
+                           +l+++++++f  +Gy+ +  + + ee+k + 
+  sp|Q65WW7|PAHX2_ORYSJ  6 SLTDKQLHFFDANGYLVLGSFSSAEEVKAMR 36
+                           699******************9999999876 PP
+
+  == domain 2  score: 16.4 bits;  conditional E-value: 7e-06
+              variant_B 148 tvWialddateenGclqfipgthks.....in 174
+                              W al+dat+ nGcl  ipg+hk+     + 
+  sp|Q65WW7|PAHX2_ORYSJ 167 GLWLALEDATKTNGCLWAIPGSHKNglkrrMI 198
+                            47*********************986665544 PP
+
+  == domain 3  score: 4.6 bits;  conditional E-value: 0.028
+              variant_B 197 krgffgydyrklqkdpnwkpDEsqavslemkkGqavlFtstlmHaSePnkpsk 249
+                            kr ++  + +  +  p+ + D ++ v+le+k G+ v+    l+H+S  n   +
+  sp|Q65WW7|PAHX2_ORYSJ 194 KRRMIRDENDTHFDHPSPTYDLKEFVPLEVKSGDLVVIHGDLVHQSFENL--S 244
+                            5555555555555677777799999*********************9887..3 PP
+
+>> sp|A0A3G9H185|CDMA_TALVE  Dioxygenase cdmA OS=Talaromyces verruculosus OX=198730 GN=cdmA PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   13.1   0.0     7e-05   0.00088      13     170 ..      19     179 ..       9     188 .. 0.78
+   2 !    7.8   0.0    0.0029     0.036     219     254 ..     191     224 ..     180     229 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 13.1 bits;  conditional E-value: 7e-05
+                 variant_B  13 seeei.eqfeekGyigpldifepeeikelkkairaklldretaky........keskklsgvtnilnyDrhldidalaeiisepk 88 
+                               s+e++ e  +++G + ++d++++  +++  ++i+ ++ d e  ++        +  + +++v+n++   +   +d+l++  ++  
+  sp|A0A3G9H185|CDMA_TALVE  19 SPEQViELLKQDGVVVLKDFLDQATVQSFREEIKPAIDDFEGGPNfnpdgvkvDIGRGTKHVANLTAISKTYRHDILNNKWMHS- 102
+                               5566415589999999999999999999999999988776654431110000033344567888888999999**********9. PP
+
+                 variant_B  89 ivdrvnsllGknlllwrselFpkypgdegtdWHqadsfseasgkpqliwPeseefggtitvWialddateenGclqfipgth 170
+                               i++ +      +  + r  +   +pg+   + H  d +  +    +l  P + ++   i + ia ++   +nG+ +f+pg+h
+  sp|A0A3G9H185|CDMA_TALVE 103 ILEPLFRPHFGDYWMNRGSVLHIEPGEPAQNLHRDDILYRV---TKLRQPGDPDLM--INILIAVTEFRDDNGATRFVPGSH 179
+                               5555555554567889999***************9999877...9********977..**********************99 PP
+
+  == domain 2  score: 7.8 bits;  conditional E-value: 0.0029
+                 variant_B 219 sqavslemkkGqavlFtstlmHaSePnkpskqqlRl 254
+                               +qa s+ +++G+a+lF  +l+H    n+  +++ R 
+  sp|A0A3G9H185|CDMA_TALVE 191 DQASSAALRPGDALLFVGSLWHGAGSNQ--SDAFRQ 224
+                               57889999**************988777..555555 PP
+
+>> sp|R9UTQ8|PROHY_STRGD  L-proline trans-4-hydroxylase OS=Streptomyces griseoviridis OX=45398 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   19.8   0.0   6.6e-07   8.2e-06      19     172 ..      13     156 ..       8     185 .. 0.75
+   2 ?    0.9   0.0      0.37       4.6     228     253 ..     206     229 ..     202     240 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 19.8 bits;  conditional E-value: 6.6e-07
+              variant_B  19 qfeekGyigpldifepeeikelkkairaklldretakykeskklsgvtni.lnyDrhldidalaeiisepkivdrvnsllGknlllwr 105
+                            ++ ++G++ +   ++  ++++l ++i+    +re+ ++ + +  +g + + +    h + ++ a ++  p++v   ++llG ++ + +
+  sp|R9UTQ8|PROHY_STRGD  13 RYGRDGWLPLPHTLSDPDVRKLRQRIEGI--SREQRPEVVLE--EGSSAVrALHGCHDFDEVCARLVRLPALVGLAEQLLGGPVYVYQ 96 
+                            57788888888888888888888888754..44444444333..444455344556666788999*********************** PP
+
+              variant_B 106 selFpkypgdeg.tdWHqadsfseasgkpqliwPeseefggtitvWialddateenGclqfipgthks 172
+                             ++  k+ ++    +WHq   f++   +  +  P+  +      + i ldd t enG l++ipg+++ 
+  sp|R9UTQ8|PROHY_STRGD  97 FKVNMKQAHEGAaWPWHQ--DFAFWHHEDGMGAPDAVN------IAIFLDDVTDENGPLEVIPGSQHA 156
+                            *99888766543246788..788777777777776555......5589****************9876 PP
+
+  == domain 2  score: 0.9 bits;  conditional E-value: 0.37
+              variant_B 228 kGqavlFtstlmHaSePnkpskqqlR 253
+                            +G av F  +++H+S  n++ +  +R
+  sp|R9UTQ8|PROHY_STRGD 206 AGTAVAFHPSIIHSSSNNTSAQ--RR 229
+                            6999************999443..33 PP
+
+>> sp|Q4WAZ3|FMAF_ASPFU  Dioxygenase af480 OS=Aspergillus fumigatus (strain ATCC MYA-4609 / CBS 101355 / FGSC A1100 / Af
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   18.4   0.0   1.7e-06   2.2e-05       9     176 ..      38     199 ..      30     207 .. 0.75
+   2 ?    1.5   0.0      0.25       3.1     222     253 ..     210     240 ..     198     253 .. 0.78
+
+  Alignments for each domain:
+  == domain 1  score: 18.4 bits;  conditional E-value: 1.7e-06
+             variant_B   9 sfalseeeieq.feekGyigpldifepeeikelkkairaklldretakykeskkl..sgvtni.lnyDrhldidalaeiisepkivdrv 93 
+                           +++l+ e+ ++  +e+G++++  ++++ e ++   ++ +++  +e+  + + + +   + +n+ + y   l      +++ +p  +d  
+  sp|Q4WAZ3|FMAF_ASPFU  38 DMTLNMEDAQAhLKEHGWVKIPAVLSKAEAEDALSRLWEAKAASEARGECTFQPIldPNPANVrVFYLPEL-DAYWRDMLVNPTALDLA 125
+                           67788887775499***********9988877666655444444443333333221145578855576666.55789************ PP
+
+             variant_B  94 nsllGknlllwrselFpkypgdegtdWHqadsfseasgkpqliwP.eseefggtitvWialddateenGclqfipgthksinyd 176
+                           +sllG++ll+ +       pg e ++ H  +s         ++ P    +  +++ v   l+  t+enG+  +ipg+ k   ++
+  sp|Q4WAZ3|FMAF_ASPFU 126 KSLLGDQLLVSNFSANIARPGAESMALHSDQS---------IVLPaPWLD-VWAVNVIWCLTRMTKENGATLYIPGSNKWTTWE 199
+                           ****************************9544.........555632333.489999889****************99877775 PP
+
+  == domain 2  score: 1.5 bits;  conditional E-value: 0.25
+             variant_B 222 vslemkkGqavlFtstlmHaSePnkpskqqlR 253
+                           v+ e  +G++v+   +l+H S  n  ++++ R
+  sp|Q4WAZ3|FMAF_ASPFU 210 VPFEADAGDIVVIDGRLWHTSGSNV-TEDEDR 240
+                           5677789**************9999.444444 PP
+
+>> sp|A0A3G9GR23|CDMD_TALVE  Dioxygenase cdmD OS=Talaromyces verruculosus OX=198730 GN=cdmD PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !    6.9   0.0    0.0055     0.069      83     171 ..     105     192 ..      63     200 .. 0.68
+   2 ?    3.1   0.0     0.078      0.98     219     256 ..     205     240 ..     199     250 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 6.9 bits;  conditional E-value: 0.0055
+                 variant_B  83 iisepkivdrvnsllGknl...llwrselFpkypgdegtdWHqa.dsfseasgkpqliwPeseefggtitvWialddateenGcl 163
+                               +++++ + ++ +++ G++     +   ++  ++pg++    H   + +  +    +l   ++ ef   i   ++l++  e+nG+ 
+  sp|A0A3G9GR23|CDMD_TALVE 105 VLNHKWMHAVCEQIYGEEFgdyWMNCAHILHLEPGEKAQFFHRDtGVYRVSDFRRRL---NDPEFM--INFLVSLTEFREDNGAT 184
+                               444444444556666664322155566778889999999999854445544333444...566677..9999************* PP
+
+                 variant_B 164 qfipgthk 171
+                               q+ipg+hk
+  sp|A0A3G9GR23|CDMD_TALVE 185 QLIPGSHK 192
+                               ******97 PP
+
+  == domain 2  score: 3.1 bits;  conditional E-value: 0.078
+                 variant_B 219 sqavslemkkGqavlFtstlmHaSePnkpskqqlRlgf 256
+                               ++av++ +++G+av++  +l+H    n   + ++R+g+
+  sp|A0A3G9GR23|CDMD_TALVE 205 DEAVPAILEPGDAVVYLGSLFHGAGENR--SLDYRRGM 240
+                               579999****************998887..67777776 PP
+
+>> sp|P0DPA0|PAHX_DICDI  Putative phytanoyl-CoA dioxygenase OS=Dictyostelium discoideum OX=44689 GN=DDB_G0349042 PE=3 SV
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.0   0.3      0.34       4.2      13      44 ..      44      75 ..      29     101 .. 0.67
+   2 !    8.5   0.0    0.0018     0.023     211     264 ..     253     309 ..     218     334 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 1.0 bits;  conditional E-value: 0.34
+             variant_B 13 seeeieqfeekGyigpldifepeeikelkkai 44
+                           ++  e+fe+ G++ + ++ ++e+ +++  +i
+  sp|P0DPA0|PAHX_DICDI 44 ENNPYEFFERYGFLVIRNVISEEDCNKTVGEI 75
+                          3445677**************99987766555 PP
+
+  == domain 2  score: 8.5 bits;  conditional E-value: 0.0018
+             variant_B 211 dpnwkpD.....EsqavslemkkGqavlFtstlmHaSePnkpskqqlRlgfaaRyvptd 264
+                            p+w+ D      ++a +++m+kG +v++++++ H S  nk  + + R++  ++  pt+
+  sp|P0DPA0|PAHX_DICDI 253 SPSWNFDkkdiaFKYAKRISMRKGSIVVWNQQMPHGSMSNK--SFNPRMAQFIKIFPTS 309
+                           5777777544444678899*******************999..6677888777777665 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (318 nodes)
+Target sequences:                        376  (172603 residues searched)
+Passed MSV filter:                        60  (0.159574); expected 7.5 (0.02)
+Passed bias filter:                       60  (0.159574); expected 7.5 (0.02)
+Passed Vit filter:                        38  (0.101064); expected 0.4 (0.001)
+Passed Fwd filter:                        30  (0.0797872); expected 0.0 (1e-05)
+Initial search space (Z):                376  [actual number of targets]
+Domain search space  (domZ):              30  [number of targets reported over threshold]
+# CPU time: 0.12u 0.00s 00:00:00.12 Elapsed: 00:00:00.14
+# Mc/sec: 371.83
+//
+[ok]

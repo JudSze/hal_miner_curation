@@ -78,10 +78,10 @@ def cut_sequence(file_name: str, motif: str, output_filename: str):
     write_fasta(proteins.keys(), proteins.values(), output_filename)
 
 # FDHs
-# crossval_preproc("/home/szenei/hal_miner_curation/HALOGENATION/COPPER-DEPENDENT/apnu_2x_homologs_extraction.fasta")
-get_left_out_seq_results("/home/szenei/hal_miner_curation/HALOGENATION/COPPER-DEPENDENT/crossval_hmmsearch_res/crossval_out_*.out",
-                         "/home/szenei/hal_miner_curation/HALOGENATION/COPPER-DEPENDENT/samples.txt")
-
+crossval_preproc("HALOGENATION/FLAVIN_DEPENDENT_HALOGENASES/MAFFT/pyrrole/full_sequences.fasta")
+get_left_out_seq_results("HALOGENATION/FLAVIN_DEPENDENT_HALOGENASES/MAFFT/general_profile/whole/crossval_hmmsearch_res/*.out",
+                         "HALOGENATION/FLAVIN_DEPENDENT_HALOGENASES/MAFFT/general_profile/samples.txt")
+print("ok")
 # if __name__ == "__main__":
 #     fasta_file_path = sys.argv[1]
 #     # test_fasta = "/home/szenei/ENZYMES/FLAVIN_DEPENDENT_HALOGENASES/test/alkyl_halides_FDH.fasta"

@@ -1,0 +1,1355 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  HALOGENATION/FLAVIN_DEPENDENT_HALOGENASES/MAFFT/pyrrole/cut_pyrrole_accepting.hmm
+# target sequence database:        HALOGENATION/FLAVIN_DEPENDENT_HALOGENASES/MAFFT/pyrrole/negative_test.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       cut_pyrrole_accepting  [M=362]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                       Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                       -----------
+   1.4e-139  458.0   0.0   1.6e-139  457.8   0.0    1.0  1  ChlB4_B_orsel|Q0R4P7            [Streptomyces antibioticus]
+   1.2e-125  412.2   0.0   1.6e-125  411.7   0.0    1.2  1  CtcP_A_cycl|A0A1E7MYN1          [Kitasatospora aureofaciens]
+      2e-74  243.6   0.0    2.6e-74  243.3   0.0    1.1  1  Nat1_A_cycl|F8QPG4              [Streptomyces sp. CS]
+    4.4e-72  235.9   0.0    5.5e-72  235.6   0.0    1.1  1  Clo-Hal_B|AAN65237.1            
+    5.9e-71  232.2   0.0    8.2e-71  231.7   0.0    1.2  1  XanH_A_cycl|ADE22292.1          [Streptomyces flavogriseus]
+    1.8e-67  220.8   0.0    2.6e-67  220.2   0.0    1.2  1  End30_B|ABD65950.1              
+    1.1e-66  218.2   0.0    1.3e-66  217.9   0.0    1.1  1  VhaA_B|G4V4R7                   
+    1.1e-66  218.1   0.0    1.4e-66  217.8   0.0    1.1  1  BhaA_B|O87676                   
+    3.6e-66  216.5   0.0    4.8e-66  216.0   0.0    1.2  1  Tcp21_B|Q70AY7                  
+    4.8e-66  216.1   0.0    6.2e-66  215.7   0.0    1.1  1  CalO3_A?_orsel|Q8KND5           [Micromonospora echinospora]
+    1.5e-65  214.4   0.0    1.8e-65  214.2   0.0    1.1  1  Asm12_A_cycl|AQZ37099.1         [Actinosynnema pretiosum subsp. 
+    1.8e-65  214.1   0.0    2.3e-65  213.8   0.0    1.1  1  Ram20_B|DD382878.1              
+      2e-65  214.0   0.0    2.6e-65  213.7   0.0    1.1  1  CndH_B|B9ZUJ5                   
+    1.1e-64  211.6   0.0    1.5e-64  211.1   0.0    1.2  1  SgcC3_B                         
+    1.3e-64  211.3   0.0    2.6e-64  210.4   0.0    1.5  1  SimC6_cycl|AF324838             [Streptomyces antibioticus]
+    1.6e-64  211.0   0.0    2.6e-64  210.4   0.0    1.3  1  CrpH_B|A4D940                   
+    7.8e-64  208.8   0.0    1.1e-63  208.3   0.0    1.2  1  TiaM_A_orsel|E9LIP1             [Dactylosporangium aurantiacum s
+    2.6e-59  193.9   0.0    6.7e-59  192.6   0.0    1.7  1  AviH_orsel|STVIR_2874|ELS56116  [Streptomyces viridochromogenes 
+    7.7e-36  116.7   0.0    1.1e-35  116.2   0.0    1.2  1  AerJ_B|B4EQU1                   
+    1.2e-31  102.9   0.0    1.8e-31  102.3   0.0    1.2  1  ApdC|K7WGH6                     
+    3.7e-31  101.3   0.0    5.3e-31  100.8   0.0    1.2  1  McnD_B|A4Z4I8                   
+    5.5e-16   51.4   0.5    8.2e-08   24.5   0.3    3.1  2  tr|A1E280_STRAO|thal-6          [Streptomyces albogriseolus]
+      6e-14   44.7   0.0    4.5e-13   41.8   0.0    2.4  1  tr|G0ZGJ1_SERPL|prnA-7          [Serratia plymuthica]
+    2.7e-13   42.5   0.0    2.5e-12   39.3   0.0    2.5  1  sp|P95480|prnA-7                [Pseudomonas fluorescens]
+    1.1e-12   40.5   0.2    3.3e-06   19.2   0.1    3.0  2  tr|A8CF75_9PSEU|ktzQ-7          [Kutzneria sp. (strain 744)]
+    4.1e-12   38.6   0.3      3e-08   25.9   0.2    2.9  2  tr|REBH_LENAE|rebH-7            [Lentzea aerocolonigenes]
+    8.1e-12   37.6   0.0    2.4e-08   26.2   0.0    3.6  1  tr|A8CF74_9PSEU|ktzR-6          [Kutzneria sp. (strain 744)]
+    1.2e-11   37.1   0.0    2.4e-06   19.6   0.0    2.7  2  tr|W1J423|pyrH-5                [Xenorhabdus szentirmaii DSM 163
+    3.5e-11   35.6   0.9    2.1e-05   16.5   0.1    3.2  3  tr|M9QSI0_9BACT|borH-6          [uncultured bacterium]
+    4.8e-11   35.1   0.0    6.4e-07   21.5   0.0    3.0  3  tr|A4D0H5|pyrH-5                [Streptomyces rugosporus]
+    1.6e-10   33.4   0.0    7.7e-07   21.3   0.0    3.4  3  tr|F6LWA5|abeH-5                [uncultured bacterium AB1650]
+    1.9e-10   33.2   0.1    8.9e-09   27.6   0.0    2.8  2  tr|A0A0K0P8P2_9BACT|lzrH2-6     [uncultured bacterium]
+    1.9e-10   33.2   0.0      4e-09   28.8   0.0    2.8  1  tr|E2IHC5|mibH-5                [Microbispora corallina]
+    1.8e-09   29.9   0.0    5.9e-07   21.6   0.0    3.3  1  tr|A0A1L1QK36_STRVO|th-hal-6    [Streptomyces violaceusniger]
+    6.1e-09   28.2   0.1    8.8e-07   21.1   0.1    3.4  1  tr|E9P162_9ACTN|stth-6          [Streptomyces toxytricini]
+    6.2e-09   28.2   0.1    0.00047   12.1   0.1    3.4  2  tr|A0A1W7D4T7|SpmH-5            [Streptomyces marincola]
+    1.3e-08   27.2   0.3     0.0083    8.0   0.2    3.7  3  tr|G3K6J6|claH-5                [Streptomyces uncialis]
+      2e-08   26.5   0.0    1.9e-05   16.7   0.0    3.3  2  tr|A0A0K0P9W9|lzrH1-5           [uncultured bacterium]
+    4.8e-08   25.2   0.5    8.5e-06   17.8   0.1    2.2  2  sp|A0A059WYP6|TET50_UNKP        Flavin-dependent monooxygenase O
+    1.2e-07   23.9   0.0    7.4e-06   18.0   0.0    3.1  2  tr|W5VG40_SACPI|Tar14-6         [Saccharomonospora piscinae]
+    3.5e-07   22.4   0.0    6.6e-07   21.5   0.0    1.4  1  sp|B1MM05|TETX_MYCA9            Flavin-dependent monooxygenase O
+    0.00047   12.1   0.1     0.0026    9.6   0.0    2.0  2  sp|D3HKY4|TET56_LEGLN           Flavin-dependent monooxygenase O
+    0.00092   11.1   0.0      0.041    5.7   0.0    2.2  2  sp|Q01911|TETX_BACFG            Flavin-dependent monooxygenase O
+    0.00092   11.1   0.0      0.041    5.7   0.0    2.2  2  sp|Q06DK7|TETX_SPHSM            Flavin-dependent monooxygenase O
+
+
+Domain annotation for each sequence (and alignments):
+>> ChlB4_B_orsel|Q0R4P7  [Streptomyces antibioticus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  457.8   0.0  6.3e-140  1.6e-139       1     362 []      11     380 ..      11     380 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 457.8 bits;  conditional E-value: 6.3e-140
+  cut_pyrrole_accepting   1 GsGpaGstlgailakkglkvlviekdefprfhiGESlipattvvlreiglldkveaagfPekfGv.........kkkiGfllkkegfr 79 
+                            G+GpaGs+++++la +gl+v+v+e++ fpr hiGESl+pat +vl+eig+++++eaagfP+k+G+         + + Gf++ +++f+
+   ChlB4_B_orsel|Q0R4P7  11 GGGPAGSAMASYLAEAGLSVAVFESEMFPRPHIGESLVPATMPVLDEIGVMPDIEAAGFPKKYGAawtsaesrdVPHNGFTGLDHDFK 98 
+                            9*************************************************************************************** PP
+
+  cut_pyrrole_accepting  80 aaekefnerdqpgl.ldetfhvdRsdfDalLlekAvelGakvrqgvrvkdvef..deekvvvkaakg..eeqvrarmvvDasGrrtfL 162
+                            aae++f erdqpg+ +d+tfhvdR++fD +Ll++A + Ga+v+q++rv + +f  d + v+++ + g  + ++++rmv+DasGr+t+L
+   ChlB4_B_orsel|Q0R4P7  99 AAEVMFVERDQPGVhRDYTFHVDRGKFDLILLKHAESRGAQVFQKTRVLKADFdtDPDLVTLNCRLGprTLDFTTRMVIDASGRQTML 186
+                            ************************************************988883366789999999988889**************** PP
+
+  cut_pyrrole_accepting 163 arklklreedavfkqiaifahfenvdrkadlvdkeqedyifi...pvsettvlyskergWvWvIpisntltSvGvvldkekykkekks 247
+                            +++lk++  d+vf+q+ai+a+fe++dr+a + d++++dyi++   p+ +t         W+W+Ipi++t+tSvGvv++k+++k+++ +
+   ChlB4_B_orsel|Q0R4P7 187 GNQLKVKVPDPVFNQYAIHAWFEGLDRTAMALDPAKRDYIYVhflPLEDT---------WMWQIPITDTITSVGVVTQKHRFKAASAD 265
+                            ******************************************55555666.........***************************** PP
+
+  cut_pyrrole_accepting 248 peeefwelaarrpelkrrfkkaervrefkseadysYsikqvvGdrwlllgdaarFvDPiFSrGvsvalesaralakrliaavkddDfs 335
+                            +e++fw+++++r ++ ++++kaer+r+fk+e+dysY+++q++Gdr+ll+gdaarFvDPiFS+Gvsval+sar +ak++iaa++++Df+
+   ChlB4_B_orsel|Q0R4P7 266 REKFFWDIVSSRKDIYDALQKAERIRPFKAEGDYSYAMRQICGDRFLLIGDAARFVDPIFSSGVSVALNSARLAAKDVIAAHRAGDFR 353
+                            **************************************************************************************** PP
+
+  cut_pyrrole_accepting 336 kerfeayerlsqkgldiaddlisiayi 362
+                            ke+f +ye+++++++ +++++is++y+
+   ChlB4_B_orsel|Q0R4P7 354 KESFATYEEKLRRAVRNWYEFISVYYR 380
+                            **************************7 PP
+
+>> CtcP_A_cycl|A0A1E7MYN1  [Kitasatospora aureofaciens]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  411.7   0.0  6.4e-126  1.6e-125       1     362 []      22     402 ..      22     402 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 411.7 bits;  conditional E-value: 6.4e-126
+   cut_pyrrole_accepting   1 GsGpaGstlgailakkglkvlviekdefprfhiGESlipattvvlreiglldkveaagfPe................kfGvkkkiGf 71 
+                             GsG++G++lg+ilak+g+++++++  ++prf++GES+i++t+vvlr i+     +++g+Pe                + G k+++Gf
+  CtcP_A_cycl|A0A1E7MYN1  22 GSGLSGTMLGSILAKHGFRIMLLDGAHHPRFAVGESTIGQTLVVLRLIS-----DRYGVPEianlasfqdvlanvssSHGQKSNFGF 103
+                             9************************************************.....**********************99********* PP
+
+   cut_pyrrole_accepting  72 llkkegfraaekefnerdqpglldetfhvdRsdfDalLlekAvelGakvrqgvrvkdvefdeekvvvkaakgeeqvrarmvvDasGr 158
+                             +++++g++++++e  ++++p ++ ++ h  R+d+D++++++Av++G+  rq  rv+++efd+ +v+v+ a+g ++vrar++vDasG+
+  CtcP_A_cycl|A0A1E7MYN1 104 MFHRDGEEPDPNETSQFRIPSIVGNAAHFFRQDTDSYMFHAAVRYGCDARQYYRVENIEFDDGGVTVSGADG-STVRARYLVDASGF 189
+                             ***********************************************************************9.9************* PP
+
+   cut_pyrrole_accepting 159 rtfLarklklreedavfkqi..aifahfenvdrkadlvdkeqedyifipvsettvlyskergWvWvIpi......sntltSvGvvld 237
+                             r++Lar+l+lree++++k++  +if+h+ +vd  +d vd+ +e  +++p+ ++t+++ +ergW+W+Ip+      +n+l+SvG++ld
+  CtcP_A_cycl|A0A1E7MYN1 190 RSPLARQLGLREEPSRLKHHarSIFTHMVGVDAIDDHVDTPAELRPPVPWNDGTMHHIFERGWMWIIPFnnhpgaTNPLCSVGIQLD 276
+                             ********************999**************************************************************** PP
+
+   cut_pyrrole_accepting 238 kekykke.kkspeeefwelaarrpelkrrfkkaervrefkseadysYsikqvvGdrwlllgdaarFvDPiFSrGvsvalesaralak 323
+                             +++y++  + +peeefw++++r+p ++r++k+a+ vre++ +++++Ys++++vG+rw+l+++aa+F+DP+FSrG+s++ e ++al++
+  CtcP_A_cycl|A0A1E7MYN1 277 ERRYPARpDLTPEEEFWSHVDRFPAVQRQLKGARSVREWVRTDRMQYSSSRTVGERWCLMSHAAGFIDPLFSRGLSNTCEIINALSW 363
+                             ******99******************************************************************************* PP
+
+   cut_pyrrole_accepting 324 rliaavkddDfskerfeayerlsqkgldiaddlisiayi 362
+                             rl+aa+++dDf  erf ++e+l q++ld +d+l++  +i
+  CtcP_A_cycl|A0A1E7MYN1 364 RLMAALREDDFAVERFAYVEELEQGLLDWNDKLVNNSFI 402
+                             **********************************99886 PP
+
+>> Nat1_A_cycl|F8QPG4  [Streptomyces sp. CS]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  243.3   0.0     1e-74   2.6e-74       1     361 [.      12     360 ..      12     361 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 243.3 bits;  conditional E-value: 1e-74
+  cut_pyrrole_accepting   1 GsGpaGstlgailakkglkvlviekdefprfhiGESlipattvvlreiglldkveaagfPekfGvkkkiGfllkkegfraaekefner 88 
+                            G+GpaG++ +  lak+g +v+++e++efprfhiGESl p+   + + ig+ ++ve+ g+  kfG   ++     +++f  + +     
+     Nat1_A_cycl|F8QPG4  12 GGGPAGALSAYQLAKQGHSVVLLEREEFPRFHIGESLLPYMMGLFDRIGIREAVETKGYVPKFG--GEFIDPNEEKFFSDVFRADFSK 97 
+                            9**********************************************************999**..4554555555555554433444 PP
+
+  cut_pyrrole_accepting  89 dqpglldetfhvdRsdfDalLlekAvelGakvrqgvrvkdvefdeekvv...vkaakgeeqvrarmvvDasGrrtfLarklklreeda 173
+                            + +g  d +f+v+R++fD +L+e+A + Ga+v+ g +v ++ ++++  v   ++ +++e++vr+r+vvDasGr+  +a+k++lre+  
+     Nat1_A_cycl|F8QPG4  98 QGDGRYDRAFQVERAKFDGMLVEEAGKAGAEVHLGATVGELLMEGDRMVgvrYTKDGQEHEVRSRYVVDASGRAGRVAHKFGLRERLE 185
+                            55677**************************************999877766888888****************************** PP
+
+  cut_pyrrole_accepting 174 vfkqiaifahfenvdrkadlvdkeqedyifipvsettvlyskergWvWvIpisntltSvGvvldkekykkekkspeeefwelaarrpe 261
+                             ++ +a+f h+e++d k++l     e  i +          +  gWvW Ip+s+++ SvG v++++ +++  ++pee f+e++ar p 
+     Nat1_A_cycl|F8QPG4 186 KLRMVAVFRHYEGLDEKHNLGV---EGDIQVG--------AHADGWVWAIPLSKDVISVGTVMPRDVFRA--STPEEVFEEHKARIPR 260
+                            ****************999332...2223333........33558***********************86..68************** PP
+
+  cut_pyrrole_accepting 262 lkrrfkkaervrefkseadysYsikqvvGdrwlllgdaarFvDPiFSrGvsvalesaralakrliaavkddDfskerfeayerlsqkg 349
+                            + +r+ ++++  ++k e dy Y ++ v G++w+++gda  F DP+FS Gv va  +a ++a+ l +a+++       +++y++  ++g
+     Nat1_A_cycl|F8QPG4 261 IVARLTDTRPTMDLKVETDYCYHSDTVTGPGWVMVGDAGCFGDPMFSGGVLVASATAVRAAETLSDALNNPEDADRLIDEYANFFKTG 348
+                            ********************************************************************998777999*********** PP
+
+  cut_pyrrole_accepting 350 ldiaddlisiay 361
+                             d+   li+++y
+     Nat1_A_cycl|F8QPG4 349 YDTYIRLIHAFY 360
+                            *********999 PP
+
+>> Clo-Hal_B|AAN65237.1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  235.6   0.0   2.2e-72   5.5e-72       1     352 [.      13     353 ..      13     363 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 235.6 bits;  conditional E-value: 2.2e-72
+  cut_pyrrole_accepting   1 GsGpaGstlgailakkglkvlviekdefprfhiGESlipattvvlreiglldkveaagfPekfGvkkkiGfllkkegfraaekefner 88 
+                            G+Gp Gs++++ la  g kvlv+e  +fpr hiGESl   t  +l++ig+ +k+ea ++ +k+Gv+ + G +        ++ +++ r
+   Clo-Hal_B|AAN65237.1  13 GGGPGGSMVSSLLADGGKKVLVLEVAKFPRYHIGESLLLGTVDLLDKIGVREKLEAGDYIKKYGVEWVWGEQR-------EPWKVDFR 93 
+                            9***************************************************************999998653.......33455566 PP
+
+  cut_pyrrole_accepting  89 dqpgl.ldetfhvdRsdfDalLlekAvelGakvrqgvrvkdvefdeekvv....vkaakg.eeqvrarmvvDasGrrtfLarklklre 170
+                            +   +  d+t++v+R+ fD++Ll++A e+G+ vr++ rv++ + d+++       ++++g + + +ar +vDasG+   ++++l+++e
+   Clo-Hal_B|AAN65237.1  94 NAVSVtHDYTYQVERGPFDKMLLDNAREHGVDVREQHRVTNFSIDDNGRStvnyRRTDTGeTGTATARWLVDASGQGGLVTKRLHTQE 181
+                            7778889************************************99876544443334444677899********************** PP
+
+  cut_pyrrole_accepting 171 edavfkqiaifahfenvdrkadlvdkeqedyifipvsettvlyskergWvWvIpisntltSvGvvldkekykkekkspeeef.welaa 257
+                             d+ +k++a+++++++v+r++     e++  if+p  +         gW W Ip+++++tS+G v+d+e +++ k+++  ++  +  +
+   Clo-Hal_B|AAN65237.1 182 WDPYLKNMAVWSYWKGVKRSEG----EDAGNIFLPTFDD--------GWWWCIPLRDDITSIGAVVDRESLNALKSTRVRQYyLDSIE 257
+                            ********************99....7777889988777........9*************************977766555599999 PP
+
+  cut_pyrrole_accepting 258 rrpelkrrfkkaervrefkseadysYsikqvvGdrwlllgdaarFvDPiFSrGvsvalesaralakrliaavkddDfsker.feayer 344
+                            ++pel++r ++ae v +++ ++d+sY  ++++Gd+++ +gdaa F+DP+FS Gv  a+ s+  +a+ + + +++  +   r ++ ye 
+   Clo-Hal_B|AAN65237.1 258 KTPELASRTENAELVDDMHVQRDWSYIYDRFCGDGYIAIGDAACFIDPLFSTGVHLAMLSGFLAATVVNTILDKPELDTARmLQFYEG 345
+                            *************************************************************999998888888777765541455666 PP
+
+  cut_pyrrole_accepting 345 lsqkgldi 352
+                              +k +  
+   Clo-Hal_B|AAN65237.1 346 AYRKEFAR 353
+                            66666655 PP
+
+>> XanH_A_cycl|ADE22292.1  [Streptomyces flavogriseus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  231.7   0.0   3.2e-71   8.2e-71       1     361 [.      15     364 ..      15     365 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 231.7 bits;  conditional E-value: 3.2e-71
+   cut_pyrrole_accepting   1 GsGpaGstlgailakkglkvlviekdefprfhiGESlipattvvlreiglldkveaagfPekfGvkkkiGfllkkegfraaekefne 87 
+                             G+GpaGst++  lak+g++v ++e+defpr hiGES+ p+  ++l+ +g+ dkvea gf  k G+    G    +    + e+ fn 
+  XanH_A_cycl|ADE22292.1  15 GGGPAGSTAAGLLAKEGFQVTLLERDEFPRYHIGESILPSCRPILEMLGVWDKVEAHGFQPKGGAYFFWG---PE----EWEVRFNS 94 
+                             9*************************************************************99443333...22....33446788 PP
+
+   cut_pyrrole_accepting  88 rdqpglldetfhvdRsdfDalLlekAvelGakvrqgvrvkdvefdeekvv......vkaakgeeqvrarmvvDasGrrtfLark.lk 167
+                                +g   ++++v Rs+fD++Ll++A++lG++v ++++vk+++f+++ +v       k a+++ ++   +v+DasGr  + a+k lk
+  XanH_A_cycl|ADE22292.1  95 LGDDG--TNAWQVVRSEFDEILLRHAASLGVEVVENITVKELQFEGDRPVaalwagTKDASVSGRIAFDYVIDASGRGGVFAAKhLK 179
+                             88887..589**************************************997866444444447888888*********9999999** PP
+
+   cut_pyrrole_accepting 168 lreedavfkqiaifahfenvdrkadlvdkeqedyifipvsettvlyskergWvWvIpisntltSvGvvldkekykkekksp...eee 251
+                              r+ + +f+++  +++++nv++ +      ++  i +  s        e gW+W Ip+ + +tSvG+v+ ++ ++++k+     +e 
+  XanH_A_cycl|ADE22292.1 180 NRQYHEIFRNVGAWSYWKNVKPLDR----GPDGAIAVISS--------EDGWFWNIPLHDGTTSVGLVTGRDIFNEKKNALggiQEV 254
+                             *********************9998....34444333333........569***********************9987764222778 PP
+
+   cut_pyrrole_accepting 252 fwelaarrpelkrrfkkaervrefkseadysYsikqvvGdrwlllgdaarFvDPiFSrGvsvalesaralakrliaavkddDfsker 338
+                             ++++ +++p lkr +++ae+v  +k e+dysY+ + ++G+++ll gdaa F+DP+ S Gv  a  sa  +++++ ++++ +  +ke 
+  XanH_A_cycl|ADE22292.1 255 YDKAISETPHLKRLLEGAEQVSGMKVEQDYSYTAESFCGPGYLLSGDAACFLDPLLSTGVHLATYSAMLASASISSVLRGEVSEKEA 341
+                             89************************************************************************************* PP
+
+   cut_pyrrole_accepting 339 feayerlsqkgldiaddlisiay 361
+                             +e y+ + ++  +    l+s++y
+  XanH_A_cycl|ADE22292.1 342 WEFYNTVYRHSYERLLVLVSVFY 364
+                             *************9999999999 PP
+
+>> End30_B|ABD65950.1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  220.2   0.0     1e-67   2.6e-67       1     361 [.      20     376 ..      20     377 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 220.2 bits;  conditional E-value: 1e-67
+  cut_pyrrole_accepting   1 GsGpaGstlgailakkglkvlviekdefprfhiGESlipattv.vlreiglldkveaagfPekfGvkkkiGfllkkegfraaekefne 87 
+                            G+Gp+Gstl++ +a +g +vl++ek++fpr +iGESl p+t   + + +g++d+++aagfP+k G + + G   k  +f         
+     End30_B|ABD65950.1  20 GGGPSGSTLSTLVAMQGHSVLLLEKETFPRYQIGESLLPSTIHgICHLLGVTDELAAAGFPHKRGGTFRWGASPKPWNFSFS----VS 103
+                            9****************************************87377889****************88888887777766666....45 PP
+
+  cut_pyrrole_accepting  88 rdqpglldetfhvdRsdfDalLlekAvelGakvrqgvrvkdvefdeekvv....vkaakg.eeqvrarmvvDasGrrtfLark.lklr 169
+                             + +g +  +++v+Rs+fD++Ll++A+++G+ vrq+ +v+dv  d ++ +    ++  +g e++v ar+vvDasG+++ + ++  + r
+     End30_B|ABD65950.1 104 SKVSGPTSFAYQVERSKFDKILLDNAARKGVVVRQDRTVTDVVDDADGRArglrYTDPDGtEHEVSARYVVDASGNTSRIHKRvGGSR 191
+                            67788899**********************************9999988888875555556**********************66799 PP
+
+  cut_pyrrole_accepting 170 eedavfkqiaifahfenvdrkadlvdkeqedyifipvsettvlyskergWvWvIpisntltSvGvvldkekykkekkspeeefwelaa 257
+                                +fk  a+f +fen +r  +            p++ + +   +  gW+W Ip+s+tltSvG v+ +e   k++ +pe ++ +l +
+     End30_B|ABD65950.1 192 TYSDFFKSLALFGYFENGKRMPA------------PYAGNILCVAFGSGWFWYIPLSSTLTSVGAVVRREDAAKVQGDPESALRGLID 267
+                            99******************999............9999999999999**************************************** PP
+
+  cut_pyrrole_accepting 258 rrpelkrrfkkaerv.....refkseadysYsikqvvGdrwlllgdaarFvDPiFSrGvsvalesaralakrliaavkddDfskerfe 340
+                            + p +k+ +++a+rv      +++  +dysY  + +  ++ +l+gdaa FvDP+FS+Gv  a  sa  +a +l +++     ++  f+
+     End30_B|ABD65950.1 268 ECPMIKEYLADATRVttgqyGQLRVRKDYSYHHTTFWRPGMVLVGDAACFVDPVFSSGVHLATYSALLAARSLNSVLAGRIDERRAFD 355
+                            *************9933333467889*************************************************9998877799*** PP
+
+  cut_pyrrole_accepting 341 ayerlsqkgldiaddlisiay 361
+                            ++e   ++     +++++++y
+     End30_B|ABD65950.1 356 EFEARYRREYGVFYEFLTSFY 376
+                            *****************9999 PP
+
+>> VhaA_B|G4V4R7  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  217.9   0.0   5.2e-67   1.3e-66       1     361 [.      12     367 ..      12     368 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 217.9 bits;  conditional E-value: 5.2e-67
+  cut_pyrrole_accepting   1 GsGpaGstlgailakkglkvlviekdefprfhiGESlipattv.vlreiglldkveaagfPekfGvkkkiGfllkkegfraaekefne 87 
+                            G+Gp Gst+++ +a +g +vl++ek+ fpr +iGESl pat   v r +g++d+++ agfP k G + + G +     f+        
+          VhaA_B|G4V4R7  12 GGGPGGSTVATLVAMQGHRVLLLEKEVFPRYQIGESLLPATVHgVCRMLGVADELAGAGFPIKRGGTFRWGARPEPWTFHFG----IS 95 
+                            9****************************************86599*******************66666666655555444....45 PP
+
+  cut_pyrrole_accepting  88 rdqpglldetfhvdRsdfDalLlekAvelGakvrqgvrvkdvefdeekvv...vkaakg.eeqvrarmvvDasGrrtfLark.lklre 170
+                             ++ g + ++++v+R+ fD++Ll++A ++G+ vr+g+ v+dv  d+e v+   ++  +g e++v ar+v+DasG+++ L +k  + r+
+          VhaA_B|G4V4R7  96 AKMAGSTSHAYQVERARFDEILLNNAKSKGVVVREGCSVHDVVEDGERVTgakYTDPDGnEREVSARFVIDASGNKSRLYSKvGGSRN 183
+                            6788999*******************************************9885555556**********************667999 PP
+
+  cut_pyrrole_accepting 171 edavfkqiaifahfenvdrkadlvdkeqedyifipvsettvlyskergWvWvIpisntltSvGvvldkekykkekkspeeefwelaar 258
+                               +f+  a+f +fe+ +r  +            pvs + +   +++gW+W Ip+s+tltSvG v+ +e   k + ++e++++ l a+
+          VhaA_B|G4V4R7 184 YSEFFRSLALFGYFEGGKRLPE------------PVSGNILSVAFDNGWFWYIPLSDTLTSVGAVVRREDADKIQGDREKALNALIAE 259
+                            9*******************99............9999999999******************************************** PP
+
+  cut_pyrrole_accepting 259 rpelkrrfkkaerv.....refkseadysYsikqvvGdrwlllgdaarFvDPiFSrGvsvalesaralakrliaavkddDfskerfea 341
+                             p + + +++a+rv      e++  +dysY+ +    ++ +l+gdaa FvDP+FS+Gv  a  sa  +a ++ +++  d  +k+ +++
+          VhaA_B|G4V4R7 260 CPLISEYLSNATRVttgkyGELRVRKDYSYQQETYWRPGMVLVGDAACFVDPVFSSGVHLATYSALLAARSINSVLAGDLDEKTALNE 347
+                            ************9944333478999****************************************99999988877766557999*** PP
+
+  cut_pyrrole_accepting 342 yerlsqkgldiaddlisiay 361
+                            +e   ++     ++++ ++y
+          VhaA_B|G4V4R7 348 FEARYRREYGVFYEFLVSFY 367
+                            **************999988 PP
+
+>> BhaA_B|O87676  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  217.8   0.0   5.7e-67   1.4e-66       1     361 [.      12     367 ..      12     368 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 217.8 bits;  conditional E-value: 5.7e-67
+  cut_pyrrole_accepting   1 GsGpaGstlgailakkglkvlviekdefprfhiGESlipattv.vlreiglldkveaagfPekfGvkkkiGfllkkegfraaekefne 87 
+                            G+Gp Gst+++ +a +g +vl++ek+ fpr +iGESl pat   v r +g+ d++++agfP k G + + G +     f+        
+          BhaA_B|O87676  12 GGGPGGSTVATLVAMQGHRVLLLEKEVFPRYQIGESLLPATVHgVCRMLGISDELANAGFPIKRGGTFRWGARPEPWTFHFG----IS 95 
+                            9****************************************86599*******************66666666655555444....45 PP
+
+  cut_pyrrole_accepting  88 rdqpglldetfhvdRsdfDalLlekAvelGakvrqgvrvkdvefdeekvv...vkaakg.eeqvrarmvvDasGrrtfLark.lklre 170
+                             ++ g + ++++v+R+ fD++Ll++A ++G+ vr+g+ v+dv  d+e v+   ++  +g e++v ar+v+DasG+++ L +k  + r+
+          BhaA_B|O87676  96 AKMAGSTSHAYQVERARFDEMLLNNAKRKGVVVREGCAVTDVVEDGERVTgarYTDPDGtEREVSARFVIDASGNKSRLYTKvGGSRN 183
+                            6788999*******************************************9995555555**********************667999 PP
+
+  cut_pyrrole_accepting 171 edavfkqiaifahfenvdrkadlvdkeqedyifipvsettvlyskergWvWvIpisntltSvGvvldkekykkekkspeeefwelaar 258
+                               +f+  a+f +fe+ +r  +            pvs + +   ++ gW+W Ip+s+tltSvG v+ +e  +k + ++e++++ l a+
+          BhaA_B|O87676 184 YSEFFRSLALFGYFEGGKRLPE------------PVSGNILSVAFDSGWFWYIPLSDTLTSVGAVVRREDAEKIQGDREKALNTLIAE 259
+                            9*******************99............9****9999********************************************* PP
+
+  cut_pyrrole_accepting 259 rpelkrrfkkaerv.....refkseadysYsikqvvGdrwlllgdaarFvDPiFSrGvsvalesaralakrliaavkddDfskerfea 341
+                             p + + +++a+rv      e++  +dysY+ +    ++ +l+gdaa FvDP+FS+Gv  a  sa  +a ++ +++  d  +k+ +++
+          BhaA_B|O87676 260 CPLISEYLADATRVttgryGELRVRKDYSYQQETYWRPGMILVGDAACFVDPVFSSGVHLATYSALLAARSINSVLAGDLDEKTALNE 347
+                            ************994443358999*****************************************99999988877766557899*** PP
+
+  cut_pyrrole_accepting 342 yerlsqkgldiaddlisiay 361
+                            +e   ++     ++++ ++y
+          BhaA_B|O87676 348 FELRYRREYGVFYEFLVSFY 367
+                            **999999999999998888 PP
+
+>> Tcp21_B|Q70AY7  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  216.0   0.0   1.9e-66   4.8e-66       1     361 [.      27     382 ..      27     383 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 216.0 bits;  conditional E-value: 1.9e-66
+  cut_pyrrole_accepting   1 GsGpaGstlgailakkglkvlviekdefprfhiGESlipattv.vlreiglldkveaagfPekfGvkkkiGfllkkegfraaekefne 87 
+                            G+GpaGst+++ +a +g +vl++ek++fpr +iGESl p+t   v r +g+ d+++aagfP k G + + G +     f  a      
+         Tcp21_B|Q70AY7  27 GGGPAGSTVATLVAMQGHRVLLLEKETFPRYQIGESLLPSTVHgVCRMLGVSDELAAAGFPVKRGGTFRWGARPEPWTFSFA----VS 110
+                            9****************************************86599*******************66666666666555555....23 PP
+
+  cut_pyrrole_accepting  88 rdqpglldetfhvdRsdfDalLlekAvelGakvrqgvrvkdvefdeekvv....vkaakgeeqvrarmvvDasGrrtfLark.lklre 170
+                              ++g +  +++v+R+ fD++Ll++A ++G+ vr+g+ v+ v   +e ++       ++ge++v ar+vvDasG+++ L ++  ++r+
+         Tcp21_B|Q70AY7 111 PLMNGPTSFAYQVERARFDEILLRNAQRKGVDVREGCSVTGVIEGDERITgvryTDPDGGEHEVSARFVVDASGNKSRLYSQvGGVRN 198
+                            3455668999*********************************99998888774455666*******************9996789** PP
+
+  cut_pyrrole_accepting 171 edavfkqiaifahfenvdrkadlvdkeqedyifipvsettvlyskergWvWvIpisntltSvGvvldkekykkekkspeeefwelaar 258
+                               +f+  a+f +fen +r  +            p+s + +   ++ gW+W Ip+s+t+tSvG v+ +e  +k + ++e++++ l a+
+         Tcp21_B|Q70AY7 199 YSEFFRSLALFGYFENGKRLPE------------PYSGNILSVAFDSGWFWYIPLSDTMTSVGAVVRREMAEKIQGDREKALQALIAE 274
+                            ********************99............9999999999******************************************** PP
+
+  cut_pyrrole_accepting 259 rpelkrrfkkaerv.....refkseadysYsikqvvGdrwlllgdaarFvDPiFSrGvsvalesaralakrliaavkddDfskerfea 341
+                             p + + +++a+r+      e++  +dysY  +    ++ +l+gdaa FvDP+FS+Gv  a  sa  +a ++ +++ +d  +k+ +++
+         Tcp21_B|Q70AY7 275 CPLISDYLADARRIttgryGELRVRKDYSYHQTSYWRPGMILVGDAACFVDPVFSSGVHLATYSALLAARSINSVLAEDLDEKTALSE 362
+                            ***********9873333358999*****************************************99999999888777667999*** PP
+
+  cut_pyrrole_accepting 342 yerlsqkgldiaddlisiay 361
+                            +e   ++     ++++ ++y
+         Tcp21_B|Q70AY7 363 FEARYRREYGVFYEFLVSFY 382
+                            **************999988 PP
+
+>> CalO3_A?_orsel|Q8KND5  [Micromonospora echinospora]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  215.7   0.0   2.4e-66   6.2e-66       1     361 [.      14     362 ..      14     363 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 215.7 bits;  conditional E-value: 2.4e-66
+  cut_pyrrole_accepting   1 GsGpaGstlgailakkglkvlviekdefprfhiGESlipattvvlreiglldkveaagfPekfGvkkkiGfllkkegfraaekefner 88 
+                            G+GpaGs ++  la++g +vl++e+++fpr hiGESli+  t+ l+ +g+ ++++++ f  k G     G+ll   +++ a+  f+ r
+  CalO3_A?_orsel|Q8KND5  14 GGGPAGSSTAGLLAQEGHRVLLLEREKFPRYHIGESLISGVTLTLDALGVRERMAELRFQIKHG-----GSLLWGADQT-APWSFRFR 95 
+                            9***********************************************************9999.....9999888765.56999999 PP
+
+  cut_pyrrole_accepting  89 dqpgl.ldetfhvdRsdfDalLlekAvelGakvrqgvrvkdvefdeekvv...vkaakg..eeqvrarmvvDasGrrtfLarklklre 170
+                            ++ +   d+ ++v+R++fDa+Ll++A elG+ v +g +v+    d+e v+   ++ ++     + ra +vvDasG++  L+r+++l +
+  CalO3_A?_orsel|Q8KND5  96 EIRDArFDYSWQVRRAEFDAMLLDRARELGVVVVEGATVRGPLTDGERVAgvsYQFRGEadPIDARAAIVVDASGQQRWLGRHFGLVS 183
+                            999999*****************************************9998776666553356777889******************* PP
+
+  cut_pyrrole_accepting 171 edavfkqiaifahfenvdrkadlvdkeqedyifipvsettvlyskergWvWvIpisntltSvGvvldkekykkekkspeeefwelaar 258
+                             +  ++++a ++++ +  r     d+e  d          +  s  +gW+W  p+s+tlt +G v++ +++ ++   p++ +++  a+
+  CalO3_A?_orsel|Q8KND5 184 WHDDLRNMAAWSYYAGALRYPG--DHEG-DL---------LVESCAQGWLWYAPLSPTLTGIGYVTPSDRFAETGLPPDQLLEKQIAE 259
+                            *******************999..3333.33.........33456789**************************************** PP
+
+  cut_pyrrole_accepting 259 rpelkrrfkkaervrefkseadysYsikqvvGdrwlllgdaarFvDPiFSrGvsvalesaralakrliaavkddDfskerfeayerls 346
+                            + e+    ++a+rv  +++ +d+sY+ +q+ G++w+l+gdaa F+DP+ S+Gv  a++ a  l+ ++ +a+ +   +++ ++ ye+  
+  CalO3_A?_orsel|Q8KND5 260 SNEVSWLTAGARRVDVYRTARDWSYACSQFSGPGWVLVGDAAAFIDPLLSSGVTLAMRGALSLSRAVHEALAAPEKERHLMQVYEDRY 347
+                            **************************************************************************************** PP
+
+  cut_pyrrole_accepting 347 qkgldiaddlisiay 361
+                            +  l    dli+++y
+  CalO3_A?_orsel|Q8KND5 348 RDFLAALLDLIRFFY 362
+                            *************99 PP
+
+>> Asm12_A_cycl|AQZ37099.1  [Actinosynnema pretiosum subsp. pretiosum]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  214.2   0.0     7e-66   1.8e-65       1     361 [.       8     357 ..       8     358 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 214.2 bits;  conditional E-value: 7e-66
+    cut_pyrrole_accepting   1 GsGpaGstlgailakkglkvlviekdefprfhiGESlipattvvlreiglldkveaagfPekfGv..kkkiGfllkkegfraaeke 84 
+                              G+GpaG++++++la++g +vlv+e++efprfhiGES+ p+   +l+  glld+v + g+  k G   ++  G ++ + g  +a   
+  Asm12_A_cycl|AQZ37099.1   8 GGGPAGAVCASVLARQGRSVLVLERQEFPRFHIGESMLPYMVGLLERHGLLDAVREQGYVVKRGGefIDPTGTKFFRAGVFRA--D 91 
+                              9***********************************************************99994445566666555554444..2 PP
+
+    cut_pyrrole_accepting  85 fnerdqpglldetfhvdRsdfDalLlekAvelGakvrqgvrvkdvefdeekvv...vkaakgeeqvrarmvvDasGrrtfLarklk 167
+                              f   + +g  +etf+v+Rs+fD++ l++A   Ga+vr+g +v  +  ++  vv   ++  ++e++ rar+vvDa Gr+ ++a++++
+  Asm12_A_cycl|AQZ37099.1  92 F-AKTGDGRHHETFQVERSHFDRVNLDQARAAGATVREGAQVVGLLEEGGRVVgvrYREGGVEREERARYVVDATGRAGVVANRFG 176
+                              3.3345677************************************99999999854455555************************ PP
+
+    cut_pyrrole_accepting 168 lreedavfkqiaifahfenvdrkadlvdkeqedyifipvsettv.lyskergWvWvIpisntltSvGvvldkekykkekkspeeef 252
+                              lr+    ++ +a+f h +++d  ++            p +e+ +   s+  gW+W Ip+s +  SvG v+ +++++   ++p e+f
+  Asm12_A_cycl|AQZ37099.1 177 LRRMIEDLRMVAVFHHRDGLDEAHN------------PGHEGDIqVGSHADGWIWAIPLSADRISVGTVMHRDRLR--GRTPAEAF 248
+                              *********************9988............444442202255679*********************996..679***** PP
+
+    cut_pyrrole_accepting 253 welaarrpelkrrfkkaervrefkseadysYsikqvvGdrwlllgdaarFvDPiFSrGvsvalesaralakrliaavkddDfsker 338
+                               e+++r p +++r+ +++   +f  e dysY ++qv G++w+++gda  F DP+FS Gv v + ++  +a++l +a+++   +++ 
+  Asm12_A_cycl|AQZ37099.1 249 AEHVERVPRINQRLTGTTATSDFWVETDYSYHSDQVTGPGWVMVGDAGCFGDPMFSGGVLVGMATGAEAAEALGRALDSPADEEQA 334
+                              *****************************************************************************9987789** PP
+
+    cut_pyrrole_accepting 339 feayerlsqkgldiaddlisiay 361
+                              ++ y +  ++g d+   li ++y
+  Asm12_A_cycl|AQZ37099.1 335 LTGYSNFFKTGYDTYVRLIFSFY 357
+                              ***************99999988 PP
+
+>> Ram20_B|DD382878.1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  213.8   0.0   8.9e-66   2.3e-65       1     361 [.       3     357 ..       3     358 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 213.8 bits;  conditional E-value: 8.9e-66
+  cut_pyrrole_accepting   1 GsGpaGstlgailakkglkvlviekdefprfhiGESlipattv.vlreiglldkveaagfPekfGvkkkiGfllkkegfraaekefne 87 
+                            G+Gp Gst++a  ak+g+kvl++e+++fpr +iGESl p+t   v + +g+ d++++agf  k G + k G  +    f+ a    + 
+     Ram20_B|DD382878.1   3 GGGPGGSTAAALTAKQGAKVLLLEREKFPRYQIGESLLPSTVHgVCNLLGVGDEIAKAGFMRKHGGTFKWGTSTEPWTFTFA----TS 86 
+                            9****************************************86477889****************88888887777777766....66 PP
+
+  cut_pyrrole_accepting  88 rdqpglldetfhvdRsdfDalLlekAvelGakvrqgvrvkdvefdeekvv...vkaakgeeqvrarmvvDasGrrtfLark.lklree 171
+                             ++ g + ++f+v+R  fD++Lle+A +lG+ vr++  v++  +d+e v     ++++++++  ar+vvDasG+r++L +   ++re 
+     Ram20_B|DD382878.1  87 PRMAGPTSHAFQVERRRFDQILLENARRLGVDVRENHPVTEAIADDERVRgvrFTQDGQTRTALARFVVDASGNRSTLHTTvGGTREY 174
+                            677888999**************************************99985455555589999***************996789*** PP
+
+  cut_pyrrole_accepting 172 davfkqiaifahfenvdrkadlvdkeqedyifipvsettvlyskergWvWvIpisntltSvGvvldkekykkekkspeeefwelaarr 259
+                             ++f++ a+f +fen  r  +            p s + +   +  gW+W Ip+s+tltSvG v+ +e  +k++ ++e+++ el a+ 
+     Ram20_B|DD382878.1 175 SPFFRNLALFGYFENGRRLPA------------PNSGNILCVAFGSGWFWYIPLSETLTSVGAVVRREMAHKVQGDQEKALFELIAEC 250
+                            ***************999988............77777777777888***************************************** PP
+
+  cut_pyrrole_accepting 260 pelkrrfkkaervre.....fkseadysYsikqvvGdrwlllgdaarFvDPiFSrGvsvalesaralakrliaavkddDfskerfeay 342
+                            p +++ + +a+rv e     ++  +dysYs++    ++ +l+gdaa F+DP+FS+Gv  a  s+  +a ++ +++     +   f+++
+     Ram20_B|DD382878.1 251 PMIADFLGDATRVTEgdygqIRVRKDYSYSSTSYWRPGMCLVGDAACFIDPVFSSGVHLATYSGLLAARSINSVLAGTVDEDRAFTEF 338
+                            ************975333337899**********************************************99999887667899**** PP
+
+  cut_pyrrole_accepting 343 erlsqkgldiaddlisiay 361
+                            e+  ++ +   +d++ ++y
+     Ram20_B|DD382878.1 339 EQRYRREFGVFHDFLVSFY 357
+                            *************999888 PP
+
+>> CndH_B|B9ZUJ5  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  213.7   0.0     1e-65   2.6e-65       1     361 [.      14     366 ..      14     367 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 213.7 bits;  conditional E-value: 1e-65
+  cut_pyrrole_accepting   1 GsGpaGstlgailakkglkvlviekdefprfhiGESlipattv.vlreiglldkveaagfPekfGvkkkiGfllkkegfraaekefne 87 
+                            G+Gp Gstl++ +a +g +vl++e+++fpr +iGESl pat   +   +gl+d++++agfP k G     G    + g+++++  f  
+          CndH_B|B9ZUJ5  14 GGGPGGSTLASFVAMRGHRVLLLEREAFPRHQIGESLLPATVHgICAMLGLTDEMKRAGFPIKRG-----GT--FRWGKEPEPWTFGF 94 
+                            9****************************************8647889*****************.....43..34456666677877 PP
+
+  cut_pyrrole_accepting  88 rdqpgl.ldetfhvdRsdfDalLlekAvelGakvrqgvrvkdvefdeekvv...vkaakg.eeqvrarmvvDasGrrtfLarklklre 170
+                            +++p+     +++v+R+ fD++Ll++  ++G+ vr++ +v dv f++e  v   ++ ++g e + +ar++vDasG+rt +++ ++ r 
+          CndH_B|B9ZUJ5  95 TRHPDDpYGFAYQVERARFDDMLLRNSERKGVDVRERHEVIDVLFEGERAVgvrYRNTEGvELMAHARFIVDASGNRTRVSQAVGERV 182
+                            77777779**************************************99888766665555699************************* PP
+
+  cut_pyrrole_accepting 171 edavfkqiaifahfenvdrkadlvdkeqedyifipvsettvlyskergWvWvIpisntltSvGvvldkekykkekkspeeefwelaar 258
+                               +f+++a++ +fen +r  +            p + + +   ++ gW+W Ip+s+tltSvG v+ +e  ++ k+  e ++ ++ +r
+          CndH_B|B9ZUJ5 183 YSRFFQNVALYGYFENGKRLPA------------PRQGNILSAAFQDGWFWYIPLSDTLTSVGAVVSREAAEAIKDGHEAALLRYIDR 258
+                            *******************999............66667777788999**************************************** PP
+
+  cut_pyrrole_accepting 259 rpelkrrfkkaerv.....refkseadysYsikqvvGdrwlllgdaarFvDPiFSrGvsvalesaralakrliaavkddDfskerfea 341
+                             p +k+ ++ a+rv      e++  +dysY  + +  ++ +l+gdaa FvDP+FS+Gv  a  sa  +a ++ +++  +  ++  fe+
+          CndH_B|B9ZUJ5 259 CPIIKEYLAPATRVttgdyGEIRIRKDYSYCNTSFWKNGMALVGDAACFVDPVFSSGVHLATYSALLVARAINTCLAGEMSEQRCFEE 346
+                            *************94444458999*****************************************************99999999*** PP
+
+  cut_pyrrole_accepting 342 yerlsqkgldiaddlisiay 361
+                            +er  ++   + ++++ ++y
+          CndH_B|B9ZUJ5 347 FERRYRREYGNFYQFLVAFY 366
+                            ***************99988 PP
+
+>> SgcC3_B  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  211.1   0.0     6e-65   1.5e-64       1     358 [.      13     366 ..      13     370 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 211.1 bits;  conditional E-value: 6e-65
+  cut_pyrrole_accepting   1 GsGpaGstlgailakkglkvlviekdefprfhiGESlipattv.vlreiglldkveaagfPekfGvkkkiGfllkkegfraaekefne 87 
+                            G+GpaGst+++ ++k+g +vl +ek++fpr +iGESl p+t   + + +g+ d++++a f  k G + k G       f  a      
+                SgcC3_B  13 GGGPAGSTVSTLVRKRGHRVLQLEKETFPRYQIGESLLPSTVHgIAHLLGVSDELKKAAFTIKHGGTFKWGANPEPWTFDFA----VS 96 
+                            9****************************************97355678****************88888888777777766....67 PP
+
+  cut_pyrrole_accepting  88 rdqpglldetfhvdRsdfDalLlekAvelGakvrqgvrvkdvefdeekvv....vkaakg.eeqvrarmvvDasGrrtfLark.lklr 169
+                            r++pg + ++++v+R +fD++Ll++A ++G++vr++  v dv + e++ v    ++ ++g e++v +r+vvDasG++  L +k   +r
+                SgcC3_B  97 RRMPGATGYAYQVERMKFDQILLDNARRHGVEVRENSDVLDVLKAEDGRVrgvrYRDSEGrEHEVGSRFVVDASGNTGGLYKKsGAKR 184
+                            899***************************************9988776657667777778**********************55678 PP
+
+  cut_pyrrole_accepting 170 eedavfkqiaifahfenvdrkadlvdkeqedyifipvsettvlyskergWvWvIpisntltSvGvvldkekykkekkspeeefwelaa 257
+                            e  ++f++ a+f +f++ +r  +            p s +    ++e+gW+W Ip+s++ltSvG v++++    ++ +pe++++++ a
+                SgcC3_B 185 EYSPFFRNLALFGYFNGGKRLPK------------PNSGNIFTCTFEHGWFWYIPLSPELTSVGAVVNRDSASLVQGDPEKAMESFIA 260
+                            999*****************999............6666655567999**************************************** PP
+
+  cut_pyrrole_accepting 258 rrpelkrrfkkaerv.....refkseadysYsikqvvGdrwlllgdaarFvDPiFSrGvsvalesaralakrliaavkddDfskerfe 340
+                              p +++++++a+rv      e++  +d+sYs +++  ++ +l+gdaa FvDP+FS+Gv  a  s+  +a +l ++++    + + fe
+                SgcC3_B 261 ACPLIAEKLSEATRVtegpyGELRVRKDWSYSNTKFWAPGMALVGDAACFVDPVFSSGVHLATYSGLLAARSLNSCLDGSVDETSAFE 348
+                            *************993333346899****************************************************99877789999 PP
+
+  cut_pyrrole_accepting 341 ayerlsqkgldiaddlis 358
+                            ++e   +      ++++ 
+                SgcC3_B 349 EFEARYRLEYGRFYEFLV 366
+                            999887777666666665 PP
+
+>> SimC6_cycl|AF324838  [Streptomyces antibioticus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  210.4   0.0     1e-64   2.6e-64       1     361 [.       8     357 ..       8     358 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 210.4 bits;  conditional E-value: 1e-64
+  cut_pyrrole_accepting   1 GsGpaGstlgailakkglkvlviekdefprfhiGESlipattvvlreiglldkveaagfPekfGvkkkiGfllkkegfraaekefner 88 
+                            G+GpaGst++a la++g++v v+e+ +fpr hiGES  ++  v+++ +g+l+kv+a g+  k+G+  + G        +++   ++ +
+    SimC6_cycl|AF324838   8 GGGPAGSTAAALLARAGISVTVLERATFPRYHIGESFSTSCRVIIDYLGALEKVDARGYTSKTGLLVRWGQ-------EKD-WAIDWT 87 
+                            9***************************************************************5555553.......333.456677 PP
+
+  cut_pyrrole_accepting  89 dqpglldetfhvdRsdfDalLlekAvelGakvrqgvrvkdvefdeekvv...vkaakg..eeqvrarmvvDasGrrtfLark.lklre 170
+                            dq g     ++vdR dfD++Ll++A e Gakv qg +v++v f+++  +    +a +   ++  ra +v+DasGr+  ++++ ++ r+
+    SimC6_cycl|AF324838  88 DQFGSDVRSWQVDRDDFDTVLLDHASESGAKVVQGAHVHRVIFEGDRATgveWTAPGEtaKQISRADFVLDASGRAGLISAQhFNNRR 175
+                            89999999************************************99988865444444545667899*************999***** PP
+
+  cut_pyrrole_accepting 171 edavfkqiaifahfenvdrkadlvdkeqedyifipvsettvlyskergWvWvIpisntltSvGvvldkekykke...kkspeeefwel 255
+                             + +f+++ai+ ++e+ +        +++  i +  s        + gW WvIp++++  SvG v  k+ + +      s +e + ++
+    SimC6_cycl|AF324838 176 PHEIFRNVAIWGYWEGGELLPG----SPSGGINVISS--------DDGWYWVIPLRDNRLSVGFVSHKSIFGERrreFGSLDEMLLKM 251
+                            ****************887777....44444444333........569**********************987632246899****** PP
+
+  cut_pyrrole_accepting 256 aarrpelkrrfkkaervrefkseadysYsikqvvGdrwlllgdaarFvDPiFSrGvsvalesaralakrliaavkddDfs.kerfeay 342
+                            ++++p +++ ++k +     + e+d+sYs + ++G++++llgdaa F+DP+ S Gv   + s+  +a++++ a+ d+D s +e +  y
+    SimC6_cycl|AF324838 252 VDESPAVREILAKGTFQPGARVEQDFSYSADSFCGPGHFLLGDAACFLDPLLSTGVHLGMYSGLLAAASVM-AITDGDVSeREALAFY 338
+                            ***************************************************************99988876.5666666527899*** PP
+
+  cut_pyrrole_accepting 343 erlsqkgldiaddlisiay 361
+                            e+l +++ +    l+s +y
+    SimC6_cycl|AF324838 339 ESLFRNAYQRLFTLVSGFY 357
+                            **************99998 PP
+
+>> CrpH_B|A4D940  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  210.4   0.0     1e-64   2.6e-64       1     361 [.      14     359 ..      14     360 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 210.4 bits;  conditional E-value: 1e-64
+  cut_pyrrole_accepting   1 GsGpaGstlgailakkglkvlviekdefprfhiGESlipattvvlreiglldkveaagfPekfGvkkkiGfllkkegfraaekefner 88 
+                            G+Gp+Gst+++ la++g+ v ++e++ fpr h+GESl p+++ + + +g+ +k+ea+gf  k+G+  + G +  + +f +        
+          CrpH_B|A4D940  14 GGGPSGSTAATLLAREGFDVTLLEREVFPRYHVGESLLPSALEIFDLLGVREKIEAYGFQRKPGAYIEWGTEKWSLNFGEL------- 94 
+                            9***************************************************************99999998887777766....... PP
+
+  cut_pyrrole_accepting  89 dqpglldetfhvdRsdfDalLlekAvelGakvrqgvrvkdvefdeekvv....vkaakgeeqvrarmvvDasGrrtfLark.lklree 171
+                               g   + f+v+R +fD+lLle+  ++G+kv++g+++++++fd++ +      ++++++ ++   +++DasGr+  +a+  lk r+ 
+          CrpH_B|A4D940  95 --TGDNTYSFQVRRDEFDHLLLEHSKSQGVKVFEGTKIRQLSFDGDRPRsatwSQSNDTTGEISFDFMIDASGRAGIMATEyLKNRRL 180
+                            ..67789****************************************996543333333889999**************9999***** PP
+
+  cut_pyrrole_accepting 172 davfkqiaifahfenvdrkadlvdkeqedyifipvsettvlyskergWvWvIpisntltSvGvvldkekykke.kkspeeefwelaar 258
+                            + vf+++ i+ +++n  r  +     q+  i +         s   gWvW Ip+ +++ SvGvv+ k++yk+  +k+ ++ + e+ a+
+          CrpH_B|A4D940 181 HDVFQNVGIWGYWKNALRLPK----GQSGAIAL--------GSIPDGWVWGIPLDEEIMSVGVVMHKSTYKERlTKNLKDIYVEAIAE 256
+                            ***************999988....44444444........244557**************************889999999****** PP
+
+  cut_pyrrole_accepting 259 rpelkrrfkkaervrefkseadysYsikqvvGdrwlllgdaarFvDPiFSrGvsvalesaralakrliaavkddDfskerfeayerls 346
+                             p +++  +  e v ++k e+dysY+++ + G+ +++ gdaa F+DP+ S+Gv  a  sa  +a++++++++ +  + +  + y++  
+          CrpH_B|A4D940 257 CPLIADLVALGELVSDVKVEQDYSYTSDSFSGPAYFISGDAACFLDPLLSSGVHLATYSALLAAASITSVIRGEVTESQAASFYDQSY 344
+                            ***********************************************************************99887777777777777 PP
+
+  cut_pyrrole_accepting 347 qkgldiaddlisiay 361
+                            +++      ++s++y
+          CrpH_B|A4D940 345 RQAYLRFLVFVSAFY 359
+                            777666666666666 PP
+
+>> TiaM_A_orsel|E9LIP1  [Dactylosporangium aurantiacum subsp. hamdenensis]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  208.3   0.0   4.4e-64   1.1e-63       1     361 [.      12     360 ..      12     361 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 208.3 bits;  conditional E-value: 4.4e-64
+  cut_pyrrole_accepting   1 GsGpaGstlgailakkglkvlviekdefprfhiGESlipattvvlreiglldkveaagfPekfGvkkkiGfllkkegfraaekefner 88 
+                            G+Gp Gst++  lak g++v ++e+ efpr hiGES++++   +++ +g+l+kv+a gf  k+Gv  + G +       ++   ++ +
+    TiaM_A_orsel|E9LIP1  12 GGGPGGSTAAGLLAKGGVEVKLLERAEFPRYHIGESITTSCRAIIDYVGALEKVNACGFTTKTGVLMRWGQE-------KD-WVIDWT 91 
+                            9***************************************************************77666644.......33.445567 PP
+
+  cut_pyrrole_accepting  89 dqpglldetfhvdRsdfDalLlekAvelGakvrqgvrvkdvefdeekvv...vkaakg.eeqvrarmvvDasGrrtfLark.lklree 171
+                             q g     ++vdR+ fD++Ll++A++ Ga+v q+ +vk+v fd++  v    + a+g  ++ +a +v+DasGr+  ++++  + r+ 
+    TiaM_A_orsel|E9LIP1  92 AQFGADTRSWQVDREIFDQVLLDNAADSGAEVVQQAHVKRVLFDGDRAVgveWQPAGGeLRTETADYVIDASGRAGLISAQhYNNRRP 179
+                            7899999***************************************98886666677745666799**************9899**** PP
+
+  cut_pyrrole_accepting 172 davfkqiaifahfenvdrkadlvdkeqedyifipvsettvlyskergWvWvIpisntltSvGvvldkekykke..kkspeeef.wela 256
+                            + +f+++ai+ ++en +   d    +++  i   v+++        gW W+Ip++++  SvG v+ k ++ +   + + +e++   ++
+    TiaM_A_orsel|E9LIP1 180 HEIFRNVAIWGYWENAELLPD----SPAGGI--NVISS------PDGWYWLIPLRDNRFSVGFVTHKTNFVERrrEFDSQEAMlAAVL 255
+                            ***************998877....444443..33333......568***********************887433344555549*** PP
+
+  cut_pyrrole_accepting 257 arrpelkrrfkkaervrefkseadysYsikqvvGdrwlllgdaarFvDPiFSrGvsvalesaralakrliaavkddDfskerfeayer 344
+                             +++ +k+ +++a+++  ++ e+d+sY+ ++++Gd+++l+gd+a F+DP+ S Gv  a+ s+   a+++++  + +  + e    +e+
+    TiaM_A_orsel|E9LIP1 256 GESETMKQVLAQATQLPGVRIEQDFSYAADKFCGDGYFLVGDSACFLDPLLSTGVHLAMYSGMLSAASILSLQRGEVNEPEAQAFFES 343
+                            ********************************************************************99887777766777777777 PP
+
+  cut_pyrrole_accepting 345 lsqkgldiaddlisiay 361
+                            l +++ +    l+ ++y
+    TiaM_A_orsel|E9LIP1 344 LYRNAYHRLFTLVISFY 360
+                            77777777666666666 PP
+
+>> AviH_orsel|STVIR_2874|ELS56116  [Streptomyces viridochromogenes Tue57]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  192.6   0.0   2.6e-59   6.7e-59       1     361 [.       5     352 ..       5     353 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 192.6 bits;  conditional E-value: 2.6e-59
+           cut_pyrrole_accepting   1 GsGpaGstlgailakkglkvlviekdefprfhiGESlipattvvlreiglldkveaagfPekfGvkkkiGfllkkegfr 79 
+                                     G+GpaGst+++ l k+g++v ++e+++fpr hiGES+ ++   +++ +g+l++v+  g+  k Gv  + G +    + +
+  AviH_orsel|STVIR_2874|ELS56116   5 GGGPAGSTAASLLSKAGMSVKLLERETFPRYHIGESIASSCRTIIDLVGALEEVDSRGYTVKNGVLLRWGKEDWAIDWP 83 
+                                     9***************************************************************888888766655555 PP
+
+           cut_pyrrole_accepting  80 aaekefnerdqpglldetfhvdRsdfDalLlekAvelGakvrqgvrvkdvefdeekvv....vkaakg.eeqvrarmvv 153
+                                     ++   f     p      ++vdR dfD++Ll++Av++Ga v++gv+vk+v fd++  +    +  ++g   + +  +v+
+  AviH_orsel|STVIR_2874|ELS56116  84 KI---F----GP--DVRSWQVDRDDFDHVLLKNAVKQGADVTEGVTVKRVLFDGDRAAgaewLDPDTGeLVSEEFDYVI 153
+                                     55...3....34..4578**************************************99999999999854666788*** PP
+
+           cut_pyrrole_accepting 154 DasGrrtfLarklklreedavfkqiaifahfenvdrkadlvdkeqedyifipvsettvlyskergWvWvIpisntltSv 232
+                                     DasGr+ +++++lk r+ + +f+++ai+ ++++          ++  +  i v++         gW WvIp++ +  Sv
+  AviH_orsel|STVIR_2874|ELS56116 154 DASGRAGVISKHLKNRRPHEIFRNVAIWGYWQGGSLLPS----SP--TGGINVISA------PDGWYWVIPLRGDRYSV 220
+                                     ********************************9665544....22..333444444......678************** PP
+
+           cut_pyrrole_accepting 233 Gvvldkekykke...kkspeeefwelaarrpelkrrfkkaervrefkseadysYsikqvvGdrwlllgdaarFvDPiFS 308
+                                     G v  ++++ +    + + e  + +l++++p +++ +++      ++ e+d+sY  + + G+++ l gdaa F+DP+ S
+  AviH_orsel|STVIR_2874|ELS56116 221 GFVCHQDRFLERrreHADLEAMLASLVEESPTVRDLMANGVYQPGVRVEQDFSYVADSFHGPGYYLAGDAACFLDPLLS 299
+                                     ********976533366778888******************************************************** PP
+
+           cut_pyrrole_accepting 309 rGvsvalesaralakrliaavkddDfskerfeayerlsqkgldiaddlisiay 361
+                                      Gv  al s+  +a++++a+v++d  ++e    ye+l +++ +    l+s +y
+  AviH_orsel|STVIR_2874|ELS56116 300 TGVHLALYSGMLAATSVLATVNKDVTEEEAGAFYESLYRNAYQRLFTLVSGVY 352
+                                     **********************999999999999******9999999998887 PP
+
+>> AerJ_B|B4EQU1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  116.2   0.0   4.3e-36   1.1e-35       1     324 [.      71     407 ..      71     429 .. 0.77
+
+  Alignments for each domain:
+  == domain 1  score: 116.2 bits;  conditional E-value: 4.3e-36
+  cut_pyrrole_accepting   1 GsGpaGstlgaila..kkglkvlviekdefpr....fhiGESlipattv.vlreiglldkveaagfPekfGvkkkiGfllkkegfraa 81 
+                            G+G+aG tlg  l+  +  l+v+v++k + p     f++GES++      + +++ l+d  ++  +P+ +G          + +f+++
+          AerJ_B|B4EQU1  71 GGGLAGLTLGRQLKlkQPNLSVVVLDKMARPLpeagFKVGESTVEVGAFyLANTLQLTDYFDHQHLPK-LG---------LRYFFKPQ 148
+                            9*********987521567********99884334499******876551567889999999999994.67.........66778888 PP
+
+  cut_pyrrole_accepting  82 ekefnerdqpgl....ldetfhvdRsdfDalLlekAvelGakvrqgvrvkdvefdeekvv.....vkaakg....eeqvrarmvvDas 156
+                            e+ef++r + gl      + +++dR+++ + L++  +e G+ +++++ vkd+ef e         +++ +g    ++ +++r vvDa 
+          AerJ_B|B4EQU1 149 ETEFHKRPELGLsefhAPKSYQIDRGKLENDLRQLNIEAGIDLKENCSVKDIEFAEGLQQqhkiiYTQGSGanqkTHCIKSRWVVDAM 236
+                            88888887777743122368*********************************96644333444365555566668889********* PP
+
+  cut_pyrrole_accepting 157 GrrtfLarklklreedavfkqiaifahfenvdrkadlvdkeqedyi.fi....pvsettvlyskergWvWvIpisntltSvGvvldke 239
+                            Grr f+ +kl+l + +  ++  a++   e+    ++ v  ++e++   +    + + +t +   e  WvW+Ip+s   tS+G+v+ ++
+          AerJ_B|B4EQU1 237 GRRRFIQKKLGLAKPN-HNNYSAVWFRVEGRFDVSNFVPASEEKWHrRVpnnnR-YYSTNHLCGEGYWVWLIPLSTGYTSIGIVTRQD 322
+                            ***********97644.4556699998886444444444444444312322433.333578888999********************* PP
+
+  cut_pyrrole_accepting 240 kykke.kkspeeefwelaarrpelkrrfkkaervrefkseadysYsikqvvG.drwlllgdaarFvDPiFSrGvsvalesaralakr 324
+                              + +  +++e +f+ l +++p l++++++ ++ ++f+++ +ysYs+kqv   +rw ++g+a  F DP +S G s ++  ++ l+++
+          AerJ_B|B4EQU1 323 IHPLKnYHNYELAFQWLRENEPVLAAHLEGKSP-EDFRKMPKYSYSSKQVFSfNRWTCVGEAGLFPDPFYSPG-SDSIGFGNSLTTQ 407
+                            9996658999****9999999*99999988666.9**************865499****************99.4445555555555 PP
+
+>> ApdC|K7WGH6  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  102.3   0.0   7.1e-32   1.8e-31       1     327 [.      71     410 ..      71     432 .. 0.74
+
+  Alignments for each domain:
+  == domain 1  score: 102.3 bits;  conditional E-value: 7.1e-32
+  cut_pyrrole_accepting   1 GsGpaGstlgai..lakkglkvlviekde....fprfhiGESlipattvvl.reiglldkveaagfPekfGvkkkiGfllkkegfraa 81 
+                            G+G+aG tl+    l k  + ++v++k +       f++GES++      l +++ l+d  e+  +  k+G  + +   + ++++++ 
+            ApdC|K7WGH6  71 GGGLAGLTLARQlkLQKPNMAIAVLDKMSglspEASFKVGESTVEVGAFYLaNTLQLTDYFEEQHL-VKLG-LRYFFNNSATNFQERP 156
+                            99*******986225789999*****96533114579*******9766554166777777777666.4677.4444444555555555 PP
+
+  cut_pyrrole_accepting  82 ekefnerdqpglldetfhvdRsdfDalLlekAvelGakvrqgvrvkdvef.....deekvvvkaakg....eeqvrarmvvDasGrrt 160
+                            e  + e++      + +++dR+++ + L++  +e G+++r+g+ v+++       +++kvv+++ +g    ++ ++ar vvDa Grr 
+            ApdC|K7WGH6 157 ELGLSEFHA----PNSYQIDRGKLENDLRQFNMEAGVELREGCLVNEIALaeglqQHHKVVYTQGDGdnrkNKIIKARWVVDAMGRRR 240
+                            444444444....468*******************************9862222245678888877777766779************* PP
+
+  cut_pyrrole_accepting 161 fLarklklreedavfkqi.aifahfenvdrkadlvdkeqedy.ifi...pvsettvlyskergWvWvIpisntltSvGvvldkekykk 243
+                            fL rkl+l + +  ++++ a++   ++     d v +++e++   +     + +t +   e  WvW Ip+s   tS+G+v  ++  + 
+            ApdC|K7WGH6 241 FLQRKLGLDKPN--NDNFgAVWFRVNGRFDIGDFVPSSEEKWhNRVpnkNRYYSTNHLCGEGYWVWTIPLSTGHTSIGIVARQDIHPL 326
+                            *****9996544..3444488877776443444444444444134433423333678889999*********************9997 PP
+
+  cut_pyrrole_accepting 244 e.kkspeeefwelaarrpelkrrfkkaervrefkseadysYsikqvv.GdrwlllgdaarFvDPiFSrGvsvalesaralakrlia 327
+                            +   ++e +++ l++++p l+ ++k+ e+ ++f+++ +ysYs+kqv   +rw+++g+a  F DP +S G ++ +  ++ l+++lia
+            ApdC|K7WGH6 327 KnYYNYELAYQWLQKNEPVLACHLKDKEP-EDFRKMPKYSYSSKQVFsSNRWACVGEAGTFPDPFYSPGTDN-IGFGNSLTTQLIA 410
+                            64889999999999999999999999887.89************9752689******************887.3445555555555 PP
+
+>> McnD_B|A4Z4I8  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  100.8   0.0   2.1e-31   5.3e-31       1     313 [.      71     397 ..      71     427 .. 0.78
+
+  Alignments for each domain:
+  == domain 1  score: 100.8 bits;  conditional E-value: 2.1e-31
+  cut_pyrrole_accepting   1 GsGpaGstlgail..akkglkvlviekdefp....rfhiGESlipattv.vlreiglldkveaagfPekfGvkkkiGfllkkegfraa 81 
+                            G+G+aG tl+  l   k  ++v+v++k + p     f++GES++      + +++ l+d  e+  +  k+G  + +   + ++++ + 
+          McnD_B|A4Z4I8  71 GGGLAGLTLARQLklQKLNISVIVLDKIARPlpeaSFKVGESTVEVGAFyLANTLQLTDYFEEQHL-VKLG-LRYFFNNSATNFQDRP 156
+                            9*********8761167788999999988874455699******9766515567787777777766.4678.4455444555555555 PP
+
+  cut_pyrrole_accepting  82 ekefnerdqpglldetfhvdRsdfDalLlekAvelGakvrqgvrvkdvef.....deekvvvkaakg....eeqvrarmvvDasGrrt 160
+                            e  + e++    l + +++dR+++ + L++  ve G+++r+++ v+++e      +++k+v++++kg    ++ ++ar vvDa Grr 
+          McnD_B|A4Z4I8 157 ELGLSEFH----LPNSYQIDRGKLENDLRAFNVEAGVELRENCLVNEIELavglqQHHKIVYTQDKGdhkkTNVIQARWVVDAMGRRR 240
+                            44444444....6689*******************************99533333677888888888777666799************ PP
+
+  cut_pyrrole_accepting 161 fLarklklreedavfkqi.aifahfenvdrkadlvdkeqedyi.fi....pvsettvlyskergWvWvIpisntltSvGvvldkekyk 242
+                            fL +kl+l +  + + q+ a++   e+    +d v +++e++   +    + + +t +   e  WvW Ip+s   tS+G+v  ++  +
+          McnD_B|A4Z4I8 241 FLQKKLGLDK--PNNAQFgAVWFRVEGRFDISDFVPSSEEKWHnRVpnknR-YYSTNHLCGEGYWVWTIPLSTGHTSIGIVARQDIHP 325
+                            ******9965..445666699999998555555565555555414544432.333678888999*********************999 PP
+
+  cut_pyrrole_accepting 243 ke.kkspeeefwelaarrpelkrrfkkaervrefkseadysYsikqvvG.drwlllgdaarFvDPiFSrGvsv 313
+                             +   ++e +++ l++++p l+ ++++ +  ++f+++ +ysYs+kqv   +rw+++g+a    DP +S G ++
+          McnD_B|A4Z4I8 326 LKtYYNYELAYQWLQKNEPTLAFHLADKQ-PEDFRKMPKYSYSSKQVFSyNRWACVGEAGTVPDPFYSPGTDN 397
+                            76588999999999*******99998855.59**************865489*****************9876 PP
+
+>> tr|A1E280_STRAO|thal-6  [Streptomyces albogriseolus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   19.4   0.0   1.1e-06   2.8e-06       1      43 [.      12      57 ..      12      76 .. 0.88
+   2 !   24.5   0.3   3.2e-08   8.2e-08      93     361 ..     165     408 ..     146     409 .. 0.72
+
+  Alignments for each domain:
+  == domain 1  score: 19.4 bits;  conditional E-value: 1.1e-06
+   cut_pyrrole_accepting  1 GsGpaGstlgailak...kglkvlviekdefprfhiGESlipattv 43
+                            G+G aG +++a+l k   + +k++v+e+ + pr  +GE ++p+   
+  tr|A1E280_STRAO|thal-6 12 GGGTAGWMTAAYLGKalqNTVKIVVLEAPTIPRIGVGEATVPNLQR 57
+                            9************98444589*********************9665 PP
+
+  == domain 2  score: 24.5 bits;  conditional E-value: 3.2e-08
+   cut_pyrrole_accepting  93 lldetfhvdRsdfDalLlekAvelGakvrqgvrvkdvefdeekvv..vkaakgeeqvrarmvvDasGrrtfLarklklreedavfkq 177
+                              +++++h d s++ a+L++ Av + a  + + ++++v  de + +  +++++g + ++  ++vD+sG+r  L +k+       ++++
+  tr|A1E280_STRAO|thal-6 165 ATNYAWHFDASKVAAFLRNFAVTKQAVEHVEDEMTEVLTDERGFItaLRTKSG-RILQGDLFVDCSGFRGLLINKAMEEPFIDMSDH 250
+                             4689*****************99888888888********9998866778887.999***************999753322222333 PP
+
+   cut_pyrrole_accepting 178 i.aifahfenvdrkadlvdkeqedyifipvsettvlyskergWvWvIpisntltSvGvvldkekykkekkspeeefwelaarrpelk 263
+                                  a  + v+ +++       +    p++++      e gW+W Ip+     S  v  d+   + e++ +  ++w+l   + e +
+  tr|A1E280_STRAO|thal-6 251 LlCNSAVATAVPHDDE-------KNGVEPYTSS---IAMEAGWTWKIPMLGRFGSGHVYSDHFATQDEATLAFSKLWGLDPDNTEFN 327
+                             3233333344444444.......3333366666...677899*******99999988887777777777777777787777777764 PP
+
+   cut_pyrrole_accepting 264 r.rfkkaervrefkseadysYsikqvvGdrwlllgdaarFvDPiFSrGvsvalesaralakrliaavkddDfskerfeayerlsqkg 349
+                             + rf+  ++ r ++          +      + +g a  Fv P+ S+G+ +   ++++lak+      d+ f k   + ++r +++ 
+  tr|A1E280_STRAO|thal-6 328 HvRFRVGRNRRAWVR---------N-----CVSVGLASCFVEPLESSGIYFIYAAIHMLAKHF----PDKTFDKVLVDRFNREIEEM 396
+                             326666666666653.........3.....356888888999999999888888888877764....56667777778888888888 PP
+
+   cut_pyrrole_accepting 350 ldiaddlisiay 361
+                             +d   d++++ y
+  tr|A1E280_STRAO|thal-6 397 FDDTRDFLQAHY 408
+                             888888877766 PP
+
+>> tr|G0ZGJ1_SERPL|prnA-7  [Serratia plymuthica]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   41.8   0.0   1.8e-13   4.5e-13       1     276 [.      12     329 ..      12     396 .. 0.72
+
+  Alignments for each domain:
+  == domain 1  score: 41.8 bits;  conditional E-value: 1.8e-13
+   cut_pyrrole_accepting   1 GsGpaGstlgailak...kglkvlviekdefprfhiGESlipattvvlreiglldkveaagfPe.....kfGv.............. 65 
+                             G+G aG + +++l +   +++++ +ie+ + pr  +GE +ip+  +v  +   ++  e+  +P+     k G+              
+  tr|G0ZGJ1_SERPL|prnA-7  12 GGGTAGWMSASYLVRalqQQANITLIESAAIPRIGVGEATIPSLQKVFFDFLGIP--EQEWMPQvngafKAGIkfvnwrkspdhsrn 96 
+                             9************97444699**********************999988754233..444456666677444455555555555555 PP
+
+   cut_pyrrole_accepting  66 ........................kkkiGfllkke.gfraae....kefnerdqpgl..ldetfhvdRsdfDalLlekAvelGakvr 121
+                                                     k++ Gf+        +++     ++  + ++g   + +++h d   + ++L + Ave G++  
+  tr|G0ZGJ1_SERPL|prnA-7  97 dyfyhlfgnvpscdgvplthywlrKREQGFQQSMAyACYPQPgaldGNLAPCLHDGTrqMSHAWHFDAHLVADFLQRWAVERGVNRV 183
+                             555555556666666677777777666666544331333333000045667777777678899**********************99 PP
+
+   cut_pyrrole_accepting 122 qgvrvkdvefdeekvv..vkaakgeeqvrarmvvDasGrrtfLarklklreedavfkqi..aifahfenvdrkadlvdkeqedyifi 204
+                              + +v +v+ ++++ +  + +++g ++++a +++D+sG r  L +++ l+e  + +  +     a  + v+ +++       ++  +
+  tr|G0ZGJ1_SERPL|prnA-7 184 VD-EVVEVNLNDHGFIssLLTKEG-RKLEADLFIDCSGMRGLLINQA-LKEPFIDMSDYllCDSAVASAVPNDDA-------QV-GV 259
+                             99.9999*9999988867777777.9*****************9995.555544444442233333444444444.......22.22 PP
+
+   cut_pyrrole_accepting 205 .pvsettvlyskergWvWvIpisntltSvGvvldkekykkekkspeeef..welaarrpelkrrfkkaervrefk 276
+                              p+++       + gW+W Ip+     S  v   k  +++ ++ + +++  w+l +++p  + +f+  ++ r ++
+  tr|G0ZGJ1_SERPL|prnA-7 260 ePYTSA---IAMNSGWTWKIPMLGRFGSGYVFSSK--FTSRDQATTDFLnlWGLSDNQPLNQIKFRVGRNKRAWV 329
+                             244444...567789******98888884444443..44444444444444888888877676776666666665 PP
+
+>> sp|P95480|prnA-7  [Pseudomonas fluorescens]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   39.3   0.0   9.8e-13   2.5e-12       1     269 [.      12     322 ..      12     396 .. 0.73
+
+  Alignments for each domain:
+  == domain 1  score: 39.3 bits;  conditional E-value: 9.8e-13
+  cut_pyrrole_accepting   1 GsGpaGstlgailak...kglkvlviekdefprfhiGESlipattvvlreiglldkveaagfPe........................ 61 
+                            G+G aG +++++l +   +++++ +ie+ + pr  +GE +ip+  +v  +       e+  +P+                        
+       sp|P95480|prnA-7  12 GGGTAGWMAASYLVRalqQQANITLIESAAIPRIGVGEATIPSLQKVFFDFL--GIPEREWMPQvngafkaaikfvnwrkspdpsrdd 97 
+                            9************97444699***********************99998755..3446677788556665666555555555555555 PP
+
+  cut_pyrrole_accepting  62 ....kfGv.................kkkiGfllkkegf.raae....kefnerdqpgl..ldetfhvdRsdfDalLlekAvelGakvr 121
+                                                     k++ Gf+   e    +++     ++  +  +g   + +++h d   + ++L++ Ave G++  
+       sp|P95480|prnA-7  98 hfyhL--FgnvpncdgvplthywlrKREQGFQQPMEYAcYPQPgaldGKLAPCLSDGTrqMSHAWHFDAHLVADFLKRWAVERGVNRV 183
+                            55551..055666666677777878888888776654313343111145666777777677899**********************99 PP
+
+  cut_pyrrole_accepting 122 qgvrvkdvefdeekvv..vkaakgeeqvrarmvvDasGrrtfLarklklreedavfkqi..aifahfenvdrkadlvdkeqedyifi. 204
+                             + +v dv+ ++ + +  + +++g ++++a +++D+sG r  L +++ l+e  + +  +     a  + v+ +++      +d   + 
+       sp|P95480|prnA-7 184 VD-EVVDVRLNNRGYIsnLLTKEG-RTLEADLFIDCSGMRGLLINQA-LKEPFIDMSDYllCDSAVASAVPNDDA------RDG--Ve 260
+                            99.9*****999998866777777.99****************9995.555544444443233333444444444......222..21 PP
+
+  cut_pyrrole_accepting 205 pvsettvlyskergWvWvIpisntltSvGvvldkekykkekkspeeef..welaarrpelkrrfkka 269
+                            p++++      + gW+W Ip+     S G v   +++++ ++ + +++  w+l +++p  + +f+  
+       sp|P95480|prnA-7 261 PYTSS---IAMNSGWTWKIPMLGRFGS-GYVFS-SHFTSRDQATADFLklWGLSDNQPLNQIKFRVG 322
+                            44444...4566789999999777766.44443.344444444445444466666666555555555 PP
+
+>> tr|A8CF75_9PSEU|ktzQ-7  [Kutzneria sp. (strain 744)]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   16.6   0.0     8e-06     2e-05       1      46 [.      13      61 ..      13      77 .. 0.90
+   2 !   19.2   0.1   1.3e-06   3.3e-06      91     244 ..     164     307 ..     152     409 .. 0.69
+
+  Alignments for each domain:
+  == domain 1  score: 16.6 bits;  conditional E-value: 8e-06
+   cut_pyrrole_accepting  1 GsGpaGstlgailakk...glkvlviekdefprfhiGESlipattvvlr 46
+                            G+G aG + + +l k+   g++v v+e+ +  r  +GE +ip+  +v  
+  tr|A8CF75_9PSEU|ktzQ-7 13 GGGTAGWMSACYLSKAlgpGVEVTVLEAPSISRIRVGEATIPNLHKVFF 61
+                            9**************87779**********************9888765 PP
+
+  == domain 2  score: 19.2 bits;  conditional E-value: 1.3e-06
+   cut_pyrrole_accepting  91 pglldetfhvdRsdfDalLlekAvel.Gak.vrqgvrvkdvefdeekvvvkaakgeeqvrarmvvDasGrrtfLarklklreedavf 175
+                               l  +++h d   + ++L + Av++  ++ v++ ++ +d+++ ++  +v++++g +++ a +++D+sG+r++L  k+    +++++
+  tr|A8CF75_9PSEU|ktzQ-7 164 TKLASYAWHFDADLVADFLCRFAVQKlNVThVQDVFTHADLDQRGHITAVNTESG-RTLAADLFIDCSGFRSVLMGKVM---QEPFL 246
+                             4568899*****9999999999987524441444556678888888888****99.99****************88764...44554 PP
+
+   cut_pyrrole_accepting 176 kqiaifahfenvdrkadlvdkeqedyifi.pvsettvlyskergWvWvIpisntltSvGvvldkekykke 244
+                             +   +  h+ n    a +  +++e++  i p++++      + gW+W Ip+     S G v   ++++++
+  tr|A8CF75_9PSEU|ktzQ-7 247 D---MSKHLLNDRAVALMLPHDDEKV-GIePYTSS---LAMRSGWSWKIPLLGRFGS-GYVYS-SQFTSQ 307
+                             3...3467777444555555555555.55377777...67789*******9766666.33332.233333 PP
+
+>> tr|REBH_LENAE|rebH-7  [Lentzea aerocolonigenes]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !    8.9   0.0    0.0018    0.0046       1      44 [.      12      58 ..      12     101 .. 0.89
+   2 !   25.9   0.2   1.2e-08     3e-08      87     226 ..     158     289 ..     142     408 .. 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 8.9 bits;  conditional E-value: 0.0018
+  cut_pyrrole_accepting  1 GsGpaGstlgailakk...glkvlviekdefprfhiGESlipattvv 44
+                           G+G aG +++++l k+    + + ++++ + p   +GE +ip+   +
+   tr|REBH_LENAE|rebH-7 12 GGGTAGWMAASYLGKAlqgTADITLLQAPDIPTLGVGEATIPNLQTA 58
+                           9************99644347899******************97655 PP
+
+  == domain 2  score: 25.9 bits;  conditional E-value: 1.2e-08
+  cut_pyrrole_accepting  87 erdqpglldetfhvdRsdfDalLlekAv.elGakvrqgvrvkdvefdeekvv..vkaakgeeqvrarmvvDasGrrtfLarklklree 171
+                            + d + ++++++h d   + ++L++ A+ +lG++  ++ rv++v++d ++ +  v++a+g + + a ++vD+sG+r  L +k+     
+   tr|REBH_LENAE|rebH-7 158 RLDGSKVTNYAWHFDAHLVADFLRRFATeKLGVRHVED-RVEHVQRDANGNIesVRTATG-RVFDADLFVDCSGFRGLLINKAME--- 240
+                            55677899***************99886268**99999.********9998877888888.99****************999753... PP
+
+  cut_pyrrole_accepting 172 davfkqiaifahfenvdrkadlvdkeqedyifi.pvsettvlyskergWvWvIpis 226
+                            +++++ ++   h+ n    a  v  +++d   + p+++       + gW+W Ip+ 
+   tr|REBH_LENAE|rebH-7 241 EPFLD-MS--DHLLNDSAVATQVP-HDDDANGVePFTSA---IAMKSGWTWKIPML 289
+                            33332.22..33333222222222.22233334388877...567789******84 PP
+
+>> tr|A8CF74_9PSEU|ktzR-6  [Kutzneria sp. (strain 744)]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   26.2   0.0   9.4e-09   2.4e-08       1     362 []       5     406 ..       5     406 .. 0.71
+
+  Alignments for each domain:
+  == domain 1  score: 26.2 bits;  conditional E-value: 9.4e-09
+   cut_pyrrole_accepting   1 GsGpaGstlgailakk...glkvlviekdefprfhiGESlipattvvlreiglldk..veaagfPekfGv................. 65 
+                             G+G aG +++a+l+ +    l++ v+e+++     +GE + +      + ++l ++  + a +   k+G+                 
+  tr|A8CF74_9PSEU|ktzR-6   5 GGGTAGWMTAAYLKTAfgdRLSITVVESSRIGTIGVGEATFSDIQHFFQFLNLREQdwMPACNATYKLGIrfenwrhvghhfyqpfe 91 
+                             8999*******99975433799999*************9999999999988875543377777777777777777777777777777 PP
+
+   cut_pyrrole_accepting  66 .......................................kkkiGfllkkegfraaekefnerdqpgl.....ldetfhvdRsdfDal 108
+                                                                     +++  +l +e+f ++  e+ +r++++        +++h + + + ++
+  tr|A8CF74_9PSEU|ktzR-6  92 qirpvygfpltdwwlhdaptdrfdtdcfvmpnlceagrsPRHLDGTLADEDFVEEGDELANRTMSEHqgksqFPYAYHFEAALLAKF 178
+                             7777777777777777777777777888888888888785555555555555555555544443332110226789*********** PP
+
+   cut_pyrrole_accepting 109 LlekAvelGakvrqgvrvkdvefdeekvv...vkaakgeeqvrarmvvDasGrrtfLark.lklreedavfkqiaifahfenvdrka 191
+                             L   Av+ G++   +  v dv+ d+ + +   v+a++g  +++  ++vD+ G+r  L +k l+    ++v       ++ + ++ ++
+  tr|A8CF74_9PSEU|ktzR-6 179 LTGYAVDRGVEHVVD-DVLDVRLDQRGWIehvVTAEHG--EIHGDLFVDCTGFRGLLLNKaLG---VPFV-------SYQDTLPNDS 252
+                             ***********9999.9********9988664555555..9****************999333...3444.......4455666666 PP
+
+   cut_pyrrole_accepting 192 dlvdkeqedyifipvsettvlyskergWvWvIpisntltSvGvvldkekykkekkspeeefwelaarrpelkrrfkkaervrefkse 278
+                             ++  + + d+    +  +t    +e gW+W Ip+   +   G v  k+ +    +++e  + e++   p  +++  +a+++r     
+  tr|A8CF74_9PSEU|ktzR-6 253 AVALQVPLDMQRRGIVPNTTATAREAGWIWTIPLFGRVG-TGYVYAKDYLSP--EEAERTLREFVG--P--AAADVEANHIRMRIGR 332
+                             666666666666666666667899*********976653.455555554432..223333333332..2..2333344445444444 PP
+
+   cut_pyrrole_accepting 279 adysYsikqvvGdrwlllgdaarFvDPiFSrGvsvalesaralakrliaavkddDfskerfeayerlsqkgldiaddlisiayi 362
+                              + s++      ++ + +g + +Fv P+ S G+ +      ++ ++l++ + ++D++ ++ + y++   + +d   +++ i y+
+  tr|A8CF74_9PSEU|ktzR-6 333 SQESWR------NNCVAIGLSSGFVEPLESTGIFFIH----HAIEQLVKHFPAADWNPKSRDMYNSAVAHVMDGIREFLVIHYR 406
+                             444444......455789**************99855....5556677788888999999999999999999999999988885 PP
+
+>> tr|W1J423|pyrH-5  [Xenorhabdus szentirmaii DSM 16338]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   14.8   0.0   2.8e-05   7.1e-05       1     108 [.       9     124 ..       9     136 .. 0.68
+   2 !   19.6   0.0   9.5e-07   2.4e-06      94     226 ..     164     286 ..     142     370 .. 0.77
+
+  Alignments for each domain:
+  == domain 1  score: 14.8 bits;  conditional E-value: 2.8e-05
+  cut_pyrrole_accepting   1 GsGpaGstlgailak...kglkvlviekdefprfhiGESlipattvvlreiglldkveaagfPe.....kfGv....kkkiGfllkke 76 
+                            G+G aG +++a+l k   k +++ v+e++e  +  +GE + ++     + +gl    e   +Pe     k+G+     +  G  + + 
+       tr|W1J423|pyrH-5   9 GGGTAGWMTAAYLSKafdKNINITVVESKEVKKIGVGEATFSTVRHYFDYLGLN---ESEWLPEcsgsyKLGIrfenWDGQGNHFYHP 93 
+                            9*************9554589********************9999999999943...3444677444445555444334444444444 PP
+
+  cut_pyrrole_accepting  77 gfraaekefnerdqpgl.ldetfhvdRsdfDal 108
+                            ++r +   ++ + +++  l ++ + +R d+D++
+       tr|W1J423|pyrH-5  94 FERWE--VVKGFPISEWwLSKKLKDQRFDYDTF 124
+                            44444..55555555555555555555555555 PP
+
+  == domain 2  score: 19.6 bits;  conditional E-value: 9.5e-07
+  cut_pyrrole_accepting  94 ldetfhvdRsdfDalLlekAvelGakvrqgvrvkdvefdeekvv..vkaakgeeqvrarmvvDasGrrtfLarklklreedavfkqi. 178
+                              +++h d   + ++L++ A++ G+k  ++  v++ve d ++ +  ++a+    ++ra + +D+ G++  L +k+   e  + f  + 
+       tr|W1J423|pyrH-5 164 YPYAYHFDADGVASFLKRYAMNRGVKHIED-DVTHVEIDTNGNIgyLEAKIY-GKLRADLYIDCTGFKGLLINKALN-EPFISFSDVl 248
+                            56899************************9.*******99998875666665.9*****************999643.2222222221 PP
+
+  cut_pyrrole_accepting 179 .aifahfenvdrkadlvdkeqedyifipvsettvlyskergWvWvIpis 226
+                                a    v+r+++      +d+   p+++     + ++gW W Ip+ 
+       tr|W1J423|pyrH-5 249 kNNRAVALRVPRENE------NDI--EPYTTA---RTMSNGWRWTIPLY 286
+                            222233334444443......222..244444...557789*****984 PP
+
+>> tr|M9QSI0_9BACT|borH-6  [uncultured bacterium]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   14.4   0.0   3.7e-05   9.3e-05       1      46 [.      12      60 ..      12      89 .. 0.88
+   2 !   16.5   0.1   8.4e-06   2.1e-05      95     225 ..     166     288 ..     152     310 .. 0.73
+   3 ?    1.3   0.1      0.35       0.9     294     358 ..     344     404 ..     337     408 .. 0.67
+
+  Alignments for each domain:
+  == domain 1  score: 14.4 bits;  conditional E-value: 3.7e-05
+   cut_pyrrole_accepting  1 GsGpaGstlgailakk...glkvlviekdefprfhiGESlipattvvlr 46
+                            G+G aG +++++lak+    + + ++e+ +  r  +GE ++p+   v  
+  tr|M9QSI0_9BACT|borH-6 12 GGGTAGWMTASYLAKAlgdTVTITLLEAPAIGRIGVGEATVPNLQRVFF 60
+                            9**************7544688999*****************9887765 PP
+
+  == domain 2  score: 16.5 bits;  conditional E-value: 8.4e-06
+   cut_pyrrole_accepting  95 detfhvdRsdfDalLlekAve.lGakvrqgvrvkdvefdeekvv..vkaakgeeqvrarmvvDasGrrtfLarklklreedavfkqi 178
+                              +++h d   + ++L+++A+e l ++  qg ++++v +de + +  +++ +g ++++  +++D+sG+r  L +k+       +++q 
+  tr|M9QSI0_9BACT|borH-6 166 RYAWHFDAHLVAEFLRRHATErLNVEHVQG-EMQQVLRDERGFItaLRTVEG-RDLEGDLFIDCSGFRGLLINKAMEEPFIDMNDQL 250
+                             689****************87257777788.9********998855666666.9******************996533222223332 PP
+
+   cut_pyrrole_accepting 179 .aifahfenvdrkadlvdkeqedyifi.pvsettvlyskergWvWvIpi 225
+                                 a  + ++ ++d           + p+++       + gW+W Ip+
+  tr|M9QSI0_9BACT|borH-6 251 lCNRAVATAIKHDDD--------AHGVePYTSA---IAMRSGWSWKIPM 288
+                             233344444444444........3333244444...4556779999997 PP
+
+  == domain 3  score: 1.3 bits;  conditional E-value: 0.35
+   cut_pyrrole_accepting 294 lllgdaarFvDPiFSrGvsvalesaralakrliaavkddDfskerfeayerlsqkgldiaddlis 358
+                             + +g a  F+ P+ S G+ +   ++ +l++     + d  f     +a+++ ++  +d   d+i+
+  tr|M9QSI0_9BACT|borH-6 344 VSIGLASCFLEPLESTGIYFITAAIYQLTQ----HFPDRTFALALSDAFNHEIEAMFDDTRDFIQ 404
+                             67999*************998777766554....4444555444455555555555555555555 PP
+
+>> tr|A4D0H5|pyrH-5  [Streptomyces rugosporus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !    8.8   0.0    0.0018    0.0046       1      49 [.       9      60 ..       9      94 .. 0.84
+   2 !   21.5   0.0   2.5e-07   6.4e-07      95     225 ..     165     285 ..     144     303 .. 0.80
+   3 ?    0.8   0.0      0.51       1.3     294     327 ..     341     370 ..     333     405 .. 0.70
+
+  Alignments for each domain:
+  == domain 1  score: 8.8 bits;  conditional E-value: 0.0018
+  cut_pyrrole_accepting  1 GsGpaGstlgailakk...glkvlviekdefprfhiGESlipattvvlreig 49
+                           G+G aG +++++l+ +    + v ++e+ +  r  +GE + ++     + +g
+       tr|A4D0H5|pyrH-5  9 GGGTAGWMTASYLKAAfddRIDVTLVESGNVRRIGVGEATFSTVRHFFDYLG 60
+                           9************86433389******************9988877777777 PP
+
+  == domain 2  score: 21.5 bits;  conditional E-value: 2.5e-07
+  cut_pyrrole_accepting  95 detfhvdRsdfDalLlekAvelGakvrqgvrvkdvefdeekvv..vkaakgeeqvrarmvvDasGrrtfLark.lklreedavfkqia 179
+                             +++h d  ++ ++L e A+  G++   +  v++v +de + +  v++++   ++   ++vD+ G+r  L ++ l+ r + +      
+       tr|A4D0H5|pyrH-5 165 PYAYHFDADEVARYLSEYAIARGVRHVVD-DVQHVGQDERGWIsgVHTKQH-GEISGDLFVDCTGFRGLLINQtLGGRFQSFSDVLPN 250
+                            689**********************9999.9*********99978888886.9*****************999666665554433336 PP
+
+  cut_pyrrole_accepting 180 ifahfenvdrkadlvdkeqedyifipvsettvlyskergWvWvIpi 225
+                              a    v+r++d      ed+   p+++       + gW+W Ip+
+       tr|A4D0H5|pyrH-5 251 NRAVALRVPREND------EDM--RPYTTA---TAMSAGWMWTIPL 285
+                            6666778888887......555..344444...457899******8 PP
+
+  == domain 3  score: 0.8 bits;  conditional E-value: 0.51
+  cut_pyrrole_accepting 294 lllgdaarFvDPiFSrGvsvalesaralakrlia 327
+                            + +g +a Fv P+ S G+ +  +++++l     +
+       tr|A4D0H5|pyrH-5 341 VAVGLSAAFVEPLESTGIFFIQHAIEQLV----K 370
+                            6688899***********99776666554....4 PP
+
+>> tr|F6LWA5|abeH-5  [uncultured bacterium AB1650]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    4.6   0.0     0.036      0.09       1      53 [.       9      64 ..       9     124 .. 0.81
+   2 !   21.3   0.0     3e-07   7.7e-07      94     229 ..     164     290 ..     150     301 .. 0.76
+   3 ?    3.0   0.0       0.1      0.27     294     360 ..     342     404 ..     332     406 .. 0.72
+
+  Alignments for each domain:
+  == domain 1  score: 4.6 bits;  conditional E-value: 0.036
+  cut_pyrrole_accepting  1 GsGpaGstlgailakk...glkvlviekdefprfhiGESlipattvvlreiglldk 53
+                           G+G aG +++++l  +    + v ++e+++     +GE + ++     + +gl++k
+       tr|F6LWA5|abeH-5  9 GGGTAGWMTASYLTAAfgdRIGVTLVESKRVGSIGVGEATFSTVRHFFEYLGLEEK 64
+                           9************8753336899*****************9999999988887665 PP
+
+  == domain 2  score: 21.3 bits;  conditional E-value: 3e-07
+  cut_pyrrole_accepting  94 ldetfhvdRsdfDalLlekAvelGakvrqgvrvkdvefdeekvvvkaakg.eeqvrarmvvDasGrrtfLarklklreedavfkqiai 180
+                              +++h d   + ++L++ Av  G+k   +  v+dv  d+ + + +  +g + +++  +++D+ G+r+ L  k+    e++ + q   
+       tr|F6LWA5|abeH-5 164 FPYAYHFDATLVANYLRDYAVARGVKHVLD-DVQDVALDDRGWISHVVTGeSGNLTGDLFIDCTGFRSLLLGKALA--EPFQSYQ--- 245
+                            56899**********************999.9**********997777765789***************9887543..4444444... PP
+
+  cut_pyrrole_accepting 181 fahfenvdrkadlvdkeqedyifipvsettvlyskergWvWvIpisntl 229
+                                + ++ ++++  + ++d+    +   t    +e gW+W Ip+ + +
+       tr|F6LWA5|abeH-5 246 ----DSLPNDSAVALRVPQDMENRGLRPCTTATAQEAGWIWTIPLFDRI 290
+                            ....444555554444445554443333444467999*******97665 PP
+
+  == domain 3  score: 3.0 bits;  conditional E-value: 0.1
+  cut_pyrrole_accepting 294 lllgdaarFvDPiFSrGvsvalesaralakrliaavkddDfskerfeayerlsqkgldiaddlisia 360
+                            + +g + +Fv P+ S G+ +  +++++    l++ + d+ +     +ay++l ++ +d   +++ + 
+       tr|F6LWA5|abeH-5 342 VAVGLSSGFVEPLESTGIFFIQHAIEQ----LVKHFPDERWDDGLRTAYNKLVNNVMDGVREFLVVH 404
+                            6788899***********997666655....555666666666666777778887777777776555 PP
+
+>> tr|A0A0K0P8P2_9BACT|lzrH2-6  [uncultured bacterium]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   27.6   0.0   3.5e-09   8.9e-09       1     225 [.      13     289 ..      13     316 .. 0.79
+   2 ?   -0.7   0.1       1.4       3.5     295     325 ..     346     376 ..     340     409 .. 0.65
+
+  Alignments for each domain:
+  == domain 1  score: 27.6 bits;  conditional E-value: 3.5e-09
+        cut_pyrrole_accepting   1 GsGpaGstlgailakk...glkvlviekdefprfhiGESlipattvvlre.iglldk..veaagfPekfGv........... 65 
+                                  G+G aG +++++l k+    +   v+e+ + p+  +GE ++p+      + +gl+++  + + +   k+Gv           
+  tr|A0A0K0P8P2_9BACT|lzrH2-6  13 GGGTAGWMTASYLGKAlgpDVALTVLEAPSIPKIGVGEATVPNLHRTFFDfLGLAEDewMRECNASYKMGVrfinwrtpgag 94 
+                                  9**************8644577789******************877654437776544599999999999999999999999 PP
+
+        cut_pyrrole_accepting  66 ..........................................kkkiGfllkkegfraaekefnerdqpgl..ldetfhvdRs 103
+                                                                             + + +   +e    +   +  r+ +g   +++++h d  
+  tr|A0A0K0P8P2_9BACT|lzrH2-6  95 eakarelrgkpdhfdhlfgllpnhanlplshywtaerlagrtDEAFDYACYRESPVLD-AALAPRHADGSrwTNYAWHFDAH 175
+                                  9999999999999999999999999999999999999999877888888888887777.667777777766689******** PP
+
+        cut_pyrrole_accepting 104 dfDalLlekAve.lGakvrqgvrvkdvefdeekvv.vkaakgeeqvrarmvvDasGrrtfLarklklreedavfkqiaifah 183
+                                   + ++L++ A+e +Ga   ++ + + v  +  +++ +++++g + ++  ++vD+sG+r  L +k+  re    +       h
+  tr|A0A0K0P8P2_9BACT|lzrH2-6 176 LVADFLRRFATErQGALHVEDEMTEPVIDHRGHITaLRTKSG-RLIEGDLFVDCSGFRGLLINKAM-REPFLDMS-----DH 250
+                                  *******99975379988888788888887777776899998.9*****************99964.44333222.....44 PP
+
+        cut_pyrrole_accepting 184 fenvdrkadlvdkeqedyifipvsettvlyskergWvWvIpi 225
+                                  + n    a +v +++e     p+++       ++gW+W Ip+
+  tr|A0A0K0P8P2_9BACT|lzrH2-6 251 LLNDSAVATAVPHDDEANGVEPYTSA---IAMSHGWTWKIPM 289
+                                  55555555555555555544466666...567889*****98 PP
+
+  == domain 2  score: -0.7 bits;  conditional E-value: 1.4
+        cut_pyrrole_accepting 295 llgdaarFvDPiFSrGvsvalesaralakrl 325
+                                   +g +  F+ P+ S G+ +   +  +lak+ 
+  tr|A0A0K0P8P2_9BACT|lzrH2-6 346 SIGLSSCFLEPLESTGIYFITAALYQLAKHF 376
+                                  5777889999999999999887777777654 PP
+
+>> tr|E2IHC5|mibH-5  [Microbispora corallina]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   28.8   0.0   1.6e-09     4e-09       1     265 [.      63     350 ..      63     406 .. 0.69
+
+  Alignments for each domain:
+  == domain 1  score: 28.8 bits;  conditional E-value: 1.6e-09
+  cut_pyrrole_accepting   1 GsGpaGstlgaila..kkglkvlviekdefprfhiGESlipattvvlreiglldkveaagfPe......................... 61 
+                            G+G aG +++  l+  +  l v+++e+ + p   +GE ++++  + l++      ++ a+f +                         
+       tr|E2IHC5|mibH-5  63 GGGTAGYLTALALKakRPWLDVALVESADIPIIGVGEATVSYMVMFLHHYL---GIDPAEFYQhvrptwklgirfewgsrpegfvapf 147
+                            99****98887774215679**********************999988754...36666666666688*8888888888888888888 PP
+
+  cut_pyrrole_accepting  62 ..............kfGvkkkiGfllkkegfraaekefnerdqpgl...ldetfhvdRsdfDalLlekAvelGakvrqgvrvkdvefd 132
+                                          ++G +++   +++   + ++++   e  +  l   l  ++h+d + + ++L e A++ G++  ++ +v++v+ d
+       tr|E2IHC5|mibH-5 148 dwgtgsvglvgslrETGNVNEATLQAMLMTEDRVPVYRGEGGHVSLmkyLPFAYHMDNARLVRYLTELATRRGVHHVDA-TVAEVRLD 234
+                            77777666666665555566666555544444444444444444441226789**********************9999.9******9 PP
+
+  cut_pyrrole_accepting 133 eekvv..vkaakgeeqvrarmvvDasGrrtfLarklklreedavfkqiaifahfenvdrkadlvdkeqedyifipvsettvlyskerg 218
+                            +   v  + +++g ++++  + vD+ G+r+ L +k+     ++ +   ++f+   +   +  l  +  +     p+++     + + g
+       tr|E2IHC5|mibH-5 235 GPDHVgdLITTDG-RRLHYDFYVDCTGFRSLLLEKALG--IPFESYASSLFT---DAAITGTLA-HGGH---LKPYTTA---TTMNAG 309
+                            9777768666666.89****************999532..333333334444...333333321.2222...1244444...346789 PP
+
+  cut_pyrrole_accepting 219 WvWvIpisntltSvGvvldkekykkekkspeeefwelaarrpelkrr 265
+                            W+W Ip +++ + +G v     + +++ +p+++  e+a+r+p + r+
+       tr|E2IHC5|mibH-5 310 WCWTIP-TPESDHLGYV-----FSSAAIDPDDAAAEMARRFPGVTRE 350
+                            999999.6777888887.....4566778888888888888888764 PP
+
+>> tr|A0A1L1QK36_STRVO|th-hal-6  [Streptomyces violaceusniger]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   21.6   0.0   2.3e-07   5.9e-07       1     357 [.       8     404 ..       8     409 .. 0.57
+
+  Alignments for each domain:
+  == domain 1  score: 21.6 bits;  conditional E-value: 2.3e-07
+         cut_pyrrole_accepting   1 GsGpaGstlgailakk...glkvlviekdefprfhiGESlipattvvlreiglldkveaagfPe................. 61 
+                                   G+G aG +++++l+ +    + + ++e+ +     +GE + +      + +gl +k     +P                  
+  tr|A0A1L1QK36_STRVO|th-hal-6   8 GGGTAGWMTASYLKAAfgdRIDITLVESGHIGAVGVGEATFSDIRHFFEFLGLKEK---DWMPAcnatyklavrfenwrek 85 
+                                   56666666666665432224555666666666666666666666666666664332...2223233344555555555555 PP
+
+         cut_pyrrole_accepting  62 ...........................................kfGv..kkkiGfllkkegfraaeke..fnerdqpgl.. 93 
+                                                                                G+   ++ G l  + + + a+++  +++ +++g   
+  tr|A0A1L1QK36_STRVO|th-hal-6  86 ghyfyhpfeqmrsvngfpltdwwlkqgptdrfdkdcfvmasviDAGLspRHQDGTLIDQPFDEGADEMqgLTMSEHQGKtq 166
+                                   555555555555555555555555444444444444444444433334444455555555444432221134444444434 PP
+
+         cut_pyrrole_accepting  94 ldetfhvdRsdfDalLlekAvelGakvrqgvrvkdvefdeekvvvkaakg.eeqvrarmvvDasGrrtfLarklklreeda 173
+                                     ++++ + + + ++L +  ve G+k   +  v++v+ d+ + +   ++g + +++  +++D+ G+r  L +++   ee++
+  tr|A0A1L1QK36_STRVO|th-hal-6 167 FPYAYQFEAALLAKYLTKYSVERGVKHIVD-DVREVSLDDRGWITGVRTGeHGDLTGDLFIDCTGFRGLLLNQAL--EEPF 244
+                                   6789999999999***************99.***********997777774579****************99864..5666 PP
+
+         cut_pyrrole_accepting 174 vfkqiaifahfenvdrkadlvdk...eqedyifipvsettvlyskergWvWvIpisntltSvGvvldkekykkekkspeee 251
+                                   ++ q ++       + ++++  +   + e+   +p ++      ++ gW+W Ip++  +   G v  k+ +  e  ++e  
+  tr|A0A1L1QK36_STRVO|th-hal-6 245 ISYQDTL-------PNDSAVALQvpmDMERRGILPCTTA---TAQDAGWIWTIPLTGRVG-TGYVYAKDYLSPE--EAERT 312
+                                   6655444.......3333333330003333334466666...6799*********98874.5766666654333..33333 PP
+
+         cut_pyrrole_accepting 252 fwelaarrpelkrrfkkaervrefkseadysYsikqvvGdrwlllgdaarFvDPiFSrGvsvalesaralakrliaavkdd 332
+                                   + e++   p  +++  +a+++r      + s+ +k++     + +g + +Fv P+ S G+ +  +++    ++l++ + ++
+  tr|A0A1L1QK36_STRVO|th-hal-6 313 LREFVG--P--AAADVEANHIRMRIGRSRNSW-VKNC-----VAIGLSSGFVEPLESTGIFFIHHAI----EQLVKNFPAA 379
+                                   333332..2..223334555555444445454.3344.....4688888888888888887755544....4555556666 PP
+
+         cut_pyrrole_accepting 333 Dfskerfeayerlsqkgldiaddli 357
+                                   D++  + + y++   + +d   +++
+  tr|A0A1L1QK36_STRVO|th-hal-6 380 DWNSMHRDLYNSAVSHVMDGVREFL 404
+                                   7766666666666666666666655 PP
+
+>> tr|E9P162_9ACTN|stth-6  [Streptomyces toxytricini]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   21.1   0.1   3.5e-07   8.8e-07       1     357 [.      13     409 ..      13     414 .. 0.71
+
+  Alignments for each domain:
+  == domain 1  score: 21.1 bits;  conditional E-value: 3.5e-07
+   cut_pyrrole_accepting   1 GsGpaGstlgailakk...glkvlviekdefprfhiGESlipattvvlreiglldkveaagfPe....................... 61 
+                             G+G aG +++++l+k+    ++v ++e+ +     +GE + +      + ++l    e+  +P                        
+  tr|E9P162_9ACTN|stth-6  13 GGGTAGWMTASYLKKAfgeRVSVTLVESGTIGTVGVGEATFSDIRHFFEFLDLR---EEEWMPAcnatyklavrfqdwqrpghhfyh 96 
+                             99*************6433799********************999999988854...444455555667899999999988888888 PP
+
+   cut_pyrrole_accepting  62 .....................................kfGv..kkkiGfllkkegfraaek..efnerdqpgl..ldetfhvdRsdf 105
+                                                                    G       G+ll++e+ ++ae+   +++ +++g     +++h + + +
+  tr|E9P162_9ACTN|stth-6  97 pfeqmrsvdgfpltdwwlqngptdrfdrdcfvmaslcDAGRspRYLNGSLLQQEFDERAEEpaGLTMSEHQGKtqFPYAYHFEAALL 183
+                             88888888888888888877777777777777666664444556678******9988765422567777777645789********* PP
+
+   cut_pyrrole_accepting 106 DalLlekAvelGakvrqgvrvkdvefdeekvvvkaakg.eeqvrarmvvDasGrrtfLark.lklreedavfkqiaifahfenvdrk 190
+                              ++L     + G+k   + +v +v+ d+ + + +  ++ + ++   ++vD+ G+r +L ++ l+    ++v+ q       + ++ +
+  tr|E9P162_9ACTN|stth-6 184 AEFLSGYSKDRGVKHVVD-EVLEVKLDDRGWISHVVTKeHGDIGGDLFVDCTGFRGVLLNQaLG---VPFVSYQ-------DTLPND 259
+                             **************9999.9*********9984444332469***************9998333...3444433.......334444 PP
+
+   cut_pyrrole_accepting 191 adlvdkeqedy..ifipvsettvlyskergWvWvIpisntltSvGvvldkekykkekkspeeefwelaarrpelkrrfkkaervref 275
+                             +++  + + d+    ip ++      ke gW+W Ip+   +   G v  k+    + +++e  + e++   pe ++  ++  r+r  
+  tr|E9P162_9ACTN|stth-6 260 SAVALQVPLDMeaRGIPPYTR--ATAKEAGWIWTIPLIGRIG-TGYVYAKDYC--SPEEAERTLREFV--GPEAADVEANHIRMRIG 339
+                             433333333330033444443..4679*********977764.4666555533..3344455555554..36766665555666655 PP
+
+   cut_pyrrole_accepting 276 kseadysYsikqvvGdrwlllgdaarFvDPiFSrGvsvalesaralakrliaavkddDfskerfeayerlsqkgldiaddli 357
+                             +se+ ++        ++ + +g + +Fv P+ S G+ +      ++ ++l++ + ++D++ +    y++   + +d   +++
+  tr|E9P162_9ACTN|stth-6 340 RSEQSWK--------NNCVAIGLSSGFVEPLESTGIFFIH----HAIEQLVKHFPAGDWHPQLRAGYNSAVANVMDGVREFL 409
+                             5555443........4556899999999999999998854....44556677777788877766667777777777666665 PP
+
+>> tr|A0A1W7D4T7|SpmH-5  [Streptomyces marincola]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   10.6   0.0   0.00054    0.0014       1      58 [.       9      65 ..       9     105 .. 0.78
+   2 !   12.1   0.1   0.00019   0.00047      95     234 ..     165     293 ..     155     405 .. 0.71
+
+  Alignments for each domain:
+  == domain 1  score: 10.6 bits;  conditional E-value: 0.00054
+  cut_pyrrole_accepting  1 GsGpaGstlgailakk...glkvlviekdefprfhiGESlipattvvlreiglldkveaag 58
+                           G+G aG +++++l+ +    l v ++e+++  r  +GE + ++     + +g    +++a+
+   tr|A0A1W7D4T7|SpmH-5  9 GGGTAGWMTASYLKAAfadRLDVTLVESEAVGRIGVGEATFSTVRHFFDYLG----LDEAD 65
+                           9************865333799******************999988888888....44444 PP
+
+  == domain 2  score: 12.1 bits;  conditional E-value: 0.00019
+  cut_pyrrole_accepting  95 detfhvdRsdfDalLlekAvelGakvrqgvrvkdvefdeekvv..vkaakgeeqvrarmvvDasGrrtfLarklklreedavfkqiai 180
+                             +++h d  ++ a+L +   e G++   +  v +   d+ + +  v++++g  ++ a +++D+ G+r  L +kl              
+   tr|A0A1W7D4T7|SpmH-5 165 PYAYHFDADKVAAFLAAYSKERGVRHIVD-DVVHSALDDRGWIshVQTRGG-LRLDADLFIDCTGFRGALINKLMGEP---------- 240
+                            589**********************9999.555555666665546777777.9*****************99975433.......... PP
+
+  cut_pyrrole_accepting 181 fahfenvdrkadlvdkeqedyifipvsettvlyskergWvWvIpisntltSvGv 234
+                            f  f++v +++ +v +  ++   + +   t     + gW+W Ip+ +  + vG 
+   tr|A0A1W7D4T7|SpmH-5 241 FESFQDVLPNNRAVATRVSRPEITDMNPYTTATAMDAGWMWRIPLFHR-DGVGY 293
+                            33344554444444444333333333333444678999*****98432.44554 PP
+
+>> tr|G3K6J6|claH-5  [Streptomyces uncialis]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !    7.2   0.0    0.0057     0.015       1      80 [.       9      97 ..       9     115 .. 0.81
+   2 !    8.0   0.2    0.0032    0.0083      94     165 ..     165     236 ..     149     300 .. 0.71
+   3 !    7.0   0.0    0.0065     0.016     294     361 ..     343     406 ..     334     407 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 7.2 bits;  conditional E-value: 0.0057
+  cut_pyrrole_accepting  1 GsGpaGstlgailak...kglkvlviekdefprfhiGESlipattvvlreiglldk..veaagfPekfGv....kkkiGfllkkegfra 80
+                           G+G +G +++++l     + ++v v+e+ +     +GE + ++     + +gl ++  + a +   k+G+     +  G+ + + ++r+
+       tr|G3K6J6|claH-5  9 GGGTSGWMTASYLSAafgERISVTVVESARVGTIGVGEATFSTVRHFFEYLGLSEEtwMPACNATYKLGIrfenWRAPGHHFYHPFERQ 97
+                           99***********86233579***********************999999998876456777777788886666566677777666665 PP
+
+  == domain 2  score: 8.0 bits;  conditional E-value: 0.0032
+  cut_pyrrole_accepting  94 ldetfhvdRsdfDalLlekAvelGakvrqgvrvkdvefdeekvvvkaakg.eeqvrarmvvDasGrrtfLark 165
+                              +++h d + + ++L++ Av  G+    +  v +v +de + + + a+  + ++   ++vD+ G+r  L + 
+       tr|G3K6J6|claH-5 165 FPYAYHFDAALLADFLRDYAVARGVLHVVD-DVVHVARDERGWISHVATRgSGDLAGDLFVDCTGFRGLLIND 236
+                            5689999999999***********988888.89*******9999554443389**************998765 PP
+
+  == domain 3  score: 7.0 bits;  conditional E-value: 0.0065
+  cut_pyrrole_accepting 294 lllgdaarFvDPiFSrGvsvalesaralakrliaavkddDfskerfeayerlsqkgldiaddlisiay 361
+                            + +g + +Fv P+ S G+ +  +    + ++l++ + d+D+     +ay+ l ++ +d   +++ + y
+       tr|G3K6J6|claH-5 343 VAVGLSSGFVEPLESTGIFFIQH----AIEQLVKHFPDADWDPALRSAYNTLVNRCMDGVREFLVLHY 406
+                            6688899***********98555....556788889999**999999**********99999987665 PP
+
+>> tr|A0A0K0P9W9|lzrH1-5  [uncultured bacterium]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    4.2   0.0     0.048      0.12       1      53 [.       9      64 ..       9     126 .. 0.72
+   2 !   16.7   0.0   7.4e-06   1.9e-05      94     232 ..     164     293 ..     152     406 .. 0.73
+
+  Alignments for each domain:
+  == domain 1  score: 4.2 bits;  conditional E-value: 0.048
+  cut_pyrrole_accepting  1 GsGpaGstlgailakk...glkvlviekdefprfhiGESlipattvvlreiglldk 53
+                           G+G +G +++++l  +    ++v ++e+ +     +GE + ++     + +gl++k
+  tr|A0A0K0P9W9|lzrH1-5  9 GGGTSGWMTASYLTAAfgdRIEVTLVESARVGAIGVGEATFSTVRHFFEYLGLEEK 64
+                           99***********875333799******************9999999999997665 PP
+
+  == domain 2  score: 16.7 bits;  conditional E-value: 7.4e-06
+  cut_pyrrole_accepting  94 ldetfhvdRsdfDalLlekAvelGakvrqgvrvkdvefdeekvvvkaakg.eeqvrarmvvDasGrrtfLarklklreedavfkqiai 180
+                              +++h d   + ++L++ Av  G++   +  v dv  d  + + +  ++ + ++   +++D+ G+r+ L  k+   ee++ + q ++
+  tr|A0A0K0P9W9|lzrH1-5 164 FPYAYHFDATLVANFLRDYAVARGVRHVLD-DVVDVALDSRGWISHVVTKeRGELAGDLFIDCTGFRSLLLGKA--LEEPFESYQSSL 248
+                            56899*********************9999.9********99984444333579***************98775..366777777777 PP
+
+  cut_pyrrole_accepting 181 fahfenvdrkadlvdkeqedyifipvsettvlyskergWvWvIpisntltSv 232
+                             +      r     d e++     p ++      +e gW+W Ip+ + +   
+  tr|A0A0K0P9W9|lzrH1-5 249 PNDSAVALRVPL--DMERKGLR--PCTTA---TAQEAGWIWTIPLFDRIGTG 293
+                            666555555555..44444443..44444...4699********98887543 PP
+
+>> sp|A0A059WYP6|TET50_UNKP  Flavin-dependent monooxygenase OS=Unknown prokaryotic organism OX=2725 GN=tet(50) PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   17.8   0.1   3.3e-06   8.5e-06       1     159 [.      11     159 ..      11     184 .. 0.87
+   2 ?    5.9   0.0     0.015     0.037     283     356 ..     274     344 ..     229     348 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 17.8 bits;  conditional E-value: 3.3e-06
+     cut_pyrrole_accepting   1 GsGpaGstlgailakkglkvlviekdefprfhiGESl..ipattvvlreiglldkveaagfPekfGv.kkkiGfllkkegfraae 82 
+                               G G+aG +++  l++ g++ ++iek++  r   G  l   + +t + +e+g++d++ ++    k G  +++ G +l++e+ ++  
+  sp|A0A059WYP6|TET50_UNKP  11 GVGVAGPAVAYWLKRFGFSPVLIEKSAAVRKG-GQALdiRGIATHIAKEMGIYDQICNMRTQIKCGRyVDVKGNVLHEEQGETF- 93 
+                               78************************999976.666532589************************768899999998877766. PP
+
+     cut_pyrrole_accepting  83 kefnerdqpgl.ldetfhvdRsdfDalLlekAvelGakvrqgvrvkdvefdeekvvvkaakgeeqvrarmvvDasGrr 159
+                                        g  +d + ++ R+d+ ++L+++ ++  ++ +q   v ++e++e+ v+v+ ++g +  +  +v+ a G +
+  sp|A0A059WYP6|TET50_UNKP  94 ---------GFrQDDEVEILRGDLVEILMKAIADIPCEFKQS--VIKIEQNEDSVTVTYKDG-RVENYDLVIAADGIH 159
+                               .........77789999************************9..99************9999.444556777777765 PP
+
+  == domain 2  score: 5.9 bits;  conditional E-value: 0.015
+     cut_pyrrole_accepting 283 YsikqvvGdrwlllgdaarFvDPiFSrGvsvalesaralakrliaavkddDfskerfeayerlsqkgldiaddl 356
+                                ++k     r +l+gdaa    P+  +G + a   a +la +l +a  d+D+  + f+ y++l++  ++ ++++
+  sp|A0A059WYP6|TET50_UNKP 274 IKMKSWTKGRIALIGDAAYCPSPLSGQGNNLAFVGAYILAGELKKA--DGDY-IQAFTRYNELLHPFVEANQQF 344
+                               566666677889********************************98..99**.999******999998888876 PP
+
+>> tr|W5VG40_SACPI|Tar14-6  [Saccharomonospora piscinae]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   18.0   0.0   2.9e-06   7.4e-06      81     227 ..     168     306 ..      22     324 .. 0.62
+   2 ?    0.3   0.0      0.71       1.8     296     326 ..     362     392 ..     350     422 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 18.0 bits;  conditional E-value: 2.9e-06
+    cut_pyrrole_accepting  81 aekefnerdqpgl.ldetfhvdRsdfDalLlekAvelGakvrqgvrvkdvefdeekvvvkaakg.eeqvrarmvvDasGrrtfLar 164
+                              ++   +  + +g    +++h +   + ++L   A++ G +   + +v dv  de + + + ++  + +++a ++vD+ G+r  L +
+  tr|W5VG40_SACPI|Tar14-6 168 DSARSTIAEYQGAqFPYAYHFEAHLLAKYLTGYATRRGTRHIVD-NVVDVALDERGWISHVRTEeHGDLEADLFVDCTGFRGLLLN 252
+                              333344455667767899**********************9999.9**********995555553589****************99 PP
+
+    cut_pyrrole_accepting 165 klklreedavfkqiaifahfenvdrkadlvdkeqedyifipvsettvlyskergWvWvIpisn 227
+                              k+    e++v+       + + ++ ++++  + + d+   p+   t    +e gW+W Ip+ +
+  tr|W5VG40_SACPI|Tar14-6 253 KAL--GEPFVS-------YQDTLPNDSAVALQVPLDMEREPIRPCTTATAQEAGWIWTIPLIS 306
+                              964..344444.......445566666666666666655566666667899*********855 PP
+
+  == domain 2  score: 0.3 bits;  conditional E-value: 0.71
+    cut_pyrrole_accepting 296 lgdaarFvDPiFSrGvsvalesaralakrli 326
+                              +g + +Fv P+ S G+ +  ++++++ k   
+  tr|W5VG40_SACPI|Tar14-6 362 VGLSSGFVEPLESTGIFFIHHAIEQIVKYFP 392
+                              67789***********999998888876655 PP
+
+>> sp|B1MM05|TETX_MYCA9  Flavin-dependent monooxygenase OS=Mycobacteroides abscessus (strain ATCC 19977 / DSM 44196 / CC
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   21.5   0.0   2.6e-07   6.6e-07       1     163 [.       7     172 ..       7     182 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 21.5 bits;  conditional E-value: 2.6e-07
+  cut_pyrrole_accepting   1 GsGpaGstlgailakkglkvlviek..defprfhiGESlipattvvlreiglldkveaagfPekfGvkkkiGfllkkegfraaekefn 86 
+                            G+Gp+G tl+ +l ++g+ + v++k  d fp    G  l p t  v +++g++++++  g+   +      G+++  e    +    +
+   sp|B1MM05|TETX_MYCA9   7 GAGPTGLTLACELTRRGIACRVLDKapDLFPGSR-GKGLSPRTQEVFDDLGIAPAINSGGMAMPPF-RIYAGHEVVAERSLVEMLGTD 92 
+                            89**********************9556899865.***********************99987665.778899999998888867777 PP
+
+  cut_pyrrole_accepting  87 erdqpgl.ldetfhvdRsdfDalLlekAvelGakvrqgvrvkdvefdeekvvvkaakg..eeqvrarmvvDasGrrtfLa 163
+                              + pg+     + v    +D++Ll++  + G  v+ +++v   ++  + v v  ++g   e ++a ++v a G r+++ 
+   sp|B1MM05|TETX_MYCA9  93 IPSGPGIpYPGFWLVPQWRTDEILLDRLRQFGGDVEFNCEVVGFTQRSDAVSVMVSQGgaPELLHASYLVGADGGRSTVR 172
+                            78899**888999999**************************9999888887666555568999*********9998775 PP
+
+>> sp|D3HKY4|TET56_LEGLN  Flavin-dependent monooxygenase OS=Legionella longbeachae serogroup 1 (strain NSW150) OX=661367
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !    9.6   0.0     0.001    0.0026       1     165 [.      11     165 ..      11     186 .. 0.83
+   2 ?   -0.0   0.0       0.9       2.3     287     356 ..     278     344 ..     233     347 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 9.6 bits;  conditional E-value: 0.001
+  cut_pyrrole_accepting   1 GsGpaGstlgailakkglkvlviekdefprfhiGESl..ipattvvlreiglldkveaagfPekfGv.kkkiGfllkkegfraaekef 85 
+                            G+G+aG ++   l++ g++ ++iek +  r   G  l   + +t + re+g++d++ ++    + G  ++  G +l++e+ ++     
+  sp|D3HKY4|TET56_LEGLN  11 GAGVAGPAVCYWLRRFGFSPVLIEKYASIRKG-GQALdvRGIATHIAREMGIYDQICEMRTRIERGRfVDSSGKVLHEEQGEKF---- 93 
+                            89***********************9888765.6654226899*************9999888888558888988888877777.... PP
+
+  cut_pyrrole_accepting  86 nerdqpgl.ldetfhvdRsdfDalLlekAvelGakvrqgvrvkdvefdeekvvvkaakgeeqvrarmvvDasGrrtfLark 165
+                                  g  +d + ++ R+d+ ++L+++ ++  +  +q   +  +e++ ++v+v   +g +  +  +v+ a G ++ + r 
+  sp|D3HKY4|TET56_LEGLN  94 ------GFrQDDEVEILRGDLVEILMKTIADVPCYFNQS--IISIEQNADNVTVIFMDG-RIEQYDLVIAADGIHSAIRRM 165
+                            ......7768899999****************9999998..899999999999999998.444567899999998888776 PP
+
+  == domain 2  score: -0.0 bits;  conditional E-value: 0.9
+  cut_pyrrole_accepting 287 qvvGdrwlllgdaarFvDPiFSrGvsvalesaralakrliaavkddDfskerfeayerlsqkgldiaddl 356
+                                 r +l+gda     P+  +G + a   a +la +l  a  ++ +    f+ y+ l++  +d ++++
+  sp|D3HKY4|TET56_LEGLN 278 SWTKGRIALVGDAGYCPSPLSGQGNNLAFVGAYILAGELKVA--NGNY-TRAFTRYNALLRSFVDANQKF 344
+                            5555567899999999999999999999999999**999855..7889.889******999999999876 PP
+
+>> sp|Q01911|TETX_BACFG  Flavin-dependent monooxygenase OS=Bacteroides fragilis OX=817 GN=tetX PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    5.7   0.0     0.016     0.041       1      27 [.      23      49 ..      23     119 .. 0.85
+   2 ?    3.2   0.0     0.093      0.24     295     353 ..     308     372 ..     306     380 .. 0.73
+
+  Alignments for each domain:
+  == domain 1  score: 5.7 bits;  conditional E-value: 0.016
+  cut_pyrrole_accepting  1 GsGpaGstlgailakkglkvlviekde 27
+                           G+Gp G t++  l ++g+ v v e+d+
+   sp|Q01911|TETX_BACFG 23 GGGPVGLTMAKLLQQNGIDVSVYERDN 49
+                           9**********************9987 PP
+
+  == domain 2  score: 3.2 bits;  conditional E-value: 0.093
+  cut_pyrrole_accepting 295 llgdaarFvDPiFSrGvsvalesaralakrlia....avkd..dDfskerfeayerlsqkgldia 353
+                            ++gdaa  + P   +Gv+  l  a +l+++l++    ++++  + +++++f + ++ +++  ++ 
+   sp|Q01911|TETX_BACFG 308 MIGDAAHLMPPFAGQGVNSGLVDALILSDNLADgkfnSIEEavKNYEQQMFMYGKEAQEESTQNE 372
+                            89**************************9997521113443224677777777777776666665 PP
+
+>> sp|Q06DK7|TETX_SPHSM  Flavin-dependent monooxygenase OS=Sphingobacterium sp. (strain PM2-P1-29) OX=403776 GN=tet(X) P
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    5.7   0.0     0.016     0.041       1      27 [.      23      49 ..      23     119 .. 0.85
+   2 ?    3.2   0.0     0.093      0.24     295     353 ..     308     372 ..     306     380 .. 0.73
+
+  Alignments for each domain:
+  == domain 1  score: 5.7 bits;  conditional E-value: 0.016
+  cut_pyrrole_accepting  1 GsGpaGstlgailakkglkvlviekde 27
+                           G+Gp G t++  l ++g+ v v e+d+
+   sp|Q06DK7|TETX_SPHSM 23 GGGPVGLTMAKLLQQNGIDVSVYERDN 49
+                           9**********************9987 PP
+
+  == domain 2  score: 3.2 bits;  conditional E-value: 0.093
+  cut_pyrrole_accepting 295 llgdaarFvDPiFSrGvsvalesaralakrlia....avkd..dDfskerfeayerlsqkgldia 353
+                            ++gdaa  + P   +Gv+  l  a +l+++l++    ++++  + +++++f + ++ +++  ++ 
+   sp|Q06DK7|TETX_SPHSM 308 MIGDAAHLMPPFAGQGVNSGLVDALILSDNLADgkfnSIEEavKNYEQQMFMYGKEAQEESTQNE 372
+                            89**************************9997521113443224677777777777776666665 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (362 nodes)
+Target sequences:                        112  (50933 residues searched)
+Passed MSV filter:                        50  (0.446429); expected 2.2 (0.02)
+Passed bias filter:                       50  (0.446429); expected 2.2 (0.02)
+Passed Vit filter:                        46  (0.410714); expected 0.1 (0.001)
+Passed Fwd filter:                        44  (0.392857); expected 0.0 (1e-05)
+Initial search space (Z):                112  [actual number of targets]
+Domain search space  (domZ):              44  [number of targets reported over threshold]
+# CPU time: 0.19u 0.00s 00:00:00.19 Elapsed: 00:00:00.19
+# Mc/sec: 95.35
+//
+[ok]

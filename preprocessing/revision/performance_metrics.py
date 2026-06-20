@@ -37,15 +37,16 @@ def loocv_metrics(loocv_dir, group_fasta, threshold):
     TP = FN = 0
     for out_file in glob.glob(os.path.join(loocv_dir, '*.out')):
         left_out = os.path.basename(out_file).replace('.out', '')
-        hits = {seq.strip("|fluorinase") for seq, score in parse_hmmsearch_out(out_file)
+        hits = {seq for seq, score in parse_hmmsearch_out(out_file)
                 if score >= threshold}
         if left_out in hits:
             TP += 1
         else:
             print(left_out)
+            print(hits)
             FN += 1
 
     recall = TP / (TP + FN) if (TP + FN) > 0 else 0
     return {'n_positive': len(positives), 'TP': TP, 'FN': FN, 'Recall': recall}
 
-loocv_metrics("HALOGENATION/NON_HEME_HALOGENASES/variant_A_unactivated_sp3/amino_acids/crossval_hmmsearch_res","HALOGENATION/NON_HEME_HALOGENASES/variant_A_unactivated_sp3/amino_acids/variant_A_small_amino_acids_copy.fasta", 0)
+loocv_metrics("HALOGENATION/FLAVIN_DEPENDENT_HALOGENASES/MAFFT/pyrrole/crossval_hmmsearch_res","HALOGENATION/FLAVIN_DEPENDENT_HALOGENASES/MAFFT/pyrrole/cut_pyrrole_accepting.fasta", 0)

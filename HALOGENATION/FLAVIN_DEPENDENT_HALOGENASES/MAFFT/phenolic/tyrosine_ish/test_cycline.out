@@ -1,0 +1,320 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  HALOGENATION/FLAVIN_DEPENDENT_HALOGENASES/MAFFT/phenolic/tyrosine_ish/cut_tyrosine_FDH.hmm
+# target sequence database:        HALOGENATION/FLAVIN_DEPENDENT_HALOGENASES/MAFFT/phenolic/cycline_orsellinic_acid/cycline_orsellinic_FDH.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       cut_tyrosine_FDH  [M=364]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                       Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                       -----------
+   5.1e-114  370.2   0.0   5.9e-114  370.0   0.0    1.0  1  XanH_A_cycl|ADE22292.1          
+   6.7e-101  327.1   0.0   7.9e-101  326.8   0.0    1.0  1  SimC6_cycl|AF324838             
+   3.7e-100  324.6   0.0   4.4e-100  324.4   0.0    1.0  1  TiaM_A_orsel|E9LIP1             
+   6.4e-100  323.8   0.0   7.9e-100  323.5   0.0    1.1  1  AviH_orsel|STVIR_2874|ELS56116  
+      3e-87  282.1   0.0    3.4e-87  282.0   0.0    1.0  1  CalO3_A?_orsel|Q8KND5           
+    2.8e-82  265.8   0.0    3.7e-82  265.4   0.0    1.0  1  Nat1_A_cycl|F8QPG4              
+    8.9e-76  244.4   0.0    1.1e-75  244.1   0.0    1.0  1  Asm12_A_cycl|AQZ37099.1         
+    3.7e-67  216.0   0.0    1.2e-66  214.3   0.0    1.7  1  ChlB4_B_orsel|Q0R4P7            
+    1.7e-32  102.0   0.0    3.3e-32  101.0   0.0    1.4  1  CtcP_A_cycl|A0A1E7MYN1          
+
+
+Domain annotation for each sequence (and alignments):
+>> XanH_A_cycl|ADE22292.1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  370.0   0.0  5.9e-114  5.9e-114       1     364 []      21     379 ..      21     379 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 370.0 bits;  conditional E-value: 5.9e-114
+        cut_tyrosine_FDH   1 slvatllakeglkvllLekeafprykiGEsllestveglanllgvtdeleaagfvkKlGltfkwGaepepwtleFakspelsgsesy 87 
+                             s++a llakeg++v+lLe+  fpry+iGEs+l+s    ++++lgv d++ea+gf+ K G++f+wG   e+w++ F+    l+++ + 
+  XanH_A_cycl|ADE22292.1  21 STAAGLLAKEGFQVTLLERDEFPRYHIGESILPSCRP-ILEMLGVWDKVEAHGFQPKGGAYFFWGP--EEWEVRFN---SLGDDGTN 101
+                             799*******************************988.**************************75..*******9...89****** PP
+
+        cut_tyrosine_FDH  88 ayqveRakfdeiLlenakekGvdvrenckvtdvsldeeqrarkvrytqsdg..kekeisarfvvDAsGrrsllqkklglereyseff 172
+                             a+qv R++fdeiLl++a++ Gv+v en +v++++++++ r   + +  +++    + i +++v+DAsGr ++ + k  ++r+y+e f
+  XanH_A_cycl|ADE22292.1 102 AWQVVRSEFDEILLRHAASLGVEVVENITVKELQFEGD-RPVAALWAGTKDasVSGRIAFDYVIDASGRGGVFAAKHLKNRQYHEIF 187
+                             **************************************.9999***99987668899****************************** PP
+
+        cut_tyrosine_FDH 173 knlalfgyfengkrlpapnsgnilsvafddGWvWliPLsdeltsvGavvrresyaekvq..kdlekalqelieecPllaelladaer 257
+                             +n++ ++y++n+k l+++ +g+i++ + +dGW+W iPL+d++tsvG v+ r++++ek++  +  ++++ ++i e+P l++ll+ ae+
+  XanH_A_cycl|ADE22292.1 188 RNVGAWSYWKNVKPLDRGPDGAIAVISSEDGWFWNIPLHDGTTSVGLVTGRDIFNEKKNalGGIQEVYDKAISETPHLKRLLEGAEQ 274
+                             ******************************************************9998733689*********************** PP
+
+        cut_tyrosine_FDH 258 vtygdlrvrkdysYssksfsrngmilvGdAacfvDPlfssGvhlatysalLaarsinsvlageldeervleefearYrreygvlyef 344
+                             v+   ++v++dysY+ +sf+ +g++l+GdAacf+DPl+s+Gvhlatysa+La++si svl+ge++e+++ e++++ Yr++y++l   
+  XanH_A_cycl|ADE22292.1 275 VS--GMKVEQDYSYTAESFCGPGYLLSGDAACFLDPLLSTGVHLATYSAMLASASISSVLRGEVSEKEAWEFYNTVYRHSYERLLVL 359
+                             *9..9********************************************************************************** PP
+
+        cut_tyrosine_FDH 345 lvafydmnkdeesyfWeakk 364
+                             +++fy+  +++e +f++a+k
+  XanH_A_cycl|ADE22292.1 360 VSVFYESYRGKEHHFYNAQK 379
+                             *****************986 PP
+
+>> SimC6_cycl|AF324838  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  326.8   0.0  7.9e-101  7.9e-101       1     360 [.      14     368 ..      14     372 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 326.8 bits;  conditional E-value: 7.9e-101
+     cut_tyrosine_FDH   1 slvatllakeglkvllLekeafprykiGEsllestveglanllgvtdeleaagfvkKlGltfkwGaepepwtleFakspelsgsesyayq 90 
+                          s++a+lla+ g++v++Le+++fpry+iGEs   s    +++ lg  ++++a g++ K+Gl  +wG+ +++w+++++++    gs+  ++q
+  SimC6_cycl|AF324838  14 STAAALLARAGISVTVLERATFPRYHIGESFSTSCRV-IIDYLGALEKVDARGYTSKTGLLVRWGQ-EKDWAIDWTDQ---FGSDVRSWQ 98 
+                          799***************************9877665.**************************98.789******54...488999*** PP
+
+     cut_tyrosine_FDH  91 veRakfdeiLlenakekGvdvrenckvtdvsldeeqrarkvrytqsdgkekei.sarfvvDAsGrrsllqkklglereyseffknlalfg 179
+                          v+R+ fd +Ll++a+e G +v ++ +v+ v+++++ ra++v++t + ++ k+i +a+fv+DAsGr++l++ +  ++r+ +e f+n+a++g
+  SimC6_cycl|AF324838  99 VDRDDFDTVLLDHASESGAKVVQGAHVHRVIFEGD-RATGVEWTAPGETAKQIsRADFVLDASGRAGLISAQHFNNRRPHEIFRNVAIWG 187
+                          ***********************************.*********99866666269********************************** PP
+
+     cut_tyrosine_FDH 180 yfengkrlpapnsgnilsvafddGWvWliPLsdeltsvGavvrresyaekvq..kdlekalqelieecPllaelladaervtygdlrvrk 267
+                          y+e+g+ lp   sg i + + ddGW+W+iPL+d+  svG v +++++ e+ +  + l+++l ++ +e P + e la+ +  +    rv++
+  SimC6_cycl|AF324838 188 YWEGGELLPGSPSGGINVISSDDGWYWVIPLRDNRLSVGFVSHKSIFGERRRefGSLDEMLLKMVDESPAVREILAKGT-FQ-PGARVEQ 275
+                          **********************************************988765226899*********************.55.468**** PP
+
+     cut_tyrosine_FDH 268 dysYssksfsrngmilvGdAacfvDPlfssGvhlatysalLaarsinsvlageldeervleefearYrreygvlyeflvafydmnkdees 357
+                          d+sYs +sf+ +g +l GdAacf+DPl+s+Gvhl +ys+lLaa+s+ ++ +g+++e+++l ++e  +r++y++l   ++ fy+++ ++++
+  SimC6_cycl|AF324838 276 DFSYSADSFCGPGHFLLGDAACFLDPLLSTGVHLGMYSGLLAAASVMAITDGDVSEREALAFYESLFRNAYQRLFTLVSGFYQKHAGKDR 365
+                          ****************************************************************************************** PP
+
+     cut_tyrosine_FDH 358 yfW 360
+                          yf 
+  SimC6_cycl|AF324838 366 YFA 368
+                          *95 PP
+
+>> TiaM_A_orsel|E9LIP1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  324.4   0.0  4.4e-100  4.4e-100       1     359 [.      18     370 ..      18     375 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 324.4 bits;  conditional E-value: 4.4e-100
+     cut_tyrosine_FDH   1 slvatllakeglkvllLekeafprykiGEsllestveglanllgvtdeleaagfvkKlGltfkwGaepepwtleFakspelsgsesyayq 90 
+                          s++a llak g++v lLe++ fpry+iGEs+  s    +++ +g  ++++a gf++K+G+ ++wG+ +++w ++++  ++  g+++ ++q
+  TiaM_A_orsel|E9LIP1  18 STAAGLLAKGGVEVKLLERAEFPRYHIGESITTSCRA-IIDYVGALEKVNACGFTTKTGVLMRWGQ-EKDWVIDWT--AQ-FGADTRSWQ 102
+                          7999**************************9988776.**************************98.789****99..33.366778*** PP
+
+     cut_tyrosine_FDH  91 veRakfdeiLlenakekGvdvrenckvtdvsldeeqrarkvrytqsdgkekeisarfvvDAsGrrsllqkklglereyseffknlalfgy 180
+                          v+R+ fd++Ll+na++ G +v ++ +v+ v +d++ ra +v+++   g+ ++ +a++v+DAsGr++l++ +  ++r+ +e f+n+a++gy
+  TiaM_A_orsel|E9LIP1 103 VDREIFDQVLLDNAADSGAEVVQQAHVKRVLFDGD-RAVGVEWQPAGGELRTETADYVIDASGRAGLISAQHYNNRRPHEIFRNVAIWGY 191
+                          ***********************************.****************************************************** PP
+
+     cut_tyrosine_FDH 181 fengkrlpapnsgnilsvafddGWvWliPLsdeltsvGavvrresyaekvq..kdlekalqelieecPllaelladaervtygdlrvrkd 268
+                          +en++ lp+  +g i + +  dGW+WliPL+d+  svG v+++ ++ e+ +  + +e++l ++  e  ++++ la+a+++    +r+++d
+  TiaM_A_orsel|E9LIP1 192 WENAELLPDSPAGGINVISSPDGWYWLIPLRDNRFSVGFVTHKTNFVERRRefDSQEAMLAAVLGESETMKQVLAQATQLP--GVRIEQD 279
+                          *******************************************9997765422577888899999*************887..9****** PP
+
+     cut_tyrosine_FDH 269 ysYssksfsrngmilvGdAacfvDPlfssGvhlatysalLaarsinsvlageldeervleefearYrreygvlyeflvafydmnkdeesy 358
+                          +sY  ++f+ +g++lvGd acf+DPl+s+Gvhla+ys++L+a+si s  +ge++e ++  +fe  Yr++y +l   +++fy+++ ++++y
+  TiaM_A_orsel|E9LIP1 280 FSYAADKFCGDGYFLVGDSACFLDPLLSTGVHLAMYSGMLSAASILSLQRGEVNEPEAQAFFESLYRNAYHRLFTLVISFYQQHAGKDRY 369
+                          ****************************************************************************************** PP
+
+     cut_tyrosine_FDH 359 f 359
+                          f
+  TiaM_A_orsel|E9LIP1 370 F 370
+                          9 PP
+
+>> AviH_orsel|STVIR_2874|ELS56116  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  323.5   0.0  7.9e-100  7.9e-100       1     359 [.      11     362 ..      11     367 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 323.5 bits;  conditional E-value: 7.9e-100
+                cut_tyrosine_FDH   1 slvatllakeglkvllLekeafprykiGEsllestveglanllgvtdeleaagfvkKlGltfkwGaepepwtleFaksp 79 
+                                     s++a+ll k g++v lLe+e+fpry+iGEs+  s    +++l+g  +e+++ g++ K+G+  +wG+  e+w++++    
+  AviH_orsel|STVIR_2874|ELS56116  11 STAASLLSKAGMSVKLLERETFPRYHIGESIASSCRT-IIDLVGALEEVDSRGYTVKNGVLLRWGK--EDWAIDWP--- 83 
+                                     799***************************8777665.**************************99..******97... PP
+
+                cut_tyrosine_FDH  80 elsgsesyayqveRakfdeiLlenakekGvdvrenckvtdvsldeeqrarkvrytqsd.gkekeisarfvvDAsGrrsl 157
+                                     ++ g++  ++qv+R+ fd++Ll+na ++G dv e+ +v+ v +d++ ra ++++ ++d g+    ++++v+DAsGr+++
+  AviH_orsel|STVIR_2874|ELS56116  84 KIFGPDVRSWQVDRDDFDHVLLKNAVKQGADVTEGVTVKRVLFDGD-RAAGAEWLDPDtGELVSEEFDYVIDASGRAGV 161
+                                     999*******************************************.**********9667777899************ PP
+
+                cut_tyrosine_FDH 158 lqkklglereyseffknlalfgyfengkrlpapnsgnilsvafddGWvWliPLsdeltsvGavvrresyaek..vqkdl 234
+                                     ++k+l+ +r+ +e f+n+a++gy+++g+ lp+  +g i + +  dGW+W+iPL+ +  svG v +++ + e+   + dl
+  AviH_orsel|STVIR_2874|ELS56116 162 ISKHLK-NRRPHEIFRNVAIWGYWQGGSLLPSSPTGGINVISAPDGWYWVIPLRGDRYSVGFVCHQDRFLERrrEHADL 239
+                                     ***999.89999*******************************************************987651156789 PP
+
+                cut_tyrosine_FDH 235 ekalqelieecPllaelladaervtygdlrvrkdysYssksfsrngmilvGdAacfvDPlfssGvhlatysalLaarsi 313
+                                     e++l +l ee P++ +l+a+        +rv++d+sY  +sf  +g+ l GdAacf+DPl+s+Gvhla ys++Laa+s+
+  AviH_orsel|STVIR_2874|ELS56116 240 EAMLASLVEESPTVRDLMANGV--YQPGVRVEQDFSYVADSFHGPGYYLAGDAACFLDPLLSTGVHLALYSGMLAATSV 316
+                                     9*****************9998..3458*************************************************** PP
+
+                cut_tyrosine_FDH 314 nsvlageldeervleefearYrreygvlyeflvafydmnkdeesyf 359
+                                      + ++++++ee++  ++e  Yr++y++l   ++ +y+++ ++  yf
+  AviH_orsel|STVIR_2874|ELS56116 317 LATVNKDVTEEEAGAFYESLYRNAYQRLFTLVSGVYQQQAGKAAYF 362
+                                     *********************************************9 PP
+
+>> CalO3_A?_orsel|Q8KND5  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  282.0   0.0   3.4e-87   3.4e-87       3     358 ..      22     371 ..      20     377 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 282.0 bits;  conditional E-value: 3.4e-87
+       cut_tyrosine_FDH   3 vatllakeglkvllLekeafprykiGEsllestveglanllgvtdeleaagfvkKlGltfkwGa.epepwtleFakspelsgsesyay 89 
+                            +a lla+eg++vllLe+e+fpry+iGEsl+ s+v   ++ lgv++++++  f++K+G+   wGa ++ pw++ F++ +  +   +y++
+  CalO3_A?_orsel|Q8KND5  22 TAGLLAQEGHRVLLLEREKFPRYHIGESLI-SGVTLTLDALGVRERMAELRFQIKHGGSLLWGAdQTAPWSFRFREIR--DARFDYSW 106
+                            6789************************98.567778**************************83578*******555..66778*** PP
+
+       cut_tyrosine_FDH  90 qveRakfdeiLlenakekGvdvrenckvtdvsldeeqrarkvrytqsdg..kekeisarfvvDAsGrrsllqkklglereyseffknl 175
+                            qv+Ra+fd +Ll+ a+e Gv v e+ +v+   +d+e r+ +v y+   g      ++a  vvDAsG+++ l +++g   ++++ ++n+
+  CalO3_A?_orsel|Q8KND5 107 QVRRAEFDAMLLDRARELGVVVVEGATVRGPLTDGE-RVAGVSYQF-RGeaDPIDARAAIVVDASGQQRWLGRHFG-LVSWHDDLRNM 191
+                            ************************************.*******86.4501445566679****************.679******** PP
+
+       cut_tyrosine_FDH 176 alfgyfengkrlpapnsgnilsvafddGWvWliPLsdeltsvGavvrresyaekvqkdlekalqelieecPllaelladaervtygdl 263
+                            a ++y+ ++ r p +++g +l+ +  +GW+W+ PLs +lt +G v+  + +ae +    ++ l++ i+e   ++ l+a a+rv+    
+  CalO3_A?_orsel|Q8KND5 192 AAWSYYAGALRYPGDHEGDLLVESCAQGWLWYAPLSPTLTGIGYVTPSDRFAE-TGLPPDQLLEKQIAESNEVSWLTAGARRVD--VY 276
+                            **************************************************665.6678899***********************..89 PP
+
+       cut_tyrosine_FDH 264 rvrkdysYssksfsrngmilvGdAacfvDPlfssGvhlatysalLaarsinsvlageldeervleefearYrreygvlyeflvafydm 351
+                            r  +d+sY   +fs +g++lvGdAa f+DPl+ssGv la+ +al  +r+++  la   +e++ ++ +e rYr   + l + + +fyd 
+  CalO3_A?_orsel|Q8KND5 277 RTARDWSYACSQFSGPGWVLVGDAAAFIDPLLSSGVTLAMRGALSLSRAVHEALAAPEKERHLMQVYEDRYRDFLAALLDLIRFFYDG 364
+                            **************************************************************************************** PP
+
+       cut_tyrosine_FDH 352 nkdeesy 358
+                             +++++ 
+  CalO3_A?_orsel|Q8KND5 365 AHGRDEL 371
+                            9998765 PP
+
+>> Nat1_A_cycl|F8QPG4  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  265.4   0.0   3.7e-82   3.7e-82       6     351 ..      23     362 ..      18     366 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 265.4 bits;  conditional E-value: 3.7e-82
+    cut_tyrosine_FDH   6 llakeglkvllLekeafprykiGEsllestveglanllgvtdeleaagfvkKlGltfkwGaepepwtleFakspelsgsesy..ayqveRa 94 
+                          lak+g++v+lLe+e fpr++iGEsll+  +  l++ +g+++ +e++g+v K G++f   +e++  +  F+     +g+  y  a+qveRa
+  Nat1_A_cycl|F8QPG4  23 QLAKQGHSVVLLEREEFPRFHIGESLLPYMMG-LFDRIGIREAVETKGYVPKFGGEFIDPNEEKFFSDVFRADFSKQGDGRYdrAFQVERA 112
+                         489*************************9765.************************998877777777888777777777788******* PP
+
+    cut_tyrosine_FDH  95 kfdeiLlenakekGvdvrenckvtdvsldeeqrarkvrytqsdgkekeisarfvvDAsGrrsllqkklglereyseffknlalfgyfengk 185
+                         kfd +L e a ++G +v+ + +v ++ ++++ r+ +vryt+ dg+e+e+++r+vvDAsGr++++++k+g  re  e ++ +a+f ++e+ +
+  Nat1_A_cycl|F8QPG4 113 KFDGMLVEEAGKAGAEVHLGATVGELLMEGD-RMVGVRYTK-DGQEHEVRSRYVVDASGRAGRVAHKFG-LRERLEKLRMVAVFRHYEGLD 200
+                         *******************************.********9.9**************************.5666677899********987 PP
+
+    cut_tyrosine_FDH 186 rlpa.pnsgnilsvafddGWvWliPLsdeltsvGavvrresyaekvqkdlekalqelieecPllaelladaervtygdlrvrkdysYssks 275
+                            + + +g i + a+ dGWvW iPLs++++svG v+ r+ +     +  e++++e +++ P + ++l d +     dl+v+ dy Y+s++
+  Nat1_A_cycl|F8QPG4 201 EKHNlGVEGDIQVGAHADGWVWAIPLSKDVISVGTVMPRDVFR---ASTPEEVFEEHKARIPRIVARLTDTRPT--MDLKVETDYCYHSDT 286
+                         655549***********************************54...567899*****************99954..5************** PP
+
+    cut_tyrosine_FDH 276 fsrngmilvGdAacfvDPlfssGvhlatysalLaarsinsvlageldeervleefearYrreygvlyeflvafydm 351
+                          + +g+++vGdA+cf DP+fs Gv  a  +a+ aa+++   l++  d +r ++e+ + ++  y +    + afyd 
+  Nat1_A_cycl|F8QPG4 287 VTGPGWVMVGDAGCFGDPMFSGGVLVASATAVRAAETLSDALNNPEDADRLIDEYANFFKTGYDTYIRLIHAFYDG 362
+                         **************************************************************************97 PP
+
+>> Asm12_A_cycl|AQZ37099.1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  244.1   0.0   1.1e-75   1.1e-75       3     351 ..      16     359 ..      14     362 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 244.1 bits;  conditional E-value: 1.1e-75
+         cut_tyrosine_FDH   3 vatllakeglkvllLekeafprykiGEsllestveglanllgvtdeleaagfvkKlGltfkwGaepepwtl.eFakspelsgsesy 87 
+                               a++la++g +vl+Le++ fpr++iGEs+l+  v  l++  g+ d + ++g+v K+G++f   + ++  +   F+   + +g+  +
+  Asm12_A_cycl|AQZ37099.1  16 CASVLARQGRSVLVLERQEFPRFHIGESMLPYMVG-LLERHGLLDAVREQGYVVKRGGEFIDPTGTKFFRAgVFRADFAKTGDGRH 100
+                              6899****************************997.9***********************86555444333135444434444444 PP
+
+         cut_tyrosine_FDH  88 ..ayqveRakfdeiLlenakekGvdvrenckvtdvsldeeqrarkvrytqsdgkekeisarfvvDAsGrrsllqkklglereysef 171
+                                ++qveR++fd++ l++a+ +G  vre+ +v  + ++++ r+ +vry++  g e+e +ar+vvDA+Gr++++++++gl+r  ++ 
+  Asm12_A_cycl|AQZ37099.1 101 heTFQVERSHFDRVNLDQARAAGATVREGAQVVGLLEEGG-RVVGVRYRE-GGVEREERARYVVDATGRAGVVANRFGLRRMIED- 183
+                              47*********************************99998.*******98.799************************7776665. PP
+
+         cut_tyrosine_FDH 172 fknlalfgyfengkrlpap.nsgnilsvafddGWvWliPLsdeltsvGavvrresyaekvqkdlekalqelieecPllaelladae 256
+                              ++ +a+f + ++ +   +p ++g i + ++ dGW+W iPLs + +svG v++r+       +   +a+ e  e+ P ++++l   +
+  Asm12_A_cycl|AQZ37099.1 184 LRMVAVFHHRDGLDEAHNPgHEGDIQVGSHADGWIWAIPLSADRISVGTVMHRDR---LRGRTPAEAFAEHVERVPRINQRLTGTT 266
+                              677****999999988875379*********************************...445567789*****************99 PP
+
+         cut_tyrosine_FDH 257 rvtygdlrvrkdysYssksfsrngmilvGdAacfvDPlfssGvhlatysalLaarsinsvlageldeervleefearYrreygvly 342
+                                   d+ v+ dysY+s++ + +g+++vGdA+cf DP+fs Gv   + ++  aa+++   l+   dee++l+ + + ++  y +  
+  Asm12_A_cycl|AQZ37099.1 267 AT--SDFWVETDYSYHSDQVTGPGWVMVGDAGCFGDPMFSGGVLVGMATGAEAAEALGRALDSPADEEQALTGYSNFFKTGYDTYV 350
+                              55..5********************************************************************************* PP
+
+         cut_tyrosine_FDH 343 eflvafydm 351
+                                + +fy+ 
+  Asm12_A_cycl|AQZ37099.1 351 RLIFSFYEG 359
+                              *******86 PP
+
+>> ChlB4_B_orsel|Q0R4P7  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  214.3   0.0   1.2e-66   1.2e-66       2     354 ..      18     384 ..      17     393 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 214.3 bits;  conditional E-value: 1.2e-66
+      cut_tyrosine_FDH   2 lvatllakeglkvllLekeafprykiGEsllestveglanllgvtdeleaagfvkKlGltfkwGaep..............epwtleFa 76 
+                            +a+ la+ gl+v + e e+fpr +iGEsl+++t+  +++ +gv  ++eaagf+kK+G+ ++  +++              +  ++ F 
+  ChlB4_B_orsel|Q0R4P7  18 AMASYLAEAGLSVAVFESEMFPRPHIGESLVPATMP-VLDEIGVMPDIEAAGFPKKYGAAWTSAESRdvphngftgldhdfKAAEVMFV 105
+                           67899******************************9.************************9877652222112111111234566777 PP
+
+      cut_tyrosine_FDH  77 kspelsgsesyayqveRakfdeiLlenakekGvdvrenckvtdvsldeeqrarkvrytqsdg.kekeisarfvvDAsGrrsllqkklgl 164
+                           ++ + +++++y++ v+R+kfd iLl++a+++G +v+++++v +  +d +     v+ +   g ++   ++r v+DAsGr+++l ++l+ 
+  ChlB4_B_orsel|Q0R4P7 106 ERDQPGVHRDYTFHVDRGKFDLILLKHAESRGAQVFQKTRVLKADFDTD--PDLVTLNCRLGpRTLDFTTRMVIDASGRQTMLGNQLK- 191
+                           78888889999**************************************..4555555555669999*******************99. PP
+
+      cut_tyrosine_FDH 165 ereyseffknlalfgyfengkrlpa...pnsgnilsvaf...ddGWvWliPLsdeltsvGavvrresyaekvqkdlekalqelieecPl 247
+                            +  +++f++ a+++ fe+ +r      p +  ++ v f   +d W+W iP+ d++tsvG+v+++    +  + d+ek + ++      
+  ChlB4_B_orsel|Q0R4P7 192 VKVPDPVFNQYAIHAWFEGLDRTAMaldPAKRDYIYVHFlplEDTWMWQIPITDTITSVGVVTQKHR-FKAASADREKFFWDIVSSRKD 279
+                           8999****************9998777788888888887333577*********************9.56678999************* PP
+
+      cut_tyrosine_FDH 248 laelladaervtygdlrvrkdysYssksfsrngmilvGdAacfvDPlfssGvhlatysalLaar.sinsvlageldeervleefearYr 335
+                           + + l++aer+    ++ + dysY   + + ++++l+GdAa fvDP+fssGv  a  sa Laa+ +i++  ag+  +e  +  +e++ r
+  ChlB4_B_orsel|Q0R4P7 280 IYDALQKAERIR--PFKAEGDYSYAMRQICGDRFLLIGDAARFVDPIFSSGVSVALNSARLAAKdVIAAHRAGDFRKE-SFATYEEKLR 365
+                           ***********9..9***********************************************9835677777888766.5778****** PP
+
+      cut_tyrosine_FDH 336 reygvlyeflvafydmnkd 354
+                           r+  + yef++++y  n  
+  ChlB4_B_orsel|Q0R4P7 366 RAVRNWYEFISVYYRLNIL 384
+                           **************98865 PP
+
+>> CtcP_A_cycl|A0A1E7MYN1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  101.0   0.0   3.3e-32   3.3e-32       2     302 ..      29     354 ..      28     388 .. 0.77
+
+  Alignments for each domain:
+  == domain 1  score: 101.0 bits;  conditional E-value: 3.3e-32
+        cut_tyrosine_FDH   2 lvatllakeglkvllLekeafprykiGEsllestve...glanllgvtdeleaagfv...........kKlGltfkw...Gaepepw 71 
+                             ++ ++lak+g++++lL+ +  pr+ +GEs++  t+     + +  gv +  + a f+           +K    f +   G+ep+p 
+  CtcP_A_cycl|A0A1E7MYN1  29 MLGSILAKHGFRIMLLDGAHHPRFAVGESTIGQTLVvlrLISDRYGVPEIANLASFQdvlanvssshgQKSNFGFMFhrdGEEPDPN 115
+                             67789*************************988764111334445555544444443111111100112333333334446777777 PP
+
+        cut_tyrosine_FDH  72 tleFakspelsgsesyayqveRakfdeiLlenakekGvdvrenckvtdvsldeeqrarkvrytqsdgkekeisarfvvDAsGrrsll 158
+                             +++  + p + g+  + +   R+  d+ + + a + G d r+  +v+++++d++    +v+ +  dg+  +++ar++vDAsG rs l
+  CtcP_A_cycl|A0A1E7MYN1 116 ETSQFRIPSIVGNAAHFF---RQDTDSYMFHAAVRYGCDARQYYRVENIEFDDG----GVTVSGADGS--TVRARYLVDASGFRSPL 193
+                             665444677777777766...8999*****************************....8888998886..599************** PP
+
+        cut_tyrosine_FDH 159 qkklglereysef.fknlalfgyfengkrlpa............pnsgnilsvafddGWvWliPLsde......ltsvGavvrresy 226
+                             +++lgl+ e s+  ++  ++f++  +++ +++            p ++  +   f+ GW+W+iP +++      l svG+  +   y
+  CtcP_A_cycl|A0A1E7MYN1 194 ARQLGLREEPSRLkHHARSIFTHMVGVDAIDDhvdtpaelrppvPWNDGTMHHIFERGWMWIIPFNNHpgatnpLCSVGIQLDERRY 280
+                             *****887766541556789988888888888888899999999999999999***********986433333489*********** PP
+
+        cut_tyrosine_FDH 227 aekvqkdlekalqelieecPllaelladaervtygdlrvrkdysYssksfsrngmilvGdAacfvDPlfssGvhla 302
+                             +++     e+ + +  ++ P ++++l+ a+ v  + +r      Yss + + ++++l+  Aa f+DPlfs G  + 
+  CtcP_A_cycl|A0A1E7MYN1 281 PARPDLTPEEEFWSHVDRFPAVQRQLKGARSVR-EWVR-TDRMQYSSSRTVGERWCLMSHAAGFIDPLFSRGLSNT 354
+                             ******************************999.5555.55678999999**********************8654 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (364 nodes)
+Target sequences:                          9  (4245 residues searched)
+Passed MSV filter:                         9  (1); expected 0.2 (0.02)
+Passed bias filter:                        9  (1); expected 0.2 (0.02)
+Passed Vit filter:                         9  (1); expected 0.0 (0.001)
+Passed Fwd filter:                         9  (1); expected 0.0 (1e-05)
+Initial search space (Z):                  9  [actual number of targets]
+Domain search space  (domZ):               9  [number of targets reported over threshold]
+# CPU time: 0.04u 0.00s 00:00:00.04 Elapsed: 00:00:00.04
+# Mc/sec: 37.53
+//
+[ok]
