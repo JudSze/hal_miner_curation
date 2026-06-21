@@ -1,0 +1,187 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  HALOGENATION/HALOPEROXIDASES/VBPOs/final/whole_sequences_VBPOs.hmm
+# target sequence database:        HALOGENATION/HALOPEROXIDASES/VBPOs/negative_test.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       whole_sequences_VBPOs  [M=596]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence             Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------             -----------
+     0.0004   16.7   0.3     0.0022   14.3   0.1    2.2  2  V-CPO_Q7UVW2          [Rhodopirellula baltica]
+    0.00071   15.9   0.0     0.0019   14.5   0.0    1.7  1  WP_146517133          [Rubripirellula amarantea]
+    0.00075   15.8   0.8     0.0017   14.6   0.0    2.0  2  WP_099259610          [Rhodopirellula bahusiensis]
+    0.00094   15.5   0.1       0.34    7.0   0.0    2.1  2  sp|P80143|UDDP_SULAC  Undecaprenyl-diphosphatase OS=Sulfolobu
+     0.0015   14.9   0.7     0.0065   12.7   0.0    2.1  2  WP_009093798          [Rhodopirellula sp. SWK7]
+  ------ inclusion threshold ------
+      0.021   11.0   0.1       0.13    8.4   0.0    1.9  2  G0LAH5                [Zobellia galactanivorans]
+      0.035   10.3   0.6       0.99    5.5   0.0    2.1  2  sp|A0R627|DPRP_MYCS2  Decaprenylphosphoryl-5-phosphoribose ph
+
+
+Domain annotation for each sequence (and alignments):
+>> V-CPO_Q7UVW2  [Rhodopirellula baltica]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -1.4   0.0      0.21   1.2e+02     116     143 ..     369     396 ..     358     400 .. 0.87
+   2 !   14.3   0.1   3.8e-06    0.0022     455     578 ..     515     628 ..     511     643 .. 0.76
+
+  Alignments for each domain:
+  == domain 1  score: -1.4 bits;  conditional E-value: 0.21
+  whole_sequences_VBPOs 116 pdaqavtippapaLlspeLaaelAEvYl 143
+                            +da+a t   +p L+s+e aa   Ev +
+           V-CPO_Q7UVW2 369 SDADAFTPESPPDLTSEEYAASYNEVKE 396
+                            5899999999************999965 PP
+
+  == domain 2  score: 14.3 bits;  conditional E-value: 3.8e-06
+  whole_sequences_VBPOs 455 sPvHPsYgsGHAvvaGAcvtvLkAflGlesgqdilpspvisdDsglkldlisfepdkdesklvkselevtLtveGElnklaaniaiGR 542
+                             P  P+Y sGHA+  GA    L+ f G +      +  v s++  + ld     p+ +e        ++  t+      +a+n    R
+           V-CPO_Q7UVW2 515 TPQFPTYISGHATFGGALFGTLQEFYGTDDI----SFTVASEELEILLDN----PELQEAYGL-NLDDAERTFSSFSEAMAEN-GRSR 592
+                            5999**********************66554....445555655555544....443333333.3667778888888888988.4568 PP
+
+  whole_sequences_VBPOs 543 nmaGvHyfsDgieslrlGEeiaigiLeeqlltygen 578
+                             ++G+H+ +D + + ++G +ia  +  e +++ +e+
+           V-CPO_Q7UVW2 593 VYLGIHFDFDDLVGQEVGQSIAAAVASEFSVATPED 628
+                            89*******************998888777766665 PP
+
+>> WP_146517133  [Rubripirellula amarantea]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   14.5   0.0   3.3e-06    0.0019     455     565 ..     502     602 ..     470     612 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 14.5 bits;  conditional E-value: 3.3e-06
+  whole_sequences_VBPOs 455 sPvHPsYgsGHAvvaGAcvtvLkAflGlesgqdilpspvisdDsglkldlisfepdkdesklvkselevtLtveGElnklaaniaiGR 542
+                             P  P+Y sGHA+  GA    L+ f G +     ++  v+s++  + ld  +    +d  +l     ++t t++     +a+n    R
+           WP_146517133 502 TPQFPTYISGHATFGGALFGTLQDFYGTD----DISFEVTSEELEVLLDNPE---LQDAYGLD--LDDATRTFDSFSEAMAEN-GRSR 579
+                            5999**********************554....4455666776666665522...35555555..7799999*9999999999.4568 PP
+
+  whole_sequences_VBPOs 543 nmaGvHyfsDgieslrlGEeiai 565
+                             ++G+H+ +D + + ++G +ia 
+           WP_146517133 580 VYLGIHFDFDDLVGQEVGQTIAA 602
+                            89*****************9996 PP
+
+>> WP_099259610  [Rhodopirellula bahusiensis]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -3.0   0.1      0.67   3.8e+02     361     428 ..      11      77 ..       7      92 .. 0.49
+   2 !   14.6   0.0     3e-06    0.0017     455     572 ..     499     606 ..     495     616 .. 0.75
+
+  Alignments for each domain:
+  == domain 1  score: -3.0 bits;  conditional E-value: 0.67
+  whole_sequences_VBPOs 361 atralkavryqkfnvHrrlRPEAlggllevvkkaaqegdsllPeval.vselenvelLekvealnqaqn 428
+                            a+++ ++ +  +    r+lR E l ++  +   a++  ++ +Pe     +++   + L  ++ +n+ q 
+           WP_099259610  11 ASKSARSRKQRRQSTRRKLRSESLETRNLL--AANIFHNEAMPEDVNeDDQVTALDALTIINRMNREQA 77 
+                            566666666666677788888887665333..2222223444422111333333333444444455554 PP
+
+  == domain 2  score: 14.6 bits;  conditional E-value: 3e-06
+  whole_sequences_VBPOs 455 sPvHPsYgsGHAvvaGAcvtvLkAflGlesgqdilpspvisdDsglkldlisfepdkdesklvkselevtLtveGElnklaaniaiGR 542
+                             P  P+Y sGHA+  GA    L+ f G +         v s++  + ld     pd +e        ++  t++     +a+n    R
+           WP_099259610 499 TPQFPTYISGHATFGGALFGTLQEFYGTDDIS----FTVASEELEILLDD----PDLQEAYGL-DLDDAERTFDSFSEAMAEN-GRSR 576
+                            5999**********************766544....44445544444433....555555544.4567778888888889999.4568 PP
+
+  whole_sequences_VBPOs 543 nmaGvHyfsDgieslrlGEeiaigiLeeql 572
+                             ++G+H+ +D + + ++G +ia  +  e +
+           WP_099259610 577 VYLGIHFDFDDLVGQEVGQSIAASVASEFA 606
+                            89*******************987766655 PP
+
+>> sp|P80143|UDDP_SULAC  Undecaprenyl-diphosphatase OS=Sulfolobus acidocaldarius (strain ATCC 33909 / DSM 639 / JCM 8929
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !    7.0   0.0   0.00059      0.34     444     476 ..     108     141 ..     102     144 .. 0.76
+   2 !    6.4   0.0   0.00091      0.53     537     564 ..     158     185 ..     155     196 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 7.0 bits;  conditional E-value: 0.00059
+  whole_sequences_VBPOs 444 tflLPmAfaEGsPvHPsYgsGHA..vvaGAcvtvL 476
+                            +f+ P  + E  P+  sY+sGHA  v +GA vt+L
+   sp|P80143|UDDP_SULAC 108 NFVNPTYLLEPKPTDYSYPSGHAliVSTGA-VTLL 141
+                            577788899999***********5233455.5554 PP
+
+  == domain 2  score: 6.4 bits;  conditional E-value: 0.00091
+  whole_sequences_VBPOs 537 niaiGRnmaGvHyfsDgieslrlGEeia 564
+                             ++  R ++GvH+  D i + +lG  i+
+   sp|P80143|UDDP_SULAC 158 LVSYSRVYVGVHWPLDVIAGWLLGSWIS 185
+                            58999*******************8876 PP
+
+>> WP_009093798  [Rhodopirellula sp. SWK7]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -0.8   0.1      0.14        82     375     433 ..      31      85 ..      17      98 .. 0.60
+   2 !   12.7   0.0   1.1e-05    0.0065     456     567 ..     481     582 ..     477     594 .. 0.75
+
+  Alignments for each domain:
+  == domain 1  score: -0.8 bits;  conditional E-value: 0.14
+  whole_sequences_VBPOs 375 vHrrlRPEAlggllevvkkaaqegdsllPeval.vselenvelLekvealnqaqnadldr 433
+                              rrlRPE l  +      a++  ++ +Pe      ++  v+ L  ++ +nqa n   + 
+           WP_009093798  31 TRRRLRPETLEVRQ--LLAANIFHNEAMPEDVNeDGIVTAVDALTIINQINQADN---IG 85 
+                            56899999986543..334444445666643332555666655666666666666...32 PP
+
+  == domain 2  score: 12.7 bits;  conditional E-value: 1.1e-05
+  whole_sequences_VBPOs 456 PvHPsYgsGHAvvaGAcvtvLkAflGlesgqdilpspvisdDsglkldlisfepdkdesklvkselevtLtveGElnklaaniaiGRn 543
+                            P  P+Y sGHA+  GA    L+ f G +          +s     +l+++  +p+ +e   + s  ++t t+      +a+n    R 
+           WP_009093798 481 PQFPTYISGHATFGGALFGTLQQFYGTDDISF----ELTS----RELEILLEDPELQEAYGI-SLDDATRTFSSFSEAMAEN-GRSRV 558
+                            899**********************7554322....2222....233333334555555555.7889999999999999999.45678 PP
+
+  whole_sequences_VBPOs 544 maGvHyfsDgieslrlGEeiaigi 567
+                            ++G+H+ +D + +  +G ++a  +
+           WP_009093798 559 YLGIHFDFDDLVGQAVGQTVAATV 582
+                            999999999999999999998665 PP
+
+>> G0LAH5  [Zobellia galactanivorans]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    8.4   0.0   0.00023      0.13     456     481 ..     351     376 ..     349     391 .. 0.87
+   2 ?   -0.0   0.0     0.082        47     534     558 ..     402     426 ..     398     439 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 8.4 bits;  conditional E-value: 0.00023
+  whole_sequences_VBPOs 456 PvHPsYgsGHAvvaGAcvtvLkAflG 481
+                            P  P Y sGH vv GA   vL  ++G
+                 G0LAH5 351 PPFPEYTSGHSVVSGAASVVLTEVFG 376
+                            778******************99997 PP
+
+  == domain 2  score: -0.0 bits;  conditional E-value: 0.082
+  whole_sequences_VBPOs 534 laaniaiGRnmaGvHyfsDgieslr 558
+                             a+  ai R + G+Hy+     +++
+                 G0LAH5 402 AADEAAISRMYGGIHYRAAIEVGVK 426
+                            57889***********986655555 PP
+
+>> sp|A0R627|DPRP_MYCS2  Decaprenylphosphoryl-5-phosphoribose phosphatase OS=Mycolicibacterium smegmatis (strain ATCC 70
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.9   0.4     0.011         6     450     476 ..      92     118 ..      88     126 .. 0.87
+   2 ?    5.5   0.0    0.0017      0.99     538     561 ..     134     157 ..     129     166 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 2.9 bits;  conditional E-value: 0.011
+  whole_sequences_VBPOs 450 AfaEGsPvHPsYgsGHAvvaGAcvtvL 476
+                            A++ G P   s++s HA+ + A + +L
+   sp|A0R627|DPRP_MYCS2  92 AVNVGTPSRLSFPSAHATSTTAAAVLL 118
+                            8999***************99988776 PP
+
+  == domain 2  score: 5.5 bits;  conditional E-value: 0.0017
+  whole_sequences_VBPOs 538 iaiGRnmaGvHyfsDgieslrlGE 561
+                            +a+ R ++GvHy +D + ++ +G 
+   sp|A0R627|DPRP_MYCS2 134 MALSRLVLGVHYPTDVVTGVVVGA 157
+                            689999*************99996 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (596 nodes)
+Target sequences:                       4017  (2101917 residues searched)
+Passed MSV filter:                       192  (0.0477969); expected 80.3 (0.02)
+Passed bias filter:                      175  (0.0435648); expected 80.3 (0.02)
+Passed Vit filter:                        32  (0.00796614); expected 4.0 (0.001)
+Passed Fwd filter:                         7  (0.00174259); expected 0.0 (1e-05)
+Initial search space (Z):               4017  [actual number of targets]
+Domain search space  (domZ):               7  [number of targets reported over threshold]
+# CPU time: 0.13u 0.00s 00:00:00.13 Elapsed: 00:00:00.08
+# Mc/sec: 15015.71
+//
+[ok]

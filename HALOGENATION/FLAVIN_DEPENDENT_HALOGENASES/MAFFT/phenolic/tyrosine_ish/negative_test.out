@@ -1,0 +1,1374 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  HALOGENATION/FLAVIN_DEPENDENT_HALOGENASES/MAFFT/phenolic/tyrosine_ish/tyrosine_FDH.hmm
+# target sequence database:        HALOGENATION/FLAVIN_DEPENDENT_HALOGENASES/MAFFT/phenolic/tyrosine_ish/negative_test.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       tyrosine_FDH  [M=496]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                            Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                            -----------
+   1.1e-132  436.2   0.0   1.5e-132  435.8   0.0    1.0  1  XanH_A_cycl|ADE22292.1               [Streptomyces flavogriseus]
+   8.1e-117  383.9   0.0     1e-116  383.5   0.0    1.0  1  TiaM_A_orsel|E9LIP1                  [Dactylosporangium aurantiacum s
+   3.2e-116  381.9   0.0   3.7e-116  381.7   0.0    1.0  1  SimC6_cycl|AF324838                  [Streptomyces antibioticus]
+   9.1e-116  380.4   0.0   1.1e-115  380.2   0.0    1.0  1  AviH_orsel|STVIR_2874|ELS56116       [Streptomyces viridochromogenes 
+   1.7e-105  346.5   0.0   2.1e-105  346.2   0.0    1.0  1  CalO3_A?_orsel|Q8KND5                [Micromonospora echinospora]
+    4.5e-95  312.1   0.1    5.2e-95  311.9   0.1    1.0  1  Nat1_A_cycl|F8QPG4                   [Streptomyces sp. CS]
+    5.8e-85  278.8   0.0    6.8e-85  278.6   0.0    1.0  1  Asm12_A_cycl|AQZ37099.1              [Actinosynnema pretiosum subsp. 
+    2.7e-83  273.3   0.6    8.7e-83  271.6   0.6    1.6  1  HrmQ|tr|C1IHU5|C1IHU5_9ACTN          [Streptomyces griseoflavus]
+    6.9e-79  258.8   0.6    3.2e-78  256.6   0.6    1.7  1  clz5|tr|U6A3L4|U6A3L4_9ACTN          [Streptomyces sp. CNH287]
+    8.1e-78  255.2   1.6    2.4e-77  253.7   1.6    1.6  1  PltA|sp|Q4KCZ0|PLTA_PSEF5            [Pseudomonas fluorescens]
+    1.2e-76  251.4   0.5    3.7e-76  249.8   0.5    1.6  1  mpy16|tr|J7H1A1|J7H1A1_9ACTN         [Streptomyces sp. CNQ-418]
+    1.7e-76  250.9   0.0    4.3e-76  249.5   0.0    1.5  1  ChlB4_B_orsel|Q0R4P7                 [Streptomyces antibioticus]
+    3.9e-75  246.4   0.4    1.7e-74  244.3   0.4    1.7  1  pyr29|tr|A3R4S0|pyr29                [Wenjunlia vitaminophila]
+    3.8e-68  223.3   0.0    6.2e-68  222.6   0.0    1.3  1  Bmp2|tr|A0A139ZY81|A0A139ZY81_9GAMM  [Pseudoalteromonas sp. PS5]
+    1.1e-39  129.4   0.0    2.1e-39  128.5   0.0    1.4  1  CtcP_A_cycl|A0A1E7MYN1               [Kitasatospora aureofaciens]
+    7.1e-39  126.8   0.0    2.4e-38  125.1   0.0    1.6  1  tr|Q71ME2|Q71ME2_9ACTN               [Actinoplanes sp. ATCC 33002]
+    2.6e-33  108.5   0.0    6.2e-33  107.2   0.0    1.5  1  sp|P95482|PRNC_PSEFL                 [Pseudomonas fluorescens]
+    1.6e-17   56.4   0.4    2.5e-08   26.0   0.1    3.2  2  tr|A1E280_STRAO|thal-6               [Streptomyces albogriseolus]
+    1.8e-17   56.2   0.0    3.7e-09   28.8   0.1    3.0  3  tr|E2IHC5|mibH-5                     [Microbispora corallina]
+    8.6e-17   53.9   0.0    4.8e-07   21.8   0.0    3.1  3  tr|A4D0H5|pyrH-5                     [Streptomyces rugosporus]
+    2.5e-16   52.4   0.4    4.1e-09   28.6   0.0    3.0  2  tr|G0ZGJ1_SERPL|prnA-7               [Serratia plymuthica]
+    1.1e-15   50.3   0.1    1.1e-08   27.2   0.0    3.1  2  sp|P95480|prnA-7                     [Pseudomonas fluorescens]
+    2.4e-15   49.2   0.0      1e-07   24.0   0.0    2.8  2  tr|A0A1W7D4T7|SpmH-5                 [Streptomyces marincola]
+    7.4e-15   47.6   0.8    6.9e-08   24.6   0.1    2.5  2  tr|W1J423|pyrH-5                     [Xenorhabdus szentirmaii DSM 163
+    2.4e-14   45.9   0.2    1.1e-07   23.9   0.0    2.7  2  tr|F6LWA5|abeH-5                     [uncultured bacterium AB1650]
+    2.1e-13   42.8   0.0    2.8e-07   22.6   0.0    2.9  2  tr|A8CF75_9PSEU|ktzQ-7               [Kutzneria sp. (strain 744)]
+    2.9e-13   42.3   0.0    1.1e-07   23.9   0.0    2.7  2  tr|A0A1L1QK36_STRVO|th-hal-6         [Streptomyces violaceusniger]
+    3.3e-13   42.1   0.9    6.2e-06   18.1   0.0    3.1  3  tr|REBH_LENAE|rebH-7                 [Lentzea aerocolonigenes]
+      2e-12   39.5   0.1    4.9e-06   18.5   0.0    2.5  2  tr|A0A0K0P9W9|lzrH1-5                [uncultured bacterium]
+    3.6e-12   38.7   0.3    6.2e-08   24.7   0.0    3.2  3  tr|A0A0K0P8P2_9BACT|lzrH2-6          [uncultured bacterium]
+    9.2e-12   37.4   0.1    6.2e-07   21.4   0.1    2.7  2  tr|G3K6J6|claH-5                     [Streptomyces uncialis]
+    3.3e-11   35.5   0.0    3.6e-07   22.2   0.0    3.1  3  tr|M9QSI0_9BACT|borH-6               [uncultured bacterium]
+    4.2e-11   35.2   0.1    5.8e-06   18.2   0.0    2.6  2  tr|A8CF74_9PSEU|ktzR-6               [Kutzneria sp. (strain 744)]
+    1.1e-10   33.8   0.0    9.3e-06   17.5   0.0    2.8  2  tr|E9P162_9ACTN|stth-6               [Streptomyces toxytricini]
+    2.5e-10   32.6   0.0    2.7e-05   16.0   0.0    2.8  2  tr|W5VG40_SACPI|Tar14-6              [Saccharomonospora piscinae]
+    1.7e-08   26.6   0.0    9.7e-08   24.1   0.0    2.0  1  sp|B1MM05|TETX_MYCA9                 Flavin-dependent monooxygenase O
+    2.6e-07   22.7   0.1      2e-06   19.7   0.0    2.0  2  sp|Q01911|TETX_BACFG                 Flavin-dependent monooxygenase O
+    2.6e-07   22.7   0.1      2e-06   19.7   0.0    2.0  2  sp|Q06DK7|TETX_SPHSM                 Flavin-dependent monooxygenase O
+    2.8e-07   22.6   0.1      2e-06   19.7   0.0    2.0  2  sp|Q93L51|TETX_BACT4                 Flavin-dependent monooxygenase O
+    5.9e-07   21.5   0.9    0.00019   13.2   0.1    2.5  2  sp|A0A059WYP6|TET50_UNKP             Flavin-dependent monooxygenase O
+    1.9e-05   16.6   1.0      0.011    7.5   0.0    2.9  2  sp|D3HKY4|TET56_LEGLN                Flavin-dependent monooxygenase O
+    0.00012   13.8   1.4    0.00016   13.5   0.1    1.7  2  sp|A0A516F3Z6|PENIC_PENPA            Baeyer-Villiger monooxygenase pe
+     0.0011   10.6   0.0        0.2    3.3   0.0    2.8  3  sp|A0A142C7A0|PHNB_PENHR             FAD-dependent monooxygenase phnB
+
+
+Domain annotation for each sequence (and alignments):
+>> XanH_A_cycl|ADE22292.1  [Streptomyces flavogriseus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  435.8   0.0  5.8e-133  1.5e-132       7     419 ..       8     417 ..       3     457 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 435.8 bits;  conditional E-value: 5.8e-133
+            tyrosine_FDH   7 eydvvviGGGpaGstvatllakqglkvllLekeafprykiGESllpstvhglanllgvtdeleaagfvkKrGgtfrwGaepepwtle 93 
+                             +++++viGGGpaGst+a llak+g++v+lLe+  fpry+iGES+lps    ++++lgv d++ea+gf+ K G++f+wG   e+w++ 
+  XanH_A_cycl|ADE22292.1   8 STQILVIGGGPAGSTAAGLLAKEGFQVTLLERDEFPRYHIGESILPSCRP-ILEMLGVWDKVEAHGFQPKGGAYFFWGP--EEWEVR 91 
+                             689********************************************988.**************************76..****** PP
+
+            tyrosine_FDH  94 FakspelsgsesyayQveRakfdeiLlenakekGvdvrenckvtdvvldeeqrargvrytqsdg..kekevsarfvvDAsGrrsllq 178
+                             F+    l+++ + a+Qv R++fdeiLl++a++ Gv+v en +v++++++++ r   + +  +++    + + +++v+DAsGr ++ +
+  XanH_A_cycl|ADE22292.1  92 FN---SLGDDGTNAWQVVRSEFDEILLRHAASLGVEVVENITVKELQFEGD-RPVAALWAGTKDasVSGRIAFDYVIDASGRGGVFA 174
+                             *9...89********************************************.*******99998668899***************** PP
+
+            tyrosine_FDH 179 kklglereyseffknlalfgyfengkrlpapnsgnilsvafddGWfWyiPLsdeltSvGaVvrresyaekvq..kdlekalqeliae 263
+                              k  ++r+y+e f+n++ ++y++n+k l+++ +g+i++ + +dGWfW iPL+d+ tSvG V+ r++++ek++  +  ++++ ++i e
+  XanH_A_cycl|ADE22292.1 175 AKHLKNRQYHEIFRNVGAWSYWKNVKPLDRGPDGAIAVISSEDGWFWNIPLHDGTTSVGLVTGRDIFNEKKNalGGIQEVYDKAISE 261
+                             *******************************************************************9998733689********** PP
+
+            tyrosine_FDH 264 cPliaelladaervtdlrvrkdySYssksfsrpgmilvGdAacfvDPvfSsGvhlatysalLaarsinsvlageldeeraleefear 350
+                             +P ++ ll+ ae+v+ ++v++dySY+ +sf++pg++l+GdAacf+DP++S+Gvhlatysa+La++si svl+ge++e++a e++++ 
+  XanH_A_cycl|ADE22292.1 262 TPHLKRLLEGAEQVSGMKVEQDYSYTAESFCGPGYLLSGDAACFLDPLLSTGVHLATYSAMLASASISSVLRGEVSEKEAWEFYNTV 348
+                             *************************************************************************************** PP
+
+            tyrosine_FDH 351 YrreygrlleflvafydmnvkeesyFWaakklsrvefesielaiaFveLiaGvssleealtaaaelaer 419
+                             Yr+ y rll  +++fy+  +++e++F++a+kl+  + e + ++ aF ++++G+++l++a+   ++++++
+  XanH_A_cycl|ADE22292.1 349 YRHSYERLLVLVSVFYESYRGKEHHFYNAQKLTSDQREGLSIQDAFDRIVTGIADLDDAQDVYSRVHAH 417
+                             **********************************************************99877744333 PP
+
+>> TiaM_A_orsel|E9LIP1  [Dactylosporangium aurantiacum subsp. hamdenensis]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  383.5   0.0  4.1e-117    1e-116       9     428 ..       7     420 ..       2     464 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 383.5 bits;  conditional E-value: 4.1e-117
+         tyrosine_FDH   9 dvvviGGGpaGstvatllakqglkvllLekeafprykiGESllpstvhglanllgvtdeleaagfvkKrGgtfrwGaepepwtleFaksp 98 
+                           v+viGGGp+Gst+a llak g++v lLe++ fpry+iGES+  s    +++ +g  ++++a gf++K+G+  rwG+ +++w ++++  +
+  TiaM_A_orsel|E9LIP1   7 KVIVIGGGPGGSTAAGLLAKGGVEVKLLERAEFPRYHIGESITTSCRA-IIDYVGALEKVNACGFTTKTGVLMRWGQ-EKDWVIDWT--A 92 
+                          69***************************************9988877.**************************98.789****99..3 PP
+
+         tyrosine_FDH  99 elsgsesyayQveRakfdeiLlenakekGvdvrenckvtdvvldeeqrargvrytqsdgkekevsarfvvDAsGrrsllqkklglereys 188
+                          +  g+++ ++Qv+R+ fd++Ll+na++ G +v ++ +v+ v++d++ ra gv+++   g+ ++ +a++v+DAsGr++l++ +  ++r+ +
+  TiaM_A_orsel|E9LIP1  93 Q-FGADTRSWQVDREIFDQVLLDNAADSGAEVVQQAHVKRVLFDGD-RAVGVEWQPAGGELRTETADYVIDASGRAGLISAQHYNNRRPH 180
+                          3.367778**************************************.******************************************* PP
+
+         tyrosine_FDH 189 effknlalfgyfengkrlpapnsgnilsvafddGWfWyiPLsdeltSvGaVvrresyaekvq..kdlekalqeliaecPliaelladaer 276
+                          e f+n+a++gy+en++ lp+  +g i + +  dGW+W+iPL+d+  SvG V+++  + e+ +  + +e++l ++  e  ++++ la+a++
+  TiaM_A_orsel|E9LIP1 181 EIFRNVAIWGYWENAELLPDSPAGGINVISSPDGWYWLIPLRDNRFSVGFVTHKTNFVERRRefDSQEAMLAAVLGESETMKQVLAQATQ 270
+                          *******************************************************998765522578888899999************** PP
+
+         tyrosine_FDH 277 vtdlrvrkdySYssksfsrpgmilvGdAacfvDPvfSsGvhlatysalLaarsinsvlageldeeraleefearYrreygrlleflvafy 366
+                             +r+++d+SY  ++f+++g++lvGd acf+DP++S+Gvhla+ys++L+a+si s  +ge++e +a  +fe  Yr++y rl + +++fy
+  TiaM_A_orsel|E9LIP1 271 LPGVRIEQDFSYAADKFCGDGYFLVGDSACFLDPLLSTGVHLAMYSGMLSAASILSLQRGEVNEPEAQAFFESLYRNAYHRLFTLVISFY 360
+                          ****************************************************************************************** PP
+
+         tyrosine_FDH 367 dmnvkeesyFWaakklsrvefesiel.aiaFveLiaGvssleealtaaaelaersaelakave 428
+                          +++ ++++yF  a  lsr ++ +++  ++aF e+iaG+++l ea   a +    +a ++++++
+  TiaM_A_orsel|E9LIP1 361 QQHAGKDRYFALADTLSRAAQGDTQSaDLAFGEIIAGLTDLREAADRAGT---AAAPITETID 420
+                          **********************999989*********9998777655542...3333333443 PP
+
+>> SimC6_cycl|AF324838  [Streptomyces antibioticus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  381.7   0.0  1.5e-116  3.7e-116       8     412 ..       2     404 ..       1     438 [. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 381.7 bits;  conditional E-value: 1.5e-116
+         tyrosine_FDH   8 ydvvviGGGpaGstvatllakqglkvllLekeafprykiGESllpstvhglanllgvtdeleaagfvkKrGgtfrwGaepepwtleFaks 97 
+                          ++v+v+GGGpaGst+a+lla+ g++v++Le+++fpry+iGES   s    +++ lg  ++++a g++ K+G+  rwG+ +++w+++++++
+  SimC6_cycl|AF324838   2 TQVIVVGGGPAGSTAAALLARAGISVTVLERATFPRYHIGESFSTSCRV-IIDYLGALEKVDARGYTSKTGLLVRWGQ-EKDWAIDWTDQ 89 
+                          69****************************************9877766.**************************98.789******54 PP
+
+         tyrosine_FDH  98 pelsgsesyayQveRakfdeiLlenakekGvdvrenckvtdvvldeeqrargvrytqsdgkekev.sarfvvDAsGrrsllqkklglere 186
+                              gs+  ++Qv+R+ fd +Ll++a e G +v ++ +v+ v+++++ ra+gv++t + ++ k++ +a+fv+DAsGr++l++ +  ++r+
+  SimC6_cycl|AF324838  90 ---FGSDVRSWQVDRDDFDTVLLDHASESGAKVVQGAHVHRVIFEGD-RATGVEWTAPGETAKQIsRADFVLDASGRAGLISAQHFNNRR 175
+                          ...488999**************************************.*********99876666269********************** PP
+
+         tyrosine_FDH 187 yseffknlalfgyfengkrlpapnsgnilsvafddGWfWyiPLsdeltSvGaVvrresyaekvq..kdlekalqeliaecPliaellada 274
+                           +e f+n+a++gy+e+g+ lp   sg i + + ddGW+W+iPL+d+  SvG V +++++ e+ +  + l+++l ++ +e P + e la+ 
+  SimC6_cycl|AF324838 176 PHEIFRNVAIWGYWEGGELLPGSPSGGINVISSDDGWYWVIPLRDNRLSVGFVSHKSIFGERRRefGSLDEMLLKMVDESPAVREILAKG 265
+                          **********************************************************988765227899******************** PP
+
+         tyrosine_FDH 275 ervtdlrvrkdySYssksfsrpgmilvGdAacfvDPvfSsGvhlatysalLaarsinsvlageldeeraleefearYrreygrlleflva 364
+                          +     rv++d+SYs +sf++pg +l GdAacf+DP++S+Gvhl +ys+lLaa+s+  + +g+++e++al ++e  +r++y rl + ++ 
+  SimC6_cycl|AF324838 266 TFQPGARVEQDFSYSADSFCGPGHFLLGDAACFLDPLLSTGVHLGMYSGLLAAASVMAITDGDVSEREALAFYESLFRNAYQRLFTLVSG 355
+                          ****************************************************************************************** PP
+
+         tyrosine_FDH 365 fydmnvkeesyFWaakklsrvefesiel.aiaFveLiaGvssleealta 412
+                          fy+++ ++++yF  a  l r+e e+    a +F e+ aG+++  ea  a
+  SimC6_cycl|AF324838 356 FYQKHAGKDRYFALAETLARQEPEHWHSsAQSFGEITAGLTDMREAADA 404
+                          **********************99999889*********9998777654 PP
+
+>> AviH_orsel|STVIR_2874|ELS56116  [Streptomyces viridochromogenes Tue57]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  380.2   0.0  4.3e-116  1.1e-115      11     421 ..       2     411 ..       1     442 [. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 380.2 bits;  conditional E-value: 4.3e-116
+                    tyrosine_FDH  11 vviGGGpaGstvatllakqglkvllLekeafprykiGESllpstvhglanllgvtdeleaagfvkKrGgtfrwGaepep 89 
+                                     +viGGGpaGst+a+ll k g++v lLe+e+fpry+iGES+  s    +++l+g  +e+++ g++ K+G+  rwG+  e+
+  AviH_orsel|STVIR_2874|ELS56116   2 LVIGGGPAGSTAASLLSKAGMSVKLLERETFPRYHIGESIASSCRT-IIDLVGALEEVDSRGYTVKNGVLLRWGK--ED 77 
+                                     79*************************************8777666.**************************99..** PP
+
+                    tyrosine_FDH  90 wtleFakspelsgsesyayQveRakfdeiLlenakekGvdvrenckvtdvvldeeqrargvrytqsd.gkekevsarfv 167
+                                     w++++    ++ g++  ++Qv+R+ fd++Ll+na ++G dv e+ +v+ v++d++ ra g+++ ++d g+    ++++v
+  AviH_orsel|STVIR_2874|ELS56116  78 WAIDWP---KIFGPDVRSWQVDRDDFDHVLLKNAVKQGADVTEGVTVKRVLFDGD-RAAGAEWLDPDtGELVSEEFDYV 152
+                                     ****98...99********************************************.***********66777789**** PP
+
+                    tyrosine_FDH 168 vDAsGrrsllqkklglereyseffknlalfgyfengkrlpapnsgnilsvafddGWfWyiPLsdeltSvGaVvrresya 246
+                                     +DAsGr+++++k+l+ +r+ +e f+n+a++gy+++g+ lp+   g i + +  dGW+W+iPL+ +  SvG V +++ + 
+  AviH_orsel|STVIR_2874|ELS56116 153 IDASGRAGVISKHLK-NRRPHEIFRNVAIWGYWQGGSLLPSSPTGGINVISAPDGWYWVIPLRGDRYSVGFVCHQDRFL 230
+                                     ************999.9999********************************************************987 PP
+
+                    tyrosine_FDH 247 ek..vqkdlekalqeliaecPliaelladaervtdlrvrkdySYssksfsrpgmilvGdAacfvDPvfSsGvhlatysa 323
+                                     e+   + dle++l +l +e P++ +l+a+      +rv++d+SY  +sf +pg+ l GdAacf+DP++S+Gvhla ys+
+  AviH_orsel|STVIR_2874|ELS56116 231 ERrrEHADLEAMLASLVEESPTVRDLMANGVYQPGVRVEQDFSYVADSFHGPGYYLAGDAACFLDPLLSTGVHLALYSG 309
+                                     651156789********************************************************************** PP
+
+                    tyrosine_FDH 324 lLaarsinsvlageldeeraleefearYrreygrlleflvafydmnvkeesyFWaakkls....rvefesielaiaFve 398
+                                     +Laa+s+   ++++++ee+a  ++e  Yr++y rl + ++  y+++ +++ yF  a  ++      e e+++ a+aF e
+  AviH_orsel|STVIR_2874|ELS56116 310 MLAATSVLATVNKDVTEEEAGAFYESLYRNAYQRLFTLVSGVYQQQAGKAAYFELADAMTperaTAEYEQVDGAVAFAE 388
+                                     *****************************************************777766521113456677889***** PP
+
+                    tyrosine_FDH 399 LiaGvssleealtaaaelaersa 421
+                                     L+aG+++ ++a+t+++e ++++a
+  AviH_orsel|STVIR_2874|ELS56116 389 LVAGLADIHDAVTGTHEDRAQQA 411
+                                     *************9996555543 PP
+
+>> CalO3_A?_orsel|Q8KND5  [Micromonospora echinospora]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  346.2   0.0  8.2e-106  2.1e-105       1     413 [.       1     408 [.       1     417 [. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 346.2 bits;  conditional E-value: 8.2e-106
+           tyrosine_FDH   1 mstveeeydvvviGGGpaGstvatllakqglkvllLekeafprykiGESllpstvhglanllgvtdeleaagfvkKrGgtfrwGa.ep 87 
+                            ms  e eydv+v+GGGpaGs  a lla++g++vllLe+e+fpry+iGESl+ s+v   ++ lgv++++++  f++K+Gg   wGa ++
+  CalO3_A?_orsel|Q8KND5   1 MSHPEPEYDVIVVGGGPAGSSTAGLLAQEGHRVLLLEREKFPRYHIGESLI-SGVTLTLDALGVRERMAELRFQIKHGGSLLWGAdQT 87 
+                            7777889******************************************98.567778**************************8357 PP
+
+           tyrosine_FDH  88 epwtleFakspelsgsesyayQveRakfdeiLlenakekGvdvrenckvtdvvldeeqrargvrytqsdgkeke..vsarfvvDAsGr 173
+                             pw++ F++ +  +   +y++Qv+Ra+fd +Ll+ a+e Gv v e+ +v+  ++d+e r+ gv y+   g+     ++a  vvDAsG+
+  CalO3_A?_orsel|Q8KND5  88 APWSFRFREIR--DARFDYSWQVRRAEFDAMLLDRARELGVVVVEGATVRGPLTDGE-RVAGVSYQF-RGEADPidARAAIVVDASGQ 171
+                            8*******555..66778***************************************.*******86.4555550156668******* PP
+
+           tyrosine_FDH 174 rsllqkklglereyseffknlalfgyfengkrlpapnsgnilsvafddGWfWyiPLsdeltSvGaVvrresyaekvqkdlekalqeli 261
+                            ++ l +++g   ++++ ++n+a ++y+ ++ r p +++g +l+ +  +GW+Wy PLs +lt +G V+  + +ae +    ++ l++ i
+  CalO3_A?_orsel|Q8KND5 172 QRWLGRHFG-LVSWHDDLRNMAAWSYYAGALRYPGDHEGDLLVESCAQGWLWYAPLSPTLTGIGYVTPSDRFAE-TGLPPDQLLEKQI 257
+                            *********.679**********************************************************655.6678999****** PP
+
+           tyrosine_FDH 262 aecPliaelladaervtdlrvrkdySYssksfsrpgmilvGdAacfvDPvfSsGvhlatysalLaarsinsvlageldeeraleefea 349
+                            ae   ++ l+a a+rv+  r  +d+SY   +fs+pg++lvGdAa f+DP++SsGv la+ +al  +r++   la   +e++ ++ +e 
+  CalO3_A?_orsel|Q8KND5 258 AESNEVSWLTAGARRVDVYRTARDWSYACSQFSGPGWVLVGDAAAFIDPLLSSGVTLAMRGALSLSRAVHEALAAPEKERHLMQVYED 345
+                            ****************999********************************************************************* PP
+
+           tyrosine_FDH 350 rYrreygrlleflvafydmnvkeesyFWaakklsrvefesielaiaFveLiaGvssleealtaa 413
+                            rYr+  + ll+ + +fyd  +++++   +a+ +   +   + ++i+Fv+L++G++ ++e+l  +
+  CalO3_A?_orsel|Q8KND5 346 RYRDFLAALLDLIRFFYDGAHGRDELHLRAQAIVDPDRL-MPPKISFVSLLSGLARGDETLDRS 408
+                            *******************************99877654.555************999987665 PP
+
+>> Nat1_A_cycl|F8QPG4  [Streptomyces sp. CS]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  311.9   0.1   2.1e-95   5.2e-95       5     370 ..       3     364 ..       1     413 [. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 311.9 bits;  conditional E-value: 2.1e-95
+        tyrosine_FDH   5 eeeydvvviGGGpaGstvatllakqglkvllLekeafprykiGESllpstvhglanllgvtdeleaagfvkKrGgtfrwGaepepwtleFa 95 
+                         ++++dvvviGGGpaG   a +lakqg++v+lLe+e fpr++iGESllp  +  l++ +g+++ +e++g+v K Gg+f   +e++  +  F+
+  Nat1_A_cycl|F8QPG4   3 DNSTDVVVIGGGPAGALSAYQLAKQGHSVVLLEREEFPRFHIGESLLPYMMG-LFDRIGIREAVETKGYVPKFGGEFIDPNEEKFFSDVFR 92 
+                         4799********************************************9765.************************99887777777788 PP
+
+        tyrosine_FDH  96 kspelsgsesy..ayQveRakfdeiLlenakekGvdvrenckvtdvvldeeqrargvrytqsdgkekevsarfvvDAsGrrsllqkklgle 184
+                              +g+  y  a+QveRakfd +L e a ++G +v+ + +v +++++++ r+ gvryt+ dg+e+ev++r+vvDAsGr++++++k+g  
+  Nat1_A_cycl|F8QPG4  93 ADFSKQGDGRYdrAFQVERAKFDGMLVEEAGKAGAEVHLGATVGELLMEGD-RMVGVRYTK-DGQEHEVRSRYVVDASGRAGRVAHKFG-L 180
+                         8777777777788**************************************.********9.9**************************.6 PP
+
+        tyrosine_FDH 185 reyseffknlalfgyfengkrlpa.pnsgnilsvafddGWfWyiPLsdeltSvGaVvrresyaekvqkdlekalqeliaecPliaellada 274
+                         re  e ++ +a+f ++e+ +   + + +g i + a+ dGW+W iPLs++++SvG V+ r+ +     +  e++++e +a+ P i ++l d 
+  Nat1_A_cycl|F8QPG4 181 RERLEKLRMVAVFRHYEGLDEKHNlGVEGDIQVGAHADGWVWAIPLSKDVISVGTVMPRDVFR---ASTPEEVFEEHKARIPRIVARLTDT 268
+                         677778899********987655559***********************************54...567899******************* PP
+
+        tyrosine_FDH 275 ervtdlrvrkdySYssksfsrpgmilvGdAacfvDPvfSsGvhlatysalLaarsinsvlageldeeraleefearYrreygrlleflvaf 365
+                         ++  dl+v+ dy Y+s++ ++pg+++vGdA+cf DP+fS Gv  a  +a+ aa+++   l++  d +r ++e+ + ++  y +++  + af
+  Nat1_A_cycl|F8QPG4 269 RPTMDLKVETDYCYHSDTVTGPGWVMVGDAGCFGDPMFSGGVLVASATAVRAAETLSDALNNPEDADRLIDEYANFFKTGYDTYIRLIHAF 359
+                         ******************************************************************************************* PP
+
+        tyrosine_FDH 366 ydmnv 370
+                         yd + 
+  Nat1_A_cycl|F8QPG4 360 YDGEL 364
+                         **875 PP
+
+>> Asm12_A_cycl|AQZ37099.1  [Actinosynnema pretiosum subsp. pretiosum]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  278.6   0.0   2.7e-85   6.8e-85       9     369 ..       3     360 ..       1     390 [. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 278.6 bits;  conditional E-value: 2.7e-85
+             tyrosine_FDH   9 dvvviGGGpaGstvatllakqglkvllLekeafprykiGESllpstvhglanllgvtdeleaagfvkKrGgtfrwGaepepwtl.e 93 
+                              d +v+GGGpaG + a++la+qg +vl+Le++ fpr++iGES+lp  v  l++  g+ d + ++g+v KrGg+f   + ++  +   
+  Asm12_A_cycl|AQZ37099.1   3 DAIVMGGGPAGAVCASVLARQGRSVLVLERQEFPRFHIGESMLPYMVG-LLERHGLLDAVREQGYVVKRGGEFIDPTGTKFFRAgV 87 
+                              89*******************************************997.************************8655444433313 PP
+
+             tyrosine_FDH  94 Fakspelsgsesy..ayQveRakfdeiLlenakekGvdvrenckvtdvvldeeqrargvrytqsdgkekevsarfvvDAsGrrsll 177
+                              F+   + +g+  +  ++QveR++fd++ l++a+ +G  vre+ +v  ++++++ r+ gvry++  g e+e +ar+vvDA Gr++++
+  Asm12_A_cycl|AQZ37099.1  88 FRADFAKTGDGRHheTFQVERSHFDRVNLDQARAAGATVREGAQVVGLLEEGG-RVVGVRYRE-GGVEREERARYVVDATGRAGVV 171
+                              444444444444447*********************************99999.********9.79******************** PP
+
+             tyrosine_FDH 178 qkklglereyseffknlalfgyfengkrlpap.nsgnilsvafddGWfWyiPLsdeltSvGaVvrresyaekvqkdlekalqelia 262
+                              ++++gl+r  ++ ++ +a+f + ++ +   +p ++g i + ++ dGW+W iPLs + +SvG V++r+       +   +a+ e  +
+  Asm12_A_cycl|AQZ37099.1 172 ANRFGLRRMIED-LRMVAVFHHRDGLDEAHNPgHEGDIQVGSHADGWIWAIPLSADRISVGTVMHRDR---LRGRTPAEAFAEHVE 253
+                              *****7766655.677****999999988885379*********************************...455667889****** PP
+
+             tyrosine_FDH 263 ecPliaelladaervtdlrvrkdySYssksfsrpgmilvGdAacfvDPvfSsGvhlatysalLaarsinsvlageldeeraleefe 348
+                              + P i+++l   +  +d+ v+ dySY+s++ ++pg+++vGdA+cf DP+fS Gv   + ++  aa+++   l+   dee+al+ + 
+  Asm12_A_cycl|AQZ37099.1 254 RVPRINQRLTGTTATSDFWVETDYSYHSDQVTGPGWVMVGDAGCFGDPMFSGGVLVGMATGAEAAEALGRALDSPADEEQALTGYS 339
+                              ************************************************************************************** PP
+
+             tyrosine_FDH 349 arYrreygrlleflvafydmn 369
+                              + ++  y +++  + +fy+ +
+  Asm12_A_cycl|AQZ37099.1 340 NFFKTGYDTYVRLIFSFYEGE 360
+                              ******************976 PP
+
+>> HrmQ|tr|C1IHU5|C1IHU5_9ACTN  [Streptomyces griseoflavus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  271.6   0.6   3.5e-83   8.7e-83       7     369 ..       5     381 ..       1     387 [. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 271.6 bits;  conditional E-value: 3.5e-83
+                 tyrosine_FDH   7 eydvvviGGGpaGstvatllakqglkvllLekeafprykiGESllpstvhglanllgvtdeleaagfvkKrGgtfrwGaepe 88 
+                                  +yd+ +iGGGpaGst+a+ lak g++ ++Le + fpr ++GESl+ +t   +++ +g   +++aagf+kK+G+ ++  a++ 
+  HrmQ|tr|C1IHU5|C1IHU5_9ACTN   5 DYDIGIIGGGPAGSTMASYLAKAGISAIVLESAEFPRPHVGESLVTATTP-VLQEIGALAKVDAAGFPKKYGAAWTSAAKET 85 
+                                  8***********************************************99.************************8765432 PP
+
+                 tyrosine_FDH  89 p..............wtleFakspelsgsesyayQveRakfdeiLlenakekGvdvrenckvtdvvldeeqrargvrytq.s 155
+                                                  ++eF+++ + ++++ y+y v+R+k+d++Ll++a+e G  vre+++v+dv++ ++    gv+ t  +
+  HrmQ|tr|C1IHU5|C1IHU5_9ACTN  86 VpemgftgmtqgfrlASVEFQERDQPGVDQAYTYHVDRGKYDQLLLQHAAELGARVRERTRVQDVEFTDD----GVVLTAvG 163
+                                  11112222222222257899**************************************************....66666515 PP
+
+                 tyrosine_FDH 156 dgkekevsarfvvDAsGrrsllqkklglereyseffknlalfgyfengkrlpa...pnsgnilsvaf...ddGWfWyiPLsd 231
+                                  d+ ++  + r vvDAsGr+++l +k +  +  +++f++ a+++ f++ +r      p++  ++   f   +d W+W iP+s+
+  HrmQ|tr|C1IHU5|C1IHU5_9ACTN 164 DEGTERLRVRMVVDASGRQTMLGRKKK-LKVPDPVFNQYAIHAWFDGLDRKALaddPEQEDFIFIHFlpvSDTWVWQIPISE 244
+                                  5678899***************99988.7899***************99865444588877777766222466********* PP
+
+                 tyrosine_FDH 232 eltSvGaVvrresyaekvqkdlekalqeliaecPliaelladaervtdlrvrkdySYssksfsrpgmilvGdAacfvDPvfS 313
+                                  + tSvG+V+++ +  +   +++e+ + e     P + + l++aerv +++ + dySY  k+ ++++++l+GdAa fvDP+fS
+  HrmQ|tr|C1IHU5|C1IHU5_9ACTN 245 TTTSVGVVTQKAK-VKSSGQEREEFFWECLGTRPELRAALEKAERVREFKTEGDYSYGMKEVVGDRWALIGDAARFVDPIFS 325
+                                  **********999.6666777888999999**************************************************** PP
+
+                 tyrosine_FDH 314 sGvhlatysalLaarsinsvlageldeeraleefearYrreygrlleflvafydmn 369
+                                  sGv  a+ sa L a+ i s ++ +   ++ +  +e+  rr  +  +ef++++y  n
+  HrmQ|tr|C1IHU5|C1IHU5_9ACTN 326 SGVSVAMNSARLLAKDIVSAVERDDFSKKSFGDYERVLRRGVSSWYEFISIYYRLN 381
+                                  *********************999889999***********************876 PP
+
+>> clz5|tr|U6A3L4|U6A3L4_9ACTN  [Streptomyces sp. CNH287]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  256.6   0.6   1.3e-78   3.2e-78       2     369 ..       2     381 ..       1     388 [. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 256.6 bits;  conditional E-value: 1.3e-78
+                 tyrosine_FDH   2 stveeeydvvviGGGpaGstvatllakqglkvllLekeafprykiGESllpstvhglanllgvtdeleaagfvkKrGgtfrw 83 
+                                  s+   ++d+ +iGGGpaGs +a+ lak gl+ ++ e   fpr ++GESl+p+t   +++ +g   ++e+agf+kK+G+ ++ 
+  clz5|tr|U6A3L4|U6A3L4_9ACTN   2 SE--VDFDIGIIGGGPAGSAIASYLAKAGLNCVIFEGDIFPREHVGESLIPATTP-VLDDIGFLPQMETAGFPKKYGAAWTS 80 
+                                  44..49************************************************9.************************87 PP
+
+                 tyrosine_FDH  84 Gaepe..............pwtleFakspelsgsesyayQveRakfdeiLlenakekGvdvrenckvtdvvldeeqrargvr 151
+                                   ++++                ++eF+++++l+++++y+y v+Rakfd +Ll++a++ G +v ++ +v+ v + e    r + 
+  clz5|tr|U6A3L4|U6A3L4_9ACTN  81 ASDQNiptmgfegmshgfrAAEIEFHEREQLGVTQDYTYHVDRAKFDLMLLQHAASLGAKVYQGVRVRRVDFSET-NPR-II 160
+                                  554432111111111112156789************************************************999.555.88 PP
+
+                 tyrosine_FDH 152 ytqsdgkekevsarfvvDAsGrrsllqkklglereyseffknlalfgyfengkrlpa....pnsgnilsvaf..ddGWfWyi 227
+                                  +  ++ +e  v+ r vvDAsGr+++l ++l+  +  +++f++ a++  f+n +r       ++++ i+       d W+W i
+  clz5|tr|U6A3L4|U6A3L4_9ACTN 161 FPIGK-TETSVRVRMVVDASGRNTFLGRQLK-LKVSDPVFNQYAVHTWFDNLDRTALsvnkEQADYIFIHFLpvTDTWVWQI 240
+                                  98744.67789******************99.8999***************99965444426666665543311567***** PP
+
+                 tyrosine_FDH 228 PLsdeltSvGaVvrresyaekvqkdlekalqeliaecPliaelladaervtdlrvrkdySYssksfsrpgmilvGdAacfvD 309
+                                  P+ d++tS+G+V+++e+  +  ++dl+  + e     P ++e l++ ++v  ++ + dySY  k+ ++++++ +GdAa fvD
+  clz5|tr|U6A3L4|U6A3L4_9ACTN 241 PITDTITSIGVVTQKEQ-FKASKEDLDGFFWECVGSRPELKEALEKSDQVRPFKTEGDYSYAMKQIVGDQWATIGDAARFVD 321
+                                  *****************.5677899********************************************************* PP
+
+                 tyrosine_FDH 310 PvfSsGvhlatysalLaarsinsvlageldeeraleefearYrreygrlleflvafydmn 369
+                                  P+fSsGv  a  sa L +  i    ++   ++++++++e + rr+ ++ +ef++++y  n
+  clz5|tr|U6A3L4|U6A3L4_9ACTN 322 PIFSSGVSVALNSARLISGEIIAAAEQGDFRKEMFSNYEGKIRRAVSNWYEFISIYYRLN 381
+                                  **************99887776666665556789***********************877 PP
+
+>> PltA|sp|Q4KCZ0|PLTA_PSEF5  [Pseudomonas fluorescens]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  253.7   1.6   9.4e-78   2.4e-77       5     369 ..       3     382 ..       1     391 [. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 253.7 bits;  conditional E-value: 9.4e-78
+               tyrosine_FDH   5 eeeydvvviGGGpaGstvatllakqglkvllLekeafprykiGESllpstvhglanllgvtdeleaagfvkKrGgtfrwGaepe 88 
+                                +++ydvv+iGGGpaGst+a+ lak g+k  + eke f r ++GESl+p+t   ++  +gv +++e+a+f+kK G+ ++  ++  
+  PltA|sp|Q4KCZ0|PLTA_PSEF5   3 DHDYDVVIIGGGPAGSTMASYLAKAGVKCAVFEKELFEREHVGESLVPATTP-VLLEIGVMEKIEKANFPKKFGAAWTSADSGP 85 
+                                479************************************************9.8889********************8654432 PP
+
+               tyrosine_FDH  89 p..............wtleFakspelsgsesyayQveRakfdeiLlenakekGvdvrenckvtdvvldeeqrargvrytqsdg. 157
+                                +               ++ F+++++ ++++++++ v+R+kfd+iLle+a + G +v+++ ++ dv++   +    v    + g 
+  PltA|sp|Q4KCZ0|PLTA_PSEF5  86 EdkmgfqgldhdfrsAEILFNERKQEGVDRDFTFHVDRGKFDRILLEHAGSLGAKVFQGVEIADVEFLSPGN---VIVNAKLGk 166
+                                20111111111111145567788888999999***********************************99843...333444453 PP
+
+               tyrosine_FDH 158 kekevsarfvvDAsGrrsllqkklglereyseffknlalfgyfengkrlpa...pnsgnilsvafddG...WfWyiPLsdeltS 235
+                                +  e++a+ vvDAsGr+ ll ++lg  re +++f+++a+++ f+n +r  a   p++  ++   f      W+W iP+ +++tS
+  PltA|sp|Q4KCZ0|PLTA_PSEF5 167 RSVEIKAKMVVDASGRNVLLGRRLG-LREKDPVFNQFAIHSWFDNFDRKSAtqsPDKVDYIFIHFLPMtntWVWQIPITETITS 249
+                                7889*********************.89*****************99988766688888888777543345************* PP
+
+               tyrosine_FDH 236 vGaVvrresyaekvqkdlekalqeliaecPliaelladaervtdlrvrkdySYssksfsrpgmilvGdAacfvDPvfSsGvhla 319
+                                vG+V++++ y ++    +e+ + e+ +    + + l+  e+v  ++++ dySY  k+ +++ ++l+GdAa fvDP+fSsGv  a
+  PltA|sp|Q4KCZ0|PLTA_PSEF5 250 VGVVTQKQNY-TNSDLTYEEFFWEAVKTRENLHDALKASEQVRPFKKEADYSYGMKEVCGDSFVLIGDAARFVDPIFSSGVSVA 332
+                                *********5.5667789999999999999****************************************************** PP
+
+               tyrosine_FDH 320 tysalLaarsinsvlageldeeraleefearYrreygrlleflvafydmn 369
+                                  sa +a+  i   ++++   ++ ++++e   r+   + +ef++ +y  n
+  PltA|sp|Q4KCZ0|PLTA_PSEF5 333 LNSARIASGDIIEAVKNNDFSKSSFTHYEGMIRNGIKNWYEFITLYYRLN 382
+                                *******98888888877677788***********************877 PP
+
+>> mpy16|tr|J7H1A1|J7H1A1_9ACTN  [Streptomyces sp. CNQ-418]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  249.8   0.5   1.5e-76   3.7e-76       6     369 ..       3     380 ..       1     389 [. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 249.8 bits;  conditional E-value: 1.5e-76
+                  tyrosine_FDH   6 eeydvvviGGGpaGstvatllakqglkvllLekeafprykiGESllpstvhglanllgvtdeleaagfvkKrGgtfrwGae 86 
+                                    ++dv +iGGGpaGst a+ la+ glkv l e  +fpr ++GESl+p+t   ++  ++  d++eaagf+kK G+ ++  ++
+  mpy16|tr|J7H1A1|J7H1A1_9ACTN   3 PQFDVGIIGGGPAGSTTASYLARAGLKVALFESDNFPREHVGESLVPATTP-VLVDIDAFDKVEAAGFPKKFGAAWTSADS 82 
+                                   58************************************************9.77789******************986433 PP
+
+                  tyrosine_FDH  87 p..............epwtleFakspelsgsesyayQveRakfdeiLlenakekGvdvrenckvtdvvldeeqrargvryt 153
+                                                     ++ F+++++ ++ ++y++ v+R++fd +Ll++a+e+G +v+++ +v+ v +d+      v  t
+  mpy16|tr|J7H1A1|J7H1A1_9ACTN  83 GpsdkmgftgldhdfRAAEIMFNERTQSGVHKDYTFHVDRGQFDLLLLKHAEEQGAKVHQGVRVNRVNFDGA---FPVLET 160
+                                   2111111111111113456778999999999***************************************99...668889 PP
+
+                  tyrosine_FDH 154 qsdgkekevsarfvvDAsGrrsllqkklglereyseffknlalfgyfengkrlpa....pnsgnilsvafd..dGWfWyiP 228
+                                      g+   v  + vvDAsGrr+ l ++l+  +e +++f++ a++  f+n +r        +s+ i+       d W+W iP
+  mpy16|tr|J7H1A1|J7H1A1_9ACTN 161 SVAGQRAKVPVKMVVDASGRRTQLGSQLK-VKEKDPVFNQYAIHTWFDNFDRKALavdqSQSDFIFIHFLPviDTWVWQIP 240
+                                   999*************************9.99****************998854334326666665543332266****** PP
+
+                  tyrosine_FDH 229 LsdeltSvGaVvrresyaekvqkdlekalqeliaecPliaelladaervtdlrvrkdySYssksfsrpgmilvGdAacfvD 309
+                                   + d++tSvG+V+++e   +  ++dlek + ++    P + + l++ e+v  l+ + dySY  ++ +++ +++vGdAa fvD
+  mpy16|tr|J7H1A1|J7H1A1_9ACTN 241 ITDTITSVGVVTQKER-LKASKDDLEKFFWDTLGSRPELHKALKESEQVRPLKTEGDYSYALTKVCGDNFLMVGDAARFVD 320
+                                   ****************.777899********************************************************** PP
+
+                  tyrosine_FDH 310 PvfSsGvhlatysalLa.arsinsvlageldeeraleefearYrreygrlleflvafydmn 369
+                                   P+fSsGv  a  sa +a a +i+   ag+ +++r ++ +e   rr   + +ef++++y  n
+  mpy16|tr|J7H1A1|J7H1A1_9ACTN 321 PIFSSGVSVALNSARIAsADIIAAHRAGDYSKKR-FDTYESMLRRGVNNWYEFISIYYRLN 380
+                                   **************99834566777777877665.9**********************877 PP
+
+>> ChlB4_B_orsel|Q0R4P7  [Streptomyces antibioticus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  249.5   0.0   1.7e-76   4.3e-76       7     369 ..       4     382 ..       1     391 [. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 249.5 bits;  conditional E-value: 1.7e-76
+          tyrosine_FDH   7 eydvvviGGGpaGstvatllakqglkvllLekeafprykiGESllpstvhglanllgvtdeleaagfvkKrGgtfrwGaep........ 87 
+                           ++d  ++GGGpaGs +a+ la+ gl+v + e e fpr +iGESl+p+t+  +++ +gv  ++eaagf+kK+G+ ++  +++        
+  ChlB4_B_orsel|Q0R4P7   4 DFDAAIVGGGPAGSAMASYLAEAGLSVAVFESEMFPRPHIGESLVPATMP-VLDEIGVMPDIEAAGFPKKYGAAWTSAESRdvphngft 91 
+                           89***********************************************9.************************98776522222221 PP
+
+          tyrosine_FDH  88 ......epwtleFakspelsgsesyayQveRakfdeiLlenakekGvdvrenckvtdvvldeeqrargvrytqsdg.kekevsarfvvD 169
+                                 +  ++ F ++ + ++ ++y++ v+R+kfd iLl++a+++G +v+++++v +  +d +     v+     g ++   ++r v+D
+  ChlB4_B_orsel|Q0R4P7  92 gldhdfKAAEVMFVERDQPGVHRDYTFHVDRGKFDLILLKHAESRGAQVFQKTRVLKADFDTD--PDLVTLNCRLGpRTLDFTTRMVID 178
+                           1111223456677778888889999**************************************..555666665666999********* PP
+
+          tyrosine_FDH 170 AsGrrsllqkklglereyseffknlalfgyfengkrlpa...pnsgnilsvaf...ddGWfWyiPLsdeltSvGaVvrresyaekvqkd 252
+                           AsGr+++l ++l+  +  +++f++ a+++ fe+ +r      p +  ++ v f   +d W+W iP+ d++tSvG+V+++    +  + d
+  ChlB4_B_orsel|Q0R4P7 179 ASGRQTMLGNQLK-VKVPDPVFNQYAIHAWFEGLDRTAMaldPAKRDYIYVHFlplEDTWMWQIPITDTITSVGVVTQKHR-FKAASAD 265
+                           ***********99.9999*****************998778889999888888343577*********************9.5677899 PP
+
+          tyrosine_FDH 253 lekalqeliaecPliaelladaervtdlrvrkdySYssksfsrpgmilvGdAacfvDPvfSsGvhlatysalLaar.sinsvlagelde 340
+                           +ek + ++      i + l++aer+  ++ + dySY   + ++++++l+GdAa fvDP+fSsGv  a  sa Laa+ +i+   ag+  +
+  ChlB4_B_orsel|Q0R4P7 266 REKFFWDIVSSRKDIYDALQKAERIRPFKAEGDYSYAMRQICGDRFLLIGDAARFVDPIFSSGVSVALNSARLAAKdVIAAHRAGDFRK 354
+                           9**************************************************************************83567777888876 PP
+
+          tyrosine_FDH 341 eraleefearYrreygrlleflvafydmn 369
+                           e+ +  +e++ rr+  + +ef++++y  n
+  ChlB4_B_orsel|Q0R4P7 355 ES-FATYEEKLRRAVRNWYEFISVYYRLN 382
+                           65.778********************877 PP
+
+>> pyr29|tr|A3R4S0|pyr29  [Wenjunlia vitaminophila]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  244.3   0.4   6.7e-75   1.7e-74       6     369 ..       3     380 ..       1     394 [. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 244.3 bits;  conditional E-value: 6.7e-75
+           tyrosine_FDH   6 eeydvvviGGGpaGstvatllakqglkvllLekeafprykiGESllpstvhglanllgvtdeleaagfvkKrGgtfrwGaepe..... 88 
+                            +e+d+ +iGGGpaGst+a+ lak glkv + e e+fpr ++GESl+p+t   ++   g   ++eaa+f+kK G+ ++  ++++     
+  pyr29|tr|A3R4S0|pyr29   3 AEFDIGIIGGGPAGSTAASYLAKAGLKVAVFEAETFPREHVGESLVPATTP-VLIETGAMPKVEAANFPKKFGAAWTSAEDRNidhng 89 
+                            68*************************************************.55566999****************987776522222 PP
+
+           tyrosine_FDH  89 .........pwtleFakspelsgsesyayQveRakfdeiLlenakekGvdvrenckvtdvvldeeqrargvrytqsdgkekevsarfv 167
+                                       ++ F+++ + +++++y++ v+R+kfd+iLl++a++ G +v+ + ++ +v +d+e     v   +   k   +  r v
+  pyr29|tr|A3R4S0|pyr29  90 frglthdfrAAEILFNERDQDGVDRDYTFHVDRGKFDQILLQHAESLGAKVFHGIRIGKVDFDGEMP---VLEAKIGSKSVDIPVRMV 174
+                            22111111133455777888889999***************************************33...333444458899****** PP
+
+           tyrosine_FDH 168 vDAsGrrsllqkklglereyseffknlalfgyfengkrlpa....pnsgnilsvaf..ddGWfWyiPLsdeltSvGaVvrresyaekv 249
+                            vDAsGr+++l ++l+  +  ++ f++ a+++ f+n +r       ++++ i+       d W+W iP+ d++tS+G+V +++   ++ 
+  pyr29|tr|A3R4S0|pyr29 175 VDASGRQTRLGNQLK-FKVPDPIFNQYAVHSWFDNFDRKALavnkDQADYIFIHFLpvTDTWVWQIPITDTITSIGVVSQKKR-FQEF 260
+                            *************99.8999**************998854333325565555543321567******************9999.7789 PP
+
+           tyrosine_FDH 250 qkdlekalqeliaecPliaelladaervtdlrvrkdySYssksfsrpgmilvGdAacfvDPvfSsGvhlatysalLaarsinsvl.ag 336
+                             +d+ek + ++ a  P + + l++ ++v  ++ + dySY   +  ++ ++l+GdAa fvDP+fSsGv  a  sa La + i     ag
+  pyr29|tr|A3R4S0|pyr29 261 AGDREKFFWDTVASRPELLDALKNSDQVRPFKTEGDYSYGMSQIAGDNFVLIGDAARFVDPIFSSGVSVALNSARLACKDIIAAAeAG 348
+                            9****************************************************************************99766555156 PP
+
+           tyrosine_FDH 337 eldeeraleefearYrreygrlleflvafydmn 369
+                            + ++er +  +e++ r+  ++ +ef+ ++y  n
+  pyr29|tr|A3R4S0|pyr29 349 DFKKER-FGTYERKLRKGVSNWYEFIQIYYRLN 380
+                            777666.899********************877 PP
+
+>> Bmp2|tr|A0A139ZY81|A0A139ZY81_9GAMM  [Pseudoalteromonas sp. PS5]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  222.6   0.0   2.5e-68   6.2e-68       6     337 ..       5     325 ..       1     334 [. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 222.6 bits;  conditional E-value: 2.5e-68
+                         tyrosine_FDH   6 eeydvvviGGGpaGstvatllakqglkvllLekeafprykiGESllpstvhglanllgvtdeleaagfvkKrGg 79 
+                                          ++ydvv+iG GpaGs  +   +k+gl+vl +eke+fpr++iGESl   + + +++ lg++++++aagf+ K G+
+  Bmp2|tr|A0A139ZY81|A0A139ZY81_9GAMM   5 THYDVVIIGSGPAGSLCGIECRKKGLSVLCIEKEQFPRFHIGESLTGNAGQ-IIRDLGLAEDMDAAGFPDKPGV 77 
+                                          68******************************************9877766.********************** PP
+
+                         tyrosine_FDH  80 tfrwGaepepwtleFakspelsgsesyayQveRakfdeiLlenakekGvdvrenckvtdvvldeeqrargvryt 153
+                                          +    +    ++ eF   p l+     ++Qv+R+ fd++++++a e+Gv+ + +  vtdv++d+e ++ g+ y+
+  Bmp2|tr|A0A139ZY81|A0A139ZY81_9GAMM  78 NVIG-S---LSKNEFF-IPILA----PTWQVRRSDFDDMIKRKAVEHGVEYKLG-MVTDVIKDGE-KVVGALYK 140
+                                          9765.4...3444554.23333....379*********************9987.6*********.*******9 PP
+
+                         tyrosine_FDH 154 qsdgkekevsarfvvDAsGrrsllqkk.lglereyseffknlalfgyfengkr.lpapnsgnilsvafddGWfW 225
+                                            dg e++v+++ +vDAsG++++l++k + ++r+ + f +++a f+++++++r lp  + +  ++ + +  W W
+  Bmp2|tr|A0A139ZY81|A0A139ZY81_9GAMM 141 A-DGVEHQVRSKVLVDASGQNTFLSRKgVAGKRQIEFFSQQIASFAHYKGVERdLPPFSTNTTILYSKQYHWSW 213
+                                          7.**********************98835556666666689*********999567767777888899999*** PP
+
+                         tyrosine_FDH 226 yiPLsdeltSvGaVvrresyaekvqkdlekalqeliae.cPliaelladaervtdlrvrkdySYssksfsrpgm 298
+                                          +iP+s +  S+G+V+ ++ y  k  k+ ++a+ + +++  P ++ + ++aer  d + + d+SY  + f+++g+
+  Bmp2|tr|A0A139ZY81|A0A139ZY81_9GAMM 214 IIPISPDTDSLGVVIPKDLY-YKECKNPDDAIAWGMDHiSPELKRRFKNAERQGDSQSMADFSYRIEPFVGDGW 286
+                                          *******************5.6667777778777666538********************************** PP
+
+                         tyrosine_FDH 299 ilvGdAacfvDPvfSsGvhlatysalLaarsinsvlage 337
+                                          +++GdA  f+DP+fS Gv  a+  ++ aa++i+ v+ag+
+  Bmp2|tr|A0A139ZY81|A0A139ZY81_9GAMM 287 MCIGDAHRFLDPIFSYGVSFAMKEGIRAAEAIAQVVAGQ 325
+                                          ***********************************9986 PP
+
+>> CtcP_A_cycl|A0A1E7MYN1  [Kitasatospora aureofaciens]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  128.5   0.0   8.4e-40   2.1e-39       7     318 ..      15     353 ..       9     387 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 128.5 bits;  conditional E-value: 8.4e-40
+            tyrosine_FDH   7 eydvvviGGGpaGstvatllakqglkvllLekeafprykiGESllpstvh...glanllgvtdeleaagfv...........kKrGg 79 
+                              ydvv+iG G++G +++++lak+g++++lL+ +  pr+ +GES++  t+     + +  gv +  + a f+           +K   
+  CtcP_A_cycl|A0A1E7MYN1  15 PYDVVIIGSGLSGTMLGSILAKHGFRIMLLDGAHHPRFAVGESTIGQTLVvlrLISDRYGVPEIANLASFQdvlanvssshgQKSNF 101
+                             6*******************************************9888641112344445555444444431111111001123333 PP
+
+            tyrosine_FDH  80 tfrw...GaepepwtleFakspelsgsesyayQveRakfdeiLlenakekGvdvrenckvtdvvldeeqrargvrytqsdgkekevs 163
+                              f +   G+ep+p +++  + p + g+  + +   R+  d+ + + a + G d r+  +v+++++d++    gv+ +  dg+  +v+
+  CtcP_A_cycl|A0A1E7MYN1 102 GFMFhrdGEEPDPNETSQFRIPSIVGNAAHFF---RQDTDSYMFHAAVRYGCDARQYYRVENIEFDDG----GVTVSGADGS--TVR 179
+                             33334457788887775444777888888877...9999*****************************....8999999986..599 PP
+
+            tyrosine_FDH 164 arfvvDAsGrrsllqkklglereysef.fknlalfgyfengkrlpa............pnsgnilsvafddGWfWyiPLsde..... 232
+                             ar++vDAsG rs l+++lgl+ e s+  ++  ++f +  +++ +++            p ++  +   f+ GW+W+iP +++     
+  CtcP_A_cycl|A0A1E7MYN1 180 ARYLVDASGFRSPLARQLGLREEPSRLkHHARSIFTHMVGVDAIDDhvdtpaelrppvPWNDGTMHHIFERGWMWIIPFNNHpgatn 266
+                             *******************887766642556689988888888888888899999999999999999***********986433334 PP
+
+            tyrosine_FDH 233 .ltSvGaVvrresyaekvqkdlekalqeliaecPliaelladaervtdlrvrkdySYssksfsrpgmilvGdAacfvDPvfSsGvhl 318
+                              l SvG+  +   y+++     e+ + +  ++ P ++ +l+ a+ v +        Yss + ++++++l+  Aa f+DP+fS G  +
+  CtcP_A_cycl|A0A1E7MYN1 267 pLCSVGIQLDERRYPARPDLTPEEEFWSHVDRFPAVQRQLKGARSVREWVRTDRMQYSSSRTVGERWCLMSHAAGFIDPLFSRGLSN 353
+                             489*******************************************9998888899****************************765 PP
+
+>> tr|Q71ME2|Q71ME2_9ACTN  [Actinoplanes sp. ATCC 33002]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  125.1   0.0   9.4e-39   2.4e-38       6     343 ..      17     382 ..      12     411 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 125.1 bits;  conditional E-value: 9.4e-39
+            tyrosine_FDH   6 eeydvvviGGGpaGstvatllakqglkvllLekeafprykiGESllpstv...hglanllgvtdeleaagfvk..Kr.....Ggtfr 82 
+                              ++dv + G G aGs+++++la++g++vll +  + p++ +GES++p t+     +a+  +v +    a f++  K      G++ +
+  tr|Q71ME2|Q71ME2_9ACTN  17 RTFDVAILGSGIAGSMLGAILARNGARVLLVDASTHPKFAVGESTIPYTLvalRTIAERYDVPEIKTLATFTNctKVigpqfGVKKH 103
+                             68********************************************98761115677777787755555554322212111244444 PP
+
+            tyrosine_FDH  83 w.......GaepepwtleFakspelsgsesyayQveRakfdeiLlenakekGvdvrenckvtdvvldeeqrargvrytqsdgkekev 162
+                             +       G+ ++p +++  + p l  + s+ y   R+  d  L + a + G   r+n +v dv +d+     gv+ + +dg++   
+  tr|Q71ME2|Q71ME2_9ACTN 104 FgfllhreGEPQDPREVNQFDTPGLLHEASHMY---RQATDAYLFHAAVKYGCVPRQNFRVVDVDFDDA----GVTISGGDGEQ--Y 181
+                             411222225666778887667888888888888...9******************************99....89888888765..6 PP
+
+            tyrosine_FDH 163 sarfvvDAsGrrsllqkklgl.ereyseffknlalfgyfengkrlpa............pnsgnilsvafddGWfWyiPLsde.... 232
+                             +ar+vvDAsG rs l++k+ l e +    +++ +l+ +  n+ r +a            p     +   fd GWfW+i  +++    
+  tr|Q71ME2|Q71ME2_9ACTN 182 RARYVVDASGFRSPLAEKFALrENPCRMKHHSRSLWNHMVNVPRTDAlfdhsaadtppvPWYEGTVHHMFDRGWFWVIGFDNHpasr 268
+                             89**************99985145567778899***999998888889999999998888888888999*********776532222 PP
+
+            tyrosine_FDH 233 ..ltSvGaVvrresyaekvqkdlekalqeliaecPliaelladaervtdlrvrkdySYssksfsrpgmilvGdAacfvDPvfSsGvh 317
+                               l SvG   +  +y++  +   ++ ++++ a+ P ia + a a++v +        Yssk+ ++++++l   Aa fvDP+fS G  
+  tr|Q71ME2|Q71ME2_9ACTN 269 npLCSVGLTLDERKYPKDPSLTPQQEFESMAARYPDIARQFAGANPVREWVSTDRLQYSSKQTVGDRWCLLSHAAGFVDPLFSRGLS 355
+                             2489**********************************************99*********************************76 PP
+
+            tyrosine_FDH 318 l.atysalLaarsinsvlageldeera 343
+                             + a   + L+ r+i+ + +++ ++er 
+  tr|Q71ME2|Q71ME2_9ACTN 356 NtAEAINALSWRLIAAIKDDDFSQERF 382
+                             527778999999999999999998875 PP
+
+>> sp|P95482|PRNC_PSEFL  [Pseudomonas fluorescens]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  107.2   0.0   2.5e-33   6.2e-33       6     343 ..      13     375 ..       7     409 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 107.2 bits;  conditional E-value: 2.5e-33
+          tyrosine_FDH   6 eeydvvviGGGpaGstvatllakqglkvllLekeafprykiGESllpstv...hglanllgvtd......eleaagfv.....kKrGgt 80 
+                           +++dv++ G G +G  ++++lakq ++vl++e  + pr+ iGES +p t      +a+  g+ +         ++ +v     +Kr   
+  sp|P95482|PRNC_PSEFL  13 NHFDVIILGSGMSGTQMGAILAKQQFRVLIIEESSHPRFTIGESSIPETSlmnRIIADRYGIPEldhitsFYSTQRYVasstgIKRNFG 101
+                           79*********************************************985222356777777531111113344555422222355444 PP
+
+          tyrosine_FDH  81 frw...GaepepwtleFakspels.gsesyayQveRakfdeiLlenakekGvdvrenckvtdvvldeeqrargvrytqsdgkekevsar 165
+                           f++   G+e++p++++  + pel  g+es+ y   R+  d  Ll+ a + G +v+++++vt+  +d++    gv  t  +g+    + r
+  sp|P95482|PRNC_PSEFL 102 FVFhkpGQEHDPKEFTQCVIPELPwGPESHYY---RQDVDAYLLQAAIKYGCKVHQKTTVTEYHADKD----GVAVTTAQGE--RFTGR 181
+                           55555578999999999999**9757999998...99*******************************....7888887776..5789* PP
+
+          tyrosine_FDH 166 fvvDAsGrrsllqkklglereysef.fknlalfgyfengkrlpa.........pnsgnilsvafddGWfWyiPLsd......eltSvGa 238
+                           +++D  G r  l++k++l+ e  +f  ++ +l+ +  ++k  ++           +   l   f+ GW+W+iP ++      +l+SvG 
+  sp|P95482|PRNC_PSEFL 182 YMIDCGGPRAPLATKFKLREEPCRFkTHSRSLYTHMLGVKPFDDifkvkgqrwRWHEGTLHHMFEGGWLWVIPFNNhprstnNLVSVGL 270
+                           ****************96555433313467899777777766666766666665556678889**********975222222799**** PP
+
+          tyrosine_FDH 239 VvrresyaekvqkdlekalqeliaecPliaelladaervtdlrvrkdySYssksfsrpgmilvGdAacfvDPvfSsGvhlatys.alLa 326
+                             +   y  k+    ++ + e+ a+ P i ++  da +v d  +     +ss+  ++++++l+  A  f+DP+fS G ++ + +   La
+  sp|P95482|PRNC_PSEFL 271 QLDPRVY-PKTDISAQQEFDEFLARFPSIGAQFRDAVPVRDWVKTDRLQFSSNACVGDRYCLMLHANGFIDPLFSRGLENTAVTiHALA 358
+                           ***9995.5677888999***********************************************************9986655278** PP
+
+          tyrosine_FDH 327 arsinsvlageldeera 343
+                           ar+i+   +++ + er 
+  sp|P95482|PRNC_PSEFL 359 ARLIKALRDDDFSPERF 375
+                           *****999999988875 PP
+
+>> tr|A1E280_STRAO|thal-6  [Streptomyces albogriseolus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   25.4   0.0   1.6e-08   3.9e-08       9      67 ..       7      68 ..       1      93 [. 0.83
+   2 !   26.0   0.1   9.9e-09   2.5e-08      99     381 ..     161     423 ..     151     438 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 25.4 bits;  conditional E-value: 1.6e-08
+            tyrosine_FDH  9 dvvviGGGpaGstvatllakq...glkvllLekeafprykiGESllpstvhglanllgvtde 67
+                             vv+ GGG aG + a+ l k     +k+++Le  + pr  +GE ++p      ++ lg+ +e
+  tr|A1E280_STRAO|thal-6  7 TVVILGGGTAGWMTAAYLGKAlqnTVKIVVLEAPTIPRIGVGEATVPNLQRAFFDYLGIPEE 68
+                            59***********9999966555679********************************9876 PP
+
+  == domain 2  score: 26.0 bits;  conditional E-value: 9.9e-09
+            tyrosine_FDH  99 elsgsesyayQveRakfdeiLlenakekGvdvrenckvtdvvldeeqrargvrytqsdgkekevsarfvvDAsGrrsllqkklgler 185
+                              +  +++ya+  + +k    L+++a  k    + + ++t+v++de +  + +r   +  + ++ + +  vD sG r+ll +k   e 
+  tr|A1E280_STRAO|thal-6 161 DMRRATNYAWHFDASKVAAFLRNFAVTKQAVEHVEDEMTEVLTDERGFITALR--TK--SGRILQGDLFVDCSGFRGLLINKAM-EE 242
+                             578899*******************87655555556899**999997777544..33..35799***************99998.77 PP
+
+            tyrosine_FDH 186 eyseffknlalfgyfengkrlpapnsgn.....ilsvafddGWfWyiPLsdeltSvGaVvrresyaekvqkdlekalqeliaecPli 267
+                             ++ ++     l     ++  +p++++ n       s a++ GW W iP+   + S G V +       +q++   a+ +l    P  
+  tr|A1E280_STRAO|thal-6 243 PFIDMSD--HLLCNSAVATAVPHDDEKNgvepyTSSIAMEAGWTWKIPMLGRFGS-GHVYSDHF---ATQDEATLAFSKLWGLDPDN 323
+                             7777777..456666777777774443322222457899**********999988.99987766...789999999*9999999965 PP
+
+            tyrosine_FDH 268 aelladaervtdlrvrkdySYssksfsrpgmilvGdAacfvDPvfSsGvhlatysalLaarsinsvlageldeeraleefearYrre 354
+                              e+      v  +rv +     + + +    + vG A+cfv+P+ SsG+  + y+   a ++++  + ++  ++  ++ f+++  + 
+  tr|A1E280_STRAO|thal-6 324 TEFN----HV-RFRVGR-----NRRAWVRNCVSVGLASCFVEPLESSGIYFI-YA---AIHMLAKHFPDKTFDKVLVDRFNREIEEM 396
+                             5443....33.456654.....5677888899****************9776.44...5578888888888888899********** PP
+
+            tyrosine_FDH 355 ygrlleflvafydmnvkeesyFWaakk 381
+                             +   ++fl a y    + +  FW+a k
+  tr|A1E280_STRAO|thal-6 397 FDDTRDFLQAHYYFSPRVDTPFWRANK 423
+                             ***********************9986 PP
+
+>> tr|E2IHC5|mibH-5  [Microbispora corallina]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   28.8   0.1   1.5e-09   3.7e-09      10      94 ..      59     147 ..      53     158 .. 0.86
+   2 !   18.3   0.0   2.2e-06   5.5e-06     105     229 ..     198     316 ..     189     333 .. 0.78
+   3 ?    5.3   0.0      0.02      0.05     292     380 ..     362     446 ..     349     467 .. 0.75
+
+  Alignments for each domain:
+  == domain 1  score: 28.8 bits;  conditional E-value: 1.5e-09
+      tyrosine_FDH  10 vvviGGGpaGstvatllakq..glkvllLekeafprykiGESllpstvhglanllgvt..deleaagfvkKrGgtfrwGaepepwtleF 94 
+                       v viGGG aG   a  l+ +   l+v l e +  p   +GE ++   v  l + lg+   +  ++   + K+G++f+wG++pe     F
+  tr|E2IHC5|mibH-5  59 VGVIGGGTAGYLTALALKAKrpWLDVALVESADIPIIGVGEATVSYMVMFLHHYLGIDpaEFYQHVRPTWKLGIRFEWGSRPEGFVAPF 147
+                       669*******99998888776789*********************************6324456666778************9776555 PP
+
+  == domain 2  score: 18.3 bits;  conditional E-value: 2.2e-06
+      tyrosine_FDH 105 syayQveRakfdeiLlenakekGvdvrenckvtdvvldeeqrargvrytqsdgkekevsarfvvDAsGrrsllqkklgl...ereyseffknl 194
+                        +ay ++ a++ + L e a+++Gv+   + +v +v ld+ +++  +  t  dg  +  + +f vD  G rsll +k  +   e   s+ f + 
+  tr|E2IHC5|mibH-5 198 PFAYHMDNARLVRYLTELATRRGVHHV-DATVAEVRLDGPDHVGDLITT--DG--RRLHYDFYVDCTGFRSLLLEKALGipfESYASSLFTDA 285
+                       58**********************965.578********9666655544..55..57899********9998776655323245567788888 PP
+
+      tyrosine_FDH 195 alfgyfengkrlpapnsgnilsvafddGWfWyiPL 229
+                       a+ g    g  l  p+     +++++ GW W+iP 
+  tr|E2IHC5|mibH-5 286 AITGTLAHGGHLK-PY---TTATTMNAGWCWTIPT 316
+                       9999888887774.33...4568999********6 PP
+
+  == domain 3  score: 5.3 bits;  conditional E-value: 0.02
+      tyrosine_FDH 292 sfsrpgmilvGdAacfvDPvfSsGvhlatysalLaarsinsvlageldeeraleefearYrreygrlleflvafydmnvkeesyFWaak 380
+                       + +r  +i+vG+   fv+P+ SsG  +++ +  +   ++ s  ++ l  + a    +++  + +  ++ fl++ y  n + +  FW+  
+  tr|E2IHC5|mibH-5 362 EAWRGNVIAVGNSYAFVEPLESSGLLMIATAVQILVSLLPSSRRDPLPSNVA----NQALAHRWDAIRWFLSIHYRFNGRLDTPFWKEA 446
+                       5689999*****************9888766555555666666666555444....445556677888888888888888888888754 PP
+
+>> tr|A4D0H5|pyrH-5  [Streptomyces rugosporus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   21.8   0.0   1.9e-07   4.8e-07      10      90 ..       5      83 ..       3     103 .. 0.79
+   2 !   18.5   0.0   1.9e-06   4.7e-06     105     230 ..     165     286 ..     151     310 .. 0.76
+   3 !    9.9   0.0   0.00079     0.002     291     382 ..     333     420 ..     320     433 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 21.8 bits;  conditional E-value: 1.9e-07
+      tyrosine_FDH 10 vvviGGGpaGstvatllakq...glkvllLekeafprykiGESllpstvhglanllgvtde..leaagfvkKrGgtfrwGaepepw 90
+                      vv++GGG aG + a+ l+      ++v+l e  +  r  +GE +  stv   ++ lg+ ++  l + +   K+G++f+      +w
+  tr|A4D0H5|pyrH-5  5 VVIVGGGTAGWMTASYLKAAfddRIDVTLVESGNVRRIGVGEATF-STVRHFFDYLGLDERewLPRCAGGYKLGIRFE------NW 83
+                      9****************99877789******************98.68888******976422555554555666554......33 PP
+
+  == domain 2  score: 18.5 bits;  conditional E-value: 1.9e-06
+      tyrosine_FDH 105 syayQveRakfdeiLlenakekGvdvrenckvtdvvldeeqrargvrytqsdgkekevsarfvvDAsGrrsllqkklgler..eyseffknla 195
+                        yay  + ++  + L e+a  +Gv      +v+ v +de +   gv+ +    + +e+s +  vD  G r+ll ++  + r  ++s+++    
+  tr|A4D0H5|pyrH-5 165 PYAYHFDADEVARYLSEYAIARGVRHV-VDDVQHVGQDERGWISGVHTK----QHGEISGDLFVDCTGFRGLLINQTLGGRfqSFSDVLP--- 249
+                       589********************9633.345777777777777776554....4789*************99887766544114444444... PP
+
+      tyrosine_FDH 196 lfgyfengkrlpapnsgni....lsvafddGWfWyiPLs 230
+                             ++ r+p++n+  +     ++a++ GW+W+iPL 
+  tr|A4D0H5|pyrH-5 250 --NNRAVALRVPRENDEDMrpytTATAMSAGWMWTIPLF 286
+                       ..5667889999977665422225678999*******95 PP
+
+  == domain 3  score: 9.9 bits;  conditional E-value: 0.00079
+      tyrosine_FDH 291 ksfsrpgmilvGdAacfvDPvfSsGvhlatysalLaarsinsvlageldeeraleefearYrreygrlleflvafydmnvkeesyFWaakkl 382
+                       ++ + +  ++vG  a fv+P+ S+G+  + ++     + +   + ge  +   ++ +++r  +   ++ eflv  y+  ++e+  +W+a k 
+  tr|A4D0H5|pyrH-5 333 ERTWINNCVAVGLSAAFVEPLESTGIFFIQHA----IEQLVKHFPGERWDPVLISAYNERMAHMVDGVKEFLVLHYKGAQREDTPYWKAAKT 420
+                       667999*******************9888764....4555556667666677899********************************99875 PP
+
+>> tr|G0ZGJ1_SERPL|prnA-7  [Serratia plymuthica]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   28.6   0.0   1.6e-09   4.1e-09       9      90 ..       7      94 ..       1     102 [. 0.81
+   2 !   18.3   0.5   2.3e-06   5.7e-06     104     381 ..     156     411 ..     150     433 .. 0.72
+
+  Alignments for each domain:
+  == domain 1  score: 28.6 bits;  conditional E-value: 1.6e-09
+            tyrosine_FDH  9 dvvviGGGpaGstvatllakq...glkvllLekeafprykiGESllpstvhglanllgvtde..leaagfvkKrGgtfr.wGaepepw 90
+                            ++v++GGG aG + a+ l +     ++++l+e +a pr  +GE ++ps  +  ++ lg+ ++  + + +   K G++f+ w ++p+ +
+  tr|G0ZGJ1_SERPL|prnA-7  7 NIVIVGGGTAGWMSASYLVRAlqqQANITLIESAAIPRIGVGEATIPSLQKVFFDFLGIPEQewMPQVNGAFKAGIKFVnWRKSPDHS 94
+                            79***********9998754333599*********************************76533777777789999884376666655 PP
+
+  == domain 2  score: 18.3 bits;  conditional E-value: 2.3e-06
+            tyrosine_FDH 104 esyayQveRakfdeiLlenakekGvdvrenckvtdvvldeeqrargvrytqsdgkekevsarfvvDAsGrrsllqkklglereysef 190
+                              s+a+  + +   + L + a e+Gv+ r   +v +v l++ +   +        + +  +a+  +D sG r+ll ++   + ++ ++
+  tr|G0ZGJ1_SERPL|prnA-7 156 MSHAWHFDAHLVADFLQRWAVERGVN-RVVDEVVEVNLNDHGFISS----LLTKEGRKLEADLFIDCSGMRGLLINQAL-KEPFIDM 236
+                             56777778788888888899999987.4445666676666644443....33335567889999*******99998887.4444444 PP
+
+            tyrosine_FDH 191 fknlalfgyfengkrlpa.....pnsgnilsvafddGWfWyiPLsdeltSvGaVvrresyaekvqkdlekalqeliaecPliaella 272
+                                  l     +++ +p+     + +    + a+++GW W iP+   + S G V + +     + +     l  l +++Pl      
+  tr|G0ZGJ1_SERPL|prnA-7 237 SD--YLLCDSAVASAVPNddaqvGVEPYTSAIAMNSGWTWKIPMLGRFGS-GYVFSSKFTSRDQATTDFLNLWGLSDNQPLN----- 315
+                             44..33355566677777444432233334568899********999988.8888877734433444444555566666652..... PP
+
+            tyrosine_FDH 273 daervtdlrvrkdySYssksfsrpgmilvGdAacfvDPvfSsGvhlatysalLaarsinsvlageldeeraleefearYrreygrll 359
+                                ++ ++rv       +k+ + +  + +G  +cf++P+ S+G+  + y+al   ++++   + + d  r ++ f+a+    +   +
+  tr|G0ZGJ1_SERPL|prnA-7 316 ---QI-KFRVG-----RNKRAWVNNCVSIGLSSCFLEPLESTGIYFI-YAALY--QLVKHFPDTSFDP-RLADAFNAEITYMFDDCR 389
+                             ...22.45555.....46889**********************9876.88875..7788777777775.7899************** PP
+
+            tyrosine_FDH 360 eflvafydmnvkeesyFWaakk 381
+                             +f+ a y +  +e+  FW a +
+  tr|G0ZGJ1_SERPL|prnA-7 390 DFVQAHYFTSSREDTPFWLANR 411
+                             ******************9875 PP
+
+>> sp|P95480|prnA-7  [Pseudomonas fluorescens]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   27.2   0.0   4.2e-09   1.1e-08       9      67 ..       7      68 ..       2      99 .. 0.81
+   2 !   17.0   0.2   5.5e-06   1.4e-05     104     381 ..     156     411 ..     149     430 .. 0.73
+
+  Alignments for each domain:
+  == domain 1  score: 27.2 bits;  conditional E-value: 4.2e-09
+      tyrosine_FDH  9 dvvviGGGpaGstvatllakq...glkvllLekeafprykiGESllpstvhglanllgvtde 67
+                      ++v++GGG aG ++a+ l +     ++++l+e +a pr  +GE ++ps  +  ++ lg+ ++
+  sp|P95480|prnA-7  7 NIVIVGGGTAGWMAASYLVRAlqqQANITLIESAAIPRIGVGEATIPSLQKVFFDFLGIPER 68
+                      69************998864333599*************************99*****9654 PP
+
+  == domain 2  score: 17.0 bits;  conditional E-value: 5.5e-06
+      tyrosine_FDH 104 esyayQveRakfdeiLlenakekGvdvrenckvtdvvldeeqrargvrytqsdgkekevsarfvvDAsGrrsllqkklglereyseffknlal 196
+                        s+a+  + +   + L++ a e+Gv+ r   +v dv l++ +     +   ++g  ++ +a+  +D sG r+ll ++   + ++ ++     l
+  sp|P95480|prnA-7 156 MSHAWHFDAHLVADFLKRWAVERGVN-RVVDEVVDVRLNNRGYIS--NLLTKEG--RTLEADLFIDCSGMRGLLINQAL-KEPFIDMSD--YL 240
+                       57888888888888999999999997.555677788777765554..3334445..5678999*********9998887.444444444..33 PP
+
+      tyrosine_FDH 197 fgyfengkrlpa.....pnsgnilsvafddGWfWyiPLsdeltSvGaVvrresyaekvqkdlekalqeliaecPliaelladaervtdlrvrk 284
+                            +++ +p+     + +    s a+++GW W iP+   + S G V +       + +     l  l +++Pl         ++ ++rv  
+  sp|P95480|prnA-7 241 LCDSAVASAVPNddardGVEPYTSSIAMNSGWTWKIPMLGRFGS-GYVFSSHFTSRDQATADFLKLWGLSDNQPLN--------QI-KFRVG- 322
+                       4556667777775544444445667899**********999988.9999888844433444444455555665542........22.35554. PP
+
+      tyrosine_FDH 285 dySYssksfsrpgmilvGdAacfvDPvfSsGvhlatysalLaarsinsvlageldeeraleefearYrreygrlleflvafydmnvkeesyFW 377
+                            +k+ + +  + +G  +cf++P+ S+G+  + y+al   ++++   + + d  r  + f+a+  + +   ++f+ a y +  +++  FW
+  sp|P95480|prnA-7 323 ----RNKRAWVNNCVSIGLSSCFLEPLESTGIYFI-YAALY--QLVKHFPDTSFDP-RLSDAFNAEIVHMFDDCRDFVQAHYFTTSRDDTPFW 407
+                       ....46889**********************9876.88774..6777777777765.78999******************************* PP
+
+      tyrosine_FDH 378 aakk 381
+                        a +
+  sp|P95480|prnA-7 408 LANR 411
+                       8875 PP
+
+>> tr|A0A1W7D4T7|SpmH-5  [Streptomyces marincola]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   21.1   0.0   3.1e-07   7.8e-07      10      90 ..       5      83 ..       3     103 .. 0.79
+   2 !   24.0   0.0     4e-08     1e-07     105     389 ..     165     427 ..     153     442 .. 0.77
+
+  Alignments for each domain:
+  == domain 1  score: 21.1 bits;  conditional E-value: 3.1e-07
+          tyrosine_FDH 10 vvviGGGpaGstvatllakq...glkvllLekeafprykiGESllpstvhglanllgvtdeleaagfvkKrGgtfrwGaepepw 90
+                          v ++GGG aG + a+ l+      l+v+l e ea  r  +GE +  stv   ++ lg+ +    a++  K  g ++   + e+w
+  tr|A0A1W7D4T7|SpmH-5  5 VAIVGGGTAGWMTASYLKAAfadRLDVTLVESEAVGRIGVGEATF-STVRHFFDYLGLDE----ADWLPKCEGGYKLAIRFENW 83
+                          89****************98777899*****************98.68888******864....34433444444444444444 PP
+
+  == domain 2  score: 24.0 bits;  conditional E-value: 4e-08
+          tyrosine_FDH 105 syayQveRakfdeiLlenakekGvdvrenckvtdvvldeeqrargvrytqsdgkekevsarfvvDAsGrrsllqkklglereyseffkn 193
+                            yay  + +k    L +++ke+Gv    +  v+  + d +     + + q+ g      a+  +D  G r+ l +kl +  ++++f   
+  tr|A0A1W7D4T7|SpmH-5 165 PYAYHFDADKVAAFLAAYSKERGVRHIVDDVVHSALDDRG----WISHVQTRGGL-RLDADLFIDCTGFRGALINKLMG-EPFESFQD- 246
+                           58**********************8666666666665555....58888988865.579**************999994.45554443. PP
+
+          tyrosine_FDH 194 lalfgyfengkrlpa...pnsgni.lsvafddGWfWyiPLsdeltSvGaVvrresyaekvqkdlekalqeliaecPliaelladaervt 278
+                           + l     ++ r+ +    + + +  ++a+d GW+W iPL +    vG V + e          e+a ++l+ +   +   l+ ++   
+  tr|A0A1W7D4T7|SpmH-5 247 V-LPNNRAVATRVSRpeiTDMNPYtTATAMDAGWMWRIPLFHR-DGVGYVYSDEF------ASPEEAERTLRTQVGDLRGELDVNHIA- 326
+                           2.33444556666552223444441457899*********875.68*****9999......567788888888888899998777666. PP
+
+          tyrosine_FDH 279 dlrvrkdySYssksfsrpgmilvGdAacfvDPvfSsGvhlatysalLaarsinsvlageldeeraleefearYrreygrlleflvafyd 367
+                            +rv +    +++s++++  +++G  + fv+P+ S+G+  + ++     ++++   +++ d e    ++++r  ++  ++ eflv  y 
+  tr|A0A1W7D4T7|SpmH-5 327 -MRVGR----CRDSWVKN-CVAIGLSSAFVEPLESTGIFFIQHG---IEQLVKHFPDERWDPE-LTRNYNTRIAQAVDGVKEFLVLHYR 405
+                           .88876....67776655.6789**************9999988...4677777777777765.56789******************** PP
+
+          tyrosine_FDH 368 mnvkeesyFWaakklsrvefes 389
+                              ++++ +W+a k  +  +  
+  tr|A0A1W7D4T7|SpmH-5 406 GAARSDNDYWRAAKTRKAPDGL 427
+                           ****99999*999887765555 PP
+
+>> tr|W1J423|pyrH-5  [Xenorhabdus szentirmaii DSM 16338]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   20.7   0.0   4.2e-07     1e-06      10      83 ..       5      83 ..       2     102 .. 0.79
+   2 !   24.6   0.1   2.7e-08   6.9e-08     102     379 ..     162     417 ..     149     431 .. 0.75
+
+  Alignments for each domain:
+  == domain 1  score: 20.7 bits;  conditional E-value: 4.2e-07
+      tyrosine_FDH 10 vvviGGGpaGstvatllakq...glkvllLekeafprykiGESllpstvhglanllgvtde..leaagfvkKrGgtfr.w 83
+                      v+++GGG aG + a+ l k    ++++++ e +   +  +GE +  stv   ++ lg+++   l +     K+G++f+ w
+  tr|W1J423|pyrH-5  5 VLIVGGGTAGWMTAAYLSKAfdkNINITVVESKEVKKIGVGEATF-STVRHYFDYLGLNESewLPECSGSYKLGIRFEnW 83
+                      99***********9999986677********************98.6777799****97643366666666777777434 PP
+
+  == domain 2  score: 24.6 bits;  conditional E-value: 2.7e-08
+      tyrosine_FDH 102 gsesyayQveRakfdeiLlenakekGvdvrenckvtdvvldeeqrargvrytqsdgkekevsarfvvDAsGrrsllqkklglereyseffknl 194
+                        ++ yay  + +   + L+++a+++Gv+  e+ +vt v++d +    ++ y + +   +  +a+  +D  G ++ll +k   + ++ +f    
+  tr|W1J423|pyrH-5 162 AQYPYAYHFDADGVASFLKRYAMNRGVKHIED-DVTHVEIDTN---GNIGYLEAK-IYGKLRADLYIDCTGFKGLLINKAL-NEPFISFSD-- 246
+                       45678***********************9986.7*******99...568899865.567899**************99998.444444433.. PP
+
+      tyrosine_FDH 195 alfgyfengkrlpapnsgni....lsvafddGWfWyiPLsdeltSvGaVvrresyaekvqkdlekalqeliaecPliaelladaervt.dlrv 282
+                        l     ++ r+p++n++ i     + ++++GW W+iPL +     G V   +      ++  e+a  el++  P      ++ae v   +r+
+  tr|W1J423|pyrH-5 247 VLKNNRAVALRVPRENENDIepytTARTMSNGWRWTIPLYKR-NGYGYVYCNK------YQSPEEAEMELRKSIPY-----ENAECVAnHIRM 327
+                       334677899*********9955223446899********976.5678886544......46778888889999996.....445555323333 PP
+
+      tyrosine_FDH 283 rkdySYssksfsrpgmilvGdAacfvDPvfSsGvhlatysalLaarsinsvlageldeeraleefearYrreygrlleflvafydmnvkeesy 375
+                       r      s++ + +  +++G  + fv+P+ S+G+  + ++       +   +  +  +e  +ee+++r +r   ++ efl   +   ++++  
+  tr|W1J423|pyrH-5 328 RI--GR-SNRSWVKNCVAIGLSSAFVEPLESTGIFFIQHGIE----QLVRFFPRSSGNELLIEEYNTRVNRVVDGVKEFLLLHFSLAQRNDTL 413
+                       33..33.34556667889999999********9999888743....33334455556666788888888888888888888888888888888 PP
+
+      tyrosine_FDH 376 FWaa 379
+                       +W+ 
+  tr|W1J423|pyrH-5 414 YWKE 417
+                       8765 PP
+
+>> tr|F6LWA5|abeH-5  [uncultured bacterium AB1650]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   18.5   0.0   1.9e-06   4.8e-06       9      81 ..       4      80 ..       2     101 .. 0.77
+   2 !   23.9   0.0   4.3e-08   1.1e-07     103     379 ..     163     418 ..     152     423 .. 0.72
+
+  Alignments for each domain:
+  == domain 1  score: 18.5 bits;  conditional E-value: 1.9e-06
+      tyrosine_FDH  9 dvvviGGGpaGstvatllakq...glkvllLekeafprykiGESllpstvhglanllgvtde..leaagfvkKrGgtf 81
+                      +vvv+GGG aG + a+ l       + v+l e +   +  +GE +  stv   ++ lg++++  + a + + K+ ++f
+  tr|F6LWA5|abeH-5  4 NVVVVGGGTAGWMTASYLTAAfgdRIGVTLVESKRVGSIGVGEATF-STVRHFFEYLGLEEKewMPACNATYKLAIRF 80
+                      69*********9999988877744567899**************98.68888*******9863344555555555544 PP
+
+  == domain 2  score: 23.9 bits;  conditional E-value: 4.3e-08
+      tyrosine_FDH 103 sesyayQveRakfdeiLlenakekGvdvrenckvtdvvldeeqrargvrytqsdgkekevsarfvvDAsGrrsllqkklglereyseffknla 195
+                       +  yay  + +   + L+++a  +Gv+     +v+dv+ld+ +    v+     g+ +  + +  +D  G rsll  k   + +++++    +
+  tr|F6LWA5|abeH-5 163 QFPYAYHFDATLVANYLRDYAVARGVKHV-LDDVQDVALDDRGWISHVV----TGESGNLTGDLFIDCTGFRSLLLGKAL-AEPFQSYQD--S 247
+                       3347**********************954.4589******996666554....68899999*************999988.667777777..5 PP
+
+      tyrosine_FDH 196 lfgyfengkrlpapnsgn.....ilsvafddGWfWyiPLsdeltSvGaVvrresyaekvqkdlekalqeliaecPliaelladaervtdlrvr 283
+                       l     ++ r+p++ +++       ++a + GW+W+iPL d +   G V   +          e+a ++l+a     ae  ada+ + ++r+ 
+  tr|F6LWA5|abeH-5 248 LPNDSAVALRVPQDMENRglrpcTTATAQEAGWIWTIPLFDRI-GTGYVYAGDY------ISPEEAERTLRAFVGPAAE-HADANHI-KMRIG 331
+                       567788999***9777762222234678899********9987.5799999998......3334444444444333344.4778888.78887 PP
+
+      tyrosine_FDH 284 kdySYssksfsrpgmilvGdAacfvDPvfSsGvhlatysalLaarsinsvlageldeeraleefearYrreygrlleflvafydmnvkeesyF 376
+                       +     s++++ +  ++vG  + fv+P+ S+G+  + ++     ++++   +++ d +   + +++  ++   +++eflv+ y   +++++ +
+  tr|F6LWA5|abeH-5 332 R-----SNRHWVNNCVAVGLSSGFVEPLESTGIFFIQHA---IEQLVKHFPDERWD-DGLRTAYNKLVNNVMDGVREFLVVHYYAAKRQDNQY 415
+                       6.....7899**********************8777653...33444444333333.344556666666677777777777766666666666 PP
+
+      tyrosine_FDH 377 Waa 379
+                       W+ 
+  tr|F6LWA5|abeH-5 416 WKD 418
+                       664 PP
+
+>> tr|A8CF75_9PSEU|ktzQ-7  [Kutzneria sp. (strain 744)]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   22.6   0.0   1.1e-07   2.8e-07       9      67 ..       8      69 ..       1      97 [. 0.84
+   2 !   16.0   0.1   1.1e-05   2.8e-05     127     381 ..     186     424 ..     164     438 .. 0.69
+
+  Alignments for each domain:
+  == domain 1  score: 22.6 bits;  conditional E-value: 1.1e-07
+            tyrosine_FDH  9 dvvviGGGpaGstvatllakq...glkvllLekeafprykiGESllpstvhglanllgvtde 67
+                             ++v GGG aG + a  l k    g++v++Le  +  r ++GE ++p   +  ++ lg++++
+  tr|A8CF75_9PSEU|ktzQ-7  8 SILVLGGGTAGWMSACYLSKAlgpGVEVTVLEAPSISRIRVGEATIPNLHKVFFDFLGIAED 69
+                            689***************999999************************99999*****9864 PP
+
+  == domain 2  score: 16.0 bits;  conditional E-value: 1.1e-05
+            tyrosine_FDH 127 Gvdvrenckvtdvvldee..qrargvrytqsdgkekevsarfvvDAsGrrsllqkklglereyseffknlalfgyfengkrlpa... 208
+                              v+  + ++v+dv +  +  qr + ++  +  ++ ++  a+  +D sG rs+l  k+  + ++ ++ k   l     ++  lp+   
+  tr|A8CF75_9PSEU|ktzQ-7 186 AVQKLNVTHVQDVFTHADldQRGH-ITAVN-TESGRTLAADLFIDCSGFRSVLMGKVM-QEPFLDMSK--HLLNDRAVALMLPHdde 267
+                             555566788999998888523433.44444.3456778999****************9.666666666..55666677777777433 PP
+
+            tyrosine_FDH 209 ..pnsgnilsvafddGWfWyiPLsdeltSvGaVvrresyaekvqkdlekalqeliaecPliaelladaervtdlrvrkdySYssksf 293
+                               + +    s a+ +GW W iPL   + S G V + +      q++  + l ++ +  P   e++ ++     +rv +     s + 
+  tr|A8CF75_9PSEU|ktzQ-7 268 kvGIEPYTSSLAMRSGWSWKIPLLGRFGS-GYVYSSQF---TSQDEAAEELCRMWDVDPA--EQTFNNV---RFRVGR-----SRRA 340
+                             3222233457899**********999988.99988777...5566666667777777774..3333322...345544.....4666 PP
+
+            tyrosine_FDH 294 srpgmilvGdAacfvDPvfSsGvhlatysalLaarsinsvlageldeeraleefearYrreygrlleflvafydmnvkeesyFWaak 380
+                             +    +++G  a+fv+P+ S+G     y++l   ++++   +++      ++ f+++    y   ++fl a +    +++s FW+a 
+  tr|A8CF75_9PSEU|ktzQ-7 341 WVRNCVAIGVSAMFVEPLESTGLYF-SYASL--YQLVKHFPDKRFR-PILADRFNREVATMYDDTRDFLQAHFSLSPRDDSEFWRAC 423
+                             777889999999******9999753.34433..4666665555554.3457888888888888888888888888888999999886 PP
+
+            tyrosine_FDH 381 k 381
+                             k
+  tr|A8CF75_9PSEU|ktzQ-7 424 K 424
+                             5 PP
+
+>> tr|A0A1L1QK36_STRVO|th-hal-6  [Streptomyces violaceusniger]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   15.4   0.0   1.6e-05   4.1e-05       9      82 ..       3      80 ..       2     119 .. 0.81
+   2 !   23.9   0.0   4.4e-08   1.1e-07     103     379 ..     164     421 ..     149     441 .. 0.65
+
+  Alignments for each domain:
+  == domain 1  score: 15.4 bits;  conditional E-value: 1.6e-05
+                  tyrosine_FDH  9 dvvviGGGpaGstvatllakq...glkvllLekeafprykiGESllpstvhglanllgvtde..leaagfvkKrGgtfr 82
+                                  +vv++GGG aG + a+ l+      ++++l e        +GE +     h  ++ lg++++  + a + + K+ ++f+
+  tr|A0A1L1QK36_STRVO|th-hal-6  3 NVVIVGGGTAGWMTASYLKAAfgdRIDITLVESGHIGAVGVGEATFSDIRH-FFEFLGLKEKdwMPACNATYKLAVRFE 80
+                                  69*****************988667889*****************976655.9*****987644777777777777774 PP
+
+  == domain 2  score: 23.9 bits;  conditional E-value: 4.4e-08
+                  tyrosine_FDH 103 sesy..ayQveRakfdeiLlenakekGvdvrenckvtdvvldeeqrargvrytqsdgkekevsarfvvDAsGrrsllqkkl 181
+                                   ++++  ayQ e a + + L +++ e+Gv+     +v++v+ld+ +  +gvr     g+ +  + +  +D  G r+ll ++ 
+  tr|A0A1L1QK36_STRVO|th-hal-6 164 KTQFpyAYQFEAALLAKYLTKYSVERGVKHI-VDDVREVSLDDRGWITGVR----TGEHGDLTGDLFIDCTGFRGLLLNQA 239
+                                   444344**********************965.458*********9999997....577888999************99998 PP
+
+                  tyrosine_FDH 182 glereyseffknlalfgyfengkrlpa..pnsgni...lsvafddGWfWyiPLsdeltSvGaVvrresyaekvqkdlekal 257
+                                     e ++ ++    +l     ++  +p   +++g +    ++a d GW+W+iPL  + +  G V  ++       ++ e+ l
+  tr|A0A1L1QK36_STRVO|th-hal-6 240 L-EEPFISYQD--TLPNDSAVALQVPMdmERRGILpctTATAQDAGWIWTIPLT-GRVGTGYVYAKDY---LSPEEAERTL 313
+                                   8.555555544..33344445555554224444431114567899********6.5567899999999...4555566666 PP
+
+                  tyrosine_FDH 258 qeliaecPliaelladaervtdlrvrkdySYssksfsrpgmilvGdAacfvDPvfSsGvhlatysalLaarsinsvlagel 338
+                                   +e+    P  a+  a+  r   +r+ +     s + + +  +++G  + fv+P+ S+G+  + ++     ++++   a   
+  tr|A0A1L1QK36_STRVO|th-hal-6 314 REFV--GPAAADVEANHIR---MRIGR-----SRNSWVKNCVAIGLSSGFVEPLESTGIFFIHHA---IEQLVKNFPAA-- 379
+                                   6655..3555554443333...35443.....233455667778888888888888887655543...22333333222.. PP
+
+                  tyrosine_FDH 339 deera.leefearYrreygrlleflvafydmnvkeesyFWaa 379
+                                   d +++  + ++ + ++   +++eflv  y   ++++  +W+ 
+  tr|A0A1L1QK36_STRVO|th-hal-6 380 DWNSMhRDLYNSAVSHVMDGVREFLVLHYVAAKRNDTQYWRD 421
+                                   333332455666666666666666666666666666666655 PP
+
+>> tr|REBH_LENAE|rebH-7  [Lentzea aerocolonigenes]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   18.1   0.0   2.5e-06   6.2e-06      10      66 ..       8      67 ..       2      96 .. 0.85
+   2 !   13.5   0.0     6e-05   0.00015      81     229 ..     139     288 ..     117     305 .. 0.76
+   3 !    7.4   0.2    0.0043     0.011     294     390 ..     339     431 ..     329     468 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 18.1 bits;  conditional E-value: 2.5e-06
+          tyrosine_FDH 10 vvviGGGpaGstvatllakq...glkvllLekeafprykiGESllpstvhglanllgvtd 66
+                          ++++GGG aG ++a+ l k     ++++lL+    p   +GE ++p      ++ lg+ +
+  tr|REBH_LENAE|rebH-7  8 ILIVGGGTAGWMAASYLGKAlqgTADITLLQAPDIPTLGVGEATIPNLQTAFFDFLGIPE 67
+                          89**************9765556689********************99999999999965 PP
+
+  == domain 2  score: 13.5 bits;  conditional E-value: 6e-05
+          tyrosine_FDH  81 frwGaepepwtleFaksp.elsgs..esyayQveRakfdeiLlenakek.Gvdvrenckvtdvvldeeqrargvrytqsdgkekevsar 165
+                           f +   +ep  l+ ++sp +l+gs  ++ya+  + +   + L+++a+ek Gv   e+ +v+ v+ d ++  ++vr      + ++  a+
+  tr|REBH_LENAE|rebH-7 139 FDYACYKEPVILDANRSPrRLDGSkvTNYAWHFDAHLVADFLRRFATEKlGVRHVED-RVEHVQRDANGNIESVRTA----TGRVFDAD 222
+                           56666666666666666524665522689999*************988758887775.7*********999998754....46899*** PP
+
+          tyrosine_FDH 166 fvvDAsGrrsllqkklglereyseffknlalfgyfengkrlpapnsgn.....ilsvafddGWfWyiPL 229
+                             vD sG r+ll +k   e ++ ++     l     ++  +p++++ n       + a+++GW W iP+
+  tr|REBH_LENAE|rebH-7 223 LFVDCSGFRGLLINKAM-EEPFLDMSD--HLLNDSAVATQVPHDDDANgvepfTSAIAMKSGWTWKIPM 288
+                           ************99998.666666666..5778888999999966655222213456899********7 PP
+
+  == domain 3  score: 7.4 bits;  conditional E-value: 0.0043
+          tyrosine_FDH 294 srpgmilvGdAacfvDPvfSsGvhlatysalLaarsinsvlageldeeraleefearYrreygrlleflvafydmnvkeesyFWaakkl 382
+                           +    + +G  +cfv+P+ S+G+    y+al   ++++   +++l+       f+++    +   ++f+ a +    +++  FW+a k 
+  tr|REBH_LENAE|rebH-7 339 WVGNCVSIGTSSCFVEPLESTGIYF-VYAALY--QLVKHFPDKSLNPV-LTARFNREIETMFDDTRDFIQAHFYFSPRTDTPFWRANKE 423
+                           66677899**************975.588875..78888888888765.4567999999999999999999999999999999999876 PP
+
+          tyrosine_FDH 383 srvefesi 390
+                            r ++   
+  tr|REBH_LENAE|rebH-7 424 LRLADGMQ 431
+                           66555444 PP
+
+>> tr|A0A0K0P9W9|lzrH1-5  [uncultured bacterium]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   18.2   0.0   2.4e-06   5.9e-06      10      83 ..       5      83 ..       3     104 .. 0.77
+   2 !   18.5   0.0   1.9e-06   4.9e-06     102     322 ..     162     365 ..     139     425 .. 0.71
+
+  Alignments for each domain:
+  == domain 1  score: 18.2 bits;  conditional E-value: 2.4e-06
+           tyrosine_FDH 10 vvviGGGpaGstvatllakq...glkvllLekeafprykiGESllpstvhglanllgvtde..leaagfvkKrGgtfr.w 83
+                           vv++GGG +G + a+ l       ++v+l e +      +GE +  stv   ++ lg++++  + a + + K+ ++f+ w
+  tr|A0A0K0P9W9|lzrH1-5  5 VVIVGGGTSGWMTASYLTAAfgdRIEVTLVESARVGAIGVGEATF-STVRHFFEYLGLEEKdwMPACNATYKLAIRFEnW 83
+                           9*********99999988877667889****************98.68888******98653366666666776666435 PP
+
+  == domain 2  score: 18.5 bits;  conditional E-value: 1.9e-06
+           tyrosine_FDH 102 gsesyayQveRakfdeiLlenakekGvdvrenckvtdvvldeeqrargvrytqsdgkekevsarfvvDAsGrrsllqkklglereyse 189
+                            ++  yay  + +   + L+++a  +Gv      +v dv+ld  +    v+ +    + +e   +  +D  G rsll  k   e ++++
+  tr|A0A0K0P9W9|lzrH1-5 162 TQFPYAYHFDATLVANFLRDYAVARGVRHVL-DDVVDVALDSRGWISHVVTK----ERGELAGDLFIDCTGFRSLLLGKAL-EEPFES 243
+                            44457999999999************97543.46889999998666655533....4677889999********9999988.788888 PP
+
+           tyrosine_FDH 190 ffknlalfgyfengkrlpa..pnsgn...ilsvafddGWfWyiPLsdeltSvGaVvrresyaekvqkdlekalqeliaecPliaella 272
+                            + +  +l     ++ r+p   +++g      ++a + GW+W+iPL d +   G V   e       +  e+a q+l++     ae l+
+  tr|A0A0K0P9W9|lzrH1-5 244 YQS--SLPNDSAVALRVPLdmERKGLrpcTTATAQEAGWIWTIPLFDRI-GTGYVYASEY------STPEQAEQRLREFVGPAAEGLE 322
+                            877..55667777888887445555411145677899********9987.5699988887......6677777777777777788887 PP
+
+           tyrosine_FDH 273 daervtdlrvrkdySYssksfsrpgmilvGdAacfvDPvfSsGvhlatys 322
+                             ++    +r+ +     s +++ +  +++G  + fv+P+ S+G+  + ++
+  tr|A0A0K0P9W9|lzrH1-5 323 ANHIK--MRIGR-----SRRHWVNNCVAIGLSSGFVEPLESTGIFFIQHG 365
+                            65544..88876.....68999*********************9888776 PP
+
+>> tr|A0A0K0P8P2_9BACT|lzrH2-6  [uncultured bacterium]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   24.7   0.0   2.5e-08   6.2e-08       9      82 ..       8      86 ..       1     105 [. 0.86
+   2 ?    5.4   0.0     0.018     0.046     105     229 ..     167     289 ..     157     301 .. 0.66
+   3 ?    5.0   0.2     0.023     0.058     293     380 ..     339     422 ..     330     467 .. 0.77
+
+  Alignments for each domain:
+  == domain 1  score: 24.7 bits;  conditional E-value: 2.5e-08
+                 tyrosine_FDH  9 dvvviGGGpaGstvatllakq...glkvllLekeafprykiGESllpstvhglanllgvtde..leaagfvkKrGgtfr 82
+                                  vvv GGG aG + a+ l k    ++++++Le  + p+  +GE ++p      ++ lg++++  + + +   K G++f 
+  tr|A0A0K0P8P2_9BACT|lzrH2-6  8 KVVVLGGGTAGWMTASYLGKAlgpDVALTVLEAPSIPKIGVGEATVPNLHRTFFDFLGLAEDewMRECNASYKMGVRFI 86
+                                 69***************9988856667789*****************************86444888888999999984 PP
+
+  == domain 2  score: 5.4 bits;  conditional E-value: 0.018
+                 tyrosine_FDH 105 syayQveRakfdeiLlenakekGvdvrenckvtdvvldeeqrargvrytqsdgkekevsarfvvDAsGrrsllqkklglere 186
+                                  +ya+  + +   + L+++a+e+   ++ + ++t+ v+d+ ++ + +r   ++   + ++ +  vD sG r+ll +k   + +
+  tr|A0A0K0P8P2_9BACT|lzrH2-6 167 NYAWHFDAHLVADFLRRFATERQGALHVEDEMTEPVIDHRGHITALR--TKS--GRLIEGDLFVDCSGFRGLLINKAM-REP 243
+                                  56666666666677777776655555555666666666655555333..333..468899999999999999988888.445 PP
+
+                 tyrosine_FDH 187 yseffknlalfgyfengkrlpapnsgn.....ilsvafddGWfWyiPL 229
+                                  + ++     l     ++  +p++++ n       + a+++GW W iP+
+  tr|A0A0K0P8P2_9BACT|lzrH2-6 244 FLDMSD--HLLNDSAVATAVPHDDEANgvepyTSAIAMSHGWTWKIPM 289
+                                  555544..46666777777887554442222123457899*******7 PP
+
+  == domain 3  score: 5.0 bits;  conditional E-value: 0.023
+                 tyrosine_FDH 293 fsrpgmilvGdAacfvDPvfSsGvhlatysalLaarsinsvlageldeeraleefearYrreygrlleflvafydmnvkees 374
+                                   +   ++ +G  +cf++P+ S+G+  +t + +     ++  + ++  +   ++ f+++    +   ++fl a +    +++ 
+  tr|A0A0K0P8P2_9BACT|lzrH2-6 339 TWVRNVVSIGLSSCFLEPLESTGIYFITAALYQ----LAKHFPDKRFDPVLADSFNREIETMFDDSRDFLQAHFSLAPRQDT 416
+                                  577788999***************999854332....223333333333458888888888999999999999999999999 PP
+
+                 tyrosine_FDH 375 yFWaak 380
+                                   FW++ 
+  tr|A0A0K0P8P2_9BACT|lzrH2-6 417 VFWRSC 422
+                                  999764 PP
+
+>> tr|G3K6J6|claH-5  [Streptomyces uncialis]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   21.4   0.1   2.5e-07   6.2e-07      10      83 ..       5      83 ..       3     103 .. 0.81
+   2 !   12.8   0.0    0.0001   0.00026     105     318 ..     166     362 ..     155     433 .. 0.67
+
+  Alignments for each domain:
+  == domain 1  score: 21.4 bits;  conditional E-value: 2.5e-07
+      tyrosine_FDH 10 vvviGGGpaGstvatllakq...glkvllLekeafprykiGESllpstvhglanllgvtde..leaagfvkKrGgtfr.w 83
+                      +vv+GGG +G + a+ l       ++v++ e +      +GE +  stv   ++ lg+++e  + a + + K+G++f+ w
+  tr|G3K6J6|claH-5  5 IVVVGGGTSGWMTASYLSAAfgeRISVTVVESARVGTIGVGEATF-STVRHFFEYLGLSEEtwMPACNATYKLGIRFEnW 83
+                      8*************99988775578899***************98.68888*********95566777778888888524 PP
+
+  == domain 2  score: 12.8 bits;  conditional E-value: 0.0001
+      tyrosine_FDH 105 syayQveRakfdeiLlenakekGvdvrenckvtdvvldeeqrargvrytqsdgkekevsarfvvDAsGrrsllqkklglereyseffknlalf 197
+                        yay  + a + + L+++a  +Gv  +   +v  v+ de +    + +  + g+      +  vD  G r+ll +    + +++++    +l 
+  tr|G3K6J6|claH-5 166 PYAYHFDAALLADFLRDYAVARGVL-HVVDDVVHVARDERGW---ISHVATRGSGD-LAGDLFVDCTGFRGLLINDAL-DEPFESYQD--TLP 250
+                       5799999999999999999999984.3334455555555533...55555666554.455677899999999998887.677776666..555 PP
+
+      tyrosine_FDH 198 gyfengkrlpa.....pnsgnilsvafddGWfWyiPLsdeltSvGaVvrresyaekvqkdlekalqeliaecPliaelladaervtdlrvrkd 285
+                           ++ r+p      + +    s+a   GW+W+iPL    +  G V  r+     + ++ e+ l+++    P  a+ l+ ++    +r+ + 
+  tr|G3K6J6|claH-5 251 NDSAVALRVPVdmereGLRPCTTSTAQAAGWIWTIPLFGR-VGTGYVYARDY---CTPEEAERTLRRFVG--P-AADDLEANHIR--MRIGR- 333
+                       66677777776443223344567889999********865.56799999998...444445555554442..3.34444433322..45543. PP
+
+      tyrosine_FDH 286 ySYssksfsrpgmilvGdAacfvDPvfSsGvhl 318
+                           s + + +  ++vG  + fv+P+ S+G+  
+  tr|G3K6J6|claH-5 334 ----SRRSWVNNCVAVGLSSGFVEPLESTGIFF 362
+                       ....45567777777888888888888877655 PP
+
+>> tr|M9QSI0_9BACT|borH-6  [uncultured bacterium]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   22.2   0.0   1.4e-07   3.6e-07       9      67 ..       7      68 ..       1      95 [. 0.88
+   2 ?    2.2   0.0      0.17      0.42     215     229 ..     274     288 ..     163     307 .. 0.66
+   3 !    7.5   0.0    0.0041      0.01     293     382 ..     338     423 ..     333     456 .. 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 22.2 bits;  conditional E-value: 1.4e-07
+            tyrosine_FDH  9 dvvviGGGpaGstvatllakq...glkvllLekeafprykiGESllpstvhglanllgvtde 67
+                             +v+ GGG aG + a+ lak     ++++lLe  a  r  +GE ++p      ++ lg+++e
+  tr|M9QSI0_9BACT|borH-6  7 RIVILGGGTAGWMTASYLAKAlgdTVTITLLEAPAIGRIGVGEATVPNLQRVFFDFLGLREE 68
+                            599****************9986677889********************9999******987 PP
+
+  == domain 2  score: 2.2 bits;  conditional E-value: 0.17
+            tyrosine_FDH 215 lsvafddGWfWyiPL 229
+                              + a+ +GW W iP+
+  tr|M9QSI0_9BACT|borH-6 274 SAIAMRSGWSWKIPM 288
+                             3457899*******7 PP
+
+  == domain 3  score: 7.5 bits;  conditional E-value: 0.0041
+            tyrosine_FDH 293 fsrpgmilvGdAacfvDPvfSsGvhlatysalLaarsinsvlageldeeraleefearYrreygrlleflvafydmnvkeesyFWaa 379
+                              + +  + +G A+cf++P+ S+G+  +t +       ++  + ++       + f+++    +   ++f+ a +    +++  FW+a
+  tr|M9QSI0_9BACT|borH-6 338 AWVKNCVSIGLASCFLEPLESTGIYFITAAI----YQLTQHFPDRTFALALSDAFNHEIEAMFDDTRDFIQAHFYVSPRTDTPFWKA 420
+                             57788899****************9998543....3444555555555555677888888888888888888888888888888888 PP
+
+            tyrosine_FDH 380 kkl 382
+                              k 
+  tr|M9QSI0_9BACT|borH-6 421 NKD 423
+                             764 PP
+
+>> tr|A8CF74_9PSEU|ktzR-6  [Kutzneria sp. (strain 744)]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   14.0   0.0   4.4e-05   0.00011      11      82 ..       2      77 ..       1      91 [. 0.81
+   2 !   18.2   0.0   2.3e-06   5.8e-06     105     378 ..     165     417 ..     146     424 .. 0.69
+
+  Alignments for each domain:
+  == domain 1  score: 14.0 bits;  conditional E-value: 4.4e-05
+            tyrosine_FDH 11 vviGGGpaGstvatllakq...glkvllLekeafprykiGESllpstvhglanllgvtde..leaagfvkKrGgtfr 82
+                            v++GGG aG + a+ l++     l++++ e        +GE +     h  ++ l+++++  + a + + K+G++f+
+  tr|A8CF74_9PSEU|ktzR-6  2 VIVGGGTAGWMTAAYLKTAfgdRLSITVVESSRIGTIGVGEATFSDIQH-FFQFLNLREQdwMPACNATYKLGIRFE 77
+                            9****************998667899****************9966555.999999975433777777777777774 PP
+
+  == domain 2  score: 18.2 bits;  conditional E-value: 2.3e-06
+            tyrosine_FDH 105 syayQveRakfdeiLlenakekGvdvrenckvtdvvldeeqrargvrytqsdgkekevsarfvvDAsGrrsllqkklgle..reyse 189
+                              yay  e a + + L  +a ++Gv+     +v dv ld+ +  + v+      + +e++ +  vD  G r+ll +k  +    +y++
+  tr|A8CF74_9PSEU|ktzR-6 165 PYAYHFEAALLAKFLTGYAVDRGVEHV-VDDVLDVRLDQRGWIEHVVT----AEHGEIHGDLFVDCTGFRGLLLNKALGVpfVSYQD 246
+                             479*********************854.34688888888876666653....35789***********9998877665441246676 PP
+
+            tyrosine_FDH 190 ffkn...lalfgyfengkrlpapnsgnilsvafddGWfWyiPLsdeltSvGaVvrresyaekvqkdlekalqeliaecPliaellad 273
+                              + n   +al    +  +r   pn     ++a + GW+W+iPL    +  G V  ++       ++ e+ l+e+    P  a+  a+
+  tr|A8CF74_9PSEU|ktzR-6 247 TLPNdsaVALQVPLDMQRRGIVPN---TTATAREAGWIWTIPLFGR-VGTGYVYAKDY---LSPEEAERTLREFV--GPAAADVEAN 324
+                             665432377777777777766665...567999**********865.57899999999...55666666777665..4666665444 PP
+
+            tyrosine_FDH 274 aervtdlrvrkdySYssksfsrpgmilvGdAacfvDPvfSsGvhlatysalLaarsinsvlageldeeraleefearYrreygrlle 360
+                               r   +r+ +     s++ +r+  +++G  + fv+P+ S+G+  + ++     ++++   a + + +   + ++ +  +   +++e
+  tr|A8CF74_9PSEU|ktzR-6 325 HIR---MRIGR-----SQESWRNNCVAIGLSSGFVEPLESTGIFFIHHA---IEQLVKHFPAADWNPK-SRDMYNSAVAHVMDGIRE 399
+                             433...46654.....456799999999*9999*****99998766543...3444444444444433.345666666666666666 PP
+
+            tyrosine_FDH 361 flvafydmnvkeesyFWa 378
+                             flv+ y    + ++ +W+
+  tr|A8CF74_9PSEU|ktzR-6 400 FLVIHYRGAARADNQYWR 417
+                             666666666666666665 PP
+
+>> tr|E9P162_9ACTN|stth-6  [Streptomyces toxytricini]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   17.5   0.0   3.7e-06   9.3e-06       6      81 ..       5      84 ..       1     106 [. 0.77
+   2 !   13.1   0.0     8e-05    0.0002     105     319 ..     173     370 ..     150     438 .. 0.69
+
+  Alignments for each domain:
+  == domain 1  score: 17.5 bits;  conditional E-value: 3.7e-06
+            tyrosine_FDH  6 eeydvvviGGGpaGstvatllakq...glkvllLekeafprykiGESllpstvhglanllgvtde..leaagfvkKrGgtf 81
+                            +   vv++GGG aG + a+ l+k     ++v+l e  +     +GE +     h  ++ l++++e  + a + + K+ ++f
+  tr|E9P162_9ACTN|stth-6  5 NPDKVVIVGGGTAGWMTASYLKKAfgeRVSVTLVESGTIGTVGVGEATFSDIRH-FFEFLDLREEewMPACNATYKLAVRF 84
+                            55579*****************998556778999999999*******9876555.99999998863355555555555555 PP
+
+  == domain 2  score: 13.1 bits;  conditional E-value: 8e-05
+            tyrosine_FDH 105 syayQveRakfdeiLlenakekGvdvrenckvtdvvldeeqrargvrytqsdgkekevsarfvvDAsGrrsllqkklgle..reyse 189
+                              yay  e a + e L  ++k++Gv+     +v +v ld+ +    v+ +    + + +  +  vD  G r++l ++  +    +y++
+  tr|E9P162_9ACTN|stth-6 173 PYAYHFEAALLAEFLSGYSKDRGVKHV-VDEVLEVKLDDRGWISHVVTK----EHGDIGGDLFVDCTGFRGVLLNQALGVpfVSYQD 254
+                             358999999999999999999999744.346888888888666655533....3566888999999998887766555431235555 PP
+
+            tyrosine_FDH 190 ffkn...lalfgyfengkrlpapnsgnilsvafddGWfWyiPLsdeltSvGaVvrresyaekvqkdlekalqeliaecPliaellad 273
+                              + n   +al    +   r   p+     ++a + GW+W+iPL   +   G V  ++       ++ e+ l+e+    P  a+  a+
+  tr|E9P162_9ACTN|stth-6 255 TLPNdsaVALQVPLDMEARGIPPYT---RATAKEAGWIWTIPLIGRI-GTGYVYAKDY---CSPEEAERTLREFV--GPEAADVEAN 332
+                             5543222566566666555555544...3578899********8765.6799999998...44556666666665..4666665444 PP
+
+            tyrosine_FDH 274 aervtdlrvrkdySYssksfsrpgmilvGdAacfvDPvfSsGvhla 319
+                               r   +r+ +     s++ +++  +++G  + fv+P+ S+G+  +
+  tr|E9P162_9ACTN|stth-6 333 HIR---MRIGR-----SEQSWKNNCVAIGLSSGFVEPLESTGIFFI 370
+                             433...46654.....678899999999999999999999997655 PP
+
+>> tr|W5VG40_SACPI|Tar14-6  [Saccharomonospora piscinae]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   12.7   0.0   0.00011   0.00027       8      82 ..      16      94 ..      10     116 .. 0.71
+   2 !   16.0   0.0   1.1e-05   2.7e-05     105     388 ..     183     446 ..     167     458 .. 0.75
+
+  Alignments for each domain:
+  == domain 1  score: 12.7 bits;  conditional E-value: 0.00011
+             tyrosine_FDH  8 ydvvviGGGpaGstvatllakq.glkv..llLekeafprykiGESllpstvhglanllgv..tdeleaagfvkKrGgtfr 82
+                               vv++GGG aG + a+ l    g +v  ++ e ++     +GE +     h  ++ l +  +d + + + + K+ ++f+
+  tr|W5VG40_SACPI|Tar14-6 16 KRVVIVGGGTAGWMTASYLTAAfGDRVdlTVVESAQIGTIGVGEATFSDIRH-FFEFLRLeeSDWMPECNATYKLAVRFE 94
+                             579*********99999887777655533889999999******99876555.788777722345666666666666664 PP
+
+  == domain 2  score: 16.0 bits;  conditional E-value: 1.1e-05
+             tyrosine_FDH 105 syayQveRakfdeiLlenakekGvdvrenckvtdvvldeeqrargvrytqsdgkekevsarfvvDAsGrrsllqkklgle..reys 188
+                               yay  e + + + L  +a+++G       +v dv+lde +    vr     ++ +  +a+  vD  G r+ll +k  +e   +y+
+  tr|W5VG40_SACPI|Tar14-6 183 PYAYHFEAHLLAKYLTGYATRRGTRHIV-DNVVDVALDERGWISHVRT----EEHGDLEADLFVDCTGFRGLLLNKALGEpfVSYQ 263
+                              4799999999999999999999986443.4577888888866665543....3466789999999999999887777655223677 PP
+
+             tyrosine_FDH 189 effknlalfgyfengkrlpapnsgnilsvafddGWfWyiPLsdeltSvGaVvrresyaekvqkdlekalqeliaecPliaellada 274
+                              + + n +  +     +   +p +    ++a + GW+W+iPL + +   G V   +     + ++ e++l+++    P  a+  a+ 
+  tr|W5VG40_SACPI|Tar14-6 264 DTLPNDSAVALQVPLDMEREPIRPCTTATAQEAGWIWTIPLISRV-GTGYVYASDY---TTPEQAERVLRDFV--GPAAADVPANH 343
+                              777664444444444444568888889999***********9875.5799998888...55666667777665..47666665443 PP
+
+             tyrosine_FDH 275 ervtdlrvrkdySYssksfsrpgmilvGdAacfvDPvfSsGvhlatysalLaarsinsvlageldeeraleefearYrreygrlle 360
+                                + ++r+ +     s + + +  + vG  + fv+P+ S+G+  + ++     ++++   +g   ++r  e ++++  +   +++e
+  tr|W5VG40_SACPI|Tar14-6 344 --I-KMRIGR-----SRRSWVNNCVGVGLSSGFVEPLESTGIFFIHHA---IEQIVKYFPSGGAGDDRLRELYNRSVGHVMDGVRE 418
+                              ..4.457665.....5677999999****************8877665...578888888999999999999**9999999***** PP
+
+             tyrosine_FDH 361 flvafydmnvkeesyFWaakklsrvefe 388
+                              flv  y   ++ ++ +W+  k   v ++
+  tr|W5VG40_SACPI|Tar14-6 419 FLVLHYRSAKRADNQYWKDTKTRTVPDS 446
+                              *******999999999998877665554 PP
+
+>> sp|B1MM05|TETX_MYCA9  Flavin-dependent monooxygenase OS=Mycobacteroides abscessus (strain ATCC 19977 / DSM 44196 / CC
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   24.1   0.0   3.8e-08   9.7e-08       9     182 ..       2     176 ..       1     185 [. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 24.1 bits;  conditional E-value: 3.8e-08
+          tyrosine_FDH   9 dvvviGGGpaGstvatllakqglkvllLeke..afprykiGESllpstvhglanllgvtdeleaagfvkKrGgtfrwGae..pepwtle 93 
+                            vv++G Gp+G+t+a  l ++g++  +L+k+   fp  + G  l p t + +++ lg++  +++ g+      ++  G+e   e++ +e
+  sp|B1MM05|TETX_MYCA9   2 TVVIAGAGPTGLTLACELTRRGIACRVLDKApdLFPGSR-GKGLSPRTQE-VFDDLGIAPAINSGGMA-MPPFRIYAGHEvvAERSLVE 87 
+                           59****************************833577755.********99.************99987.44455555554223555555 PP
+
+          tyrosine_FDH  94 Fakspelsgse.sy..ayQveRakfdeiLlenakekGvdvrenckvtdvvldeeqrargvrytqsdgkekevsarfvvDAsGrrsllqk 179
+                                  sg+   y   + v   + deiLl+  ++ G dv  nc+v  +++  +  a +v  +q  g  +  +a ++v A G rs++ k
+  sp|B1MM05|TETX_MYCA9  88 MLGTDIPSGPGiPYpgFWLVPQWRTDEILLDRLRQFGGDVEFNCEVVGFTQRSD--AVSVMVSQ-GGAPELLHASYLVGADGGRSTVRK 173
+                           5433322332212354678*******************************9999..77787777.689999****************99 PP
+
+          tyrosine_FDH 180 klg 182
+                            lg
+  sp|B1MM05|TETX_MYCA9 174 MLG 176
+                           887 PP
+
+>> sp|Q01911|TETX_BACFG  Flavin-dependent monooxygenase OS=Bacteroides fragilis OX=817 GN=tetX PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   19.7   0.0   8.1e-07     2e-06       7      40 ..      16      49 ..      11      60 .. 0.89
+   2 ?    0.3   0.0      0.63       1.6     299     324 ..     307     332 ..     304     363 .. 0.75
+
+  Alignments for each domain:
+  == domain 1  score: 19.7 bits;  conditional E-value: 8.1e-07
+          tyrosine_FDH  7 eydvvviGGGpaGstvatllakqglkvllLekea 40
+                          + +v +iGGGp G+t+a+ll+++g++v + e+ +
+  sp|Q01911|TETX_BACFG 16 DKNVAIIGGGPVGLTMAKLLQQNGIDVSVYERDN 49
+                          5689*************************99965 PP
+
+  == domain 2  score: 0.3 bits;  conditional E-value: 0.63
+          tyrosine_FDH 299 ilvGdAacfvDPvfSsGvhlatysal 324
+                           +++GdAa ++ P+   Gv++    al
+  sp|Q01911|TETX_BACFG 307 TMIGDAAHLMPPFAGQGVNSGLVDAL 332
+                           689**********9999986544444 PP
+
+>> sp|Q06DK7|TETX_SPHSM  Flavin-dependent monooxygenase OS=Sphingobacterium sp. (strain PM2-P1-29) OX=403776 GN=tet(X) P
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   19.7   0.0   8.1e-07     2e-06       7      40 ..      16      49 ..      11      60 .. 0.89
+   2 ?    0.3   0.0      0.63       1.6     299     324 ..     307     332 ..     304     363 .. 0.75
+
+  Alignments for each domain:
+  == domain 1  score: 19.7 bits;  conditional E-value: 8.1e-07
+          tyrosine_FDH  7 eydvvviGGGpaGstvatllakqglkvllLekea 40
+                          + +v +iGGGp G+t+a+ll+++g++v + e+ +
+  sp|Q06DK7|TETX_SPHSM 16 DKNVAIIGGGPVGLTMAKLLQQNGIDVSVYERDN 49
+                          5689*************************99965 PP
+
+  == domain 2  score: 0.3 bits;  conditional E-value: 0.63
+          tyrosine_FDH 299 ilvGdAacfvDPvfSsGvhlatysal 324
+                           +++GdAa ++ P+   Gv++    al
+  sp|Q06DK7|TETX_SPHSM 307 TMIGDAAHLMPPFAGQGVNSGLVDAL 332
+                           689**********9999986544444 PP
+
+>> sp|Q93L51|TETX_BACT4  Flavin-dependent monooxygenase OS=Bacteroides thetaiotaomicron OX=818 GN=tetX2 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   19.7   0.0   8.1e-07     2e-06       7      40 ..      16      49 ..      11      60 .. 0.89
+   2 ?    0.2   0.0      0.69       1.7     299     324 ..     307     332 ..     304     359 .. 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 19.7 bits;  conditional E-value: 8.1e-07
+          tyrosine_FDH  7 eydvvviGGGpaGstvatllakqglkvllLekea 40
+                          + +v +iGGGp G+t+a+ll+++g++v + e+ +
+  sp|Q93L51|TETX_BACT4 16 DKNVAIIGGGPVGLTMAKLLQQNGIDVSVYERDN 49
+                          5689*************************99965 PP
+
+  == domain 2  score: 0.2 bits;  conditional E-value: 0.69
+          tyrosine_FDH 299 ilvGdAacfvDPvfSsGvhlatysal 324
+                           +++GdAa ++ P+   Gv++    al
+  sp|Q93L51|TETX_BACT4 307 TMIGDAAHLMPPFAGQGVNSGLVDAL 332
+                           689**********9999986554444 PP
+
+>> sp|A0A059WYP6|TET50_UNKP  Flavin-dependent monooxygenase OS=Unknown prokaryotic organism OX=2725 GN=tet(50) PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   13.2   0.1   7.4e-05   0.00019       7      83 ..       4      80 ..       1     175 [. 0.78
+   2 !    6.7   0.1    0.0074     0.019     291     329 ..     277     315 ..     273     380 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 13.2 bits;  conditional E-value: 7.4e-05
+              tyrosine_FDH  7 eydvvviGGGpaGstvatllakqglkvllLekeafprykiGESl.lpstvhglanllgvtdeleaagfvkKrGgtfrw 83
+                              +  ++viG G aG  va  l++ g++ +l+ek a  r k G  l + + +  +a+ +g+ d++ +   ++K G +   
+  sp|A0A059WYP6|TET50_UNKP  4 HIKILVIGVGVAGPAVAYWLKRFGFSPVLIEKSAAVR-KGGQALdIRGIATHIAKEMGIYDQICNMRTQIKCGRYVDV 80
+                              5789******************************999.77888846666778*******************9987654 PP
+
+  == domain 2  score: 6.7 bits;  conditional E-value: 0.0074
+              tyrosine_FDH 291 ksfsrpgmilvGdAacfvDPvfSsGvhlatysalLaars 329
+                               ks+++ + +l+GdAa  + P+   G +la  +a++ a  
+  sp|A0A059WYP6|TET50_UNKP 277 KSWTKGRIALIGDAAYCPSPLSGQGNNLAFVGAYILAGE 315
+                               6788999**********************9999876654 PP
+
+>> sp|D3HKY4|TET56_LEGLN  Flavin-dependent monooxygenase OS=Legionella longbeachae serogroup 1 (strain NSW150) OX=661367
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !    7.5   0.0    0.0043     0.011       7      78 ..       4      75 ..       1     106 [. 0.82
+   2 !    6.4   0.3    0.0089     0.022     291     330 ..     277     316 ..     272     380 .. 0.73
+
+  Alignments for each domain:
+  == domain 1  score: 7.5 bits;  conditional E-value: 0.0043
+           tyrosine_FDH  7 eydvvviGGGpaGstvatllakqglkvllLekeafprykiGESl.lpstvhglanllgvtdeleaagfvkKrG 78
+                           +  ++viG G aG  v   l++ g++ +l+ek a  r k G  l + + +  +a+ +g+ d++ +    + rG
+  sp|D3HKY4|TET56_LEGLN  4 NIKILVIGAGVAGPAVCYWLRRFGFSPVLIEKYASIR-KGGQALdVRGIATHIAREMGIYDQICEMRTRIERG 75
+                           6789****************************99998.66777745666678999999999988777666666 PP
+
+  == domain 2  score: 6.4 bits;  conditional E-value: 0.0089
+           tyrosine_FDH 291 ksfsrpgmilvGdAacfvDPvfSsGvhlatysalLaarsi 330
+                            +s+++ + +lvGdA+  + P+   G +la  +a++ a  +
+  sp|D3HKY4|TET56_LEGLN 277 NSWTKGRIALVGDAGYCPSPLSGQGNNLAFVGAYILAGEL 316
+                            56788899*********************99998655443 PP
+
+>> sp|A0A516F3Z6|PENIC_PENPA  Baeyer-Villiger monooxygenase peniC OS=Penicillium patulum OX=5078 GN=peniC PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   13.5   0.1   6.3e-05   0.00016       7      39 ..      68     101 ..      45     106 .. 0.88
+   2 ?   -2.2   0.1       3.7       9.2       8      33 ..     227     252 ..     223     270 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 13.5 bits;  conditional E-value: 6.3e-05
+               tyrosine_FDH   7 eydvvviGGGpaGstvatllakqgl.kvllLeke 39 
+                                +  vv+iGGG+aG++ a  l++qg+ + ++Lek 
+  sp|A0A516F3Z6|PENIC_PENPA  68 DSKVVIIGGGLAGLVTAVKLKTQGInDFVILEKG 101
+                                568********************87257888885 PP
+
+  == domain 2  score: -2.2 bits;  conditional E-value: 3.7
+               tyrosine_FDH   8 ydvvviGGGpaGstvatllakqglkv 33 
+                                +d  v GG paGs+    la++ + v
+  sp|A0A516F3Z6|PENIC_PENPA 227 WDYAVTGGDPAGSVPMDKLATKTVGV 252
+                                688999******99888887776655 PP
+
+>> sp|A0A142C7A0|PHNB_PENHR  FAD-dependent monooxygenase phnB OS=Penicillium herquei OX=69774 GN=phnB PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    3.3   0.0     0.079       0.2       7      40 ..       5      38 ..       1      49 [. 0.87
+   2 ?    2.6   0.0      0.12      0.31     126     186 ..     119     175 ..     112     214 .. 0.77
+   3 ?    0.7   0.0      0.47       1.2     283     347 ..     288     355 ..     270     359 .. 0.67
+
+  Alignments for each domain:
+  == domain 1  score: 3.3 bits;  conditional E-value: 0.079
+              tyrosine_FDH  7 eydvvviGGGpaGstvatllakqglkvllLekea 40
+                              ++ v+viG G +G+   + l+k g++    e+ +
+  sp|A0A142C7A0|PHNB_PENHR  5 QTHVIVIGAGITGLLTCQGLKKAGISYSCFERDT 38
+                              689*********************9988888876 PP
+
+  == domain 2  score: 2.6 bits;  conditional E-value: 0.12
+              tyrosine_FDH 126 kGvdvrenckvtdvvldeeqrargvrytqsdgkekevsarfvvDAsGrrsllqkklglere 186
+                               +G+dv+ ++++ dv+++e +    +++t+  g    v    +v A G rs++ ++  ++ +
+  sp|A0A142C7A0|PHNB_PENHR 119 EGIDVQYGKTLADVAFNESGNGVVATFTD--G--TLVAGTMIVGADGPRSRVRETAMGDAK 175
+                               7*****************96666666665..5..4788889999***99999877655544 PP
+
+  == domain 3  score: 0.7 bits;  conditional E-value: 0.47
+              tyrosine_FDH 283 rkdySYssksfsrp...gmilvGdAacfvDPvfSsGvhlat..ysalLaarsinsvlageldeeraleef 347
+                               + d SY   + +++   + +lvGdAa  + P    G +      s lLa   ++ v +g+ + + a++ef
+  sp|A0A142C7A0|PHNB_PENHR 288 KADISYWISQPWNNrdgRLTLVGDAAHPMPPYRGQGLNHCIcdVSKLLAG--LAGVHSGSTTLSDAIQEF 355
+                               46899999998877333589******999998888875433114555543..445555555555555555 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (496 nodes)
+Target sequences:                        108  (48339 residues searched)
+Passed MSV filter:                        47  (0.435185); expected 2.2 (0.02)
+Passed bias filter:                       47  (0.435185); expected 2.2 (0.02)
+Passed Vit filter:                        45  (0.416667); expected 0.1 (0.001)
+Passed Fwd filter:                        43  (0.398148); expected 0.0 (1e-05)
+Initial search space (Z):                108  [actual number of targets]
+Domain search space  (domZ):              43  [number of targets reported over threshold]
+# CPU time: 0.26u 0.00s 00:00:00.26 Elapsed: 00:00:00.26
+# Mc/sec: 91.11
+//
+[ok]

@@ -1,0 +1,978 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /home/szenei/hal_miner_curation/HALOGENATION/HALOPEROXIDASES/final_VCPO/unspecific_cdhit/whole/crossval_profile/crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta.hmm
+# target sequence database:        HALOGENATION/HALOPEROXIDASES/final_VCPO/unspecific_cdhit/whole/cdhit_chosen.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned  [M=646]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence     Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------     -----------
+          0 1153.5  31.6          0 1153.3  31.6    1.0  1  WP_145352678  [Roseimaritima multifibrata]
+          0 1142.4  30.8          0 1142.2  30.8    1.0  1  QDS86324      [Rosistilla ulvae]
+          0 1124.6  31.8          0 1123.8  31.8    1.4  1  WP_009093798  [Rhodopirellula sp. SWK7]
+          0 1121.7  33.7          0 1121.3  33.7    1.1  1  WP_283430655  [Neorhodopirellula lusitana]
+          0 1116.5  32.7          0 1116.3  32.7    1.0  1  V-CPO_Q7UVW2  [Rhodopirellula baltica]
+          0 1108.3  55.1          0 1107.6  55.1    1.3  1  WP_099259610  [Rhodopirellula bahusiensis]
+          0 1093.6  29.6          0 1093.3  29.6    1.0  1  WP_146517133  [Rubripirellula amarantea]
+          0 1090.3  25.9          0 1090.2  25.9    1.0  1  WP_289164516  [Roseiconus lacunae]
+          0 1088.1  27.4          0 1087.8  27.4    1.0  1  WP_182867963  [Stieleria mannarensis]
+          0 1045.5  38.3   1.3e-293  964.9  29.7    2.0  2  WP_146575939  [Neorhodopirellula pilleata]
+   5.8e-280  919.8  16.4   7.8e-280  919.4  16.4    1.1  1  MEM9369193    [Planctomycetota bacterium]
+
+
+Domain annotation for each sequence (and alignments):
+>> WP_145352678  [Roseimaritima multifibrata]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ! 1153.3  31.6         0         0       1     643 [.       1     647 [.       1     649 [] 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 1153.3 bits;  conditional E-value: 0
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned   1 marfwnrwigrrksarrkerkrkstrrrlraenletrqllaani 44 
+                                                                        m++fwnrw+g +ks+rrk+rkr+ +rrr+raenletrqllaani
+                                                       WP_145352678   1 MTSFWNRWTGLQKSSRRKNRKRTPLRRRPRAENLETRQLLAANI 44 
+                                                                        899***************************************** PP
+
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned  45 fhnealpedvnedgivsaldaltiinqlnrqeaneaadgesdsd 88 
+                                                                        fhne +pedv++dgiv a+d+lti+nq+nrq an++++++ ++ 
+                                                       WP_145352678  45 FHNEPMPEDVDQDGIVLAVDTLTILNQMNRQGANAGGEVDGNG- 87 
+                                                                        ***********************************97665555. PP
+
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned  89 ekk.grgrltdvnndgrdsaldallvinrlnrdedglgnredea 131
+                                                                         ++ g++r+tdvnnd++d+aldal++ nrlnrd++g+g+++d a
+                                                       WP_145352678  88 -QQrGQARITDVNNDDQDTALDALMAGNRLNRDRGGVGGSTDPA 130
+                                                                        .4449*************************************** PP
+
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned 132 dtpadketdeteteetdds....adadd..vseeesdvvlewnd 169
+                                                                        d+p+d++ d+t++++t+ds    +d+d+  +s++e+dvvlewnd
+                                                       WP_145352678 131 DNPVDTPVDDTTDNTTEDStdvvIDDDTtpTSQTETDVVLEWND 174
+                                                                        **************99999888766666789************* PP
+
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned 170 lfgeiladstenqnpGyasrsqailnlaiydavaiatdgadaet 213
+                                                                        lfgeil+d+t+nqnpGyasrsqailnlaiydavaiat+g+daet
+                                                       WP_145352678 175 LFGEILVDDTQNQNPGYASRSQAILNLAIYDAVAIATSGNDAET 218
+                                                                        ******************************************** PP
+
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned 214 fydydidltessddlsaevaasqaaytvlsslypdqqetldafl 257
+                                                                        fydyd++l++ +d++saevaasqaaytvlsslypdqq tldafl
+                                                       WP_145352678 219 FYDYDLNLSQ-TDKISAEVAASQAAYTVLSSLYPDQQGTLDAFL 261
+                                                                        *********9.********************************* PP
+
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned 258 esslaglssdeetsaslalGeeigneilalraddGsdvvaeyty 301
+                                                                        e+sl++ls+d ++++sl++G+eigneila+ra+dGsdv+aeyty
+                                                       WP_145352678 262 ETSLSSLSNDGNFADSLEVGTEIGNEILAIRASDGSDVIAEYTY 305
+                                                                        ******************************************** PP
+
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned 302 tdevGsfqadplnpdvpvwGpawgevdtfaisstdeflpettpa 345
+                                                                        tde+G+fq+dplnpdv++wGp+wg+vdtfaiss+d+f pettpa
+                                                       WP_145352678 306 TDEAGYFQPDPLNPDVAAWGPTWGDVDTFAISSSDDFRPETTPA 349
+                                                                        ******************************************** PP
+
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned 346 ltseeyaasynevlelGsvdsetrtadqteaGifwaydreGlGt 389
+                                                                        ltseeyaasynevlelGs+dsetrtadqteaGifwaydreGlGt
+                                                       WP_145352678 350 LTSEEYAASYNEVLELGSADSETRTADQTEAGIFWAYDREGLGT 393
+                                                                        ******************************************** PP
+
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned 390 plalfndvletvavqegntleenaalfaqasvamadaaivawdt 433
+                                                                        p+alfndvl+t+avqegnt+eenaalfaqasvamada+i+awdt
+                                                       WP_145352678 394 PIALFNDVLQTIAVQEGNTIEENAALFAQASVAMADAGITAWDT 437
+                                                                        ******************************************** PP
+
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned 434 kfteefwrpvtaiqeGdadGnelteGdadwtalGapdgGddivG 477
+                                                                        kfteefwrpvtaiq+Gd+dGn+lteGdadw+alGap+ G+d++G
+                                                       WP_145352678 438 KFTEEFWRPVTAIQAGDTDGNDLTEGDADWVALGAPN-GEDTTG 480
+                                                                        *************************************.9***** PP
+
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned 478 ftpqfptyisGhatfGgalfgtlqefyGtddisfevtseeleil 521
+                                                                        ftpqfptyisGhatfG+alfgtlqefyGtddisf+vts+ele+l
+                                                       WP_145352678 481 FTPQFPTYISGHATFGAALFGTLQEFYGTDDISFDVTSAELEML 524
+                                                                        ******************************************** PP
+
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned 522 ledpelqeayGldlddatrsfdsfseamaenGrsrvylGihfdf 565
+                                                                        le+pelqeayGldlddatr+fdsfseamaenG srvylGihfdf
+                                                       WP_145352678 525 LENPELQEAYGLDLDDATRTFDSFSEAMAENGVSRVYLGIHFDF 568
+                                                                        ******************************************** PP
+
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned 566 ddlvGqevGqaiaasvasefsvasddds.dtgakddkdkkgned 608
+                                                                        ddlvGqevGqaia+svasef vasdd+s d+g++++k+++gn +
+                                                       WP_145352678 569 DDLVGQEVGQAIATSVASEFVVASDDESgDSGFVNHKEDGGNFA 612
+                                                                        **************************997888**********99 PP
+
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned 609 .sgrnndreresrdelerrkeederlaavdsvladd 643
+                                                                         +g nn+++++ +d+ +rr+++d+r+aavdsv+a+ 
+                                                       WP_145352678 613 gQGGNNNGQQG-QDDPTRRRQRDSRFAAVDSVFAQG 647
+                                                                        56666666666.9*********************86 PP
+
+>> QDS86324  [Rosistilla ulvae]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ! 1142.2  30.8         0         0       1     643 [.      39     668 ..      39     670 .] 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 1142.2 bits;  conditional E-value: 0
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned   1 marfwnrwigrrksarrkerkrkstrrrlraenletrqllaani 44 
+                                                                        mar+w++w+grrksa++++r+r +trrr+r+e+l++rqllaani
+                                                           QDS86324  39 MARIWDQWLGRRKSAEQASRRRYKTRRRCRVEQLDKRQLLAANI 82 
+                                                                        99****************************************** PP
+
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned  45 fhnealpedvnedgivsaldaltiinqlnrqeaneaadgesdsd 88 
+                                                                        fhne++pedvn+dgiv+a++altiinq+nrq++n+a dg+++sd
+                                                           QDS86324  83 FHNELIPEDVNQDGIVTAVEALTIINQMNRQSSNNA-DGQTASD 125
+                                                                        *********************************999.8877765 PP
+
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned  89 ekkgrgrltdvnndgrdsaldallvinrlnrdedglgnredead 132
+                                                                             gr+tdvnndg+++++dal+vinrlnr+++g g++ d+ d
+                                                           QDS86324 126 ----SGRKTDVNNDGQQTPIDALMVINRLNRRDGG-GDSFDRPD 164
+                                                                        ....59*************************9997.8899**** PP
+
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned 133 tpadketdeteteetddsadaddvseeesdvvlewndlfgeila 176
+                                                                        +++d++tdet+tee+++  d+  +s+e++dvvl+wndlfge+la
+                                                           QDS86324 165 NSVDQPTDETTTEEEEE--DTTPTSDESGDVVLQWNDLFGELLA 206
+                                                                        *************9999..66779******************** PP
+
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned 177 dstenqnpGyasrsqailnlaiydavaiatdgadaetfydydid 220
+                                                                        ds+enqnpGyasrs+a+lnlai+da++i+++g+daetfy+y+  
+                                                           QDS86324 207 DSVENQNPGYASRSMAMLNLAIFDAAQIGENGSDAETFYEYE-- 248
+                                                                        *****************************************5.. PP
+
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned 221 ltessddlsaevaasqaaytvlsslypdqqetldaflesslagl 264
+                                                                        ++ ++dd+++evaasqaaytvlsslypdqq+tldafle+slag+
+                                                           QDS86324 249 FSVETDDITTEVAASQAAYTVLSSLYPDQQATLDAFLETSLAGY 292
+                                                                        55667*************************************** PP
+
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned 265 ssdeetsaslalGeeigneilalraddGsdvvaeytytdevGsf 308
+                                                                        ++d+++s+sl++G+eign+ila+raddGsd+v++yty+devGsf
+                                                           QDS86324 293 ENDANFSDSLTVGSEIGNQILANRADDGSDAVVDYTYSDEVGSF 336
+                                                                        ******************************************** PP
+
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned 309 qadplnpdvpvwGpawgevdtfaisstdeflpettpaltseeya 352
+                                                                        qadplnpdvpvwGpawgevdtfai+std+flpe+tpaltseeya
+                                                           QDS86324 337 QADPLNPDVPVWGPAWGEVDTFAIDSTDAFLPESTPALTSEEYA 380
+                                                                        ******************************************** PP
+
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned 353 asynevlelGsvdsetrtadqteaGifwaydreGlGtplalfnd 396
+                                                                        asynev+elG++ds+trta+qte+GifwaydreGlGtpla++nd
+                                                           QDS86324 381 ASYNEVQELGAFDSTTRTAEQTEIGIFWAYDREGLGTPLAIYND 424
+                                                                        ******************************************** PP
+
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned 397 vletvavqegntleenaalfaqasvamadaaivawdtkfteefw 440
+                                                                        vl tva+qegntleenaalfaqasvamadaaivawdtkfteefw
+                                                           QDS86324 425 VLLTVAAQEGNTLEENAALFAQASVAMADAAIVAWDTKFTEEFW 468
+                                                                        ******************************************** PP
+
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned 441 rpvtaiqeGdadGnelteGdadwtalGapdgGddivGftpqfpt 484
+                                                                        rpvtaiq+Gd dGn+lteGd dwtalGapdgG+d++Gftpqfpt
+                                                           QDS86324 469 RPVTAIQSGDLDGNALTEGDPDWTALGAPDGGEDEIGFTPQFPT 512
+                                                                        ******************************************** PP
+
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned 485 yisGhatfGgalfgtlqefyGtddisfevtseeleilledpelq 528
+                                                                        yisGhatfGgalfgtlqefyGtddi+fe+tseeleilledpelq
+                                                           QDS86324 513 YISGHATFGGALFGTLQEFYGTDDIAFELTSEELEILLEDPELQ 556
+                                                                        ******************************************** PP
+
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned 529 eayGldlddatrsfdsfseamaenGrsrvylGihfdfddlvGqe 572
+                                                                        eayGldlddatrsf+sfseamaenGrsrvylGihfdfddlvGq+
+                                                           QDS86324 557 EAYGLDLDDATRSFSSFSEAMAENGRSRVYLGIHFDFDDLVGQD 600
+                                                                        ******************************************** PP
+
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned 573 vGqaiaasvasefsvasdddsdtgakddkdkkgnedsgrnndre 616
+                                                                        vGqa+aasvas f+++sddds + +  d+d ++n++ g nn+++
+                                                           QDS86324 601 VGQAVAASVASAFDTDSDDDS-QWVDFDRDPGTNNQGGGNNNGQ 643
+                                                                        *******************99.4455667777777777777655 PP
+
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned 617 resrdelerrkeederlaavdsvladd 643
+                                                                           +deler+k++++rlaavds++a++
+                                                           QDS86324 644 S--QDELERQKSRNSRLAAVDSIFANN 668
+                                                                        4..59********************98 PP
+
+>> WP_009093798  [Rhodopirellula sp. SWK7]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ! 1123.8  31.8         0         0       1     644 [.       1     727 [.       1     728 [] 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 1123.8 bits;  conditional E-value: 0
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned   1 marfwnrwigrrksarrke......rkrkstrrrlraenletrq 38 
+                                                                        marf++rw++rr+sa +++      rk  strrrlr+e+le+rq
+                                                       WP_009093798   1 MARFLSRWVRRRNSAPQSDqsssknRKLISTRRRLRPETLEVRQ 44 
+                                                                        99**********99987665555558889*************** PP
+
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned  39 llaanifhnealpedvnedgivsaldaltiinqlnrqeaneaad 82 
+                                                                        llaanifhnea+pedvnedgiv+a+daltiinq+n q++n + +
+                                                       WP_009093798  45 LLAANIFHNEAMPEDVNEDGIVTAVDALTIINQIN-QADNIG-E 86 
+                                                                        ***********************************.555555.7 PP
+
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned  83 gesdsdekkgrgrltdvnndgrdsaldallvinrlnrdedglgn 126
+                                                                        ges s+e +grgrltdvnndgrdsaldal+vinrlnr +dgl+n
+                                                       WP_009093798  87 GESGSQE-RGRGRLTDVNNDGRDSALDALMVINRLNRGDDGLRN 129
+                                                                        8777766.69********************************** PP
+
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned 127 redeadtpadketdeteteetddsadaddvseeesdvvlewndl 170
+                                                                        + d++dt+ d+++ e+ t +tdd  ++  ++e++sdvvl+wndl
+                                                       WP_009093798 130 PVDDRDTSPDEPNVESPTGSTDD--NDLPAAETDSDVVLQWNDL 171
+                                                                        *********************99..44459************** PP
+
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned 171 fgeiladstenqnpGyasrsqailnlaiydavaiatdgadaetf 214
+                                                                        fgeila+s+e+qnpGyasrs+a+ln+aiyd+v++atdg+da+tf
+                                                       WP_009093798 172 FGEILASSVEDQNPGYASRSMAMLNIAIYDSVNLATDGDDADTF 215
+                                                                        ******************************************** PP
+
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned 215 ydydidltessddlsaevaasqaaytvlsslypdqqetldafle 258
+                                                                        ydy+i++++ssd+++++++asqaaytvls+lypdqqetld+fl+
+                                                       WP_009093798 216 YDYSIEFRGSSDNVTTDIVASQAAYTVLSGLYPDQQETLDSFLA 259
+                                                                        ******************************************** PP
+
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned 259 sslaglssdeetsaslalGeeigneilalraddGsdvvaeytyt 302
+                                                                        ssla+++s ++ts+s+alG+eigneila+raddG+d +++ytyt
+                                                       WP_009093798 260 SSLANFRSGDSTSDSIALGTEIGNEILAVRADDGFDEIVQYTYT 303
+                                                                        ******************************************** PP
+
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned 303 devGsfqadplnpdvpvwGpawgevdtfaisstdeflpettpal 346
+                                                                        devGsfqadplnp+vpvwGp+wge+dtfaisstde+lpettpal
+                                                       WP_009093798 304 DEVGSFQADPLNPNVPVWGPGWGELDTFAISSTDEYLPETTPAL 347
+                                                                        ******************************************** PP
+
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned 347 tseeyaasynevlelGsvdsetrtadqteaGifwaydreGlGtp 390
+                                                                        tseeyaasynev+elG++ds++rt+dqteaGifwaydreGlGtp
+                                                       WP_009093798 348 TSEEYAASYNEVKELGAADSTVRTEDQTEAGIFWAYDREGLGTP 391
+                                                                        ******************************************** PP
+
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned 391 lalfndvletvavqegntleenaalfaqasvamadaaivawdtk 434
+                                                                        lal+ndvl+t+avq+gntleenaalfaqasvamadaa+vawdtk
+                                                       WP_009093798 392 LALYNDVLATIAVQQGNTLEENAALFAQASVAMADAAVVAWDTK 435
+                                                                        ******************************************** PP
+
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned 435 fteefwrpvtaiqeGdadGnelteGdadwtalGapdgGddivGf 478
+                                                                        fteefwrpvtaiq+Gd+dGn+lteGda+wtalGapdgGdd++Gf
+                                                       WP_009093798 436 FTEEFWRPVTAIQSGDIDGNPLTEGDAEWTALGAPDGGDDEIGF 479
+                                                                        ******************************************** PP
+
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned 479 tpqfptyisGhatfGgalfgtlqefyGtddisfevtseeleill 522
+                                                                        tpqfptyisGhatfGgalfgtlq+fyGtddisfe+ts+eleill
+                                                       WP_009093798 480 TPQFPTYISGHATFGGALFGTLQQFYGTDDISFELTSRELEILL 523
+                                                                        ******************************************** PP
+
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned 523 edpelqeayGldlddatrsfdsfseamaenGrsrvylGihfdfd 566
+                                                                        edpelqeayG++lddatr+f+sfseamaenGrsrvylGihfdfd
+                                                       WP_009093798 524 EDPELQEAYGISLDDATRTFSSFSEAMAENGRSRVYLGIHFDFD 567
+                                                                        ******************************************** PP
+
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned 567 dlvGqevGqaiaasvasefsvasddds.....dtg..akddkdk 603
+                                                                        dlvGq vGq++aa+vasef++ +d +s     dtg    +d+++
+                                                       WP_009093798 568 DLVGQAVGQTVAATVASEFAALMDANSgndkgDTGggGFADNNQ 611
+                                                                        *******************6555544444446665778999*** PP
+
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned 604 kgnedsgrnndrere............................. 618
+                                                                        +gn ++g+n++++re                             
+                                                       WP_009093798 612 GGNGNVGNNAGGDREgnergtnnndsprsttssralatnvldtt 655
+                                                                        **************9***************************** PP
+
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned 619 ............................................ 618
+                                                                                                                    
+                                                       WP_009093798 656 lddadlalfdqsrttndgnanapavigsttdrqpdiqspeldss 699
+                                                                        ********************************999999998876 PP
+
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned 619 ..srdelerrkeederlaavdsvladdr 644
+                                                                           +del++r++ derla++ds++a++r
+                                                       WP_009093798 700 gvRQDELTSRDSLDERLAMIDSIFAESR 727
+                                                                        655**********************975 PP
+
+>> WP_283430655  [Neorhodopirellula lusitana]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ! 1121.3  33.7         0         0       1     643 [.       1     711 [.       1     716 [. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 1121.3 bits;  conditional E-value: 0
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned   1 marfwnrwigrrksarrke.rkrkstrrrlraenletrqllaan 43 
+                                                                        marfwn wigrr+ arrk+ +kr+s+rrr+r+enletrqllaan
+                                                       WP_283430655   1 MARFWNLWIGRRTPARRKNlTKRTSLRRRPRPENLETRQLLAAN 44 
+                                                                        99*****************99*********************** PP
+
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned  44 ifhnealpedvnedgivsaldaltiinqlnrqeaneaadgesds 87 
+                                                                        ifhnea+pedvnedgivsa+dalti+nq+nrq  n+ +++++d+
+                                                       WP_283430655  45 IFHNEAMPEDVNEDGIVSAIDALTIVNQINRQGINDPTQADDDG 88 
+                                                                        ******************************************** PP
+
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned  88 dekkgrgrltdvnndgrdsaldallvinrlnrdedglgnre.de 130
+                                                                        d+++g+gr+tdvnndgrdsaldal+vinrlnrde++++ ++ d+
+                                                       WP_283430655  89 DQQRGQGRMTDVNNDGRDSALDALMVINRLNRDEGRFDTPSvDR 132
+                                                                        ************************************99654033 PP
+
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned 131 adtpadketdeteteetddsadaddvseeesdvvlewndlfgei 174
+                                                                         dt++d+++d +   ++     +   +e+++d+vl wnd+fg++
+                                                       WP_283430655 133 DDTSSDNDSDSNIPTDQ-----DPVGTEQDADAVLLWNDVFGDV 171
+                                                                        44444443333322222.....23489***************** PP
+
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned 175 ladstenqnpGyasrsqailnlaiydavaiatdgadaetfydyd 218
+                                                                        la+stenqnpGyasrs+ailnlai+d+vaia+++ad+ tfydyd
+                                                       WP_283430655 172 LAASTENQNPGYASRSNAILNLAIFDSVAIASGNADG-TFYDYD 214
+                                                                        *************************************.****** PP
+
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned 219 idltessddlsaevaasqaaytvlsslypdqqetldaflessla 262
+                                                                        +++t+ ++++s+ev+a+ aayt+ls+lypdqq++lda+le+sla
+                                                       WP_283430655 215 SNITNFNANVSSEVVATGAAYTALSELYPDQQAQLDAALEDSLA 258
+                                                                        ******************************************** PP
+
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned 263 glssdeetsaslalGeeigneilalraddGsdvvaeytytdevG 306
+                                                                        +lss+e+ s+slalGee++n+ilalr+ddGsd+v+eytytde+G
+                                                       WP_283430655 259 ALSSREDPSTSLALGEEVANQILALRVDDGSDIVGEYTYTDEIG 302
+                                                                        ******************************************** PP
+
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned 307 sfqadplnpdvpvwGpawgevdtfaisstdeflpettpaltsee 350
+                                                                        +fqadplnpdvp+wG +wgevdtfaisstdef+pettp+ltse+
+                                                       WP_283430655 303 YFQADPLNPDVPAWGLTWGEVDTFAISSTDEFIPETTPTLTSEA 346
+                                                                        ******************************************** PP
+
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned 351 yaasynevlelGsvdsetrtadqteaGifwaydreGlGtplalf 394
+                                                                        ya+synevlelGsvds++rtadqteaGifwaydreGlGtplalf
+                                                       WP_283430655 347 YAESYNEVLELGSVDSTERTADQTEAGIFWAYDREGLGTPLALF 390
+                                                                        ******************************************** PP
+
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned 395 ndvletvavqegntleenaalfaqasvamadaaivawdtkftee 438
+                                                                         dvle+va+qegnt+een+alfaqasvamadaaivawdtkf+ee
+                                                       WP_283430655 391 GDVLESVATQEGNTFEENVALFAQASVAMADAAIVAWDTKFSEE 434
+                                                                        ******************************************** PP
+
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned 439 fwrpvtaiqeGdadGnelteGdadwtalGapdgGddivGftpqf 482
+                                                                        fwrp+taiq+GdadGn+lteGdadwt+lGapdgGddi+Gftpqf
+                                                       WP_283430655 435 FWRPITAIQQGDADGNDLTEGDADWTSLGAPDGGDDIIGFTPQF 478
+                                                                        ******************************************** PP
+
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned 483 ptyisGhatfGgalfgtlqefyGtddisfevtseeleilledpe 526
+                                                                        ptyisGhatfGgalfgtlqefyGtddisf+vtseeleilledpe
+                                                       WP_283430655 479 PTYISGHATFGGALFGTLQEFYGTDDISFDVTSEELEILLEDPE 522
+                                                                        ******************************************** PP
+
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned 527 lqeayGldlddatrsfdsfseamaenGrsrvylGihfdfddlvG 570
+                                                                        lqeayGldlddatrsfdsfseamaenGrsrvylGihfdfddlvG
+                                                       WP_283430655 523 LQEAYGLDLDDATRSFDSFSEAMAENGRSRVYLGIHFDFDDLVG 566
+                                                                        ******************************************** PP
+
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned 571 qevGqaiaasvasefsv.asddds.................... 593
+                                                                        qevGqaiaasva++f++ +sd ds                    
+                                                       WP_283430655 567 QEVGQAIAASVAEDFAAlNSDTDSsdstftvsgtvvaatesvdr 610
+                                                                        ***************5413344446789**************** PP
+
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned 594 ...........dtg..akddkdkkgnedsgrnndrere...... 618
+                                                                                   d +  a+d+ d+ gn++ ++++dr+++      
+                                                       WP_283430655 611 qdfssnlvsdlDVNllAQDQVDRLGNNQPNQDRDRSNDnrdgdp 654
+                                                                        *********886667799999*******9999999999999*** PP
+
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned 619 ..............................srdelerrkeeder 632
+                                                                                                      ++d+++++ +++ +
+                                                       WP_283430655 655 tegiegvtvelldslgnpvaqtttdangryTFDSISDAGAYQIQ 698
+                                                                        *********************9999998888************* PP
+
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned 633 laavd..svladd 643
+                                                                        +aa d  ++++dd
+                                                       WP_283430655 699 IAASDqwTIIGDD 711
+                                                                        *****66688887 PP
+
+>> V-CPO_Q7UVW2  [Rhodopirellula baltica]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ! 1116.3  32.7         0         0       1     646 []      26     706 .]      26     706 .] 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 1116.3 bits;  conditional E-value: 0
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned   1 marfwnrwigrrksarrkerkrkstrrrlraenletrqllaani 44 
+                                                                        m+  wnrwig++ksar+++++rkstrr+l++enletr+llaan+
+                                                       V-CPO_Q7UVW2  26 MPLSWNRWIGTSKSARSRKQQRKSTRRKLMSENLETRNLLAANL 69 
+                                                                        7889**************************************** PP
+
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned  45 fhnealpedvnedgivsaldaltiinqlnrqeaneaadgesdsd 88 
+                                                                        fhnea+pedvned++v+aldaltiin++nr++a+e+  g    d
+                                                       V-CPO_Q7UVW2  70 FHNEAMPEDVNEDDQVTALDALTIINRMNREQAGES-AG----D 108
+                                                                        ********************************9998.23....2 PP
+
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned  89 ekkgrgrltdvnndgrdsaldallvinrlnrdedglg.....nr 127
+                                                                           +rg++tdvnndgr+saldal+vinrlnrd++g +     ++
+                                                       V-CPO_Q7UVW2 109 --VRRGQMTDVNNDGRNSALDALMVINRLNRDQGGPRdsgspDA 150
+                                                                        ..268*****************************9996666655 PP
+
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned 128 edeadtpad............ketdeteteetdds..adaddvs 157
+                                                                        ++++++++d            ++ d+ +t+ t+++  +dad+++
+                                                       V-CPO_Q7UVW2 151 GSGNQDQTDsetsgdnsdvegTNGDDPSTDGTTSGdqTDADSAI 194
+                                                                        556666666888899999998888888888887666688999** PP
+
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned 158 eeesdvvlewndlfgeiladstenqnpGyasrsqailnlaiyda 201
+                                                                        e ++d+vl+wn+lf+e++++s+++qnpGyasr++a+ln+aiyd+
+                                                       V-CPO_Q7UVW2 195 ELTGDAVLDWNNLFNELTSNSEDYQNPGYASRAMAMLNVAIYDS 238
+                                                                        ******************************************** PP
+
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned 202 vaiatdgadaetfydydidltessddlsaevaasqaaytvlssl 245
+                                                                        vaia++++++ +fy+yd++lt+ss d+s+++aas+aay+vlssl
+                                                       V-CPO_Q7UVW2 239 VAIASGDSEI-AFYEYDSSLTNSSGDVSSQAAASSAAYSVLSSL 281
+                                                                        **********.********************************* PP
+
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned 246 ypdqqetldaflesslaglssdeetsaslalGeeigneilalra 289
+                                                                        y+dqqet+d+f+ ++la++s+d et+a+l+lG+e++++++a+ra
+                                                       V-CPO_Q7UVW2 282 YSDQQETIDSFYGDVLATYSQDPETEAGLILGAEVNSTVIANRA 325
+                                                                        ******************************************** PP
+
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned 290 ddGsdvvaeytytdevGsfqadplnpdvpvwGpawgevdtfais 333
+                                                                        +dGsd+v+eytytde+Gsf++dplnpdvpvwGp+wg+vdtfais
+                                                       V-CPO_Q7UVW2 326 NDGSDSVVEYTYTDEIGSFHSDPLNPDVPVWGPGWGDVDTFAIS 369
+                                                                        ******************************************** PP
+
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned 334 stdeflpettpaltseeyaasynevlelGsvdsetrtadqteaG 377
+                                                                        ++d+f+pe++p+ltseeyaasynev+elG+vds+trtadqteaG
+                                                       V-CPO_Q7UVW2 370 DADAFTPESPPDLTSEEYAASYNEVKELGAVDSTTRTADQTEAG 413
+                                                                        ******************************************** PP
+
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned 378 ifwaydreGlGtplalfndvletvavqegntleenaalfaqasv 421
+                                                                        ifwaydr+GlGtpl+lfnd+letvavqegnt+eenaalfaqasv
+                                                       V-CPO_Q7UVW2 414 IFWAYDRDGLGTPLTLFNDILETVAVQEGNTFEENAALFAQASV 457
+                                                                        ******************************************** PP
+
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned 422 amadaaivawdtkfteefwrpvtaiqeGdadGnelteGdadwta 465
+                                                                        amada++vaw+tkf+ee+wrpvtaiqeGd+dGn+lteGdadwta
+                                                       V-CPO_Q7UVW2 458 AMADAGVVAWTTKFGEELWRPVTAIQEGDFDGNTLTEGDADWTA 501
+                                                                        ******************************************** PP
+
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned 466 lGapdgGddivGftpqfptyisGhatfGgalfgtlqefyGtddi 509
+                                                                        lGapdgGddivGftpqfptyisGhatfGgalfgtlqefyGtddi
+                                                       V-CPO_Q7UVW2 502 LGAPDGGDDIVGFTPQFPTYISGHATFGGALFGTLQEFYGTDDI 545
+                                                                        ******************************************** PP
+
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned 510 sfevtseeleilledpelqeayGldlddatrsfdsfseamaenG 553
+                                                                        sf+v+seeleill++pelqeayGl+ldda+r+f+sfseamaenG
+                                                       V-CPO_Q7UVW2 546 SFTVASEELEILLDNPELQEAYGLNLDDAERTFSSFSEAMAENG 589
+                                                                        ******************************************** PP
+
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned 554 rsrvylGihfdfddlvGqevGqaiaasvasefsvasddds.... 593
+                                                                        rsrvylGihfdfddlvGqevGq+iaa+vasefsva+++d+    
+                                                       V-CPO_Q7UVW2 590 RSRVYLGIHFDFDDLVGQEVGQSIAAAVASEFSVATPEDDstgk 633
+                                                                        ***********************************997766999 PP
+
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned 594 ..dtg..akddkdkkgned.sgrnndrere.............. 618
+                                                                          d+g  a++d+d++ n+d ++ +++r+re              
+                                                       V-CPO_Q7UVW2 634 gvDDGqlATMDRDDQPNRDgVDGSRQRNREpvardttqvpqqqt 677
+                                                                        99555578899999999887888999999999999999999888 PP
+
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned 619 .srdelerrkeederlaavdsvladdrll 646
+                                                                         srde++rr+e+d+r+aa+d+++a++rl+
+                                                       V-CPO_Q7UVW2 678 sSRDESNRRSEDDQRIAAIDQIFAENRLI 706
+                                                                        77************************875 PP
+
+>> WP_099259610  [Rhodopirellula bahusiensis]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ! 1107.6  55.1         0         0       1     646 []       1     672 []       1     672 [] 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 1107.6 bits;  conditional E-value: 0
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned   1 marfwnrwigrrksarrkerkrkstrrrlraenletrqllaani 44 
+                                                                        m+  wnr+ig++ksar+++++r+strr+lr+e+letr+llaani
+                                                       WP_099259610   1 MPLRWNRLIGASKSARSRKQRRQSTRRKLRSESLETRNLLAANI 44 
+                                                                        7889**************************************** PP
+
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned  45 fhnealpedvnedgivsaldaltiinqlnrqeaneaadgesdsd 88 
+                                                                        fhnea+pedvned++v+aldaltiin++nr++a+ea+d      
+                                                       WP_099259610  45 FHNEAMPEDVNEDDQVTALDALTIINRMNREQAGEASDD----- 83 
+                                                                        *********************************999332..... PP
+
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned  89 ekkgrgrltdvnndgrdsaldallvinrlnrdedglg...nred 129
+                                                                           grg++tdvnndgr+saldal+vinrlnr +dg++   +r+d
+                                                       WP_099259610  84 --GGRGQRTDVNNDGRNSALDALMVINRLNRGQDGQNdqgGRGD 125
+                                                                        ..389****************************99885556778 PP
+
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned 130 eadtpad.........................ketdeteteetd 148
+                                                                        +ad++ad                         +etd+t+t++t+
+                                                       WP_099259610 126 GADDDADmesgdsnvgdtdvggtteddsttndSETDDTATDDTT 169
+                                                                        8888888**********************9999999*******9 PP
+
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned 149 dsadaddvseeesdvvlewndlfgeiladstenqnpGyasrsqa 192
+                                                                        ++ +ad+++e ++d+vl+wn+lf+e++++s++ q+pGyasr++a
+                                                       WP_099259610 170 SGDQADSAIELTGDAVLDWNNLFNELTSNSEDFQSPGYASRAMA 213
+                                                                        9999**************************************** PP
+
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned 193 ilnlaiydavaiatdgadaetfydydidltessddlsaevaasq 236
+                                                                        +ln+aiyd+vaia++++++ +fydyd+++t+ss d+s+++aas+
+                                                       WP_099259610 214 MLNVAIYDSVAIASGDSEI-AFYDYDSSVTDSSGDVSSQAAASS 256
+                                                                        *******************.************************ PP
+
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned 237 aaytvlsslypdqqetldaflesslaglssdeetsaslalGeei 280
+                                                                        aa++vlssly+dqq+t+d+f++++l+++s+d+et+a+l++Gee+
+                                                       WP_099259610 257 AAFSVLSSLYSDQQDTIDSFYADVLQTYSNDSETEAGLIVGEEV 300
+                                                                        ******************************************** PP
+
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned 281 gneilalraddGsdvvaeytytdevGsfqadplnpdvpvwGpaw 324
+                                                                        g+++la+raddGsd+++ey+ytdevGsfq+dplnpdvpvwGp+w
+                                                       WP_099259610 301 GSTVLANRADDGSDALVEYKYTDEVGSFQSDPLNPDVPVWGPGW 344
+                                                                        ******************************************** PP
+
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned 325 gevdtfaisstdeflpettpaltseeyaasynevlelGsvdset 368
+                                                                        g+vdtfais++d+f+pe++p+ltseeya+synev+elGsvdset
+                                                       WP_099259610 345 GDVDTFAISDVDAFTPESPPDLTSEEYADSYNEVKELGSVDSET 388
+                                                                        ******************************************** PP
+
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned 369 rtadqteaGifwaydreGlGtplalfndvletvavqegntleen 412
+                                                                        rtadqteaGifwaydreGlGtpl+lfnd+letvavqegnt+een
+                                                       WP_099259610 389 RTADQTEAGIFWAYDREGLGTPLSLFNDILETVAVQEGNTFEEN 432
+                                                                        ******************************************** PP
+
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned 413 aalfaqasvamadaaivawdtkfteefwrpvtaiqeGdadGnel 456
+                                                                        aalfaqasvamadaa+vaw+tkf+eefwrpvtaiqeGd+dGn+l
+                                                       WP_099259610 433 AALFAQASVAMADAAVVAWTTKFEEEFWRPVTAIQEGDTDGNAL 476
+                                                                        ******************************************** PP
+
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned 457 teGdadwtalGapdgGddivGftpqfptyisGhatfGgalfgtl 500
+                                                                        teGdadwtalGapdgGddivGftpqfptyisGhatfGgalfgtl
+                                                       WP_099259610 477 TEGDADWTALGAPDGGDDIVGFTPQFPTYISGHATFGGALFGTL 520
+                                                                        ******************************************** PP
+
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned 501 qefyGtddisfevtseeleilledpelqeayGldlddatrsfds 544
+                                                                        qefyGtddisf+v+seeleill+dp+lqeayGldldda+r+fds
+                                                       WP_099259610 521 QEFYGTDDISFTVASEELEILLDDPDLQEAYGLDLDDAERTFDS 564
+                                                                        ******************************************** PP
+
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned 545 fseamaenGrsrvylGihfdfddlvGqevGqaiaasvasefsva 588
+                                                                        fseamaenGrsrvylGihfdfddlvGqevGq+iaasvasef+va
+                                                       WP_099259610 565 FSEAMAENGRSRVYLGIHFDFDDLVGQEVGQSIAASVASEFAVA 608
+                                                                        ******************************************** PP
+
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned 589 sddds.....dtgakddkdkkgnedsgr.nndreresrdelerr 626
+                                                                        ++dds     d++  ++ d+++n+d +r n++++  srd+++rr
+                                                       WP_099259610 609 TPDDSsgeeiDDDKLATMDDGRNSDGNRgNTGNDSSSRDDMNRR 652
+                                                                        *****88888555555556666666444144445556******* PP
+
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned 627 keederlaavdsvladdrll 646
+                                                                        ++ederlaa+d+v++++rl+
+                                                       WP_099259610 653 SDEDERLAAIDQVFSQNRLI 672
+                                                                        *****************875 PP
+
+>> WP_146517133  [Rubripirellula amarantea]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ! 1093.3  29.6         0         0       1     643 [.       1     733 [.       1     737 [. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 1093.3 bits;  conditional E-value: 0
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned   1 marfwnrwigrrksarrkerkrkstrrrlraenletrqllaani 44 
+                                                                        ma+fwnrwi+ r+++rrk+ kr s+rrr+ aenletrqllaani
+                                                       WP_146517133   1 MATFWNRWIN-RTRSRRKNVKRPSQRRRALAENLETRQLLAANI 43 
+                                                                        99*******9.788999*************************** PP
+
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned  45 fhnealpedvnedgivsaldaltiinqlnrqeaneaadgesdsd 88 
+                                                                        fhne+lpedvnedg+vsaldaltiinq+nrq+an +++g ++++
+                                                       WP_146517133  44 FHNELLPEDVNEDGVVSALDALTIINQMNRQSANGSGQGVQSGN 87 
+                                                                        ****************************************9999 PP
+
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned  89 ekk.grgrltdvnndgrdsaldallvinrlnrdedglg....nr 127
+                                                                        + + ++gr+tdvnndgrdsaldallvinrl+r++++++    n+
+                                                       WP_146517133  88 DFNrEPGRMTDVNNDGRDSALDALLVINRLSREQERFDplsrNP 131
+                                                                        99879********************************9998877 PP
+
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned 128 edeadtpad......ketdeteteetdds.............ad 152
+                                                                        ++ ++tp+d       ++d t+te+t+d+             + 
+                                                       WP_146517133 132 GNPNETPTDeqptddLNSDATTTEDTTDDeletddsvtvgnpTA 175
+                                                                        88888888877777855566666665555566677899999544 PP
+
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned 153 add.vseeesdvvlewndlfgeiladstenqnpGyasrsqailn 195
+                                                                        +d+ vse++sd vl wnd+fg++l+ds enqnpGyasrs+ailn
+                                                       WP_146517133 176 EDTpVSEASSDPVLFWNDVFGAVLGDSLENQNPGYASRSAAILN 219
+                                                                        4448**************************************** PP
+
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned 196 laiydavaiatdgadaetfydydidltessddlsaevaasqaay 239
+                                                                        lai+d+vaia++++++ tfydyd+d+++++ddlsae++a++aay
+                                                       WP_146517133 220 LAIFDSVAIASGNTEG-TFYDYDSDIVNATDDLSAEAVATAAAY 262
+                                                                        ****************.*************************** PP
+
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned 240 tvlsslypdqqetldaflesslaglssdeetsaslalGeeigne 283
+                                                                        t+ls+lypdqq++ld+++e+sl+++ss++++sasl lGeei+ne
+                                                       WP_146517133 263 TALSGLYPDQQAQLDDAFEQSLTVFSSSDDLSASLLLGEEIANE 306
+                                                                        ******************************************** PP
+
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned 284 ilalraddGsdvvaeytytdevGsfqadplnpdvpvwGpawgev 327
+                                                                        ilalr+ddGsd ++eytytdevG+fq+dplnpdvp+wG+aw++v
+                                                       WP_146517133 307 ILALRVDDGSDLTSEYTYTDEVGYFQPDPLNPDVPAWGTAWRDV 350
+                                                                        ******************************************** PP
+
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned 328 dtfaisstdeflpettpaltseeyaasynevlelGsvdsetrta 371
+                                                                        dtf+isst+ f+p+ttpalts+eyaasynevl+lGsvds++rta
+                                                       WP_146517133 351 DTFSISSTEPFVPDTTPALTSDEYAASYNEVLALGSVDSTERTA 394
+                                                                        ******************************************** PP
+
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned 372 dqteaGifwaydreGlGtplalfndvletvavqegntleenaal 415
+                                                                        ++te+GifwaydreGlGtp+al++dvle+va+qegnt+een+al
+                                                       WP_146517133 395 EETEIGIFWAYDREGLGTPIALYTDVLESVATQEGNTFEENVAL 438
+                                                                        ******************************************** PP
+
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned 416 faqasvamadaaivawdtkfteefwrpvtaiqeGdadGnelteG 459
+                                                                        faqasvamadaaivaw+tkf+eefwrp+taiq+Gd dGn+lteG
+                                                       WP_146517133 439 FAQASVAMADAAIVAWETKFSEEFWRPITAIQQGDDDGNPLTEG 482
+                                                                        ******************************************** PP
+
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned 460 dadwtalGapdgGddivGftpqfptyisGhatfGgalfgtlqef 503
+                                                                        d++wtalGapdgGddivGftpqfptyisGhatfGgalfgtlq+f
+                                                       WP_146517133 483 DTQWTALGAPDGGDDIVGFTPQFPTYISGHATFGGALFGTLQDF 526
+                                                                        ******************************************** PP
+
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned 504 yGtddisfevtseeleilledpelqeayGldlddatrsfdsfse 547
+                                                                        yGtddisfevtseele+ll++pelq+ayGldlddatr+fdsfse
+                                                       WP_146517133 527 YGTDDISFEVTSEELEVLLDNPELQDAYGLDLDDATRTFDSFSE 570
+                                                                        ******************************************** PP
+
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned 548 amaenGrsrvylGihfdfddlvGqevGqaiaasvasef....sv 587
+                                                                        amaenGrsrvylGihfdfddlvGqevGq+iaasva++f    ++
+                                                       WP_146517133 571 AMAENGRSRVYLGIHFDFDDLVGQEVGQTIAASVAADFdaltEI 614
+                                                                        **************************************665555 PP
+
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned 588 asddds...............................dtg..ak 598
+                                                                        ++++ds                               d +  a+
+                                                       WP_146517133 615 SDTSDSgetsfvvsgtvvdatdsdewpsnprsiisdhDLTllAM 658
+                                                                        55566699***************************765557799 PP
+
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned 599 ddkdkkgnedsgrnndrere........................ 618
+                                                                        d+++ +g+++ +++n+r +e                        
+                                                       WP_146517133 659 DQSNLRGDQHPAADNGRLDEgvsgvtvelldstgnvvaetvtdd 702
+                                                                        99***************99999****999999999999988877 PP
+
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned 619 ....srdelerrkeederlaavd..svladd 643
+                                                                             +d+++++ ++++++++++  +vl+dd
+                                                       WP_146517133 703 rgryVFDSIADAGAYQAHIVVAElwMVLGDD 733
+                                                                        766669************9999877888887 PP
+
+>> WP_289164516  [Roseiconus lacunae]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ! 1090.2  25.9         0         0       1     643 [.       1     621 [.       1     623 [] 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 1090.2 bits;  conditional E-value: 0
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned   1 marfwnrwigrrksarrkerkrkstrrrlraenletrqllaani 44 
+                                                                        m r++ +w++r+++++r  r++  trr+lrae+l++rqllaani
+                                                       WP_289164516   1 MLRYLLEWMRRSENVKRI-RRKPGTRRCLRAETLDKRQLLAANI 43 
+                                                                        78999**********999.8999********************* PP
+
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned  45 fhnealpedvnedgivsaldaltiinqlnrqeanea.adgesds 87 
+                                                                        fhne++pedvnedg+vsa+dalt+inql+ qe++++ +dg++d 
+                                                       WP_289164516  44 FHNESMPEDVNEDGVVSAIDALTVINQLSLQEQGSErSDGDTDL 87 
+                                                                        **********************************9989999999 PP
+
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned  88 dekkgrgrltdvnndgrdsaldallvinrlnrdedglgnredea 131
+                                                                        d++  rgr+tdvn+dgr+sa+dal+vinrl+rd+dg +   + +
+                                                       WP_289164516  88 DAM--RGRRTDVNDDGRSSAMDALMVINRLHRDRDGNR---PVV 126
+                                                                        886..6*****************************743...788 PP
+
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned 132 dtpadketdeteteetddsadaddvseeesdvvlewndlfgeil 175
+                                                                        ++pad+++ + +  +++ ++++ddvs+ee+dvvlewnd+fgeil
+                                                       WP_289164516 127 ERPADENQADEKPADENVESETDDVSDEETDVVLEWNDVFGEIL 170
+                                                                        999998777666666666688999******************** PP
+
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned 176 adstenqnpGyasrsqailnlaiydavaiatdgadaetfydydi 219
+                                                                        adstenqnpGyasrsqailnlaiydavaiat+ga+aetfydy+i
+                                                       WP_289164516 171 ADSTENQNPGYASRSQAILNLAIYDAVAIATAGASAETFYDYAI 214
+                                                                        ******************************************** PP
+
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned 220 dltessddlsaevaasqaaytvlsslypdqqetldaflesslag 263
+                                                                        d+t+ +++l+++vaa+qaaytvlsslypdqq++ld++l+s+l+g
+                                                       WP_289164516 215 DFTG-AESLDTDVAAAQAAYTVLSSLYPDQQASLDMALQSNLSG 257
+                                                                        ****.9************************************** PP
+
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned 264 lssdeetsaslalGeeigneilalraddGsdvvaeytytdevGs 307
+                                                                        ++++ ++s+s+alG++++neilalra+dG+d+ aeytytdevG+
+                                                       WP_289164516 258 AAENGNVSDSVALGTAVANEILALRAEDGFDAAAEYTYTDEVGY 301
+                                                                        ******************************************** PP
+
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned 308 fqadplnpdvpvwGpawgevdtfaisstdeflpettpaltseey 351
+                                                                        fq+dpl+pdvpvwGpawgevdtfai+++ +flpe tp l+se+y
+                                                       WP_289164516 302 FQPDPLTPDVPVWGPAWGEVDTFAIDDSGDFLPEPTPGLDSEQY 345
+                                                                        ******************************************** PP
+
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned 352 aasynevlelGsvdsetrtadqteaGifwaydreGlGtplalfn 395
+                                                                        a+synevlelG++ds++rt +qte+Gifwaydr+GlGtp+alfn
+                                                       WP_289164516 346 AQSYNEVLELGAADSDVRTPEQTEIGIFWAYDRVGLGTPIALFN 389
+                                                                        ******************************************** PP
+
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned 396 dvletvavqegntleenaalfaqasvamadaaivawdtkfteef 439
+                                                                        d+l+tva++++ntleenaalfaqasvamada++vawdtkfte+f
+                                                       WP_289164516 390 DILQTVAIEQDNTLEENAALFAQASVAMADAGVVAWDTKFTEQF 433
+                                                                        ******************************************** PP
+
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned 440 wrpvtaiqeGdadGnelteGdadwtalGapdgGddivGftpqfp 483
+                                                                        wrpvtaiq+GdadGnelteGdadw+alGapdgGdd++Gftpqfp
+                                                       WP_289164516 434 WRPVTAIQAGDADGNELTEGDADWVALGAPDGGDDEIGFTPQFP 477
+                                                                        ******************************************** PP
+
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned 484 tyisGhatfGgalfgtlqefyGtddisfevtseeleilledpel 527
+                                                                        tyisGhatfG+alfgtlqefyGtd+i+fevts+eleill dpel
+                                                       WP_289164516 478 TYISGHATFGAALFGTLQEFYGTDEIAFEVTSQELEILLADPEL 521
+                                                                        ******************************************** PP
+
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned 528 qeayGldlddatrsfdsfseamaenGrsrvylGihfdfddlvGq 571
+                                                                        qeayGldlddatrsf+sfseam+enGrsr+ylGihfdfdd+vGq
+                                                       WP_289164516 522 QEAYGLDLDDATRSFSSFSEAMQENGRSRIYLGIHFDFDDTVGQ 565
+                                                                        ******************************************** PP
+
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned 572 evGqaiaasvasefsvasdddsdtgakddkdkkgnedsgrnndr 615
+                                                                        evGqaiaasvasef+va dd +     ++++ +gn++sgr+++r
+                                                       WP_289164516 566 EVGQAIAASVASEFTVAFDDGN-----NRDKITGNDRSGRHSGR 604
+                                                                        ******************9998.....66788999999999999 PP
+
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned 616 eresrdelerrkeederlaavdsvladd 643
+                                                                        +r+           ++r+aavdsv+++d
+                                                       WP_289164516 605 DRD-----------NDRIAAVDSVFGSD 621
+                                                                        888...........34899999999987 PP
+
+>> WP_182867963  [Stieleria mannarensis]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ! 1087.8  27.4         0         0      20     643 ..       3     612 ..       1     615 [. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 1087.8 bits;  conditional E-value: 0
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned  20 rkrkstrrrlraenletrqllaanifhnealpedvnedgivsal 63 
+                                                                        +kr++trrrlr+e+le+rqllaan+fhne++pedvn+dg+vsa 
+                                                       WP_182867963   3 QKRSKTRRRLRTESLESRQLLAANLFHNELMPEDVNQDGQVSAR 46 
+                                                                        89****************************************** PP
+
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned  64 daltiinqlnrqeanea.adgesdsdekk.grgrltdvnndgrd 105
+                                                                        dalt+in+++rq+++ + adg+s++++++ g+gr+tdvnndgrd
+                                                       WP_182867963  47 DALTVINEMSRQTQGPGtADGRSNQQSDQrGPGRMTDVNNDGRD 90 
+                                                                        ***************9989**999998877************** PP
+
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned 106 saldallvinrlnrdedglgnredeadtpadketdeteteetdd 149
+                                                                        saldal+vinrl rd+++lgnr++++dtp+  +tdet++ ++d+
+                                                       WP_182867963  91 SALDALMVINRLGRDNANLGNRNPDSDTPTGLPTDETDQPNDDE 134
+                                                                        *****************************************999 PP
+
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned 150 sadaddvseeesdvvlewndlfgeilad.stenqnpGyasrsqa 192
+                                                                          d d+vs+e+sdvvl+wndlfgeilad +++ qnpGyasrs+a
+                                                       WP_182867963 135 --DVDTVSDESSDVVLAWNDLFGEILADaEATLQNPGYASRSMA 176
+                                                                        ..89************************88899*********** PP
+
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned 193 ilnlaiydavaiatdgadaetfydydidltessddlsaevaasq 236
+                                                                        +lnlaiydav+iatdgadaetfydy+id  + +++lsaevaa+q
+                                                       WP_182867963 177 MLNLAIYDAVGIATDGADAETFYDYAIDSGG-NANLSAEVAAAQ 219
+                                                                        ****************************999.9*********** PP
+
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned 237 aaytvlsslypdqqetldaflesslaglssdeetsaslalGeei 280
+                                                                        aaytvls+lyp qqetldaflesslag++sd++t+as +lG+ei
+                                                       WP_182867963 220 AAYTVLSGLYPAQQETLDAFLESSLAGSESDRSTDASRTLGSEI 263
+                                                                        ******************************************** PP
+
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned 281 gneilalraddGsdvvaeytytdevGsfqadplnpdvpvwGpaw 324
+                                                                        g++ila+ra+dGsdv+++y+ytde+G+fq+dpl+pdvp+wGpaw
+                                                       WP_182867963 264 GSTILAIRANDGSDVIGQYQYTDEAGYFQPDPLSPDVPAWGPAW 307
+                                                                        ******************************************** PP
+
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned 325 gevdtfaisstdeflpettpaltseeyaasynevlelGsvdset 368
+                                                                        gevdtfai+st++flp ++++ltse ya++ynevlelGsvdse+
+                                                       WP_182867963 308 GEVDTFAIDSTEAFLPASPTDLTSEVYADAYNEVLELGSVDSEV 351
+                                                                        ******************************************** PP
+
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned 369 rtadqteaGifwaydreGlGtplalfndvletvavqegntleen 412
+                                                                        rt+dqteaG+fwaydr+GlGtplalfndvl+++a+q+gn++een
+                                                       WP_182867963 352 RTDDQTEAGLFWAYDRVGLGTPLALFNDVLIQIAEQQGNSMEEN 395
+                                                                        ******************************************** PP
+
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned 413 aalfaqasvamadaaivawdtkfteefwrpvtaiqeGdadGnel 456
+                                                                        aalfaqasvamada+ivawdtkf+eefwrpvtai++Gd+dGnel
+                                                       WP_182867963 396 AALFAQASVAMADAGIVAWDTKFGEEFWRPVTAIRAGDTDGNEL 439
+                                                                        ******************************************** PP
+
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned 457 teGdadwtalGapdgGddivGftpqfptyisGhatfGgalfgtl 500
+                                                                        teGd+dwtalGap+ G+d++GftpqfptyisGhatfG+alf+tl
+                                                       WP_182867963 440 TEGDGDWTALGAPN-GKDLTGFTPQFPTYISGHATFGAALFATL 482
+                                                                        **************.9**************************** PP
+
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned 501 qefyGtddisfevtseeleilledpelqeayGldlddatrsfds 544
+                                                                        qefyGtddi+fe+ts+ele+lle+pelq ayG+dlddatrsf+s
+                                                       WP_182867963 483 QEFYGTDDIAFELTSDELEYLLENPELQAAYGIDLDDATRSFSS 526
+                                                                        ******************************************** PP
+
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned 545 fseamaenGrsrvylGihfdfddlvGqevGqaiaasvasefsva 588
+                                                                        fseamaenGrsrvylGihf+fdd+vGqevG+aiaasv++efsva
+                                                       WP_182867963 527 FSEAMAENGRSRVYLGIHFNFDDTVGQEVGSAIAASVTDEFSVA 570
+                                                                        ******************************************** PP
+
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned 589 sdddsdtgakddkdkkgnedsgrnndreresrdelerrkeeder 632
+                                                                         +dd+ tg+kdd++k+gn   gr++d++r+          + ++
+                                                       WP_182867963 571 VSDDA-TGTKDDSQKSGNG--GRQQDGNRD----------RSNH 601
+                                                                        ****9.8999999999987..566666666..........2346 PP
+
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned 633 laavdsvladd 643
+                                                                        +a++d++l+dd
+                                                       WP_182867963 602 IASIDAALTDD 612
+                                                                        67777766666 PP
+
+>> WP_146575939  [Neorhodopirellula pilleata]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   94.2   1.3   4.6e-30   4.6e-30       1      66 [.       1      67 [.       1      67 [. 0.99
+   2 !  964.9  29.7  1.3e-293  1.3e-293     106     644 ..      62     588 ..      62     591 .] 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 94.2 bits;  conditional E-value: 4.6e-30
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned  1 marfwnrwigrrksarrke.rkrkstrrrlraenletrqllaanif 45
+                                                                       marfwnrwi+r++s+rrke +krks+rrr++aenletrqllaanif
+                                                       WP_146575939  1 MARFWNRWIARQTSSRRKEfNKRKSLRRRPQAENLETRQLLAANIF 46
+                                                                       99****************999************************* PP
+
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned 46 hnealpedvnedgivsaldal 66
+                                                                       hnea+pedvne g+++aldal
+                                                       WP_146575939 47 HNEAMPEDVNEGGHITALDAL 67
+                                                                       *******************98 PP
+
+  == domain 2  score: 964.9 bits;  conditional E-value: 1.3e-293
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned 106 saldallvinrlnrdedglgnredeadtpadketdeteteetdd 149
+                                                                        +aldal+vinrlnrd+++lgnr+++ d+p+d++tdete+++td+
+                                                       WP_146575939  62 TALDALMVINRLNRDRGNLGNRDPGIDNPVDQPTDETEDQNTDE 105
+                                                                        69****************************************** PP
+
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned 150 sadaddvseeesdvvlewndlfgeilad.stenqnpGyasrsqa 192
+                                                                        ++d+ddvs e+sdvvl+wn+lfge+lad ++ +qnpGyasrsqa
+                                                       WP_146575939 106 TIDNDDVSAESSDVVLAWNELFGEVLADaESFQQNPGYASRSQA 149
+                                                                        ****************************78889*********** PP
+
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned 193 ilnlaiydavaiatdgadaetfydydidltessddlsaevaasq 236
+                                                                        ilnlaiydav+iatdg+da+tfydy idl++ + +lsae+aas+
+                                                       WP_146575939 150 ILNLAIYDAVGIATDGTDANTFYDYPIDLSG-NVELSAEIAASE 192
+                                                                        *******************************.9*********** PP
+
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned 237 aaytvlsslypdqqetldaflesslaglssdeetsaslalGeei 280
+                                                                        aaytvls+lyp+qq+tldaf ++s++g++sd+ t+as++lG++i
+                                                       WP_146575939 193 AAYTVLSGLYPEQQATLDAFRAQSISGTASDRVTDASMTLGSDI 236
+                                                                        ******************************************** PP
+
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned 281 gneilalraddGsdvvaeytytdevGsfqadplnpdvpvwGpaw 324
+                                                                        gn+ila+ra+dG+dv++ey+y+de+G+fq+dplnpdvp+wGpaw
+                                                       WP_146575939 237 GNTILAIRANDGFDVMGEYEYSDELGTFQPDPLNPDVPAWGPAW 280
+                                                                        ******************************************** PP
+
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned 325 gevdtfaisstdeflpettpaltseeyaasynevlelGsvdset 368
+                                                                        g+vd fai+s+def+pettp+ltse+ya+synevlelGsvdset
+                                                       WP_146575939 281 GDVDLFAINSVDEFSPETTPELTSEQYAESYNEVLELGSVDSET 324
+                                                                        ******************************************** PP
+
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned 369 rtadqteaGifwaydreGlGtplalfndvletvavqegntleen 412
+                                                                        rtadqteaG+fwaydreGlGtp+alfndvl+++a+q+gn+leen
+                                                       WP_146575939 325 RTADQTEAGLFWAYDREGLGTPIALFNDVLIQIAEQQGNSLEEN 368
+                                                                        ******************************************** PP
+
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned 413 aalfaqasvamadaaivawdtkfteefwrpvtaiqeGdadGnel 456
+                                                                        aalfaqasvamadaaivawdtkf+e+fwrpvtai++Gd+dGn+ 
+                                                       WP_146575939 369 AALFAQASVAMADAAIVAWDTKFGEDFWRPVTAIHSGDIDGNDA 412
+                                                                        ******************************************** PP
+
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned 457 teGdadwtalGapdgGddivGftpqfptyisGhatfGgalfgtl 500
+                                                                        teGdadw+alGap+ G+d++GftpqfptyisGhatfGgalfgtl
+                                                       WP_146575939 413 TEGDADWVALGAPN-GEDLTGFTPQFPTYISGHATFGGALFGTL 455
+                                                                        **************.9**************************** PP
+
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned 501 qefyGtddisfevtseeleilledpelqeayGldlddatrsfds 544
+                                                                        qefyGtddisfe++seel+ ll++pelqeayG++lddatrsfds
+                                                       WP_146575939 456 QEFYGTDDISFELASEELKGLLDNPELQEAYGIELDDATRSFDS 499
+                                                                        ******************************************** PP
+
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned 545 fseamaenGrsrvylGihfdfddlvGqevGqaiaasvasefsva 588
+                                                                        fseamaenGrsrvylGihfdfdd+vGqevG+aiaasvas+f+va
+                                                       WP_146575939 500 FSEAMAENGRSRVYLGIHFDFDDTVGQEVGAAIAASVASDFAVA 543
+                                                                        ******************************************** PP
+
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned 589 sdddsdtgakddkdkkgnedsgrnndreresrdelerrkeeder 632
+                                                                        ++dd+ t++++d+++++n+d+grnn+++r+s+d          r
+                                                       WP_146575939 544 ATDDT-TRTENDRQRNQNDDRGRNNNNSRGSND----------R 576
+                                                                        ****9.88999999*****99999999999554..........8 PP
+
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned 633 laavdsvladdr 644
+                                                                        +a+vds++ad+r
+                                                       WP_146575939 577 FASVDSAFADER 588
+                                                                        999999999887 PP
+
+>> MEM9369193  [Planctomycetota bacterium]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  919.4  16.4  7.8e-280  7.8e-280      30     595 ..       2     561 ..       1     579 [. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 919.4 bits;  conditional E-value: 7.8e-280
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned  30 raenletrqllaanifhnealpedvnedgivsaldaltiinqln 73 
+                                                                        r+e le+r+l+aa  fhnea+pedv edg+v+aldalt+inq+n
+                                                         MEM9369193   2 RSERLEVRNLMAAHPFHNEAIPEDVTEDGQVTALDALTVINQIN 45 
+                                                                        89****************************************** PP
+
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned  74 rqeaneaadgesdsdekkgrgrltdvnndgrdsaldallvinrl 117
+                                                                         q+ ++          ++grgr+tdvnndgrdsa+d l++inrl
+                                                         MEM9369193  46 NQRGDQV--------GARGRGRMTDVNNDGRDSAVDVLMIINRL 81 
+                                                                        7654444........45799************************ PP
+
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned 118 nrdedglgnredeadtpadketdeteteetdds...adadd.vs 157
+                                                                        nr+e+  + ++  +++   +++ e+    ++ +   ++++    
+                                                         MEM9369193  82 NRNEGPGQANDGLNEEGPRNDNVENGRPRDERGedaNENERgER 125
+                                                                        **998544332223333333333333322222211133333578 PP
+
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned 158 eeesdvvlewndlfgeiladstenqnpGyasrsqailnlaiyda 201
+                                                                        +++sd v++wn+lf+e+l++++e+qnpGyasr++a+lnlaiyda
+                                                         MEM9369193 126 QQQSDLVIQWNNLFNELLVADEEQQNPGYASRAMAMLNLAIYDA 169
+                                                                        99****************************************** PP
+
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned 202 vaiatdgadaetfydydidltessddlsaevaasqaaytvlssl 245
+                                                                        v+i+  g+ a+tfy+yd++  +  d + +++a sqaaytvlssl
+                                                         MEM9369193 170 VTITD-GDVADTFYEYDLSGLT-GDPIRTDAAVSQAAYTVLSSL 211
+                                                                        ***75.55678*****987665.699****************** PP
+
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned 246 ypdqqetldaflesslaglssdeetsaslalGeeigneilalra 289
+                                                                        y+ qq+ +d+f + ++  ++    t+++++lG+eig++ila ra
+                                                         MEM9369193 212 YSGQQDMIDQFRDRVFRRIEPGPGTADGVELGNEIGSTILAERA 255
+                                                                        ******************************************** PP
+
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned 290 ddGsdvvaeytytdevGsfqadplnpdvpvwGpawgevdtfais 333
+                                                                        +dG d+v++yty+de Gsfq+dplnpdvpvwGpaw evd f +s
+                                                         MEM9369193 256 NDGHDTVGDYTYSDEPGSFQPDPLNPDVPVWGPAWSEVDPFVVS 299
+                                                                        ******************************************** PP
+
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned 334 stdeflpettpaltseeyaasynevlelGsvdsetrtadqteaG 377
+                                                                        s++++ p+ttp l+s eyaasynev+elGsvdsetrtadqteaG
+                                                         MEM9369193 300 SAEDYAPQTTPPLDSAEYAASYNEVKELGSVDSETRTADQTEAG 343
+                                                                        ******************************************** PP
+
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned 378 ifwaydreGlGtplalfndvletvavqegntleenaalfaqasv 421
+                                                                        ifwaydr+GlGtp++lf+d +e++a+q+gn+l+enaalfaqasv
+                                                         MEM9369193 344 IFWAYDRVGLGTPMSLFSDAIEAIATQQGNSLQENAALFAQASV 387
+                                                                        ******************************************** PP
+
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned 422 amadaaivawdtkfteefwrpvtaiqeGdadGnelteGdadwta 465
+                                                                        amada++vaw+tkf+e+fwrpvtaiq+Gd dGn+lteGd +wta
+                                                         MEM9369193 388 AMADAGVVAWHTKFSEQFWRPVTAIQSGDLDGNDLTEGDPEWTA 431
+                                                                        ******************************************** PP
+
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned 466 lGapdgGddivGftpqfptyisGhatfGgalfgtlqefyGtddi 509
+                                                                        lGapdgGddi+GftpqfptyisGhatfGga+fg+++efyGtddi
+                                                         MEM9369193 432 LGAPDGGDDIIGFTPQFPTYISGHATFGGAVFGAIREFYGTDDI 475
+                                                                        ******************************************** PP
+
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned 510 sfevtseeleilledpelqeayGldlddatrsfdsfseamaenG 553
+                                                                        sfe+ s+eleil+++pelq ayGldlddatrsf s++eamaenG
+                                                         MEM9369193 476 SFELESKELEILMDNPELQAAYGLDLDDATRSFGSLTEAMAENG 519
+                                                                        ******************************************** PP
+
+  crossval_out_MEM9369193_[Planctomycetota_bacterium].fasta_aligned 554 rsrvylGihfdfddlvGqevGqaiaasvasefsvasdddsdt 595
+                                                                        rsrvylGihfdfdd+vGq+vGqa+a++vasef va++d+ + 
+                                                         MEM9369193 520 RSRVYLGIHFDFDDTVGQDVGQAVASTVASEFVVAANDNGEP 561
+                                                                        ***********************************9998743 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (646 nodes)
+Target sequences:                         11  (7436 residues searched)
+Passed MSV filter:                        11  (1); expected 0.2 (0.02)
+Passed bias filter:                       11  (1); expected 0.2 (0.02)
+Passed Vit filter:                        11  (1); expected 0.0 (0.001)
+Passed Fwd filter:                        11  (1); expected 0.0 (1e-05)
+Initial search space (Z):                 11  [actual number of targets]
+Domain search space  (domZ):              11  [number of targets reported over threshold]
+# CPU time: 0.10u 0.00s 00:00:00.10 Elapsed: 00:00:00.11
+# Mc/sec: 41.51
+//
+[ok]

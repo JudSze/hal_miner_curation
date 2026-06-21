@@ -1,0 +1,712 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  HALOGENATION/HALOPEROXIDASES/VIPOs/VIPO_2.hmm
+# target sequence database:        HALOGENATION/HALOPEROXIDASES/VIPOs/negative_test.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       all_whole_seqs_alignment  [M=448]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence             Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------             -----------
+    9.8e-30  101.4   4.9      3e-28   96.5   4.9    2.6  1  WP_145352678          [Roseimaritima multifibrata]
+    4.5e-27   92.7   1.5    1.4e-25   87.7   1.5    2.6  1  MEM9369193            [Planctomycetota bacterium]
+    2.1e-26   90.5   4.9    5.8e-25   85.7   4.9    2.7  1  WP_289164516          [Roseiconus lacunae]
+    3.1e-25   86.6   1.1    6.9e-24   82.2   1.1    2.6  1  WP_182867963          [Stieleria mannarensis]
+    9.1e-25   85.1   1.6    2.4e-23   80.4   1.6    2.8  1  WP_146575939          [Neorhodopirellula pilleata]
+    1.1e-24   84.9   3.4    2.6e-23   80.3   3.4    2.7  1  WP_009093798          [Rhodopirellula sp. SWK7]
+    1.6e-23   80.9   6.8    5.6e-22   75.9   6.8    2.6  1  WP_099259610          [Rhodopirellula bahusiensis]
+    3.5e-23   79.8   5.8    1.8e-21   74.2   5.8    2.8  1  QDS86324              [Rosistilla ulvae]
+    3.7e-22   76.5   2.3    1.5e-20   71.2   2.3    2.6  1  WP_283430655          [Neorhodopirellula lusitana]
+    1.4e-21   74.5   5.2    5.9e-20   69.2   5.2    2.6  1  V-CPO_Q7UVW2          [Rhodopirellula baltica]
+    2.1e-21   74.0   5.0    9.1e-20   68.6   5.0    2.8  1  WP_146517133          [Rubripirellula amarantea]
+    4.6e-14   49.8   1.1    8.7e-11   39.0   0.7    3.6  2  MarH1                 [Streptomyces sp. NBC_01808]
+    5.7e-12   42.9   0.5    6.8e-06   22.9   0.1    3.3  3  LvcH                  [Streptomyces aculeolatus]
+    1.4e-09   35.0   0.3    9.2e-07   25.7   0.0    3.1  3  Mcl40                 [Streptomyces sp. CNH189]
+    3.4e-08   30.4   1.1    5.8e-07   26.4   0.4    2.6  2  NapH4                 [Streptomyces sp. CNQ-525]
+    7.9e-08   29.2   0.9    0.00011   18.8   0.0    3.0  3  Mcl24                 [Streptomyces sp. CNH189]
+    4.7e-05   20.1   1.4     0.0014   15.3   1.4    2.9  1  NapH1                 [Streptomyces aculeolatus]
+     0.0001   19.0   0.1    0.00015   18.4   0.1    1.2  1  VBPO_Q8LLW7           [Corallina officinalis]
+    0.00011   18.9   0.3      0.024   11.2   0.0    2.6  2  MarH3                 [Streptomyces sp. NPDC004134]
+  ------ inclusion threshold ------
+      0.015   11.8   0.0      0.024   11.2   0.0    1.2  1  VBPO_O81959           [Corallina pilulifera]
+      0.072    9.6   0.5       0.33    7.4   0.0    1.9  2  sp|A0R627|DPRP_MYCS2  Decaprenylphosphoryl-5-phosphoribose ph
+       0.15    8.6   0.0       0.15    8.6   0.0    1.3  2  sp|P9WI52|DPRP_MYCTO  Decaprenylphosphoryl-5-phosphoribose ph
+       0.15    8.6   0.0       0.15    8.6   0.0    1.3  2  sp|P9WI53|DPRP_MYCTU  Decaprenylphosphoryl-5-phosphoribose ph
+
+
+Domain annotation for each sequence (and alignments):
+>> WP_145352678  [Roseimaritima multifibrata]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   96.5   4.9   1.7e-30     3e-28      29     435 ..     163     586 ..     149     597 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 96.5 bits;  conditional E-value: 1.7e-30
+  all_whole_seqs_alignment  29 ttleeqlsraqdritevivsdif..sPPvaariyaysnlaayevvkasdadyrslagqlnglkelseldsekelsyelaaivafl 111
+                                t  + +   +d   e++v d     P  a+r  a  nla y+ v+   +     ++   +l +ls  +++k +s e+aa  a +
+              WP_145352678 163 QTETDVVLEWNDLFGEILVDDTQnqNPGYASRSQAILNLAIYDAVAIATSGNDAETFYDYDL-NLS--QTDK-ISAEVAASQAAY 243
+                               444444555788999****998633699*****************99988777666665544.344..4555.999********* PP
+
+  all_whole_seqs_alignment 112 qvgkalifsedklealrdklyeelkekgikkevfeasielgekvadevlayakkdgyaesralpkysvtddpGrWePtPPa.yle 195
+                                v  +l ++++    + d ++e   + + ++  f +s+e+g ++ +e+la  + dg   s  ++ y+ td+ G ++P P +  + 
+              WP_145352678 244 TVLSSLYPDQQG---TLDAFLETSLSSLSNDGNFADSLEVGTEIGNEILAIRASDG---SDVIAEYTYTDEAGYFQPDPLNpDVA 322
+                               **9***999874...445556666678889999**********************9...57899**************9542589 PP
+
+  all_whole_seqs_alignment 196 aiePhWnkirpfvldsaaqfdpsppapfsleedssfykelievyetvekl.deeeieiakfWdcnPyvseikGhvmfaekkisPG 279
+                               a  P W  + +f + s ++f p   ++  +ee ++ y+e+ e+  +  +    ++ e   fW  +    e  G         +P 
+              WP_145352678 323 AWGPTWGDVDTFAISSSDDFRPETTPALTSEEYAASYNEVLELGSADSETrTADQTEAGIFWAYD---REGLG---------TPI 395
+                               9******************************************99876664789999999**643...33333.........788 PP
+
+  all_whole_seqs_alignment 280 ghWmgiaaiaaekaevdlaktaealalvgvaladafiscWdekyrsslirPetvi.......nk..yideeWkPilq........ 347
+                               + + ++ + +a ++   + + a  +a+++va+ada i+ Wd+k+  +  rP t i       n+    d +W  +          
+              WP_145352678 396 ALFNDVLQTIAVQEGNTIEENAALFAQASVAMADAGITAWDTKFTEEFWRPVTAIqagdtdgNDltEGDADWVALGApngedttg 480
+                               8888888888888888899999********************************93333332222245889*8764222333334 PP
+
+  all_whole_seqs_alignment 348 .tPpfPeytsGhsvvssaaavvltevfG.ddfsfvdds.ev...........pyGl....PvrsfdsflqaaeeaaisrlyGGih 414
+                                tP fP y sGh+   +a   +l e++G dd sf+  s e             yGl     +r+fdsf +a  e  +sr+y Gih
+              WP_145352678 481 fTPQFPTYISGHATFGAALFGTLQEFYGtDDISFDVTSaELemllenpelqeAYGLdlddATRTFDSFSEAMAENGVSRVYLGIH 565
+                               49*************************967889964432332222222223359*9444447*********************** PP
+
+  all_whole_seqs_alignment 415 yrdaieeGvkqGrkvGklvle 435
+                               +     +G   G+++ + v  
+              WP_145352678 566 FDFDDLVGQEVGQAIATSVAS 586
+                               *98888888888888776655 PP
+
+>> MEM9369193  [Planctomycetota bacterium]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   87.7   1.5   8.2e-28   1.4e-25      24     434 ..     120     548 ..     114     558 .. 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 87.7 bits;  conditional E-value: 8.2e-28
+  all_whole_seqs_alignment  24 kerlsttleeqlsra.qdritevivsd..ifsPPvaariyaysnlaayevvkasdadyrslagqlnglkelseldsekelsyela 105
+                               +er + +++++l  + ++   e++v d     P  a+r  a  nla y+ v  +d d  +   +  +l  l+  d+ +  +   +
+                MEM9369193 120 NERGERQQQSDLVIQwNNLFNELLVADeeQQNPGYASRAMAMLNLAIYDAVTITDGDVADTFYEY-DLSGLT-GDPIR--TDAAV 200
+                               4555555555555431455678888883346899**********************998876554.343332.33333..44667 PP
+
+  all_whole_seqs_alignment 106 aivaflqvgkalifsedklealrdklyeelkekgikkevfeasielgekvadevlayakkdgyaesralpkysvtddpGrWePtP 190
+                               + +a++ ++     ++d++++ rd++++ +     +     + +elg+++ +++la  ++dg+    ++  y+ +d+pG ++P P
+                MEM9369193 201 SQAAYTVLSSLYSGQQDMIDQFRDRVFRRIE----PGPGTADGVELGNEIGSTILAERANDGH---DTVGDYTYSDEPGSFQPDP 278
+                               88899988888888999*********96554....4455678899****************97...57899*************9 PP
+
+  all_whole_seqs_alignment 191 Pa.yleaiePhWnkirpfvldsaaqfdpsppapfsleedssfykelievyetvekl.deeeieiakfWdcnPyvseikGhvmfae 273
+                                +  +    P W ++ pfv+ sa+++ p   +p +++e ++ y+e++e+  +  +    ++ e   fW  +       G      
+                MEM9369193 279 LNpDVPVWGPAWSEVDPFVVSSAEDYAPQTTPPLDSAEYAASYNEVKELGSVDSETrTADQTEAGIFWAYDRVGL---G------ 354
+                               652578899****************************************99977664789999999**7654332...2...... PP
+
+  all_whole_seqs_alignment 274 kkisPGghWmgiaaiaaekaevdlaktaealalvgvaladafiscWdekyrsslirPetvink.........yideeWkP..... 344
+                                  +P + + +  + +a ++   l++ a  +a+++va+ada +  W++k+  +  rP t i             d eW       
+                MEM9369193 355 ---TPMSLFSDAIEAIATQQGNSLQENAALFAQASVAMADAGVVAWHTKFSEQFWRPVTAIQSgdldgndltEGDPEWTAlgapd 436
+                               ...344444444445556666679999999*******************************6422222222234789*8622223 PP
+
+  all_whole_seqs_alignment 345 .....ilqtPpfPeytsGhsvvssaaavvltevfG.ddfsf..........vddse..vpyGl....Pvrsfdsflqaaeeaais 407
+                                    i  tP fP y sGh+   +a    + e++G dd sf          +d+ e    yGl     +rsf s+ +a  e   s
+                MEM9369193 437 ggddiIGFTPQFPTYISGHATFGGAVFGAIREFYGtDDISFeleskeleilMDNPElqAAYGLdlddATRSFGSLTEAMAENGRS 521
+                               33443457**************************96788884333333333455552246**9444447**************** PP
+
+  all_whole_seqs_alignment 408 rlyGGihyrdaieeGvkqGrkvGklvl 434
+                               r+y Gih+     +G   G++v   v 
+                MEM9369193 522 RVYLGIHFDFDDTVGQDVGQAVASTVA 548
+                               ********9888887777777766654 PP
+
+>> WP_289164516  [Roseiconus lacunae]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   85.7   4.9   3.3e-27   5.8e-25      51     433 ..     177     575 ..     134     586 .. 0.78
+
+  Alignments for each domain:
+  == domain 1  score: 85.7 bits;  conditional E-value: 3.3e-27
+  all_whole_seqs_alignment  51 fsPPvaariyaysnlaayevvkasdadyrslagqlnglkelseldsekelsyelaaivaflqvgkalifsedklealrdklyeel 135
+                                 P  a+r  a  nla y+ v+   a     ++      ++ ++ +e  l  ++aa  a + v  +l ++++      d+ ++  
+              WP_289164516 177 QNPGYASRSQAILNLAIYDAVAIATAGASAETFYDY---AIDFTGAES-LDTDVAAAQAAYTVLSSLYPDQQA---SLDMALQSN 254
+                               468899999999999999999988776655554433...344454444.789999999999999999998764...334444444 PP
+
+  all_whole_seqs_alignment 136 kekgikkevfeasielgekvadevlayakkdgyaesralpkysvtddpGrWePtPPa.yleaiePhWnkirpfvldsaaqfdpsp 219
+                                +   ++  +++s++lg  va+e+la+ ++dg+    a + y+ td+ G ++P P    +    P W ++ +f +d   +f p p
+              WP_289164516 255 LSGAAENGNVSDSVALGTAVANEILALRAEDGFD---AAAEYTYTDEVGYFQPDPLTpDVPVWGPAWGEVDTFAIDDSGDFLPEP 336
+                               45667778899*********************96...6689************99542578899********************* PP
+
+  all_whole_seqs_alignment 220 papfsleedssfykelievyetvekl.deeeieiakfWdcnPyvseikGhvmfaekkisPGghWmgiaaiaaekaevdlaktaea 303
+                                +  ++e+ ++ y+e+ e+  +  ++   e+ ei  fW  +           +     +P + + +i + +a +++  l + a  
+              WP_289164516 337 TPGLDSEQYAQSYNEVLELGAADSDVrTPEQTEIGIFWAYDRV--------GL----GTPIALFNDILQTVAIEQDNTLEENAAL 409
+                               ********************99999956799*******75432........22....379999999******************* PP
+
+  all_whole_seqs_alignment 304 lalvgvaladafiscWdekyrsslirPetvi.......nk..yideeWkP..........ilqtPpfPeytsGhsvvssaaavvl 369
+                               +a+++va+ada +  Wd+k+  +  rP t i       n+    d +W            i  tP fP y sGh+   +a   +l
+              WP_289164516 410 FAQASVAMADAGVVAWDTKFTEQFWRPVTAIqagdadgNEltEGDADWVAlgapdggddeIGFTPQFPTYISGHATFGAALFGTL 494
+                               *******************************4433333222245889*751112333333678********************** PP
+
+  all_whole_seqs_alignment 370 tevfG.ddfsfvdds.ev...........pyGl....PvrsfdsflqaaeeaaisrlyGGihyrdaieeGvkqGrkvGklv 433
+                                e++G d+ +f   s e             yGl     +rsf sf +a +e   sr+y Gih+     +G   G+++   v
+              WP_289164516 495 QEFYGtDEIAFEVTSqELeilladpelqeAYGLdlddATRSFSSFSEAMQENGRSRIYLGIHFDFDDTVGQEVGQAIAASV 575
+                               ****955677753332221122222223369*9444447************************988888887777776555 PP
+
+>> WP_182867963  [Stieleria mannarensis]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   82.2   1.1     4e-26   6.9e-24      50     435 ..     165     565 ..     126     576 .. 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 82.2 bits;  conditional E-value: 4e-26
+  all_whole_seqs_alignment  50 ifsPPvaariyaysnlaayevvkasdadyrslagqlnglkelseldsekelsyelaaivaflqvgkalifsedklealrdklyee 134
+                               +  P  a+r  a  nla y+ v    +     ++    + +      + +ls e+aa  a + v   l + ++  e+l   l+  
+              WP_182867963 165 LQNPGYASRSMAMLNLAIYDAVGIATDGADAETFYDYAIDS----GGNANLSAEVAAAQAAYTVLSGLYPAQQ--ETLDAFLESS 243
+                               55688899999999999999988877776666665554443....4566788889888888888888887654..4444444444 PP
+
+  all_whole_seqs_alignment 135 lkekgikkevfeasielgekvadevlayakkdgyaesralpkysvtddpGrWePtPPa.yleaiePhWnkirpfvldsaaqfdps 218
+                               l     ++   +as  lg ++ +++la  ++dg   s  + +y  td+ G ++P P +  + a  P W ++ +f +ds + f p+
+              WP_182867963 244 LAGS-ESDRSTDASRTLGSEIGSTILAIRANDG---SDVIGQYQYTDEAGYFQPDPLSpDVPAWGPAWGEVDTFAIDSTEAFLPA 324
+                               4444.444567999******************9...57899**************9542599*********************** PP
+
+  all_whole_seqs_alignment 219 ppapfsleedssfykelievyetvekl.deeeieiakfWdcnPyvseikGhvmfaekkisPGghWmgiaaiaaekaevdlaktae 302
+                                p+   +e  ++ y+e+ e+  +  ++  +++ e   fW  +           +     +P + + ++  ++ae++   + + a 
+              WP_182867963 325 SPTDLTSEVYADAYNEVLELGSVDSEVrTDDQTEAGLFWAYDRV--------GL----GTPLALFNDVLIQIAEQQGNSMEENAA 397
+                               ***********************99996788999999**75532........22....378899999999*************** PP
+
+  all_whole_seqs_alignment 303 alalvgvaladafiscWdekyrsslirPetvi.......nk..yideeWkPi.......lq..tPpfPeytsGhsvvssaaavvl 369
+                                +a+++va+ada i  Wd+k+  +  rP t i       n+    d +W  +       l   tP fP y sGh+   +a   +l
+              WP_182867963 398 LFAQASVAMADAGIVAWDTKFGEEFWRPVTAIragdtdgNEltEGDGDWTALgapngkdLTgfTPQFPTYISGHATFGAALFATL 482
+                               *******************************94444433332235889*987333333321459********************* PP
+
+  all_whole_seqs_alignment 370 tevfG.ddfsfv...ddse.........vpyGl....PvrsfdsflqaaeeaaisrlyGGihyrdaieeGvkqGrkvGklvle 435
+                                e++G dd +f    d+ e           yG+     +rsf sf +a  e   sr+y Gih+     +G   G ++   v +
+              WP_182867963 483 QEFYGtDDIAFEltsDELEyllenpelqAAYGIdlddATRSFSSFSEAMAENGRSRVYLGIHFNFDDTVGQEVGSAIAASVTD 565
+                               ****96677775222332222222222246887334347************************99888888888888776665 PP
+
+>> WP_146575939  [Neorhodopirellula pilleata]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   80.4   1.6   1.4e-25   2.4e-23      53     434 ..     141     537 ..     103     553 .. 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 80.4 bits;  conditional E-value: 1.4e-25
+  all_whole_seqs_alignment  53 PPvaariyaysnlaayevvkasdadyrslagqlnglkelse.ldsekelsyelaaivaflqvgkalifsedkl.ealrdklyeel 135
+                               P  a+r  a  nla y+ v    +     ++      + +  l  + els e+aa  a + v   l ++++   +a r +     
+              WP_146575939 141 PGYASRSQAILNLAIYDAVGIATDGTDANTF-----YDYPIdLSGNVELSAEIAASEAAYTVLSGLYPEQQATlDAFRAQ----S 216
+                               5566666666677777666655544433333.....33332033456678888888888888888877765432555544....3 PP
+
+  all_whole_seqs_alignment 136 kekgikkevfeasielgekvadevlayakkdgyaesralpkysvtddpGrWePtPPa.yleaiePhWnkirpfvldsaaqfdpsp 219
+                                +   ++ v +as+ lg ++ +++la  ++dg+     +  y  +d+ G+++P P +  + a  P W  +  f ++s+++f p  
+              WP_146575939 217 ISGTASDRVTDASMTLGSDIGNTILAIRANDGFD---VMGEYEYSDELGTFQPDPLNpDVPAWGPAWGDVDLFAINSVDEFSPET 298
+                               35666778999*********************96...799**************9542599************************ PP
+
+  all_whole_seqs_alignment 220 papfsleedssfykelievyetvekl.deeeieiakfWdcnPyvseikGhvmfaekkisPGghWmgiaaiaaekaevdlaktaea 303
+                                +   +e+ ++ y+e+ e+  +  +    ++ e   fW  +    e  G         +P + + ++  ++ae++   l + a  
+              WP_146575939 299 TPELTSEQYAESYNEVLELGSVDSETrTADQTEAGLFWAYD---REGLG---------TPIALFNDVLIQIAEQQGNSLEENAAL 371
+                               *******************9997766478999999***643...33333.........8999999999***************** PP
+
+  all_whole_seqs_alignment 304 lalvgvaladafiscWdekyrsslirPetvink.yi........deeWkPi.......lq..tPpfPeytsGhsvvssaaavvlt 370
+                               +a+++va+ada i  Wd+k+  +  rP t i    i        d +W  +       l   tP fP y sGh+   +a   +l 
+              WP_146575939 372 FAQASVAMADAAIVAWDTKFGEDFWRPVTAIHSgDIdgndategDADWVALgapngedLTgfTPQFPTYISGHATFGGALFGTLQ 456
+                               ******************************964234111112226799876333333321449********************** PP
+
+  all_whole_seqs_alignment 371 evfG.ddfsfvddsev............pyGl....PvrsfdsflqaaeeaaisrlyGGihyrdaieeGvkqGrkvGklvl 434
+                               e++G dd sf  +se              yG+     +rsfdsf +a  e   sr+y Gih+     +G   G ++   v 
+              WP_146575939 457 EFYGtDDISFELASEElkglldnpelqeAYGIelddATRSFDSFSEAMAENGRSRVYLGIHFDFDDTVGQEVGAAIAASVA 537
+                               ***97789997666641111111111224776444447************************9888888777777766555 PP
+
+>> WP_009093798  [Rhodopirellula sp. SWK7]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   80.3   3.4   1.5e-25   2.6e-23      38     438 ..     168     587 ..     147     597 .. 0.78
+
+  Alignments for each domain:
+  == domain 1  score: 80.3 bits;  conditional E-value: 1.5e-25
+  all_whole_seqs_alignment  38 aqdritevivsdi..fsPPvaariyaysnlaayevvkasdadyrslagqlnglkelseldsekelsyelaaivaflqvgkalifs 120
+                                +d   e++ s +    P  a+r  a  n+a y+ v+   +     ++      ++ +  s+ +++ +++a  a + v   l ++
+              WP_009093798 168 WNDLFGEILASSVedQNPGYASRSMAMLNIAIYDSVNLATDGDDADTFYD---YSIEFRGSSDNVTTDIVASQAAYTVLSGLYPD 249
+                               56666677766663247999**************9998776655554443...4567888999999***9999999999999998 PP
+
+  all_whole_seqs_alignment 121 edklealrdklyeelkekgikkevfeasielgekvadevlayakkdgyaesralpkysvtddpGrWePtPPa.yleaiePhWnki 204
+                               ++  e+l   l   l  +  + +  ++si+lg ++ +e+la  + dg+ e   + +y+ td+ G ++  P +  +    P W ++
+              WP_009093798 250 QQ--ETLDSFLASSL-ANFRSGDSTSDSIALGTEIGNEILAVRADDGFDE---IVQYTYTDEVGSFQADPLNpNVPVWGPGWGEL 328
+                               75..55555555444.5566778899**********************98...689**********9988652578899****** PP
+
+  all_whole_seqs_alignment 205 rpfvldsaaqfdpsppapfsleedssfykelievyetvekl.deeeieiakfWdcnPyvseikGhvmfaekkisPGghWmgiaai 288
+                                +f + s +++ p   ++  +ee ++ y+e++e+  +   +  e++ e   fW       e  G         +P + + ++ a 
+              WP_009093798 329 DTFAISSTDEYLPETTPALTSEEYAASYNEVKELGAADSTVrTEDQTEAGIFWAY---DREGLG---------TPLALYNDVLAT 401
+                               **********************************99999985678899999**64...334333.........799999999999 PP
+
+  all_whole_seqs_alignment 289 aaekaevdlaktaealalvgvaladafiscWdekyrsslirPetvink.yi........deeWkP..........ilqtPpfPey 354
+                               +a ++   l + a  +a+++va+ada +  Wd+k+  +  rP t i    i        d eW            i  tP fP y
+              WP_009093798 402 IAVQQGNTLEENAALFAQASVAMADAAVVAWDTKFTEEFWRPVTAIQSgDIdgnpltegDAEWTAlgapdggddeIGFTPQFPTY 486
+                               99999999*************************************975345222222236799862222333333567******* PP
+
+  all_whole_seqs_alignment 355 tsGhsvvssaaavvltevfG.ddfsf..........vddsev..pyGlP....vrsfdsflqaaeeaaisrlyGGihyrdaieeG 422
+                                sGh+   +a   +l +++G dd sf           +d e    yG+     +r+f sf +a  e   sr+y Gih+     +G
+              WP_009093798 487 ISGHATFGGALFGTLQQFYGtDDISFeltsreleilLEDPELqeAYGISlddaTRTFSSFSEAMAENGRSRVYLGIHFDFDDLVG 571
+                               *******************96788883222222222234443336998533337************************9887788 PP
+
+  all_whole_seqs_alignment 423 vkqGrkvGklvlerla 438
+                                  G+ v   v  ++a
+              WP_009093798 572 QAVGQTVAATVASEFA 587
+                               8778877777766555 PP
+
+>> WP_099259610  [Rhodopirellula bahusiensis]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   75.9   6.8   3.2e-24   5.6e-22      48     431 ..     200     599 ..     173     610 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 75.9 bits;  conditional E-value: 3.2e-24
+  all_whole_seqs_alignment  48 sdifsPPvaariyaysnlaayevvkasdadyrslagqlnglkelseldsekelsyelaaivaflqvgkalifsedklealrdkly 132
+                               +d  sP  a+r  a  n+a y+ v+    d +  a+      + s +ds+ ++s + aa  a + v  +l  +++    + d++y
+              WP_099259610 200 EDFQSPGYASRAMAMLNVAIYDSVAIASGDSEI-AFYD---YDSSVTDSSGDVSSQAAASSAAFSVLSSLYSDQQ---DTIDSFY 277
+                               6899*******************9988776543.3333...2447789999998888888888888888876654...4568889 PP
+
+  all_whole_seqs_alignment 133 eelkekgikkevfeasielgekvadevlayakkdgyaesralpkysvtddpGrWePtPPa.yleaiePhWnkirpfvldsaaqfd 216
+                                ++ +   +++  ea + +ge+v ++vla  + dg   s al  y  td+ G ++  P +  +    P W  + +f +  ++ f 
+              WP_099259610 278 ADVLQTYSNDSETEAGLIVGEEVGSTVLANRADDG---SDALVEYKYTDEVGSFQSDPLNpDVPVWGPGWGDVDTFAISDVDAFT 359
+                               9999999************************9998...689*************9877442478899****************** PP
+
+  all_whole_seqs_alignment 217 psppapfsleedssfykelievyetvekl.deeeieiakfWdcnPyvseikGhvmfaekkisPGghWmgiaaiaaekaevdlakt 300
+                               p  p+   +ee ++ y+e++e+  +  +    ++ e   fW       e  G         +P + + +i + +a ++   + + 
+              WP_099259610 360 PESPPDLTSEEYADSYNEVKELGSVDSETrTADQTEAGIFWAY---DREGLG---------TPLSLFNDILETVAVQEGNTFEEN 432
+                               **********************99977664789999999**64...333333.........79999999999999999999**** PP
+
+  all_whole_seqs_alignment 301 aealalvgvaladafiscWdekyrsslirPetvink.........yideeWkP..........ilqtPpfPeytsGhsvvssaaa 366
+                               a  +a+++va+ada +  W +k++ +  rP t i +           d +W            +  tP fP y sGh+   +a  
+              WP_099259610 433 AALFAQASVAMADAAVVAWTTKFEEEFWRPVTAIQEgdtdgnaltEGDADWTAlgapdggddiVGFTPQFPTYISGHATFGGALF 517
+                               **********************************7532222222245899*862222333332457******************* PP
+
+  all_whole_seqs_alignment 367 vvltevfG.ddfsfvddse...v.........pyGl....PvrsfdsflqaaeeaaisrlyGGihyrdaieeGvkqGrkvGk 431
+                                +l e++G dd sf  +se   +          yGl     +r+fdsf +a  e   sr+y Gih+     +G   G+++  
+              WP_099259610 518 GTLQEFYGtDDISFTVASEeleIllddpdlqeAYGLdlddAERTFDSFSEAMAENGRSRVYLGIHFDFDDLVGQEVGQSIAA 599
+                               *******97789998666533313333333336**9444448************************8776677666666655 PP
+
+>> QDS86324  [Rosistilla ulvae]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   74.2   5.8     1e-23   1.8e-21      53     440 ..     214     616 ..     174     622 .. 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 74.2 bits;  conditional E-value: 1e-23
+  all_whole_seqs_alignment  53 PPvaariyaysnlaayevvkasdadyrslagqlnglkelseldsekelsyelaaivaflqvgkalifsedklealrdklyeelke 137
+                               P  a+r  a  nla ++ ++       +  +  +   e  +   + +++ e+aa  a + v  +l ++++    + d ++e    
+                  QDS86324 214 PGYASRSMAMLNLAIFDAAQ-----IGENGSDAETFYEYEFSVETDDITTEVAASQAAYTVLSSLYPDQQA---TLDAFLETSLA 290
+                               55566666666666555444.....3444455556667777778888999999999999999999999864...55666655556 PP
+
+  all_whole_seqs_alignment 138 kgikkevfeasielgekvadevlayakkdgyaesralpkysvtddpGrWePtPPa.yleaiePhWnkirpfvldsaaqfdpsppa 221
+                                  ++  f++s+ +g ++ +++la  + dg   s a+  y+ +d+ G ++  P +  +    P W ++ +f +ds + f p   +
+                  QDS86324 291 GYENDANFSDSLTVGSEIGNQILANRADDG---SDAVVDYTYSDEVGSFQADPLNpDVPVWGPAWGEVDTFAIDSTDAFLPESTP 372
+                               6678889********************998...67999***********9877442478899*********************** PP
+
+  all_whole_seqs_alignment 222 pfsleedssfykeliev..yetvekldeeeieiakfWdcnPyvseikGhvmfaekkisPGghWmgiaaiaaekaevdlaktaeal 304
+                               +  +ee ++ y+e++e+  ++++ +   e+ ei  fW  +    e  G         +P + + ++   +a ++   l + a  +
+                  QDS86324 373 ALTSEEYAASYNEVQELgaFDSTTR-TAEQTEIGIFWAYD---REGLG---------TPLAIYNDVLLTVAAQEGNTLEENAALF 444
+                               ****************832444444.67999******644...44444.........677777777777777777789999999* PP
+
+  all_whole_seqs_alignment 305 alvgvaladafiscWdekyrsslirPetvink.........yideeWkP..........ilqtPpfPeytsGhsvvssaaavvlt 370
+                               a+++va+ada i  Wd+k+  +  rP t i             d +W            i  tP fP y sGh+   +a   +l 
+                  QDS86324 445 AQASVAMADAAIVAWDTKFTEEFWRPVTAIQSgdldgnaltEGDPDWTAlgapdggedeIGFTPQFPTYISGHATFGGALFGTLQ 529
+                               ******************************7422222222234789*862222333333567*********************** PP
+
+  all_whole_seqs_alignment 371 evfG.ddfsfvddse...v.........pyGl....PvrsfdsflqaaeeaaisrlyGGihyrdaieeGvkqGrkvGklvlerla 438
+                               e++G dd +f   se   +          yGl     +rsf sf +a  e   sr+y Gih+     +G   G++v   v  ++ 
+                  QDS86324 530 EFYGtDDIAFELTSEeleIlledpelqeAYGLdlddATRSFSSFSEAMAENGRSRVYLGIHFDFDDLVGQDVGQAVAASVASAFD 614
+                               ***96788886555422212222222336**9444447************************98888888888888777776666 PP
+
+  all_whole_seqs_alignment 439 kk 440
+                               + 
+                  QDS86324 615 TD 616
+                               55 PP
+
+>> WP_283430655  [Neorhodopirellula lusitana]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   71.2   2.3   8.4e-23   1.5e-20      52     438 ..     180     582 ..     142     591 .. 0.75
+
+  Alignments for each domain:
+  == domain 1  score: 71.2 bits;  conditional E-value: 8.4e-23
+  all_whole_seqs_alignment  52 sPPvaariyaysnlaayevvkasdadyrslagqlnglkelseldsekelsyelaaivaflqvgkalifsedklealrdklyeelk 136
+                                P  a+r  a  nla ++ v+    +     g+  +  +   ++ + ++s e++a  a +    +l ++++   a+ d  +e+  
+              WP_283430655 180 NPGYASRSNAILNLAIFDSVAIASGNAD---GTFYDYDS-NITNFNANVSSEVVATGAAYTALSELYPDQQ---AQLDAALEDSL 257
+                               5677777777777777777776655543...33333322.3344556677788887777666667777765...33344444444 PP
+
+  all_whole_seqs_alignment 137 ekgikkevfeasielgekvadevlayakkdgyaesralpkysvtddpGrWePtPPa.yleaiePhWnkirpfvldsaaqfdpspp 220
+                                 + ++e  ++s++lge+va+++la+   dg   s  +  y+ td+ G ++  P +  + a    W ++ +f + s ++f p   
+              WP_283430655 258 AALSSREDPSTSLALGEEVANQILALRVDDG---SDIVGEYTYTDEIGYFQADPLNpDVPAWGLTWGEVDTFAISSTDEFIPETT 339
+                               56677888899******************99...56789**********99777432489999********************** PP
+
+  all_whole_seqs_alignment 221 apfsleedssfykelievyetvekl.deeeieiakfWdcnPyvseikGhvmfaekkisPGghWmgiaaiaaekaevdlaktaeal 304
+                               ++  +e  ++ y+e+ e+  +       ++ e   fW  +    e  G         +P + + ++ + +a ++   + + +  +
+              WP_283430655 340 PTLTSEAYAESYNEVLELGSVDSTErTADQTEAGIFWAYD---REGLG---------TPLALFGDVLESVATQEGNTFEENVALF 412
+                               *****************977654333678899999**643...33333.........78889999999999999999******** PP
+
+  all_whole_seqs_alignment 305 alvgvaladafiscWdekyrsslirPetvink.........yideeWkP..........ilqtPpfPeytsGhsvvssaaavvlt 370
+                               a+++va+ada i  Wd+k+  +  rP t i +           d +W            i  tP fP y sGh+   +a   +l 
+              WP_283430655 413 AQASVAMADAAIVAWDTKFSEEFWRPITAIQQgdadgndltEGDADWTSlgapdggddiIGFTPQFPTYISGHATFGGALFGTLQ 497
+                               ******************************8743333333235889*862222333443457*********************** PP
+
+  all_whole_seqs_alignment 371 evfG.ddfsfvddse...v.........pyGl....PvrsfdsflqaaeeaaisrlyGGihyrdaieeGvkqGrkvGklvlerla 438
+                               e++G dd sf+  se   +          yGl     +rsfdsf +a  e   sr+y Gih+     +G   G+++   v e +a
+              WP_283430655 498 EFYGtDDISFDVTSEeleIlledpelqeAYGLdlddATRSFDSFSEAMAENGRSRVYLGIHFDFDDLVGQEVGQAIAASVAEDFA 582
+                               ***97789998666533313333333336**9444447************************98888888888888777766655 PP
+
+>> V-CPO_Q7UVW2  [Rhodopirellula baltica]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   69.2   5.2   3.4e-22   5.9e-20      48     433 ..     216     617 ..     182     628 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 69.2 bits;  conditional E-value: 3.4e-22
+  all_whole_seqs_alignment  48 sdifsPPvaariyaysnlaayevvkasdadyrslagqlnglkelseldsekelsyelaaivaflqvgkalifsedklealrdkly 132
+                               +d   P  a+r  a  n+a y+ v+    d +    + ++    s ++s+ ++s + aa  a + v  +l  +++   ++ d++y
+              V-CPO_Q7UVW2 216 EDYQNPGYASRAMAMLNVAIYDSVAIASGDSEIAFYEYDS----SLTNSSGDVSSQAAASSAAYSVLSSLYSDQQ---ETIDSFY 293
+                               57788999**************999887776554444443....4556666777778888888888888776554...4568999 PP
+
+  all_whole_seqs_alignment 133 eelkekgikkevfeasielgekvadevlayakkdgyaesralpkysvtddpGrWePtP..PayleaiePhWnkirpfvldsaaqf 215
+                               +++     ++   ea + lg +v ++v+a  ++dg   s ++  y+ td+ G ++  P  P+ +    P W  + +f +  a+ f
+              V-CPO_Q7UVW2 294 GDVLATYSQDPETEAGLILGAEVNSTVIANRANDG---SDSVVEYTYTDEIGSFHSDPlnPD-VPVWGPGWGDVDTFAISDADAF 374
+                               999999999999**********************9...57899**********987773244.78899***************** PP
+
+  all_whole_seqs_alignment 216 dpsppapfsleedssfykelievyetvekl.deeeieiakfWdcnPyvseikGhvmfaekkisPGghWmgiaaiaaekaevdlak 299
+                                p  p+   +ee ++ y+e++e+  +       ++ e   fW  +    +  G         +P + + +i + +a ++   + +
+              V-CPO_Q7UVW2 375 TPESPPDLTSEEYAASYNEVKELGAVDSTTrTADQTEAGIFWAYD---RDGLG---------TPLTLFNDILETVAVQEGNTFEE 447
+                               **********************877665554678888899**643...33333.........78889999999999999999*** PP
+
+  all_whole_seqs_alignment 300 taealalvgvaladafiscWdekyrsslirPetvink......yi...deeWkP..........ilqtPpfPeytsGhsvvssaa 365
+                                a  +a+++va+ada +  W +k+  +l rP t i +      ++   d +W            +  tP fP y sGh+   +a 
+              V-CPO_Q7UVW2 448 NAALFAQASVAMADAGVVAWTTKFGEELWRPVTAIQEgdfdgnTLtegDADWTAlgapdggddiVGFTPQFPTYISGHATFGGAL 532
+                               ***********************************7532222222333899*862222333332457****************** PP
+
+  all_whole_seqs_alignment 366 avvltevfG.ddfsfvddse...v.........pyGl....PvrsfdsflqaaeeaaisrlyGGihyrdaieeGvkqGrkvGklv 433
+                                 +l e++G dd sf  +se   +          yGl     +r+f sf +a  e   sr+y Gih+     +G   G+++   v
+              V-CPO_Q7UVW2 533 FGTLQEFYGtDDISFTVASEeleIlldnpelqeAYGLnlddAERTFSSFSEAMAENGRSRVYLGIHFDFDDLVGQEVGQSIAAAV 617
+                               ********97789998666523212333222336**9444448************************877777777777766655 PP
+
+>> WP_146517133  [Rubripirellula amarantea]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   68.6   5.0   5.2e-22   9.1e-20      97     430 ..     248     601 ..     204     615 .. 0.73
+
+  Alignments for each domain:
+  == domain 1  score: 68.6 bits;  conditional E-value: 5.2e-22
+  all_whole_seqs_alignment  97 ekelsyelaaivaflqvgkalifsedklealrdklyeelkekgikkevfeasielgekvadevlayakkdgyaesralpkysvtd 181
+                               + +ls e +a +a +     l ++++   +l d +++ l     + + ++as+ lge++a+e+la+   dg       + y+ td
+              WP_146517133 248 TDDLSAEAVATAAAYTALSGLYPDQQA--QLDDAFEQSLT-VFSSSDDLSASLLLGEEIANEILALRVDDGSDL---TSEYTYTD 326
+                               445556666665555555566665542..34444444444.4455677899****************9999654...468***** PP
+
+  all_whole_seqs_alignment 182 dpGrWePtPPa.yleaiePhWnkirpfvldsaaqfdpsppapfsleedssfykelievyetvekl.deeeieiakfWdcnPyvse 264
+                               + G ++P P +  + a    W+ + +f + s + f p   ++  ++e ++ y+e+  +  +       ee ei  fW  +    e
+              WP_146517133 327 EVGYFQPDPLNpDVPAWGTAWRDVDTFSISSTEPFVPDTTPALTSDEYAASYNEVLALGSVDSTErTAEETEIGIFWAYD---RE 408
+                               ********95425899**************************************99876654332267899******643...33 PP
+
+  all_whole_seqs_alignment 265 ikGhvmfaekkisPGghWmgiaaiaaekaevdlaktaealalvgvaladafiscWdekyrsslirPetvinkyide......... 340
+                                 G         +P + + ++ + +a ++   + + +  +a+++va+ada i  W++k+  +  rP t i +  d+         
+              WP_146517133 409 GLG---------TPIALYTDVLESVATQEGNTFEENVALFAQASVAMADAAIVAWETKFSEEFWRPITAIQQGDDDgnpltegdt 484
+                               333.........899999********99999***************************************986543222222222 PP
+
+  all_whole_seqs_alignment 341 eWkP..........ilqtPpfPeytsGhsvvssaaavvltevfG.ddfsfvddse...v.........pyGl....Pvrsfdsfl 398
+                               +W            +  tP fP y sGh+   +a   +l +++G dd sf   se   v          yGl     +r+fdsf 
+              WP_146517133 485 QWTAlgapdggddiVGFTPQFPTYISGHATFGGALFGTLQDFYGtDDISFEVTSEeleVlldnpelqdAYGLdlddATRTFDSFS 569
+                               89752222333332346**************************977899965443222233333224459*9444447******* PP
+
+  all_whole_seqs_alignment 399 qaaeeaaisrlyGGihyrdaieeGvkqGrkvG 430
+                               +a  e   sr+y Gih+     +G   G+ + 
+              WP_146517133 570 EAMAENGRSRVYLGIHFDFDDLVGQEVGQTIA 601
+                               *****************866666666665554 PP
+
+>> MarH1  [Streptomyces sp. NBC_01808]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -1.5   0.0      0.99   1.7e+02      94     121 ..     120     147 ..     107     157 .. 0.80
+   2 !   39.0   0.7     5e-13   8.7e-11     197     440 ..     257     516 ..     254     523 .] 0.79
+
+  Alignments for each domain:
+  == domain 1  score: -1.5 bits;  conditional E-value: 0.99
+  all_whole_seqs_alignment  94 ldsekelsyelaaivaflqvgkalifse 121
+                                +s  + + ++a+i++ +q+ k++i+s 
+                     MarH1 120 SESATNRNMNIACIYSQYQLVKQVIPSR 147
+                               45556668999**************996 PP
+
+  == domain 2  score: 39.0 bits;  conditional E-value: 5e-13
+  all_whole_seqs_alignment 197 iePhWnkirpfvldsaaqfdpsppapfsleedssfykelievyetvekldeeeieiakfWdcnPyvseikGhvmfaekkisPGgh 281
+                               + P+ + ++p +     +f + pp   +     +f + + ev e+   l +e++ ia+  d   +     Gh +           
+                     MarH1 257 VTPQMRMVKPHIYADPREFTVPPPKHVDHTRPRDFKRSADEVLEASAALTDEQKAIAEVMDNKIW---GIGHSA----------- 327
+                               5799999**************************************************99884433...334433........... PP
+
+  all_whole_seqs_alignment 282 WmgiaaiaaekaevdlaktaealalvgvaladafiscWdekyrsslirPetvink................yide....eWkPil 346
+                                + ia    ++ e+ ++  a+ +    +a  d +i+ W+ek + +  rP tvi +                ++d+    eW   l
+                     MarH1 328 -LVIARKHDQNGELGVQGWAHFILEHLLATFDPLIAVWNEKTKYDAARPVTVIQHvygkkkvtswggpgmgTVDDmpagEWSSYL 411
+                               .4567777777777777777777777788899999999999999999999999753333333333333333467655558***** PP
+
+  all_whole_seqs_alignment 347 qtPpfPeytsGhsvvssaaavvltevfGdd.....fsf.vddsevpyGl.Pvrs....fdsflqaaeeaaisrlyGGihyrdaie 420
+                                    Pey sG + + saa+     +fG d     f+f   ++ ++ G+ P ++    f ++ + ++    sr++GG+h+r+++e
+                     MarH1 412 PVGDHPEYPSGSTTLCSAASQCARRYFGSDeldwkFTFpAGSTRTEPGVvPAKDielhFPTWTDFTQKCGASRVWGGVHFRKTVE 496
+                               ****************************8555544555336788888853766433338899999******************** PP
+
+  all_whole_seqs_alignment 421 eGvkqGrkvGklvlerlakk 440
+                                 +  G++ G +  e ++k+
+                     MarH1 497 TSIAFGEQFGDMAHEFVQKH 516
+                               ***********998877765 PP
+
+>> LvcH  [Streptomyces aculeolatus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    4.9   0.0     0.011         2     198     259 ..     262     323 ..     255     334 .. 0.86
+   2 !   11.8   0.0   8.6e-05     0.015     287     331 ..     332     376 ..     326     385 .. 0.88
+   3 !   22.9   0.1   3.9e-08   6.8e-06     340     437 ..     405     513 ..     396     522 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 4.9 bits;  conditional E-value: 0.011
+  all_whole_seqs_alignment 198 ePhWnkirpfvldsaaqfdpsppapfsleedssfykelievyetvekldeeeieiakfWdcn 259
+                                P+ +  r+  +d    f  +pp+  +     ++ + + e+ e+   l +e++  a+f+d  
+                      LvcH 262 TPQMRLTRAHTFDDPGRFPLAPPTHIDHTRPRAYRRSVDEILEASATLTDERKVTAEFFDNK 323
+                               677888888889999999999*******999***************************9965 PP
+
+  == domain 2  score: 11.8 bits;  conditional E-value: 8.6e-05
+  all_whole_seqs_alignment 287 aiaaekaevdlaktaealalvgvaladafiscWdekyrsslirPe 331
+                               ++aae+ ++dl   ++ la ++va+ da+i+ W+ k + +  rP 
+                      LvcH 332 QVAAETRDLDLDGWIHLLAAISVAIYDALIAAWHYKAKYDAPRPF 376
+                               46789999**************************99999988885 PP
+
+  == domain 3  score: 22.9 bits;  conditional E-value: 3.9e-08
+  all_whole_seqs_alignment 340 eeWkPilqtPpfPeytsGhsvvssaaavvltevfGddf.sf.....vddsevpyGlPvrs.....fdsflqaaeeaaisrlyGGi 413
+                               +eW   l     Pey sG + + +a a     +f dd   +       +s v+ G+ + +     + ++ +   +  isrl+GG+
+                      LvcH 405 NEWTAYLSVGDHPEYPSGSTTICAAQAQAARRYFDDDTlDWrqpipAGSSVVEPGITPAEdvefhWPTWTDYNRDCGISRLWGGV 489
+                               79********************************99852442222245788999985443122114466788999********** PP
+
+  all_whole_seqs_alignment 414 hyrdaieeGvkqGrkvGklvlerl 437
+                               h+r++ e  +  G++ G l    +
+                      LvcH 490 HFRKTTERSIVFGEQFGDLAHAYV 513
+                               *****************9976655 PP
+
+>> Mcl40  [Streptomyces sp. CNH189]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.5   0.0     0.057       9.9     199     257 ..     263     321 ..     258     336 .. 0.89
+   2 ?    2.7   0.0     0.051         9     309     334 ..     358     383 ..     346     390 .. 0.86
+   3 !   25.7   0.0   5.3e-09   9.2e-07     334     438 ..     403     518 ..     400     528 .. 0.75
+
+  Alignments for each domain:
+  == domain 1  score: 2.5 bits;  conditional E-value: 0.057
+  all_whole_seqs_alignment 199 PhWnkirpfvldsaaqfdpsppapfsleedssfykelievyetvekldeeeieiakfWd 257
+                               P+    +p ++   aqf  + p   +     ++ + + e+ e+  +l++e++ +a+  d
+                     Mcl40 263 PQIALTKPHIFTDPAQFPLAAPKHSDHTRPRDYKRSVDEILEASASLNDERKALAEVMD 321
+                               66666789999999***99999999999999************************9887 PP
+
+  == domain 2  score: 2.7 bits;  conditional E-value: 0.051
+  all_whole_seqs_alignment 309 valadafiscWdekyrsslirPetvi 334
+                               +a  da+i+ W +k + + +rP   +
+                     Mcl40 358 LATFDALIAVWRNKRKYDTVRPVSAV 383
+                               5678******************7765 PP
+
+  == domain 3  score: 25.7 bits;  conditional E-value: 5.3e-09
+  all_whole_seqs_alignment 334 inkyideeWkPilqtPpfPeytsGhsvvssaaavvltevfGdd.....fsfvdds.ev.pyGlPvrs....fdsflqaaeeaais 407
+                               +n+    eW P l t   Pey sG + + +a a +   +f  +      +f   +  v p   P ++    f+++ +  +  a s
+                     Mcl40 403 VNDIRATEWMPYLPTGDHPEYPSGSTSLCAAGAQTARRYFNSEeldwtLEFNAGTsAVePETTPAKNlqlhFHTWAEFNKACAES 487
+                               57777789********************************75322222234332212214456666422226777777888999* PP
+
+  all_whole_seqs_alignment 408 rlyGGihyrdaieeGvkqGrkvGklvlerla 438
+                               r++GG+h+r+++++    G++ G l  e ++
+                     Mcl40 488 RVWGGVHFRKTVQQSLIYGEQFGDLAHEFVN 518
+                               ***********************99877665 PP
+
+>> NapH4  [Streptomyces sp. CNQ-525]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -0.2   0.0       0.4        69     218     255 ..     150     188 ..     139     199 .. 0.82
+   2 !   26.4   0.4   3.3e-09   5.8e-07     339     439 ..     277     388 ..     197     393 .. 0.75
+
+  Alignments for each domain:
+  == domain 1  score: -0.2 bits;  conditional E-value: 0.4
+  all_whole_seqs_alignment 218 sppapfsleedssfyk.elievyetvekldeeeieiakf 255
+                                p + f  + d   yk  + e+ e+   ld+e++ +a+ 
+                     NapH4 150 LPRPDFTDHTDRRAYKrSVDEIIEASAALDDERKALAEI 188
+                               577888888887777615779************999975 PP
+
+  == domain 2  score: 26.4 bits;  conditional E-value: 3.3e-09
+  all_whole_seqs_alignment 339 deeWkPilqtPpfPeytsGhsvvssaaavvltevfG.dd....fsf.vddsevpyGl.Pv...r.sfdsflqaaeeaaisrlyGG 412
+                                +eW   l     Pey sG + v saa+     +f  dd    f f v +s v+ G+ Pv   r sf ++ +  +  a srl GG
+                     NapH4 277 ANEWAGYLPVGDHPEYPSGSTTVGSAASQAARRFFDsDDlnweFDFeVGKSIVEPGItPVenvRvSFPTWTDFNKRCAYSRLDGG 361
+                               3689999999************************9625433223334456667788744322234789999999*********** PP
+
+  all_whole_seqs_alignment 413 ihyrdaieeGvkqGrkvGklvlerlak 439
+                               +h+++++e  +  G++ G l  + +++
+                     NapH4 362 VHFKKTVERSMAFGEQFGDLAHDFIQR 388
+                               *******************98877765 PP
+
+>> Mcl24  [Streptomyces sp. CNH189]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.3   0.0     0.067        12     198     257 ..     257     316 ..     252     322 .. 0.82
+   2 ?    5.0   0.0      0.01       1.8     290     335 ..     330     375 ..     321     382 .. 0.86
+   3 !   18.8   0.0   6.5e-07   0.00011     340     434 ..     400     505 ..     391     515 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 2.3 bits;  conditional E-value: 0.067
+  all_whole_seqs_alignment 198 ePhWnkirpfvldsaaqfdpsppapfsleedssfyke.lievyetvekldeeeieiakfWd 257
+                                P+   ++p+      qf  +p + +s++ +   yk+ + ++ e+   l +e++ +a+++d
+                     Mcl24 257 TPQLALVKPYTYRNPGQFT-VPVPDHSTHTNVRKYKQsVDQILEASATLTDEKKLMAEWFD 316
+                               5777778888888999996.5778899999888887715579****************998 PP
+
+  == domain 2  score: 5.0 bits;  conditional E-value: 0.01
+  all_whole_seqs_alignment 290 aekaevdlaktaealalvgvaladafiscWdekyrsslirPetvin 335
+                               a   ++dl    + +a++++a  d +i+ W+ k + + +rP t + 
+                     Mcl24 330 ALSHDLDLDGWCHLYAVTALARLDDLIAAWHWKTKFNSVRPFTAVH 375
+                               556677888888999**************************99876 PP
+
+  == domain 3  score: 18.8 bits;  conditional E-value: 6.5e-07
+  all_whole_seqs_alignment 340 eeWkPilqtPpfPeytsGhsvvssaaavvltevfGdd.....fsfvddse.vpyGl.Pvr....sfdsflqaaeeaaisrlyGGi 413
+                               +eW   l     Pey sG + + sa a     ++Gdd     +sf   s  ++ Gl P +     +d++ + + + a sr++GG+
+                     Mcl24 400 NEWSSYLPVGDHPEYISGSTTLCSAEAQAARRFLGDDvldwtYSFPAGSGlTEPGLvPAKdtelHWDTWTRFTRDCADSRVWGGV 484
+                               7899999999*************************9866666788665542667875555222258899999************* PP
+
+  all_whole_seqs_alignment 414 hyrdaieeGvkqGrkvGklvl 434
+                               h++ +++  +  G + G    
+                     Mcl24 485 HFQTTVDRSIEWGAQFGDRAH 505
+                               ****99999999998886554 PP
+
+>> NapH1  [Streptomyces aculeolatus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   15.3   1.4   7.8e-06    0.0014     312     438 ..     362     518 ..     262     526 .. 0.73
+
+  Alignments for each domain:
+  == domain 1  score: 15.3 bits;  conditional E-value: 7.8e-06
+  all_whole_seqs_alignment 312 adafiscWdekyrsslirPetvi.....nkyi...........d...eeWkPilqtPpfPeytsGhsvvssaaavvltevfGdd. 376
+                                + +i+ W++k r + +rP t i     n++i           d    eW   l     Pey sG + + sa++     +f  d 
+                     NapH1 362 FEPLIAAWHHKTRFDAVRPVTAIrhvygNRKIrawggvgmgtvDiraSEWSSYLPVGDHPEYPSGSTSLCSATSQAARRYFDSDe 446
+                               45667777777777777777766333333333222222222223333589999999999******99999999999999997542 PP
+
+  all_whole_seqs_alignment 377 fsf.....vddsevpyGl.Pvrsfd....sflqaaeeaaisrlyGGihyrdaieeGvkqGrkvGklvlerla 438
+                                 +       ++ v+ G+ P ++      ++ + +   a sr++GG+h++ +++  +  G++ G l  e ++
+                     NapH1 447 LDWtinypAGSTVVEPGItPGKDLSihipTWTDFTRTCATSRVWGGVHFQTTVDRTIDFGEQFGDLAHEFVQ 518
+                               44411112356778889735454431122567888999**************************99877665 PP
+
+>> VBPO_Q8LLW7  [Corallina officinalis]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   18.4   0.1   8.8e-07   0.00015     349     430 ..     478     569 ..     474     580 .. 0.77
+
+  Alignments for each domain:
+  == domain 1  score: 18.4 bits;  conditional E-value: 8.8e-07
+  all_whole_seqs_alignment 349 PpfPeytsGhsvvssaaavvltevfGddfsfvddsevpyG...lPvrsfdsflqa.......aeeaaisrlyGGihyrdaieeGv 423
+                               P  P y sGh+vv++a  ++l  +f  +f+ +   ev      l + sf+  l         a++ ai r   G+hy +   e +
+               VBPO_Q8LLW7 478 PFHPSYGSGHAVVAGACVTILKAFFDSNFQIDQVFEVDKDedkLVKSSFKGTLTVagelnklADNIAIGRNMAGVHYFSDQFESI 562
+                               778***************************999999976422277888887554311122226789***********98877778 PP
+
+  all_whole_seqs_alignment 424 kqGrkvG 430
+                                 G++v 
+               VBPO_Q8LLW7 563 LLGEQVA 569
+                               8887775 PP
+
+>> MarH3  [Streptomyces sp. NPDC004134]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    4.9   0.0     0.011       1.9     200     257 ..     242     299 ..     236     307 .. 0.85
+   2 !   11.2   0.0   0.00013     0.024     340     435 ..     383     489 ..     375     498 .. 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 4.9 bits;  conditional E-value: 0.011
+  all_whole_seqs_alignment 200 hWnkirpfvldsaaqfdpsppapfsleedssfykelievyetvekldeeeieiakfWd 257
+                               +   ++p      +qf  +pp   +  +   + + + e+ e+   ld+e++  a+f+d
+                     MarH3 242 QMALVKPDTYRHPSQFPLAPPDHLDHTDPRRYKRSVDEILEASATLDDEQKVKAEFFD 299
+                               55556666666678999999999999999999999**********************9 PP
+
+  == domain 2  score: 11.2 bits;  conditional E-value: 0.00013
+  all_whole_seqs_alignment 340 eeWkPilqtPpfPeytsGhsvvssaaavvltevfGdd...fsf...vddsevpyGl.Pvrs....fdsflqaaeeaaisrlyGGi 413
+                               +eW   l     P+y sG + + +a a     ++Gdd   +++      + ++ G+ P r+    + ++ +  ++   srl+ G+
+                     MarH3 383 DEWASFLPVGDHPDYPSGSTTLCAAEAQAARRFLGDDrldWTWpipAGWTLTEPGItPARDmelhYGTWTEFVKDCGYSRLWAGV 467
+                               7899999999999999999999999999999999986422344211223445556447775223366888999999********* PP
+
+  all_whole_seqs_alignment 414 hyrdaieeGvkqGrkvGklvle 435
+                               h+  ++e  +  G + G l +e
+                     MarH3 468 HFTTTVERSMEFGTQFGDLAYE 489
+                               *****************99876 PP
+
+>> VBPO_O81959  [Corallina pilulifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.2   0.0   0.00014     0.024     349     429 ..     478     568 ..     474     579 .. 0.71
+
+  Alignments for each domain:
+  == domain 1  score: 11.2 bits;  conditional E-value: 0.00014
+  all_whole_seqs_alignment 349 PpfPeytsGhsvvssaaavvltevfGddfsfvddsevpy...GlPvrsfdsfl.......qaaeeaaisrlyGGihyrdaieeGv 423
+                               P  P y sGh+vv++a  ++l  +f    + +   ev      l + sf+  l       + a++ ai r   G+hy +   e  
+               VBPO_O81959 478 PFHPSYGSGHAVVAGACVTILKAFFDSGIEIDQVFEVDKdedKLVKSSFKGTLtvagelnKLADNIAIGRNMAGVHYFSDQFESL 562
+                               778**********************988887777777641114777788765511111114567789999999999987666666 PP
+
+  all_whole_seqs_alignment 424 kqGrkv 429
+                                 G++v
+               VBPO_O81959 563 LLGEQV 568
+                               666655 PP
+
+>> sp|A0R627|DPRP_MYCS2  Decaprenylphosphoryl-5-phosphoribose phosphatase OS=Mycolicibacterium smegmatis (strain ATCC 70
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    0.3   0.1      0.28        49     348     373 ..      97     122 ..      69     124 .. 0.78
+   2 ?    7.4   0.0    0.0019      0.33     405     435 ..     135     165 ..     132     175 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 0.3 bits;  conditional E-value: 0.28
+  all_whole_seqs_alignment 348 tPpfPeytsGhsvvssaaavvltevf 373
+                               tP+   + s h+  ++aaav l++  
+      sp|A0R627|DPRP_MYCS2  97 TPSRLSFPSAHATSTTAAAVLLAQTT 122
+                               66666778888888888888888765 PP
+
+  == domain 2  score: 7.4 bits;  conditional E-value: 0.0019
+  all_whole_seqs_alignment 405 aisrlyGGihyrdaieeGvkqGrkvGklvle 435
+                               a+srl  G+hy   +  Gv  G  vGk v +
+      sp|A0R627|DPRP_MYCS2 135 ALSRLVLGVHYPTDVVTGVVVGALVGKAVGK 165
+                               89************************98866 PP
+
+>> sp|P9WI52|DPRP_MYCTO  Decaprenylphosphoryl-5-phosphoribose phosphatase OS=Mycobacterium tuberculosis (strain CDC 1551
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -4.0   0.2       5.6   9.8e+02     348     368 ..      98     118 ..      96     122 .. 0.77
+   2 ?    8.6   0.0   0.00084      0.15     405     433 ..     136     164 ..     133     172 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: -4.0 bits;  conditional E-value: 5.6
+  all_whole_seqs_alignment 348 tPpfPeytsGhsvvssaaavv 368
+                               tP+   + s h+  ++aaa+ 
+      sp|P9WI52|DPRP_MYCTO  98 TPSQLSFPSAHATSTTAAALL 118
+                               777788889999988888876 PP
+
+  == domain 2  score: 8.6 bits;  conditional E-value: 0.00084
+  all_whole_seqs_alignment 405 aisrlyGGihyrdaieeGvkqGrkvGklv 433
+                               a+sr+  G+hy + + +Gv  G  vG +v
+      sp|P9WI52|DPRP_MYCTO 136 ALSRILLGVHYPSDVAVGVALGATVGAIV 164
+                               89************************987 PP
+
+>> sp|P9WI53|DPRP_MYCTU  Decaprenylphosphoryl-5-phosphoribose phosphatase OS=Mycobacterium tuberculosis (strain ATCC 256
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -4.0   0.2       5.6   9.8e+02     348     368 ..      98     118 ..      96     122 .. 0.77
+   2 ?    8.6   0.0   0.00084      0.15     405     433 ..     136     164 ..     133     172 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: -4.0 bits;  conditional E-value: 5.6
+  all_whole_seqs_alignment 348 tPpfPeytsGhsvvssaaavv 368
+                               tP+   + s h+  ++aaa+ 
+      sp|P9WI53|DPRP_MYCTU  98 TPSQLSFPSAHATSTTAAALL 118
+                               777788889999988888876 PP
+
+  == domain 2  score: 8.6 bits;  conditional E-value: 0.00084
+  all_whole_seqs_alignment 405 aisrlyGGihyrdaieeGvkqGrkvGklv 433
+                               a+sr+  G+hy + + +Gv  G  vG +v
+      sp|P9WI53|DPRP_MYCTU 136 ALSRILLGVHYPSDVAVGVALGATVGAIV 164
+                               89************************987 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (448 nodes)
+Target sequences:                       4019  (2103787 residues searched)
+Passed MSV filter:                       162  (0.0403085); expected 80.4 (0.02)
+Passed bias filter:                      162  (0.0403085); expected 80.4 (0.02)
+Passed Vit filter:                        52  (0.0129385); expected 4.0 (0.001)
+Passed Fwd filter:                        23  (0.00572282); expected 0.0 (1e-05)
+Initial search space (Z):               4019  [actual number of targets]
+Domain search space  (domZ):              23  [number of targets reported over threshold]
+# CPU time: 0.23u 0.00s 00:00:00.23 Elapsed: 00:00:00.19
+# Mc/sec: 4870.80
+//
+[ok]

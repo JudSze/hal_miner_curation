@@ -1,0 +1,382 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  HALOGENATION/HALOPEROXIDASES/final_VCPO/specific/whole_sequence/whole.hmm
+# target sequence database:        HALOGENATION/HALOPEROXIDASES/final_VCPO/specific/negative_test.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       specific_vcpos  [M=526]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence     Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------     -----------
+      5e-11   39.9   0.0      2e-07   28.0   0.0    2.3  2  WP_182867963  [Stieleria mannarensis]
+    6.6e-10   36.2   0.1    3.9e-07   27.0   0.1    3.2  1  A0A0P7YMS9    [Algoriphagus marincola HL-49]
+    1.3e-09   35.3   0.6    1.6e-07   28.3   0.0    2.5  3  WP_146575939  [Neorhodopirellula pilleata]
+    2.8e-09   34.1   0.7    3.5e-07   27.2   0.0    2.4  2  WP_289164516  [Roseiconus lacunae]
+    9.6e-08   29.1   0.0      4e-07   27.0   0.0    1.9  2  MEM9369193    [Planctomycetota bacterium]
+    1.9e-07   28.1   0.2    2.1e-05   21.4   0.0    2.4  2  WP_283430655  [Neorhodopirellula lusitana]
+    2.8e-07   27.5   0.2    9.9e-07   25.7   0.1    1.9  2  WP_145352678  [Roseimaritima multifibrata]
+      1e-06   25.7   0.1      2e-05   21.4   0.0    2.3  2  WP_009093798  [Rhodopirellula sp. SWK7]
+    1.3e-06   25.4   0.1    1.2e-05   22.1   0.0    2.3  2  QDS86324      [Rosistilla ulvae]
+    7.4e-06   22.9   2.7     0.0052   13.5   0.0    3.9  3  G0LAH5        [Zobellia galactanivorans]
+    7.8e-06   22.8   0.5     0.0027   14.4   0.5    3.0  1  G0LBK6        [Zobellia galactanivorans]
+    8.6e-06   22.6   0.0    1.8e-05   21.6   0.0    1.4  1  WP_146517133  [Rubripirellula amarantea]
+    8.8e-06   22.6   0.0    2.4e-05   21.1   0.0    1.7  1  WP_099259610  [Rhodopirellula bahusiensis]
+    0.00044   17.0   2.1       0.02   11.5   2.1    2.7  1  A0A0P7XDT3    [Algoriphagus marincola HL-49]
+
+
+Domain annotation for each sequence (and alignments):
+>> WP_182867963  [Stieleria mannarensis]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !    9.4   0.0    0.0003     0.085     124     201 ..     205     281 ..     168     296 .. 0.79
+   2 !   28.0   0.0   7.1e-10     2e-07     344     495 ..     391     546 ..     372     559 .. 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 9.4 bits;  conditional E-value: 0.0003
+  specific_vcpos 124 sesatnrnkniaalyaqlkvlkrvlpervkalrellt.alGldPddesedltsPvGiGnvaakavlkalkndGmnvlGd 201
+                     s  ++n   ++aa  a+++vl+++ p++ ++l + l  +l    +d+s+d +  +G     + ++l++++ndG +v+G+
+    WP_182867963 205 SGGNANLSAEVAAAQAAYTVLSGLYPAQQETLDAFLEsSLAGSESDRSTDASRTLG--SEIGSTILAIRANDGSDVIGQ 281
+                     4556777889**********************998852677788999999998765..567889************997 PP
+
+  == domain 2  score: 28.0 bits;  conditional E-value: 7.1e-10
+  specific_vcpos 344 dvdgwvhlllahvlatfdaliaawhyktkydavrPvtavrhvyGkkkvsawGGvGmGtv.ddipanewssylpvGdhPeypsGsttlcsaeaqaa 437
+                      +++ ++l+++ ++a+ da i aw++k   +  rPvta+r    + +  +  G G  t     + ++ +++ p    P y+sG +t+++a   + 
+    WP_182867963 391 SMEENAALFAQASVAMADAGIVAWDTKFGEEFWRPVTAIRAGDTDGNELTE-GDGDWTAlGAPNGKDLTGFTP--QFPTYISGHATFGAALFATL 482
+                     345678999*******************************86655444443.444444404444577888877..79****************** PP
+
+  specific_vcpos 438 rryldddeldwtlefpaGssvve.PgitPakdvel.....hfetwtdftkdcaesrvwgGvhfr 495
+                     + +++ d++ ++l+ +  + + e P++  a  ++l     +f+++++   + + srv+ G+hf+
+    WP_182867963 483 QEFYGTDDIAFELTSDELEYLLEnPELQAAYGIDLddatrSFSSFSEAMAENGRSRVYLGIHFN 546
+                     ************9988766655449**999888872222245556666677889********96 PP
+
+>> A0A0P7YMS9  [Algoriphagus marincola HL-49]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   27.0   0.1   1.4e-09   3.9e-07     293     516 ..     230     437 ..     222     441 .. 0.78
+
+  Alignments for each domain:
+  == domain 1  score: 27.0 bits;  conditional E-value: 1.4e-09
+  specific_vcpos 293 aykrsvdeileasatldderkvlaevldnkllGiglssk.viaekkdq..nneldvdgwvhlllahvlatfdaliaawhyktkydavrPvtavrh 384
+                     ++++ + e+ e++ +ld+e+k++a++ d   + +  s++ +i+ kk       ++++g ++  ++  la+    i a    t +da   +++ + 
+      A0A0P7YMS9 230 SFHQQMIEVYETTKSLDEEQKLIANFWDCNPFMVEFSGHmAIGVKKISpgGHWMGITGIAAEKAELNLAETA-YIHALVGMTLHDAF--ISCWKT 321
+                     5778888999******************88888877764156666543115679999999999999998864.55666666778875..788888 PP
+
+  specific_vcpos 385 vyGkkkvsawGGvGmGtvddipanewssylpvGdhPeypsGsttlcsaeaqaarryldddeldwtlefpaGssvvePgitPakdvelhfetwtdf 479
+                      y + +++         ++    + w + l +   Pey sG + ++ a+a +   y++d+ + +  +     s +  g+ P    e  f+++ + 
+      A0A0P7YMS9 322 KYETDRIRPET-----IINKTIDQRWRPLLQTPPFPEYTSGHSVISRAAAIVLTGYFGDN-FSYIDD-----SETYFGL-P----ERAFDSFLQA 400
+                     89999998643.....344445689********************************985.333322.....3333333.3....3469999999 PP
+
+  specific_vcpos 480 tkdcaesrvwgGvhfrktversiefGeqfGdlahefv 516
+                     + + a sr++gG+hfr ++e+ +  Ge+ G + ++ +
+      A0A0P7YMS9 401 SEEAAISRLYGGIHFRDAIEEGVRQGEKIGKMIWQAI 437
+                     ******************************9988765 PP
+
+>> WP_146575939  [Neorhodopirellula pilleata]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -2.7   0.1       1.4   4.1e+02     118     165 ..      26      74 ..      22      87 .. 0.79
+   2 !    4.7   0.0     0.008       2.3     131     201 ..     185     254 ..     146     268 .. 0.79
+   3 !   28.3   0.0   5.6e-10   1.6e-07     341     495 ..     363     519 ..     295     541 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: -2.7 bits;  conditional E-value: 1.4
+  specific_vcpos 118 iprrpssesatnrnkniaalyaqlkvlkrvlpe.rvkalrelltalGld 165
+                     + rrp +e    r++  a ++ + ++ + v +  +++al +l++   l+
+    WP_146575939  26 LRRRPQAENLETRQLLAANIFHNEAMPEDVNEGgHITALDALMVINRLN 74 
+                     689******999*999999999999999998752567788888766555 PP
+
+  == domain 2  score: 4.7 bits;  conditional E-value: 0.008
+  specific_vcpos 131 nkniaalyaqlkvlkrvlpervkalrell.talGldPddesedltsPvGiGnvaakavlkalkndGmnvlGd 201
+                       +iaa  a+++vl+++ pe+ ++l +    ++    +d+ +d +  +  G   ++++l++++ndG +v+G+
+    WP_146575939 185 SAEIAASEAAYTVLSGLYPEQQATLDAFRaQSISGTASDRVTDASMTL--GSDIGNTILAIRANDGFDVMGE 254
+                     5789****************9999876531466677788888887655..55567799************97 PP
+
+  == domain 3  score: 28.3 bits;  conditional E-value: 5.6e-10
+  specific_vcpos 341 neldvdgwvhlllahvlatfdaliaawhyktkydavrPvtavrhvyGkkkvsawGGvGmGtvddipanewssylpvGdhPeypsGsttlcsaeaq 435
+                     n   +++ ++l+++ ++a+ da i aw++k   d  rPvta++    + + ++ G +   ++   + ++ +++ p    P y+sG +t++ a   
+    WP_146575939 363 N--SLEENAALFAQASVAMADAAIVAWDTKFGEDFWRPVTAIHSGDIDGNDATEGDADWVALGAPNGEDLTGFTP--QFPTYISGHATFGGALFG 453
+                     3..46778999*******************************975555454555666666665556677888987..79**************** PP
+
+  specific_vcpos 436 aarryldddeldwtlefpaGssvv.ePgitPakdvel.....hfetwtdftkdcaesrvwgGvhfr 495
+                     + + +++ d++ ++l  +  +++  +P++  a  +el     +f+++++   + + srv+ G+hf 
+    WP_146575939 454 TLQEFYGTDDISFELASEELKGLLdNPELQEAYGIELddatrSFDSFSEAMAENGRSRVYLGIHFD 519
+                     ***************99988887627****99999883333357778888889999********85 PP
+
+>> WP_289164516  [Roseiconus lacunae]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !    4.8   0.1    0.0076       2.2     127     198 ..     219     289 ..     157     301 .. 0.78
+   2 !   27.2   0.0   1.2e-09   3.5e-07     291     496 ..     342     559 ..     326     588 .. 0.70
+
+  Alignments for each domain:
+  == domain 1  score: 4.8 bits;  conditional E-value: 0.0076
+  specific_vcpos 127 atnrnkniaalyaqlkvlkrvlpervkalrelltalGldPddesedltsPvGiGnvaakavlkalkndGmnv 198
+                     a   + ++aa  a+++vl+++ p++ ++l   l    l    e  ++++ v +G   a+ +l+ +++dG + 
+    WP_289164516 219 AESLDTDVAAAQAAYTVLSSLYPDQQASLDMALQ-SNLSGAAENGNVSDSVALGTAVANEILALRAEDGFDA 289
+                     4445789*******************99976665.579999999*************************875 PP
+
+  == domain 2  score: 27.2 bits;  conditional E-value: 1.2e-09
+  specific_vcpos 291 praykrsvdeileasatldd....erkvlaevldnkllGiglssk...viaekkdqnneldvdgwvhlllahvlatfdaliaawhyktkydavrP 378
+                     + +y +s +e+le  a+ +d    e+  +  +     +G+g+       i ++   +++  +++ ++l+++ ++a+ da + aw++k   +  rP
+    WP_289164516 342 SEQYAQSYNEVLELGAADSDvrtpEQTEIGIFWAYDRVGLGTPIAlfnDILQTVAIEQDNTLEENAALFAQASVAMADAGVVAWDTKFTEQFWRP 436
+                     567778888888877776662222444444455555566664332111222223333345677889***************************** PP
+
+  specific_vcpos 379 vtavrhvyGkkkvsawGGvG...mGtvddipanewssylpvGdhPeypsGsttlcsaeaqaarryldddeldwtlef.paGssvvePgitPakdv 469
+                     vta++    + +  + G +    +G+  d   ++  ++ p    P y+sG +t+++a   + + +++ de+ ++++  +    + +P++  a  +
+    WP_289164516 437 VTAIQAGDADGNELTEGDADwvaLGAP-DG-GDDEIGFTP--QFPTYISGHATFGAALFGTLQEFYGTDEIAFEVTSqELEILLADPELQEAYGL 527
+                     *****8765555444454430003333.32.344456766..79*****************************9876156778899***999877 PP
+
+  specific_vcpos 470 el.....hfetwtdftkdcaesrvwgGvhfrk 496
+                     +l     +f+++++  ++ + sr++ G+hf  
+    WP_289164516 528 DLddatrSFSSFSEAMQENGRSRIYLGIHFDF 559
+                     763322257888888999***********853 PP
+
+>> MEM9369193  [Planctomycetota bacterium]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -2.9   0.0       1.7   4.8e+02     174     201 ..     237     264 ..     216     273 .. 0.88
+   2 !   27.0   0.0   1.4e-09     4e-07     344     495 ..     374     530 ..     356     553 .. 0.75
+
+  Alignments for each domain:
+  == domain 1  score: -2.9 bits;  conditional E-value: 1.7
+  specific_vcpos 174 tsPvGiGnvaakavlkalkndGmnvlGd 201
+                     ++ v +Gn  + ++l+ ++ndG +++Gd
+      MEM9369193 237 ADGVELGNEIGSTILAERANDGHDTVGD 264
+                     5678999*99************999997 PP
+
+  == domain 2  score: 27.0 bits;  conditional E-value: 1.4e-09
+  specific_vcpos 344 dvdgwvhlllahvlatfdaliaawhyktkydavrPvtavrhvyGkkkvsawGGvGmGtvddi.panewssylpvGdhPeypsGsttlcsaeaqaa 437
+                      +++ ++l+++ ++a+ da + awh+k   +  rPvta++    + +  + G +   ++      ++  ++ p    P y+sG +t++ a   a 
+      MEM9369193 374 SLQENAALFAQASVAMADAGVVAWHTKFSEQFWRPVTAIQSGDLDGNDLTEGDPEWTALGAPdGGDDIIGFTP--QFPTYISGHATFGGAVFGAI 466
+                     4678899********************************9754333333344443333322102456677766..79****************** PP
+
+  specific_vcpos 438 rryldddeldwtlefpaGs.svvePgitPakdvel.....hfetwtdftkdcaesrvwgGvhfr 495
+                     r +++ d++ ++le +  +  + +P++  a  ++l     +f + t+   + + srv+ G+hf 
+      MEM9369193 467 REFYGTDDISFELESKELEiLMDNPELQAAYGLDLddatrSFGSLTEAMAENGRSRVYLGIHFD 530
+                     ************998765505668***999877773333368889999999***********85 PP
+
+>> WP_283430655  [Neorhodopirellula lusitana]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    4.1   0.1     0.013       3.6      93     201 ..     188     294 ..     179     303 .. 0.86
+   2 !   21.4   0.0   7.3e-08   2.1e-05     346     495 ..     406     560 ..     336     570 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 4.1 bits;  conditional E-value: 0.013
+  specific_vcpos  93 trltalavfdalapyhetavGvysriprrpssesatnrnkniaalyaqlkvlkrvlpervkalrelltalGldPddesedltsPvGiGnvaakav 187
+                     + + +la+fd++a     a G +        ++ ++n   ++ a  a+++ l+++ p++ ++l + l    l    + ed+++ + +G+  a+++
+    WP_283430655 188 NAILNLAIFDSVAIASGNADGTFYDYDSNI-TNFNANVSSEVVATGAAYTALSELYPDQQAQLDAALED-SLAALSSREDPSTSLALGEEVANQI 280
+                     6788999******99999999998876554.4556677778889999***************9988765.68888999***************** PP
+
+  specific_vcpos 188 lkalkndGmnvlGd 201
+                     l+ + +dG +++G+
+    WP_283430655 281 LALRVDDGSDIVGE 294
+                     ********999996 PP
+
+  == domain 2  score: 21.4 bits;  conditional E-value: 7.3e-08
+  specific_vcpos 346 dgwvhlllahvlatfdaliaawhyktkydavrPvtavrhvyGkkkvsawGGvGmGtvddi.panewssylpvGdhPeypsGsttlcsaeaqaarr 439
+                     ++ v+l+++ ++a+ da i aw++k   +  rP+ta+++   + +  + G +   ++      ++  ++ p    P y+sG +t++ a   + + 
+    WP_283430655 406 EENVALFAQASVAMADAAIVAWDTKFSEEFWRPITAIQQGDADGNDLTEGDADWTSLGAPdGGDDIIGFTP--QFPTYISGHATFGGALFGTLQE 498
+                     5678999*******************************977665555555554444422202456677766..79******************** PP
+
+  specific_vcpos 440 yldddeldwtlefpaGssv.vePgitPakdvel.....hfetwtdftkdcaesrvwgGvhfr 495
+                     +++ d++ + ++ +  + +  +P++  a  ++l     +f+++++   + + srv+ G+hf 
+    WP_283430655 499 FYGTDDISFDVTSEELEILlEDPELQEAYGLDLddatrSFDSFSEAMAENGRSRVYLGIHFD 560
+                     *********99987766550569**999877763322268888888889999********95 PP
+
+>> WP_145352678  [Roseimaritima multifibrata]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -1.3   0.0      0.52   1.5e+02     131     199 ..     233     300 ..     195     318 .. 0.75
+   2 !   25.7   0.1   3.5e-09   9.9e-07     344     495 ..     412     567 ..     341     589 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: -1.3 bits;  conditional E-value: 0.52
+  specific_vcpos 131 nkniaalyaqlkvlkrvlpervkalrelltalGldPddesedltsPvGiGnvaakavlkalkndGmnvl 199
+                       ++aa  a+++vl+++ p++  +l + l    l    +  + ++ + +G   ++ +l++++ dG +v+
+    WP_145352678 233 SAEVAASQAAYTVLSSLYPDQQGTLDAFLE-TSLSSLSNDGNFADSLEVGTEIGNEILAIRASDGSDVI 300
+                     457899999999999999999888876654.45666666667788888888888888888888887776 PP
+
+  == domain 2  score: 25.7 bits;  conditional E-value: 3.5e-09
+  specific_vcpos 344 dvdgwvhlllahvlatfdaliaawhyktkydavrPvtavrhvyGkkkvsawGGvGmGtvddipanewssylpvGdhPeypsGsttlcsaeaqaar 438
+                      +++ ++l+++ ++a+ da i+aw++k   +  rPvta++    + +  + G +   ++   + ++ +++ p    P y+sG +t+++a   + +
+    WP_145352678 412 TIEENAALFAQASVAMADAGITAWDTKFTEEFWRPVTAIQAGDTDGNDLTEGDADWVALGAPNGEDTTGFTP--QFPTYISGHATFGAALFGTLQ 504
+                     466778999*******************************98877777777888877776666777788877..79******************* PP
+
+  specific_vcpos 439 ryldddeldwtlef.paGssvvePgitPakdvelh.....fetwtdftkdcaesrvwgGvhfr 495
+                      +++ d++ + ++  +  + + +P++  a  ++l+     f+++++   + + srv+ G+hf 
+    WP_145352678 505 EFYGTDDISFDVTSaELEMLLENPELQEAYGLDLDdatrtFDSFSEAMAENGVSRVYLGIHFD 567
+                     **********9876155566667***999887775221114445555566778********96 PP
+
+>> WP_009093798  [Rhodopirellula sp. SWK7]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.1   0.0       0.1        29     126     198 ..     225     296 ..     191     302 .. 0.80
+   2 !   21.4   0.0     7e-08     2e-05     345     495 ..     410     565 ..     394     578 .. 0.75
+
+  Alignments for each domain:
+  == domain 1  score: 1.1 bits;  conditional E-value: 0.1
+  specific_vcpos 126 satnrnkniaalyaqlkvlkrvlpervkalrelltalGldPddesedltsPvGiGnvaakavlkalkndGmnv 198
+                     s+ n   +i a  a+++vl+++ p++ ++l + l a  l    + + +++ + +G   ++ +l+++++dG + 
+    WP_009093798 225 SSDNVTTDIVASQAAYTVLSGLYPDQQETLDSFL-ASSLANFRSGDSTSDSIALGTEIGNEILAVRADDGFDE 296
+                     345666899999***************9997766.5567766666667788999999999********99875 PP
+
+  == domain 2  score: 21.4 bits;  conditional E-value: 7e-08
+  specific_vcpos 345 vdgwvhlllahvlatfdaliaawhyktkydavrPvtavrh..vyGkkkvs...awGGvGmGtvddipanewssylpvGdhPeypsGsttlcsaea 434
+                     +++ ++l+++ ++a+ da + aw++k   +  rPvta++   + G+   +    w   G     d   ++  ++ p    P y+sG +t++ a  
+    WP_009093798 410 LEENAALFAQASVAMADAAVVAWDTKFTEEFWRPVTAIQSgdIDGNPLTEgdaEWTALGAP---DG-GDDEIGFTP--QFPTYISGHATFGGALF 498
+                     56778999******************************97325555443311123333322...22.233456655..79*************** PP
+
+  specific_vcpos 435 qaarryldddeldwtlefpa.GssvvePgitPakdvelh..fetwtdftk...dcaesrvwgGvhfr 495
+                      + +++++ d++ ++l+       + +P++  a  ++l+    t++ f+    + + srv+ G+hf 
+    WP_009093798 499 GTLQQFYGTDDISFELTSRElEILLEDPELQEAYGISLDdaTRTFSSFSEamaENGRSRVYLGIHFD 565
+                     ***************987650555667******999996334556677661115678********95 PP
+
+>> QDS86324  [Rosistilla ulvae]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    0.4   0.0      0.16        47     132     197 ..     258     322 ..     221     328 .. 0.82
+   2 !   22.1   0.0   4.3e-08   1.2e-05     345     495 ..     437     592 ..     422     630 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 0.4 bits;  conditional E-value: 0.16
+  specific_vcpos 132 kniaalyaqlkvlkrvlpervkalrelltalGldPddesedltsPvGiGnvaakavlkalkndGmn 197
+                      ++aa  a+++vl+++ p++ ++l + l    l   ++  + ++ + +G   ++++l+ +++dG +
+        QDS86324 258 TEVAASQAAYTVLSSLYPDQQATLDAFLE-TSLAGYENDANFSDSLTVGSEIGNQILANRADDGSD 322
+                     67899999999999999999999987765.456666777778888888888888888888888865 PP
+
+  == domain 2  score: 22.1 bits;  conditional E-value: 4.3e-08
+  specific_vcpos 345 vdgwvhlllahvlatfdaliaawhyktkydavrPvtavrhvyGkkkvsawGGvGmGtvddipane.wssylpvGdhPeypsGsttlcsaeaqaar 438
+                     +++ ++l+++ ++a+ da i aw++k   +  rPvta++    + +  + G +   ++      e   ++      P y+sG +t++ a   + +
+        QDS86324 437 LEENAALFAQASVAMADAAIVAWDTKFTEEFWRPVTAIQSGDLDGNALTEGDPDWTALGAPDGGEdEIGFT--PQFPTYISGHATFGGALFGTLQ 529
+                     56778999*******************************97777777777777766664433333034555..589******************* PP
+
+  specific_vcpos 439 ryldddeldwtlefpaGssv.vePgitPakdvel.....hfetwtdftkdcaesrvwgGvhfr 495
+                      +++ d++ ++l+ +  + +  +P++  a  ++l     +f+++++   + + srv+ G+hf 
+        QDS86324 530 EFYGTDDIAFELTSEELEILlEDPELQEAYGLDLddatrSFSSFSEAMAENGRSRVYLGIHFD 592
+                     ***********998776655056***999877772222245566666677889********96 PP
+
+>> G0LAH5  [Zobellia galactanivorans]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -1.9   0.0      0.81   2.3e+02     107     159 ..      75     129 ..      42     149 .. 0.70
+   2 !    6.9   0.4    0.0017      0.49     348     383 ..     302     337 ..     173     343 .. 0.87
+   3 !   13.5   0.0   1.8e-05    0.0052     408     511 ..     342     434 ..     336     441 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: -1.9 bits;  conditional E-value: 0.81
+  specific_vcpos 107 yhetavGvysriprrpssesatnrnkniaalyaqlkvlkrvl..pervkalrell 159
+                      +++  G    ++  p  +++   n ++aa+ a++++ kr++  ++r+++lr+ l
+          G0LAH5  75 NYNSLAGQLNGLTAIPEPDTTKTINYELAAVVAHMELSKRLIfsEDRMESLRDSL 129
+                     3445556666777778888888889999999999999999863356777788865 PP
+
+  == domain 2  score: 6.9 bits;  conditional E-value: 0.0017
+  specific_vcpos 348 wvhlllahvlatfdaliaawhyktkydavrPvtavr 383
+                         + + ++a+ da+i+ w++k + + +rP t+++
+          G0LAH5 302 TLFAYTKASVAMADAFISCWDEKYRSNLIRPETVIN 337
+                     4445677899***********************996 PP
+
+  == domain 3  score: 13.5 bits;  conditional E-value: 1.8e-05
+  specific_vcpos 408 newssylpvGdhPeypsGsttlcsaeaqaarrylddd.eldwtlefpaGssvvePgitPakdvelhfetwtdftkdcaesrvwgGvhfrktvers 501
+                     + w + l +   Pey sG + ++ a++ +    ++d+ ++d  +e+        P   P +    +f+++ + + + a sr++gG+h+r ++e  
+          G0LAH5 342 DSWKPVLQTPPFPEYTSGHSVVSGAASVVLTEVFGDNfSFDDDTEV--------PYGLPIR----SFKSFKQAADEAAISRMYGGIHYRAAIEVG 424
+                     679999999999******9999999999999999875233433333........3345666....5788889999******************** PP
+
+  specific_vcpos 502 iefGeqfGdl 511
+                     ++ G  +G  
+          G0LAH5 425 VKQGRDLGTF 434
+                     ***9999865 PP
+
+>> G0LBK6  [Zobellia galactanivorans]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   14.4   0.5   9.5e-06    0.0027     266     514 ..     203     435 ..     193     440 .. 0.59
+
+  Alignments for each domain:
+  == domain 1  score: 14.4 bits;  conditional E-value: 9.5e-06
+  specific_vcpos 266 lvkphifkdPsqfplaaPdhsdhtrpraykrsvdeileasatldderkvlaevldnkllGiglsskviaekkdqnneldvdgwvhlllahvlat. 359
+                       +p + +  +qf    P+  d ++   + + + e+ e+  +ldd++  +a++ d     i+++   +   + q        w+h+ ++++  + 
+          G0LBK6 203 TLRPFVLDSAAQFDPGLPTPFDSAEDSPFYKEAMEVYETVENLDDDKLEVAKFWDCN-PNISHTKGHVMYFQQQI--SPGGHWMHIAAQILEEQk 294
+                     556666666666666666666666666666666666666666666666666666644.23444444443333321..122335555444443321 PP
+
+  specific_vcpos 360 fdaliaawhyktkydavrPvtavrhvyGkkkvsawGGvGmGtvddipanewssylpvGdhPeypsGsttlcsaeaqaarryldddeldwtlefpa 454
+                     +d + aa  + +    v    a    + +k  s+   +    +++   ++w + l +   Pe+ sG +  +sa+a +    ++dd       f +
+          G0LBK6 295 VDGVKAAETM-S-MLGVALADAFISCWDQKYKSSLTRP-ETYINNYIDQDWEPILQTPAFPEHTSGHSVASSAAATVLTGVFGDDY-----AF-V 380
+                     3333333222.2.2222333333334433333333333.33456667789*****************9999999999999999984.....22.3 PP
+
+  specific_vcpos 455 GssvvePgitPakdvelhfetwtdftkdcaesrvwgGvhfrktversiefGeqfGdlahe 514
+                       + v  g+ P +     f+++ + + + a sr++gG+h+r ++e  ++ G   G l  e
+          G0LBK6 381 DATEVPYGL-PPRS----FQSFWQAAEEAAISRLYGGIHYRPAIELGVKQGRAVGRLVLE 435
+                     345555555.5555....55555668899**********************999988766 PP
+
+>> WP_146517133  [Rubripirellula amarantea]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   21.6   0.0   6.4e-08   1.8e-05     346     495 ..     433     587 ..     412     598 .. 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 21.6 bits;  conditional E-value: 6.4e-08
+  specific_vcpos 346 dgwvhlllahvlatfdaliaawhyktkydavrPvtavrhvyGkkkvsawGGvGmGtvddip..anewssylpvGdhPeypsGsttlcsaeaqaar 438
+                     ++ v+l+++ ++a+ da i aw++k   +  rP+ta+++   + +  + G +   ++   p   ++  ++ p    P y+sG +t++ a   + +
+    WP_146517133 433 EENVALFAQASVAMADAAIVAWETKFSEEFWRPITAIQQGDDDGNPLTEGDTQWTAL-GAPdgGDDIVGFTP--QFPTYISGHATFGGALFGTLQ 524
+                     56688999******************************9765555444444333332.22201355667766..79******************* PP
+
+  specific_vcpos 439 ryldddeldwtlefpaGss.vvePgitPakdvelh.....fetwtdftkdcaesrvwgGvhfr 495
+                      +++ d++ ++++ +  +  + +P++  a  ++l+     f+++++   + + srv+ G+hf 
+    WP_146517133 525 DFYGTDDISFEVTSEELEVlLDNPELQDAYGLDLDdatrtFDSFSEAMAENGRSRVYLGIHFD 587
+                     ***********998765551668****99888775221114445555566788********95 PP
+
+>> WP_099259610  [Rhodopirellula bahusiensis]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   21.1   0.0   8.5e-08   2.4e-05     347     495 ..     431     584 ..     419     598 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 21.1 bits;  conditional E-value: 8.5e-08
+  specific_vcpos 347 gwvhlllahvlatfdaliaawhyktkydavrPvtavrhvyGkkkvsawGGvGmGtvddip.anewssylpvGdhPeypsGsttlcsaeaqaarry 440
+                     + ++l+++ ++a+ da + aw +k   +  rPvta++    + +  + G +   ++      ++  ++ p    P y+sG +t++ a   + + +
+    WP_099259610 431 ENAALFAQASVAMADAAVVAWTTKFEEEFWRPVTAIQEGDTDGNALTEGDADWTALGAPDgGDDIVGFTP--QFPTYISGHATFGGALFGTLQEF 523
+                     5578999******************************987777777766666555432221456677766..79********************* PP
+
+  specific_vcpos 441 ldddeldwtlefpa.GssvvePgitPakdvel.....hfetwtdftkdcaesrvwgGvhfr 495
+                     ++ d++ +t+  +     + +P++  a  ++l      f+++++   + + srv+ G+hf 
+    WP_099259610 524 YGTDDISFTVASEElEILLDDPDLQEAYGLDLddaerTFDSFSEAMAENGRSRVYLGIHFD 584
+                     *********987651556678999998755552211167888888888999********96 PP
+
+>> A0A0P7XDT3  [Algoriphagus marincola HL-49]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   11.5   2.1     7e-05      0.02     405     514 ..     335     433 ..     194     438 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 11.5 bits;  conditional E-value: 7e-05
+  specific_vcpos 405 ipanewssylpvGdhPeypsGsttlcsaeaqaarryldddeldwtlefpaGssvvePgitPakdvelhfetwtdftkdcaesrvwgGvhfrktve 499
+                        +ew + l +   Pe+ sG +  ++a+a +  + +++d     ++f + ss v+ g+ P+++    ++++ + + + a sr++gG+h+  +++
+      A0A0P7XDT3 335 YIDEEWLPILQTPPFPEHTSGHSVASTAAAYTLTQIFGED-----FHF-VDSSEVNYGL-PVRE----YDSFLEASSEAAISRLYGGIHYMPAIK 418
+                     55689****************9999999999999999997.....333.5677788886.7775....889999999****************** PP
+
+  specific_vcpos 500 rsiefGeqfGdlahe 514
+                     +    G q G+l ++
+      A0A0P7XDT3 419 EGAWQGRQVGELIWK 433
+                     **********99876 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (526 nodes)
+Target sequences:                       4015  (2091668 residues searched)
+Passed MSV filter:                       103  (0.0256538); expected 80.3 (0.02)
+Passed bias filter:                       84  (0.0209215); expected 80.3 (0.02)
+Passed Vit filter:                        25  (0.00622665); expected 4.0 (0.001)
+Passed Fwd filter:                        14  (0.00348692); expected 0.0 (1e-05)
+Initial search space (Z):               4015  [actual number of targets]
+Domain search space  (domZ):              14  [number of targets reported over threshold]
+# CPU time: 0.17u 0.00s 00:00:00.17 Elapsed: 00:00:00.08
+# Mc/sec: 12391.68
+//
+[ok]

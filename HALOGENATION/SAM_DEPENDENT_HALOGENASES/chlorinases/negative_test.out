@@ -1,0 +1,361 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  HALOGENATION/SAM_DEPENDENT_HALOGENASES/chlorinases/chlorinase_v2.hmm
+# target sequence database:        HALOGENATION/SAM_DEPENDENT_HALOGENASES/chlorinases/negative_test.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       chlorinase  [M=272]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence              Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------              -----------
+    1.6e-75  247.4   0.0    1.8e-75  247.2   0.0    1.0  1  A0A1V5AZT2             [Methanosaeta sp. PtaU1.Bin055]
+    9.5e-74  241.5   0.0    2.9e-42  138.3   0.0    2.0  2  A0A8H9J0C4             [Amycolatopsis bartoniae]
+    2.3e-71  233.7   0.0    1.7e-38  125.9   0.0    2.0  2  W0W999                 [Streptomyces sp.]
+    2.7e-71  233.5   0.0    6.5e-38  124.0   0.0    2.0  2  Q70GK9                 [Streptantibioticus cattleyicolor]
+    4.8e-71  232.6   0.2    1.4e-42  139.3   0.0    2.0  2  A0A535N3L3             [Chloroflexota bacterium]
+    9.6e-70  228.4   0.0    3.7e-39  128.1   0.0    2.0  2  W8JNL4                 [Nocardia brasiliensis]
+    1.9e-67  220.8   0.0    1.7e-38  125.9   0.0    2.0  2  WP_015619887.1         [Actinoplanes sp. N902-109]
+    1.1e-66  218.3   0.1    9.2e-37  120.2   0.0    2.0  2  WP_144383880.1         [Streptomyces sp. SAJ15]
+    4.4e-43  140.9   0.4      6e-43  140.5   0.4    1.1  1  sp|A4X4S2|RSAMH_SALTO  (R)-S-adenosyl-L-methionine hydrolase 
+    2.1e-41  135.5   1.1    2.8e-41  135.0   1.1    1.1  1  sp|A8M783|RSAMH_SALAI  (R)-S-adenosyl-L-methionine hydrolase 
+    6.8e-35  114.1   0.0    8.8e-35  113.7   0.0    1.2  1  sp|O58212|RSAMH_PYRHO  (R)-S-adenosyl-L-methionine hydrolase 
+    9.9e-34  110.3   0.0    2.3e-33  109.1   0.0    1.6  1  sp|Q5SLF5|RSAMH_THET8  (R)-S-adenosyl-L-methionine hydrolase 
+    1.1e-24   80.6   0.1    3.1e-24   79.2   0.1    1.5  1  sp|Q59045|RSAMH_METJA  (R)-S-adenosyl-L-methionine hydrolase 
+
+
+Domain annotation for each sequence (and alignments):
+>> A0A1V5AZT2  [Methanosaeta sp. PtaU1.Bin055]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  247.2   0.0   1.1e-76   1.8e-75       3     268 ..      18     287 ..      16     290 .] 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 247.2 bits;  conditional E-value: 1.1e-76
+  chlorinase   3 kkliaflsdvGshdeahalckGlmksiaPkativdithdvtpfdvreGalfladvPesfPeetvicayvyPetGtatktvavrnekGqllvaPnnGlls 101
+                 + +i f+sd+G++d++ ++ckG+m +++P+a ivdi+h++tp+d+ +G+ ++ d+P++fP+ t  ++  y etGt++++va++   G + vaPnnGll+
+  A0A1V5AZT2  18 RPIIGFMSDLGTEDDSVGICKGVMLGLCPDAVIVDISHSMTPWDIDQGSRLIVDLPKFFPNWTTFATTSYRETGTSARSVAIKLPSGHVYVAPNNGLLT 116
+                 689************************************************************************************************ PP
+
+  chlorinase 102 laleaspaveayevtskdvmnqPvtPtwyGkdvvaacaahlaagtdlaavGPkidldklvrlplaeasee.egairGevvridrafGnvwtnipsdllg 199
+                   +e  + veayevt    +   + Ptw+ +d+va  aa +aag +l++vG  ++  ++vr +l + ++  +g i+G v  idr fGn+wtnip  ++ 
+  A0A1V5AZT2 117 RVIEDHGYVEAYEVTTVGAIPAEPEPTWFSRDMVAYPAAAIAAGFPLENVGRPLNDSEIVRADLPRYTQAeDGIIQGIVTTIDRPFGNIWTNIPRRIIE 215
+                 ***************************************************99999*********99987478899**********************9 PP
+
+  chlorinase 200 svp..edgerlevevsk.eslelpfcktfgevekgepllylssrGklalglnqgnllekypvapgdsvtvsl 268
+                 + +    g++++v +++  +le+pf++tfg+v  ++p+ y++srG ++l+   gnl++ y++ +g++v+++ 
+  A0A1V5AZT2 216 NELriAYGTNIRVVLDNlLVLEVPFMRTFGDVGLKKPMCYINSRGYFSLAYYGGNLADPYNIRRGMPVKIES 287
+                 765115788888887762578************************************************976 PP
+
+>> A0A8H9J0C4  [Amycolatopsis bartoniae]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  101.3   0.1   3.3e-32   5.5e-31       3      87 ..       6      90 ..       4      96 .. 0.96
+   2 !  138.3   0.0   1.8e-43   2.9e-42      88     268 ..     113     297 ..     108     298 .] 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 101.3 bits;  conditional E-value: 3.3e-32
+  chlorinase  3 kkliaflsdvGshdeahalckGlmksiaPkativdithdvtpfdvreGalfladvPesfPeetvicayvyPetGtatktvavrne 87
+                + ++af+sd+G  d++ a ckGlm si+P++tivd+ h +tp+dv eGa ++ d+P++fPe tv ++  yP tGt+t++va+r +
+  A0A8H9J0C4  6 RPVLAFMSDLGITDDSVAQCKGLMLSICPDVTIVDVCHTMTPWDVEEGARYIVDLPRFFPEGTVFATTTYPATGTGTRSVALRIK 90
+                789*******************************************************************************976 PP
+
+  == domain 2  score: 138.3 bits;  conditional E-value: 1.8e-43
+  chlorinase  88 kGqllvaPnnGllslaleaspaveayevtskdvmnqPvtPtwyGkdvvaacaahlaagtdlaavGPkidldklvrlplaeasee.egairGevvridra 185
+                    + +aPnnGll+  +e  + +eayev s++v+ + + Pt+y +++va  +ahlaag +l++vG k+  d++vr++  ++++  +g + G v  id+ 
+  A0A8H9J0C4 113 GSYIYIAPNNGLLTSVIEEHGYLEAYEVSSTEVIPEQPEPTFYSREMVAVPSAHLAAGFPLEKVGRKLADDEIVRFDRPKPVQDeDGDLVGVVTTIDHP 211
+                 455679************************************************************************9999874899*********** PP
+
+  chlorinase 186 fGnvwtnipsdllg.svpedgerlevevske.slelpfcktfgev.ekgepllylssrGklalglnqgnllekypvapgdsvtvsl 268
+                 fGnvwtni  + l       g+ l++++++    +lp+  tf++   +g p++ylssrG lal++n ++l+  y++++g +v+v++
+  A0A8H9J0C4 212 FGNVWTNIHREDLEkAGVGYGTELTITLDEVlPFRLPLSPTFADAgPIGSPVAYLSSRGYLALARNAASLAYPYNIQAGIPVRVHV 297
+                 *********99998567889*******8775269*********983589***********************************96 PP
+
+>> W0W999  [Streptomyces sp.]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  105.9   0.1   1.3e-33   2.2e-32       2      86 ..       7      91 ..       6      99 .. 0.96
+   2 !  125.9   0.0     1e-39   1.7e-38      90     267 ..     117     297 ..     111     299 .] 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 105.9 bits;  conditional E-value: 1.3e-33
+  chlorinase  2 ekkliaflsdvGshdeahalckGlmksiaPkativdithdvtpfdvreGalfladvPesfPeetvicayvyPetGtatktvavrn 86
+                ++ +iaf+sd+G+ d++ a ckGlm+si+P++t+vd+ h++tp+dv eGa ++ d+P++fPe tv ++  yP tGt+t++vavr 
+      W0W999  7 QRPIIAFMSDLGTTDDSVAQCKGLMHSICPGVTVVDVCHSMTPWDVEEGARYIVDLPRFFPEGTVFATTTYPATGTTTRSVAVRI 91
+                689********************************************************************************96 PP
+
+  == domain 2  score: 125.9 bits;  conditional E-value: 1e-39
+  chlorinase  90 qllvaPnnGllslaleaspaveayevtskdvmnqPvtPtwyGkdvvaacaahlaagtdlaavGPkidldklvrlplaeaseeegairGevvridrafGn 188
+                  + +aPnnGll++ le  + +eayevts++v+   + Pt+y +++va  +ahlaag +la+vG ++d  ++vr+       +  a+ G v  id+ fGn
+      W0W999 117 YIYIAPNNGLLTTVLEEHGYIEAYEVTSTKVIPANPEPTFYSREMVAIPSAHLAAGFPLAEVGRRLDDSEIVRFHRPAVEISGEALSGVVTAIDHPFGN 215
+                 5679**********************************************************************99888888999************** PP
+
+  chlorinase 189 vwtnipsdllg.svpedgerlevevske.slelpfcktfgevekgep.llylssrGklalglnqgnllekypvapgdsvtvs 267
+                 +wtni    l      +g++l++ +++    e p+  tf++         yl+srG l+l++n ++l+  y++ +g  v+v+
+      W0W999 216 IWTNIHRTDLEkAGIGQGKHLKIILDDVlPFEAPLTPTFADAGAIGNiAFYLNSRGYLSLARNAASLAYPYNLKAGLKVRVE 297
+                 *****97777648899********8875268*********99765550579****************************997 PP
+
+>> Q70GK9  [Streptantibioticus cattleyicolor]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  107.4   0.1   4.4e-34   7.4e-33       3      87 ..       8      92 ..       6      98 .. 0.96
+   2 !  124.0   0.0   3.9e-39   6.5e-38      88     267 ..     115     297 ..     110     299 .] 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 107.4 bits;  conditional E-value: 4.4e-34
+  chlorinase  3 kkliaflsdvGshdeahalckGlmksiaPkativdithdvtpfdvreGalfladvPesfPeetvicayvyPetGtatktvavrne 87
+                + +iaf+sd+G+ d++ a ckGlm+si+P++t+vd+ h++tp+dv eGa ++ d+P++fPe tv ++  yP tGt+t++vavr +
+      Q70GK9  8 RPIIAFMSDLGTTDDSVAQCKGLMYSICPDVTVVDVCHSMTPWDVEEGARYIVDLPRFFPEGTVFATTTYPATGTTTRSVAVRIK 92
+                689********************************************************************************76 PP
+
+  == domain 2  score: 124.0 bits;  conditional E-value: 3.9e-39
+  chlorinase  88 kGqllvaPnnGllslaleaspaveayevtskdvmnqPvtPtwyGkdvvaacaahlaagtdlaavGPkidldklvrlplaeaseeegairGevvridraf 186
+                    + +aPnnGll++ le  + +eayevts++v+ + + Pt+y +++va  +ahlaag +l++vG  ++ +++vr++     +   a+ G v  id+ f
+      Q70GK9 115 GSYIYIAPNNGLLTTVLEEHGYLEAYEVTSPKVIPEQPEPTFYSREMVAIPSAHLAAGFPLSEVGRPLEDHEIVRFNRPAVEQDGEALVGVVSAIDHPF 213
+                 455679***************************************************************9*******9998888999************ PP
+
+  chlorinase 187 Gnvwtnipsdllg.svpedgerlevevske.slelpfcktfgevek.gepllylssrGklalglnqgnllekypvapgdsvtvs 267
+                 Gnvwtni    l       g+rl++++++    e p+  tf++  + g+  +yl+srG l++++n ++l+  y + +g+s +v+
+      Q70GK9 214 GNVWTNIHRTDLEkAGIGYGARLRLTLDGVlPFEAPLTPTFADAGEiGNIAIYLNSRGYLSIARNAASLAYPYHLKEGMSARVE 297
+                 *******987776478899*******9876269*********9865166679***************************99986 PP
+
+>> A0A535N3L3  [Chloroflexota bacterium]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   91.6   0.1   2.9e-29   4.8e-28       9      87 ..       1      79 [.       1      91 [. 0.96
+   2 !  139.3   0.0   8.3e-44   1.4e-42      85     269 ..      99     287 ..      91     290 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 91.6 bits;  conditional E-value: 2.9e-29
+  chlorinase  9 lsdvGshdeahalckGlmksiaPkativdithdvtpfdvreGalfladvPesfPeetvicayvyPetGtatktvavrne 87
+                +sd+G+ d++ ++ckGlm s++P++ ivdi h++tpfd+ eGa ++ d+P++fPe tv ++  yP tGt+t++va+r  
+  A0A535N3L3  1 MSDLGTFDDSVGICKGLMLSVCPDVVIVDICHAMTPFDIEEGARLIVDLPRFFPEGTVFATTTYPATGTSTRSVALRIR 79
+                69*************************************************************************9965 PP
+
+  == domain 2  score: 139.3 bits;  conditional E-value: 8.3e-44
+  chlorinase  85 rnekGqllvaPnnGllslaleaspaveayevtskdvmnqPvtPtwyGkdvvaacaahlaagtdlaavGPkidldklvrlplaeasee.egairGevvri 182
+                 r e   + +aPnnGll+  +e  + +eayevts++v+   + Pt++ +++va  aahlaag +l++vG  ++  ++vr++  ++++  +g+  G +  +
+  A0A535N3L3  99 RAEGAYIYIAPNNGLLTSVIEEHGYLEAYEVTSTSVIPARPEPTFFSREMVAVPAAHLAAGFPLSQVGRPLQDSEIVRFDRRRPASLgDGGFAGVITVV 197
+                 455556789***********************************************************99999*******99988776*********** PP
+
+  chlorinase 183 drafGnvwtnipsdllg.svpedgerlevevske.slelpfcktfgev.ekgepllylssrGklalglnqgnllekypvapgdsvtvslv 269
+                 dr +Gnvwtni+ + l+ +    g+rl+++v++    +l++  tf++  e+g p+ y++srG l+l++n +nl++ y++ + ++v+v++v
+  A0A535N3L3 198 DRPYGNVWTNISRKDLAnQGIAYGTRLRITVDNVlPFDLTLTPTFADAgEIGAPVCYVNSRGYLSLARNASNLADTYNIRRHMPVNVQVV 287
+                 ************98887578999*******9886258999*****99736799**********************************987 PP
+
+>> W8JNL4  [Nocardia brasiliensis]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   98.3   0.1   2.6e-31   4.4e-30       3      86 ..       8      91 ..       6      98 .. 0.96
+   2 !  128.1   0.0   2.2e-40   3.7e-39      87     267 ..     114     298 ..     109     300 .] 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 98.3 bits;  conditional E-value: 2.6e-31
+  chlorinase  3 kkliaflsdvGshdeahalckGlmksiaPkativdithdvtpfdvreGalfladvPesfPeetvicayvyPetGtatktvavrn 86
+                + +iaf+sd+G  d++ a ckGlm s++P++tivdi h ++p+dv eGa ++ d+P+ fPe tv ++  yP tGt++++va+r 
+      W8JNL4  8 RPIIAFMSDLGITDDSVAQCKGLMLSVCPDVTIVDICHTMQPWDVEEGARYIVDLPRLFPEGTVFATTTYPATGTTARSVALRI 91
+                689******************************************************************************995 PP
+
+  == domain 2  score: 128.1 bits;  conditional E-value: 2.2e-40
+  chlorinase  87 ekGqllvaPnnGllslaleaspaveayevtskdvmnqPvtPtwyGkdvvaacaahlaagtdlaavGPkidldklvrlplaeasee.egairGevvridr 184
+                 e   + +aPnnGll++ ++  + +eayev s++v+ + + Pt+y +++va  +ahlaag +l++vG ++  d++vr++  ++  + +  + G v  id+
+      W8JNL4 114 EGSYIYIAPNNGLLTTVIKEHGYLEAYEVSSPEVIPEQPEPTFYSREMVALPSAHLAAGFPLEKVGRRLADDEIVRFERKDPELVaDHDLVGYVTNIDH 212
+                 4455679***********************************************************************99887654999********** PP
+
+  chlorinase 185 afGnvwtnipsdllg.svpedgerlevevske.slelpfcktfgev.ekgepllylssrGklalglnqgnllekypvapgdsvtvs 267
+                  fGnvwtni    l       g++l++++++    elp+  tf++  e+g  ++ylssrG lal++n ++l+  y++ +g sv+v+
+      W8JNL4 213 PFGNVWTNIHRTDLEkLGVGYGTKLRITLDGVlPFELPLSPTFADAgEIGAAVAYLSSRGYLALARNAASLAYPYNLKAGISVQVK 298
+                 *********9888873557789******9876269*********983568899******************************997 PP
+
+>> WP_015619887.1  [Actinoplanes sp. N902-109]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   93.1   0.1     1e-29   1.8e-28       9      87 ..       1      79 [.       1      85 [. 0.97
+   2 !  125.9   0.0     1e-39   1.7e-38      88     267 ..     102     285 ..      97     287 .] 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 93.1 bits;  conditional E-value: 1e-29
+      chlorinase  9 lsdvGshdeahalckGlmksiaPkativdithdvtpfdvreGalfladvPesfPeetvicayvyPetGtatktvavrne 87
+                    +sd+G+ d++ a ckGlm si+P++tivd+ h++tp+dv eGa ++ d+P++fPe tv ++  yP tGtat++va+r +
+  WP_015619887.1  1 MSDLGTTDDSVAQCKGLMLSICPGVTIVDVNHSMTPWDVEEGARYIVDLPRFFPEGTVFATTTYPATGTATRSVALRIK 79
+                    69**************************************************************************976 PP
+
+  == domain 2  score: 125.9 bits;  conditional E-value: 1e-39
+      chlorinase  88 kGqllvaPnnGllslaleaspaveayevtskdvmnqPvtPtwyGkdvvaacaahlaagtdlaavGPkidldklvrlplaeasee.egairGevvr 181
+                        + +aPnnGll++ +e  + +eayev +++v+   + Pt+y +++va  +ahlaag +l++vG ++  d++vr+ + ++s++  g++ G +  
+  WP_015619887.1 102 GSYIYIAPNNGLLTTVIEEHGYIEAYEVSNTKVIPAEPEPTFYSREMVAIPSAHLAAGFPLNEVGRALSDDEIVRFAKPKPSTVsGGVLSGVITN 196
+                     455679************************************************************************9999883556789999* PP
+
+      chlorinase 182 idrafGnvwtnipsdllg.svpedgerlevevsk.eslelpfcktfgev.ekgepllylssrGklalglnqgnllekypvapgdsvtvs 267
+                     id+ fGn+wtni    l        ++l++ +++  + +lp++ tf++  ++g+p++y++srG lal++n + l+  y++ +g +vtv+
+  WP_015619887.1 197 IDHPFGNLWTNIHRTDLEkAGIGYQTQLRLLLDGvLTFDLPLVPTFADAgQIGDPVIYINSRGYLALARNAAPLAYPYNLKAGLTVTVT 285
+                     ************988777344445556666665526889********983579*********************************996 PP
+
+>> WP_144383880.1  [Streptomyces sp. SAJ15]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   96.1   0.2   1.2e-30     2e-29       9      86 ..       1      78 [.       1      84 [. 0.97
+   2 !  120.2   0.0   5.5e-38   9.2e-37      87     267 ..     101     284 ..      96     286 .] 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 96.1 bits;  conditional E-value: 1.2e-30
+      chlorinase  9 lsdvGshdeahalckGlmksiaPkativdithdvtpfdvreGalfladvPesfPeetvicayvyPetGtatktvavrn 86
+                    +sd+G+ d++ a ckGlm si+P++tivd+ h++tpfdv eG+ ++ d+P++fPe tv ++  yP tGt+t++vavr 
+  WP_144383880.1  1 MSDLGTTDDSVAQCKGLMLSICPDVTIVDVCHSMTPFDVEEGSRYIVDLPRFFPEGTVFATTTYPATGTETRSVAVRI 78
+                    69**************************************************************************96 PP
+
+  == domain 2  score: 120.2 bits;  conditional E-value: 5.5e-38
+      chlorinase  87 ekGqllvaPnnGllslaleaspaveayevtskdvmnqPvtPtwyGkdvvaacaahlaagtdlaavGPkidldklvrlplaeaseeegairGevvr 181
+                     e   + +aPnnGll+  le  + +eayev s++v+ + + Pt+y +++va  +ahlaag +l++vG  ++  ++vr+      +  + + G v  
+  WP_144383880.1 101 EGSYIYIAPNNGLLTPVLEEHGYIEAYEVSSTEVIPERPEPTFYSREMVAIPSAHLAAGFPLDQVGRPLKDSEIVRFSRPAVETAGTELTGVVSA 195
+                     4455679***********************************************************99998******99999999999******* PP
+
+      chlorinase 182 idrafGnvwtnipsdllg.svpedgerlevevske.slelpfcktfgeve.kgepllylssrGklalglnqgnllekypvapgdsvtvs 267
+                     id+ fGn+wtni    l       g+++++++++    el+++ tf++    g+ ++yl+srG l+l++n ++l+  y++ +g sv+v+
+  WP_144383880.1 196 IDHPFGNIWTNIHRTDLEkAGIGYGRQIRITLDDVlPFELTLVPTFADAGeVGNVVAYLNSRGYLSLARNAASLAYPYNLKAGLSVRVD 284
+                     ************987776478899*******9876268*********9861577889*****************************996 PP
+
+>> sp|A4X4S2|RSAMH_SALTO  (R)-S-adenosyl-L-methionine hydrolase OS=Salinispora tropica (strain ATCC BAA-916 / DSM 44818 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  140.5   0.4   3.6e-44     6e-43       6     267 ..       7     259 ..       3     261 .] 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 140.5 bits;  conditional E-value: 3.6e-44
+             chlorinase   6 iaflsdvGshdeahalckGlmksiaPkativdithdvtpfdvreGalfladvPesfPeetvicayvyPetGtatktvavrnekGqllv 93 
+                            i+f +d G +d   a c G++ +++P++ ++d+th v p dvr Ga +la+   + P+ +v  a v P  Gta +++a+    G llv
+  sp|A4X4S2|RSAMH_SALTO   7 ISFTTDYGLADGFVAACHGVLARLTPTTRVIDVTHLVPPGDVRRGAAVLAQAVPYLPA-AVHLAVVDPGVGTARRAIALAAGDG-LLV 92 
+                            89***********************************************998878887.678899**************99988.89* PP
+
+             chlorinase  94 aPnnGllslaleaspav.eayevtskdvmnqPvtPtwyGkdvvaacaahlaagtdlaavGPkidldklvrlplaeaseeegairGevv 180
+                            +P+nGll  a  a + v +a e+t++d +   v+ t++G+d+ a +aa la g +la+ GP++++ +lvrlp      e  +   ev+
+  sp|A4X4S2|RSAMH_SALTO  93 GPDNGLLLDAAAALGGVrAAVELTNRDWLGADVSATFHGRDIFAPVAARLALGAPLADAGPAVEPSTLVRLPVPLVRPEADGFTAEVL 180
+                            ******999999988772578****************************************************99999999******* PP
+
+             chlorinase 181 ridrafGnvwtnipsdllgsvpedgerlevevskeslelpfcktfgevekgepllylssrGklalglnqgnllekypvapgdsvtvs 267
+                             +d+ fGnv    +  ll  +p++   l+ve    +     ++tfg+v+ ge l++++s G++a+++n g  ++ ++v+pgd ++v+
+  sp|A4X4S2|RSAMH_SALTO 181 TVDH-FGNVQLAASGSLLEPLPRS---LRVE----RQPAVRVHTFGDVAPGELLVHVDSTGQVAVAVNGGRAADLLGVTPGDRLRVT 259
+                            **96.****999999999887764...4443....23344579***************************************99885 PP
+
+>> sp|A8M783|RSAMH_SALAI  (R)-S-adenosyl-L-methionine hydrolase OS=Salinispora arenicola (strain CNS-205) OX=391037 GN=S
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  135.0   1.1   1.7e-42   2.8e-41       5     267 ..       6     259 ..       2     261 .] 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 135.0 bits;  conditional E-value: 1.7e-42
+             chlorinase   5 liaflsdvGshdeahalckGlmksiaPkativdithdvtpfdvreGalfladvPesfPeetvicayvyPetGtatktvavrnekGqll 92 
+                             i+f +d G +d   a c G++ ++aP+a ++d+th v p dvr Ga +la+   + P+ +v  a v P  Gta +++a+    G ll
+  sp|A8M783|RSAMH_SALAI   6 WISFTTDYGLADGFVAACHGVLARLAPTARVIDVTHLVPPGDVRRGAAVLAQTVPYLPA-AVHVAVVDPGVGTARRAIALTAGNG-LL 91 
+                            699***********************************************998888887.688899**************99998.89 PP
+
+             chlorinase  93 vaPnnGllslaleaspave.ayevtskdvmnqPvtPtwyGkdvvaacaahlaagtdlaavGPkidldklvrlplaeaseeegairGev 179
+                            v+P+nGll  a  a + v+ a e+t++d +   ++ t++G+dv a +aa la g +la+ GP++++  lvrlp+     e  +   ev
+  sp|A8M783|RSAMH_SALAI  92 VGPDNGLLLDAATALGGVDaAVELTNPDWLGARMSATFHGRDVFAPVAARLALGAPLADAGPAVEPGALVRLPTPLVQPETDGFTAEV 179
+                            ********99999999886268****************************************************99999999****** PP
+
+             chlorinase 180 vridrafGnvwtnipsdllgsvpedgerlevevskeslelpfcktfgevekgepllylssrGklalglnqgnllekypvapgdsvtvs 267
+                            + +d+ fGnv    + +ll s+p++ +   v  +  +    + +tf +   g  l++++s G +a+++n g  ++ ++v+pgd+++v+
+  sp|A8M783|RSAMH_SALAI 180 LTVDH-FGNVQLAATGALLESLPRSLR---V--A--HRPAVHARTFDDAPPGGLLVHVDSAGLVAVAVNGGRAADLLAVTPGDQLRVT 259
+                            ***96.*********999999987643...2..2..23345789***************************************99985 PP
+
+>> sp|O58212|RSAMH_PYRHO  (R)-S-adenosyl-L-methionine hydrolase OS=Pyrococcus horikoshii (strain ATCC 700860 / DSM 12428
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  113.7   0.0   5.2e-36   8.8e-35       7     268 ..       3     255 ..       1     256 [] 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 113.7 bits;  conditional E-value: 5.2e-36
+             chlorinase   7 aflsdvGshdeahalckGlmksiaPkativdithdvtpfdvreGalfladvPesfPeetvicayvyPetGtatktvavrnekGqllva 94 
+                            +  +d G +    +  k  m +i P+a+ivd+th+vt   + eG++++++v ++ P+ tv    + P  Gt+ +++++     q+lv+
+  sp|O58212|RSAMH_PYRHO   3 TLTTDFGLKGPYVGEMKVAMLRINPNAKIVDVTHSVTRHSILEGSFVMEQVVKYSPKGTVHVGVIDPGVGTERRAIVIEG--DQYLVV 88 
+                            5556666666667778999**********************************************************965..59**** PP
+
+             chlorinase  95 PnnGllslaleaspaveayevtskdvmnq...PvtPtwyGkdvvaacaahlaagtdlaavGPkidldklvrlplaeaseeegairGev 179
+                            P+nGl++l l+   +  +ye++  ++ ++    ++ t++G+d+   ++a +  g++ ++ G +i +d++v+l+  +   e  +   +v
+  sp|O58212|RSAMH_PYRHO  89 PDNGLATLPLKHIKVKSVYEIIPDKIRKFtgwEISSTFHGRDIFGPAGALIEKGIHPEEFGREIPVDSIVKLNVEPRK-EGDVWILKV 175
+                            **********************99987762225899************************************876554.44555679* PP
+
+             chlorinase 180 vridrafGnvwtnipsdllgsvpedgerlevevskeslelpfcktfgevekgepllylssrGklalglnqgnllekypvapgdsvtvs 267
+                            + id  fGnv  n+         e++++  ve+ + +l+lp+ +t+g vekge l+   s   l +++n g+ +e+++v  gd ++v+
+  sp|O58212|RSAMH_PYRHO 176 IYID-DFGNVILNLEN------YEKPRT--VELLDFNLRLPYLETYGLVEKGEMLALPGSHDYLEIAVNMGSAAERLNVKVGDELRVR 254
+                            ***9.5****999853......455555..5678999************************************************998 PP
+
+             chlorinase 268 l 268
+                            l
+  sp|O58212|RSAMH_PYRHO 255 L 255
+                            7 PP
+
+>> sp|Q5SLF5|RSAMH_THET8  (R)-S-adenosyl-L-methionine hydrolase OS=Thermus thermophilus (strain ATCC 27634 / DSM 579 / H
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  109.1   0.0   1.4e-34   2.3e-33       6     266 ..       4     254 ..       1     255 [] 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 109.1 bits;  conditional E-value: 1.4e-34
+             chlorinase   6 iaflsdvGshdeahalckGlmksiaPkativdithdvtpfdvreGalfladvPesfPeetvicayvyPetGtatktvavrnekGqllv 93 
+                            + flsd G +d   a+ k ++ + aP+  +vd++h++ p d+r  a+ l +   + Pe +v+ a v P  Gta ++va       + v
+  sp|Q5SLF5|RSAMH_THET8   4 VYFLSDFGLEDPYVAVVKAVLAERAPGPAVVDLAHALPPQDLRRAAYALFEALPYLPEGAVVLAVVDPGVGTARRAVAALGR--WTYV 89 
+                            67*************************************************999*********************9997654..579* PP
+
+             chlorinase  94 aPnnGllslaleaspaveayevtskdvmn.......qPvtPtwyGkdvvaacaahlaagtdlaavGPkidldklvrlplaeaseeega 174
+                            +P+nGl +la    p+  a+ +  +            P   t++G+dv a +aahla g + + +GP++ +++l rlpla +     +
+  sp|Q5SLF5|RSAMH_THET8  90 GPDNGLFTLAWLLDPPRRAFLLEPPRPRPkaalpgwAPGEATFHGRDVFAPAAAHLALGLPPEGLGPEVPVETLARLPLALT----EG 173
+                            ***********999*99999988765544001112245666789**********************************9864....45 PP
+
+             chlorinase 175 irGevvridrafGnvwtnipsdllgsvpedgerlevevskeslelpfcktfgevekgepllylssrGklalglnqgnllekypvapgd 262
+                             +Gev+  dr fGn  t +  + +g+  e        v+++  ++p  +tfgev +g p++yl s G l +++n+g+  e +++ +g+
+  sp|Q5SLF5|RSAMH_THET8 174 PEGEVLTFDR-FGNAITTLLRAPVGGFVE--------VGGR--RVPVRRTFGEVPEGAPVAYLGSAGLLEVAVNRGSAREALGLKEGM 250
+                            689******8.***999888887777655........4443..68999**************************************** PP
+
+             chlorinase 263 svtv 266
+                            +v++
+  sp|Q5SLF5|RSAMH_THET8 251 PVRL 254
+                            *985 PP
+
+>> sp|Q59045|RSAMH_METJA  (R)-S-adenosyl-L-methionine hydrolase OS=Methanocaldococcus jannaschii (strain ATCC 43067 / DS
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   79.2   0.1   1.8e-25   3.1e-24       5     263 ..      12     258 ..       9     262 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 79.2 bits;  conditional E-value: 1.8e-25
+             chlorinase   5 liaflsdvGshdeahalckGlmksi....aPkativdithdvtpfdvreGalfladvPesfPeetvicayvyPetGtatktvavrnek 88 
+                            +i+  +d G+++   +  kG + +i      +a+i+di+h+++pf++  Ga++l     +fP + v  a + P  G++ k++++  + 
+  sp|Q59045|RSAMH_METJA  12 IITLTTDFGTNEGYVGAMKGRILNIlkkyNKDAKIIDISHEIKPFNIYHGAYVLLTAIPYFPPS-VHVAVIDPTVGSERKSIVIETKS 98 
+                            6788899999999999999977766222256899******************987766688886.6678899**************** PP
+
+             chlorinase  89 GqllvaPnnGllslaleaspaveayevtskdvmnqPvtPtwyGkdvvaacaahlaagtdlaavGPkidldklvrlplaeaseeegair 176
+                            G +lv+P+nGl ++  e  +      +++ d     ++ t++G+dv a ++a +      ++     +ld++v++++++         
+  sp|Q59045|RSAMH_METJA  99 GYYLVGPDNGLFTYVAEKLGIKR---IIKIDEERYKPSSTFHGRDVYAVVGAEILI----NNGYDGEELDEMVKIDETK--------- 170
+                            **************988776655...5555556678899********999887654....444445677899*999886......... PP
+
+             chlorinase 177 GevvridrafGnvwtnipsdllgsvpedgerleve...vskeslelpfcktfgevekgepllylssrGklalglnqgnllekypvapg 261
+                             +v+ idr fGn+ tni  d ++ +  d+  ++++     ++++++ f+k++ e ek++ +  ++s G l ++   +n  + ++v   
+  sp|Q59045|RSAMH_METJA 171 KRVIHIDR-FGNIITNIKKDEVTFKYYDTIMIKIRhknGIEKIIKCKFVKSYFE-EKNNFICLINSEGFLEISKFMDNASKLLNVDYL 256
+                            489****8.********************9999994432345667777777665.567778889999999999888887777777655 PP
+
+             chlorinase 262 ds 263
+                            d 
+  sp|Q59045|RSAMH_METJA 257 DE 258
+                            55 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (272 nodes)
+Target sequences:                        218  (83366 residues searched)
+Passed MSV filter:                        15  (0.0688073); expected 4.4 (0.02)
+Passed bias filter:                       15  (0.0688073); expected 4.4 (0.02)
+Passed Vit filter:                        14  (0.0642202); expected 0.2 (0.001)
+Passed Fwd filter:                        13  (0.059633); expected 0.0 (1e-05)
+Initial search space (Z):                218  [actual number of targets]
+Domain search space  (domZ):              13  [number of targets reported over threshold]
+# CPU time: 0.04u 0.00s 00:00:00.04 Elapsed: 00:00:00.03
+# Mc/sec: 606.23
+//
+[ok]

@@ -1,0 +1,51 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  HALOGENATION/NON_HEME_HALOGENASES/variant_A_unactivated_sp3/indole_alkaloid/indole_alkaloid_halogenases_2.hmm
+# target sequence database:        HALOGENATION/NON_HEME_HALOGENASES/variant_A_unactivated_sp3/indole_alkaloid/negative_test.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       indole_alkaloid_halogenases  [M=291]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence             Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------             -----------
+     0.0015   12.4   0.0     0.0034   11.2   0.0    1.6  1  sp|F8JJ27|BESE_STREN  L-gamma-glutamyl-L-propargylglycine hyd
+
+
+Domain annotation for each sequence (and alignments):
+>> sp|F8JJ27|BESE_STREN  L-gamma-glutamyl-L-propargylglycine hydroxylase OS=Streptantibioticus cattleyicolor (strain ATC
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   11.2   0.0   7.2e-06    0.0034     186     278 ..     171     256 ..     162     268 .] 0.74
+
+  Alignments for each domain:
+  == domain 1  score: 11.2 bits;  conditional E-value: 7.2e-06
+  indole_alkaloid_halogenases 186 sdqlsyfiplsvpeaggelvvyslewnpeeaeksadlqkymddveskiksqqsqsvayapgpgdmllfnggryyhrvsevig 267
+                                    ql++   l+ p+ gg   v+   w+p + ++    + y  +        +   v+ ap  gd llfn    yh v     
+         sp|F8JJ27|BESE_STREN 171 VAQLAFNAWLAAPREGGTTTVWRHRWEPADENRR---HGYGFQP---TAVADDPYVTVAPAAGDALLFNANN-YHVVHPGAP 245
+                                  579999999*******************887665...4443322...22345568999***********876.577765555 PP
+
+  indole_alkaloid_halogenases 268 nsprrtiggfl 278
+                                     r ++  fl
+         sp|F8JJ27|BESE_STREN 246 GQRRIALACFL 256
+                                  55555555555 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (291 nodes)
+Target sequences:                        474  (217993 residues searched)
+Passed MSV filter:                        15  (0.0316456); expected 9.5 (0.02)
+Passed bias filter:                       15  (0.0316456); expected 9.5 (0.02)
+Passed Vit filter:                         3  (0.00632911); expected 0.5 (0.001)
+Passed Fwd filter:                         1  (0.0021097); expected 0.0 (1e-05)
+Initial search space (Z):                474  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.01u 0.00s 00:00:00.01 Elapsed: 00:00:00.01
+# Mc/sec: 5523.39
+//
+[ok]

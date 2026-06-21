@@ -1,0 +1,787 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  HALOGENATION/NON_HEME_HALOGENASES/variant_A_unactivated_sp3/nucleotide/cut_nucleotide_halogenases.hmm
+# target sequence database:        HALOGENATION/NON_HEME_HALOGENASES/variant_A_unactivated_sp3/nucleotide/negative_test.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       cut_nucleotide_halogenases  [M=133]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                  Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                  -----------
+    4.2e-10   34.6   0.0    1.3e-09   33.0   0.0    1.7  2  sp|O64692|G2OX3_ARATH      Gibberellin 2-beta-dioxygenase 3 O
+    1.1e-09   33.2   0.0    1.7e-09   32.6   0.0    1.3  1  sp|Q9XG83|G2OX_PHACN       Gibberellin 2-beta-dioxygenase OS=
+    1.7e-08   29.4   0.0      3e-08   28.6   0.0    1.3  1  sp|Q8LEA2|G2OX1_ARATH      Gibberellin 2-beta-dioxygenase 1 O
+    2.9e-08   28.6   0.0    4.5e-08   28.0   0.0    1.3  1  sp|Q8S0S6|G2OX3_ORYSJ      Gibberellin 2-beta-dioxygenase 3 O
+    1.2e-07   26.6   0.0    1.8e-07   26.0   0.0    1.3  1  sp|Q9XFR9|G2OX2_ARATH      Gibberellin 2-beta-dioxygenase 2 O
+    1.9e-07   26.0   0.0    2.9e-07   25.4   0.0    1.2  1  sp|Q9FZ21|G2OX6_ARATH      Gibberellin 2-beta-dioxygenase 6 O
+    5.6e-07   24.5   0.0    1.2e-06   23.4   0.0    1.5  1  sp|Q9LE86|S8H_ARATH        Scopoletin 8-hydroxylase OS=Arabid
+    6.5e-07   24.2   0.1    4.3e-06   21.6   0.0    2.1  2  sp|Q9C7Z1|G2OX4_ARATH      Gibberellin 2-beta-dioxygenase 4 O
+    1.4e-06   23.1   0.0    2.4e-06   22.4   0.0    1.3  1  sp|Q94LP4|ODD11_ORYSJ      2-oxoglutarate-dependent dioxygena
+    6.4e-06   21.0   0.0    9.5e-06   20.5   0.0    1.3  1  sp|Q9SQ80|G2OX1_PEA        Gibberellin 2-beta-dioxygenase 1 O
+    1.4e-05   19.9   0.1    6.5e-05   17.8   0.0    2.1  2  sp|Q9C899|F6H2_ARATH       Feruloyl CoA ortho-hydroxylase 2 O
+    1.5e-05   19.8   0.0    2.8e-05   18.9   0.0    1.4  1  sp|Q8H113|OD232_ARATH      Homoarginine-6-hydroxylase 2-ODD-C
+    1.8e-05   19.6   0.0    2.9e-05   18.9   0.0    1.4  1  sp|Q9XHM5|G2OX2_PEA        Gibberellin 2-beta-dioxygenase 2 O
+    3.5e-05   18.6   0.0    6.4e-05   17.8   0.0    1.4  1  sp|Q8W2X5|FL3H2_ORYSJ      Flavanone 3-dioxygenase 2 OS=Oryza
+    5.3e-05   18.0   0.0    0.00012   17.0   0.0    1.6  1  sp|G9M9M1|F6H12_IPOBA      Feruloyl CoA ortho-hydroxylase F6H
+    5.4e-05   18.0   0.0    0.00012   17.0   0.0    1.6  1  sp|G9M9M2|F6H13_IPOBA      Feruloyl CoA ortho-hydroxylase F6H
+    5.9e-05   17.9   0.0    0.00013   16.8   0.0    1.5  1  sp|Q5W726|G2OX1_ORYSJ      Gibberellin 2-beta-dioxygenase 1 O
+    6.3e-05   17.8   0.0    0.00011   17.0   0.0    1.3  1  sp|Q5ZA21|G2OX2_ORYSJ      Gibberellin 2-beta-dioxygenase 2 O
+    0.00011   17.0   0.0    0.00032   15.5   0.0    1.7  1  sp|G9M9M5|F6H28_IPOBA      Bi-functional coumaroyl CoA and fe
+    0.00013   16.8   0.0    0.00023   16.0   0.0    1.4  1  sp|Q07512|FLS_PETHY        Flavonol synthase/flavanone 3-hydr
+    0.00015   16.6   0.0    0.00042   15.1   0.0    1.7  1  sp|G9M9M3|F6H22_IPOBA      Bi-functional coumaroyl CoA and fe
+    0.00019   16.2   0.0    0.00035   15.4   0.0    1.4  1  sp|Q8LGZ9|G2OX5_ORYSJ      Gibberellin 2-beta-dioxygenase 5 O
+     0.0002   16.2   0.0    0.00048   14.9   0.0    1.5  1  sp|Q7XP65|G2OX6_ORYSJ      Gibberellin 2-beta-dioxygenase 6 O
+    0.00024   15.9   0.0    0.00066   14.5   0.0    1.7  1  sp|G9M9M4|F6H21_IPOBA      Bi-functional coumaroyl CoA and fe
+    0.00027   15.8   0.0    0.00064   14.6   0.0    1.6  1  sp|O49561|G2OX8_ARATH      Gibberellin 2-beta-dioxygenase 8 O
+    0.00044   15.1   0.0    0.00071   14.4   0.0    1.3  1  sp|Q9XHG2|FLS_MALDO        Flavonol synthase/flavanone 3-hydr
+    0.00044   15.1   0.0    0.00093   14.0   0.0    1.5  1  sp|F4IY03|OD233_ARATH      Homoarginine-6-hydroxylase 2-ODD-C
+    0.00045   15.0   0.0    0.00094   14.0   0.0    1.5  1  sp|G9M9M0|F6H11_IPOBA      Feruloyl CoA ortho-hydroxylase F6H
+    0.00067   14.5   0.1     0.0022   12.8   0.0    1.8  2  sp|W5QJZ5|DIOX4_RUTGR      Bi-functional coumaroyl CoA and fe
+    0.00071   14.4   0.0     0.0024   12.7   0.0    1.8  2  sp|Q9C971|G3OX4_ARATH      Gibberellin 3-beta-dioxygenase 4 O
+    0.00086   14.1   0.1     0.0023   12.8   0.0    1.6  1  sp|A0A023GS28|DIOX1_RUTGR  Bi-functional coumaroyl CoA and fe
+    0.00099   13.9   0.0     0.0022   12.8   0.0    1.5  1  sp|Q67VR7|ANS2_ORYSJ       Leucoanthocyanidin dioxygenase 2 O
+      0.001   13.9   0.0     0.0019   13.0   0.0    1.4  1  sp|Q9M547|FLS_EUSRU        Flavonol synthase/flavanone 3-hydr
+     0.0011   13.7   0.0     0.0022   12.8   0.0    1.4  1  sp|Q9XJ43|HY6H_ATRBE       Hyoscyamine 6-beta-hydroxylase OS=
+     0.0013   13.6   0.0     0.0026   12.6   0.0    1.4  1  sp|P24397|HY6H_HYONI       Hyoscyamine 6-beta-hydroxylase OS=
+     0.0016   13.3   0.0     0.0031   12.3   0.0    1.4  1  sp|Q6K332|ODD33_ORYSJ      Homoarginine-6-hydroxylase 2-ODD-2
+     0.0017   13.2   0.0     0.0032   12.3   0.0    1.3  1  sp|Q96330|FLS1_ARATH       Flavonol synthase/flavanone 3-hydr
+     0.0022   12.8   0.0      0.004   12.0   0.0    1.4  1  sp|O04395|FLS_MATIN        Flavonol synthase/flavanone 3-hydr
+     0.0025   12.6   0.0     0.0077   11.1   0.0    1.8  1  sp|Q9C6I4|G2OX7_ARATH      Gibberellin 2-beta-dioxygenase 7 O
+      0.003   12.4   0.0      0.005   11.7   0.0    1.3  1  sp|Q7XZQ6|FLS_PETCR        Flavonol synthase/flavanone 3-hydr
+     0.0032   12.3   0.1       0.01   10.7   0.1    1.8  2  sp|P41213|LDOX_MAIZE       Leucoanthocyanidin dioxygenase OS=
+     0.0034   12.2   0.0     0.0058   11.4   0.0    1.3  1  sp|Q9ZWQ9|FLS_CITUN        Flavonol synthase/flavanone 3-hydr
+     0.0037   12.1   0.0     0.0058   11.4   0.0    1.3  1  sp|A0A0R4J5R0|ODD23_SOYBN  Homoarginine-6-hydroxylase 2-ODD-C
+     0.0038   12.0   0.0     0.0096   10.7   0.0    1.6  1  sp|A0A023GS29|DIOX2_RUTGR  Bi-functional coumaroyl CoA and fe
+
+
+Domain annotation for each sequence (and alignments):
+>> sp|O64692|G2OX3_ARATH  Gibberellin 2-beta-dioxygenase 3 OS=Arabidopsis thaliana OX=3702 GN=GA2OX3 PE=2 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -1.6   0.0       5.9        63      70      96 ..     125     151 ..     102     160 .. 0.67
+   2 !   33.0   0.0   1.2e-10   1.3e-09       2     105 ..     180     283 ..     179     314 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: -1.6 bits;  conditional E-value: 5.9
+  cut_nucleotide_halogenases  70 egrvrpsthrvhrsplateyerlssvl 96 
+                                   r  p+  r   ++  +e++r+ss +
+       sp|O64692|G2OX3_ARATH 125 IFRHTPAIFREAVEEYIKEMKRMSSKF 151
+                                 346668888888888888999999865 PP
+
+  == domain 2  score: 33.0 bits;  conditional E-value: 1.2e-10
+  cut_nucleotide_halogenases   2 lrvihyrdvdd....revlahehsgiqllglqlppsdgglqyvlhdgtwvepviagtdvllcnigrmlssasegrvrpsthrv 80 
+                                 lr+ hy ++++     e+   eh+  ql+ l      +glq  ++dgtwv+     +   ++ +g  l   ++gr++   hrv
+       sp|O64692|G2OX3_ARATH 180 LRMNHYPEKEEtpvkEEIGFGEHTDPQLISLLRSNDTEGLQICVKDGTWVDVTPDHS-SFFVLVGDTLQVMTNGRFKSVKHRV 261
+                                 788888776652221577788**********99999**************9665555.566779******************9 PP
+
+  cut_nucleotide_halogenases  81 hrsplateyerlssvlfaypdhkak 105
+                                  ++   t+  r+s + fa p+ ++k
+       sp|O64692|G2OX3_ARATH 262 VTN---TKRSRISMIYFAGPPLSEK 283
+                                 765...6789********9998766 PP
+
+>> sp|Q9XG83|G2OX_PHACN  Gibberellin 2-beta-dioxygenase OS=Phaseolus coccineus OX=3886 GN=GA2OX1 PE=2 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   32.6   0.0   1.6e-10   1.7e-09      17     103 ..     201     283 ..     181     315 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 32.6 bits;  conditional E-value: 1.6e-10
+  cut_nucleotide_halogenases  17 ahehsgiqllglqlppsdgglqyvlhdgtwvepviagtdvllcnigrmlssasegrvrpsthrvhrsplateyerlssvlfay 99 
+                                   eh+  q++ +    s +glq  l dgtwv     +    ++n+g  l   ++gr++   hrv +   +t + rls + f  
+        sp|Q9XG83|G2OX_PHACN 201 FGEHTDPQIISVLRSNSTSGLQICLTDGTWVSVP-PDQTSFFINVGDALQVMTNGRFKSVKHRVLA---DTTKSRLSMIYFGG 279
+                                 469****************************754.55556789********************976...56678999999988 PP
+
+  cut_nucleotide_halogenases 100 pdhk 103
+                                 p  +
+        sp|Q9XG83|G2OX_PHACN 280 PALS 283
+                                 7655 PP
+
+>> sp|Q8LEA2|G2OX1_ARATH  Gibberellin 2-beta-dioxygenase 1 OS=Arabidopsis thaliana OX=3702 GN=GA2OX1 PE=2 SV=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   28.6   0.0   2.8e-09     3e-08      14     128 ..     190     306 ..     180     310 .. 0.75
+
+  Alignments for each domain:
+  == domain 1  score: 28.6 bits;  conditional E-value: 2.8e-09
+  cut_nucleotide_halogenases  14 evla.hehsgiqllglqlppsdgglqyvlhdgtwvepviagtdvllcnigrmlssasegrvrpsthrvhrsplateyerlssv 95 
+                                 +v+   eh+  q++ +      +glq  l+dg+w+  v  +    ++n+g  l   ++gr++   hrv ++    ++ r+s +
+       sp|Q8LEA2|G2OX1_ARATH 190 NVIGfGEHTDPQIISVLRSNNTSGLQINLNDGSWIS-VPPDHTSFFFNVGDSLQVMTNGRFKSVRHRVLAN---CKKSRVSMI 268
+                                 555415999********9****************97.5555666899********************9765...57789**** PP
+
+  cut_nucleotide_halogenases  96 lfaypdhkakqwkis.....deelkvldetwgdfiakr 128
+                                  fa p+ +++   ++     ++e    + tw ++ ++ 
+       sp|Q8LEA2|G2OX1_ARATH 269 YFAGPSLTQRIAPLTclidnEDERLYEEFTWSEYKNST 306
+                                 ***99988775432222212333344455787776665 PP
+
+>> sp|Q8S0S6|G2OX3_ORYSJ  Gibberellin 2-beta-dioxygenase 3 OS=Oryza sativa subsp. japonica OX=39947 GN=GA2OX3 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   28.0   0.0   4.2e-09   4.5e-08      19     103 ..     201     281 ..     179     314 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 28.0 bits;  conditional E-value: 4.2e-09
+  cut_nucleotide_halogenases  19 ehsgiqllglqlppsdgglqyvlhdgtwvepviagtdvllcnigrmlssasegrvrpsthrvhrsplateyerlssvlfaypd 101
+                                 eh+  ql+ +      +glq  l+dg wv  v  + d  ++n+g  l   ++gr++   hrv +++l+    r+s + f  p+
+       sp|Q8S0S6|G2OX3_ORYSJ 201 EHTDPQLVSVLRSNGTSGLQIALRDGQWVS-VPSDRDSFFVNVGDSLQVLTNGRFKSVKHRVVANSLK---SRVSFIYFGGPP 279
+                                 89999*****9999***************6.8899***************************988775...577777777776 PP
+
+  cut_nucleotide_halogenases 102 hk 103
+                                  +
+       sp|Q8S0S6|G2OX3_ORYSJ 280 LA 281
+                                 55 PP
+
+>> sp|Q9XFR9|G2OX2_ARATH  Gibberellin 2-beta-dioxygenase 2 OS=Arabidopsis thaliana OX=3702 GN=GA2OX2 PE=2 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   26.0   0.0   1.7e-08   1.8e-07      15     104 ..     202     287 ..     183     319 .. 0.78
+
+  Alignments for each domain:
+  == domain 1  score: 26.0 bits;  conditional E-value: 1.7e-08
+  cut_nucleotide_halogenases  15 vlahehsgiqllglqlppsdgglqyvlhdgtwvepviagtdvllcnigrmlssasegrvrpsthrvhrsplateyerlssvlf 97 
+                                 v   eh+  q++ +       glq  ++dg+wv  v  +    ++n+g  l   ++gr++   hrv +   +t   r+s + f
+       sp|Q9XFR9|G2OX2_ARATH 202 VGFGEHTDPQIISVLRSNNTAGLQICVKDGSWVA-VPPDHSSFFINVGDALQVMTNGRFKSVKHRVLA---DTRRSRISMIYF 280
+                                 44569****************************6.6667777899********************976...567789999999 PP
+
+  cut_nucleotide_halogenases  98 aypdhka 104
+                                   p+ ++
+       sp|Q9XFR9|G2OX2_ARATH 281 GGPPLSQ 287
+                                 8887665 PP
+
+>> sp|Q9FZ21|G2OX6_ARATH  Gibberellin 2-beta-dioxygenase 6 OS=Arabidopsis thaliana OX=3702 GN=GA2OX6 PE=2 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   25.4   0.0   2.7e-08   2.9e-07      18     126 ..     201     311 ..     180     316 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 25.4 bits;  conditional E-value: 2.7e-08
+  cut_nucleotide_halogenases  18 hehsgiqllglqlppsdgglqyvlhdgtwvepviagtdvllcnigrmlssasegrvrpsthrvhrsplateyerlssvlfayp 100
+                                  ehs  q+l +      +gl+   +dg w+ p+  +    ++ +g  l   ++gr+    hrv +++  +++ r+s++ fa p
+       sp|Q9FZ21|G2OX6_ARATH 201 GEHSDPQILTVLRSNDVDGLEICSRDGLWI-PIPSDPTCFFVLVGDCLQALTNGRFTSVRHRVLANT--AKKPRMSAMYFAAP 280
+                                 69*********999999************9.9999999*************************9876..5678********** PP
+
+  cut_nucleotide_halogenases 101 dhkakqw...kis.deel.kvldetwgdfia 126
+                                 + +ak     k++ +e+  +    twgd+ +
+       sp|Q9FZ21|G2OX6_ARATH 281 PLEAKISplpKMVsPENPrRYNSFTWGDYKK 311
+                                 *999864222555455540555669999865 PP
+
+>> sp|Q9LE86|S8H_ARATH  Scopoletin 8-hydroxylase OS=Arabidopsis thaliana OX=3702 GN=S8H PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   23.4   0.0   1.1e-07   1.2e-06      19     103 ..     230     310 ..     221     339 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 23.4 bits;  conditional E-value: 1.1e-07
+  cut_nucleotide_halogenases  19 ehsgiqllglqlppsdgglqyvlhdgtwve.pviagtdvllcnigrmlssasegrvrpsthrvhrsplateyerlssvlfayp 100
+                                  hs + +l + l    ggl   l++g w e p ++g   l++nig  l   s+g+++ + hrv ++++     r+s  +f+ p
+         sp|Q9LE86|S8H_ARATH 230 RHSDMGMLTVLLQDGIGGLYVKLDNGEWAEiPPVHG--ALVINIGDTLQILSNGKYKSAEHRVRTTNIG---SRVSVPIFTAP 307
+                                 79*****************999******99555555..5778*********************999875...57788888877 PP
+
+  cut_nucleotide_halogenases 101 dhk 103
+                                 + +
+         sp|Q9LE86|S8H_ARATH 308 NPS 310
+                                 765 PP
+
+>> sp|Q9C7Z1|G2OX4_ARATH  Gibberellin 2-beta-dioxygenase 4 OS=Arabidopsis thaliana OX=3702 GN=GA2OX4 PE=2 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -0.1   0.0         2        22      72     106 ..      40      73 ..      21      81 .. 0.74
+   2 !   21.6   0.0     4e-07   4.3e-06      18     116 ..     191     285 ..     180     306 .. 0.78
+
+  Alignments for each domain:
+  == domain 1  score: -0.1 bits;  conditional E-value: 2
+  cut_nucleotide_halogenases  72 rvrpsthrvhrsplateyerlssvlfaypdhkakq 106
+                                  ++   h v +++++  +e+ s  +fa p h++k 
+       sp|Q9C7Z1|G2OX4_ARATH  40 FFKVINHGVDQTTIS-RMEQESINFFAKPAHEKKS 73 
+                                 566666777766664.4556677899999999875 PP
+
+  == domain 2  score: 21.6 bits;  conditional E-value: 4e-07
+  cut_nucleotide_halogenases  18 hehsgiqllglqlppsdgglqyvlhdgtwvepviagtdvllcnigrmlssasegrvrpsthrvhrsplateyerlssvlfayp 100
+                                  eh+  q+l +      gglq    dg wv  v  +     +n+g +l   ++gr+    hr        e+ rls+  fa p
+       sp|Q9C7Z1|G2OX4_ARATH 191 GEHTDPQILTVLRSNGVGGLQVSNSDGMWVS-VSPDPSAFCVNVGDLLQVMTNGRFISVRHRAL---TYGEESRLSTAYFAGP 269
+                                 589999*****99999**************6.7778888999**************99988865...456889********** PP
+
+  cut_nucleotide_halogenases 101 dhkakqwkisdeelkv 116
+                                 + +ak   +s   +++
+       sp|Q9C7Z1|G2OX4_ARATH 270 PLQAKIGPLSAMVMTM 285
+                                 *999865554443333 PP
+
+>> sp|Q94LP4|ODD11_ORYSJ  2-oxoglutarate-dependent dioxygenase 11 OS=Oryza sativa subsp. japonica OX=39947 GN=2ODD11 PE=
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   22.4   0.0   2.2e-07   2.4e-06      34     105 ..     246     312 ..     212     343 .. 0.74
+
+  Alignments for each domain:
+  == domain 1  score: 22.4 bits;  conditional E-value: 2.2e-07
+  cut_nucleotide_halogenases  34 dgglqyvlhdgtwvepviagtdvllcnigrmlssasegrvrpsthrvhrsplateyerlssvlfaypdhkak 105
+                                  +glq + +dg w   + a    l+ nig  l   s+g++r   hr     ++ ++er+s+ lf yp+ +  
+       sp|Q94LP4|ODD11_ORYSJ 246 VQGLQ-IKKDGKWFS-IDAPNGALIANIGDTLEILSNGKFRSVEHRA---VINPNKERISAALFHYPSENMV 312
+                                 47888.789****85.8888999******************999885...677789***********98654 PP
+
+>> sp|Q9SQ80|G2OX1_PEA  Gibberellin 2-beta-dioxygenase 1 OS=Pisum sativum OX=3888 GN=GA2OX1 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   20.5   0.0   8.9e-07   9.5e-06      18     104 ..     198     280 ..     176     307 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 20.5 bits;  conditional E-value: 8.9e-07
+  cut_nucleotide_halogenases  18 hehsgiqllglqlppsdgglqyvlhdgtwvepviagtdvllcnigrmlssasegrvrpsthrvhrsplateyerlssvlfayp 100
+                                  eh+  q++ +      +g+q  l+dg+w+  v  +    ++n+g  l   ++gr++   hrv ++ ++    rls + f+ p
+         sp|Q9SQ80|G2OX1_PEA 198 GEHTDPQIISILRSNNTSGFQISLRDGSWIS-VPPDHSSFFINVGDSLQVMTNGRFKSVRHRVLANGIDP---RLSMIYFCGP 276
+                                 5899999***999999*************96.5666777899*********************9988764...7888888887 PP
+
+  cut_nucleotide_halogenases 101 dhka 104
+                                 + ++
+         sp|Q9SQ80|G2OX1_PEA 277 PLSE 280
+                                 7655 PP
+
+>> sp|Q9C899|F6H2_ARATH  Feruloyl CoA ortho-hydroxylase 2 OS=Arabidopsis thaliana OX=3702 GN=F6'H2 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -1.3   0.0       4.8        52      24      48 ..       3      27 ..       2      37 .. 0.83
+   2 !   17.8   0.0     6e-06   6.5e-05      19     103 ..     234     315 ..     227     348 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: -1.3 bits;  conditional E-value: 4.8
+  cut_nucleotide_halogenases 24 qllglqlppsdgglqyvlhdgtwve 48
+                                q l  q+ + d+  ++v+h+g  v+
+        sp|Q9C899|F6H2_ARATH  3 QTLAAQFLTRDQVTNFVVHEGNGVK 27
+                                678889999999999***9998876 PP
+
+  == domain 2  score: 17.8 bits;  conditional E-value: 6e-06
+  cut_nucleotide_halogenases  19 ehsgiqllglqlppsdgglqy.vlhdgtwve.pviagtdvllcnigrmlssasegrvrpsthrvhrsplateyerlssvlfay 99 
+                                  hs +  l + l    ggl    l  g wv  p i g+  l++nig  +   s+gr++   hrv +   + +y+r+s  +f+ 
+        sp|Q9C899|F6H2_ARATH 234 RHSDVSSLTILLQDEIGGLHVrSLTTGRWVHvPPISGS--LVINIGDAMQIMSNGRYKSVEHRVLA---NGSYNRISVPIFVS 311
+                                 6899999999999999999753699****975777776..678********************975...5789*********9 PP
+
+  cut_nucleotide_halogenases 100 pdhk 103
+                                 p+ +
+        sp|Q9C899|F6H2_ARATH 312 PKPE 315
+                                 9865 PP
+
+>> sp|Q8H113|OD232_ARATH  Homoarginine-6-hydroxylase 2-ODD-C23.2 OS=Arabidopsis thaliana OX=3702 GN=2ODDC23.2 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   18.9   0.0   2.7e-06   2.8e-05       2      83 ..     212     294 ..     211     314 .. 0.77
+
+  Alignments for each domain:
+  == domain 1  score: 18.9 bits;  conditional E-value: 2.7e-06
+  cut_nucleotide_halogenases   2 lrvihyrdvddrevl.ahehsgiqllglqlp.psdgglqyvlhdgtwvepviagtdvllcnigrmlssasegrvrpsthrvhr 82 
+                                 +r+i y +v++ +v+    h+   ll l      +  lq    dg w+ p i      +cnig ml+  s+g ++ + h+v +
+       sp|Q8H113|OD232_ARATH 212 MRIIGYPGVNQENVIgCGAHTDYGLLTLINQdDDKTALQVKNVDGDWI-PAIPIPGSFICNIGDMLTILSNGVYQSTLHKVIN 293
+                                 7999999999999984245666666666544045568999999****9.6666777799****************99999965 PP
+
+  cut_nucleotide_halogenases  83 s 83 
+                                 +
+       sp|Q8H113|OD232_ARATH 294 N 294
+                                 4 PP
+
+>> sp|Q9XHM5|G2OX2_PEA  Gibberellin 2-beta-dioxygenase 2 OS=Pisum sativum OX=3888 GN=GA2OX2 PE=2 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   18.9   0.0   2.7e-06   2.9e-05       9     102 ..     198     287 ..     194     315 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 18.9 bits;  conditional E-value: 2.7e-06
+  cut_nucleotide_halogenases   9 dvddrevlahehsgiqllglqlppsdgglqyvlhdgtwvepviagtdvllcnigrmlssasegrvrpsthrvhrsplateyer 91 
+                                 ++++ ++   ehs  q+l +      gglq   h g w+ pv  +     + +g  l   ++gr+    hrv +++    + r
+         sp|Q9XHM5|G2OX2_PEA 198 NSNNNNIGFGEHSDPQILTILRSNNVGGLQISTHHGLWI-PVPPDPSEFYVMVGDALQVLTNGRFVSVRHRVLTNT---TKPR 276
+                                 6677778888****************************9.899999999999********************8765...5679 PP
+
+  cut_nucleotide_halogenases  92 lssvlfaypdh 102
+                                 +s + fa p+ 
+         sp|Q9XHM5|G2OX2_PEA 277 MSMMYFAAPPL 287
+                                 99999999975 PP
+
+>> sp|Q8W2X5|FL3H2_ORYSJ  Flavanone 3-dioxygenase 2 OS=Oryza sativa subsp. japonica OX=39947 GN=F3H-2 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   17.8   0.0     6e-06   6.4e-05      35     101 ..     233     294 ..     217     325 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 17.8 bits;  conditional E-value: 6e-06
+  cut_nucleotide_halogenases  35 gglqyvlhdgtwvepviagtdvllcnigrmlssasegrvrpsthrvhrsplateyerlssvlfaypd 101
+                                  glq vl+dg w+  v  +   l++nig  l   s+g++r   hr   + ++++ er+s   f  p 
+       sp|Q8W2X5|FL3H2_ORYSJ 233 AGLQ-VLNDGKWIA-VNPQPGALVINIGDQLQALSNGKYRSVWHR---AVVNSDRERMSVASFLCPC 294
+                                 5777.9******95.677888999****************98877...5678899999998888875 PP
+
+>> sp|G9M9M1|F6H12_IPOBA  Feruloyl CoA ortho-hydroxylase F6H1-2 OS=Ipomoea batatas OX=4120 GN=F6H1-2 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   17.0   0.0   1.1e-05   0.00012      19     102 ..     230     310 ..     220     344 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 17.0 bits;  conditional E-value: 1.1e-05
+  cut_nucleotide_halogenases  19 ehsgiqllglqlppsdgglqyv..lhdgtwve.pviagtdvllcnigrmlssasegrvrpsthrvhrsplateyerlssvlfa 98 
+                                  hs +  l + l    ggl  v  l+  twv  p i+g+  +++n+g  l   s+gr++   hrv ++    + +r+s  +f+
+       sp|G9M9M1|F6H12_IPOBA 230 RHSDVSTLTILLQDQIGGLY-VrkLDSDTWVHvPPINGA--IVINVGDALQILSNGRYKSIEHRVIAN---GSNNRISVPIFV 306
+                                 69999999999999999985.4348889***75777775..668********************9765...577899999999 PP
+
+  cut_nucleotide_halogenases  99 ypdh 102
+                                  p  
+       sp|G9M9M1|F6H12_IPOBA 307 NPRP 310
+                                 9975 PP
+
+>> sp|G9M9M2|F6H13_IPOBA  Feruloyl CoA ortho-hydroxylase F6H1-3 OS=Ipomoea batatas OX=4120 GN=F6H1-3 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   17.0   0.0   1.1e-05   0.00012      19     102 ..     230     310 ..     220     344 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 17.0 bits;  conditional E-value: 1.1e-05
+  cut_nucleotide_halogenases  19 ehsgiqllglqlppsdgglqyv..lhdgtwve.pviagtdvllcnigrmlssasegrvrpsthrvhrsplateyerlssvlfa 98 
+                                  hs +  l + l    ggl  v  l+  twv  p i+g+  +++n+g  l   s+gr++   hrv ++    + +r+s  +f+
+       sp|G9M9M2|F6H13_IPOBA 230 RHSDVSTLTILLQDQIGGLY-VrkLDSDTWVHvPPINGA--IVINVGDALQILSNGRYKSIEHRVIAN---GSNNRISVPIFV 306
+                                 69999999999999999985.4348889***75777775..668********************9765...577899999999 PP
+
+  cut_nucleotide_halogenases  99 ypdh 102
+                                  p  
+       sp|G9M9M2|F6H13_IPOBA 307 NPRP 310
+                                 9975 PP
+
+>> sp|Q5W726|G2OX1_ORYSJ  Gibberellin 2-beta-dioxygenase 1 OS=Oryza sativa subsp. japonica OX=39947 GN=GA2OX1 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   16.8   0.0   1.2e-05   0.00013      19     109 ..     240     330 ..     233     353 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 16.8 bits;  conditional E-value: 1.2e-05
+  cut_nucleotide_halogenases  19 ehsgiqllglqlppsdgglqyvlhd..g..twvepviagtdvllcnigrmlssasegrvrpsthrvhrsplateyerlssvlf 97 
+                                 ehs  q+l l      +glq  + d  g   wv+ v  +   +++n+g +l   ++gr+    hrv +++      rls++ f
+       sp|Q5W726|G2OX1_ORYSJ 240 EHSDPQILSLLRANDVEGLQVFVPDheGkeMWVQ-VPSDPSAIFVNVGDVLQALTNGRLISIRHRVIATAC---RPRLSTIYF 318
+                                 9*********9999999***99866224324665.556777999**********************88765...569****** PP
+
+  cut_nucleotide_halogenases  98 aypdhkakqwki 109
+                                 a p+ +a+   +
+       sp|Q5W726|G2OX1_ORYSJ 319 ASPPLHARISAL 330
+                                 ***998886555 PP
+
+>> sp|Q5ZA21|G2OX2_ORYSJ  Gibberellin 2-beta-dioxygenase 2 OS=Oryza sativa subsp. japonica OX=39947 GN=GA2OX2 PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   17.0   0.0     1e-05   0.00011      19     106 ..     223     312 ..     217     335 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 17.0 bits;  conditional E-value: 1e-05
+  cut_nucleotide_halogenases  19 ehsgiqllglqlppsdgglqyvlhd......gtwvepviagtdvllcnigrmlssasegrvrpsthrvhrsplateyerlssv 95 
+                                 eh+  q+l +      +glq +l d        wv pv  +    ++n+g +l   ++gr+    hrv    + t++ rls++
+       sp|Q5ZA21|G2OX2_ORYSJ 223 EHTDPQILSVLRANDADGLQLLLPDaaaagdSVWV-PVPPDPSAFFVNVGDLLQALTNGRLVSIRHRVV---VGTGKPRLSTI 301
+                                 89999999999999999*****9872222114576.9999999*******************9999996...678999***** PP
+
+  cut_nucleotide_halogenases  96 lfaypdhkakq 106
+                                  fa p+ +a+ 
+       sp|Q5ZA21|G2OX2_ORYSJ 302 YFAAPPLHARI 312
+                                 *****988775 PP
+
+>> sp|G9M9M5|F6H28_IPOBA  Bi-functional coumaroyl CoA and feruloyl CoA ortho-hydroxylase F6H2-1-8 OS=Ipomoea batatas OX=
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   15.5   0.0     3e-05   0.00032      19     102 ..     231     311 ..     221     315 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 15.5 bits;  conditional E-value: 3e-05
+  cut_nucleotide_halogenases  19 ehsgiqllglqlppsdgglqyv..lhdgtwve.pviagtdvllcnigrmlssasegrvrpsthrvhrsplateyerlssvlfa 98 
+                                  hs i  l l l    ggl yv  l+  +w   p ++g   l++nig  l   s+gr++   hrv ++    + +r+s  +f+
+       sp|G9M9M5|F6H28_IPOBA 231 RHSDISTLTLLLQDDIGGL-YVrkLEHEAWSHvPPVKG--ALVINIGDALQIMSNGRYKSIEHRVMAN---ESNDRISVPVFV 307
+                                 6999999999998888887.443477888864244444..5779********************9765...567899999999 PP
+
+  cut_nucleotide_halogenases  99 ypdh 102
+                                  p+ 
+       sp|G9M9M5|F6H28_IPOBA 308 NPKP 311
+                                 9975 PP
+
+>> sp|Q07512|FLS_PETHY  Flavonol synthase/flavanone 3-hydroxylase OS=Petunia hybrida OX=4102 GN=FL PE=2 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   16.0   0.0   2.1e-05   0.00023      20     104 ..     234     313 ..     223     340 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 16.0 bits;  conditional E-value: 2.1e-05
+  cut_nucleotide_halogenases  20 hsgiqllglqlppsdgglqyvlhdgtwvepviagtdvllcnigrmlssasegrvrpsthrvhrsplateyerlssvlfaypdh 102
+                                 h+ +  + + +p   +glq v++dg w + v    + l++ ig  +   s+g+++   hr   ++++++++r+s  +f  p+ 
+         sp|Q07512|FLS_PETHY 234 HTDMSYITILVPNEVQGLQ-VFKDGHWYD-VKYIPNALIVHIGDQVEILSNGKYKSVYHR---TTVNKDKTRMSWPVFLEPPS 311
+                                 67778889999*******9.89*****97.6667788999**************988765...7889999********99987 PP
+
+  cut_nucleotide_halogenases 103 ka 104
+                                 + 
+         sp|Q07512|FLS_PETHY 312 EH 313
+                                 65 PP
+
+>> sp|G9M9M3|F6H22_IPOBA  Bi-functional coumaroyl CoA and feruloyl CoA ortho-hydroxylase F6H2-2-1 OS=Ipomoea batatas OX=
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   15.1   0.0   3.9e-05   0.00042      19     101 ..     230     309 ..     220     314 .. 0.78
+
+  Alignments for each domain:
+  == domain 1  score: 15.1 bits;  conditional E-value: 3.9e-05
+  cut_nucleotide_halogenases  19 ehsgiqllglqlppsdgglqyv..lhdgtwve.pviagtdvllcnigrmlssasegrvrpsthrvhrsplateyerlssvlfa 98 
+                                  hs i  l l l    ggl yv  l+  +w   p ++g   l++nig  l   s+gr++   hrv ++    + +r+s  +f+
+       sp|G9M9M3|F6H22_IPOBA 230 RHSDISTLTLLLQDDIGGL-YVrkLEHEAWSHvPPVKG--ALVINIGDALQIMSNGRYKSIEHRVMAN---ESNDRISVPVFV 306
+                                 6999999999998888887.443477888864244444..5779********************9765...567899999999 PP
+
+  cut_nucleotide_halogenases  99 ypd 101
+                                  p 
+       sp|G9M9M3|F6H22_IPOBA 307 NPR 309
+                                 986 PP
+
+>> sp|Q8LGZ9|G2OX5_ORYSJ  Gibberellin 2-beta-dioxygenase 5 OS=Oryza sativa subsp. japonica OX=39947 GN=GA2OX5 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   15.4   0.0   3.2e-05   0.00035      23     123 ..     218     317 ..     208     326 .. 0.72
+
+  Alignments for each domain:
+  == domain 1  score: 15.4 bits;  conditional E-value: 3.2e-05
+  cut_nucleotide_halogenases  23 iqllglqlppsdgglqyvlhdgtwvepviagtdvllcnigrmlssasegrvrpsthrvhrsplateyerlssvlfaypdhka. 104
+                                 +  +  q   + gglq +l+ g wv  v      l++n+g +l   s++ ++   hrv +   ++  er+s  +f  p++++ 
+       sp|Q8LGZ9|G2OX5_ORYSJ 218 LLTIVHQQQDTVGGLQ-LLKGGRWVA-VKPSPSTLIVNVGDLLQAWSNDVYKSVEHRVMA---NATLERFSMAFFLCPSYHTl 295
+                                 4445556666778999.689****96.667778899*********************976...56789****99999987652 PP
+
+  cut_nucleotide_halogenases 105 ...kqwkisdeelkvldetwgd 123
+                                       +++d++ +    t+g+
+       sp|Q8LGZ9|G2OX5_ORYSJ 296 iipSSSHVHDDDAHYRSFTFGE 317
+                                 2213344555555555555555 PP
+
+>> sp|Q7XP65|G2OX6_ORYSJ  Gibberellin 2-beta-dioxygenase 6 OS=Oryza sativa subsp. japonica OX=39947 GN=GA2OX6 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   14.9   0.0   4.5e-05   0.00048      36     102 ..     248     310 ..     232     319 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 14.9 bits;  conditional E-value: 4.5e-05
+  cut_nucleotide_halogenases  36 glqyvlhdgtwvepviagtdvllcnigrmlssasegrvrpsthrvhrsplateyerlssvlfaypdh 102
+                                 g  ++++d  wv  v  + d l++nig ++   s++r++   h+v +   +++++rls   f  p++
+       sp|Q7XP65|G2OX6_ORYSJ 248 GGLHLMKDSRWVA-VRPRPDALVVNIGDLFQAWSNNRYKSVEHKVVA---NAKTDRLSVAYFLCPSY 310
+                                 4446899****95.8899************************99975...56778999988888876 PP
+
+>> sp|G9M9M4|F6H21_IPOBA  Bi-functional coumaroyl CoA and feruloyl CoA ortho-hydroxylase F6H2-1-1 OS=Ipomoea batatas OX=
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   14.5   0.0   6.1e-05   0.00066      19     101 ..     230     309 ..     220     314 .. 0.78
+
+  Alignments for each domain:
+  == domain 1  score: 14.5 bits;  conditional E-value: 6.1e-05
+  cut_nucleotide_halogenases  19 ehsgiqllglqlppsdgglqyv..lhdgtwve.pviagtdvllcnigrmlssasegrvrpsthrvhrsplateyerlssvlfa 98 
+                                  hs i  l l l    ggl yv  l+  +w   p ++g   l++nig  l   s+gr++   hrv +++     +r+s  +f+
+       sp|G9M9M4|F6H21_IPOBA 230 RHSDISTLTLLLQDDIGGL-YVrkLEHEAWSHvPPVKG--ALVINIGDALQIMSNGRYKSIEHRVLANE---TNDRISVPVFV 306
+                                 6999999999998888887.443477888864244444..5779*********************8765...56799999999 PP
+
+  cut_nucleotide_halogenases  99 ypd 101
+                                  p+
+       sp|G9M9M4|F6H21_IPOBA 307 NPK 309
+                                 987 PP
+
+>> sp|O49561|G2OX8_ARATH  Gibberellin 2-beta-dioxygenase 8 OS=Arabidopsis thaliana OX=3702 GN=GA2OX8 PE=1 SV=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   14.6   0.0   5.9e-05   0.00064      25     104 ..     220     294 ..     208     307 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 14.6 bits;  conditional E-value: 5.9e-05
+  cut_nucleotide_halogenases  25 llglqlppsdgglqyvlhdgtwvepviagtdvllcnigrmlssasegrvrpsthrvhrsplateyerlssvlfaypdhka 104
+                                 +l + +    gglq + +d  w+  v  +   l++nig ++   s+g ++   hrv ++p   ++er+s+  f+ p+++a
+       sp|O49561|G2OX8_ARATH 220 FLTILYQDQVGGLQLI-KDNRWIA-VKPNPKALIINIGDLFQAWSNGMYKSVEHRVMTNP---KVERFSTAYFMCPSYDA 294
+                                 5556666667899965.8999*95.7788999************************8876...789******99998875 PP
+
+>> sp|Q9XHG2|FLS_MALDO  Flavonol synthase/flavanone 3-hydroxylase OS=Malus domestica OX=3750 GN=FLS PE=2 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   14.4   0.0   6.6e-05   0.00071      20     130 ..     223     333 ..     212     336 .. 0.74
+
+  Alignments for each domain:
+  == domain 1  score: 14.4 bits;  conditional E-value: 6.6e-05
+  cut_nucleotide_halogenases  20 hsgiqllglqlppsdgglqyvlhdgtwvepviagtdvllcnigrmlssasegrvrpsthrvhrsplateyerlssvlfaypdh 102
+                                 h+ +  + + +p   +glq   +dg w + v    + l++ ig  +   s+g++   t  +hr++++++++r+s  +f  p+ 
+         sp|Q9XHG2|FLS_MALDO 223 HTDMSTVTILVPNDVQGLQA-CKDGRWYD-VKYIPNALVIHIGDQMEIMSNGKY---TSVLHRTTVNKDKTRISWPVFLEPPA 300
+                                 66778889999********7.69****97.56667788899***********98...55677889999**********99975 PP
+
+  cut_nucleotide_halogenases 103 ka.....kqwkisdeelkvldetwgdfiakrlr 130
+                                 +       q   + ++ k   + +gd++  +++
+         sp|Q9XHG2|FLS_MALDO 301 DHvvgphPQLVNAVNQPKYKTKKYGDYVYCKIN 333
+                                 431121133333355666666777777766655 PP
+
+>> sp|F4IY03|OD233_ARATH  Homoarginine-6-hydroxylase 2-ODD-C23.3 OS=Arabidopsis thaliana OX=3702 GN=2ODDC23.3 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   14.0   0.0   8.7e-05   0.00093       2      82 ..     187     268 ..     186     281 .. 0.78
+
+  Alignments for each domain:
+  == domain 1  score: 14.0 bits;  conditional E-value: 8.7e-05
+  cut_nucleotide_halogenases   2 lrvihyrdvddrevl.ahehsgiqllglqlppsd.gglqyvlhdgtwvepviagtdvllcnigrmlssasegrvrpsthrvhr 82 
+                                 +r++ y +v++ +v+    h+   ll l     d   lq     g w+ pvi      +cnig ml   s+g +  + hrv +
+       sp|F4IY03|OD233_ARATH 187 MRILGYPGVNQENVIgCGAHTDYGLLSLINQDDDkTALQVRDLAGDWI-PVIPIPGSFVCNIGDMLKILSNGVYESTLHRVIN 268
+                                 6888888888888873345666666766555444156887778899*8.99999999***********************965 PP
+
+>> sp|G9M9M0|F6H11_IPOBA  Feruloyl CoA ortho-hydroxylase F6H1-1 OS=Ipomoea batatas OX=4120 GN=F6H1-1 PE=2 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   14.0   0.0   8.8e-05   0.00094      19     102 ..     230     310 ..     221     344 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 14.0 bits;  conditional E-value: 8.8e-05
+  cut_nucleotide_halogenases  19 ehsgiqllglqlppsdgglqyv.lhdgtwve.pviagtdvllcnigrmlssasegrvrpsthrvhrsplateyerlssvlfay 99 
+                                  hs +  l + l    ggl    l+   wv  p i+g+  +++n+g  l   s+gr++   hrv ++    + +r+s  +f+ 
+       sp|G9M9M0|F6H11_IPOBA 230 RHSDVSTLTILLQDQIGGLYVRkLDSDEWVHvPPINGA--IVINVGDALQILSNGRYKSIEHRVIAN---GSNNRISVPIFVN 307
+                                 68999999999998888885423777889974667765..678********************9765...5778999999999 PP
+
+  cut_nucleotide_halogenases 100 pdh 102
+                                 p  
+       sp|G9M9M0|F6H11_IPOBA 308 PRP 310
+                                 975 PP
+
+>> sp|W5QJZ5|DIOX4_RUTGR  Bi-functional coumaroyl CoA and feruloyl CoA ortho-hydroxylase Diox4 OS=Ruta graveolens OX=375
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -2.1   0.0       8.5        91      71      87 ..     104     120 ..      96     136 .. 0.77
+   2 !   12.8   0.0   0.00021    0.0022      20     103 ..     238     320 ..     230     324 .. 0.78
+
+  Alignments for each domain:
+  == domain 1  score: -2.1 bits;  conditional E-value: 8.5
+  cut_nucleotide_halogenases  71 grvrpsthrvhrsplat 87 
+                                 +rv+ +thr  + p + 
+       sp|W5QJZ5|DIOX4_RUTGR 104 QRVKEATHRFFALPAEE 120
+                                 78999999988776654 PP
+
+  == domain 2  score: 12.8 bits;  conditional E-value: 0.00021
+  cut_nucleotide_halogenases  20 hsgiqllglqlppsdgglqyv.lhd..gtwvepviagtdvllcnigrmlssasegrvrpsthrvhrsplateyerlssvlfay 99 
+                                 hs i  + + l    ggl    l+d   twv  v   +  l++nig  l   s+gr++   h v ++     ++r+s  lf+ 
+       sp|W5QJZ5|DIOX4_RUTGR 238 HSDISTFTILLQDEIGGLHVRkLDDtgNTWVH-VTPISGSLIINIGDALQIMSNGRYKSIEHMVVAN---GTQDRISVPLFVN 316
+                                 88888888888888888875425553348997.4555667899***************999998765...5568999999999 PP
+
+  cut_nucleotide_halogenases 100 pdhk 103
+                                 p+ +
+       sp|W5QJZ5|DIOX4_RUTGR 317 PKPQ 320
+                                 9866 PP
+
+>> sp|Q9C971|G3OX4_ARATH  Gibberellin 3-beta-dioxygenase 4 OS=Arabidopsis thaliana OX=3702 GN=GA3OX4 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -1.6   0.0       5.7        61      68     102 ..      66     101 ..      44     120 .. 0.61
+   2 !   12.7   0.0   0.00023    0.0024      17      89 ..     226     292 ..     206     306 .. 0.74
+
+  Alignments for each domain:
+  == domain 1  score: -1.6 bits;  conditional E-value: 5.7
+  cut_nucleotide_halogenases  68 ase..grvrpsthrvhrsplateyerlssvlfaypdh 102
+                                 as+  g ++ + h + ++ l+ + e ls  lf  p+ 
+       sp|Q9C971|G3OX4_ARATH  66 ASKtwGAFQIANHGISQKLLD-DIESLSKTLFDMPSE 101
+                                 444223455556665554443.566677777776665 PP
+
+  == domain 2  score: 12.7 bits;  conditional E-value: 0.00023
+  cut_nucleotide_halogenases  17 ahehsgiqllglqlppsdgglqyvlhdgtwvepviagtdvllcnigrmlssasegrvrpsthrvhrsplatey 89 
+                                 ah  s   +l +   +  gglq   ++  wv  v     vl++nig ++   s+g++    hr + +      
+       sp|Q9C971|G3OX4_ARATH 226 AHTDS--TILTILHQSNTGGLQVFREESGWVT-VEPAPGVLVVNIGDLFHILSNGKIPSVVHRAKVN---HTR 292
+                                 44444..556777778899***********95.666789*****************97777776544...333 PP
+
+>> sp|A0A023GS28|DIOX1_RUTGR  Bi-functional coumaroyl CoA and feruloyl CoA ortho-hydroxylase Diox1 OS=Ruta graveolens OX
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   12.8   0.0   0.00021    0.0023      19     103 ..     239     322 ..     232     326 .. 0.77
+
+  Alignments for each domain:
+  == domain 1  score: 12.8 bits;  conditional E-value: 0.00021
+  cut_nucleotide_halogenases  19 ehsgiqllglqlppsdgglqyv.lhd..gtwvepviagtdvllcnigrmlssasegrvrpsthrvhrsplateyerlssvlfa 98 
+                                  hs i  + + l    ggl    l+d   twv      +  l++nig  l   s+gr++   h v ++     ++r+s  lf+
+   sp|A0A023GS28|DIOX1_RUTGR 239 RHSDISTFTILLQDQIGGLHVRkLDDtgNTWVHVT-PIAGSLIINIGDALQIMSNGRYKSIEHMVVAN---GTQDRISVPLFV 317
+                                 58888888888888888887642555334899743.33455889***************999998765...556899999999 PP
+
+  cut_nucleotide_halogenases  99 ypdhk 103
+                                  p+ +
+   sp|A0A023GS28|DIOX1_RUTGR 318 NPKPQ 322
+                                 99866 PP
+
+>> sp|Q67VR7|ANS2_ORYSJ  Leucoanthocyanidin dioxygenase 2 OS=Oryza sativa subsp. japonica OX=39947 GN=ANS2 PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   12.8   0.0    0.0002    0.0022      19     102 ..     239     317 ..     222     326 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 12.8 bits;  conditional E-value: 0.0002
+  cut_nucleotide_halogenases  19 ehsgiqllglqlppsdgglqyvlhdgtwvepviagtdvllcnigrmlssasegrvrpsthrvhrsplateyerlssvlfaypd 101
+                                  h+ +  l   l     glq   h gtwv     +   +++ +g  l   ++gr+      +hrs ++ +  r+s v+f+ p+
+        sp|Q67VR7|ANS2_ORYSJ 239 AHTDVSALSFILHNGVPGLQA-HHAGTWVTARSEQG-TIVVHVGDALEILTNGRYT---SVLHRSLVSRDAVRVSWVVFCEPP 316
+                                 566777777777777888885.799****9876554.56679************85...5677889999***********998 PP
+
+  cut_nucleotide_halogenases 102 h 102
+                                  
+        sp|Q67VR7|ANS2_ORYSJ 317 P 317
+                                 6 PP
+
+>> sp|Q9M547|FLS_EUSRU  Flavonol synthase/flavanone 3-hydroxylase OS=Eustoma russellianum OX=52518 GN=FLS PE=2 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   13.0   0.0   0.00017    0.0019      19     103 ..     219     298 ..     202     330 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 13.0 bits;  conditional E-value: 0.00017
+  cut_nucleotide_halogenases  19 ehsgiqllglqlppsdgglqyvlhdgtwvepviagtdvllcnigrmlssasegrvrpsthrvhrsplateyerlssvlfaypd 101
+                                  h+ +  + + +p    glq v +dg w +      + l++ ig  +   s+g+++   hr   +++++e++r+s  +f  p+
+         sp|Q9M547|FLS_EUSRU 219 AHTDMSAITVLVPNEVPGLQ-VYKDGHWYDCKYI-PNALIVHIGDQVEIMSNGKYKSVYHR---TTVNKEKTRMSWPVFLEPP 296
+                                 67888889999999999**9.89******98655.5678899*************988766...67889999***99999876 PP
+
+  cut_nucleotide_halogenases 102 hk 103
+                                  +
+         sp|Q9M547|FLS_EUSRU 297 PD 298
+                                 43 PP
+
+>> sp|Q9XJ43|HY6H_ATRBE  Hyoscyamine 6-beta-hydroxylase OS=Atropa belladonna OX=33113 GN=H6H PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   12.8   0.0   0.00021    0.0022      35      86 ..     231     281 ..     219     297 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 12.8 bits;  conditional E-value: 0.00021
+  cut_nucleotide_halogenases  35 gglqyvlhdgtw..vepviagtdvllcnigrmlssasegrvrpsthrvhrspla 86 
+                                  glq +++d  w  vep+ +     ++n+g  l   +++++  s hrv ++p  
+        sp|Q9XJ43|HY6H_ATRBE 231 PGLQQLIEDAKWiaVEPIPT---AFVVNLGLTLKVITNEKFEGSIHRVVTNPTR 281
+                                 59**********55578754...4678*********************998765 PP
+
+>> sp|P24397|HY6H_HYONI  Hyoscyamine 6-beta-hydroxylase OS=Hyoscyamus niger OX=4079 GN=H6H PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   12.6   0.0   0.00024    0.0026      36      86 ..     232     282 ..     218     298 .. 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 12.6 bits;  conditional E-value: 0.00024
+  cut_nucleotide_halogenases  36 gl.qyvlhdgtwvepviagtdvllcnigrmlssasegrvrpsthrvhrspla 86 
+                                 gl q +++d tw+      t   ++n+g  l   +++++  s hrv + p  
+        sp|P24397|HY6H_HYONI 232 GLqQLIVKDATWIAVQPIPT-AFVVNLGLTLKVITNEKFEGSIHRVVTDPTR 282
+                                 5515799*****85443344.5678*********************988764 PP
+
+>> sp|Q6K332|ODD33_ORYSJ  Homoarginine-6-hydroxylase 2-ODD-233 OS=Oryza sativa subsp. japonica OX=39947 GN=2ODD33 PE=1 S
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   12.3   0.0   0.00029    0.0031      57      84 ..     247     274 ..     222     293 .. 0.78
+
+  Alignments for each domain:
+  == domain 1  score: 12.3 bits;  conditional E-value: 0.00029
+  cut_nucleotide_halogenases  57 llcnigrmlssasegrvrpsthrvhrsp 84 
+                                  +cnig ml   s+g ++p+ hrv +++
+       sp|Q6K332|ODD33_ORYSJ 247 FVCNIGDMLKVWSNGIYQPTLHRVVNNS 274
+                                 68*********************97643 PP
+
+>> sp|Q96330|FLS1_ARATH  Flavonol synthase/flavanone 3-hydroxylase OS=Arabidopsis thaliana OX=3702 GN=FLS1 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   12.3   0.0    0.0003    0.0032      21     103 ..     225     299 ..     215     303 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 12.3 bits;  conditional E-value: 0.0003
+  cut_nucleotide_halogenases  21 sgiqllglqlppsdgglqyvlhdgtwvepviagtdvllcnigrmlssasegrvrpsthrvhrsplateyerlssvlfaypdhk 103
+                                 sgi    l +p    glq v++d  w +     + v ++ ig  + + s+gr++   h   r+++++e++r+s  +f  p+ +
+        sp|Q96330|FLS1_ARATH 225 SGI---TLLVPNEVPGLQ-VFKDDHWFDAEYIPSAV-IVHIGDQILRLSNGRYKNVLH---RTTVDKEKTRMSWPVFLEPPRE 299
+                                 444...455788889999.78999999998877765.578*************98765...57899999********999875 PP
+
+>> sp|O04395|FLS_MATIN  Flavonol synthase/flavanone 3-hydroxylase (Fragment) OS=Matthiola incana OX=3724 PE=2 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   12.0   0.0   0.00037     0.004      20     102 ..     175     252 ..     165     285 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 12.0 bits;  conditional E-value: 0.00037
+  cut_nucleotide_halogenases  20 hsgiqllglqlppsdgglqyvlhdgtwvepviagtdvllcnigrmlssasegrvrpsthrvhrsplateyerlssvlfaypdh 102
+                                 h+ i+ l l +     glq v++d  w+e     +  +++nig  +   s+g+++     +h++++++e++r+s  +++ p +
+         sp|O04395|FLS_MATIN 175 HTDINGLTLIITNEIPGLQ-VFKDDHWIEVEYIPS-AIIVNIGDQIMMLSNGKYKNV---LHKTTVDKEKTRMSWPVLVSPTY 252
+                                 6666666677777777998.78999***9766555.5679*************9976...56789999999999999998876 PP
+
+>> sp|Q9C6I4|G2OX7_ARATH  Gibberellin 2-beta-dioxygenase 7 OS=Arabidopsis thaliana OX=3702 GN=GA2OX7 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   11.1   0.0   0.00071    0.0077      41     101 ..     236     292 ..     216     298 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 11.1 bits;  conditional E-value: 0.00071
+  cut_nucleotide_halogenases  41 lhdgtwvepviagtdvllcnigrmlssasegrvrpsthrvhrsplateyerlssvlfaypd 101
+                                  ++g w+  v    + l +nig m+   s+g ++   hrv    ++++ er+s  +f+ p 
+       sp|Q9C6I4|G2OX7_ARATH 236 ENNGQWIS-VKPCLEALTVNIGDMFQALSNGVYQSVRHRVI---SPANIERMSIAFFVCPY 292
+                                 46788864.4455678999***************9999995...578899*******9986 PP
+
+>> sp|Q7XZQ6|FLS_PETCR  Flavonol synthase/flavanone 3-hydroxylase OS=Petroselinum crispum OX=4043 GN=FLS PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   11.7   0.0   0.00047     0.005      20     103 ..     223     301 ..     213     335 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 11.7 bits;  conditional E-value: 0.00047
+  cut_nucleotide_halogenases  20 hsgiqllglqlppsdgglqyvlhdgtwvepviagtdvllcnigrmlssasegrvrpsthrvhrsplateyerlssvlfaypdh 102
+                                 h+ +  + + +p   +glq v +d  w + v    + l++ ig  +   s+g+++   hr   ++++++++r+s  +f  p+ 
+         sp|Q7XZQ6|FLS_PETCR 223 HTDMSAITILVPNEVQGLQ-VHKDDHWYD-VKYIPNALIIHIGDQIEIMSNGKYKSVYHR---TTVNKDKTRMSWPVFLEPPP 300
+                                 56677788889*******9.678889987.6666788999**************988765...68889999***999999875 PP
+
+  cut_nucleotide_halogenases 103 k 103
+                                 +
+         sp|Q7XZQ6|FLS_PETCR 301 E 301
+                                 4 PP
+
+>> sp|P41213|LDOX_MAIZE  Leucoanthocyanidin dioxygenase OS=Zea mays OX=4577 GN=A2 PE=2 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   10.7   0.1   0.00094      0.01      19     101 ..     253     330 ..     234     336 .. 0.82
+   2 ?   -1.4   0.0         5        53      56      83 ..     334     361 ..     330     371 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 10.7 bits;  conditional E-value: 0.00094
+  cut_nucleotide_halogenases  19 ehsgiqllglqlppsdgglqyvlhdgtwvepviagtdvllcnigrmlssasegrvrpsthrvhrsplateyerlssvlfaypd 101
+                                  h+ +  l   l     glq vlh   wv    ++   +++ +g  l   s+gr+      +hr  ++ e  r+s v+f+ p+
+        sp|P41213|LDOX_MAIZE 253 AHTDVSALSFILHNGVPGLQ-VLHGARWVTAR-HEPGTIIVHVGDALEILSNGRYTS---VLHRGLVNREAVRISWVVFCEPP 330
+                                 57777778888888888998.89******875.556678899************955...56778899999*********997 PP
+
+  == domain 2  score: -1.4 bits;  conditional E-value: 5
+  cut_nucleotide_halogenases  56 vllcnigrmlssasegrvrpsthrvhrs 83 
+                                 vll  +  ++++    r+ p t + h  
+        sp|P41213|LDOX_MAIZE 334 VLLHPLPELVTEGHPARFTPRTFKQHLD 361
+                                 677788889999999*******999965 PP
+
+>> sp|Q9ZWQ9|FLS_CITUN  Flavonol synthase/flavanone 3-hydroxylase OS=Citrus unshiu OX=55188 GN=FLS PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   11.4   0.0   0.00054    0.0058      20     102 ..     221     298 ..     211     312 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 11.4 bits;  conditional E-value: 0.00054
+  cut_nucleotide_halogenases  20 hsgiqllglqlppsdgglqyvlhdgtwvepviagtdvllcnigrmlssasegrvrpsthrvhrsplateyerlssvlfaypdh 102
+                                 h+ +  l + +p    glq v++d  w++      + l++ ig  +   s+g+++   h   r++++++++r+s  +f  p+ 
+         sp|Q9ZWQ9|FLS_CITUN 221 HTDLSALTVLVPNEVPGLQ-VFKDDRWIDAKYIP-NALVIHIGDQIEILSNGKYKAVLH---RTTVNKDKTRMSWPVFLEPPA 298
+                                 677888999999999***9.78999***987665.567789*************98766...578899999***999999986 PP
+
+>> sp|A0A0R4J5R0|ODD23_SOYBN  Homoarginine-6-hydroxylase 2-ODD-C23 OS=Glycine max OX=3847 GN=2ODDC23 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   11.4   0.0   0.00054    0.0058      43      99 ..     236     288 ..     201     309 .. 0.74
+
+  Alignments for each domain:
+  == domain 1  score: 11.4 bits;  conditional E-value: 0.00054
+  cut_nucleotide_halogenases  43 dgtwve.pviagtdvllcnigrmlssasegrvrpsthrvhrsplateyerlssvlfay 99 
+                                  g w+  p + gt   +cnig ml   s+g +  + hrv +++   ++ r+s v f  
+   sp|A0A0R4J5R0|ODD23_SOYBN 236 SGEWITaPPVPGT--FVCNIGDMLKIYSNGLYESTLHRVINNN---SKYRVSVVYFYE 288
+                                 5666632555555..67***************99999997654...556777666654 PP
+
+>> sp|A0A023GS29|DIOX2_RUTGR  Bi-functional coumaroyl CoA and feruloyl CoA ortho-hydroxylase Diox2 OS=Ruta graveolens OX
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   10.7   0.0   0.00089    0.0096      44     103 ..     266     321 ..     222     325 .. 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 10.7 bits;  conditional E-value: 0.00089
+  cut_nucleotide_halogenases  44 gtwvepviagtdvllcnigrmlssasegrvrpsthrvhrsplateyerlssvlfaypdhk 103
+                                  twv      +  l++nig  l   s+gr++   h v ++     ++r+s  lf+ p+ +
+   sp|A0A023GS29|DIOX2_RUTGR 266 NTWVHVT-PIAGSLIINIGDALQIMSNGRYKSIEHMVVAN---GTQDRISVPLFVNPKPQ 321
+                                 4898643.33445889***************999998765...55689999999999866 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (133 nodes)
+Target sequences:                        472  (217481 residues searched)
+Passed MSV filter:                        68  (0.144068); expected 9.4 (0.02)
+Passed bias filter:                       67  (0.141949); expected 9.4 (0.02)
+Passed Vit filter:                        46  (0.0974576); expected 0.5 (0.001)
+Passed Fwd filter:                        44  (0.0932203); expected 0.0 (1e-05)
+Initial search space (Z):                472  [actual number of targets]
+Domain search space  (domZ):              44  [number of targets reported over threshold]
+# CPU time: 0.03u 0.00s 00:00:00.03 Elapsed: 00:00:00.03
+# Mc/sec: 894.68
+//
+[ok]

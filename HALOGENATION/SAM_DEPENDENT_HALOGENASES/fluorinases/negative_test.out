@@ -1,0 +1,348 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  HALOGENATION/SAM_DEPENDENT_HALOGENASES/fluorinases/fluorinase_v2.hmm
+# target sequence database:        HALOGENATION/SAM_DEPENDENT_HALOGENASES/fluorinases/negative_test.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       fluorinase  [M=300]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence              Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------              -----------
+    1.1e-64  212.1   0.4    1.6e-36  119.6   0.0    2.0  2  WP_051581835_.1        [Actinospineispora acaciae]
+    2.4e-64  211.0   0.1    1.5e-35  116.4   0.0    2.0  2  WP_240119628.1         [unclassified Streptomyces]
+    5.7e-64  209.8   0.2    1.3e-36  120.0   0.0    2.0  2  WP_257636316.1         [Streptomyces malaysiensis]
+    8.3e-64  209.3   0.1    1.6e-37  123.0   0.0    2.0  2  WP_016573069.1         [Streptomyces noursei]
+    3.7e-63  207.1   0.1    1.1e-35  116.9   0.0    2.0  2  WP_011904934.1         [Salinispora tropica]
+    2.5e-60  197.8   0.0    4.9e-33  108.2   0.0    2.0  2  WP_307961819.1         [Salinispora arenicola]
+    2.8e-60  197.6   0.3    1.9e-32  106.3   0.0    2.0  2  WP_106189648.1         [Umezawaea tangerina]
+    2.5e-23   76.4   0.3      2e-11   37.2   0.2    2.7  2  sp|A8M783|RSAMH_SALAI  (R)-S-adenosyl-L-methionine hydrolase 
+    7.8e-23   74.7   0.2    5.9e-11   35.7   0.0    2.8  2  sp|A4X4S2|RSAMH_SALTO  (R)-S-adenosyl-L-methionine hydrolase 
+    3.1e-20   66.2   0.0    7.4e-11   35.4   0.0    3.3  2  sp|Q5SLF5|RSAMH_THET8  (R)-S-adenosyl-L-methionine hydrolase 
+    1.1e-17   57.9   0.2    5.2e-11   35.9   0.1    2.6  2  sp|O58212|RSAMH_PYRHO  (R)-S-adenosyl-L-methionine hydrolase 
+    5.7e-15   48.9   0.3    5.8e-08   25.9   0.0    2.8  2  sp|Q59045|RSAMH_METJA  (R)-S-adenosyl-L-methionine hydrolase 
+
+
+Domain annotation for each sequence (and alignments):
+>> WP_051581835_.1  [Actinospineispora acaciae]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   92.9   0.2   1.3e-29   2.3e-28       8      92 ..       3      87 ..       1      91 [. 0.96
+   2 !  119.6   0.0     9e-38   1.6e-36     112     298 ..      85     267 ..      84     269 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 92.9 bits;  conditional E-value: 1.3e-29
+       fluorinase  8 rpiiafmsdlgttddsvaqckglmlsicpdvtivdvchsmtpwdveegaryivdlprffpegtvfatttypatgtstrsvalrik 92
+                     r +iaf+sd+g  dd+ a+ckglm+sicpd ti+d++h + p+dv ega y+ ++p ++p  t++++  yp+tg+   +va+r +
+  WP_051581835_.1  3 RKMIAFLSDVGSRDDAAAICKGLMMSICPDCTIIDISHDVRPFDVVEGAYYLKEIPIWYPPETIISAYVYPETGSGVPTVAIRNE 87
+                     889*******************************************************************************966 PP
+
+  == domain 2  score: 119.6 bits;  conditional E-value: 9e-38
+       fluorinase 112 raegsyiyiapnngllttvieehgyleayevsstevipaepeptfysremvaipsahlaagfpleevgrkledseivrfdrpkveqvedealvg 205
+                      r+e +   + p+ngl t  i+    l ay+v+  +v+   p pt+y r++va  +ahlaag+p+e+vg + + + +  +d  +++   ++a +g
+  WP_051581835_.1  85 RNEKGQTLVVPDNGLATCAIRSVAPLAAYDVTEKSVMSFPPTPTWYGRDVVAAAAAHLAAGYPVEQVGPARDLDSLTLLDLSEPSV-RNGAAEG 177
+                      678888999***********************************************************988888888899888887.77899** PP
+
+       fluorinase 206 vvtaidrpfgnvwtnihrkdlekagigygtklrivlddvlpfelplvptfadageigkvviylnsrgylslarnaaslaypynlkaglsvkve 298
+                       +  id  +gnvwtni+   l ++    +  + ++     +++ pl  tf+++g + ++++y++srg l++  n ++la  +n+++g++v+ +
+  WP_051581835_.1 178 EIIRIDSAYGNVWTNITIDLLGDV--PESGAVVVTEIAKQSYKFPLCDTFGQVG-LHEPLAYVSSRGQLAFGLNQGNLASLHNIERGMPVRAH 267
+                      ****************99888764..45555555555667899***********.***********************************975 PP
+
+>> WP_240119628.1  [unclassified Streptomyces]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   93.6   0.3   7.4e-30   1.3e-28       8      92 ..       3      87 ..       1      91 [. 0.96
+   2 !  116.4   0.0   8.4e-37   1.5e-35     116     297 ..      89     269 ..      85     271 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 93.6 bits;  conditional E-value: 7.4e-30
+      fluorinase  8 rpiiafmsdlgttddsvaqckglmlsicpdvtivdvchsmtpwdveegaryivdlprffpegtvfatttypatgtstrsvalrik 92
+                    + +iaf+sd+g +d++ a ckg+m+si p + ivd++h++tp+dv ega ++ d+p  fpe tv+ +  yp+tgt t +v +r +
+  WP_240119628.1  3 QRLIAFLSDIGSHDEAHALCKGVMYSIAPTANIVDITHAVTPFDVREGALFLADVPDSFPESTVICAYVYPETGTDTSTVVVRNQ 87
+                    568******************************************************************************9976 PP
+
+  == domain 2  score: 116.4 bits;  conditional E-value: 8.4e-37
+      fluorinase 116 syiyiapnngllttvieehgyleayevsstevipaepeptfysremvaipsahlaagfpleevgrkledseivrfdrpkveqvedealvgvvtai 210
+                     +   + pnngll+  +e    +eayev+s++v+     pt+y +++va  +ahlaa   +  vg ++e + ivr+   ++++ e++ + g +  i
+  WP_240119628.1  89 GQYLVGPNNGLLSFALEASPAVEAYEVTSSDVMNTPVTPTWYGKDIVAACAAHLAADTNIGAVGPQIELDRIVRLPYTRPTS-EEGVIRGEIVRI 182
+                     444589**************************************************************************99.999********* PP
+
+      fluorinase 211 drpfgnvwtnihrkdlekagigygtklrivlddv..lpfelplvptfadageigkvviylnsrgylslarnaaslaypynlkaglsvkv 297
+                     dr fgnvwtn++ + l   +  +g++++i l +     +elp+  tf+++    ++++yl+srg l+l  n +++ + + +  g sv+v
+  WP_240119628.1 183 DRNFGNVWTNVPSELLT-GRPQQGQRIKIELGGAggTILELPFCSTFGEVE-KTEPLLYLSSRGKLALGLNQGNFLEKWPVAPGDSVTV 269
+                     ************98776.456788888888876533789**********98.5789*****************9999888887777776 PP
+
+>> WP_257636316.1  [Streptomyces malaysiensis]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   89.3   0.3   1.6e-28   2.8e-27       8      93 ..       3      88 ..       1      91 [. 0.96
+   2 !  120.0   0.0   6.9e-38   1.3e-36     115     289 ..      89     261 ..      84     270 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 89.3 bits;  conditional E-value: 1.6e-28
+      fluorinase  8 rpiiafmsdlgttddsvaqckglmlsicpdvtivdvchsmtpwdveegaryivdlprffpegtvfatttypatgtstrsvalrikq 93
+                    + +iaf+sd+g +d++ a ckglm+si p   +vd++h++tp+dv ega ++ d+p  fp+ t++ +  yp+tgt t ++ +r k+
+  WP_257636316.1  3 HRLIAFLSDIGSHDEAHALCKGLMYSIAPTTNVVDITHAVTPFDVREGALFLADVPDSFPKSTIICAYVYPETGTDTATIVVRNKK 88
+                    5689****************************************************************************999775 PP
+
+  == domain 2  score: 120.0 bits;  conditional E-value: 6.9e-38
+      fluorinase 115 gsyiyiapnngllttvieehgyleayevsstevipaepeptfysremvaipsahlaagfpleevgrkledseivrfdrpkveqvedealvgvvta 209
+                     g    + pnngll+  +e    +eayev+s++v+     pt+y +++va  +ahlaag  ++ vg ++e + iv + + ++++ e++ + g +  
+  WP_257636316.1  89 GQ-YLVGPNNGLLSYALEASPAVEAYEVASADVMNTPVTPTWYGKDIVAACAAHLAAGTKINAVGPRIELDRIVSLPHTRPTR-EESVIRGEIVR 181
+                     44.4599**************************************************************************99.999******** PP
+
+      fluorinase 210 idrpfgnvwtnihrkdlekagigygtklrivlddv..lpfelplvptfadageigkvviylnsrgylslarnaaslaypynl 289
+                     id+ fgnvwtni+ + l  +   +g++++i l dv   ++elp+ +tf+++   g++++yl+srg l+l rn  ++ + + +
+  WP_257636316.1 182 IDENFGNVWTNIPSELLTGLP-QQGERVTIELRDVsgTTLELPYCKTFGQVE-KGEPLLYLSSRGKLALGRNQDNFLDKWPV 261
+                     *************99997664.6899*******9944589*********997.7******************9998877655 PP
+
+>> WP_016573069.1  [Streptomyces noursei]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   87.2   0.0     7e-28   1.3e-26       8      92 ..       3      87 ..       1      90 [. 0.97
+   2 !  123.0   0.0   8.8e-39   1.6e-37     112     297 ..      85     268 ..      83     271 .] 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 87.2 bits;  conditional E-value: 7e-28
+      fluorinase  8 rpiiafmsdlgttddsvaqckglmlsicpdvtivdvchsmtpwdveegaryivdlprffpegtvfatttypatgtstrsvalrik 92
+                    +piia++sd+g +d++ a  kgl+ +i p++ ivd++h +tp+dv eg  y+ d+p  fp  tv+a+  yp+tgtstr+v +r +
+  WP_016573069.1  3 KPIIAYLSDIGNHDEAHALGKGLIKTIAPGAEIVDITHQVTPFDVREGGLYLQDVPASFPANTVIAAYVYPETGTSTRTVVVRNE 87
+                    8********************************************************************************9965 PP
+
+  == domain 2  score: 123.0 bits;  conditional E-value: 8.8e-39
+      fluorinase 112 raegsyiyiapnngllttvieehgyleayevsstevipaepeptfysremvaipsahlaagfpleevgrkledseivrfdrpkveqvedealvgv 206
+                     r+e + + +apnngllt  ++    +ea+ev+s++v+ +   pt+y +++v    ahlaag   + vg k++  ++v +      q  d+++ g 
+  WP_016573069.1  85 RNEKGQLLVAPNNGLLTWALKAVPAVEAWEVTSPDVMNQPVTPTWYGKDVVVACGAHLAAGVAPSAVGPKIDVAKLVTLPTTPAVQLGDGSVRGE 179
+                     889999**************************************************************************9999999******** PP
+
+      fluorinase 207 vtaidrpfgnvwtnihrkdlekagigygtklrivlddvlpfelplvptfadageigkvviylnsrgylslarnaaslaypynlkaglsvkv 297
+                     v  id+ fgnvwtni+   l   g   g+ l+++ ++ l++e+p+  tf+++  ig++++y nsrg ++l  n +s+ + y + ag +v++
+  WP_016573069.1 180 VVRIDKAFGNVWTNISLDALSGGGALDGKTLQVTAEG-LSVEIPYYATFGEVP-IGEPLVYNNSRGKVALGLNQGSFLERYGVAAGDTVTI 268
+                     *********************************9877.799**********98.*****************************99988876 PP
+
+>> WP_011904934.1  [Salinispora tropica]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   90.4   0.3     7e-29   1.3e-27       8      92 ..       3      87 ..       1      90 [. 0.96
+   2 !  116.9   0.0   5.9e-37   1.1e-35     112     292 ..      85     264 ..      84     272 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 90.4 bits;  conditional E-value: 7e-29
+      fluorinase  8 rpiiafmsdlgttddsvaqckglmlsicpdvtivdvchsmtpwdveegaryivdlprffpegtvfatttypatgtstrsvalrik 92
+                    + +iaf+sd+g  d++ a ckg+m+++ p +tivd++h ++p+dv ega ++ d+p+ fp  tv+ +  yp+tgt+t ++a+r +
+  WP_011904934.1  3 HNLIAFLSDVGSADEAHALCKGVMYGVAPAATIVDITHDVAPFDVREGALFLADVPHSFPAHTVICAYVYPETGTATHTIAVRNE 87
+                    679*******************************************************************************965 PP
+
+  == domain 2  score: 116.9 bits;  conditional E-value: 5.9e-37
+      fluorinase 112 raegsyiyiapnngllttvieehgyleayevsstevipaepeptfysremvaipsahlaagfpleevgrkledseivrfdrpkveqvedealvgv 206
+                     r+e + + + pnngll+  ++    +e +ev s++v+ +   pt+y +++va  +ahlaag  l+ vg +++ ++ivr+   + ++ve + + g 
+  WP_011904934.1  85 RNEKGQLLVGPNNGLLSFALDASPAVECHEVLSPDVMNQPVTPTWYGKDIVAACAAHLAAGTDLAAVGPRIDPKQIVRLPYASASEVE-GGIRGE 178
+                     78899999************************************************************************99998865.5699** PP
+
+      fluorinase 207 vtaidrpfgnvwtnihrkdlekagigygtklrivlddv..lpfelplvptfadageigkvviylnsrgylslarnaaslaypynlkag 292
+                     v  idr fgnvwtni+ + +    +  g++l++ ++ +   ++elp+ +tf+++   g++++ylnsrg l+l  n +++ + + +  g
+  WP_011904934.1 179 VVRIDRAFGNVWTNIPTHLIG-SMLQDGERLEVKIEALsdTVLELPFCKTFGEVD-EGQPLLYLNSRGRLALGLNQSNFIEKWPVVPG 264
+                     ***************977665.567788888887776633579**********98.59******************999887766555 PP
+
+>> WP_307961819.1  [Salinispora arenicola]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   89.6   0.1   1.3e-28   2.3e-27       8      92 ..       3      87 ..       1      90 [. 0.96
+   2 !  108.2   0.0   2.7e-34   4.9e-33     112     292 ..      85     264 ..      85     272 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 89.6 bits;  conditional E-value: 1.3e-28
+      fluorinase  8 rpiiafmsdlgttddsvaqckglmlsicpdvtivdvchsmtpwdveegaryivdlprffpegtvfatttypatgtstrsvalrik 92
+                    + +iaf+sd+g  d++ a ckg+m++i p +t+vd++h ++p+dv ega ++ d+p+ fp  tv+ +  yp+tgt+t ++a+r +
+  WP_307961819.1  3 HNLIAFLSDVGAADEAHALCKGVMYGIAPKATLVDITHDVAPFDVREGALFLADVPHSFPAQTVICAYDYPETGTATHTIAVRNE 87
+                    679*******************************************************************************965 PP
+
+  == domain 2  score: 108.2 bits;  conditional E-value: 2.7e-34
+      fluorinase 112 raegsyiyiapnngllttvieehgyleayevsstevipaepeptfysremvaipsahlaagfpleevgrkledseivrfdrpkveqvedealvgv 206
+                     r+e + + + pnngll+  ++    +e +ev s++v+ +   pt+y +++va  + hlaag  l+ vg +++ ++ivr+   + ++ve + + g 
+  WP_307961819.1  85 RNEKGQLLVGPNNGLLSFALDASPAVECHEVLSPDVMNQPVTPTWYGKDIVAAAAGHLAAGTDLAAVGPRIDPEQIVRLPYASASEVE-GGIRGE 178
+                     67889999************************************************************************99998865.5699** PP
+
+      fluorinase 207 vtaidrpfgnvwtnihrkdlekagigygtklrivlddvlpfel..plvptfadageigkvviylnsrgylslarnaaslaypynlkag 292
+                     v  idr fgnvwtni+ +dl    +  g++l++ ++ +   ++  ++ +tf+++   g++++ylnsrg l+l  n +++ + + +  g
+  WP_307961819.1 179 VVRIDRAFGNVWTNIP-TDLIGSMLQDGERLEVKIEALSRHRArdAFCKTFGEVD-KGQPLLYLNSRGRLALGLNQSNFIEKWPVVPG 264
+                     ***************8.677788999*********999887653379******98.79******************999887766655 PP
+
+>> WP_106189648.1  [Umezawaea tangerina]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   91.4   0.3   3.6e-29   6.6e-28       9      91 ..       7      89 ..       1      93 [. 0.95
+   2 !  106.3   0.0     1e-33   1.9e-32     112     297 ..      88     269 ..      87     271 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 91.4 bits;  conditional E-value: 3.6e-29
+      fluorinase  9 piiafmsdlgttddsvaqckglmlsicpdvtivdvchsmtpwdveegaryivdlprffpegtvfatttypatgtstrsvalri 91
+                     ++af+sd+gt+d++ + ckglm  icp+vti+d++h +  +dv ega ++ d+p ffpe tv+ +  yp+tg+ t +va+r 
+  WP_106189648.1  7 RVVAFLSDVGTHDEATGLCKGLMSRICPGVTIIDITHQVPAFDVVEGALMLEDVPEFFPEHTVICAYVYPETGSGTPTVAVRN 89
+                    589******************************************************************************96 PP
+
+  == domain 2  score: 106.3 bits;  conditional E-value: 1e-33
+      fluorinase 112 raegsyiyiapnngllttvieehgyleayevsstevipaepeptfysremvaipsahlaagfpleevgrkledseivrfdrpkveqvedealvgv 206
+                     r++ + + +ap+ngllt+ ++  g  ea  v+++ v+ + p pt+y r++va  +ahlaag pl++vg  ++d   vr+     ++ +++ lvg 
+  WP_106189648.1  88 RNDKGQLLVAPDNGLLTRALDASGVAEARLVTNPAVMNHPPTPTWYGRDVVAACAAHLAAGTPLADVGPVVDDP--VRLPDVPFTR-HESGLVGR 179
+                     67889999************************************************************888775..7887665555.7889**** PP
+
+      fluorinase 207 vtaidrpfgnvwtnihrkdlekagigygtklrivlddvlp...felplvptfadageigkvviylnsrgylslarnaaslaypynlkaglsvkv 297
+                     v+ idr fgnvwtni+   l   g+    +  ++ld  +     + p   tf+++   g  ++y nsrg ls+a n +sl     +  + +v+v
+  WP_106189648.1 180 VARIDRAFGNVWTNIPSAAL---GLPSTPDGPVTLDATVGgerARWPWCTTFSQVATTG-RLAYANSRGRLSFALNRGSLVAELGVAPDAPVEV 269
+                     ****************9887...555556667888887751114579999*****9766.579****************998877777777666 PP
+
+>> sp|A8M783|RSAMH_SALAI  (R)-S-adenosyl-L-methionine hydrolase OS=Salinispora arenicola (strain CNS-205) OX=391037 GN=S
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   37.2   0.2   1.1e-12     2e-11       8      90 ..       4      85 ..       1      90 [. 0.92
+   2 !   36.3   0.0   2.2e-12   3.9e-11     118     296 ..      90     257 ..      85     261 .] 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 37.2 bits;  conditional E-value: 1.1e-12
+             fluorinase  8 rpiiafmsdlgttddsvaqckglmlsicpdvtivdvchsmtpwdveegaryivdlprffpegtvfatttypatgtstrsvalr 90
+                            p i+f +d g  d  va c+g++  + p + ++dv+h + p dv +ga ++ +   ++p   v  +   p  gt+ r++al 
+  sp|A8M783|RSAMH_SALAI  4 TPWISFTTDYGLADGFVAACHGVLARLAPTARVIDVTHLVPPGDVRRGAAVLAQTVPYLPAA-VHVAVVDPGVGTARRAIALT 85
+                           699**************************************************999999976.5566678**********985 PP
+
+  == domain 2  score: 36.3 bits;  conditional E-value: 2.2e-12
+             fluorinase 118 iyiapnngllttvieehgyle.ayevsstevipaepeptfysremvaipsahlaagfpleevgrkledseivrfdrpkveqvedealv 204
+                            + + p+ngll       g ++ a e+++++ + a+   tf+ r++ a  +a+la g pl++ g ++e   +vr+  p v+  e + ++
+  sp|A8M783|RSAMH_SALAI  90 LLVGPDNGLLLDAATALGGVDaAVELTNPDWLGARMSATFHGRDVFAPVAARLALGAPLADAGPAVEPGALVRLPTPLVQP-ETDGFT 176
+                            6799********999999998358*****************************************************9998.555677 PP
+
+             fluorinase 205 gvvtaidrpfgnvwtnihrkdlekagigygtklrivlddvlpfelplvptfadageigkvviylnsrgylslarnaaslaypynlkag 292
+                              v ++d+ fgnv    +   le +     + lr+         +  ++tf da   g  +++++s g +++a n++  a+   +  g
+  sp|A8M783|RSAMH_SALAI 177 AEVLTVDH-FGNVQLAATGALLESL----PRSLRVAHR-----PAVHARTFDDAP-PGGLLVHVDSAGLVAVAVNGGRAADLLAVTPG 253
+                            77788999.9***999888888865....456666543.....344578888887.57778888899999988888888887766666 PP
+
+             fluorinase 293 lsvk 296
+                             + +
+  sp|A8M783|RSAMH_SALAI 254 DQLR 257
+                            5555 PP
+
+>> sp|A4X4S2|RSAMH_SALTO  (R)-S-adenosyl-L-methionine hydrolase OS=Salinispora tropica (strain ATCC BAA-916 / DSM 44818 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   35.7   0.2   3.4e-12   6.1e-11       8      89 ..       4      84 ..       1      89 [. 0.92
+   2 !   35.7   0.0   3.3e-12   5.9e-11     118     289 ..      90     250 ..      84     260 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 35.7 bits;  conditional E-value: 3.4e-12
+             fluorinase  8 rpiiafmsdlgttddsvaqckglmlsicpdvtivdvchsmtpwdveegaryivdlprffpegtvfatttypatgtstrsval 89
+                            p i+f +d g  d  va c+g++  + p   ++dv+h + p dv +ga ++ +   ++p    +a    p  gt+ r++al
+  sp|A4X4S2|RSAMH_SALTO  4 TPWISFTTDYGLADGFVAACHGVLARLTPTTRVIDVTHLVPPGDVRRGAAVLAQAVPYLPAAVHLAV-VDPGVGTARRAIAL 84
+                           5899**************************************************999***8776665.679********998 PP
+
+  == domain 2  score: 35.7 bits;  conditional E-value: 3.3e-12
+             fluorinase 118 iyiapnngllttvieehgyle.ayevsstevipaepeptfysremvaipsahlaagfpleevgrkledseivrfdrpkveqvedealv 204
+                            + + p+ngll       g +  a e+++ + + a+   tf+ r++ a  +a+la g pl++ g ++e s +vr+  p v   +d  ++
+  sp|A4X4S2|RSAMH_SALTO  90 LLVGPDNGLLLDAAAALGGVRaAVELTNRDWLGADVSATFHGRDIFAPVAARLALGAPLADAGPAVEPSTLVRLPVPLVRPEAD-GFT 176
+                            6799******99999888776268*****************************************************9999555.566 PP
+
+             fluorinase 205 gvvtaidrpfgnvwtnihrkdlekagigygtklrivlddvlpfelplvptfadageigkvviylnsrgylslarnaaslaypynl 289
+                              v ++d+ fgnv    +   le +     + lr+  +         v tf+d+   g+ +++++s g +++a n++  a+   +
+  sp|A4X4S2|RSAMH_SALTO 177 AEVLTVDH-FGNVQLAASGSLLEPL----PRSLRVERQPA-----VRVHTFGDVA-PGELLVHVDSTGQVAVAVNGGRAADLLGV 250
+                            67778998.****999999999865....45677655443.....3457899987.68888999999999999998888776555 PP
+
+>> sp|Q5SLF5|RSAMH_THET8  (R)-S-adenosyl-L-methionine hydrolase OS=Thermus thermophilus (strain ATCC 27634 / DSM 579 / H
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   35.4   0.0   4.1e-12   7.4e-11      11      89 ..       4      82 ..       1      97 [. 0.92
+   2 !   23.7   0.0   1.5e-08   2.6e-07     117     297 ..      86     254 ..      82     255 .] 0.75
+
+  Alignments for each domain:
+  == domain 1  score: 35.4 bits;  conditional E-value: 4.1e-12
+             fluorinase 11 iafmsdlgttddsvaqckglmlsicpdvtivdvchsmtpwdveegaryivdlprffpegtvfatttypatgtstrsval 89
+                           + f+sd+g +d  va  k ++    p+ ++vd++h++ p d+ + a  + +   ++peg+v  +   p  gt+ r+va 
+  sp|Q5SLF5|RSAMH_THET8  4 VYFLSDFGLEDPYVAVVKAVLAERAPGPAVVDLAHALPPQDLRRAAYALFEALPYLPEGAVVLAVVDPGVGTARRAVAA 82
+                           469*******************************************999998889**********************96 PP
+
+  == domain 2  score: 23.7 bits;  conditional E-value: 1.5e-08
+             fluorinase 117 yiyiapnngllttv..iee...hgyleayevsstevip..aepeptfysremvaipsahlaagfpleevgrkledseivrfdrpkveq 197
+                            + y+ p+ngl+t    ++       le        ++p  a  e tf+ r++ a  +ahla g+p e +g ++  + + r+    +e 
+  sp|Q5SLF5|RSAMH_THET8  86 WTYVGPDNGLFTLAwlLDPprrAFLLEPPRPRPKAALPgwAPGEATFHGRDVFAPAAAHLALGLPPEGLGPEVPVETLARLPLALTEG 173
+                            567777777766541122211022234444444455663334699****************************999999987766655 PP
+
+             fluorinase 198 vedealvgvvtaidrpfgnvwtnihrkdlekagigygtklrivlddvlpfelplvptfadageigkvviylnsrgylslarnaaslay 285
+                                  +g v + dr fgn  t + r  +                +v   ++p+ +tf+++   g++v+yl s g l +a n +s  +
+  sp|Q5SLF5|RSAMH_THET8 174 -----PEGEVLTFDR-FGNAITTLLRAPVGGF------------VEVGGRRVPVRRTFGEVP-EGAPVAYLGSAGLLEVAVNRGSARE 242
+                            .....4566778997.****999988766532............24556789*********9.59*********************** PP
+
+             fluorinase 286 pynlkaglsvkv 297
+                            +  lk+g++v++
+  sp|Q5SLF5|RSAMH_THET8 243 ALGLKEGMPVRL 254
+                            **********85 PP
+
+>> sp|O58212|RSAMH_PYRHO  (R)-S-adenosyl-L-methionine hydrolase OS=Pyrococcus horikoshii (strain ATCC 700860 / DSM 12428
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   35.9   0.1   2.9e-12   5.2e-11      11      90 ..       2      81 ..       1      86 [. 0.95
+   2 !   20.0   0.0     2e-07   3.7e-06     115     297 ..      82     253 ..      79     256 .] 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 35.9 bits;  conditional E-value: 2.9e-12
+             fluorinase 11 iafmsdlgttddsvaqckglmlsicpdvtivdvchsmtpwdveegaryivdlprffpegtvfatttypatgtstrsvalr 90
+                           i++ +d+g +   v+  k  ml i p++ ivdv+hs+t + + eg+ ++ ++ ++ p+gtv      p  gt+ r++ + 
+  sp|O58212|RSAMH_PYRHO  2 ITLTTDFGLKGPYVGEMKVAMLRINPNAKIVDVTHSVTRHSILEGSFVMEQVVKYSPKGTVHVGVIDPGVGTERRAIVIE 81
+                           77889**********************************************************************99875 PP
+
+  == domain 2  score: 20.0 bits;  conditional E-value: 2e-07
+             fluorinase 115 gsyiyiapnngllttvieehgyleayevsstev...ipaepeptfysremvaipsahlaagfpleevgrkledseivrfdrpkveqve 199
+                            g    + p+ngl t  +++      ye+   ++      e   tf+ r++     a +  g+  ee gr++  + iv+++ +  ++  
+  sp|O58212|RSAMH_PYRHO  82 GDQYLVVPDNGLATLPLKHIKVKSVYEIIPDKIrkfTGWEISSTFHGRDIFGPAGALIEKGIHPEEFGREIPVDSIVKLNVEPRKE-G 168
+                            5566789**********99999999**9877662114567889*********999************************9865554.4 PP
+
+             fluorinase 200 dealvgvvtaidrpfgnvwtnihrkdlekagigygtklriv.lddvlpfelplvptfadageigkvviylnsrgylslarnaaslayp 286
+                            d  +   v  id  fgnv  n++    ek         ++  ld  + ++lp+  t++ +   g++++   s  yl +a n +s a+ 
+  sp|O58212|RSAMH_PYRHO 169 DVWILK-VIYID-DFGNVILNLEN--YEKP-------RTVElLD--FNLRLPYLETYGLVE-KGEMLALPGSHDYLEIAVNMGSAAER 242
+                            555554.55677.5*****99864..3333.......2333044..467889999999876.789999999***************** PP
+
+             fluorinase 287 ynlkaglsvkv 297
+                             n+k g + +v
+  sp|O58212|RSAMH_PYRHO 243 LNVKVGDELRV 253
+                            **999877776 PP
+
+>> sp|Q59045|RSAMH_METJA  (R)-S-adenosyl-L-methionine hydrolase OS=Methanocaldococcus jannaschii (strain ATCC 43067 / DS
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   25.9   0.0   3.2e-09   5.8e-08       9      91 ..      11      96 ..       5      99 .. 0.82
+   2 !   20.3   0.2   1.6e-07   2.9e-06     114     283 ..      97     247 ..      91     259 .. 0.74
+
+  Alignments for each domain:
+  == domain 1  score: 25.9 bits;  conditional E-value: 3.2e-09
+             fluorinase  9 piiafmsdlgttddsvaqckglmlsic....pdvtivdvchsmtpwdveegaryivdlprffpegtvfatttypatgtstrsvalri 91
+                            ii++ +d+gt++  v+  kg +l+i      d+ i+d++h ++p+++ +ga +++    +fp      +   p+ g++ +s+ +  
+  sp|Q59045|RSAMH_METJA 11 DIITLTTDFGTNEGYVGAMKGRILNILkkynKDAKIIDISHEIKPFNIYHGAYVLLTAIPYFPPSV-HVAVIDPTVGSERKSIVIET 96
+                           58999****************999986333369*******************99887777777654.44566799999999998865 PP
+
+  == domain 2  score: 20.3 bits;  conditional E-value: 1.6e-07
+             fluorinase 114 egsyiyiapnngllttvieehgyleayevsstevipaepeptfysremvaipsahlaagfpleevgrkledseivrfdrpkveqvede 201
+                            +++y  + p+ngl+t v e+ g     ++   +    +p  tf+ r++ a+  a++      +  g +l  +e+v++d  k+      
+  sp|Q59045|RSAMH_METJA  97 KSGYYLVGPDNGLFTYVAEKLGIKRIIKIDEER---YKPSSTFHGRDVYAVVGAEILINNGYD--GEEL--DEMVKIDETKKR----- 172
+                            678999**************9998877777665...68899**********999986443333..4444..689999877655..... PP
+
+             fluorinase 202 alvgvvtaidrpfgnvwtnihrkdlekagigygtklrivlddvlpfelplvptfada..geigkvviylnsrgylslarnaasl 283
+                                 v  idr fgn+ tni++ ++      y   + i + +   +e  +   f  +   e ++ ++ +ns g+l +++   + 
+  sp|Q59045|RSAMH_METJA 173 -----VIHIDR-FGNIITNIKKDEVT---FKYYDTIMIKIRHKNGIEKIIKCKFVKSyfEEKNNFICLINSEGFLEISKFMDNA 247
+                            .....467997.9*******997765...55666666666666666666666665442246689999********998865554 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (300 nodes)
+Target sequences:                        217  (82928 residues searched)
+Passed MSV filter:                        16  (0.0737327); expected 4.3 (0.02)
+Passed bias filter:                       16  (0.0737327); expected 4.3 (0.02)
+Passed Vit filter:                        13  (0.0599078); expected 0.2 (0.001)
+Passed Fwd filter:                        12  (0.0552995); expected 0.0 (1e-05)
+Initial search space (Z):                217  [actual number of targets]
+Domain search space  (domZ):              12  [number of targets reported over threshold]
+# CPU time: 0.07u 0.00s 00:00:00.07 Elapsed: 00:00:00.07
+# Mc/sec: 322.23
+//
+[ok]

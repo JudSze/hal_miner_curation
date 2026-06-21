@@ -1,0 +1,1093 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  HALOGENATION/FLAVIN_DEPENDENT_HALOGENASES/MAFFT/trp_6_7/trp_6_7.hmm
+# target sequence database:        HALOGENATION/FLAVIN_DEPENDENT_HALOGENASES/MAFFT/trp_6_7/negative_test.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       trp_6_7  [M=520]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                       Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                       -----------
+   1.9e-224  739.0   0.0   2.1e-224  738.8   0.0    1.0  1  tr|G3K6J6|claH-5                [Streptomyces uncialis]
+   4.9e-223  734.3   0.0   5.4e-223  734.2   0.0    1.0  1  tr|F6LWA5|abeH-5                [uncultured bacterium AB1650]
+   1.7e-221  729.3   0.0   1.9e-221  729.1   0.0    1.0  1  tr|A0A0K0P9W9|lzrH1-5           [uncultured bacterium]
+   1.1e-197  650.7   0.0   1.2e-197  650.5   0.0    1.0  1  tr|A4D0H5|pyrH-5                [Streptomyces rugosporus]
+     1e-196  647.5   0.0   1.2e-196  647.3   0.0    1.0  1  tr|A0A1W7D4T7|SpmH-5            [Streptomyces marincola]
+   2.2e-183  603.5   0.1   2.6e-183  603.3   0.1    1.0  1  tr|W1J423|pyrH-5                [Xenorhabdus szentirmaii DSM 163
+    1.5e-86  284.0   0.0    6.7e-86  281.8   0.0    1.7  1  tr|E2IHC5|mibH-5                [Microbispora corallina]
+    3.6e-12   38.6   1.3    5.7e-07   21.4   0.1    2.2  2  HrmQ|tr|C1IHU5|C1IHU5_9ACTN     [Streptomyces griseoflavus]
+      1e-11   37.0   1.5    7.2e-10   31.0   0.9    2.6  2  CndH_B|B9ZUJ5                   [Chondromyces crocatus]
+    1.3e-11   36.8   0.7    8.7e-09   27.4   0.2    2.7  2  Tcp21_B|Q70AY7                  [Actinoplanes teichomyceticus]
+    1.3e-11   36.7   0.4    6.3e-06   18.0   0.0    2.2  2  mpy16|tr|J7H1A1|J7H1A1_9ACTN    [Streptomyces sp. CNQ-418]
+    1.9e-11   36.1   0.4    3.9e-06   18.6   0.0    3.2  2  CrpH_B|A4D940                   [Nostoc sp. ATCC 53789]
+    1.9e-11   36.1   2.3    1.2e-08   26.9   1.3    2.9  2  End30_B|ABD65950.1              [Streptomyces fungicidicus]
+    7.9e-11   34.1   3.0    5.9e-06   18.0   0.1    2.5  2  pyr29|tr|A3R4S0|pyr29           [Wenjunlia vitaminophila]
+    1.3e-10   33.5   0.4    4.2e-05   15.2   0.2    2.9  2  XanH_A_cycl|ADE22292.1          [Streptomyces flavogriseus]
+    1.3e-10   33.4   0.5      2e-07   22.9   0.3    3.0  2  SgcC3_B                         [Streptomyces sp. NPDC058620]
+    1.9e-10   32.8   0.2    1.3e-06   20.2   0.1    2.7  2  SimC6_cycl|AF324838             [Streptomyces antibioticus]
+    2.4e-10   32.6   1.7    1.3e-08   26.8   0.5    2.9  2  BhaA_B|O87676                   [Amycolatopsis balhimycina]
+    3.5e-10   32.0   2.4    9.3e-09   27.3   0.6    3.0  2  VhaA_B|G4V4R7                   [Amycolatopsis orientalis]
+    5.7e-10   31.3   1.8    3.1e-05   15.7   0.0    2.4  2  PltA|sp|Q4KCZ0|PLTA_PSEF5       [Pseudomonas fluorescens]
+    1.2e-09   30.2   0.1    7.5e-06   17.7   0.0    2.5  2  Ram20_B|DD382878.1              [Actinoplanes sp.]
+    1.8e-09   29.7   1.6    1.9e-05   16.3   0.5    2.2  2  ChlB4_B_orsel|Q0R4P7            [Streptomyces antibioticus]
+    3.7e-09   28.6   0.0    8.1e-05   14.3   0.0    2.1  2  CalO3_A?_orsel|Q8KND5           [Micromonospora echinospora]
+    4.4e-09   28.4   0.7    0.00018   13.2   0.1    2.8  2  TiaM_A_orsel|E9LIP1             [Dactylosporangium aurantiacum s
+    7.8e-09   27.6   0.0      8e-06   17.6   0.0    2.3  2  Nat1_A_cycl|F8QPG4              [Streptomyces sp. CS]
+    1.9e-08   26.2   0.4    5.5e-05   14.9   0.4    3.1  2  sp|P95482|PRNC_PSEFL            [Pseudomonas fluorescens]
+    2.1e-08   26.2   0.0     0.0005   11.7   0.0    2.6  2  AviH_orsel|STVIR_2874|ELS56116  [Streptomyces viridochromogenes 
+    7.7e-08   24.3   1.5    0.00031   12.4   0.5    2.2  2  clz5|tr|U6A3L4|U6A3L4_9ACTN     [Streptomyces sp. CNH287]
+    9.7e-08   23.9   4.1    3.5e-05   15.5   2.0    2.7  2  Clo-Hal_B|AAN65237.1            [Streptomyces roseochromogenus s
+    5.4e-07   21.5   0.3    0.00081   11.0   0.0    3.0  3  tr|Q71ME2|Q71ME2_9ACTN          [Actinoplanes sp. ATCC 33002]
+    7.5e-06   17.7   0.0      0.002    9.7   0.0    2.4  2  CtcP_A_cycl|A0A1E7MYN1          [Kitasatospora aureofaciens]
+      7e-05   14.5   0.0     0.0088    7.6   0.0    2.2  2  Asm12_A_cycl|AQZ37099.1         [Actinosynnema pretiosum subsp. 
+    0.00029   12.5   0.0      0.051    5.1   0.0    2.9  3  sp|A0A142C7A5|PHNG_PENHR        Oxidoreductase phnG OS=Penicilli
+
+
+Domain annotation for each sequence (and alignments):
+>> tr|G3K6J6|claH-5  [Streptomyces uncialis]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  738.8   0.0  6.4e-225  2.1e-224       6     516 ..       3     512 ..       1     513 [] 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 738.8 bits;  conditional E-value: 6.4e-225
+           trp_6_7   6 kkvvivGGGtaGWmtasylkkalgdrveitllesaaigrigvGeatipdlqkvffdflglkeeeWmpecnasyklavkfvnWrkpgedgredh 98 
+                       +++v+vGGGt+GWmtasyl++a+g+r+++t++esa++g+igvGeat++ +++ ff++lgl+ee Wmp+cna+ykl+++f+nWr pg+     h
+  tr|G3K6J6|claH-5   3 ESIVVVGGGTSGWMTASYLSAAFGERISVTVVESARVGTIGVGEATFSTVRH-FFEYLGLSEETWMPACNATYKLGIRFENWRAPGH-----H 89 
+                       68**************************************************.**********************************.....* PP
+
+           trp_6_7  99 fyhlfgqlksvdglPlsdyWlkkrlqgkterfdkacfveaslldaklsPrlldgs....................kqlsyayhfdaalvadfl 171
+                       fyh+f++ + vdg+ l d+Wl+    g terfdk+cf   +l+d+ +sPr++dg+                    +q++yayhfdaal+adfl
+  tr|G3K6J6|claH-5  90 FYHPFERQRVVDGFTLPDWWLA--DGGATERFDKECFLVGTLCDTMRSPRHMDGAlfegdltdrpagrstlaeqgTQFPYAYHFDAALLADFL 180
+                       **********************..88999**************************************************************** PP
+
+           trp_6_7 172 rryavergvkhvvdevvevklderGfitavrtkegreleadlfvdcsGfrglllnkaleePfidmsdtllndsavalavplddekegvePyts 264
+                       r yav rgv hvvd+vv+v++derG+i++v t+  ++l++dlfvdc+Gfrgll+n al+ePf +++dtl+ndsaval+vp d+e+eg++P+t+
+  tr|G3K6J6|claH-5 181 RDYAVARGVLHVVDDVVHVARDERGWISHVATRGSGDLAGDLFVDCTGFRGLLINDALDEPFESYQDTLPNDSAVALRVPVDMEREGLRPCTT 273
+                       ********************************************************************************************* PP
+
+           trp_6_7 265 aiameaGWtWkiPllgrvGtGyvysskftskdeaerelrelvgldaedvelnkirfrvGrsrraWvkncvsiGlsscfvePlestGiyfiyaa 357
+                       ++a+ aGW+W+iPl+grvGtGyvy+ ++++++eaer+lr++vg++a+d e+n+ir+r+Grsrr+Wv+ncv++Glss+fvePlestGi+fi++a
+  tr|G3K6J6|claH-5 274 STAQAAGWIWTIPLFGRVGTGYVYARDYCTPEEAERTLRRFVGPAADDLEANHIRMRIGRSRRSWVNNCVAVGLSSGFVEPLESTGIFFIQHA 366
+                       ********************************************************************************************* PP
+
+           trp_6_7 358 leqlvkhfPdkdfdpvladafnreveevfddvrdflqahyllakredtefWratkelkladslkekieaykaglpvnlpvtdeet..yyenle 448
+                       +eqlvkhfPd+d+dp+l+ a+n+ v++ +d+vr+fl++hy+ a+r+d+e+Wr+tk++k++dsl+e++e+++++lp       e+   +y+++e
+  tr|G3K6J6|claH-5 367 IEQLVKHFPDADWDPALRSAYNTLVNRCMDGVREFLVLHYYGAARADNEYWRDTKTRKIPDSLAERVEQWRTKLP-----HPESVypHYHGFE 454
+                       ***************************************************************************.....222222379**** PP
+
+           trp_6_7 449 aefrnfwtnssyycilaGlgllpekplpalalrdeavaeaealfaavrrkaeelvetlPskyeylrrl 516
+                       a+        sy+c+++Glg +p kp+pal++ d ++a++e  f  + ++ae+l+ tlPs+y y++++
+  tr|G3K6J6|claH-5 455 AY--------SYVCMVLGLGGIPLKPSPALRMLDPSAAQRE--FRLLATQAEDLRRTLPSQYAYFAQF 512
+                       **........*******************************..**********************997 PP
+
+>> tr|F6LWA5|abeH-5  [uncultured bacterium AB1650]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  734.2   0.0  1.6e-223  5.4e-223       5     518 ..       2     513 ..       1     515 [] 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 734.2 bits;  conditional E-value: 1.6e-223
+           trp_6_7   5 ikkvvivGGGtaGWmtasylkkalgdrveitllesaaigrigvGeatipdlqkvffdflglkeeeWmpecnasyklavkfvnWrkpgedgred 97 
+                       +k+vv+vGGGtaGWmtasyl++a+gdr+ +tl+es ++g igvGeat++ +++ ff++lgl+e+eWmp+cna+ykla++f+nWr+pg+     
+  tr|F6LWA5|abeH-5   2 LKNVVVVGGGTAGWMTASYLTAAFGDRIGVTLVESKRVGSIGVGEATFSTVRH-FFEYLGLEEKEWMPACNATYKLAIRFENWREPGH----- 88 
+                       589**************************************************.**********************************..... PP
+
+           trp_6_7  98 hfyhlfgqlksvdglPlsdyWlkkrlqgkterfdkacfveaslldaklsPrlldgs....................kqlsyayhfdaalvadf 170
+                       hfyh+f++ + vdg+Pl+d+Wl+   +++ +rfdk+cf   +l+d  +sPr l+g+                    +q++yayhfda+lva++
+  tr|F6LWA5|abeH-5  89 HFYHPFERQRVVDGFPLTDWWLR---EPRSDRFDKDCFLVGTLCDDLKSPRQLNGElfegglggrsayrttlaeqtTQFPYAYHFDATLVANY 178
+                       ***********************...9999*************************************************************** PP
+
+           trp_6_7 171 lrryavergvkhvvdevvevklderGfitavrtkegreleadlfvdcsGfrglllnkaleePfidmsdtllndsavalavplddekegvePyt 263
+                       lr yav rgvkhv d+v++v+ld+rG+i++v+t e ++l++dlf+dc+Gfr+lll kal ePf +++d l+ndsaval+vp+d+e++g++P+t
+  tr|F6LWA5|abeH-5 179 LRDYAVARGVKHVLDDVQDVALDDRGWISHVVTGESGNLTGDLFIDCTGFRSLLLGKALAEPFQSYQDSLPNDSAVALRVPQDMENRGLRPCT 271
+                       ********************************************************************************************* PP
+
+           trp_6_7 264 saiameaGWtWkiPllgrvGtGyvysskftskdeaerelrelvgldaedvelnkirfrvGrsrraWvkncvsiGlsscfvePlestGiyfiya 356
+                       +a+a+eaGW+W+iPl+ r+GtGyvy+ +++s++eaer+lr +vg++ae+ ++n+i++r+Grs+r Wv+ncv++Glss+fvePlestGi+fi++
+  tr|F6LWA5|abeH-5 272 TATAQEAGWIWTIPLFDRIGTGYVYAGDYISPEEAERTLRAFVGPAAEHADANHIKMRIGRSNRHWVNNCVAVGLSSGFVEPLESTGIFFIQH 364
+                       ********************************************************************************************* PP
+
+           trp_6_7 357 aleqlvkhfPdkdfdpvladafnreveevfddvrdflqahyllakredtefWratkelkladslkekieaykaglpvnlpvtdeet...yyen 446
+                       a+eqlvkhfPd+++d+ l+ a+n+ v++v+d+vr+fl++hy++akr+d+++W+++k++ l+d+l+e++e+++++lp      d+e    +y++
+  tr|F6LWA5|abeH-5 365 AIEQLVKHFPDERWDDGLRTAYNKLVNNVMDGVREFLVVHYYAAKRQDNQYWKDAKTRPLPDGLAERLERWQTRLP------DNESvfpHYHG 451
+                       ****************************************************************************......55544568*** PP
+
+           trp_6_7 447 leaefrnfwtnssyycilaGlgllpekplpalalrdeavaeaealfaavrrkaeelvetlPskyeylrrlrg 518
+                       +e +        sy+c+l+Glg l+ k++pal l+d a a++e  f+ v ++a+el  tlP++yey+++l+ 
+  tr|F6LWA5|abeH-5 452 FESY--------SYVCMLLGLGGLDLKSSPALGLMDAAPARHE--FKLVGEQAAELARTLPTQYEYFAQLHR 513
+                       ****........*******************************..*************************96 PP
+
+>> tr|A0A0K0P9W9|lzrH1-5  [uncultured bacterium]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  729.1   0.0  5.6e-222  1.9e-221       6     517 ..       3     512 .]       1     512 [] 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 729.1 bits;  conditional E-value: 5.6e-222
+                trp_6_7   6 kkvvivGGGtaGWmtasylkkalgdrveitllesaaigrigvGeatipdlqkvffdflglkeeeWmpecnasyklavkfvnWrkpged 93 
+                            k+vvivGGGt+GWmtasyl++a+gdr+e+tl+esa++g+igvGeat++ +++ ff++lgl+e++Wmp+cna+ykla++f+nWr++g+ 
+  tr|A0A0K0P9W9|lzrH1-5   3 KSVVIVGGGTSGWMTASYLTAAFGDRIEVTLVESARVGAIGVGEATFSTVRH-FFEYLGLEEKDWMPACNATYKLAIRFENWREEGH- 88 
+                            89**************************************************.**********************************. PP
+
+                trp_6_7  94 gredhfyhlfgqlksvdglPlsdyWlkkrlqgkterfdkacfveaslldaklsPrlldgs....................kqlsyayh 161
+                                hfyh+f++ + vdg+ l d+Wl+   +++ +rfd++cf   +l+d+ +sPr+ldg+                    +q++yayh
+  tr|A0A0K0P9W9|lzrH1-5  89 ----HFYHPFERQRVVDGFTLPDWWLR---NPSSDRFDRDCFLVGTLCDSLKSPRHLDGTlfegglgerstyrttlseqsTQFPYAYH 169
+                            ....***********************...9999****************************************************** PP
+
+                trp_6_7 162 fdaalvadflrryavergvkhvvdevvevklderGfitavrtkegreleadlfvdcsGfrglllnkaleePfidmsdtllndsavala 249
+                            fda+lva+flr yav rgv+hv d+vv+v+ld+rG+i++v+tke +el++dlf+dc+Gfr+lll kaleePf +++  l+ndsaval+
+  tr|A0A0K0P9W9|lzrH1-5 170 FDATLVANFLRDYAVARGVRHVLDDVVDVALDSRGWISHVVTKERGELAGDLFIDCTGFRSLLLGKALEEPFESYQSSLPNDSAVALR 257
+                            **************************************************************************************** PP
+
+                trp_6_7 250 vplddekegvePytsaiameaGWtWkiPllgrvGtGyvysskftskdeaerelrelvgldaedvelnkirfrvGrsrraWvkncvsiG 337
+                            vpld+e++g++P+t+a+a+eaGW+W+iPl+ r+GtGyvy+s++ ++++ae+ lre+vg++ae  e+n+i++r+Grsrr Wv+ncv+iG
+  tr|A0A0K0P9W9|lzrH1-5 258 VPLDMERKGLRPCTTATAQEAGWIWTIPLFDRIGTGYVYASEYSTPEQAEQRLREFVGPAAEGLEANHIKMRIGRSRRHWVNNCVAIG 345
+                            **************************************************************************************** PP
+
+                trp_6_7 338 lsscfvePlestGiyfiyaaleqlvkhfPdkdfdpvladafnreveevfddvrdflqahyllakredtefWratkelkladslkekie 425
+                            lss+fvePlestGi+fi++ +eqlvkhfPd ++++ l+d++n+ v++ +d+vr+fl++hy++akr+d+++W++tk+++l+d+l+e++e
+  tr|A0A0K0P9W9|lzrH1-5 346 LSSGFVEPLESTGIFFIQHGIEQLVKHFPDVSWEDGLRDSYNNLVNRCMDGVREFLVLHYYAAKRADNQYWQDTKNRALPDGLAERLE 433
+                            **************************************************************************************** PP
+
+                trp_6_7 426 aykaglpvnlpvtdeet...yyenleaefrnfwtnssyycilaGlgllpekplpalalrdeavaeaealfaavrrkaeelvetlPsky 510
+                            ++k++lp      d+e    +y+++ea+        sy+c+l+Glg ++ kp+pal l d + a++e  f+ v ++a+el  tlP++y
+  tr|A0A0K0P9W9|lzrH1-5 434 RWKTRLP------DAESvypHYHGFEAY--------SYVCMLLGLGGVELKPSPALGLLDPSSAQHE--FKLVAEQATELERTLPTQY 505
+                            *******......444444489******........*******************************..******************* PP
+
+                trp_6_7 511 eylrrlr 517
+                            ey++rlr
+  tr|A0A0K0P9W9|lzrH1-5 506 EYFARLR 512
+                            ****986 PP
+
+>> tr|A4D0H5|pyrH-5  [Streptomyces rugosporus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  650.5   0.0  3.7e-198  1.2e-197       5     516 ..       2     510 ..       1     511 [] 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 650.5 bits;  conditional E-value: 3.7e-198
+           trp_6_7   5 ikkvvivGGGtaGWmtasylkkalgdrveitllesaaigrigvGeatipdlqkvffdflglkeeeWmpecnasyklavkfvnWrkpgedgred 97 
+                       i++vvivGGGtaGWmtasylk+a++dr+++tl+es+++ rigvGeat++ +++ ffd+lgl e+eW+p c + ykl+++f+nW +pge     
+  tr|A4D0H5|pyrH-5   2 IRSVVIVGGGTAGWMTASYLKAAFDDRIDVTLVESGNVRRIGVGEATFSTVRH-FFDYLGLDEREWLPRCAGGYKLGIRFENWSEPGE----- 88 
+                       799**************************************************.**********************************..... PP
+
+           trp_6_7  98 hfyhlfgqlksvdglPlsdyWlkkrlqgkterfdkacfveaslldaklsPrlldgs...................kqlsyayhfdaalvadfl 171
+                       +fyh+f++l+ vdg+ ++++Wl+  +  +  +f +ac+ +  l++ak++Pr+ldgs                   +q++yayhfda+ va +l
+  tr|A4D0H5|pyrH-5  89 YFYHPFERLRVVDGFNMAEWWLA--VGDRRTSFSEACYLTHRLCEAKRAPRMLDGSlfasqvdeslgrstlaeqrAQFPYAYHFDADEVARYL 179
+                       ***********************..5556699******************************************99***************** PP
+
+           trp_6_7 172 rryavergvkhvvdevvevklderGfitavrtkegreleadlfvdcsGfrglllnkaleePfidmsdtllndsavalavplddekegvePyts 264
+                       ++ya+ rgv+hvvd+v++v  derG+i+ v+tk+++e+++dlfvdc+Gfrgll+n++l+  f ++sd l+n++aval+vp++++ e ++Pyt+
+  tr|A4D0H5|pyrH-5 180 SEYAIARGVRHVVDDVQHVGQDERGWISGVHTKQHGEISGDLFVDCTGFRGLLINQTLGGRFQSFSDVLPNNRAVALRVPREND-EDMRPYTT 271
+                       ********************************************************************************9877.569***** PP
+
+           trp_6_7 265 aiameaGWtWkiPllgrvGtGyvysskftskdeaerelrelvgldaedvelnkirfrvGrsrraWvkncvsiGlsscfvePlestGiyfiyaa 357
+                       a+am+aGW+W+iPl+ r G Gyvys++f+s++eaerelr+ v +  +d e+n+i++r+Gr++r+W++ncv++Gls++fvePlestGi+fi++a
+  tr|A4D0H5|pyrH-5 272 ATAMSAGWMWTIPLFKRDGNGYVYSDEFISPEEAERELRSTVAPGRDDLEANHIQMRIGRNERTWINNCVAVGLSAAFVEPLESTGIFFIQHA 364
+                       ********************************************************************************************* PP
+
+           trp_6_7 358 leqlvkhfPdkdfdpvladafnreveevfddvrdflqahyllakredtefWratkelkladslkekieaykaglpvnlpvtdeet...yyenl 447
+                       +eqlvkhfP +++dpvl  a+n+ +++++d+v++fl++hy  a+redt++W+a+k+++++d+l+ k+e   ++l       de+t   yy+++
+  tr|A4D0H5|pyrH-5 365 IEQLVKHFPGERWDPVLISAYNERMAHMVDGVKEFLVLHYKGAQREDTPYWKAAKTRAMPDGLARKLELSASHLL------DEQTiypYYHGF 451
+                       ********************************************************************9999998......8888889***** PP
+
+           trp_6_7 448 eaefrnfwtnssyycilaGlgllpekplpalalrdeavaeaealfaavrrkaeelvetlPskyeylrrl 516
+                       e++        s++++ +Glg++pe+p pal ++d a a ae  f+++rr+ +el+++lPs yeyl+++
+  tr|A4D0H5|pyrH-5 452 ETY--------SWITMNLGLGIVPERPRPALLHMDPAPALAE--FERLRREGDELIAALPSCYEYLASI 510
+                       ***........999999*************************..**********************986 PP
+
+>> tr|A0A1W7D4T7|SpmH-5  [Streptomyces marincola]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  647.3   0.0  3.5e-197  1.2e-196       5     517 ..       2     511 ..       1     513 [] 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 647.3 bits;  conditional E-value: 3.5e-197
+               trp_6_7   5 ikkvvivGGGtaGWmtasylkkalgdrveitllesaaigrigvGeatipdlqkvffdflglkeeeWmpecnasyklavkfvnWrkpged 93 
+                           i+kv ivGGGtaGWmtasylk+a+ dr+++tl+es a+grigvGeat++ +++ ffd+lgl e +W+p+c++ ykla++f+nW k+g+ 
+  tr|A0A1W7D4T7|SpmH-5   2 IRKVAIVGGGTAGWMTASYLKAAFADRLDVTLVESEAVGRIGVGEATFSTVRH-FFDYLGLDEADWLPKCEGGYKLAIRFENWAKQGH- 88 
+                           899**************************************************.**********************************. PP
+
+               trp_6_7  94 gredhfyhlfgqlksvdglPlsdyWlkkrlqgkterfdkacfveaslldaklsPrlldgs...................kqlsyayhfd 163
+                               hfyh+f++l+++dg+ l+++Wl+  l  + ++fd++cfv+++l++ak+sPr+ldgs                   +q++yayhfd
+  tr|A0A1W7D4T7|SpmH-5  89 ----HFYHPFERLRKADGFSLAEWWLA--LGDHSQPFDRQCFVTSALCEAKRSPRMLDGSlfatgldgslgrsslaeqrAQFPYAYHFD 171
+                           ....***********************..67777********************************************99********* PP
+
+               trp_6_7 164 aalvadflrryavergvkhvvdevvevklderGfitavrtkegreleadlfvdcsGfrglllnkaleePfidmsdtllndsavalavpl 252
+                           a++va fl  y++ergv+h+vd+vv+ +ld+rG+i++v+t+ g +l+adlf+dc+Gfrg l+nk ++ePf +++d l+n++ava++v +
+  tr|A0A1W7D4T7|SpmH-5 172 ADKVAAFLAAYSKERGVRHIVDDVVHSALDDRGWISHVQTRGGLRLDADLFIDCTGFRGALINKLMGEPFESFQDVLPNNRAVATRVSR 260
+                           ***************************************************************************************97 PP
+
+               trp_6_7 253 ddekegvePytsaiameaGWtWkiPllgrvGtGyvysskftskdeaerelrelvgldaedvelnkirfrvGrsrraWvkncvsiGlssc 341
+                             e + ++Pyt+a+am+aGW+W+iPl+ r G Gyvys++f+s++eaer+lr  vg    + ++n+i +rvGr r +Wvkncv+iGlss+
+  tr|A0A1W7D4T7|SpmH-5 261 P-EITDMNPYTTATAMDAGWMWRIPLFHRDGVGYVYSDEFASPEEAERTLRTQVGDLRGELDVNHIAMRVGRCRDSWVKNCVAIGLSSA 348
+                           5.7789*************************************************999******************************* PP
+
+               trp_6_7 342 fvePlestGiyfiyaaleqlvkhfPdkdfdpvladafnreveevfddvrdflqahyllakredtefWratkelkladslkekieaykag 430
+                           fvePlestGi+fi++ +eqlvkhfPd+++dp+l+ ++n+ +++ +d+v++fl++hy+ a+r+d+++Wra+k++k +d+l e++e+    
+  tr|A0A1W7D4T7|SpmH-5 349 FVEPLESTGIFFIQHGIEQLVKHFPDERWDPELTRNYNTRIAQAVDGVKEFLVLHYRGAARSDNDYWRAAKTRKAPDGLVERMEQ---A 434
+                           *******************************************************************************999986...5 PP
+
+               trp_6_7 431 lpvnlpvtdeet...yyenleaefrnfwtnssyycilaGlgllpekplpalalrdeavaeaealfaavrrkaeelvetlPskyeylrrl 516
+                           lp     +dee    yy+++e++        s++++l+Glg  p ++ pala++d a a+ae  f+ +r +a+ ++e+lPs yeyl r+
+  tr|A0A1W7D4T7|SpmH-5 435 LP---HLIDEEAtypYYHGFEPY--------SWNTMLLGLGNQPARARPALAHMDPARARAE--FDLLRAEANAVIEKLPSCYEYLERI 510
+                           66...3335554477********........999****************************..***********************99 PP
+
+               trp_6_7 517 r 517
+                           +
+  tr|A0A1W7D4T7|SpmH-5 511 H 511
+                           8 PP
+
+>> tr|W1J423|pyrH-5  [Xenorhabdus szentirmaii DSM 16338]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  603.3   0.1  7.9e-184  2.6e-183       5     518 ..       2     512 ..       1     514 [. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 603.3 bits;  conditional E-value: 7.9e-184
+           trp_6_7   5 ikkvvivGGGtaGWmtasylkkalgdrveitllesaaigrigvGeatipdlqkvffdflglkeeeWmpecnasyklavkfvnWrkpgedgred 97 
+                       i++v+ivGGGtaGWmta+yl+ka++++++it++es ++ +igvGeat++ +++ +fd+lgl+e+eW+pec +sykl+++f+nW  +g+     
+  tr|W1J423|pyrH-5   2 INSVLIVGGGTAGWMTAAYLSKAFDKNINITVVESKEVKKIGVGEATFSTVRH-YFDYLGLNESEWLPECSGSYKLGIRFENWDGQGN----- 88 
+                       789**************************************************.*****************************99998..... PP
+
+           trp_6_7  98 hfyhlfgqlksvdglPlsdyWlkkrlqgkterfdkacfveaslldaklsPrlldgs...................kqlsyayhfdaalvadfl 171
+                       hfyh+f++ + v+g+P+s++Wl+k+l  k +rfd+++f +++l++ak+sPr ldgs                   +q +yayhfda+ va fl
+  tr|W1J423|pyrH-5  89 HFYHPFERWEVVKGFPISEWWLSKKL--KDQRFDYDTFLTPHLCEAKRSPRRLDGSlfaqsidkslgqstlaeqrAQYPYAYHFDADGVASFL 179
+                       ***********************665..569*******************************************99***************** PP
+
+           trp_6_7 172 rryavergvkhvvdevvevklderGfitavrtkegreleadlfvdcsGfrglllnkaleePfidmsdtllndsavalavplddekegvePyts 264
+                       +rya++rgvkh++d+v++v++d +G+i  +++k  ++l+adl++dc+Gf+gll+nkal+ePfi++sd l n++aval+vp+++e + +ePyt+
+  tr|W1J423|pyrH-5 180 KRYAMNRGVKHIEDDVTHVEIDTNGNIGYLEAKIYGKLRADLYIDCTGFKGLLINKALNEPFISFSDVLKNNRAVALRVPRENE-NDIEPYTT 271
+                       ********************************************************************************9876.68****** PP
+
+           trp_6_7 265 aiameaGWtWkiPllgrvGtGyvysskftskdeaerelrelvgldaedvelnkirfrvGrsrraWvkncvsiGlsscfvePlestGiyfiyaa 357
+                       a +m++GW W+iPl  r G Gyvy++k+ s++eae elr+ +  + ++  +n+ir+r+Grs+r+Wvkncv+iGlss+fvePlestGi+fi++ 
+  tr|W1J423|pyrH-5 272 ARTMSNGWRWTIPLYKRNGYGYVYCNKYQSPEEAEMELRKSIPYENAECVANHIRMRIGRSNRSWVKNCVAIGLSSAFVEPLESTGIFFIQHG 364
+                       ********************************************************************************************* PP
+
+           trp_6_7 358 leqlvkhfPdkdfdpvladafnreveevfddvrdflqahyllakredtefWratkelkladslkekieaykaglpvnlpvtdeet...yyenl 447
+                       +eqlv++fP ++ ++ l +++n+ v++v+d+v++fl +h++la+r+dt +W++ k+ +l+ +l +ki   + +l       d+et   +y+++
+  tr|W1J423|pyrH-5 365 IEQLVRFFPRSSGNELLIEEYNTRVNRVVDGVKEFLLLHFSLAQRNDTLYWKEWKNVELPKELLKKITLAQDHLL------DKETiypFYHGF 451
+                       ********************************************************************9999998......88888789**** PP
+
+           trp_6_7 448 eaefrnfwtnssyycilaGlgllpekplpalalrdeavaeaealfaavrrkaeelvetlPskyeylrrlrg 518
+                       e++        s++++++Gl   + ++ pal+l+ +  +ea++++ +   kae++v++lP+ yeyl+++++
+  tr|W1J423|pyrH-5 452 EEY--------SWNTMILGLCSGSLNNKPALSLMTS--DEADEMLLQHYMKAENMVNNLPTCYEYLKHIHD 512
+                       **9........899999***99999999***99875..577778999999******************997 PP
+
+>> tr|E2IHC5|mibH-5  [Microbispora corallina]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  281.8   0.0     2e-86   6.7e-86       4     432 ..      55     467 ..      52     479 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 281.8 bits;  conditional E-value: 2e-86
+           trp_6_7   4 rikkvvivGGGtaGWmtasylkkalgdrveitllesaaigrigvGeatipdlqkvffdflglkeeeWmpecnasyklavkfvnWrkpgedgre 96 
+                        i++v ++GGGtaG++ta  l ka  + ++++l+esa+i+ igvGeat++ +   + ++lg+   e+ +++  ++kl+++f+ W + +e    
+  tr|E2IHC5|mibH-5  55 AIRTVGVIGGGTAGYLTALAL-KAKRPWLDVALVESADIPIIGVGEATVSYMVMFLHHYLGIDPAEFYQHVRPTWKLGIRFE-WGSRPE---- 141
+                       689999************988.6889****************************999************************5.866655.... PP
+
+           trp_6_7  97 dhfyhlfgqlksvdglPlsdyWlkkrlqgkterfdkacfveaslldaklsPrlldgs......kqlsyayhfdaalvadflrryavergvkhv 183
+                         f  +f+      g  l    l+  +   t ++++a+  +a l+  ++ P +          k l++ayh+d a +  +l++ a++rgv+hv
+  tr|E2IHC5|mibH-5 142 -GFVAPFDWGTGSVG--LVGS-LR--E---TGNVNEAT-LQAMLMTEDRVPVYRGEGghvslmKYLPFAYHMDNARLVRYLTELATRRGVHHV 224
+                       .89999987655444..4433.23..2...33444443.34556666666666543335555599**************************** PP
+
+           trp_6_7 184 vdevvevklderGfitavrtkegreleadlfvdcsGfrglllnkaleePfidmsdtllndsavalavplddekegvePytsaiameaGWtWki 276
+                         +v ev+ld   ++ ++ t++gr+l+ d++vdc+Gfr+lll+kal+ Pf ++   l +d+a++ ++ +      ++Pyt+a++m+aGW W+i
+  tr|E2IHC5|mibH-5 225 DATVAEVRLDGPDHVGDLITTDGRRLHYDFYVDCTGFRSLLLEKALGIPFESYASSLFTDAAITGTLAHGG---HLKPYTTATTMNAGWCWTI 314
+                       ******************************************************************99975...589**************** PP
+
+           trp_6_7 277 PllgrvGtGyvysskftskdeaerelre.lvgldaedvelnkirfrvGrsrraWvkncvsiGlsscfvePlestGiyfiyaaleqlvkhfPdk 368
+                       P       Gyv+ss  + +d+a++e+ + + g+         +rfr Gr r+aW+ n++++G s +fvePles+G+ +i +a++ lv  +P +
+  tr|E2IHC5|mibH-5 315 PTPESDHLGYVFSSAAIDPDDAAAEMARrFPGVT----REALVRFRSGRHREAWRGNVIAVGNSYAFVEPLESSGLLMIATAVQILVSLLPSS 403
+                       *********************9998865144554....5567*************************************************** PP
+
+           trp_6_7 369 dfdpvladafnreveevfddvrdflqahyllakredtefWratkelkladslkekieaykaglp 432
+                       + dp  ++  n+++++ +d +r fl +hy++  r dt+fW++++  +   +++  +  + ag p
+  tr|E2IHC5|mibH-5 404 RRDPLPSNVANQALAHRWDAIRWFLSIHYRFNGRLDTPFWKEARAETDISGIEPLLRLFSAGAP 467
+                       *******************************************976666677777777777666 PP
+
+>> HrmQ|tr|C1IHU5|C1IHU5_9ACTN  [Streptomyces griseoflavus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   16.0   0.1   7.4e-06   2.4e-05       8      54 ..       8      51 ..       2      68 .. 0.86
+   2 !   21.4   0.1   1.7e-07   5.7e-07     156     399 ..     115     380 ..      91     399 .. 0.77
+
+  Alignments for each domain:
+  == domain 1  score: 16.0 bits;  conditional E-value: 7.4e-06
+                      trp_6_7  8 vvivGGGtaGWmtasylkkalgdrveitllesaaigrigvGeatipd 54
+                                 + i+GGG aG   asyl+ka    ++ ++lesa+ +r  vGe+ ++ 
+  HrmQ|tr|C1IHU5|C1IHU5_9ACTN  8 IGIIGGGPAGSTMASYLAKA---GISAIVLESAEFPRPHVGESLVTA 51
+                                 679***************99...68889**************76654 PP
+
+  == domain 2  score: 21.4 bits;  conditional E-value: 1.7e-07
+                      trp_6_7 156 lsyayhfdaalvadflrryavergvk.hvvdevvevklderGfi.tavrtkegreleadlfvdcsGfrglll.nkaleeP.. 232
+                                    y+yh d  +  + l ++a e g++ + + +v++v+  + G + tav  +   +l+  + vd sG +++l   k l++P  
+  HrmQ|tr|C1IHU5|C1IHU5_9ACTN 115 QAYTYHVDRGKYDQLLLQHAAELGARvRERTRVQDVEFTDDGVVlTAVGDEGTERLRVRMVVDASGRQTMLGrKKKLKVPdp 196
+                                  579********************765255679*****999998725566666678***********9999962568999866 PP
+
+                      trp_6_7 233 .fidmsdtllndsavalavplddekegvePytsaiameaGWtWkiPllgrvGt.Gyvyssk..ftskdeaerelrelvglda 310
+                                   f ++  +   d     a+  d e+e    +   +  +  W+W+iP+     + G v  +     s +e e+ + e +g  +
+  HrmQ|tr|C1IHU5|C1IHU5_9ACTN 197 vFNQYAIHAWFDGLDRKALADDPEQEDFI-FIHFLPVSDTWVWQIPISETTTSvGVVTQKAkvKSSGQEREEFFWECLGTRP 277
+                                  77888888889998889998888888865.778899999********87766525554333113455677777889998877 PP
+
+                      trp_6_7 311 edv....elnkir.frvGrsrraWvkncvs.....iGlsscfvePlestGiyfiyaaleqlvkhfP....dkdfdpvladaf 378
+                                  e      +++++r f+   +    +k++v+     iG ++ fv+P+ s+G+   +++   l+k         df++++   +
+  HrmQ|tr|C1IHU5|C1IHU5_9ACTN 278 ELRaaleKAERVReFKTEGDYSYGMKEVVGdrwalIGDAARFVDPIFSSGVSVAMNSARLLAKDIVsaveRDDFSKKSFGDY 359
+                                  655111145555534444444445677775555569******************9999999888753333678999999999 PP
+
+                      trp_6_7 379 nreveevfddvrdflqahyll 399
+                                  +r + + +    +f+ ++y+l
+  HrmQ|tr|C1IHU5|C1IHU5_9ACTN 360 ERVLRRGVSSWYEFISIYYRL 380
+                                  999999999999999999975 PP
+
+>> CndH_B|B9ZUJ5  [Chondromyces crocatus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    3.7   0.0     0.041      0.14       7      68 ..       9      67 ..       4      88 .. 0.86
+   2 !   31.0   0.9   2.2e-10   7.2e-10     158     419 ..     104     388 ..      95     410 .. 0.67
+
+  Alignments for each domain:
+  == domain 1  score: 3.7 bits;  conditional E-value: 0.041
+        trp_6_7  7 kvvivGGGtaGWmtasylkkalgdrveitllesaaigrigvGeatipdlqkvffdflglkee 68
+                    ++++GGG  G   as+++        + lle  a +r  +Ge+ +p   +    +lgl++e
+  CndH_B|B9ZUJ5  9 DLIVIGGGPGGSTLASFVAM---RGHRVLLLEREAFPRHQIGESLLPATVHGICAMLGLTDE 67
+                   5799************9854...3456899*****************999999999998765 PP
+
+  == domain 2  score: 31.0 bits;  conditional E-value: 2.2e-10
+        trp_6_7 158 yayhfdaalvadflrryavergvk.hvvdevvevkld.erGfitavrtkegrel..eadlfvdcsGfrglllnkaleePfidmsdtllndsavala 249
+                    +ay+ + a   d l r + ++gv+ + + ev +v  + er      r +eg el  +a + vd sG r+  + +a++e   +   ++  + a+   
+  CndH_B|B9ZUJ5 104 FAYQVERARFDDMLLRNSERKGVDvRERHEVIDVLFEgERAVGVRYRNTEGVELmaHARFIVDASGNRTR-VSQAVGERVYS---RFFQNVALYGY 195
+                    6888888888888888888887762445677777765255555666777777762234567788888864.67777776533...33444444333 PP
+
+        trp_6_7 250 vplddek.egvePytsaiameaGWtWkiPllgrvGt.Gyvysskfts..kdeaerelrelvg........ldaedv....elnkirfrvGr...sr 326
+                      + +    + + +  + a + GW W iPl   + + G v s + ++  kd  e++l++ ++        l++++     +  +ir+r      + 
+  CndH_B|B9ZUJ5 196 FENGKRLpAPRQGNILSAAFQDGWFWYIPLSDTLTSvGAVVSREAAEaiKDGHEAALLRYIDrcpiikeyLAPATRvttgDYGEIRIRKDYsycNT 291
+                    333332212334456678999*********998865599999887653367777777766652222222223333211114567777765422256 PP
+
+        trp_6_7 327 raWvkncvsiGlsscfvePlestGiyfiyaaleqlvkhfP....dkdfdpvladafnreveevfddvrdflqahyllakredtefWratkelklad 418
+                      W++ +  +G ++cfv+P+ s+G+++ + +   +++        +  +++  ++f+r   + + +  +fl+a y + + +d+ fW a k  +  +
+  CndH_B|B9ZUJ5 292 SFWKNGMALVGDAACFVDPVFSSGVHLATYSALLVARAINtclaGEMSEQRCFEEFERRYRREYGNFYQFLVAFYDMNQDTDSYFWSARKIINTEE 387
+                    679888999*****************9877665555554423314455677889**********************************99776655 PP
+
+        trp_6_7 419 s 419
+                     
+  CndH_B|B9ZUJ5 388 R 388
+                    5 PP
+
+>> Tcp21_B|Q70AY7  [Actinoplanes teichomyceticus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !    6.6   0.0    0.0053     0.018       7      67 ..      22      79 ..      18     104 .. 0.84
+   2 !   27.4   0.2   2.6e-09   8.7e-09     156     413 ..     117     398 ..     111     413 .. 0.66
+
+  Alignments for each domain:
+  == domain 1  score: 6.6 bits;  conditional E-value: 0.0053
+         trp_6_7  7 kvvivGGGtaGWmtasylkkalgdrveitllesaaigrigvGeatipdlqkvffdflglke 67
+                     vv+ GGG aG   a+  + a++    + lle  + +r  +Ge+ +p+  +    +lg+++
+  Tcp21_B|Q70AY7 22 DVVVAGGGPAGSTVATL-V-AMQ-GHRVLLLEKETFPRYQIGESLLPSTVHGVCRMLGVSD 79
+                    599********877765.4.444.346789*****************99988888888765 PP
+
+  == domain 2  score: 27.4 bits;  conditional E-value: 2.6e-09
+         trp_6_7 156 lsyayhfdaalvadflrryavergvkhvvdevvevklderGfitavrtke....greleadlfvdcsGfrglllnkaleePfidmsdtllndsav 246
+                     +s+ay+ + a   + l r a ++gv+  +   v   ++    it vr ++    + e++a + vd sG ++ l  ++ ++   ++s+ +   +++
+  Tcp21_B|Q70AY7 117 TSFAYQVERARFDEILLRNAQRKGVDVREGCSVTGVIEGDERITGVRYTDpdggEHEVSARFVVDASGNKSRLYSQVGGV--RNYSEFF---RSL 206
+                     67888888888888888888888888777766666677777788887543222234677888888888888888887654..3555544...456 PP
+
+         trp_6_7 247 alavplddekegvePyts...aiameaGWtWkiPllgrvGt.Gyvysskftskdea..erelrelvglda.......edvelnki...rfrvGrs 325
+                     al    ++ k+  ePy     ++a ++GW W iPl   + + G v   + ++k +   e++l+ l+   +       +   +      ++rv ++
+  Tcp21_B|Q70AY7 207 ALFGYFENGKRLPEPYSGnilSVAFDSGWFWYIPLSDTMTSvGAVVRREMAEKIQGdrEKALQALIAECPlisdylaDARRITTGrygELRVRKD 301
+                     666667777777788765222789***********998865599999998876433113445554432221100000222222111112344332 PP
+
+         trp_6_7 326 .....rraWvkncvsiGlsscfvePlestGiyfiya.al..eqlvkhfPdkdfdpvla.dafnreveevfddvrdflqahyllakredtefWrat 411
+                             W+  ++ +G ++cfv+P+ s+G+++ +  al   + ++   ++d+d++ a  +f++   + +    +fl+  y++   e++ fW+a 
+  Tcp21_B|Q70AY7 302 ysyhqTSYWRPGMILVGDAACFVDPVFSSGVHLATYsALlaARSINSVLAEDLDEKTAlSEFEARYRREYGVFYEFLVSFYQMNVNEESYFWQAK 396
+                     112213459999*******************997651442223344555777776654278999999999999********************99 PP
+
+         trp_6_7 412 ke 413
+                     k 
+  Tcp21_B|Q70AY7 397 KV 398
+                     83 PP
+
+>> mpy16|tr|J7H1A1|J7H1A1_9ACTN  [Streptomyces sp. CNQ-418]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   18.0   0.0   1.9e-06   6.3e-06       8      60 ..       7      56 ..       2      71 .. 0.88
+   2 !   16.5   0.4   5.1e-06   1.7e-05     155     399 ..     113     379 ..      84     395 .. 0.71
+
+  Alignments for each domain:
+  == domain 1  score: 18.0 bits;  conditional E-value: 1.9e-06
+                       trp_6_7  8 vvivGGGtaGWmtasylkkalgdrveitllesaaigrigvGeatipdlqkvff 60
+                                  v i+GGG aG  tasyl++a    ++++l es + +r  vGe+ +p    v+ 
+  mpy16|tr|J7H1A1|J7H1A1_9ACTN  7 VGIIGGGPAGSTTASYLARA---GLKVALFESDNFPREHVGESLVPATTPVLV 56
+                                  679***************98...7899****************9998766655 PP
+
+  == domain 2  score: 16.5 bits;  conditional E-value: 5.1e-06
+                       trp_6_7 155 qlsyayhfdaalvadflrryavergvkhvvdevvevklderGfitavrtk...egreleadlfvdcsGfrglllnkal... 229
+                                   + +y++h d       l ++a e+g+k v++ v+  +++  G    ++t+   +  ++   + vd sG r+ l  +     
+  mpy16|tr|J7H1A1|J7H1A1_9ACTN 113 HKDYTFHVDRGQFDLLLLKHAEEQGAK-VHQGVRVNRVNFDGAFPVLETSvagQRAKVPVKMVVDASGRRTQLGSQLKvke 192
+                                   5689999999999999*****999875.555555555555666655555411155678899*******9998865532111 PP
+
+                       trp_6_7 230 eeP.fidmsdtllndsavalavplddekegvePytsaiameaGWtWkiPllgrvGt.Gyvyssk..ftskdeaerelrelv 306
+                                   ++P f ++  +   d+    a+  d+ ++    +   +     W+W+iP++  + + G v  ++   +skd+ e+ + + +
+  mpy16|tr|J7H1A1|J7H1A1_9ACTN 193 KDPvFNQYAIHTWFDNFDRKALAVDQSQSDFI-FIHFLPVIDTWVWQIPITDTITSvGVVTQKErlKASKDDLEKFFWDTL 272
+                                   33434456666666666666666666555543.4455667789*********998735555554334799*********99 PP
+
+                       trp_6_7 307 gldaed....velnkir.frv.GrsrraWv....kncvsiGlsscfvePlestGiyfiya....aleqlvkhfPdkdfdpv 373
+                                   g  +e     +e +++r ++  G    a      +n + +G ++ fv+P+ s+G+    +    a   ++    + d++++
+  mpy16|tr|J7H1A1|J7H1A1_9ACTN 273 GSRPELhkalKESEQVRpLKTeGDYSYALTkvcgDNFLMVGDAARFVDPIFSSGVSVALNsariASADIIAAHRAGDYSKK 353
+                                   988875111145566763232244444444112257799***************987654111144578888899****** PP
+
+                       trp_6_7 374 ladafnreveevfddvrdflqahyll 399
+                                     d++++ + + +++  +f+ ++y+l
+  mpy16|tr|J7H1A1|J7H1A1_9ACTN 354 RFDTYESMLRRGVNNWYEFISIYYRL 379
+                                   **********************9986 PP
+
+>> CrpH_B|A4D940  [Nostoc sp. ATCC 53789]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   18.6   0.0   1.2e-06   3.9e-06       6      68 ..       8      66 ..       5     124 .. 0.89
+   2 !   13.2   0.3   5.2e-05   0.00017     269     412 ..     213     374 ..      91     383 .. 0.74
+
+  Alignments for each domain:
+  == domain 1  score: 18.6 bits;  conditional E-value: 1.2e-06
+        trp_6_7  6 kkvvivGGGtaGWmtasylkkalgdrveitllesaaigrigvGeatipdlqkvffdflglkee 68
+                    +++i+GGG +G  +a+ l++   +  ++tlle    +r  vGe+ +p+  +  fd lg++e+
+  CrpH_B|A4D940  8 TQILIIGGGPSGSTAATLLAR---EGFDVTLLEREVFPRYHVGESLLPSALE-IFDLLGVREK 66
+                   689**********99999986...799**********************999.89******97 PP
+
+  == domain 2  score: 13.2 bits;  conditional E-value: 5.2e-05
+        trp_6_7 269 eaGWtWkiPllgrvGtGyvysskftskdeaerelrelvgldaedvelnkirfrvG.......r.srraWvkncvs.....i.GlsscfvePlestG 350
+                      GW+W iPl   + +  v  +k t k++ +++l++++  + ++ +l    + +G         +  ++  +  s     i G ++cf++Pl s+G
+  CrpH_B|A4D940 213 PDGWVWGIPLDEEIMSVGVVMHKSTYKERLTKNLKDIYVEAIAECPLIADLVALGelvsdvkVeQDYSYTSDSFSgpayfIsGDAACFLDPLLSSG 308
+                    4699999999998888778888888899999999998887777766543222222111111011122344433332222234899*********** PP
+
+        trp_6_7 351 iyfi.yaal...eqlvkhfPdkdfdpvladafnreveevfddvrdflqahyllakredtefWratk 412
+                    +++  y al     ++     +  +++ a  ++++  + +     f+ a y +   +d+ fW a++
+  CrpH_B|A4D940 309 VHLAtYSALlaaASITSVIRGEVTESQAASFYDQSYRQAYLRFLVFVSAFYDQNRGKDSYFWEAQR 374
+                    *9862455511145666667777888999999******************************9987 PP
+
+>> End30_B|ABD65950.1  [Streptomyces fungicidicus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !    6.3   0.0    0.0066     0.022       7      67 ..      15      72 ..      10      76 .. 0.81
+   2 !   26.9   1.3   3.6e-09   1.2e-08     156     420 ..     110     400 ..      99     436 .. 0.66
+
+  Alignments for each domain:
+  == domain 1  score: 6.3 bits;  conditional E-value: 0.0066
+             trp_6_7  7 kvvivGGGtaGWmtasylkkalgdrveitllesaaigrigvGeatipdlqkvffdflglke 67
+                         vv+vGGG +G  t s l++  +   ++ lle  + +r  +Ge+ +p+  +   + lg+++
+  End30_B|ABD65950.1 15 DVVVVGGGPSGS-TLSTLVAM-Q-GHSVLLLEKETFPRYQIGESLLPSTIHGICHLLGVTD 72
+                        69********95.66667644.3.347899*****************99888888888765 PP
+
+  == domain 2  score: 26.9 bits;  conditional E-value: 3.6e-09
+             trp_6_7 156 lsyayhfdaalvadflrryavergvkhvvd.evvevklderGfitavrtk....egreleadlfvdcsGfrglllnkaleePfidmsdtll 241
+                         +s+ay+ + ++  + l   a ++gv   +d +v++v  d+ G    +r +    ++ e++a   vd sG  + +  ++ +     +sd + 
+  End30_B|ABD65950.1 110 TSFAYQVERSKFDKILLDNAARKGVVVRQDrTVTDVVDDADGRARGLRYTdpdgTEHEVSARYVVDASGNTSRIHKRVGGS--RTYSDFFK 198
+                         789999999999999999999997765555257788888888888887541211456788999999999887665555443..35777654 PP
+
+             trp_6_7 242 ndsavalavplddekegvePyts...aiameaGWtWkiPllgrvGt.Gyvysskfts.....kdeaerelre...lvg...ldaedve... 314
+                            ++al    ++ k+   Py+    ++a  +GW W iPl + + + G v   + ++     ++ a r l +   +++    da  v+   
+  End30_B|ABD65950.1 199 ---SLALFGYFENGKRMPAPYAGnilCVAFGSGWFWYIPLSSTLTSvGAVVRREDAAkvqgdPESALRGLIDecpMIKeylADATRVTtgq 286
+                         ...4566666677777777877512257999*********998865477765544331111145555554332223321112333333111 PP
+
+             trp_6_7 315 lnkirfrvGrs...rraWvkncvsiGlsscfvePlestGiyfiyaaleqlvkhfP...dkdfdp.vladafnreveevfddvrdflqahyl 398
+                           ++r+r   s      W+  +v +G ++cfv+P+ s+G+++ + +    ++ +    + + d+ +  d+f++   + +    +fl   y 
+  End30_B|ABD65950.1 287 YGQLRVRKDYSyhhTTFWRPGMVLVGDAACFVDPVFSSGVHLATYSALLAARSLNsvlAGRIDErRAFDEFEARYRREYGVFYEFLTSFYD 377
+                         33444444433221456***********************99765444444433322255665516679********************** PP
+
+             trp_6_7 399 lakredtefWratk.elkladsl 420
+                         +   ed+ fW a k +++   +l
+  End30_B|ABD65950.1 378 MHVDEDSYFWTAKKvTRSSHAEL 400
+                         ************99444433344 PP
+
+>> pyr29|tr|A3R4S0|pyr29  [Wenjunlia vitaminophila]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   18.0   0.1   1.8e-06   5.9e-06       8      59 ..       7      55 ..       2     101 .. 0.87
+   2 !   15.7   0.6     9e-06     3e-05     158     399 ..     116     379 ..      98     402 .. 0.60
+
+  Alignments for each domain:
+  == domain 1  score: 18.0 bits;  conditional E-value: 1.8e-06
+                trp_6_7  8 vvivGGGtaGWmtasylkkalgdrveitllesaaigrigvGeatipdlqkvf 59
+                           + i+GGG aG  +asyl+ka    +++++ e+ + +r  vGe+ +p    v+
+  pyr29|tr|A3R4S0|pyr29  7 IGIIGGGPAGSTAASYLAKA---GLKVAVFEAETFPREHVGESLVPATTPVL 55
+                           679***************99...6899****************999877654 PP
+
+  == domain 2  score: 15.7 bits;  conditional E-value: 9e-06
+                trp_6_7 158 yayhfdaalvadflrryavergvkhvvdevvevklderGfitavrtk...egreleadlfvdcsGfrglllnka.leeP...fidmsd 238
+                            y++h d  +  + l ++a + g+k v   ++  k+d  G +  +++k   +  ++   + vd sG ++ l n+  +++P   f ++  
+  pyr29|tr|A3R4S0|pyr29 116 YTFHVDRGKFDQILLQHAESLGAK-VFHGIRIGKVDFDGEMPVLEAKigsKSVDIPVRMVVDASGRQTRLGNQLkFKVPdpiFNQYAV 202
+                            666666666666666666655554.333344444444444433333310033455566666666666666555323333223333433 PP
+
+                trp_6_7 239 tllnd..savalavplddekegvePytsaiameaGWtWkiPllgrvGtGyvysskftskdeaerelrelvgldaedvel.......nk 317
+                            +   d     alav++d++      +   +  +  W+W+iP++  + +  v s+k   ++ a    + +++  a   el       ++
+  pyr29|tr|A3R4S0|pyr29 203 HSWFDnfDRKALAVNKDQADYI---FIHFLPVTDTWVWQIPITDTITSIGVVSQKKRFQEFAGDREKFFWDTVASRPELldalknsDQ 287
+                            3333301334555555544332...3344556678*********99998888888777777766666666654443322111221144 PP
+
+                trp_6_7 318 ir.......frvGrsrraWvkncvsiGlsscfvePlestGiyfiya....aleqlvkhfPdkdfdpvladafnreveevfddvrdflq 394
+                            +r       +  G s+ a  +n v iG ++ fv+P+ s+G+    +    a + ++    + df+++   +++r++ + + +  +f+q
+  pyr29|tr|A3R4S0|pyr29 288 VRpfktegdYSYGMSQIA-GDNFVLIGDAARFVDPIFSSGVSVALNsarlACKDIIAAAEAGDFKKERFGTYERKLRKGVSNWYEFIQ 374
+                            543111111223444433.579******************9987661112456666667799************************** PP
+
+                trp_6_7 395 ahyll 399
+                            ++y+l
+  pyr29|tr|A3R4S0|pyr29 375 IYYRL 379
+                            **986 PP
+
+>> XanH_A_cycl|ADE22292.1  [Streptomyces flavogriseus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   14.2   0.0   2.7e-05   8.8e-05       6      65 ..       9      64 ..       5      70 .. 0.89
+   2 !   15.2   0.2   1.3e-05   4.2e-05     159     412 ..     102     379 ..      91     420 .. 0.66
+
+  Alignments for each domain:
+  == domain 1  score: 14.2 bits;  conditional E-value: 2.7e-05
+                 trp_6_7  6 kkvvivGGGtaGWmtasylkkalgdrveitllesaaigrigvGeatipdlqkvffdflgl 65
+                             +++++GGG aG  +a  l+k   +  ++tlle  + +r  +Ge+ +p+ +   +++lg+
+  XanH_A_cycl|ADE22292.1  9 TQILVIGGGPAGSTAAGLLAK---EGFQVTLLERDEFPRYHIGESILPSCRP-ILEMLGV 64
+                            589************999987...7899*********************998.7777776 PP
+
+  == domain 2  score: 15.2 bits;  conditional E-value: 1.3e-05
+                 trp_6_7 159 ayhfdaalvadflrryavergvkhvvd.evvevklderGfitavr..tke...greleadlfvdcsGfrglllnkaleePfidmsdt 239
+                             a++   +   + l r+a + gv+ v++ +v+e + +    + a+   tk+    ++++ d  +d sG  g++  k l++   ++++ 
+  XanH_A_cycl|ADE22292.1 102 AWQVVRSEFDEILLRHAASLGVEVVENiTVKELQFEGDRPVAALWagTKDasvSGRIAFDYVIDASGRGGVFAAKHLKNR--QYHEI 186
+                             6777777777888899999999888774567777776666666641133211257899999**************99986..67777 PP
+
+                 trp_6_7 240 llndsavalavplddekegvePytsaiameaGWtWkiPll.grvGtGyvyssk.ftskdeaerelrelvgldaedve........ln 316
+                             + n  a +   +     +g     + i+ e GW W+iPl  g    G v   + f +k++a   ++e+++ +  +++        ++
+  XanH_A_cycl|ADE22292.1 187 FRNVGAWSYWKNVKPLDRGPDGAIAVISSEDGWFWNIPLHdGTTSVGLVTGRDiFNEKKNALGGIQEVYDKAISETPhlkrllegAE 273
+                             77777777666666666777778889999**********846777899998764888999999999999998777662222222234 PP
+
+                 trp_6_7 317 kir.frvGrsrraWvkn.c....vsiGlsscfvePlestGiyfiya.al...eqlvkhfPdkdfdpvladafnreveevfddvrdfl 393
+                             ++  ++v ++     +  c    +  G ++cf++Pl stG+++ +  a+     +   +  +  +++  + +n+   + ++    ++
+  XanH_A_cycl|ADE22292.1 274 QVSgMKVEQDYSYTAESfCgpgyLLSGDAACFLDPLLSTGVHLATYsAMlasASISSVLRGEVSEKEAWEFYNTVYRHSYERLLVLV 360
+                             443366665543333321211113457899**********99865413311123444444555566666777777777777777777 PP
+
+                 trp_6_7 394 qahyllakredtefWratk 412
+                              + y +   ++ +f++a+k
+  XanH_A_cycl|ADE22292.1 361 SVFYESYRGKEHHFYNAQK 379
+                             7777766667777777766 PP
+
+>> SgcC3_B  [Streptomyces sp. NPDC058620]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !    6.2   0.0    0.0069     0.023       7      68 ..       8      66 ..       3      94 .. 0.81
+   2 !   22.9   0.3   6.1e-08     2e-07     156     419 ..     103     391 ..      94     400 .. 0.65
+
+  Alignments for each domain:
+  == domain 1  score: 6.2 bits;  conditional E-value: 0.0069
+  trp_6_7  7 kvvivGGGtaGWmtasylkkalgdrveitllesaaigrigvGeatipdlqkvffdflglkee 68
+              v++vGGG aG  t s l++  g+r  +  le  + +r  +Ge+ +p+  +   + lg+++e
+  SgcC3_B  8 DVIVVGGGPAGS-TVSTLVRKRGHR--VLQLEKETFPRYQIGESLLPSTVHGIAHLLGVSDE 66
+             699********6.778888877776..5789****************999999999988654 PP
+
+  == domain 2  score: 22.9 bits;  conditional E-value: 6.1e-08
+  trp_6_7 156 lsyayhfdaalvadflrryavergvkhv.vdevvevklderGfitavrtk..egre..leadlfvdcsGfrglllnkaleePfidmsdtllndsavalavpl 252
+              + yay+ +  +  + l   a ++gv+   + +v +v   e G +  vr +  egre  + + + vd sG  g l  k+  +   ++s   +  + +al    
+  SgcC3_B 103 TGYAYQVERMKFDQILLDNARRHGVEVReNSDVLDVLKAEDGRVRGVRYRdsEGREheVGSRFVVDASGNTGGLYKKSGAKR--EYS---PFFRNLALFGYF 199
+              6788888888888888888888888744145788888888888888865411555411456677888888888887764331..222...222223333333 PP
+
+  trp_6_7 253 ddekegvePyts...aiameaGWtWkiPllgrvGt.Gyvysskfts.....kdeaerelrelvgldaed.velnki......rfrvGr.....srraWvknc 333
+              +  k+  +P+     + + e+GW W iPl   + + G v   + +s     +++a +++     l ae+  e+ ++      ++rv +     + + W   +
+  SgcC3_B 200 NGGKRLPKPNSGnifTCTFEHGWFWYIPLSPELTSvGAVVNRDSASlvqgdPEKAMESFIAACPLIAEKlSEATRVtegpygELRVRKdwsysNTKFWAPGM 301
+              33333333333300034579*********8877654888777665433333677888887665555443123334322222234554322333678899999 PP
+
+  trp_6_7 334 vsiGlsscfvePlestGiyfiyaaleqlvkhfP...dkdfdpvla.dafnreveevfddvrdflqahyllakredtefWratkelklads 419
+                +G ++cfv+P+ s+G+++ + +    ++ +    d + d+++a ++f++     +    +fl+  y + + ed+ fW+a k  + ads
+  SgcC3_B 302 ALVGDAACFVDPVFSSGVHLATYSGLLAARSLNsclDGSVDETSAfEEFEARYRLEYGRFYEFLVGFYDMHHSEDSYFWQARKISNTADS 391
+              9******************98776544444443333777776554399*9999999**************************98887775 PP
+
+>> SimC6_cycl|AF324838  [Streptomyces antibioticus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   20.2   0.1   3.9e-07   1.3e-06       6      68 ..       2      60 ..       1      76 [. 0.88
+   2 !    9.5   0.0   0.00069    0.0023     266     353 ..     206     309 ..     200     367 .. 0.70
+
+  Alignments for each domain:
+  == domain 1  score: 20.2 bits;  conditional E-value: 3.9e-07
+              trp_6_7  6 kkvvivGGGtaGWmtasylkkalgdrveitllesaaigrigvGeatipdlqkvffdflglkee 68
+                          +v++vGGG aG  +a+ l++a    +++t+le a+ +r  +Ge+  +   +v  d+lg  e+
+  SimC6_cycl|AF324838  2 TQVIVVGGGPAGSTAAALLARA---GISVTVLERATFPRYHIGESF-STSCRVIIDYLGALEK 60
+                         589*****************98...79*****************85.55556799***97775 PP
+
+  == domain 2  score: 9.5 bits;  conditional E-value: 0.00069
+              trp_6_7 266 iameaGWtWkiPll.grvGtGyvyssk.ftskde....aerelrelvgldaedve.lnkirfrvG.rsrraWvkncvs........iGls 339
+                          i+ + GW W iPl   r+  G+v  ++ f ++ +      + l+++v+ +++  e l k  f+ G r ++ +   + s        +G +
+  SimC6_cycl|AF324838 206 ISSDDGWYWVIPLRdNRLSVGFVSHKSiFGERRRefgsLDEMLLKMVDESPAVREiLAKGTFQPGaRVEQDFSYSADSfcgpghflLGDA 295
+                          77899********7469*****96655155444311114567788888888766524555665553333333222211112223338999 PP
+
+              trp_6_7 340 scfvePlestGiyf 353
+                          +cf++Pl stG+++
+  SimC6_cycl|AF324838 296 ACFLDPLLSTGVHL 309
+                          99999999999986 PP
+
+>> BhaA_B|O87676  [Amycolatopsis balhimycina]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    3.2   0.0     0.058      0.19       8      67 ..       8      64 ..       2      91 .. 0.80
+   2 !   26.8   0.5     4e-09   1.3e-08     154     413 ..     100     384 ..      91     398 .. 0.66
+
+  Alignments for each domain:
+  == domain 1  score: 3.2 bits;  conditional E-value: 0.058
+        trp_6_7  8 vvivGGGtaGWmtasylkkalgdrveitllesaaigrigvGeatipdlqkvffdflglke 67
+                   vv+ GGG  G  t + l++  g+   + lle    +r  +Ge+ +p   +    +lg+++
+  BhaA_B|O87676  8 VVVAGGGPGG-STVATLVAMQGH--RVLLLEKEVFPRYQIGESLLPATVHGVCRMLGISD 64
+                   6666666666.566666655444..5789*****************99998888888876 PP
+
+  == domain 2  score: 26.8 bits;  conditional E-value: 4e-09
+        trp_6_7 154 kqlsyayhfdaalvadflrryavergvk.hvvdevvevklderGfitavrtk...egreleadlfvdcsGfrglllnkaleePfidmsdtllndsa 245
+                      +s+ay+ + a   + l + a+++gv  +    v++v  d +    a  t+   ++re++a + +d sG ++ l  k+ +    ++s+ + + + 
+  BhaA_B|O87676 100 GSTSHAYQVERARFDEMLLNNAKRKGVVvREGCAVTDVVEDGERVTGARYTDpdgTEREVSARFVIDASGNKSRLYTKVGGSR--NYSEFFRSLAL 193
+                    56889999999999999999999997651444467777777666665555642225788999999999999999999987654..56665544333 PP
+
+        trp_6_7 246 valavplddekegvePytsaiameaGWtWkiPllgrvGt.Gyvysskfts.....kdeaerelre...lvg...ldaedvel...nkirfrvGrs. 325
+                               e+v+ +  ++a ++GW W iPl   + + G v   + ++     +++a ++l     l+     da  v+     ++r+r   s 
+  BhaA_B|O87676 194 FGYFEGGKRLPEPVSGNILSVAFDSGWFWYIPLSDTLTSvGAVVRREDAEkiqgdREKALNTLIAecpLISeylADATRVTTgryGELRVRKDYSy 289
+                    33333344445788888999*************988765488876665541111145555554321112221112233332211123344433222 PP
+
+        trp_6_7 326 ..rraWvkncvsiGlsscfvePlestGiyfiya.al..eqlvkhfPdkdfdpvla.dafnreveevfddvrdflqahyllakredtefWratk.e 413
+                      +  W+  ++ +G ++cfv+P+ s+G+++ +  al   + ++   + d+d++ a ++f+    + +    +fl+  y++   e++ fW+a k +
+  BhaA_B|O87676 290 qqETYWRPGMILVGDAACFVDPVFSSGVHLATYsALlaARSINSVLAGDLDEKTAlNEFELRYRREYGVFYEFLVSFYQMNVNEESYFWQAKKvT 384
+                    21456999********************99765144122334555578887665438999999999*************************9943 PP
+
+>> VhaA_B|G4V4R7  [Amycolatopsis orientalis]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.3   0.1      0.11      0.36       8      67 ..       8      64 ..       2      68 .. 0.75
+   2 !   27.3   0.6   2.8e-09   9.3e-09     155     416 ..     101     387 ..      93     399 .. 0.64
+
+  Alignments for each domain:
+  == domain 1  score: 2.3 bits;  conditional E-value: 0.11
+        trp_6_7  8 vvivGGGtaGWmtasylkkalgdrveitllesaaigrigvGeatipdlqkvffdflglke 67
+                   vv+ GGG  G  t + l++  g+   + lle    +r  +Ge+ +p   +    +lg+++
+  VhaA_B|G4V4R7  8 VVVAGGGPGG-STVATLVAMQGH--RVLLLEKEVFPRYQIGESLLPATVHGVCRMLGVAD 64
+                   6666666666.566666655444..5789**************99998887777777765 PP
+
+  == domain 2  score: 27.3 bits;  conditional E-value: 2.8e-09
+        trp_6_7 155 qlsyayhfdaalvadflrryavergvkhvv.devvevklderGfitavrtk...egreleadlfvdcsGfrglllnkaleePfidmsdtllndsav 246
+                     +s+ay+ + a   + l + a+++gv   +  +v++v  d +    a  t+   ++re++a + +d sG ++ l  k+ +    ++s+ + + +  
+  VhaA_B|G4V4R7 101 STSHAYQVERARFDEILLNNAKSKGVVVREgCSVHDVVEDGERVTGAKYTDpdgNEREVSARFVIDASGNKSRLYSKVGGSR--NYSEFFRSLALF 194
+                    6788888888888888888888886654331456666666555555555542225688888888999999998888887654..566655443333 PP
+
+        trp_6_7 247 alavplddekegvePytsaiameaGWtWkiPllgrvGt.Gyvysskftsk..deaerelrelvglda.........edv...elnkirfrvGrs.. 325
+                              e+v+ +  ++a ++GW W iPl   + + G v   + + k   + e++l  l+   +           v   +  ++r+r   s  
+  VhaA_B|G4V4R7 195 GYFEGGKRLPEPVSGNILSVAFDNGWFWYIPLSDTLTSvGAVVRREDADKiqGDREKALNALIAECPliseylsnaTRVttgKYGELRVRKDYSyq 290
+                    3333334445778888899*************9887654778766555431123334444444322211000000022200122333444332222 PP
+
+        trp_6_7 326 .rraWvkncvsiGlsscfvePlestGiyfiya.al..eqlvkhfPdkdfdpvla.dafnreveevfddvrdflqahyllakredtefWratk.elk 415
+                     +  W+  +v +G ++cfv+P+ s+G+++ +  al   + ++   + d+d++ a ++f++   + +    +fl+  y++   e++ fW+a k +++
+  VhaA_B|G4V4R7 291 qETYWRPGMVLVGDAACFVDPVFSSGVHLATYsALlaARSINSVLAGDLDEKTAlNEFEARYRREYGVFYEFLVSFYQMNVNEESYFWQAKKvTQN 386
+                    1456999********************99765144222334555578887665438999999999*************************995444 PP
+
+        trp_6_7 416 l 416
+                     
+  VhaA_B|G4V4R7 387 Q 387
+                    4 PP
+
+>> PltA|sp|Q4KCZ0|PLTA_PSEF5  [Pseudomonas fluorescens]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   15.7   0.0   9.4e-06   3.1e-05       6      61 ..       6      58 ..       1      81 [. 0.85
+   2 !   14.2   0.5   2.6e-05   8.6e-05     158     399 ..     117     381 ..     104     407 .. 0.67
+
+  Alignments for each domain:
+  == domain 1  score: 15.7 bits;  conditional E-value: 9.4e-06
+                    trp_6_7  6 kkvvivGGGtaGWmtasylkkalgdrveitllesaaigrigvGeatipdlqkvffd 61
+                                 vvi+GGG aG   asyl+ka    v+ ++ e     r  vGe+ +p    v+++
+  PltA|sp|Q4KCZ0|PLTA_PSEF5  6 YDVVIIGGGPAGSTMASYLAKA---GVKCAVFEKELFEREHVGESLVPATTPVLLE 58
+                               679*****************98...79999**************999987776655 PP
+
+  == domain 2  score: 14.2 bits;  conditional E-value: 2.6e-05
+                    trp_6_7 158 yayhfdaalvadflrryavergvkhvvd.evvevklderGfi..tavrtkegreleadlfvdcsGfrglllnkaleePfidmsd 238
+                                +++h d  +    l ++a + g+k  +  e+ +v+  + G++  +a   k   e++a + vd sG r +ll + l+   +  +d
+  PltA|sp|Q4KCZ0|PLTA_PSEF5 117 FTFHVDRGKFDRILLEHAGSLGAKVFQGvEIADVEFLSPGNVivNAKLGKRSVEIKAKMVVDASG-RNVLLGRRLG---LREKD 196
+                                66777777777777777777777766654677777777775411455567777899999999999.8899999886...56777 PP
+
+                    trp_6_7 239 tllndsavalavplddekegve.P......ytsaiameaGWtWkiPllgrvGt.Gyvys.skftskdeaerel.relvgldaed 312
+                                 + n+ a+ +   + d k++ + P      +   + m++ W+W+iP++  + + G v   +++t+ d + +e+  e v+   + 
+  PltA|sp|Q4KCZ0|PLTA_PSEF5 197 PVFNQFAIHSWFDNFDRKSATQsPdkvdyiFIHFLPMTNTWVWQIPITETITSvGVVTQkQNYTNSDLTYEEFfWEAVKTRENL 280
+                                77777777777766554444331322222245567899**********999873555441458888765555413333332221 PP
+
+                    trp_6_7 313 ....velnkir...frvGrs...rraWvkncvsiGlsscfvePlestGiyfiya....aleqlvkhfPdkdfdpvladafnrev 382
+                                    +  +++r        s   ++   +  v iG ++ fv+P+ s+G+    +    a   +++   ++df++ +  +++  +
+  PltA|sp|Q4KCZ0|PLTA_PSEF5 281 hdalKASEQVRpfkKEADYSygmKEVCGDSFVLIGDAARFVDPIFSSGVSVALNsariASGDIIEAVKNNDFSKSSFTHYEGMI 364
+                                000022233332002111111114445566799***************98765411113457999999**************** PP
+
+                    trp_6_7 383 eevfddvrdflqahyll 399
+                                 + + +  +f+ ++y+l
+  PltA|sp|Q4KCZ0|PLTA_PSEF5 365 RNGIKNWYEFITLYYRL 381
+                                ************99976 PP
+
+>> Ram20_B|DD382878.1  [Actinoplanes sp.]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   10.0   0.0    0.0005    0.0016      11      88 ..       2      80 ..       1     110 [. 0.81
+   2 !   17.7   0.0   2.3e-06   7.5e-06     265     414 ..     203     374 ..     194     389 .. 0.67
+
+  Alignments for each domain:
+  == domain 1  score: 10.0 bits;  conditional E-value: 0.0005
+             trp_6_7 11 vGGGtaGWmtasylkkalgdrveitllesaaigrigvGeatipdlqkvffdflg....lkeeeWmpecnasyklavkfvnWr 88
+                        vGGG  G  + + l++  ++ +++ lle  + +r  +Ge+ +p+  +   + lg    ++   +m++  +++k +   + W 
+  Ram20_B|DD382878.1  2 VGGGPGGSTA-AALTA--KQGAKVLLLEREKFPRYQIGESLLPSTVHGVCNLLGvgdeIAKAGFMRKHGGTFKWGTSTEPWT 80
+                        7888877655.55554..577899*****************************82222455689*********999888886 PP
+
+  == domain 2  score: 17.7 bits;  conditional E-value: 2.3e-06
+             trp_6_7 265 aiameaGWtWkiPllgrvGt.Gyvysskftsk..deaerelrelv..........glda..edvelnkirfrvGrsrra...WvkncvsiG 337
+                         ++a  +GW W iPl   + + G v   + + k   + e++l el+          g ++   + +  +ir+r   s  +   W+  +  +G
+  Ram20_B|DD382878.1 203 CVAFGSGWFWYIPLSETLTSvGAVVRREMAHKvqGDQEKALFELIaecpmiadflGDATrvTEGDYGQIRVRKDYSYSStsyWRPGMCLVG 293
+                         578899********88876548888777765411333444444431111111111433311344567888887654333334999999*** PP
+
+             trp_6_7 338 lsscfvePlestGiyfiyaa....leqlvkhfPdkdfdpvladafnreveevfddvrdflqahyllakredtefWratkel 414
+                          ++cf++P+ s+G+++ + +       +   +  +  +++   +f++   + f    dfl+  y +   e + fW a k  
+  Ram20_B|DD382878.1 294 DAACFIDPVFSSGVHLATYSgllaARSINSVLAGTVDEDRAFTEFEQRYRREFGVFHDFLVSFYDMHVDESSYFWAARKVT 374
+                         **************99876511102333333444444556778899999999999********************998843 PP
+
+>> ChlB4_B_orsel|Q0R4P7  [Streptomyces antibioticus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   12.0   0.0   0.00013   0.00041       9      55 ..       8      51 ..       4      65 .. 0.88
+   2 !   16.3   0.5   5.9e-06   1.9e-05     156     399 ..     114     381 ..      97     395 .. 0.70
+
+  Alignments for each domain:
+  == domain 1  score: 12.0 bits;  conditional E-value: 0.00013
+               trp_6_7  9 vivGGGtaGWmtasylkkalgdrveitllesaaigrigvGeatipdl 55
+                           ivGGG aG   asyl++a    +++++ es   +r  +Ge+ +p  
+  ChlB4_B_orsel|Q0R4P7  8 AIVGGGPAGSAMASYLAEA---GLSVAVFESEMFPRPHIGESLVPAT 51
+                          59**************998...7899***************988864 PP
+
+  == domain 2  score: 16.3 bits;  conditional E-value: 5.9e-06
+               trp_6_7 156 lsyayhfdaalvadflrryavergvkhvv.devvevklderGfitavrtkeg.r..eleadlfvdcsGfrglllnka.leeP...fidm 236
+                            +y++h d  +    l ++a +rg++  +  +v +++ d    + +++ + g r  ++++ + +d sG +++l n+  +++P   f ++
+  ChlB4_B_orsel|Q0R4P7 114 RDYTFHVDRGKFDLILLKHAESRGAQVFQkTRVLKADFDTDPDLVTLNCRLGpRtlDFTTRMVIDASGRQTMLGNQLkVKVPdpvFNQY 202
+                           57999999999999999999999988776257999999999988888887653322567999******999998874233332234445 PP
+
+               trp_6_7 237 sdtllndsavalavplddekegvePytsaiameaGWtWkiPllgrvGtGyvysskf.tskdea..erelrelvgldaed....velnki 318
+                             +   +    +a+ ld +k+    y   +  e  W+W+iP++  + +  v ++k+  +   a  e+ + ++v    +     +++++i
+  ChlB4_B_orsel|Q0R4P7 203 AIHAWFEGLDRTAMALDPAKRDY-IYVHFLPLEDTWMWQIPITDTITSVGVVTQKHrFKAASAdrEKFFWDIVSSRKDIydalQKAERI 290
+                           55555555555555566555543.367778899************99865555544133333411344566665544321111566677 PP
+
+               trp_6_7 319 r.frv.GrsrraWvknc....vsiGlsscfvePlestGiyfiyaal....eqlvkhfPdkdfdpvladafnreveevfddvrdflqahy 397
+                           r f+  G    a ++ c    + iG ++ fv+P+ s+G+    ++     + ++    + df++++ +++++++ + + +  +f+ ++y
+  ChlB4_B_orsel|Q0R4P7 291 RpFKAeGDYSYAMRQICgdrfLLIGDAARFVDPIFSSGVSVALNSArlaaKDVIAAHRAGDFRKESFATYEEKLRRAVRNWYEFISVYY 379
+                           64443344455556655333367***************99876655001145555667899**************************99 PP
+
+               trp_6_7 398 ll 399
+                           +l
+  ChlB4_B_orsel|Q0R4P7 380 RL 381
+                           76 PP
+
+>> CalO3_A?_orsel|Q8KND5  [Micromonospora echinospora]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   12.3   0.0    0.0001   0.00033       7      68 ..       9      66 ..       4      75 .. 0.90
+   2 !   14.3   0.0   2.4e-05   8.1e-05     269     387 ..     217     356 ..     177     379 .. 0.72
+
+  Alignments for each domain:
+  == domain 1  score: 12.3 bits;  conditional E-value: 0.0001
+                trp_6_7  7 kvvivGGGtaGWmtasylkkalgdrveitllesaaigrigvGeatipdlqkvffdflglkee 68
+                            v++vGGG aG  ta  l+   ++   + lle  + +r  +Ge+ i+ +    +d lg++e+
+  CalO3_A?_orsel|Q8KND5  9 DVIVVGGGPAGSSTAGLLA---QEGHRVLLLEREKFPRYHIGESLISGVTL-TLDALGVRER 66
+                           699*************997...6788999*******************988.7899999885 PP
+
+  == domain 2  score: 14.3 bits;  conditional E-value: 2.4e-05
+                trp_6_7 269 eaGWtWkiPllgrv.GtGyvy.sskftskdeaerelrelvgldaedv...elnkirfrvGrsrraWvknc........vsiGlsscfv 343
+                             +GW W  Pl   + G Gyv  s++f++      +l+e    ++++v   ++   r+ v r+ r W   c        v +G +++f+
+  CalO3_A?_orsel|Q8KND5 217 AQGWLWYAPLSPTLtGIGYVTpSDRFAETGLPPDQLLEKQIAESNEVswlTAGARRVDVYRTARDWSYACsqfsgpgwVLVGDAAAFI 304
+                            57********9764499***7477899999888888887777777762224556788899*******99977666666789******* PP
+
+                trp_6_7 344 ePlestGiyfiyaaleqlvkhfP........dkdfdpvladafnreveevfd 387
+                            +Pl s+G+ + +     l +           ++++ +v++d++   +++++d
+  CalO3_A?_orsel|Q8KND5 305 DPLLSSGVTLAMRGALSLSRAVHealaapekERHLMQVYEDRYRDFLAALLD 356
+                            ********99887666665544311111111222333333444444444444 PP
+
+>> TiaM_A_orsel|E9LIP1  [Dactylosporangium aurantiacum subsp. hamdenensis]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   13.2   0.1   5.4e-05   0.00018       4      82 ..       4      76 ..       1      94 [. 0.84
+   2 !   12.6   0.1   7.9e-05   0.00026     265     354 ..     208     313 ..      87     320 .. 0.59
+
+  Alignments for each domain:
+  == domain 1  score: 13.2 bits;  conditional E-value: 5.4e-05
+              trp_6_7  4 rikkvvivGGGtaGWmtasylkkalgdrveitllesaaigrigvGeatipdlqkvffdflglkeeeWmpecnasyklav 82
+                          + kv+++GGG  G  +a  l+k     ve+ lle a+ +r  +Ge+  ++ +    d++g  e+  +++c  + k++v
+  TiaM_A_orsel|E9LIP1  4 AMPKVIVIGGGPGGSTAAGLLAK---GGVEVKLLERAEFPRYHIGESITTSCRA-IIDYVGALEK--VNACGFTTKTGV 76
+                         5679**********999999987...589*****************99999887.8999998776..567777777766 PP
+
+  == domain 2  score: 12.6 bits;  conditional E-value: 7.9e-05
+              trp_6_7 265 aiameaGWtWkiPll.grvGtGyvyss.kftsk....deaerelrelvgld.......aedvelnkirfrvGrsrraWvknc....vsiG 337
+                           i+   GW W iPl   r+  G+v  + +f+++    d  e+ l  ++g +       a+ ++l  +r+    s  a  k c      +G
+  TiaM_A_orsel|E9LIP1 208 VISSPDGWYWLIPLRdNRFSVGFVTHKtNFVERrrefDSQEAMLAAVLGESetmkqvlAQATQLPGVRIEQDFSY-AADKFCgdgyFLVG 296
+                          466789********746******9654267765222233444455444433100000033333333333333332.2233342222679* PP
+
+              trp_6_7 338 lsscfvePlestGiyfi 354
+                           s+cf++Pl stG+++ 
+  TiaM_A_orsel|E9LIP1 297 DSACFLDPLLSTGVHLA 313
+                          *************9875 PP
+
+>> Nat1_A_cycl|F8QPG4  [Streptomyces sp. CS]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   17.6   0.0   2.4e-06     8e-06       3      68 ..       3      64 ..       1      72 [. 0.90
+   2 !    7.4   0.0    0.0029    0.0097     256     384 ..     204     343 ..     191     363 .. 0.65
+
+  Alignments for each domain:
+  == domain 1  score: 17.6 bits;  conditional E-value: 2.4e-06
+             trp_6_7  3 krikkvvivGGGtaGWmtasylkkalgdrveitllesaaigrigvGeatipdlqkvffdflglkee 68
+                        ++   vv++GGG aG ++a  l+k   +  +++lle  + +r  +Ge+ +p +   +fd +g++e 
+  Nat1_A_cycl|F8QPG4  3 DNSTDVVVIGGGPAGALSAYQLAK---QGHSVVLLEREEFPRFHIGESLLPYMMG-LFDRIGIREA 64
+                        56678**************99986...67789********************998.99****9985 PP
+
+  == domain 2  score: 7.4 bits;  conditional E-value: 0.0029
+             trp_6_7 256 kegvePytsaiameaGWtWkiPllgr.vGtGyvysskf...tsk....deaerelrelvgldaedvelnkirfrvGrsrra...Wvkncvs 335
+                         + gve   +  a+  GW+W iPl    +  G v   +     ++    +e ++ + ++v   +++ +  ++++      ++        v 
+  Nat1_A_cycl|F8QPG4 204 NLGVEGDIQVGAHADGWVWAIPLSKDvISVGTVMPRDVfraSTPeevfEEHKARIPRIVARLTDTRPTMDLKVETDYCYHSdtvTGPGWVM 294
+                         45788888888999*********86514668887766412123311223444556677777778888877777766544441003345688 PP
+
+             trp_6_7 336 iGlsscfvePlestGiyfiyaaleqlvkhfPdkdfdpvladafnrevee 384
+                         +G + cf +P+ s G+    a+  + ++ + d+  +p+ ad+   e ++
+  Nat1_A_cycl|F8QPG4 295 VGDAGCFGDPMFSGGVLVASATAVRAAETLSDALNNPEDADRLIDEYAN 343
+                         9999999999999999888887777777777766666666555444444 PP
+
+>> sp|P95482|PRNC_PSEFL  [Pseudomonas fluorescens]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !    6.2   0.0    0.0069     0.023       7      71 ..      16      80 ..      10     100 .. 0.81
+   2 !   14.9   0.4   1.7e-05   5.5e-05     164     408 ..     134     406 ..     126     418 .. 0.69
+
+  Alignments for each domain:
+  == domain 1  score: 6.2 bits;  conditional E-value: 0.0069
+               trp_6_7  7 kvvivGGGtaGWmtasylkkalgdrveitllesaaigrigvGeatipd...lqkvffdflglkeeeWm 71
+                           v+i+G G +G    + l+k   ++  + ++e ++ +r  +Ge+ ip+   ++++  d  g++e + +
+  sp|P95482|PRNC_PSEFL 16 DVIILGSGMSGTQMGAILAK---QQFRVLIIEESSHPRFTIGESSIPEtslMNRIIADRYGIPELDHI 80
+                          799*****999988888876...7899*******************9844456777777777776665 PP
+
+  == domain 2  score: 14.9 bits;  conditional E-value: 1.7e-05
+               trp_6_7 164 aalvadflrryavergvk.hvvdevvevklderGfitavrtkegreleadlfvdcsGfrglllnka.l.eeP..fidmsdtllnds... 244
+                            + v  +l + a++ g k h + +v+e + d+ G   av+t++g ++++  ++dc G r+ l  k  l eeP  f   s  l +     
+  sp|P95482|PRNC_PSEFL 134 RQDVDAYLLQAAIKYGCKvHQKTTVTEYHADKDGV--AVTTAQGERFTGRYMIDCGGPRAPLATKFkLrEEPcrFKTHSRSLYTHMlgv 220
+                           566778999999999665378889999*****996..899********************99987425155644444444444433000 PP
+
+               trp_6_7 245 .avalavplddekegvePytsaiameaGWtWkiPllgr.......vGtG.....yvysskfts.kdeaerelrelvgldaedvelnkir 319
+                                  +   ++   +  t     e GW W iP+          v  G      vy ++ +s ++e  + l ++  + a+  ++  +r
+  sp|P95482|PRNC_PSEFL 221 kPFDDIFKVKGQRWRWHEGTLHHMFEGGWLWVIPFNNHprstnnlVSVGlqldpRVYPKTDISaQQEFDEFLARFPSIGAQFRDAVPVR 309
+                           022333334445555566788888999*******9643112222223332222258877544415566666778888999999999999 PP
+
+               trp_6_7 320 frvGrsrraWvkn.cvs.....iGlsscfvePlestGi....yfiyaaleqlvkhfPdkdfdpvladafnreveevfddvrdflqahyl 398
+                             v  +r  +  n cv+     +  + +f++Pl s G+      i+a   +l+k + d df+p+  +  +r  ++++d   df+   y+
+  sp|P95482|PRNC_PSEFL 310 DWVKTDRLQFSSNaCVGdryclMLHANGFIDPLFSRGLentaVTIHALAARLIKALRDDDFSPERFEYIERLQQKLLDHNDDFVSCCYT 398
+                           8888888877665366533332334789*******998333234556667899*******************************99996 PP
+
+               trp_6_7 399 lakredtefW 408
+                           +   +d + W
+  sp|P95482|PRNC_PSEFL 399 A--FSDFRLW 406
+                           5..3455555 PP
+
+>> AviH_orsel|STVIR_2874|ELS56116  [Streptomyces viridochromogenes Tue57]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   11.7   0.0   0.00015    0.0005       8      64 ..       1      53 [.       1      64 [. 0.87
+   2 !   11.2   0.0   0.00021   0.00068     266     353 ..     201     304 ..     195     314 .. 0.62
+
+  Alignments for each domain:
+  == domain 1  score: 11.7 bits;  conditional E-value: 0.00015
+                         trp_6_7  8 vvivGGGtaGWmtasylkkalgdrveitllesaaigrigvGeatipdlqkvffdflg 64
+                                    ++++GGG aG  +as l+ka    +++ lle  + +r  +Ge+  ++ ++   d +g
+  AviH_orsel|STVIR_2874|ELS56116  1 MLVIGGGPAGSTAASLLSKA---GMSVKLLERETFPRYHIGESIASSCRT-IIDLVG 53
+                                    589****************9...68899***************9999887.666665 PP
+
+  == domain 2  score: 11.2 bits;  conditional E-value: 0.00021
+                         trp_6_7 266 iameaGWtWkiPllg.rvGtGyv.ysskftskdeaerelrel....vgldae..dvelnkir...frvGrsrraWvknc 333
+                                     i+   GW W iPl g r+  G+v + ++f+++ + +++l  +    v+ ++   d  +n +    +rv ++  ++v + 
+  AviH_orsel|STVIR_2874|ELS56116 201 ISAPDGWYWVIPLRGdRYSVGFVcHQDRFLERRREHADLEAMlaslVEESPTvrDLMANGVYqpgVRVEQD-FSYVADS 278
+                                     56678********9879*****9446789987666666555500005544431145567664222455433.2445444 PP
+
+                         trp_6_7 334 vs......iGlsscfvePlestGiyf 353
+                                              G ++cf++Pl stG+++
+  AviH_orsel|STVIR_2874|ELS56116 279 FHgpgyylAGDAACFLDPLLSTGVHL 304
+                                     32222222688999999999999876 PP
+
+>> clz5|tr|U6A3L4|U6A3L4_9ACTN  [Streptomyces sp. CNH287]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   10.3   0.0    0.0004    0.0013       8      56 ..       8      53 ..       2      67 .. 0.86
+   2 !   12.4   0.5   9.5e-05   0.00031     157     399 ..     116     380 ..     100     399 .. 0.68
+
+  Alignments for each domain:
+  == domain 1  score: 10.3 bits;  conditional E-value: 0.0004
+                      trp_6_7  8 vvivGGGtaGWmtasylkkalgdrveitllesaaigrigvGeatipdlq 56
+                                 + i+GGG aG   asyl+ka    ++ ++ e    +r  vGe+ ip   
+  clz5|tr|U6A3L4|U6A3L4_9ACTN  8 IGIIGGGPAGSAIASYLAKA---GLNCVIFEGDIFPREHVGESLIPATT 53
+                                 679***************99...6788999************9998765 PP
+
+  == domain 2  score: 12.4 bits;  conditional E-value: 9.5e-05
+                      trp_6_7 157 syayhfdaalvadflrryavergvkhvvd.evvevklde.rGfitavrtkegreleadlfvdcsGfrglllnkaleePfidm 236
+                                  +y+yh d a+    l ++a + g+k  +  +v+ v+  e +  i     k++ +++  + vd sG r  +l + l+   +++
+  clz5|tr|U6A3L4|U6A3L4_9ACTN 116 DYTYHVDRAKFDLMLLQHAASLGAKVYQGvRVRRVDFSEtNPRIIFPIGKTETSVRVRMVVDASG-RNTFLGRQLK---LKV 193
+                                  68888888888888888888887766554245566554314455556667777888888888888.5555566665...456 PP
+
+                      trp_6_7 237 sdtllndsavalavpl.ddekegveP......ytsaiameaGWtWkiPllgrvGt.Gyvyss.kf.tskdeaerelrelvgl 308
+                                  sd + n+ av +   + d  + +v+       +   +  +  W+W+iP++  + + G v  + +f +sk++    + e vg 
+  clz5|tr|U6A3L4|U6A3L4_9ACTN 194 SDPVFNQYAVHTWFDNlDRTALSVNKeqadyiFIHFLPVTDTWVWQIPITDTITSiGVVTQKeQFkASKEDLDGFFWECVGS 275
+                                  666666666666554324444444431111113455677899*********99884666544256457788888899***99 PP
+
+                      trp_6_7 309 daedvel....nkir.frvGrsrraWvkncv.....siGlsscfvePlestGiyfiyaaleql....vkhfPdkdfdpvlad 376
+                                   +e +e+    +++r f+   +    +k +v     +iG ++ fv+P+ s+G+    ++   +    +    + df++++  
+  clz5|tr|U6A3L4|U6A3L4_9ACTN 276 RPELKEAleksDQVRpFKTEGDYSYAMKQIVgdqwaTIGDAARFVDPIFSSGVSVALNSARLIsgeiIAAAEQGDFRKEMFS 357
+                                  9987664222267775555433333344444333337****************9988877665111145556789******* PP
+
+                      trp_6_7 377 afnreveevfddvrdflqahyll 399
+                                  +++ ++ + + +  +f+ ++y+l
+  clz5|tr|U6A3L4|U6A3L4_9ACTN 358 NYEGKIRRAVSNWYEFISIYYRL 380
+                                  *******************9976 PP
+
+>> Clo-Hal_B|AAN65237.1  [Streptomyces roseochromogenus subsp. oscitans DS 12.976]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !    7.3   0.0    0.0033     0.011       3      52 ..       4      50 ..       2      68 .. 0.81
+   2 !   15.5   2.0   1.1e-05   3.5e-05     154     414 ..      98     380 ..      61     432 .. 0.69
+
+  Alignments for each domain:
+  == domain 1  score: 7.3 bits;  conditional E-value: 0.0033
+               trp_6_7  3 krikkvvivGGGtaGWmtasylkkalgdrveitllesaaigrigvGeati 52
+                          ++   v+++GGG  G m +s l+       ++ +le a+ +r  +Ge+ +
+  Clo-Hal_B|AAN65237.1  4 NQEYDVIVIGGGPGGSMVSSLLADG---GKKVLVLEVAKFPRYHIGESLL 50
+                          566789**************99864...557899************9865 PP
+
+  == domain 2  score: 15.5 bits;  conditional E-value: 1.1e-05
+               trp_6_7 154 kqlsyayhfdaalvadflrryavergvk.hvvdevvevklderGfit....avrtkegreleadlfvdcsGfrglllnkaleePfidms 237
+                            + +y+y+ +     + l   a e+gv+ + + +v++ ++d++G  t       t e ++ +a  +vd sG  gl+    l+    +  
+  Clo-Hal_B|AAN65237.1  98 VTHDYTYQVERGPFDKMLLDNAREHGVDvREQHRVTNFSIDDNGRSTvnyrRTDTGETGTATARWLVDASGQGGLVTK-RLHT---QEW 182
+                           45679999999999999********99735577899*****99964411113456677889999*******8887655.4543...345 PP
+
+               trp_6_7 238 dtllndsavalavplddekegvePytsai.ameaGWtWkiPllgrvGt.Gyvysskftskdeaer...elrelv....gldaedvelnk 317
+                           d  l + av +  +  +  eg       + + + GW W iPl   + + G v   + ++  +++r    +++ +    +l++ + +++ 
+  Clo-Hal_B|AAN65237.1 183 DPYLKNMAVWSYWKGVKRSEGEDAGNIFLpTFDDGWWWCIPLRDDITSiGAVVDRESLNALKSTRvrqYYLDSIektpELASRTENAEL 271
+                           6677788888877776666666554443326799********99887658888776665555444111333333111144445555555 PP
+
+               trp_6_7 318 i.rfrvGrsrr.aWvknc....vsiGlsscfvePlestGiy......fiyaaleqlvkhfPdkdfdpvladafnreveevfddvrdflq 394
+                           +  + v r+    + + c    ++iG ++cf++Pl stG++      f+ a++ + +   P+ d   ++ + ++ +  + f   rd + 
+  Clo-Hal_B|AAN65237.1 272 VdDMHVQRDWSyIYDRFCgdgyIAIGDAACFIDPLFSTGVHlamlsgFLAATVVNTILDKPELDT-ARMLQFYEGAYRKEFARLRDQVY 359
+                           63588988754133444444449*****************9443333445555555555566663.34456777788888888888888 PP
+
+               trp_6_7 395 ahyllakr.edtefWratkel 414
+                             y   k  +++ fW+a  + 
+  Clo-Hal_B|AAN65237.1 360 FLYAGNKGsKESYFWHARSHF 380
+                           777776641566778776655 PP
+
+>> tr|Q71ME2|Q71ME2_9ACTN  [Actinoplanes sp. ATCC 33002]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   11.0   0.0   0.00025   0.00081       6      53 ..      19      63 ..      14      87 .. 0.89
+   2 !    5.9   0.0    0.0089     0.029     161     239 ..     134     212 ..     116     261 .. 0.75
+   3 ?    0.8   0.0       0.3         1     338     396 ..     341     403 ..     323     415 .. 0.69
+
+  Alignments for each domain:
+  == domain 1  score: 11.0 bits;  conditional E-value: 0.00025
+                 trp_6_7  6 kkvvivGGGtaGWmtasylkkalgdrveitllesaaigrigvGeatip 53
+                              v i+G G aG m  + l++   + + + l+++++ ++  vGe+tip
+  tr|Q71ME2|Q71ME2_9ACTN 19 FDVAILGSGIAGSMLGAILAR---NGARVLLVDASTHPKFAVGESTIP 63
+                            5799***********999987...68899******************9 PP
+
+  == domain 2  score: 5.9 bits;  conditional E-value: 0.0089
+                 trp_6_7 161 hfdaalvadflrryaver.gvkhvvdevvevklderGfitavrtkegreleadlfvdcsGfrglllnk.aleePfidmsdt 239
+                             h+  +    +l + av+   v + + +vv+v+ d+ G   ++   +g + +a   vd sGfr+ l +k al+e    m+ +
+  tr|Q71ME2|Q71ME2_9ACTN 134 HMYRQATDAYLFHAAVKYgCVPRQNFRVVDVDFDDAGV--TISGGDGEQYRARYVVDASGFRSPLAEKfALRENPCRMKHH 212
+                             555555667888888888668888889**********6..588999*****************999886788766666655 PP
+
+  == domain 3  score: 0.8 bits;  conditional E-value: 0.3
+                 trp_6_7 338 lsscfvePlestGiyfiyaaleql....vkhfPdkdfdpvladafnreveevfddvrdflqah 396
+                              +++fv+Pl s G+    +a++ l    +    d df+++  +  +r  + +fd    ++ a 
+  tr|Q71ME2|Q71ME2_9ACTN 341 HAAGFVDPLFSRGLSNTAEAINALswrlIAAIKDDDFSQERFEYVDRLQQGLFDYNDALVNAS 403
+                             5789***********999999876111144455666666666655555556666555555555 PP
+
+>> CtcP_A_cycl|A0A1E7MYN1  [Kitasatospora aureofaciens]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !    9.7   0.0   0.00059     0.002       6      54 ..      16      61 ..      11      71 .. 0.90
+   2 ?    5.6   0.0     0.011     0.035     170     281 ..     140     261 ..     106     318 .. 0.73
+
+  Alignments for each domain:
+  == domain 1  score: 9.7 bits;  conditional E-value: 0.00059
+                 trp_6_7  6 kkvvivGGGtaGWmtasylkkalgdrveitllesaaigrigvGeatipd 54
+                              vvi+G G +G m  s l+k   +   i ll+ a+ +r  vGe+ti +
+  CtcP_A_cycl|A0A1E7MYN1 16 YDVVIIGSGLSGTMLGSILAK---HGFRIMLLDGAHHPRFAVGESTIGQ 61
+                            579****************97...6889******************975 PP
+
+  == domain 2  score: 5.6 bits;  conditional E-value: 0.011
+                 trp_6_7 170 flrryavergvk.hvvdevvevklderGfitavrtkegreleadlfvdcsGfrglllnka.l.eeP......fidmsdtllndsava 247
+                             ++ + av+ g + +   +v++++ d+ G   +v  ++g +++a  +vd sGfr+ l  +  l eeP        ++  +++   a+ 
+  CtcP_A_cycl|A0A1E7MYN1 140 YMFHAAVRYGCDaRQYYRVENIEFDDGGV--TVSGADGSTVRARYLVDASGFRSPLARQLgLrEEPsrlkhhARSIFTHMVGVDAID 224
+                             55555555544313445678888888885..588999*****************998874331344211111334555667777777 PP
+
+                 trp_6_7 248 lavplddekegvePytsai...ameaGWtWkiPllgr 281
+                              +v +  e ++  P+   +     e GW+W iP+   
+  CtcP_A_cycl|A0A1E7MYN1 225 DHVDTPAELRPPVPWNDGTmhhIFERGWMWIIPFNNH 261
+                             8888888877777775554111567899999998665 PP
+
+>> Asm12_A_cycl|AQZ37099.1  [Actinosynnema pretiosum subsp. pretiosum]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !    7.6   0.0    0.0027    0.0088       9      54 ..       5      47 ..       2      60 .. 0.89
+   2 ?    4.7   0.0      0.02     0.066     268     292 ..     213     238 ..     137     267 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 7.6 bits;  conditional E-value: 0.0027
+                  trp_6_7  9 vivGGGtaGWmtasylkkalgdrveitllesaaigrigvGeatipd 54
+                             +++GGG aG ++as l++   +  ++ +le  + +r  +Ge+ +p 
+  Asm12_A_cycl|AQZ37099.1  5 IVMGGGPAGAVCASVLAR---QGRSVLVLERQEFPRFHIGESMLPY 47
+                             799*************87...566899**************99886 PP
+
+  == domain 2  score: 4.7 bits;  conditional E-value: 0.02
+                  trp_6_7 268 meaGWtWkiPll.grvGtGyvysskf 292
+                              +  GW+W iPl   r+  G v   + 
+  Asm12_A_cycl|AQZ37099.1 213 HADGWIWAIPLSaDRISVGTVMHRDR 238
+                              568********626999999987665 PP
+
+>> sp|A0A142C7A5|PHNG_PENHR  Oxidoreductase phnG OS=Penicillium herquei OX=69774 GN=phnG PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    5.1   0.0     0.015     0.051       5      28 ..       9      32 ..       5      51 .. 0.86
+   2 ?    2.8   0.0     0.075      0.25       6      31 ..     161     186 ..     158     206 .. 0.86
+   3 ?    0.4   0.0      0.39       1.3     200     220 ..     258     278 ..     235     283 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 5.1 bits;  conditional E-value: 0.015
+                   trp_6_7  5 ikkvvivGGGtaGWmtasylkkal 28
+                              ++++vi+GG  aG  ta yl + +
+  sp|A0A142C7A5|PHNG_PENHR  9 KQNLVILGGSYAGLSTAHYLLRHV 32
+                              689*****************8765 PP
+
+  == domain 2  score: 2.8 bits;  conditional E-value: 0.075
+                   trp_6_7   6 kkvvivGGGtaGWmtasylkkalgdr 31 
+                               k++vi GGG aG  ta  l++ l+ r
+  sp|A0A142C7A5|PHNG_PENHR 161 KHIVIAGGGPAGVETAGELGEYLNGR 186
+                               89**************9998877655 PP
+
+  == domain 3  score: 0.4 bits;  conditional E-value: 0.39
+                   trp_6_7 200 avrtkegreleadlfvdcsGf 220
+                               +v+ ++g+el+adl++  +G+
+  sp|A0A142C7A5|PHNG_PENHR 258 TVTLEDGKELQADLYIPATGM 278
+                               5667899************98 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (520 nodes)
+Target sequences:                        109  (48894 residues searched)
+Passed MSV filter:                        42  (0.385321); expected 2.2 (0.02)
+Passed bias filter:                       37  (0.33945); expected 2.2 (0.02)
+Passed Vit filter:                        34  (0.311927); expected 0.1 (0.001)
+Passed Fwd filter:                        33  (0.302752); expected 0.0 (1e-05)
+Initial search space (Z):                109  [actual number of targets]
+Domain search space  (domZ):              33  [number of targets reported over threshold]
+# CPU time: 0.23u 0.00s 00:00:00.23 Elapsed: 00:00:00.25
+# Mc/sec: 98.83
+//
+[ok]

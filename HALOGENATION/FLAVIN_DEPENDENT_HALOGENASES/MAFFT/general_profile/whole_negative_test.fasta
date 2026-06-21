@@ -1,0 +1,354 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  HALOGENATION/FLAVIN_DEPENDENT_HALOGENASES/MAFFT/general_profile/all_general_profile.hmm
+# target sequence database:        HALOGENATION/FLAVIN_DEPENDENT_HALOGENASES/MAFFT/general_profile/negative_test.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       all_general_profile  [M=494]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                  Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                  -----------
+    1.9e-09   30.3   0.1    2.6e-08   26.5   0.0    2.3  3  sp|Q01911|TETX_BACFG       Flavin-dependent monooxygenase OS=
+    1.9e-09   30.3   0.1    2.6e-08   26.5   0.0    2.3  3  sp|Q06DK7|TETX_SPHSM       Flavin-dependent monooxygenase OS=
+      2e-09   30.2   2.0      6e-06   18.7   0.0    3.6  5  sp|Q8MP06|SNO1_TYRJA       Senecionine N-oxygenase OS=Tyria j
+    2.1e-09   30.1   0.1    2.6e-08   26.5   0.0    2.3  3  sp|Q93L51|TETX_BACT4       Flavin-dependent monooxygenase OS=
+      1e-08   27.9   0.4    3.9e-07   22.6   0.4    2.2  1  sp|A0A059WYP6|TET50_UNKP   Flavin-dependent monooxygenase OS=
+    2.6e-08   26.5   0.6    1.9e-06   20.3   0.0    3.0  3  sp|A0A516F3Z6|PENIC_PENPA  Baeyer-Villiger monooxygenase peni
+    3.7e-08   26.0   0.0    7.4e-08   25.0   0.0    1.6  1  sp|B1MM05|TETX_MYCA9       Flavin-dependent monooxygenase OS=
+    5.4e-08   25.5   3.5     0.0019   10.5   0.2    3.9  4  sp|A0A142C7A5|PHNG_PENHR   Oxidoreductase phnG OS=Penicillium
+    8.4e-07   21.5   0.1    0.00039   12.7   0.0    2.2  2  sp|D3HKY4|TET56_LEGLN      Flavin-dependent monooxygenase OS=
+    1.7e-06   20.5   0.2    0.00052   12.3   0.0    2.5  3  sp|A0A0H4TXY1|TET55_UNKP   Flavin-dependent monooxygenase OS=
+      3e-06   19.7   0.1    4.3e-05   15.9   0.0    2.1  2  sp|A0A142C7A0|PHNB_PENHR   FAD-dependent monooxygenase phnB O
+
+
+Domain annotation for each sequence (and alignments):
+>> sp|Q01911|TETX_BACFG  Flavin-dependent monooxygenase OS=Bacteroides fragilis OX=817 GN=tetX PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   26.5   0.0   1.7e-09   2.6e-08      24      65 ..       9      48 ..       1      55 [. 0.80
+   2 ?   -2.7   0.0       1.2        19     101     131 ..     147     254 ..     142     269 .. 0.42
+   3 ?    0.9   0.0       0.1       1.5     322     359 ..     307     352 ..     300     375 .. 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 26.5 bits;  conditional E-value: 1.7e-09
+   all_general_profile 24 daeelsdniydVviiGGGpAGsttAsyLakalglsVtllEke 65
+                          ++++l ++ ++V+iiGGGp G+t+A++L+++ g++V + E++
+  sp|Q01911|TETX_BACFG  9 KQMNLLSD-KNVAIIGGGPVGLTMAKLLQQN-GIDVSVYERD 48
+                          34444444.9*********************.******9986 PP
+
+  == domain 2  score: -2.7 bits;  conditional E-value: 1.2
+   all_general_profile 101 kKlGvrfengreegeeF...............eewlid................................................... 123
+                           kK+ ++fen+ +e+ ++                    d                                                   
+  sp|Q01911|TETX_BACFG 147 KKWTLTFENKPSETADLvilanggmskvrkfvT----Dteveetgtfniqadihqpeincpgffqlcngnrlmashqgnllfanpnnng 231
+                           566666666666665432222222222211120....1222223333333333344444444444444444444444444444444444 PP
+
+   all_general_profile 124 ...............gqlpyayh 131
+                                          +q++  ++
+  sp|Q01911|TETX_BACFG 232 alhfgisfktpdewkNQTQVDFQ 254
+                           44444444444444444444444 PP
+
+  == domain 3  score: 0.9 bits;  conditional E-value: 0.1
+   all_general_profile 322 llvGdAagFvDPLfStGvsliaasiellak........siksalrg 359
+                           +++GdAa  + P+  +Gv+  +  +++l+         si++a+++
+  sp|Q01911|TETX_BACFG 307 TMIGDAAHLMPPFAGQGVNSGLVDALILSDnladgkfnSIEEAVKN 352
+                           58**************************995444444444444443 PP
+
+>> sp|Q06DK7|TETX_SPHSM  Flavin-dependent monooxygenase OS=Sphingobacterium sp. (strain PM2-P1-29) OX=403776 GN=tet(X) P
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   26.5   0.0   1.7e-09   2.6e-08      24      65 ..       9      48 ..       1      55 [. 0.80
+   2 ?   -2.7   0.0       1.2        19     101     131 ..     147     254 ..     142     269 .. 0.42
+   3 ?    0.9   0.0       0.1       1.5     322     359 ..     307     352 ..     300     375 .. 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 26.5 bits;  conditional E-value: 1.7e-09
+   all_general_profile 24 daeelsdniydVviiGGGpAGsttAsyLakalglsVtllEke 65
+                          ++++l ++ ++V+iiGGGp G+t+A++L+++ g++V + E++
+  sp|Q06DK7|TETX_SPHSM  9 KQMNLLSD-KNVAIIGGGPVGLTMAKLLQQN-GIDVSVYERD 48
+                          34444444.9*********************.******9986 PP
+
+  == domain 2  score: -2.7 bits;  conditional E-value: 1.2
+   all_general_profile 101 kKlGvrfengreegeeF...............eewlid................................................... 123
+                           kK+ ++fen+ +e+ ++                    d                                                   
+  sp|Q06DK7|TETX_SPHSM 147 KKWTLTFENKPSETADLvilanggmskvrkfvT----Dteveetgtfniqadihqpeincpgffqlcngnrlmashqgnllfanpnnng 231
+                           566666666666665432222222222211120....1222223333333333344444444444444444444444444444444444 PP
+
+   all_general_profile 124 ...............gqlpyayh 131
+                                          +q++  ++
+  sp|Q06DK7|TETX_SPHSM 232 alhfgisfktpdewkNQTQVDFQ 254
+                           44444444444444444444444 PP
+
+  == domain 3  score: 0.9 bits;  conditional E-value: 0.1
+   all_general_profile 322 llvGdAagFvDPLfStGvsliaasiellak........siksalrg 359
+                           +++GdAa  + P+  +Gv+  +  +++l+         si++a+++
+  sp|Q06DK7|TETX_SPHSM 307 TMIGDAAHLMPPFAGQGVNSGLVDALILSDnladgkfnSIEEAVKN 352
+                           58**************************995444444444444443 PP
+
+>> sp|Q8MP06|SNO1_TYRJA  Senecionine N-oxygenase OS=Tyria jacobaeae OX=179666 GN=sno1 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   18.7   0.0   3.9e-07     6e-06      30      64 ..      24      56 ..      14      88 .. 0.89
+   2 ?   -1.0   0.0      0.38       5.9     158     196 ..     139     176 ..     118     178 .. 0.72
+   3 !    8.2   0.1   0.00059    0.0091      15      52 ..     193     228 ..     154     236 .. 0.74
+   4 ?   -1.1   0.0       0.4       6.1     173     195 ..     271     289 ..     258     291 .. 0.72
+   5 ?   -2.9   0.1       1.4        22      87     136 ..     339     382 ..     327     402 .. 0.65
+
+  Alignments for each domain:
+  == domain 1  score: 18.7 bits;  conditional E-value: 3.9e-07
+   all_general_profile 30 dniydVviiGGGpAGsttAsyLakalglsVtllEk 64
+                          +    V iiG+G +G++tA+yL++  gl+ t++E+
+  sp|Q8MP06|SNO1_TYRJA 24 S-ASRVCIIGAGYSGLATARYLQDY-GLNYTIFEA 56
+                          3.479********************.********6 PP
+
+  == domain 2  score: -1.0 bits;  conditional E-value: 0.38
+   all_general_profile 158 Vkdveldgderiegvrtkqsdgee.reieadlvvDAsGrr 196
+                           V+ v+  +d  + ++++ ++d ++  + e+d+vv AsG  
+  sp|Q8MP06|SNO1_TYRJA 139 VTWVQRTED--KWNLTYMKTDTRKnYTEECDFVVVASGEF 176
+                           555555544..666777766677448999********975 PP
+
+  == domain 3  score: 8.2 bits;  conditional E-value: 0.00059
+   all_general_profile  15 ksvmtseeadaeelsdniydVviiGGGpAGsttAsyLa 52 
+                           k++ +++ ++ae+++   + V++iG+Gp+G+ ++ +L+
+  sp|Q8MP06|SNO1_TYRJA 193 KTMHSHDYKEAESFR--GQRVLVIGAGPSGLDVVMQLS 228
+                           333333333444444..469***********9999997 PP
+
+  == domain 4  score: -1.1 bits;  conditional E-value: 0.4
+   all_general_profile 173 rtkqsdgee.reieadlvvDAsGr 195
+                           +++     + +  e+d+v+ ++G+
+  sp|Q8MP06|SNO1_TYRJA 271 VFE-----DdTVEEFDMVIYCTGF 289
+                           444.....336678*********8 PP
+
+  == domain 5  score: -2.9 bits;  conditional E-value: 1.4
+   all_general_profile  87 lglrekleeaegfkkKlGvrfengreegeeFeewlidgqlpyayhvdrak 136
+                           l+     ++a  +  Kl++  ++  ++++ ++ wl+++q+ ++ +++  +
+  sp|Q8MP06|SNO1_TYRJA 339 LD-----QQA-HYSAKLAAGHFKLPSQDKMLRHWLEHVQMLREAQFKITD 382
+                           44.....333.466677776666666666667777777777777776444 PP
+
+>> sp|Q93L51|TETX_BACT4  Flavin-dependent monooxygenase OS=Bacteroides thetaiotaomicron OX=818 GN=tetX2 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   26.5   0.0   1.7e-09   2.6e-08      24      65 ..       9      48 ..       1      55 [. 0.80
+   2 ?   -2.7   0.0       1.2        19     101     131 ..     147     254 ..     142     269 .. 0.42
+   3 ?    0.8   0.0      0.11       1.6     322     360 ..     307     353 ..     300     376 .. 0.77
+
+  Alignments for each domain:
+  == domain 1  score: 26.5 bits;  conditional E-value: 1.7e-09
+   all_general_profile 24 daeelsdniydVviiGGGpAGsttAsyLakalglsVtllEke 65
+                          ++++l ++ ++V+iiGGGp G+t+A++L+++ g++V + E++
+  sp|Q93L51|TETX_BACT4  9 KQMNLLSD-KNVAIIGGGPVGLTMAKLLQQN-GIDVSVYERD 48
+                          34444444.9*********************.******9986 PP
+
+  == domain 2  score: -2.7 bits;  conditional E-value: 1.2
+   all_general_profile 101 kKlGvrfengreegeeF...............eewlid................................................... 123
+                           kK+ ++fen+ +e+ ++                    d                                                   
+  sp|Q93L51|TETX_BACT4 147 KKWTLTFENKPSETADLvilanggmskvrkfvT----Dteveetgtfniqadihqpeincpgffqlcngnrlmashqgnllfanpnnng 231
+                           566666666666665432222222222211120....1222223333333333344444444444444444444444444444444444 PP
+
+   all_general_profile 124 ...............gqlpyayh 131
+                                          +q++  ++
+  sp|Q93L51|TETX_BACT4 232 alhfgisfktpdewkNQTQVDFQ 254
+                           44444444444444444444444 PP
+
+  == domain 3  score: 0.8 bits;  conditional E-value: 0.11
+   all_general_profile 322 llvGdAagFvDPLfStGvsliaasiellak........siksalrgd 360
+                           +++GdAa  + P+  +Gv+  +  +++l+         si++a+++ 
+  sp|Q93L51|TETX_BACT4 307 TMIGDAAHLMPPFAGQGVNSGLVDALILSDnladgkfnSIEEAVKNY 353
+                           58**************************9955555444444444433 PP
+
+>> sp|A0A059WYP6|TET50_UNKP  Flavin-dependent monooxygenase OS=Unknown prokaryotic organism OX=2725 GN=tet(50) PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   22.6   0.4   2.5e-08   3.9e-07      32     390 ..       4     350 ..       1     377 [. 0.78
+
+  Alignments for each domain:
+  == domain 1  score: 22.6 bits;  conditional E-value: 2.5e-08
+       all_general_profile  32 iydVviiGGGpAGsttAsyLakalglsVtllEkesfprihVGEstvpst..rhfldllglrekleeaegfkkKlGvrfengreeg 114
+                               + ++++iG G AG ++A  L++  g+s +l+Ek++  r + G ++      +h+ +++g+ +++ +    + K G  +  +++  
+  sp|A0A059WYP6|TET50_UNKP   4 HIKILVIGVGVAGPAVAYWLKRF-GFSPVLIEKSAAVRKG-GQALDIRGiaTHIAKEMGIYDQICNM-RTQIKCGRYVDVKGNVL 85 
+                               578*****************888.********99988866.99987655558999****99999999.56677777776666665 PP
+
+       all_general_profile 115 e.......eFeewlidgqlpyayhvdrakfdeiLlryAverGvevvegvrVkdveldgderiegvrtkqsdgeereieadlvvDA 192
+                               +        F       +++ +  + r+++ eiL ++ ++  +e  +   V ++e ++d   + v++k  dg+     +dlv+ A
+  sp|A0A059WYP6|TET50_UNKP  86 HeeqgetfGF-------RQDDEVEILRGDLVEILMKAIADIPCEFKQS--VIKIEQNED--SVTVTYK--DGR--VENYDLVIAA 155
+                               5444543466.......57999*************************9..999999977..6667777..665..7789****** PP
+
+       all_general_profile 193 sGrrglLankllkfrepsevllnnvAvwlyven....vdrlpfsvegktnhlafedgWvWvIPlrdtltsvGyvyskdlaseee. 272
+                                G  +     + +  e++ ++l ++  ++ ++n    ++++   +++  +++ ++d        + +    G+ ++++++ e+  
+  sp|A0A059WYP6|TET50_UNKP 156 DGIHSATRGMVFSKNEYQLINLGSYVSAFTIPNylglDHMELLCESNHKLVTLQSDS-------QADKAMAGFMFRSKHVLEDIr 233
+                               ****999999999999**99999999999****966544444433333344444444.......5677889****9999888775 PP
+
+       all_general_profile 273 .ereleeffeelaaee.palkerlkdarsvrewvkekdysYsskqvagdgwllvGdAagFvDPLfStGvsliaasiellaksiks 355
+                                e+e + f++   +++  + ++ l      +++      + ++k+  + + +l+GdAa    PL  +G +l+  ++++la +   
+  sp|A0A059WYP6|TET50_UNKP 234 dEQEQKHFLHASFQNFgWETQNILNRMPESDDFYFDAITQIKMKSWTKGRIALIGDAAYCPSPLSGQGNNLAFVGAYILAGE--- 315
+                               555555555444444413566777777777777777777889999999*********************************9... PP
+
+       all_general_profile 356 alrgddtekealeeyerlirrlvdrvrefvsahYr 390
+                                 ++d +  +a+ +y++l+   v+ +++f +   +
+  sp|A0A059WYP6|TET50_UNKP 316 LKKADGDYIQAFTRYNELLHPFVEANQQFGVWVSE 350
+                               334556688899***********999999665555 PP
+
+>> sp|A0A516F3Z6|PENIC_PENPA  Baeyer-Villiger monooxygenase peniC OS=Penicillium patulum OX=5078 GN=peniC PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   20.3   0.0   1.3e-07   1.9e-06      31      64 ..      64     100 ..      24     105 .. 0.74
+   2 ?    1.2   0.1     0.083       1.3      32      54 ..     247     269 ..     229     279 .. 0.78
+   3 ?    0.9   0.0     0.097       1.5     157     208 ..     414     464 ..     408     472 .. 0.67
+
+  Alignments for each domain:
+  == domain 1  score: 20.3 bits;  conditional E-value: 1.3e-07
+        all_general_profile  31 n...iydVviiGGGpAGsttAsyLakalglsVtllEk 64 
+                                +   + +VviiGGG+AG+ tA  L+ +   + ++lEk
+  sp|A0A516F3Z6|PENIC_PENPA  64 PiitDSKVVIIGGGLAGLVTAVKLKTQGINDFVILEK 100
+                                2666789*******************95446677776 PP
+
+  == domain 2  score: 1.2 bits;  conditional E-value: 0.083
+        all_general_profile  32 iydVviiGGGpAGsttAsyLaka 54 
+                                +++V +iG G +G  ++  La+ 
+  sp|A0A516F3Z6|PENIC_PENPA 247 TKTVGVIGTGASGVQIVPRLAQD 269
+                                689***********999888876 PP
+
+  == domain 3  score: 0.9 bits;  conditional E-value: 0.097
+        all_general_profile 157 rVkdveldgderiegvrtkqsdge.e..reieadlvvDAsGrrglLankllkfre 208
+                                +V+ v+ +g+    gv   +++g     +e e+dl++ A+G+   +++ + ++++
+  sp|A0A516F3Z6|PENIC_PENPA 414 TVELVDTNGQ----GVSCLTEKGVvAngKEHEVDLLIYATGFDYEIGTPFYQRTR 464
+                                5555666643....5555555555434678999*********9888877776555 PP
+
+>> sp|B1MM05|TETX_MYCA9  Flavin-dependent monooxygenase OS=Mycobacteroides abscessus (strain ATCC 19977 / DSM 44196 / CC
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   25.0   0.0   4.8e-09   7.4e-08      34     199 ..       2     171 ..       1     200 [. 0.72
+
+  Alignments for each domain:
+  == domain 1  score: 25.0 bits;  conditional E-value: 4.8e-09
+   all_general_profile  34 dVviiGGGpAGsttAsyLakalglsVtllEkes..fprihVGEstvpstrhfldllglrekleeaegfkkKlGvrfengreegeeFeew 120
+                           +Vvi G+Gp G+t+A  L+++ g+ + +l+k+   fp    G+ + p t++++d lg++ +++   g+     +r   g e       +
+  sp|B1MM05|TETX_MYCA9   2 TVVIAGAGPTGLTLACELTRR-GIACRVLDKAPdlFPGSR-GKGLSPRTQEVFDDLGIAPAINSG-GM-AMPPFRIYAGHEV-----VA 81 
+                           6********************.********9888899987.****************99999988.55.4445555555443.....11 PP
+
+   all_general_profile 121 lid..............gqlpyayhvdrakfdeiLlryAverGvevvegvrVkdveldgderiegvrtkqsdgee.reieadlvvDAsG 194
+                           +++               ++p  + v   ++deiLl+   + G +v  +++V      +d  +++v ++  +g   + ++a ++v A G
+  sp|B1MM05|TETX_MYCA9  82 ERSlvemlgtdipsgpgIPYPGFWLVPQWRTDEILLDRLRQFGGDVEFNCEVVGFTQRSD--AVSVMVS--QGGApELLHASYLVGADG 166
+                           222333455566666666677777777777777777777777777777776666665555..4444444..444337777777777777 PP
+
+   all_general_profile 195 rrglL 199
+                            r+ +
+  sp|B1MM05|TETX_MYCA9 167 GRSTV 171
+                           76655 PP
+
+>> sp|A0A142C7A5|PHNG_PENHR  Oxidoreductase phnG OS=Penicillium herquei OX=69774 GN=phnG PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !    6.3   0.0    0.0023     0.036      30      54 ..       7      31 ..       1      51 [. 0.81
+   2 ?    0.6   0.1      0.12       1.9     152     196 ..      92     131 ..      86     148 .. 0.81
+   3 !   10.5   0.2   0.00012    0.0019      32      53 ..     160     181 ..     132     187 .. 0.76
+   4 !    5.8   0.0    0.0032     0.049     147     195 ..     228     278 ..     214     294 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 6.3 bits;  conditional E-value: 0.0023
+       all_general_profile 30 dniydVviiGGGpAGsttAsyLaka 54
+                               ++++ vi+GG  AG+ tA yL ++
+  sp|A0A142C7A5|PHNG_PENHR  7 TSKQNLVILGGSYAGLSTAHYLLRH 31
+                              345899****************987 PP
+
+  == domain 2  score: 0.6 bits;  conditional E-value: 0.12
+       all_general_profile 152 vvegvrVkdveldgderiegvrtkqsdgeereieadlvvDAsGrr 196
+                                ++g +V++++ +  +r + v +k++d   ++i++  +v A+G  
+  sp|A0A142C7A5|PHNG_PENHR  92 FIHG-TVTSLDHQ--DRCVTVSVKDGDP--EKIKCHAIVIATGAS 131
+                               5778.88888888..5788888885555..5***********975 PP
+
+  == domain 3  score: 10.5 bits;  conditional E-value: 0.00012
+       all_general_profile  32 iydVviiGGGpAGsttAsyLak 53 
+                                + +vi GGGpAG  tA  L +
+  sp|A0A142C7A5|PHNG_PENHR 160 AKHIVIAGGGPAGVETAGELGE 181
+                               589**************98876 PP
+
+  == domain 4  score: 5.8 bits;  conditional E-value: 0.0032
+       all_general_profile 147 erGvevvegvrVkdveldgd..er..iegvrtkqsdgeereieadlvvDAsGr 195
+                               + Gv v+++ rV++v   g   e     +++++ +dg+  e++adl++ A+G+
+  sp|A0A142C7A5|PHNG_PENHR 228 KVGVTVIKKSRVTNVTPPGAgaEDalTANATVTLEDGK--ELQADLYIPATGM 278
+                               34*************99987442256666666667777..************7 PP
+
+>> sp|D3HKY4|TET56_LEGLN  Flavin-dependent monooxygenase OS=Legionella longbeachae serogroup 1 (strain NSW150) OX=661367
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !    7.3   0.0    0.0011     0.017      31      66 ..       3      37 ..       1     182 [. 0.84
+   2 !   12.7   0.0   2.6e-05   0.00039     313     384 ..     276     344 ..     223     367 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 7.3 bits;  conditional E-value: 0.0011
+    all_general_profile 31 niydVviiGGGpAGsttAsyLakalglsVtllEkes 66
+                           ++ ++++iG+G AG ++   L++  g+s +l+Ek +
+  sp|D3HKY4|TET56_LEGLN  3 KNIKILVIGAGVAGPAVCYWLRRF-GFSPVLIEKYA 37
+                           4479*************9999888.99999999865 PP
+
+  == domain 2  score: 12.7 bits;  conditional E-value: 2.6e-05
+    all_general_profile 313 skqvagdgwllvGdAagFvDPLfStGvsliaasiellaksiksalrgddtekealeeyerlirrlvdrvref 384
+                            +++  + + +lvGdA+    PL  +G +l+  ++++la +  ++++g+   ++a+ +y+ l+r+ vd +++f
+  sp|D3HKY4|TET56_LEGLN 276 MNSWTKGRIALVGDAGYCPSPLSGQGNNLAFVGAYILAGE-LKVANGN--YTRAFTRYNALLRSFVDANQKF 344
+                            5666677888*****************************9.7788887..8899***************999 PP
+
+>> sp|A0A0H4TXY1|TET55_UNKP  Flavin-dependent monooxygenase OS=Unknown prokaryotic organism OX=2725 GN=tet(55) PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !    5.8   0.0    0.0031     0.048      31      69 ..       3      40 ..       1      57 [. 0.89
+   2 ?   -2.3   0.0       0.9        14     159     195 ..     128     158 ..      66     180 .. 0.70
+   3 !   12.3   0.0   3.4e-05   0.00052     313     384 ..     276     343 ..     223     369 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 5.8 bits;  conditional E-value: 0.0031
+       all_general_profile 31 niydVviiGGGpAGsttAsyLakalglsVtllEkesfpr 69
+                              +++++++iG+ +AG ++   L    g++ tl+Ek++  r
+  sp|A0A0H4TXY1|TET55_UNKP  3 HTKKILVIGASIAGPALCYWLNHY-GFQPTLVEKNQSTR 40
+                              5799********************.*********98665 PP
+
+  == domain 2  score: -2.3 bits;  conditional E-value: 0.9
+       all_general_profile 159 kdveldgderiegvrtkqsdgeereieadlvvDAsGr 195
+                               +++   +d    +v+++ ++g+  +  +dlv+ A G 
+  sp|A0A0H4TXY1|TET55_UNKP 128 ESLTQHDD----HVTVQFKNGK--TENYDLVIAADGL 158
+                               44444433....5555555666..6667777766664 PP
+
+  == domain 3  score: 12.3 bits;  conditional E-value: 3.4e-05
+       all_general_profile 313 skqvagdgwllvGdAagFvDPLfStGvsliaasiellaksiksalrgddtekealeeyerlirrlvdrvref 384
+                               +k   + + +lvGdA+    PL  +G sl++ ++++la +    l+   ++  a+++y++l++  v+ ++ f
+  sp|A0A0H4TXY1|TET55_UNKP 276 MKDWTKGRIALVGDAGYTPSPLSGQGTSLALVGAYILAGE----LKTATDHVAAFARYNELLKPYVEANQAF 343
+                               5666677889******************************....78888899**********9999998887 PP
+
+>> sp|A0A142C7A0|PHNB_PENHR  FAD-dependent monooxygenase phnB OS=Penicillium herquei OX=69774 GN=phnB PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   15.9   0.0   2.8e-06   4.3e-05      30      66 ..       3      38 ..       1      41 [. 0.91
+   2 ?    1.5   0.1     0.064      0.98     148     205 ..     119     172 ..     113     201 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 15.9 bits;  conditional E-value: 2.8e-06
+       all_general_profile 30 dniydVviiGGGpAGsttAsyLakalglsVtllEkes 66
+                              ++++ V++iG+G+ G++t   L+ka g+s  ++E+++
+  sp|A0A142C7A0|PHNB_PENHR  3 SPQTHVIVIGAGITGLLTCQGLKKA-GISYSCFERDT 38
+                              56799********************.********976 PP
+
+  == domain 2  score: 1.5 bits;  conditional E-value: 0.064
+       all_general_profile 148 rGvevvegvrVkdveldgderiegvrtkqsdgeereieadlvvDAsGrrglLankllk 205
+                               +G++v  g +  dv+++  e+ +gv+ + +dg    + + ++v A G r+++ + +++
+  sp|A0A142C7A0|PHNB_PENHR 119 EGIDVQYGKTLADVAFN--ESGNGVVATFTDGT--LVAGTMIVGADGPRSRVRETAMG 172
+                               588888888999*****..56999999999998..9*************999888775 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (494 nodes)
+Target sequences:                        169  (57619 residues searched)
+Passed MSV filter:                        16  (0.0946746); expected 3.4 (0.02)
+Passed bias filter:                       15  (0.0887574); expected 3.4 (0.02)
+Passed Vit filter:                        11  (0.0650888); expected 0.2 (0.001)
+Passed Fwd filter:                        11  (0.0650888); expected 0.0 (1e-05)
+Initial search space (Z):                169  [actual number of targets]
+Domain search space  (domZ):              11  [number of targets reported over threshold]
+# CPU time: 0.05u 0.00s 00:00:00.05 Elapsed: 00:00:00.05
+# Mc/sec: 520.72
+//
+[ok]

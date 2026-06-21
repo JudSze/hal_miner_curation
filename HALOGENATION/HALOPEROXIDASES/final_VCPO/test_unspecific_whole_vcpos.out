@@ -1,0 +1,623 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  HALOGENATION/HALOPEROXIDASES/final_VCPO/unspecific_cdhit/whole/cdhit_chosen.hmm
+# target sequence database:        HALOGENATION/HALOPEROXIDASES/final_VCPO/all_vcpos.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       cdhit_chosen  [M=652]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence     Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------     -----------
+          0 1136.5  31.0          0 1136.4  31.0    1.0  1  WP_145352678  [Roseimaritima multifibrata]
+          0 1128.6  30.1          0 1128.4  30.1    1.0  1  QDS86324      [Rosistilla ulvae]
+          0 1125.4  29.5          0 1122.1  29.5    1.9  1  WP_009093798  [Rhodopirellula sp. SWK7]
+          0 1116.7  40.9          0 1116.2  40.9    1.2  1  WP_099259610  [Rhodopirellula bahusiensis]
+          0 1115.3  32.3          0 1115.1  32.3    1.0  1  V-CPO_Q7UVW2  [Rhodopirellula baltica]
+          0 1111.7  32.9          0 1111.3  32.9    1.1  1  WP_283430655  [Neorhodopirellula lusitana]
+          0 1085.1  28.5          0 1084.8  28.5    1.0  1  WP_146517133  [Rubripirellula amarantea]
+          0 1080.4  25.7          0 1080.1  25.7    1.0  1  WP_289164516  [Roseiconus lacunae]
+          0 1077.6  27.4          0 1077.4  27.4    1.0  1  WP_182867963  [Stieleria mannarensis]
+          0 1035.0  36.3   7.6e-291  956.5  28.1    2.0  2  WP_146575939  [Neorhodopirellula pilleata]
+   8.4e-307 1009.2  12.6   8.4e-307 1009.2  12.6    1.2  2  MEM9369193    [Planctomycetota bacterium]
+    1.4e-06   17.2   0.2    1.9e-06   16.8   0.2    1.2  1  NapH4         [Streptomyces sp. CNQ-525]
+    1.5e-06   17.1   0.1    0.00012   10.9   0.3    2.2  2  Mcl24         [Streptomyces sp. CNH189]
+    1.9e-06   16.8   0.4    5.7e-05   11.9   0.4    2.1  2  MarH3         [Streptomyces sp. NPDC004134]
+    8.5e-05   11.4   0.1    0.00033    9.4   0.2    1.8  2  LvcH          [Streptomyces aculeolatus]
+
+
+Domain annotation for each sequence (and alignments):
+>> WP_145352678  [Roseimaritima multifibrata]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ! 1136.4  31.0         0         0       1     649 [.       1     647 [.       1     649 [] 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 1136.4 bits;  conditional E-value: 0
+  cdhit_chosen   1 marfwnrwigrrksarrkerkrkstrrrlraenletrqllaanifhnealPedvnedgivtaldaltiinqlnrqeaneaadgesdsdekkgrgrlt 97 
+                   m++fwnrw+g +ks+rrk+rkr+ +rrr+raenletrqllaanifhne +Pedv++dgiv a+d+lti+nq+nrq an++++++ +++ ++g++r+t
+  WP_145352678   1 MTSFWNRWTGLQKSSRRKNRKRTPLRRRPRAENLETRQLLAANIFHNEPMPEDVDQDGIVLAVDTLTILNQMNRQGANAGGEVDGNGQ-QRGQARIT 96 
+                   899***************************************************************************9977765553.349***** PP
+
+  cdhit_chosen  98 dvnndgrdsaldalmvinrlnrdedglenredeedtpadkptdeteedetedee....dadd..aseeesdvvlewndlfgelladseenqnPGyas 188
+                   dvnnd++d+aldalm  nrlnrd++g+++++d +d+p+d+p d+t++++ted++    d+d+  +s++e+dvvlewndlfge+l+d+++nqnPGyas
+  WP_145352678  97 DVNNDDQDTALDALMAGNRLNRDRGGVGGSTDPADNPVDTPVDDTTDNTTEDSTdvviDDDTtpTSQTETDVVLEWNDLFGEILVDDTQNQNPGYAS 193
+                   ************************************************99999878875555689******************************** PP
+
+  cdhit_chosen 189 rsmailnlaiydavaiatdgadaetfydydidltessddvsaevaasqaaytvlsslypdqqetldaflesslaalssdeetsdslalGeeigneil 285
+                   rs+ailnlaiydavaiat+g+daetfydyd++l++ +d++saevaasqaaytvlsslypdqq tldafle+sl++ls+d +++dsl++G+eigneil
+  WP_145352678 194 RSQAILNLAIYDAVAIATSGNDAETFYDYDLNLSQ-TDKISAEVAASQAAYTVLSSLYPDQQGTLDAFLETSLSSLSNDGNFADSLEVGTEIGNEIL 289
+                   **********************************9.************************************************************* PP
+
+  cdhit_chosen 286 alraddGsdvvaeytytdevGsfqadPlnPdvpvwGpawgevdtfaisstdeflPettpaltseeyaasynevkelGsvdsetrtadqteaGifway 382
+                   a+ra+dGsdv+aeytytde+G+fq+dPlnPdv++wGp+wg+vdtfaiss+d+f Pettpaltseeyaasynev+elGs+dsetrtadqteaGifway
+  WP_145352678 290 AIRASDGSDVIAEYTYTDEAGYFQPDPLNPDVAAWGPTWGDVDTFAISSSDDFRPETTPALTSEEYAASYNEVLELGSADSETRTADQTEAGIFWAY 386
+                   ************************************************************************************************* PP
+
+  cdhit_chosen 383 dreGlGtPlalfndvletvavqegntleenaalfaqasvamadaavvawdtkfseefwrPvtaiqsGdldGnelteGdadwtalGaPdgGddiiGft 479
+                   dreGlGtP+alfndvl+t+avqegnt+eenaalfaqasvamada+++awdtkf+eefwrPvtaiq+Gd+dGn+lteGdadw+alGaP+ G+d++Gft
+  WP_145352678 387 DREGLGTPIALFNDVLQTIAVQEGNTIEENAALFAQASVAMADAGITAWDTKFTEEFWRPVTAIQAGDTDGNDLTEGDADWVALGAPN-GEDTTGFT 482
+                   ****************************************************************************************.9******* PP
+
+  cdhit_chosen 480 PqfPtyisGhatfGgalfgtlqefyGtddisfevtseeleilledPelqeayGldlddatrsfdsfseamaenGrsrvylGihfdfddlvGqevGqa 576
+                   PqfPtyisGhatfG+alfgtlqefyGtddisf+vts+ele+lle+PelqeayGldlddatr+fdsfseamaenG srvylGihfdfddlvGqevGqa
+  WP_145352678 483 PQFPTYISGHATFGAALFGTLQEFYGTDDISFDVTSAELEMLLENPELQEAYGLDLDDATRTFDSFSEAMAENGVSRVYLGIHFDFDDLVGQEVGQA 579
+                   ************************************************************************************************* PP
+
+  cdhit_chosen 577 iaasvasefsvaaddds.dtgakddkdkkgned.sgrdedrsregnaqsssrdelerrkeederlaavdsvladd 649
+                   ia+svasef+va+dd+s d+g++++k+++gn + +g +++++++       +d+ +rr+++d+r+aavdsv+a+ 
+  WP_145352678 580 IATSVASEFVVASDDESgDSGFVNHKEDGGNFAgQGGNNNGQQG-------QDDPTRRRQRDSRFAAVDSVFAQG 647
+                   **************99978889********99744555554444.......8999*****************986 PP
+
+>> QDS86324  [Rosistilla ulvae]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ! 1128.4  30.1         0         0       1     649 [.      39     668 ..      39     670 .] 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 1128.4 bits;  conditional E-value: 0
+  cdhit_chosen   1 marfwnrwigrrksarrkerkrkstrrrlraenletrqllaanifhnealPedvnedgivtaldaltiinqlnrqeaneaadgesdsdekkgrgrlt 97 
+                   mar+w++w+grrksa++++r+r +trrr+r+e+l++rqllaanifhne++Pedvn+dgivta++altiinq+nrq++n+a dg+++s    + gr+t
+      QDS86324  39 MARIWDQWLGRRKSAEQASRRRYKTRRRCRVEQLDKRQLLAANIFHNELIPEDVNQDGIVTAVEALTIINQMNRQSSNNA-DGQTAS----DSGRKT 130
+                   99*************************************************************************99998.887766....569*** PP
+
+  cdhit_chosen  98 dvnndgrdsaldalmvinrlnrdedglenredeedtpadkptdeteedetedeedaddaseeesdvvlewndlfgelladseenqnPGyasrsmail 194
+                   dvnndg+++ +dalmvinrlnr+++g +++ d+ d+++d+ptdet+++e+e+  d+  +s+e++dvvl+wndlfgellads+enqnPGyasrsma+l
+      QDS86324 131 DVNNDGQQTPIDALMVINRLNRRDGG-GDSFDRPDNSVDQPTDETTTEEEEE--DTTPTSDESGDVVLQWNDLFGELLADSVENQNPGYASRSMAML 224
+                   **********************9997.8899****************99998..55579************************************** PP
+
+  cdhit_chosen 195 nlaiydavaiatdgadaetfydydidltessddvsaevaasqaaytvlsslypdqqetldaflesslaalssdeetsdslalGeeigneilalradd 291
+                   nlai+da++i+++g+daetfy+y+ ++++  dd+++evaasqaaytvlsslypdqq+tldafle+sla++++d+++sdsl++G+eign+ila+radd
+      QDS86324 225 NLAIFDAAQIGENGSDAETFYEYEFSVET--DDITTEVAASQAAYTVLSSLYPDQQATLDAFLETSLAGYENDANFSDSLTVGSEIGNQILANRADD 319
+                   ***********************777655..****************************************************************** PP
+
+  cdhit_chosen 292 GsdvvaeytytdevGsfqadPlnPdvpvwGpawgevdtfaisstdeflPettpaltseeyaasynevkelGsvdsetrtadqteaGifwaydreGlG 388
+                   Gsd+v++yty+devGsfqadPlnPdvpvwGpawgevdtfai+std+flPe+tpaltseeyaasynev+elG++ds+trta+qte+GifwaydreGlG
+      QDS86324 320 GSDAVVDYTYSDEVGSFQADPLNPDVPVWGPAWGEVDTFAIDSTDAFLPESTPALTSEEYAASYNEVQELGAFDSTTRTAEQTEIGIFWAYDREGLG 416
+                   ************************************************************************************************* PP
+
+  cdhit_chosen 389 tPlalfndvletvavqegntleenaalfaqasvamadaavvawdtkfseefwrPvtaiqsGdldGnelteGdadwtalGaPdgGddiiGftPqfPty 485
+                   tPla++ndvl tva+qegntleenaalfaqasvamadaa+vawdtkf+eefwrPvtaiqsGdldGn+lteGd+dwtalGaPdgG+d+iGftPqfPty
+      QDS86324 417 TPLAIYNDVLLTVAAQEGNTLEENAALFAQASVAMADAAIVAWDTKFTEEFWRPVTAIQSGDLDGNALTEGDPDWTALGAPDGGEDEIGFTPQFPTY 513
+                   ************************************************************************************************* PP
+
+  cdhit_chosen 486 isGhatfGgalfgtlqefyGtddisfevtseeleilledPelqeayGldlddatrsfdsfseamaenGrsrvylGihfdfddlvGqevGqaiaasva 582
+                   isGhatfGgalfgtlqefyGtddi+fe+tseeleilledPelqeayGldlddatrsf+sfseamaenGrsrvylGihfdfddlvGq+vGqa+aasva
+      QDS86324 514 ISGHATFGGALFGTLQEFYGTDDIAFELTSEELEILLEDPELQEAYGLDLDDATRSFSSFSEAMAENGRSRVYLGIHFDFDDLVGQDVGQAVAASVA 610
+                   ************************************************************************************************* PP
+
+  cdhit_chosen 583 sefsvaadddsdtgakddkdkkgnedsgrdedrsregnaqsssrdelerrkeederlaavdsvladd 649
+                   s f++++ddds+  +  d+d ++n++ g +++         +s+deler+k++++rlaavds++a++
+      QDS86324 611 SAFDTDSDDDSQW-VDFDRDPGTNNQGGGNNN--------GQSQDELERQKSRNSRLAAVDSIFANN 668
+                   *******999933.344455555544444333........344799*******************98 PP
+
+>> WP_009093798  [Rhodopirellula sp. SWK7]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ! 1122.1  29.5         0         0       1     649 [.       1     726 [.       1     728 [] 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 1122.1 bits;  conditional E-value: 0
+  cdhit_chosen   1 marfwnrwigrrksarrke......rkrkstrrrlraenletrqllaanifhnealPedvnedgivtaldaltiinqlnrqeaneaadgesdsdekk 91 
+                   marf++rw++rr+sa +++      rk  strrrlr+e+le+rqllaanifhnea+Pedvnedgivta+daltiinq+n q++n + +ges s+e +
+  WP_009093798   1 MARFLSRWVRRRNSAPQSDqsssknRKLISTRRRLRPETLEVRQLLAANIFHNEAMPEDVNEDGIVTAVDALTIINQIN-QADNIG-EGESGSQE-R 94 
+                   99**********99877655555558889**************************************************.445554.78777655.6 PP
+
+  cdhit_chosen  92 grgrltdvnndgrdsaldalmvinrlnrdedglenredeedtpadkptdeteedetedeedaddaseeesdvvlewndlfgelladseenqnPGyas 188
+                   grgrltdvnndgrdsaldalmvinrlnr +dgl+n  d++dt+ d+p+ e+ + +t+d  ++  a+e++sdvvl+wndlfge+la+s+e+qnPGyas
+  WP_009093798  95 GRGRLTDVNNDGRDSALDALMVINRLNRGDDGLRNPVDDRDTSPDEPNVESPTGSTDD--NDLPAAETDSDVVLQWNDLFGEILASSVEDQNPGYAS 189
+                   9*****************************************************9999..334599******************************* PP
+
+  cdhit_chosen 189 rsmailnlaiydavaiatdgadaetfydydidltessddvsaevaasqaaytvlsslypdqqetldaflesslaalssdeetsdslalGeeigneil 285
+                   rsma+ln+aiyd+v++atdg+da+tfydy+i++++ssd+v+++++asqaaytvls+lypdqqetld+fl+ssla+++s ++tsds+alG+eigneil
+  WP_009093798 190 RSMAMLNIAIYDSVNLATDGDDADTFYDYSIEFRGSSDNVTTDIVASQAAYTVLSGLYPDQQETLDSFLASSLANFRSGDSTSDSIALGTEIGNEIL 286
+                   ************************************************************************************************* PP
+
+  cdhit_chosen 286 alraddGsdvvaeytytdevGsfqadPlnPdvpvwGpawgevdtfaisstdeflPettpaltseeyaasynevkelGsvdsetrtadqteaGifway 382
+                   a+raddG+d++++ytytdevGsfqadPlnP+vpvwGp+wge+dtfaisstde+lPettpaltseeyaasynevkelG++ds++rt+dqteaGifway
+  WP_009093798 287 AVRADDGFDEIVQYTYTDEVGSFQADPLNPNVPVWGPGWGELDTFAISSTDEYLPETTPALTSEEYAASYNEVKELGAADSTVRTEDQTEAGIFWAY 383
+                   ************************************************************************************************* PP
+
+  cdhit_chosen 383 dreGlGtPlalfndvletvavqegntleenaalfaqasvamadaavvawdtkfseefwrPvtaiqsGdldGnelteGdadwtalGaPdgGddiiGft 479
+                   dreGlGtPlal+ndvl+t+avq+gntleenaalfaqasvamadaavvawdtkf+eefwrPvtaiqsGd+dGn lteGda+wtalGaPdgGdd+iGft
+  WP_009093798 384 DREGLGTPLALYNDVLATIAVQQGNTLEENAALFAQASVAMADAAVVAWDTKFTEEFWRPVTAIQSGDIDGNPLTEGDAEWTALGAPDGGDDEIGFT 480
+                   ************************************************************************************************* PP
+
+  cdhit_chosen 480 PqfPtyisGhatfGgalfgtlqefyGtddisfevtseeleilledPelqeayGldlddatrsfdsfseamaenGrsrvylGihfdfddlvGqevGqa 576
+                   PqfPtyisGhatfGgalfgtlq+fyGtddisfe+ts+eleilledPelqeayG++lddatr+f+sfseamaenGrsrvylGihfdfddlvGq vGq+
+  WP_009093798 481 PQFPTYISGHATFGGALFGTLQQFYGTDDISFELTSRELEILLEDPELQEAYGISLDDATRTFSSFSEAMAENGRSRVYLGIHFDFDDLVGQAVGQT 577
+                   ************************************************************************************************* PP
+
+  cdhit_chosen 577 iaasvasefsvaaddds.....dtg..akddkdkkgnedsgrdedrsregna............................................. 621
+                   +aa+vasef++ +d +s     dtg    +d++++gn ++g++++++regn+                                             
+  WP_009093798 578 VAATVASEFAALMDANSgndkgDTGggGFADNNQGGNGNVGNNAGGDREGNErgtnnndsprsttssralatnvldttlddadlalfdqsrttndgn 674
+                   *********6655555555556666778999******************777777778888888888888888888888888889999999999999 PP
+
+  cdhit_chosen 622 ........................qsssrdelerrkeederlaavdsvladd 649
+                                             +++del++r++ derla++ds++a++
+  WP_009093798 675 anapavigsttdrqpdiqspeldsSGVRQDELTSRDSLDERLAMIDSIFAES 726
+                   99999999999999999777776555569********************997 PP
+
+>> WP_099259610  [Rhodopirellula bahusiensis]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ! 1116.2  40.9         0         0       1     652 []       1     672 []       1     672 [] 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 1116.2 bits;  conditional E-value: 0
+  cdhit_chosen   1 marfwnrwigrrksarrkerkrkstrrrlraenletrqllaanifhnealPedvnedgivtaldaltiinqlnrqeaneaadgesdsdekkgrgrlt 97 
+                   m+  wnr+ig++ksar+++++r+strr+lr+e+letr+llaanifhnea+Pedvned++vtaldaltiin++nr++a+ea+d       + grg++t
+  WP_099259610   1 MPLRWNRLIGASKSARSRKQRRQSTRRKLRSESLETRNLLAANIFHNEAMPEDVNEDDQVTALDALTIINRMNREQAGEASD-------DGGRGQRT 90 
+                   7789***********************************************************************9988832.......2389**** PP
+
+  cdhit_chosen  98 dvnndgrdsaldalmvinrlnrdedgle...nredeedtpad.........................kptdeteedetedeedaddaseeesdvvle 166
+                   dvnndgr+saldalmvinrlnr +dg++   +r+d +d++ad                         ++td+t++d+t++ ++ad+a+e ++d+vl+
+  WP_099259610  91 DVNNDGRNSALDALMVINRLNRGQDGQNdqgGRGDGADDDADmesgdsnvgdtdvggtteddsttndSETDDTATDDTTSGDQADSAIELTGDAVLD 187
+                   *************************9984444566677777799********************9999999*********9**************** PP
+
+  cdhit_chosen 167 wndlfgelladseenqnPGyasrsmailnlaiydavaiatdgadaetfydydidltessddvsaevaasqaaytvlsslypdqqetldaflesslaa 263
+                   wn+lf+el+++se+ q+PGyasr+ma+ln+aiyd+vaia++++++ +fydyd+++t+ss dvs+++aas+aa++vlssly+dqq+t+d+f++++l++
+  WP_099259610 188 WNNLFNELTSNSEDFQSPGYASRAMAMLNVAIYDSVAIASGDSEI-AFYDYDSSVTDSSGDVSSQAAASSAAFSVLSSLYSDQQDTIDSFYADVLQT 283
+                   *********************************************.*************************************************** PP
+
+  cdhit_chosen 264 lssdeetsdslalGeeigneilalraddGsdvvaeytytdevGsfqadPlnPdvpvwGpawgevdtfaisstdeflPettpaltseeyaasynevke 360
+                   +s+d+et+++l++Gee+g+++la+raddGsd+++ey+ytdevGsfq+dPlnPdvpvwGp+wg+vdtfais++d+f+Pe++p+ltseeya+synevke
+  WP_099259610 284 YSNDSETEAGLIVGEEVGSTVLANRADDGSDALVEYKYTDEVGSFQSDPLNPDVPVWGPGWGDVDTFAISDVDAFTPESPPDLTSEEYADSYNEVKE 380
+                   ************************************************************************************************* PP
+
+  cdhit_chosen 361 lGsvdsetrtadqteaGifwaydreGlGtPlalfndvletvavqegntleenaalfaqasvamadaavvawdtkfseefwrPvtaiqsGdldGnelt 457
+                   lGsvdsetrtadqteaGifwaydreGlGtPl+lfnd+letvavqegnt+eenaalfaqasvamadaavvaw+tkf+eefwrPvtaiq+Gd+dGn+lt
+  WP_099259610 381 LGSVDSETRTADQTEAGIFWAYDREGLGTPLSLFNDILETVAVQEGNTFEENAALFAQASVAMADAAVVAWTTKFEEEFWRPVTAIQEGDTDGNALT 477
+                   ************************************************************************************************* PP
+
+  cdhit_chosen 458 eGdadwtalGaPdgGddiiGftPqfPtyisGhatfGgalfgtlqefyGtddisfevtseeleilledPelqeayGldlddatrsfdsfseamaenGr 554
+                   eGdadwtalGaPdgGddi+GftPqfPtyisGhatfGgalfgtlqefyGtddisf+v+seeleill+dP+lqeayGldldda+r+fdsfseamaenGr
+  WP_099259610 478 EGDADWTALGAPDGGDDIVGFTPQFPTYISGHATFGGALFGTLQEFYGTDDISFTVASEELEILLDDPDLQEAYGLDLDDAERTFDSFSEAMAENGR 574
+                   ************************************************************************************************* PP
+
+  cdhit_chosen 555 srvylGihfdfddlvGqevGqaiaasvasefsvaadddsdtgakddkdkkgnedsgrdedrsre.gnaqsssrdelerrkeederlaavdsvladdr 650
+                   srvylGihfdfddlvGqevGq+iaasvasef+va+ dds +g + d+dk    d gr++d++r+ + ++sssrd+++rr++ederlaa+d+v++++r
+  WP_099259610 575 SRVYLGIHFDFDDLVGQEVGQSIAASVASEFAVATPDDS-SGEEIDDDKLATMDDGRNSDGNRGnTGNDSSSRDDMNRRSDEDERLAAIDQVFSQNR 670
+                   ***************************************.555666677777777888877776323468889**********************98 PP
+
+  cdhit_chosen 651 ll 652
+                   l+
+  WP_099259610 671 LI 672
+                   75 PP
+
+>> V-CPO_Q7UVW2  [Rhodopirellula baltica]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ! 1115.1  32.3         0         0       1     652 []      26     706 .]      26     706 .] 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 1115.1 bits;  conditional E-value: 0
+  cdhit_chosen   1 marfwnrwigrrksarrkerkrkstrrrlraenletrqllaanifhnealPedvnedgivtaldaltiinqlnrqeaneaadgesdsdekkgrgrlt 97 
+                   m+  wnrwig++ksar+++++rkstrr+l++enletr+llaan+fhnea+Pedvned++vtaldaltiin++nr++a+e+  g    d   +rg++t
+  V-CPO_Q7UVW2  26 MPLSWNRWIGTSKSARSRKQQRKSTRRKLMSENLETRNLLAANLFHNEAMPEDVNEDDQVTALDALTIINRMNREQAGES-AG----D--VRRGQMT 115
+                   7889***********************************************************************98887.33....2..368**** PP
+
+  cdhit_chosen  98 dvnndgrdsaldalmvinrlnrdedgle.....nredeedtpad............kptdeteedetedee..daddaseeesdvvlewndlfgell 175
+                   dvnndgr+saldalmvinrlnrd++g +     ++++ +++++d            ++ d+ ++d t++ +  dad+a+e ++d+vl+wn+lf+el+
+  V-CPO_Q7UVW2 116 DVNNDGRNSALDALMVINRLNRDQGGPRdsgspDAGSGNQDQTDsetsgdnsdvegTNGDDPSTDGTTSGDqtDADSAIELTGDAVLDWNNLFNELT 212
+                   *************************9985666644455555555778888999988888888888777655447788******************** PP
+
+  cdhit_chosen 176 adseenqnPGyasrsmailnlaiydavaiatdgadaetfydydidltessddvsaevaasqaaytvlsslypdqqetldaflesslaalssdeetsd 272
+                   ++se+ qnPGyasr+ma+ln+aiyd+vaia++++++ +fy+yd++lt+ss dvs+++aas+aay+vlssly+dqqet+d+f+ ++la++s+d et++
+  V-CPO_Q7UVW2 213 SNSEDYQNPGYASRAMAMLNVAIYDSVAIASGDSEI-AFYEYDSSLTNSSGDVSSQAAASSAAYSVLSSLYSDQQETIDSFYGDVLATYSQDPETEA 308
+                   ************************************.************************************************************ PP
+
+  cdhit_chosen 273 slalGeeigneilalraddGsdvvaeytytdevGsfqadPlnPdvpvwGpawgevdtfaisstdeflPettpaltseeyaasynevkelGsvdsetr 369
+                   +l+lG+e++++++a+ra+dGsd+v+eytytde+Gsf++dPlnPdvpvwGp+wg+vdtfais++d+f+Pe++p+ltseeyaasynevkelG+vds+tr
+  V-CPO_Q7UVW2 309 GLILGAEVNSTVIANRANDGSDSVVEYTYTDEIGSFHSDPLNPDVPVWGPGWGDVDTFAISDADAFTPESPPDLTSEEYAASYNEVKELGAVDSTTR 405
+                   ************************************************************************************************* PP
+
+  cdhit_chosen 370 tadqteaGifwaydreGlGtPlalfndvletvavqegntleenaalfaqasvamadaavvawdtkfseefwrPvtaiqsGdldGnelteGdadwtal 466
+                   tadqteaGifwaydr+GlGtPl+lfnd+letvavqegnt+eenaalfaqasvamada+vvaw+tkf+ee+wrPvtaiq+Gd+dGn+lteGdadwtal
+  V-CPO_Q7UVW2 406 TADQTEAGIFWAYDRDGLGTPLTLFNDILETVAVQEGNTFEENAALFAQASVAMADAGVVAWTTKFGEELWRPVTAIQEGDFDGNTLTEGDADWTAL 502
+                   ************************************************************************************************* PP
+
+  cdhit_chosen 467 GaPdgGddiiGftPqfPtyisGhatfGgalfgtlqefyGtddisfevtseeleilledPelqeayGldlddatrsfdsfseamaenGrsrvylGihf 563
+                   GaPdgGddi+GftPqfPtyisGhatfGgalfgtlqefyGtddisf+v+seeleill++PelqeayGl+ldda+r+f+sfseamaenGrsrvylGihf
+  V-CPO_Q7UVW2 503 GAPDGGDDIVGFTPQFPTYISGHATFGGALFGTLQEFYGTDDISFTVASEELEILLDNPELQEAYGLNLDDAERTFSSFSEAMAENGRSRVYLGIHF 599
+                   ************************************************************************************************* PP
+
+  cdhit_chosen 564 dfddlvGqevGqaiaasvasefsvaaddds......dtg..akddkdkkgned.sgrdedrsre.........gnaqsssrdelerrkeederlaav 642
+                   dfddlvGqevGq+iaa+vasefsva+ +d+      d+g  a++d+d++ n+d ++ +++r+re          ++q+ssrde++rr+e+d+r+aa+
+  V-CPO_Q7UVW2 600 DFDDLVGQEVGQSIAAAVASEFSVATPEDDstgkgvDDGqlATMDRDDQPNRDgVDGSRQRNREpvardttqvPQQQTSSRDESNRRSEDDQRIAAI 696
+                   *************************9977669999955557888888888887677788888887766655554559999***************** PP
+
+  cdhit_chosen 643 dsvladdrll 652
+                   d+++a++rl+
+  V-CPO_Q7UVW2 697 DQIFAENRLI 706
+                   *******875 PP
+
+>> WP_283430655  [Neorhodopirellula lusitana]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ! 1111.3  32.9         0         0       1     649 [.       1     711 [.       1     716 [. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 1111.3 bits;  conditional E-value: 0
+  cdhit_chosen   1 marfwnrwigrrksarrke.rkrkstrrrlraenletrqllaanifhnealPedvnedgivtaldaltiinqlnrqeaneaadgesdsdekkgrgrl 96 
+                   marfwn wigrr+ arrk+ +kr+s+rrr+r+enletrqllaanifhnea+Pedvnedgiv+a+dalti+nq+nrq  n+ +++++d+d+++g+gr+
+  WP_283430655   1 MARFWNLWIGRRTPARRKNlTKRTSLRRRPRPENLETRQLLAANIFHNEAMPEDVNEDGIVSAIDALTIVNQINRQGINDPTQADDDGDQQRGQGRM 97 
+                   99*****************99**************************************************************************** PP
+
+  cdhit_chosen  97 tdvnndgrdsaldalmvinrlnrdedglenredeed.tpadkptdeteedetedeedaddaseeesdvvlewndlfgelladseenqnPGyasrsma 192
+                   tdvnndgrdsaldalmvinrlnrde++++  + ++d t++d+++d +   +     ++   +e+++d+vl wnd+fg++la+s+enqnPGyasrs+a
+  WP_283430655  98 TDVNNDGRDSALDALMVINRLNRDEGRFDTPSVDRDdTSSDNDSDSNIPTD-----QDPVGTEQDADAVLLWNDVFGDVLAASTENQNPGYASRSNA 189
+                   **************************9986544433033333333222221.....2345899********************************** PP
+
+  cdhit_chosen 193 ilnlaiydavaiatdgadaetfydydidltessddvsaevaasqaaytvlsslypdqqetldaflesslaalssdeetsdslalGeeigneilalra 289
+                   ilnlai+d+vaia+++ad+ tfydyd+++t+ +++vs+ev+a+ aayt+ls+lypdqq++lda+le+slaalss+e+ s+slalGee++n+ilalr+
+  WP_283430655 190 ILNLAIFDSVAIASGNADG-TFYDYDSNITNFNANVSSEVVATGAAYTALSELYPDQQAQLDAALEDSLAALSSREDPSTSLALGEEVANQILALRV 285
+                   *******************.***************************************************************************** PP
+
+  cdhit_chosen 290 ddGsdvvaeytytdevGsfqadPlnPdvpvwGpawgevdtfaisstdeflPettpaltseeyaasynevkelGsvdsetrtadqteaGifwaydreG 386
+                   ddGsd+v+eytytde+G+fqadPlnPdvp+wG +wgevdtfaisstdef+Pettp+ltse+ya+synev+elGsvds++rtadqteaGifwaydreG
+  WP_283430655 286 DDGSDIVGEYTYTDEIGYFQADPLNPDVPAWGLTWGEVDTFAISSTDEFIPETTPTLTSEAYAESYNEVLELGSVDSTERTADQTEAGIFWAYDREG 382
+                   ************************************************************************************************* PP
+
+  cdhit_chosen 387 lGtPlalfndvletvavqegntleenaalfaqasvamadaavvawdtkfseefwrPvtaiqsGdldGnelteGdadwtalGaPdgGddiiGftPqfP 483
+                   lGtPlalf dvle+va+qegnt+een+alfaqasvamadaa+vawdtkfseefwrP+taiq+Gd+dGn+lteGdadwt+lGaPdgGddiiGftPqfP
+  WP_283430655 383 LGTPLALFGDVLESVATQEGNTFEENVALFAQASVAMADAAIVAWDTKFSEEFWRPITAIQQGDADGNDLTEGDADWTSLGAPDGGDDIIGFTPQFP 479
+                   ************************************************************************************************* PP
+
+  cdhit_chosen 484 tyisGhatfGgalfgtlqefyGtddisfevtseeleilledPelqeayGldlddatrsfdsfseamaenGrsrvylGihfdfddlvGqevGqaiaas 580
+                   tyisGhatfGgalfgtlqefyGtddisf+vtseeleilledPelqeayGldlddatrsfdsfseamaenGrsrvylGihfdfddlvGqevGqaiaas
+  WP_283430655 480 TYISGHATFGGALFGTLQEFYGTDDISFDVTSEELEILLEDPELQEAYGLDLDDATRSFDSFSEAMAENGRSRVYLGIHFDFDDLVGQEVGQAIAAS 576
+                   ************************************************************************************************* PP
+
+  cdhit_chosen 581 vasefsvaad.dds...............................dtg..akddkdkkgnedsgrdedrsregna...................... 621
+                   va++f++ ++  ds                               d +  a+d+ d+ gn+++++d+drs+++++                      
+  WP_283430655 577 VAEDFAALNSdTDSsdstftvsgtvvaatesvdrqdfssnlvsdlDVNllAQDQVDRLGNNQPNQDRDRSNDNRDgdptegiegvtvelldslgnpv 673
+                   *****6544303446889*************************886667799999**********99999994445556666666666666666667 PP
+
+  cdhit_chosen 622 .qsss.......rdelerrkeederlaavd..svladd 649
+                    q+++        d+++++ +++ ++aa+d  ++++dd
+  WP_283430655 674 aQTTTdangrytFDSISDAGAYQIQIAASDqwTIIGDD 711
+                   7333345556669*****************66688887 PP
+
+>> WP_146517133  [Rubripirellula amarantea]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ! 1084.8  28.5         0         0       1     649 [.       1     733 [.       1     738 [. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 1084.8 bits;  conditional E-value: 0
+  cdhit_chosen   1 marfwnrwigrrksarrkerkrkstrrrlraenletrqllaanifhnealPedvnedgivtaldaltiinqlnrqeaneaadgesdsdekk.grgrl 96 
+                   ma+fwnrwi+ r+++rrk+ kr s+rrr+ aenletrqllaanifhne+lPedvnedg+v+aldaltiinq+nrq+an +++g +++++ + ++gr+
+  WP_146517133   1 MATFWNRWIN-RTRSRRKNVKRPSQRRRALAENLETRQLLAANIFHNELLPEDVNEDGVVSALDALTIINQMNRQSANGSGQGVQSGNDFNrEPGRM 96 
+                   89*******9.688999***********************************************************************99989**** PP
+
+  cdhit_chosen  97 tdvnndgrdsaldalmvinrlnrdedgle....nredeedtpad......kptdeteedetedee.............dadd..aseeesdvvlewn 168
+                   tdvnndgrdsaldal+vinrl+r++++++    n ++ ++tp+d       ++d t++++t+d+e               +d  +se++sd vl wn
+  WP_146517133  97 TDVNNDGRDSALDALLVINRLSREQERFDplsrNPGNPNETPTDeqptddLNSDATTTEDTTDDEletddsvtvgnptA-EDtpVSEASSDPVLFWN 192
+                   ****************************999997777788887776666755566666666665577777899999953.44479************ PP
+
+  cdhit_chosen 169 dlfgelladseenqnPGyasrsmailnlaiydavaiatdgadaetfydydidltessddvsaevaasqaaytvlsslypdqqetldaflesslaals 265
+                   d+fg +l ds enqnPGyasrs+ailnlai+d+vaia++++++ tfydyd+d+++++dd+sae++a++aayt+ls+lypdqq++ld+++e+sl+ +s
+  WP_146517133 193 DVFGAVLGDSLENQNPGYASRSAAILNLAIFDSVAIASGNTEG-TFYDYDSDIVNATDDLSAEAVATAAAYTALSGLYPDQQAQLDDAFEQSLTVFS 288
+                   ******************************************9.***************************************************** PP
+
+  cdhit_chosen 266 sdeetsdslalGeeigneilalraddGsdvvaeytytdevGsfqadPlnPdvpvwGpawgevdtfaisstdeflPettpaltseeyaasynevkelG 362
+                   s++++s+sl lGeei+neilalr+ddGsd ++eytytdevG+fq+dPlnPdvp+wG+aw++vdtf+isst+ f+P+ttpalts+eyaasynev++lG
+  WP_146517133 289 SSDDLSASLLLGEEIANEILALRVDDGSDLTSEYTYTDEVGYFQPDPLNPDVPAWGTAWRDVDTFSISSTEPFVPDTTPALTSDEYAASYNEVLALG 385
+                   ************************************************************************************************* PP
+
+  cdhit_chosen 363 svdsetrtadqteaGifwaydreGlGtPlalfndvletvavqegntleenaalfaqasvamadaavvawdtkfseefwrPvtaiqsGdldGnelteG 459
+                   svds++rta++te+GifwaydreGlGtP+al++dvle+va+qegnt+een+alfaqasvamadaa+vaw+tkfseefwrP+taiq+Gd dGn lteG
+  WP_146517133 386 SVDSTERTAEETEIGIFWAYDREGLGTPIALYTDVLESVATQEGNTFEENVALFAQASVAMADAAIVAWETKFSEEFWRPITAIQQGDDDGNPLTEG 482
+                   ************************************************************************************************* PP
+
+  cdhit_chosen 460 dadwtalGaPdgGddiiGftPqfPtyisGhatfGgalfgtlqefyGtddisfevtseeleilledPelqeayGldlddatrsfdsfseamaenGrsr 556
+                   d++wtalGaPdgGddi+GftPqfPtyisGhatfGgalfgtlq+fyGtddisfevtseele+ll++Pelq+ayGldlddatr+fdsfseamaenGrsr
+  WP_146517133 483 DTQWTALGAPDGGDDIVGFTPQFPTYISGHATFGGALFGTLQDFYGTDDISFEVTSEELEVLLDNPELQDAYGLDLDDATRTFDSFSEAMAENGRSR 579
+                   ************************************************************************************************* PP
+
+  cdhit_chosen 557 vylGihfdfddlvGqevGqaiaasvasef....svaaddds...............................dtg..akddkdkkgnedsgrdedrs 616
+                   vylGihfdfddlvGqevGq+iaasva++f    ++++++ds                               d +  a+d+++ +g++++++d++r 
+  WP_146517133 580 VYLGIHFDFDDLVGQEVGQTIAASVAADFdaltEISDTSDSgetsfvvsgtvvdatdsdewpsnprsiisdhDLTllAMDQSNLRGDQHPAADNGRL 676
+                   *****************************66554555555599***************************66544779999***************9 PP
+
+  cdhit_chosen 617 re.............gna.....qsss.......rdelerrkeederlaavd..svladd 649
+                   +e             g +        +        d+++++ ++++++++++  +vl+dd
+  WP_146517133 677 DEgvsgvtvelldstG-NvvaetV--TddrgryvFDSIADAGAYQAHIVVAElwMVLGDD 733
+                   9955555555555442.0455331..2445556799999999999999998877788887 PP
+
+>> WP_289164516  [Roseiconus lacunae]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ! 1080.1  25.7         0         0       1     621 [.       1     609 [.       1     621 [. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 1080.1 bits;  conditional E-value: 0
+  cdhit_chosen   1 marfwnrwigrrksarrkerkrkstrrrlraenletrqllaanifhnealPedvnedgivtaldaltiinqlnrqeanea.adgesdsdekkgrgrl 96 
+                   m r++ +w++r+++++r  r++  trr+lrae+l++rqllaanifhne++Pedvnedg+v+a+dalt+inql+ qe++++ +dg++d d++  rgr+
+  WP_289164516   1 MLRYLLEWMRRSENVKRI-RRKPGTRRCLRAETLDKRQLLAANIFHNESMPEDVNEDGVVSAIDALTVINQLSLQEQGSErSDGDTDLDAM--RGRR 94 
+                   789999********9998.8999******************************************************99978998888765..8*** PP
+
+  cdhit_chosen  97 tdvnndgrdsaldalmvinrlnrdedglenredeedtpadkptdeteedetedeedaddaseeesdvvlewndlfgelladseenqnPGyasrsmai 193
+                   tdvn+dgr+sa+dalmvinrl+rd+dg   + +  ++pad+++ +++  +++ e+++dd+s+ee+dvvlewnd+fge+lads+enqnPGyasrs+ai
+  WP_289164516  95 TDVNDDGRSSAMDALMVINRLHRDRDG---NRPVVERPADENQADEKPADENVESETDDVSDEETDVVLEWNDVFGEILADSTENQNPGYASRSQAI 188
+                   **************************6...34778888887766666555555578899************************************** PP
+
+  cdhit_chosen 194 lnlaiydavaiatdgadaetfydydidltessddvsaevaasqaaytvlsslypdqqetldaflesslaalssdeetsdslalGeeigneilalrad 290
+                   lnlaiydavaiat+ga+aetfydy+id+t+ +++++++vaa+qaaytvlsslypdqq++ld++l+s+l++++++ ++sds+alG+ ++neilalra+
+  WP_289164516 189 LNLAIYDAVAIATAGASAETFYDYAIDFTG-AESLDTDVAAAQAAYTVLSSLYPDQQASLDMALQSNLSGAAENGNVSDSVALGTAVANEILALRAE 284
+                   ******************************.9***************************************************************** PP
+
+  cdhit_chosen 291 dGsdvvaeytytdevGsfqadPlnPdvpvwGpawgevdtfaisstdeflPettpaltseeyaasynevkelGsvdsetrtadqteaGifwaydreGl 387
+                   dG+d+ aeytytdevG+fq+dPl+PdvpvwGpawgevdtfai+++ +flPe tp l+se+ya+synev+elG++ds++rt +qte+Gifwaydr+Gl
+  WP_289164516 285 DGFDAAAEYTYTDEVGYFQPDPLTPDVPVWGPAWGEVDTFAIDDSGDFLPEPTPGLDSEQYAQSYNEVLELGAADSDVRTPEQTEIGIFWAYDRVGL 381
+                   ************************************************************************************************* PP
+
+  cdhit_chosen 388 GtPlalfndvletvavqegntleenaalfaqasvamadaavvawdtkfseefwrPvtaiqsGdldGnelteGdadwtalGaPdgGddiiGftPqfPt 484
+                   GtP+alfnd+l+tva++++ntleenaalfaqasvamada+vvawdtkf+e+fwrPvtaiq+Gd+dGnelteGdadw+alGaPdgGdd+iGftPqfPt
+  WP_289164516 382 GTPIALFNDILQTVAIEQDNTLEENAALFAQASVAMADAGVVAWDTKFTEQFWRPVTAIQAGDADGNELTEGDADWVALGAPDGGDDEIGFTPQFPT 478
+                   ************************************************************************************************* PP
+
+  cdhit_chosen 485 yisGhatfGgalfgtlqefyGtddisfevtseeleilledPelqeayGldlddatrsfdsfseamaenGrsrvylGihfdfddlvGqevGqaiaasv 581
+                   yisGhatfG+alfgtlqefyGtd+i+fevts+eleill dPelqeayGldlddatrsf+sfseam+enGrsr+ylGihfdfdd+vGqevGqaiaasv
+  WP_289164516 479 YISGHATFGAALFGTLQEFYGTDEIAFEVTSQELEILLADPELQEAYGLDLDDATRSFSSFSEAMQENGRSRIYLGIHFDFDDTVGQEVGQAIAASV 575
+                   ************************************************************************************************* PP
+
+  cdhit_chosen 582 asefsvaadddsdtgakddkdkkgnedsgrdedrsregna 621
+                   asef+va dd ++ +     + +gn++sgr+++r+r+ n+
+  WP_289164516 576 ASEFTVAFDDGNNRD-----KITGNDRSGRHSGRDRD-ND 609
+                   ********9999444.....45555555555555555.22 PP
+
+>> WP_182867963  [Stieleria mannarensis]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ! 1077.4  27.4         0         0      20     620 ..       3     600 ..       1     613 [. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 1077.4 bits;  conditional E-value: 0
+  cdhit_chosen  20 rkrkstrrrlraenletrqllaanifhnealPedvnedgivtaldaltiinqlnrqeanea.adgesdsdekk.grgrltdvnndgrdsaldalmvi 114
+                   +kr++trrrlr+e+le+rqllaan+fhne++Pedvn+dg+v+a dalt+in+++rq+++ + adg+s++++++ g+gr+tdvnndgrdsaldalmvi
+  WP_182867963   3 QKRSKTRRRLRTESLESRQLLAANLFHNELMPEDVNQDGQVSARDALTVINEMSRQTQGPGtADGRSNQQSDQrGPGRMTDVNNDGRDSALDALMVI 99 
+                   79*********************************************************998999999988877*********************** PP
+
+  cdhit_chosen 115 nrlnrdedglenredeedtpadkptdeteedetedeedaddaseeesdvvlewndlfgellad.seenqnPGyasrsmailnlaiydavaiatdgad 210
+                   nrl rd+++l+nr++++dtp+  ptdet++ ++++  d d++s+e+sdvvl+wndlfge+lad +++ qnPGyasrsma+lnlaiydav iatdgad
+  WP_182867963 100 NRLGRDNANLGNRNPDSDTPTGLPTDETDQPNDDE--DVDTVSDESSDVVLAWNDLFGEILADaEATLQNPGYASRSMAMLNLAIYDAVGIATDGAD 194
+                   ****************************9999988..899**********************978899***************************** PP
+
+  cdhit_chosen 211 aetfydydidltessddvsaevaasqaaytvlsslypdqqetldaflesslaalssdeetsdslalGeeigneilalraddGsdvvaeytytdevGs 307
+                   aetfydy+id  + ++++saevaa+qaaytvls+lyp qqetldaflessla+ +sd++t++s +lG+eig++ila+ra+dGsdv+++y+ytde+G+
+  WP_182867963 195 AETFYDYAIDSGG-NANLSAEVAAAQAAYTVLSGLYPAQQETLDAFLESSLAGSESDRSTDASRTLGSEIGSTILAIRANDGSDVIGQYQYTDEAGY 290
+                   ***********99.9********************************************************************************** PP
+
+  cdhit_chosen 308 fqadPlnPdvpvwGpawgevdtfaisstdeflPettpaltseeyaasynevkelGsvdsetrtadqteaGifwaydreGlGtPlalfndvletvavq 404
+                   fq+dPl+Pdvp+wGpawgevdtfai+st++flP ++++ltse ya++ynev+elGsvdse+rt+dqteaG+fwaydr+GlGtPlalfndvl ++a+q
+  WP_182867963 291 FQPDPLSPDVPAWGPAWGEVDTFAIDSTEAFLPASPTDLTSEVYADAYNEVLELGSVDSEVRTDDQTEAGLFWAYDRVGLGTPLALFNDVLIQIAEQ 387
+                   ************************************************************************************************* PP
+
+  cdhit_chosen 405 egntleenaalfaqasvamadaavvawdtkfseefwrPvtaiqsGdldGnelteGdadwtalGaPdgGddiiGftPqfPtyisGhatfGgalfgtlq 501
+                   +gn++eenaalfaqasvamada++vawdtkf+eefwrPvtai++Gd+dGnelteGd dwtalGaP+ G+d++GftPqfPtyisGhatfG+alf+tlq
+  WP_182867963 388 QGNSMEENAALFAQASVAMADAGIVAWDTKFGEEFWRPVTAIRAGDTDGNELTEGDGDWTALGAPN-GKDLTGFTPQFPTYISGHATFGAALFATLQ 483
+                   ******************************************************************.9***************************** PP
+
+  cdhit_chosen 502 efyGtddisfevtseeleilledPelqeayGldlddatrsfdsfseamaenGrsrvylGihfdfddlvGqevGqaiaasvasefsvaadddsdtgak 598
+                   efyGtddi+fe+ts+ele+lle+Pelq+ayG+dlddatrsf+sfseamaenGrsrvylGihf+fdd+vGqevG+aiaasv++efsva +dd+ tg+k
+  WP_182867963 484 EFYGTDDIAFELTSDELEYLLENPELQAAYGIDLDDATRSFSSFSEAMAENGRSRVYLGIHFNFDDTVGQEVGSAIAASVTDEFSVAVSDDA-TGTK 579
+                   *******************************************************************************************9.8999 PP
+
+  cdhit_chosen 599 ddkdkkgnedsgrdedrsregn 620
+                   dd++k+gn  +++d +r+r+ n
+  WP_182867963 580 DDSQKSGNGGRQQDGNRDRS-N 600
+                   99999999866665555554.2 PP
+
+>> WP_146575939  [Neorhodopirellula pilleata]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   91.9   1.1   2.9e-29   3.5e-29       1      66 [.       1      67 [.       1      67 [. 0.99
+   2 !  956.5  28.1  6.4e-291  7.6e-291     105     628 ..      61     582 ..      59     589 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 91.9 bits;  conditional E-value: 2.9e-29
+  cdhit_chosen  1 marfwnrwigrrksarrke.rkrkstrrrlraenletrqllaanifhnealPedvnedgivtaldal 66
+                  marfwnrwi+r++s+rrke +krks+rrr++aenletrqllaanifhnea+Pedvne g++taldal
+  WP_146575939  1 MARFWNRWIARQTSSRRKEfNKRKSLRRRPQAENLETRQLLAANIFHNEAMPEDVNEGGHITALDAL 67
+                  99****************999********************************************98 PP
+
+  == domain 2  score: 956.5 bits;  conditional E-value: 6.4e-291
+  cdhit_chosen 105 dsaldalmvinrlnrdedglenredeedtpadkptdeteedetedeedaddaseeesdvvlewndlfgellad.seenqnPGyasrsmailnlaiyd 200
+                    +aldalmvinrlnrd+++l+nr++  d+p+d+ptdete+++t+++ d+dd+s e+sdvvl+wn+lfge+lad ++ +qnPGyasrs+ailnlaiyd
+  WP_146575939  61 ITALDALMVINRLNRDRGNLGNRDPGIDNPVDQPTDETEDQNTDETIDNDDVSAESSDVVLAWNELFGEVLADaESFQQNPGYASRSQAILNLAIYD 157
+                   58**********************************************************************977889******************* PP
+
+  cdhit_chosen 201 avaiatdgadaetfydydidltessddvsaevaasqaaytvlsslypdqqetldaflesslaalssdeetsdslalGeeigneilalraddGsdvva 297
+                   av iatdg+da+tfydy idl++ + ++sae+aas+aaytvls+lyp+qq+tldaf+++s+++++sd+ t++s++lG++ign+ila+ra+dG+dv++
+  WP_146575939 158 AVGIATDGTDANTFYDYPIDLSG-NVELSAEIAASEAAYTVLSGLYPEQQATLDAFRAQSISGTASDRVTDASMTLGSDIGNTILAIRANDGFDVMG 253
+                   ***********************.9************************************************************************ PP
+
+  cdhit_chosen 298 eytytdevGsfqadPlnPdvpvwGpawgevdtfaisstdeflPettpaltseeyaasynevkelGsvdsetrtadqteaGifwaydreGlGtPlalf 394
+                   ey+y+de+G+fq+dPlnPdvp+wGpawg+vd fai+s+def+Pettp+ltse+ya+synev+elGsvdsetrtadqteaG+fwaydreGlGtP+alf
+  WP_146575939 254 EYEYSDELGTFQPDPLNPDVPAWGPAWGDVDLFAINSVDEFSPETTPELTSEQYAESYNEVLELGSVDSETRTADQTEAGLFWAYDREGLGTPIALF 350
+                   ************************************************************************************************* PP
+
+  cdhit_chosen 395 ndvletvavqegntleenaalfaqasvamadaavvawdtkfseefwrPvtaiqsGdldGnelteGdadwtalGaPdgGddiiGftPqfPtyisGhat 491
+                   ndvl ++a+q+gn+leenaalfaqasvamadaa+vawdtkf+e+fwrPvtai+sGd+dGn+ teGdadw+alGaP+ G+d++GftPqfPtyisGhat
+  WP_146575939 351 NDVLIQIAEQQGNSLEENAALFAQASVAMADAAIVAWDTKFGEDFWRPVTAIHSGDIDGNDATEGDADWVALGAPN-GEDLTGFTPQFPTYISGHAT 446
+                   ****************************************************************************.9******************* PP
+
+  cdhit_chosen 492 fGgalfgtlqefyGtddisfevtseeleilledPelqeayGldlddatrsfdsfseamaenGrsrvylGihfdfddlvGqevGqaiaasvasefsva 588
+                   fGgalfgtlqefyGtddisfe++seel+ ll++PelqeayG++lddatrsfdsfseamaenGrsrvylGihfdfdd+vGqevG+aiaasvas+f+va
+  WP_146575939 447 FGGALFGTLQEFYGTDDISFELASEELKGLLDNPELQEAYGIELDDATRSFDSFSEAMAENGRSRVYLGIHFDFDDTVGQEVGAAIAASVASDFAVA 543
+                   ************************************************************************************************* PP
+
+  cdhit_chosen 589 adddsdtgakddkdkkgnedsgrdedrsregnaqsssrde 628
+                   a+dd+ t++++d+++++n+d+gr++++sr++n++ +s d+
+  WP_146575939 544 ATDDT-TRTENDRQRNQNDDRGRNNNNSRGSNDRFASVDS 582
+                   ****9.8889********************9997766554 PP
+
+>> MEM9369193  [Planctomycetota bacterium]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ! 1009.2  12.6    7e-307  8.4e-307      29     596 ..       1     562 [.       1     599 [. 0.94
+   2 ?   -4.5   0.4       4.4       5.2     594     627 ..     647     680 ..     630     683 .. 0.58
+
+  Alignments for each domain:
+  == domain 1  score: 1009.2 bits;  conditional E-value: 7e-307
+  cdhit_chosen  29 lraenletrqllaanifhnealPedvnedgivtaldaltiinqlnrqeaneaadgesdsdekkgrgrltdvnndgrdsaldalmvinrlnrdedgle 125
+                   +r+e+le+r+l+aa+ fhnea+Pedv+edg+vtaldalt+inq+n+q      +g++ +  ++grgr+tdvnndgrdsa+d+lm+inrlnr+e+  +
+    MEM9369193   1 MRSERLEVRNLMAAHPFHNEAIPEDVTEDGQVTALDALTVINQINNQ------RGDQVG--ARGRGRMTDVNNDGRDSAVDVLMIINRLNRNEGPGQ 89 
+                   699******************************************88......344444..569****************************98544 PP
+
+  cdhit_chosen 126 .nredeedtpad......kptdeteedetedeedaddaseeesdvvlewndlfgelladseenqnPGyasrsmailnlaiydavaiatdgadaetfy 215
+                    n++ +e+ p++      +p+de+ ed++e+e     +++++sd+v++wn+lf+ell+++ee+qnPGyasr+ma+lnlaiydav+i tdg+ a+tfy
+    MEM9369193  90 aNDGLNEEGPRNdnvengRPRDERGEDANENE---RGERQQQSDLVIQWNNLFNELLVADEEQQNPGYASRAMAMLNLAIYDAVTI-TDGDVADTFY 182
+                   47777777777644434455555555555552...33899**********************************************.9999****** PP
+
+  cdhit_chosen 216 dydidltessddvsaevaasqaaytvlsslypdqqetldaflesslaalssdeetsdslalGeeigneilalraddGsdvvaeytytdevGsfqadP 312
+                   +yd++  +  d +++++a+sqaaytvlssly+ qq+++d+f+++++++++    t+d+++lG+eig++ila+ra+dG+d+v++yty+de Gsfq+dP
+    MEM9369193 183 EYDLSGLT-GDPIRTDAAVSQAAYTVLSSLYSGQQDMIDQFRDRVFRRIEPGPGTADGVELGNEIGSTILAERANDGHDTVGDYTYSDEPGSFQPDP 278
+                   *****999.9*************************************************************************************** PP
+
+  cdhit_chosen 313 lnPdvpvwGpawgevdtfaisstdeflPettpaltseeyaasynevkelGsvdsetrtadqteaGifwaydreGlGtPlalfndvletvavqegntl 409
+                   lnPdvpvwGpaw+evd f++ss+++++P+ttp l+s+eyaasynevkelGsvdsetrtadqteaGifwaydr+GlGtP++lf+d +e++a+q+gn+l
+    MEM9369193 279 LNPDVPVWGPAWSEVDPFVVSSAEDYAPQTTPPLDSAEYAASYNEVKELGSVDSETRTADQTEAGIFWAYDRVGLGTPMSLFSDAIEAIATQQGNSL 375
+                   ************************************************************************************************* PP
+
+  cdhit_chosen 410 eenaalfaqasvamadaavvawdtkfseefwrPvtaiqsGdldGnelteGdadwtalGaPdgGddiiGftPqfPtyisGhatfGgalfgtlqefyGt 506
+                   +enaalfaqasvamada+vvaw+tkfse+fwrPvtaiqsGdldGn+lteGd++wtalGaPdgGddiiGftPqfPtyisGhatfGga+fg+++efyGt
+    MEM9369193 376 QENAALFAQASVAMADAGVVAWHTKFSEQFWRPVTAIQSGDLDGNDLTEGDPEWTALGAPDGGDDIIGFTPQFPTYISGHATFGGAVFGAIREFYGT 472
+                   ************************************************************************************************* PP
+
+  cdhit_chosen 507 ddisfevtseeleilledPelqeayGldlddatrsfdsfseamaenGrsrvylGihfdfddlvGqevGqaiaasvasefsvaadddsdtg 596
+                   ddisfe++s+eleil+++Pelq+ayGldlddatrsf s++eamaenGrsrvylGihfdfdd+vGq+vGqa+a++vasef+vaa+d+ + g
+    MEM9369193 473 DDISFELESKELEILMDNPELQAAYGLDLDDATRSFGSLTEAMAENGRSRVYLGIHFDFDDTVGQDVGQAVASTVASEFVVAANDNGEPG 562
+                   ************************************************************************************999444 PP
+
+  == domain 2  score: -4.5 bits;  conditional E-value: 4.4
+  cdhit_chosen 594 dtgakddkdkkgnedsgrdedrsregnaqsssrd 627
+                   d  a ++  ++++ +++r++dr ++gna +++ d
+    MEM9369193 647 DLIAREQAGRREEGRPERNRDRPDRGNAAANDDD 680
+                   3335555555666666677777666666555444 PP
+
+>> NapH4  [Streptomyces sp. CNQ-525]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   16.8   0.2   1.6e-06   1.9e-06     417     515 ..     223     322 ..     203     365 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 16.8 bits;  conditional E-value: 1.6e-06
+  cdhit_chosen 417 aqasvamadaavvawdtkfseefwrPvtaiqsGdldGnelteGdadwtalGaPdg..GddiiGftP..qfPtyisGhatfGgalfgtlqefyGtddi 509
+                    q  +a  d+ + aw  k + e  rP+ta+++  + Gn         + +G+ d    ++  G+ P    P y sG +t G+a   + + f+ +dd+
+         NapH4 223 LQHILATFDTLIAAWGYKRKYEAVRPITAVRH--VYGNRKIRAWG-GVGMGTVDDipANEWAGYLPvgDHPEYPSGSTTVGSAASQAARRFFDSDDL 316
+                   57778999**********************97..67887665322.2444554432257889**996669*************************** PP
+
+  cdhit_chosen 510 sfevts 515
+                    +e   
+         NapH4 317 NWEFDF 322
+                   988764 PP
+
+>> Mcl24  [Streptomyces sp. CNH189]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    3.7   0.0     0.015     0.018     228     298 ..     127     198 ..     119     217 .. 0.85
+   2 !   10.9   0.3    0.0001   0.00012     409     564 ..     337     487 ..     326     497 .. 0.75
+
+  Alignments for each domain:
+  == domain 1  score: 3.7 bits;  conditional E-value: 0.015
+  cdhit_chosen 228 vsaevaasqaaytvlsslypdqqetlda.flesslaalssdeetsdslalGeeigneilalraddGsdvvae 298
+                    + ++a   aa  vl +++ ++   + a f +  l   + +e+  + + +G+  g+ ++  ra+dG++ +++
+         Mcl24 127 RNKNIAGLYAALRVLEGVFEERVPVMRAgFTAAGLDPDDRSEDPTTPIGIGNIAGKAVVRARANDGMNHLGN 198
+                   5667888899999******99999887637788899999999999*********************998875 PP
+
+  == domain 2  score: 10.9 bits;  conditional E-value: 0.0001
+  cdhit_chosen 409 leenaalfaqasvamadaavvawdtkfseefwrPvtaiqsGdldG.nelteGdadwtalGaPdgGddiiGftP..qfPtyisGhatfGgalfgtlqe 502
+                   l+  + l+a +++a  d  + aw+ k + +  rP ta+++       +   G  + t    P   ++   + P    P yisG +t+ +a   + + 
+         Mcl24 337 LDGWCHLYAVTALARLDDLIAAWHWKTKFNSVRPFTAVHHVYGRKkISAWGGVGKGTVHDMPA--NEWSSYLPvgDHPEYISGSTTLCSAEAQAARR 431
+                   55667899999***********9988888999******9854333033445666777777777..666777774479******************** PP
+
+  cdhit_chosen 503 fyGtddisfevtseeleilledPelqeayGldlddatrsfdsfseamaenGrsrvylGihfd 564
+                   f G d + ++  s      l +P l  a   +l      +d+++    +   srv+ G+hf+
+         Mcl24 432 FLGDDVLDWTY-SFPAGSGLTEPGLVPAKDTEL-----HWDTWTRFTRDCADSRVWGGVHFQ 487
+                   ***98877765.445556677888888765444.....556666666677778999999986 PP
+
+>> MarH3  [Streptomyces sp. NPDC004134]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.5   0.0     0.034      0.04     223     298 ..     105     181 ..     101     194 .. 0.84
+   2 !   11.9   0.4   4.8e-05   5.7e-05     409     564 ..     320     470 ..     310     492 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 2.5 bits;  conditional E-value: 0.034
+  cdhit_chosen 223 essddvsaevaasqaaytvlsslypdqqetldafles.slaalssdeetsdslalGeeigneilalraddGsdvvae 298
+                   es+++ + +vaa +aa  v+ s++ ++ + + +++ +  l   +++++  + + +G+  +  +l  +a dG++  ++
+         MarH3 105 ESNTNRNKNVAAFHAANVVFQSVFKERVAAFRQLMTTlGLDPDDQSTDPTSPVGIGNLAARGVLKAKARDGMNLFGD 181
+                   567778899*******************9999887652577777777778889999***************998765 PP
+
+  == domain 2  score: 11.9 bits;  conditional E-value: 4.8e-05
+  cdhit_chosen 409 leenaalfaqasvamadaavvawdtkfseefwrPvtaiqsGdldGnelteGdadw.talGaPdgGddiiGftP..qfPtyisGhatfGgalfgtlqe 502
+                   l++ + l   +s+a  +  + aw+ k + +  rP +ai++        + G +   t    P   d+   f P    P y sG +t+ +a   + + 
+         MarH3 320 LDDWVHLIYTSSLAQVEDLIAAWHYKVKYQAPRPFSAIRHVYGKKKVSAWGGPGIgTVHDMPA--DEWASFLPvgDHPDYPSGSTTLCAAEAQAARR 414
+                   6677788889999**************************976655555555555414455565..89999*996569******************** PP
+
+  cdhit_chosen 503 fyGtddisfevtseeleilledPelqeayGldlddatrsfdsfseamaenGrsrvylGihfd 564
+                   f G d + ++         l +P +  a  ++l      + +++e + + G sr++ G+hf 
+         MarH3 415 FLGDDRLDWTWPIP-AGWTLTEPGITPARDMELH-----YGTWTEFVKDCGYSRLWAGVHFT 470
+                   *****999987665.4677899*****9988885.....77899****************96 PP
+
+>> LvcH  [Streptomyces aculeolatus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -1.4   0.0      0.51      0.61     226     298 ..     129     202 ..     122     218 .. 0.78
+   2 !    9.4   0.2   0.00027   0.00033     405     448 ..     338     381 ..     325     445 .. 0.76
+
+  Alignments for each domain:
+  == domain 1  score: -1.4 bits;  conditional E-value: 0.51
+  cdhit_chosen 226 ddvsaevaasqaaytvlsslypdqqetldafless.laalssdeetsdslalGeeigneilalraddGsdvvae 298
+                   ++ + ++aa +a y v  ++ p     + +++  + l   +++e+  + + +G+  g+ ++a    dG++++++
+          LvcH 129 TNRNKNIAALHANYHVTKGVEPAWEPLFRELMTAVgLDPDDESEDRTSPVGIGNLAGKAVIAATERDGMNQLGD 202
+                   55567888999999999999998888877766544277777777788889999999999***999999998875 PP
+
+  == domain 2  score: 9.4 bits;  conditional E-value: 0.00027
+  cdhit_chosen 405 egntleenaalfaqasvamadaavvawdtkfseefwrPvtaiqs 448
+                   ++  l+  + l+a  sva+ da + aw+ k + +  rP +a+  
+          LvcH 338 RDLDLDGWIHLLAAISVAIYDALIAAWHYKAKYDAPRPFSAVPY 381
+                   45567777889****************************99854 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (652 nodes)
+Target sequences:                         18  (10954 residues searched)
+Passed MSV filter:                        18  (1); expected 0.4 (0.02)
+Passed bias filter:                       18  (1); expected 0.4 (0.02)
+Passed Vit filter:                        16  (0.888889); expected 0.0 (0.001)
+Passed Fwd filter:                        15  (0.833333); expected 0.0 (1e-05)
+Initial search space (Z):                 18  [actual number of targets]
+Domain search space  (domZ):              15  [number of targets reported over threshold]
+# CPU time: 0.12u 0.00s 00:00:00.12 Elapsed: 00:00:00.12
+# Mc/sec: 56.31
+//
+[ok]
