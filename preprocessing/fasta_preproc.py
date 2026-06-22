@@ -78,9 +78,9 @@ def cut_sequence(file_name: str, motif: str, output_filename: str):
     write_fasta(proteins.keys(), proteins.values(), output_filename)
 
 # FDHs
-crossval_preproc("HALOGENATION/DIMETAL-CARBOXYLATE/dimetal-carboxylate.fasta")
-get_left_out_seq_results("HALOGENATION/NON_HEME_HALOGENASES/variant_A_unactivated_sp3/amino_acids/crossval_hmmsearch_res/*.out",
-                         "HALOGENATION/NON_HEME_HALOGENASES/variant_A_unactivated_sp3/amino_acids/samples.txt")
+crossval_preproc("HALOGENATION/HALOPEROXIDASES/general/general_copy.fasta")
+get_left_out_seq_results("HALOGENATION/HALOPEROXIDASES/general/crossval_hmmsearch_res/*",
+                         "HALOGENATION/HALOPEROXIDASES/general/samples.txt")
 
 # if __name__ == "__main__":
 #     fasta_file_path = sys.argv[1]
